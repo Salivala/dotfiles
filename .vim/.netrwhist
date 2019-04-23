@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/hayden/git/st'
+let g:netrw_dirhist_2='/home/hayden/.vim'
+let g:netrw_dirhist_3='/home/hayden/.vim/plugged'
+let g:netrw_dirhist_4='/home/hayden/.vim/plugged/youcompleteme'
+let g:netrw_dirhist_5='/home/hayden/.vim'
+let g:netrw_dirhist_6='/home/hayden/projects/art-app/src'
+let g:netrw_dirhist_7='/home/hayden/git'
+let g:netrw_dirhist_8='/home/hayden/git/dotfiles'

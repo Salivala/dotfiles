@@ -19,4 +19,4 @@
   (setq typescript-expr-indent-offset n)
   (setq typescript-indent-level n)
   )
-(my-setup-indent 2) ;
+(my-setup-indent 2);

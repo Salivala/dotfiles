@@ -5,8 +5,9 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Noto Sans Mono:pixelsize=14:antialias=true:autohint=true";
-static int borderpx = 30;
+//static char *font = "Noto Sans Mono:pixelsize=14:antialias=true:autohint=true";
+static char *font = "monospace:pixelsize=12:antialias=true:autohint=true:fixed=true";
+static int borderpx = 5;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -83,10 +84,11 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-unsigned int alpha = 0xee;
+//unsigned int alpha = 0xee;
+unsigned int alpha = 255;
 
 /* Terminal colors (16 first used in escape sequence) */
-static const char *colorname[] = {
+static const char *colornamez[] = {
 	/* 8 normal colors */
   [0] = "#332d29", /* black   */
   [1] = "#8c644c", /* red     */
@@ -110,6 +112,33 @@ static const char *colorname[] = {
   /* special colors */
   [256] = "#181818", /* background */
   [257] = "#b7b7b7", /* foreground */
+};
+
+static const char *colorname[] = {
+
+  /* 8 normal colors */
+  [0] = "#111111", /* black   */
+  [1] = "#aa4450", /* red     */
+  [2] = "#719611", /* green   */
+  [3] = "#ff9800", /* yellow  */
+  [4] = "#6688aa", /* blue    */
+  [5] = "#8f6f8f", /* magenta */
+  [6] = "#528b8b", /* cyan    */
+  [7] = "#d3d3d3", /* white   */
+
+  /* 8 bright colors */
+  [8]  = "#181818", /* black   */
+  [9]  = "#ff6a6a", /* red     */
+  [10] = "#b1d631", /* green   */
+  [11] = "#87875f", /* yellow  */
+  [12] = "#90b0d1", /* blue    */
+  [13] = "#8181a6", /* magenta */
+  [14] = "#87ceeb", /* cyan    */
+  [15] = "#c1cdc1", /* white   */
+
+  /* special colors */
+  [256] = "#222222", /* background */
+  [257] = "#c2c2b0", /* foreground */
 };
 
 

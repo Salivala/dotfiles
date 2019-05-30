@@ -1,0 +1,26 @@
+NORMAL COLORS
+-------------
+#111111 : black
+#111111 : red
+#111111 : green
+#111111 : yellow
+#111111 : blue
+#111111 : magenta
+#111111 : cyan
+#111111 : white
+
+BRIGHT COLORS
+-------------
+#111111 : black
+#111111 : red
+#111111 : green
+#111111 : yellow
+#111111 : blue
+#111111 : magenta
+#111111 : cyan
+#111111 : white
+
+SPECIAL COLORS
+--------------
+#222222 : background
+#222222 : foreground

@@ -5,9 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-//static char *font = "Noto Sans Mono:pixelsize=14:antialias=true:autohint=true";
-static char *font = "monospace:pixelsize=12:antialias=true:autohint=true:fixed=true";
-static int borderpx = 5;
+static char *font = "Roboto Mono:pixelsize=16:antialias=true:autohint=true";
+static int borderpx = 30;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -84,61 +83,36 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-//unsigned int alpha = 0xee;
-unsigned int alpha = 255;
+unsigned int alpha = 0xee;
 
 /* Terminal colors (16 first used in escape sequence) */
-static const char *colornamez[] = {
-	/* 8 normal colors */
-  [0] = "#332d29", /* black   */
-  [1] = "#8c644c", /* red     */
-  [2] = "#746c48", /* green   */
-  [3] = "#908a66", /* yellow  */
-  [4] = "#646a6d", /* blue    */
-  [5] = "#836663", /* magenta */
-  [6] = "#4b5c5e", /* cyan    */
-  [7] = "#504339", /* white   */
-
-  /* 8 bright colors */
-  [8]  = "#817267", /* black   */
-  [9]  = "#9f7155", /* red     */
-  [10] = "#857b52", /* green   */
-  [11] = "#9c956e", /* yellow  */
-  [12] = "#71777a", /* blue    */
-  [13] = "#656565", /* magenta */
-  [14] = "#556d70", /* cyan    */
-  [15] = "#9a875f", /* white   */
-
-  /* special colors */
-  [256] = "#181818", /* background */
-  [257] = "#b7b7b7", /* foreground */
-};
-
 static const char *colorname[] = {
+	/* 8 normal colors */
+	"#2d2d2d",
+	"#f2777a",
+	"#99cc99",
+	"#ffcc66",
+	"#cc99cc",
+	"#cc99cc",
+	"#f2777a",
+	"#d3d0c8",
 
-  /* 8 normal colors */
-  [0] = "#111111", /* black   */
-  [1] = "#aa4450", /* red     */
-  [2] = "#719611", /* green   */
-  [3] = "#ff9800", /* yellow  */
-  [4] = "#6688aa", /* blue    */
-  [5] = "#8f6f8f", /* magenta */
-  [6] = "#528b8b", /* cyan    */
-  [7] = "#d3d3d3", /* white   */
+	/* 8 bright colors */
+	"#747369",
+	"#f2777a",
+	"#99cc99",
+	"#ffcc66",
+	"#cc99cc",
+	"#cc99cc",
+	"#f2777a",
+	"#f2f0ec",
 
-  /* 8 bright colors */
-  [8]  = "#181818", /* black   */
-  [9]  = "#ff6a6a", /* red     */
-  [10] = "#b1d631", /* green   */
-  [11] = "#87875f", /* yellow  */
-  [12] = "#90b0d1", /* blue    */
-  [13] = "#8181a6", /* magenta */
-  [14] = "#87ceeb", /* cyan    */
-  [15] = "#c1cdc1", /* white   */
+	[255] = 0,
 
-  /* special colors */
-  [256] = "#222222", /* background */
-  [257] = "#c2c2b0", /* foreground */
+	/* more colors can be added after 255 to use with DefaultXX */
+	"#f2777a",
+	"#555555",
+	"black",
 };
 
 
@@ -146,10 +120,10 @@ static const char *colorname[] = {
  * Default colors (colorname index)
  * foreground, background, cursor, reverse cursor
  */
-unsigned int defaultfg = 257;
-unsigned int defaultbg = 256;
-static unsigned int defaultcs = 257;
-static unsigned int defaultrcs = 256;
+unsigned int defaultfg = 7;
+unsigned int defaultbg = 0;
+static unsigned int defaultcs = 256;
+static unsigned int defaultrcs = 257;
 
 /*
  * Default shape of cursor
@@ -158,7 +132,7 @@ static unsigned int defaultrcs = 256;
  * 6: Bar ("|")
  * 7: Snowman ("☃")
  */
-static unsigned int cursorshape = 2;
+static unsigned int cursorshape = 4;
 
 /*
  * Default columns and rows numbers
@@ -498,3 +472,4 @@ static char ascii_printable[] =
 	" !\"#$%&'()*+,-./0123456789:;<=>?"
 	"@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_"
 	"`abcdefghijklmnopqrstuvwxyz{|}~";
+

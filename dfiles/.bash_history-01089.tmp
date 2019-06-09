@@ -1,0 +1,500 @@
+cd ..
+ls
+clea
+rls
+clear
+ls
+cd surf/
+ls
+ls
+git apply homepage 
+sudo make clean install
+ls
+ls
+clear
+ls
+rm config.h 
+ls
+sudo make clean install
+ls
+vim config.h 
+sudo make clean install
+sudo pacman -S nitrogen
+cd ~/.local/share/
+ls
+mkdir wallpapers
+ls
+mv wallpapers/ wallpaper
+ls
+ls
+clear
+ls
+cd ..
+ls
+clea
+rls
+clear
+ls
+cd ~
+ls
+cd builds/
+ls
+clear
+ls
+cd st/
+ls
+vim alpha
+git apply alpha 
+ls
+ls
+vim config.h 
+cp config.h config.def.h
+git apply alpha 
+ls
+clear
+ls
+ls
+clea
+rl
+clear
+ls
+vim config.def.h 
+rm config.def.h 
+ls
+clear
+ls
+ls
+clear
+ls
+vim README.md 
+ls
+vim x.c 
+ls
+clear
+ls
+rm alpha 
+ls
+clear
+ls
+ls
+cd ~
+ls
+ls
+cd git/
+ls
+mv dotfiles/ ~
+ls
+ls
+clea
+clear
+ls
+cd ~
+ls
+cd dotfiles/
+ls
+clea
+rls
+mkdir stash
+ls
+mv * stash
+ls
+ls
+clea
+rl
+ls -a
+ls
+clear
+ls
+ls -a
+mv .bashrc stash/
+mv .spacemacs stash/
+mv .tmux.conf stash/
+mv .vim stash
+mv .vimrc stash
+ls
+ls -a
+ls
+clear
+ls
+mkdir Xinfo
+cd Xinfo/
+ls
+vim ~/.Xresources
+ls
+cd ..
+ls
+stow Xinfo/
+cd ..
+ls
+ls -a
+man st
+tabbed st -w
+ls
+clear
+ls
+ls
+clea
+rls
+clear
+sl
+slc
+ls
+clear
+ls
+ls
+cd scripts/
+ls
+clear
+ls
+cd utility/
+ls
+clear
+ls
+ls
+celar
+ls
+ls
+cd .
+cd ..
+ls
+cd qscripts/bin/
+ls
+vim stb
+ls
+chmod stb
+chmod 777 stb
+stb
+stb
+ls
+stb
+ls
+cd ..
+ls
+cd ..
+ls
+stow qscripts/
+stb 
+ls
+cd ~
+ls
+cd builds/
+ls
+cd dwm/
+ls
+clear
+ls
+vim config.h 
+ls
+clear
+ls
+ls
+clear
+ls
+cd ..
+ls
+clear
+ls
+ls
+clear
+ls
+cd surf/
+ls
+vim config.h
+ls
+clear
+ls
+cd ..
+ls
+celar
+ls
+ls
+vim tabbed/
+cd tabbed/
+ls
+vim config.h 
+sudo make clean install
+ls
+vim config.h 
+ls
+vim homepage
+git apply homepage 
+vim homepage 
+ls
+clear
+ls
+ls
+vim homepage 
+ls
+mv homepage ../surf/
+ls
+clar
+ls
+ls
+clear
+ls
+ls
+clear
+ls
+ls
+clear
+ls
+vim ~/.Xresources 
+xrdb .Xresources 
+ls
+mv *.jpg ~/.local/share/wallpaper/
+ls
+clear
+ls
+ls
+clea
+rls
+sudo pacman -S compton
+ls
+clear
+ls
+cp /etc/xdg/compton.conf ~/.config/compton.conf
+compton --config 
+compton --config ~/.config/compton.conf 
+ls
+clear
+ls
+compton
+ls
+clear
+ls
+vim ~/.xinitrc 
+ls
+clear
+ls
+ls
+clea
+vim ~/.Xresources 
+xrdb ~/.Xresources 
+ls
+clea
+rls
+ls
+clear
+ls
+clear
+ls
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+ls
+clear
+ls
+ls
+clear
+ls
+ls
+clear
+ls
+rm 'NNsbMZmVOwLPoyb_m4FIFWW-CdwLSs7E1EIU0skEDnw.gif?format=mp4&s=348ebecd3b7ee59294828645549720b8fd47a7db' 
+ls
+clear
+ls
+mv HXrqZI1.jpg ~/.local/share/wallpaper/
+ls
+clear
+l
+ls
+clear
+ls
+conf bali
+ls
+clear
+l
+cd builds/
+ls
+cd surf/
+ls
+vim config.h 
+sudo make clean install
+ls
+clear
+ls
+ls
+ls
+clear
+ls
+nitrogen 
+man nitro
+man nitrogen
+ls
+clear
+ls
+cd builds/
+ls
+cd surf/
+ls
+vim config.def.h 
+ls
+cd builds/
+ls
+cd st/
+ls
+cd ..
+;ls
+cd surf/
+ls
+clea
+rls
+vim config.h 
+sudo make clean install
+vim config.h 
+sudo make clean install
+vim config.h 
+sudo make clean install
+neofetch
+neofetch
+neofetch
+neofetch
+neofetch
+neofetch
+neofetch
+neofetch
+neofetch
+neofetch
+ls
+ls
+conf brc
+conf brc
+ls
+clear
+ls
+mv road_lighting_night_119175_3840x2400.jpg wallpaper
+ls
+ls
+mv wallpaper road_lighting_night.jpg
+ls
+echo wallpaper
+wallpaper
+echo "$wallpaper"
+echo $wallpaper
+ls
+clear
+ls
+ls
+clear
+ls
+ls
+clear
+ls
+conf brc
+echo $wallpaper
+ls
+clear
+ls
+ls
+mv road_lighting_night.jpg $wallpaper 
+conf brc
+mv road_lighting_night.jpg $wallpaper/
+ls
+lss
+ls
+clear
+ls
+clea
+rl
+clear
+ls
+ls
+clear
+sl
+clear
+ls
+celar
+ls
+clear
+ls
+cd scripts/
+ls
+clear
+s
+cd ..
+ls
+clear
+ls
+cd bin/
+ls
+cealr
+clear
+ls
+clear
+ls
+ls
+cleae
+clear
+ls
+clear
+sl
+ls
+clear
+ls
+vim download_and_install.sh 
+clea
+rl
+vim download_and_install.sh 
+clear
+ls
+celar
+ls
+dunst
+dunst
+reboot
+ls
+clear
+ls
+ls
+cd home
+cd ..
+ls
+clear
+ls
+ls
+ls
+clea
+rls
+cd 
+cd
+cd -
+ls
+ls
+clear
+ls
+cd blog-posts/
+ls
+clear
+ls
+vim snapviewer.md 
+vim snapviewer.md 
+ls
+clea
+rls
+ls
+clear
+ls
+vim ~/.xinitrc 
+ls
+clear
+ls
+ls
+claer
+ls
+ls
+clear
+ls
+startx
+vim ~/.xinitrc 
+startx
+startx
+xinit
+startx
+vim ~/.xinitrc 
+startx
+reboot

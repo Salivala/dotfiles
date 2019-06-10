@@ -1,0 +1,2688 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Programming in C | Stephen G. Kochan | download</title>
+<base href="/">
+
+                        <meta charset="utf-8">		                       
+                        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+                        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                        <meta name="viewport" content="width=device-width, initial-scale=1">
+                        <meta name="title" content="Programming in C | Stephen G. Kochan | download">
+			<meta name="description" content="Programming in C | Stephen G. Kochan | download | B–OK. Download books for free. Find books">
+			<meta name="robots" content="index,all">
+			<meta name="distribution" content="global">
+			<meta http-equiv="cache-control" content="no-cache">
+			<meta http-equiv="pragma" content="no-cache">
+
+                        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+                        <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+                        <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+                        <link rel="manifest" href="/manifest.json">
+                        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+                        <meta name="apple-mobile-web-app-title" content="Z-Library">
+                        <meta name="application-name" content="Z-Library">
+                        <meta name="theme-color" content="#ffffff">
+
+                        <meta name="propeller" content="49c350d528ba144cace841cac74260ab">
+	
+<!-- CSS SET -->
+<link rel="stylesheet" type="text/css" href="/css/bootstrap/css/bootstrap.min.css?version=0.142" >
+<link rel="stylesheet" type="text/css" href="/css/root.css?version=0.142" >
+<link rel="stylesheet" type="text/css" href="/adhelper/ah-style.css?version=0.142" >
+<link rel="stylesheet" type="text/css" href="/adhelper/animate.css?version=0.142" >
+<!-- JS SET --> 
+<script type="text/javascript" language="JavaScript" src="https://code.jquery.com/jquery-2.2.4.min.js?version=0.142"></script>
+<script type="text/javascript" language="JavaScript" src="/scripts/underscore.js?version=0.142"></script>
+<script type="text/javascript" language="JavaScript" src="/css/bootstrap/js/bootstrap.min.js?version=0.142"></script>
+<script type="text/javascript" language="JavaScript" src="/adhelper/advert.js?version=0.142"></script>
+<link REL="SHORTCUT ICON" HREF="/favicon.ico">
+        <link rel="search" type="application/opensearchdescription+xml" href="http://search.xml" title="Search for books in the library B-OK.org" />
+    </head>
+    <body style="margin:0px;padding:0px;" class="books/details">
+        
+        <table border="0" height="100%" width="100%" style="height:100%;" cellpadding="0" cellspacing="0"><tbody>
+                <tr style="height:10px;">
+                    <td>
+                        <div class="container-fluid">
+                            
+<div class="row">
+    <div class="col-md-12">
+        <div id="colorBoxes" class="darkShadow">
+            <ul>
+                <a href="/"><li style="background: #49afd0;">4,732,726 books</li></a>
+                <a href="http://booksc.xyz"><li style="background: #90a5a8;">74,620,210 articles</li></a>
+                <li style="background: #8ecd51;">for free</li>
+            </ul>
+        </div>
+
+
+
+        <div role="navigation" class="navbar-default" style="background-color: transparent;">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right" style="">
+                                            <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sign in <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://singlelogin.org?from=b-ok.cc">Login</a></li>
+                                <li><a href="https://singlelogin.org/registration.php">Registration</a></li>
+                            </ul>
+                        </li>
+                    
+                    <li>
+                        <a href="/howtodonate.php" style="color:#8EB46A;">Donate</a>                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span style="font-size: 120%;" class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-header">Books</li>
+                                                            <li><a href="/book-add.php">Add book</a></li>
+                                <li><a href="/categories">Categories</a></li>
+                                <li><a href="/popular.php">Most Popular</a></li>
+                                                            <li><a href="/recently.php">Recently Added</a></li>
+                                                            <li role="separator" class="divider"></li>
+                                <li class="dropdown-header">Z-Library Project</li>
+                                <li><a href="/blog/">Blog</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+
+
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="container" style="max-width: 1000px;padding-bottom: 40px;">
+                            <div class="row">
+                                <div class="col-md-12 itemFullText">
+                                    
+
+<style>
+    .adFixW iframe{
+        width:100%;
+    }
+</style>
+
+<div class="bcNav">
+    <a href="/" title="Ebook library B-OK.org">Main</a> <i></i>
+        Programming in C</div>
+
+<div  itemscope  itemtype="http://schema.org/Book">
+    <div class="row cardBooks">
+        <div class="col-md-3"><a itemprop="image"  class="lightbox" href="//b-ok.cc/covers/books/e8/30/3c/e8303cdd6f480ed7aa5fd349ea356926.jpg" style="background:#fff;padding:3px; display:block;float:left; border:1px solid #ccc;"><img style="font-size:0px; width:100%;" src="//b-ok.cc/covers/books/e8/30/3c/e8303cdd6f480ed7aa5fd349ea356926.jpg" alt="Book cover Programming in C"/></a></div>
+        <div class="col-md-9">
+            <h1 itemprop="name" style="color:#000;line-height: 140%;" class="moderatorPanelToggler">Programming in C</h1>
+            <i><a  itemprop="author" class="color1" title="Find all the author's book" href="/g/Stephen G. Kochan">Stephen G. Kochan</a></i>
+            
+            <div style="padding:10px 0; font-size:10pt" id="bookDescriptionBox"  itemprop="reviewBody"> Programming in C will teach you how to write programs in the C programming language. Whether you’re a novice or experienced programmer, this book will provide you with a clear understanding of this language, which is the foundation for many object-oriented programming languages such as C++, Objective-C, C#, and Java.<br />
+<br />
+ <br />
+<br />
+This book teaches C by example, with complete C programs used to illustrate each new concept along the way. Stephen Kochan provides step-by-step explanations for all C functions. You will learn both the language fundamentals and good programming practices. Exercises at the end of each chapter make the book ideally suited for classroom use or for self-instruction.<br />
+<br />
+ <br />
+<br />
+All the features of the C language are covered in this book, including the latest additions added with the C11 standard. Appendixes provide a detailed summary of the language and the standard C library, both organized for quick reference.</div>
+                     <div style="overflow:hidden; zoom:1; margin-top: 30px;">
+                <div class="bookDetailsBox">
+                <div class="bookProperty property_categories">
+                    <span>Categories:</span>
+                    <a href="Programming-Programming-Languages-cat92" style="color:#000;">Computers\\Programming: Programming Languages</a>
+                </div>
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2014
+                </div>
+                <div class="bookProperty property_edition">
+                    <span>Edition:</span>
+                    4th
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property_isbn 10">
+                    <span>ISBN 10:</span>
+                    0-321-77641-0
+                </div>
+                <div class="bookProperty property_series">
+                    <span>Series:</span>
+                    Developer’s Library
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    EPUB, 8.76 MB
+                </div></div>            </div>
+        </div>
+    </div>
+
+
+
+
+    <div style="margin:15px 0;">
+        <a class="btn btn-primary dlButton" href="/dl/3410504/1e886f" target="" rel="nofollow"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Download  (epub, 8.76 MB)</a>                        <div class="btn-group" id="sendToEmailButtonBox">
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Send-to-Kindle or Email <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu"><li><a href="http://singlelogin.org?from=b-ok.cc" target="blank">Please login to your account first</a></li></ul>
+</div>
+        
+
+            </div>
+    <div class="cBox1" id="sentToEmailInfo" style="display:none;">The file will be sent to selected email address. It may takes up to 1-5 minutes before you received it.</div>
+    <div class="cBox1" id="sentToEmailInfoKindle" style="display:none;">The file will be sent to your Kindle account. It may takes up to 1-5 minutes before you received it.
+        <br/>Please note you've to add our email <b>mailer@bookmail.org</b> to approved e-mail addresses. <a target="blank" href="https://www.amazon.com/gp/help/customer/display.html/?ie=UTF8&amp;nodeId=201974240">Read more</a>.
+    </div>
+
+
+    
+        <script type="text/javascript">
+          $(document).ready(function($) {
+           
+            $.jsRotate({data: false, device_type: '-1', contentWrapper: '.itemFullText'});
+
+          });
+        </script>
+    <div id="converterCurrentStatusesBox" class="cBox1" style="display:none;"></div>
+
+
+
+
+</div>
+
+<script type="text/javascript" src="scripts/jquery.lightbox-0.5.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
+
+<script type="text/javascript">
+    var BOOK_ID = 3410504;
+    $(function () {
+        // This, or...
+        $('a.lightbox').lightBox({
+            containerResizeSpeed: 1
+        }); // Select all links with lightbox class
+    });
+
+
+    // read more
+    $(function () {
+        if($('#bookDescriptionBox').height() > 300)
+        {
+            $('#bookDescriptionBox').css('overflow', 'hidden');
+            $('#bookDescriptionBox').css('height', '300px');
+            moreLink = '<div style="text-align:right; margin: 5px 0 0 0;"><a class="more" style="border-bottom:1px dashed;color:#49AFD0; cursor:pointer;text-decoration:none;">Read more → </a></div>';
+            $( moreLink ).insertAfter("#bookDescriptionBox");
+        }
+
+        $('.more').click(function(){
+            $('#bookDescriptionBox').css('height', 'auto');
+            $('#bookDescriptionBox').css('overflow', 'auto');
+            $(this).remove();
+        });
+    });
+
+
+
+    // converter links
+    $('.converterLink').click(function (e) {
+        var el = $(e.currentTarget);
+        $('#converterCurrentStatusesBox').show();
+        $('#converterCurrentStatusesBox').html('Refreshing..');
+
+
+
+        $.RPC('ConvertationTools::rpcConvert', {'book_id': $(this).data('book-id'), 'convertTo': $(this).data('convert-to')}).done(function (e) {
+            convertationStatusesAutoupdaterObserver();
+        }).fail(function (a, b) {
+            $('#converterCurrentStatusesBox').html('<span class="error">' + b.errors.message() + '</span>');
+        });
+    });
+
+    $('.sendToEmailButton').click(function () {
+        $.RPC('sendToKindle', {'book_id': $(this).data('id'), 'email': $(this).data('email')}).done(function (e) {
+            if (e.response.status) {
+                //alert('Sent to ' + e.response.email);
+            }
+        }).fail(function (a, b) {
+            $('#sentToEmailInfo').html(b.errors.message());
+            $('#sentToEmailInfoKindle').html(b.errors.message());
+        });
+
+        if ($(this).data('kindle'))
+        {
+            $('#sentToEmailInfoKindle').show('slow');
+        } else {
+            $('#sentToEmailInfo').show('slow');
+        }
+        $('#sendToEmailButtonBox').hide('slow');
+    });
+
+    //$('[data-toggle="tooltip"]').tooltip({'html': true});
+    $(window).on("load", function () {
+        $('[data-toggle="tooltip"]').tooltip({'html': true});
+        $('[data-autoopen="true"]').tooltip('show');
+    });
+
+    var convertationStatusesAutoupdaterRuned = false;
+    function convertationStatusesAutoupdaterObserver()
+    {
+        if (convertationStatusesAutoupdaterRuned)
+        {
+            return;
+        } else {
+            convertationStatusesAutoupdaterRuned = true;
+            convertationStatusesAutoupdater();
+        }
+    }
+
+    function convertationStatusesAutoupdater()
+    {
+        rpcUrl = '/rpc/ConvertationTools::getCurrentJobsStatuses?clear=1&gg_text_mode=1&bookId=' + BOOK_ID;
+        $.ajaxSetup({cache: false}); // This part addresses an IE bug.  without it, IE will only load the first number and will never refresh
+
+
+        $.ajax({
+            url: rpcUrl,
+            datatype: 'html'
+        }).done(function (response) {
+            $('#converterCurrentStatusesBox').html(response);
+            if (response.search('progress') === -1)
+            {
+                convertationStatusesAutoupdaterRuned = false;
+                return;
+            }
+            setTimeout(convertationStatusesAutoupdater, 15000);
+        }).error(function () {
+            setTimeout(convertationStatusesAutoupdater, 15000);
+        });
+    }
+
+    if ($('#converterCurrentStatusesBox').html().length)
+    {
+        convertationStatusesAutoupdaterObserver();
+        //$('#converterCurrentStatusesBox').css('display', 'block');
+        $('#converterCurrentStatusesBox').show();
+    }
+</script>
+
+
+<link rel="stylesheet" type="text/css" href="css/jscomments/jscomments.css">
+
+<div style="background: #49AFD0; height:2px; width: 100%; margin:40px 0 40px 0;">&nbsp;</div>
+
+
+<div id="jscommentsRootBox">
+    <div class="jscommentsFormBox">
+        <div style="width:65%; float:left;">
+            <form id="jscommentsForm" target="uploader" action="rpc.php" method="POST">
+                <input type="hidden" name="book_id" value="3410504">
+                <input type="hidden" name="action" value="addReview">
+                <input type="hidden" name="rx" value="0">
+                <input id="jscommentsNamefield" name="name" type="textfield" placeholder="Your Name" value="" onchange="if (this.value) {
+                            $(this).removeClass('error');
+                        }"/>
+                <textarea id="jscommentsTextarea" name="text" placeholder="Write a Review"  onchange="if (this.value) {
+                            $(this).removeClass('error');}"></textarea>
+                <br clear="all" />
+                <a href="#" onclick="onReviewSubmit();
+                        return false;" id="jscommentsButton">Post a Review</a><img id="jscommentsLoader" src="css/jscomments/loader.gif" style="position: relative; left: -35px; display: none;"/>
+            </form>
+        </div>
+        <div style="width:35%; float:left;" class="jscommentsFormHelp">
+            <div style="padding:10px 0 0 20px;  border-left:1px solid #ccc;">
+                You can write a book review and share your experiences. Other readers will always be interested in your opinion of the books you've read. Whether you've loved the book or not, if you give your honest and detailed thoughts then people will find new books that are right for them.
+            </div>
+        </div>
+    </div>
+    <div id="jscommentsCommentsBox"></div>
+</div>
+
+<script>
+    $('#jscommentsForm')[0].rx.value = 12;
+
+    function onReviewSubmit()
+    {
+        $('#jscommentsForm')[0].submit();
+
+        $('#jscommentsButton').css('width', $('#jscommentsButton').width() + 'px');
+        $('#jscommentsButton').data('originaltxt', $('#jscommentsButton')[0].innerHTML);
+        $('#jscommentsButton').text('Posting..'); // simulate server request
+        $('#jscommentsNamefield').attr("disabled", "disabled");
+        $('#jscommentsTextarea').attr("disabled", "disabled");
+        $('#jscommentsLoader').show();
+
+    }
+
+    function onReviewSubmitFailure()
+    {
+        $('#jscommentsButton').text($('#jscommentsButton').data('originaltxt'));
+        $('#jscommentsButton').css('width', '');
+        $('#jscommentsNamefield').removeAttr("disabled");
+        $('#jscommentsTextarea').removeAttr("disabled");
+        $('#jscommentsLoader').hide();
+    }
+
+</script><div style="display: none;">
+<div id="searchResultBox"><div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">1</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/bc/d3/3b/bcd33b1af99007900f981e359876afbd.jpg" data-srcset="//b-ok.cc/covers100/books/bc/d3/3b/bcd33b1af99007900f981e359876afbd.jpg 1x, //b-ok.cc/covers200/books/bc/d3/3b/bcd33b1af99007900f981e359876afbd.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/3410505/976a13" class="tdn">Mulher, Estado e Revolução: Política da Família Soviética e da Vida Social entre 1917 e 1936</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Wendy Goldman">Wendy Goldman</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/3410505/976a13" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2015
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    portuguese
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    EPUB, 2.86 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">2</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/81/48/43/814843667054494e3cb598f4ed02cb14.jpg" data-srcset="//b-ok.cc/covers100/books/81/48/43/814843667054494e3cb598f4ed02cb14.jpg 1x, //b-ok.cc/covers200/books/81/48/43/814843667054494e3cb598f4ed02cb14.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/3410503/7644b5" class="tdn">A Revolução das Mulheres: Emancipação Feminina na Rússia Soviética</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Graziela Schneider (Editor)">Graziela Schneider (Editor)</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/3410503/7644b5" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2017
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    portuguese
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    EPUB, 1.48 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<center></center></div><script type="text/javascript" src="/scripts/jquery.lazy.min.js"></script>
+<script>
+    $(function () {
+        $(".lazy").Lazy({
+            effect: "fadeIn",
+            effectTime: 1000,
+            beforeLoad: function(element) {
+                $(element).css({"border-width": "0px"});
+            },
+            afterLoad: function(element) {
+                $(element).css({"border-width": "1px"});
+            }
+        });
+    });
+</script><pre>
+About This eBook
+
+ePUB is an open, industry-standard format for eBooks. However, support of ePUB and its many features varies across reading devices and applications. Use your device or app settings to customize the presentation to your liking. Settings that you can customize often include font, font size, single or double column, landscape or portrait mode, and figures that you can click or tap to enlarge. For additional information about the settings and features on your reading device or app, visit the device manufacturer’s Web site.
+
+Many titles include programming code or configuration examples. To optimize the presentation of these elements, view the eBook in single-column, landscape mode and adjust the font size to the smallest setting. In addition to presenting code and configurations in the reflowable text format, we have included images of the code that mimic the presentation found in the print book; therefore, where the reflowable format may compromise the presentation of the code listing, you will see a “Click here to view code image” link. Click the link to view the print-fidelity code image. To return to the previous page viewed, click the Back button on your device or app.
+
+
+Programming in C
+
+Fourth Edition
+
+Stephen G. Kochan
+
+[image: Image]
+
+Upper Saddle River, NJ • Boston • Indianapolis • San Francisco
+New York • Toronto • Montreal • London • Munich • Paris • Madrid
+Cape Town • Sydney • Tokyo • Singapore • Mexico City
+
+
+Programming in C, Fourth Edition
+
+Copyright © 2015 by Pearson Education, Inc.
+
+All rights reserved. No part of this book shall be reproduced, stored in a retrieval system, or transmitted by any means, electronic, mechanical, photocopying, recording, or otherwise, without written permission from the publisher. No patent liability is assumed with respect to the use of the information contained herein. Although every precaution has been taken in the preparation of this book, the publisher and author assume no responsibility for errors or omissions. Nor is any liability assumed for damages resulting from the use of the information contained herein.
+
+ISBN-13: 978-0-321-77641-9
+
+ISBN-10: 0-321-77641-0
+
+Library of Congress Control Number: 2014944082
+
+Printed in the United States of America
+
+First Printing: August 2014
+
+Acquisitions Editor
+Mark Taber
+
+Managing Editor
+Sandra Schroeder
+
+Project Editor
+Mandie Frank
+
+Copy Editor
+Charlotte Kughen
+
+Indexer
+Brad Herriman
+
+Proofreader
+Debbie Williams
+
+Technical Editor
+Siddhartha Singh
+
+Editorial Assistant
+Vanessa Evans
+
+Designer
+Chuti Prasertsith
+
+Compositor
+Mary Sudul
+
+Trademarks
+
+All terms mentioned in this book that are known to be trademarks or service marks have been appropriately capitalized. The publisher cannot attest to the accuracy of this information. Use of a term in this book should not be regarded as affecting the validity of any trademark or service mark.
+
+Warning and Disclaimer
+
+Every effort has been made to make this book as complete and as accurate as possible, but no warranty or fitness is implied. The information provided is on an “as is” basis. The author and the publisher shall have neither liability nor responsibility to any person or entity with respect to any loss or damages arising from the information contained in this book.
+
+Special Sales
+
+For information about buying this title in bulk quantities, or for special sales opportunities (which may include electronic versions; custom cover designs; and content particular to your business, training goals, marketing focus, or branding interests), please contact our corporate sales department at corpsales@pearsoned.com or (800) 382-3419.
+
+For government sales inquiries, please contact governmentsales@pearsoned.com.
+
+For questions about sales outside the U.S., please contact international@pearsoned.com.
+
+
+Developer’s Library
+ESSENTIAL REFERENCES FOR PROGRAMMING PROFESSIONALS
+
+Developer’s Library books are designed to provide practicing programmers with unique, high-quality references and tutorials on the programming languages and technologies they use in their daily work.
+
+All books in the Developer’s Library are written by expert technology practitioners who are especially skilled at organizing and presenting information in a way that’s useful for other programmers.
+
+Key titles include some of the best, most widely acclaimed books within their topic areas:
+
+Programming in Objective-C
+Stephen G. Kochan
+ISBN 978-0-321-96760-2
+
+MySQL
+Paul DuBois
+ISBN-13:  978-0-321-83387-7
+
+Linux Kernel Development
+Robert Love
+ISBN-13: 978-0-672-32946-3
+
+Python Essential Reference
+David Beazley
+ISBN-13: 978-0-672-32978-4
+
+PostgreSQL
+Korry Douglas
+ISBN-13: 978-0-672-32756-8
+
+C++ Primer Plus
+Stephen Prata
+ISBN-13: 978-0-321-77640-2
+
+
+
+Developer’s Library books are available in print and in electronic formats at most retail and online bookstores, as well as by subscription from Safari Books Online at safari.informit.com
+
+
+
+
+Developer’s Library
+informit.com/devlibrary
+
+
+[image: Image]
+
+For my mother and father
+
+[image: Image]
+
+
+Contents at a Glance
+
+Introduction
+
+1 Some Fundamentals
+
+2 Compiling and Running Your First Program
+
+3 Variables, Data Types, and Arithmetic Expressions
+
+4 Program Looping
+
+5 Making Decisions
+
+6 Working with Arrays
+
+7 Working with Functions
+
+8 Working with Structures
+
+9 Character Strings
+
+10 Pointers
+
+11 Operations on Bits
+
+12 The Preprocessor
+
+13 Extending Data Types with the Enumerated Data Type, Type Definitions, and Data Type Conversions
+
+14 Working with Larger Programs
+
+15 Input and Output Operations in C
+
+16 Miscellaneous and Advanced Features
+
+17 Debugging Programs
+
+18 Object-Oriented Programming
+
+A C Language Summary
+
+B The Standard C Library
+
+C Compiling Programs with gcc
+
+D Common Programming Mistakes
+
+E Resources
+
+Index
+
+
+Table of Contents
+
+Introduction
+
+1 Some Fundamentals
+
+Programming
+
+Higher-Level Languages
+
+Operating Systems
+
+Compiling Programs
+
+Integrated Development Environments
+
+Language Interpreters
+
+2 Compiling and Running Your First Program
+
+Compiling Your Program
+
+Running Your Program
+
+Understanding Your First Program
+
+Displaying the Values of Variables
+
+Comments
+
+Exercises
+
+3 Variables, Data Types, and Arithmetic Expressions
+
+Understanding Data Types and Constants
+
+The Integer Type int
+
+The Floating Number Type float
+
+The Extended Precision Type double
+
+The Single Character Type char
+
+The Boolean Data Type _Bool
+
+Type Specifiers: long, long long, short, unsigned, and signed
+
+Working with Variables
+
+Working with Arithmetic Expressions
+
+Integer Arithmetic and the Unary Minus Operator
+
+Combining Operations with Assignment: The Assignment Operators
+
+Types _Complex and _Imaginary
+
+Exercises
+
+4 Program Looping
+
+Triangular Numbers
+
+The for Statement
+
+Relational Operators
+
+Aligning Output
+
+Program Input
+
+Nested for Loops
+
+for Loop Variants
+
+The while Statement
+
+The do Statement
+
+The break Statement
+
+The continue Statement
+
+Exercises
+
+5 Making Decisions
+
+The if Statement
+
+The if-else Construct
+
+Compound Relational Tests
+
+Nested if Statements
+
+The else if Construct
+
+The switch Statement
+
+Boolean Variables
+
+The Conditional Operator
+
+Exercises
+
+6 Working with Arrays
+
+Defining an Array
+
+Using Array Elements as Counters
+
+Generating Fibonacci Numbers
+
+Using an Array to Generate Prime Numbers
+
+Initializing Arrays
+
+Character Arrays
+
+Base Conversion Using Arrays
+
+The const Qualifier
+
+Multidimensional Arrays
+
+Variable Length Arrays
+
+Exercises
+
+7 Working with Functions
+
+Defining a Function
+
+Arguments and Local Variables
+
+Function Prototype Declaration
+
+Automatic Local Variables
+
+Returning Function Results
+
+Functions Calling Functions Calling...
+
+Declaring Return Types and Argument Types
+
+Checking Function Arguments
+
+Top-Down Programming
+
+Functions and Arrays
+
+Assignment Operators
+
+Sorting Arrays
+
+Multidimensional Arrays
+
+Global Variables
+
+Automatic and Static Variables
+
+Recursive Functions
+
+Exercises
+
+8 Working with Structures
+
+The Basics of Structures
+
+A Structure for Storing the Date
+
+Using Structures in Expressions
+
+Functions and Structures
+
+A Structure for Storing the Time
+
+Initializing Structures
+
+Compound Literals
+
+Arrays of Structures
+
+Structures Containing Structures
+
+Structures Containing Arrays
+
+Structure Variants
+
+Exercises
+
+9 Character Strings
+
+Revisiting the Basics of Strings
+
+Arrays of Characters
+
+Variable-Length Character Strings
+
+Initializing and Displaying Character Strings
+
+Testing Two Character Strings for Equality
+
+Inputting Character Strings
+
+Single-Character Input
+
+The Null String
+
+Escape Characters
+
+More on Constant Strings
+
+Character Strings, Structures, and Arrays
+
+A Better Search Method
+
+Character Operations
+
+Exercises
+
+10 Pointers
+
+Pointers and Indirection
+
+Defining a Pointer Variable
+
+Using Pointers in Expressions
+
+Working with Pointers and Structures
+
+Structures Containing Pointers
+
+Linked Lists
+
+The Keyword const and Pointers
+
+Pointers and Functions
+
+Pointers and Arrays
+
+A Slight Digression About Program Optimization
+
+Is It an Array or Is It a Pointer?
+
+Pointers to Character Strings
+
+Constant Character Strings and Pointers
+
+The Increment and Decrement Operators Revisited
+
+Operations on Pointers
+
+Pointers to Functions
+
+Pointers and Memory Addresses
+
+Exercises
+
+11 Operations on Bits
+
+The Basics of Bits
+
+Bit Operators
+
+The Bitwise AND Operator
+
+The Bitwise Inclusive-OR Operator
+
+The Bitwise Exclusive-OR Operator
+
+The Ones Complement Operator
+
+The Left Shift Operator
+
+The Right Shift Operator
+
+A Shift Function
+
+Rotating Bits
+
+Bit Fields
+
+Exercises
+
+12 The Preprocessor
+
+The #define Statement
+
+Program Extendability
+
+Program Portability
+
+More Advanced Types of Definitions
+
+The # Operator
+
+The ## Operator
+
+The #include Statement
+
+System Include Files
+
+Conditional Compilation
+
+The #ifdef, #endif, #else, and #ifndef Statements
+
+The #if and #elif Preprocessor Statements
+
+The #undef Statement
+
+Exercises
+
+13 Extending Data Types with the Enumerated Data Type, Type Definitions, and Data Type Conversions
+
+Enumerated Data Types
+
+The typedef Statement
+
+Data Type Conversions
+
+Sign Extension
+
+Argument Conversion
+
+Exercises
+
+14 Working with Larger Programs
+
+Dividing Your Program into Multiple Files
+
+Compiling Multiple Source Files from the Command Line
+
+Communication Between Modules
+
+External Variables
+
+Static Versus Extern Variables and Functions
+
+Using Header Files Effectively
+
+Other Utilities for Working with Larger Programs
+
+The make Utility
+
+The cvs Utility
+
+Unix Utilities: ar, grep, sed, and so on
+
+15 Input and Output Operations in C
+
+Character I/O: getchar() and putchar()
+
+Formatted I/O: printf() and scanf()
+
+The printf() Function
+
+The scanf() Function
+
+Input and Output Operations with Files
+
+Redirecting I/O to a File
+
+End of File
+
+Special Functions for Working with Files
+
+The fopen Function
+
+The getc() and putc() Functions
+
+The fclose() Function
+
+The feof Function
+
+The fprintf() and fscanf() Functions
+
+The fgets() and fputs() Functions
+
+stdin, stdout, and stderr
+
+The exit() Function
+
+Renaming and Removing Files
+
+Exercises
+
+16 Miscellaneous and Advanced Features
+
+Miscellaneous Language Statements
+
+The goto Statement
+
+The null Statement
+
+Working with Unions
+
+The Comma Operator
+
+Type Qualifiers
+
+The register Qualifier
+
+The volatile Qualifier
+
+The restrict Qualifier
+
+Command-line Arguments
+
+Dynamic Memory Allocation
+
+The calloc() and malloc() Functions
+
+The sizeof Operator
+
+The free Function
+
+Exercises
+
+17 Debugging Programs
+
+Debugging with the Preprocessor
+
+Debugging Programs with gdb
+
+Working with Variables
+
+Source File Display
+
+Controlling Program Execution
+
+Getting a Stack Trace
+
+Calling Functions and Setting Arrays and Structures
+
+Getting Help with gdb Commands
+
+Odds and Ends
+
+18 Object-Oriented Programming
+
+What Is an Object Anyway?
+
+Instances and Methods
+
+Writing a C Program to Work with Fractions
+
+Defining an Objective-C Class to Work with Fractions
+
+Defining a C++ Class to Work with Fractions
+
+Defining a C# Class to Work with Fractions
+
+A C Language Summary
+
+1.0 Digraphs and Identifiers
+
+2.0 Comments
+
+3.0 Constants
+
+4.0 Data Types and Declarations
+
+5.0 Expressions
+
+6.0 Storage Classes and Scope
+
+7.0 Functions
+
+8.0 Statements
+
+9.0 The Preprocessor
+
+B The Standard C Library
+
+Standard Header Files
+
+String Functions
+
+Memory Functions
+
+Character Functions
+
+I/O Functions
+
+In-Memory Format Conversion Functions
+
+String-to-Number Conversion
+
+Dynamic Memory Allocation Functions
+
+Math Functions
+
+General Utility Functions
+
+C Compiling Programs with gcc
+
+General Command Format
+
+Command-Line Options
+
+D Common Programming Mistakes
+
+E Resources
+
+The C Programming Language
+
+C Compilers and Integrated Development Environments
+
+Miscellaneous
+
+Index
+
+
+About the Author
+
+Stephen G. Kochan has been developing software with the C programming language for more than 30 years. He is the author of several best-selling titles on the C language, including Programming in C, Programming in Objective-C, and Topics in C Programming. He has also written extensively on Unix and is the author or coauthor of Exploring the Unix System and Unix Shell Programming.
+
+
+Contributing Author, Fourth Edition
+
+Dean Miller is a writer and editor with more than 20 years of experience in both the publishing and licensed consumer products businesses. He is coauthor of the most recent editions of Sams Teach Yourself C in One Hour a Day, and Sams Teach Yourself Beginning Programming in 24 Hours.
+
+
+
+
+Acknowledgments
+
+I wish to thank the following people for their help in the preparation of various versions of this text: Douglas McCormick, Jim Scharf, Henry Tabickman, Dick Fritz, Steve Levy, Tony Ianinno, and Ken Brown. I also want to thank Henry Mullish of New York University for teaching me so much about writing and for getting me started in the publishing business.
+
+At Pearson, I’d like to thank Mark Taber and my project editor Mandie Frank. Thanks also to my copy editor, Charlotte Kughen, and my technical editor, Siddhartha Singh. Finally, I’d like to thank all the other people from Pearson who were involved on this project, even if I did not work with them directly.
+
+
+We Want to Hear from You!
+
+As the reader of this book, you are our most important critic and commentator. We value your opinion and want to know what we’re doing right, what we could do better, what areas you’d like to see us publish in, and any other words of wisdom you’re willing to pass our way.
+
+We welcome your comments. You can email or write directly to let us know what you did or didn’t like about this book—as well as what we can do to make our books better.
+
+Please note that we cannot help you with technical problems related to the topic of this book, and that due to the high volume of mail we receive, we might not be able to reply to every message.
+
+When you write, please be sure to include this book’s title and author, as well as your name and phone number or email address.
+
+Email:   feedback@developers-library.info
+
+Mail:     Reader Feedback
+               Addison-Wesley Developer’s Library
+               800 East 96th Street
+               Indianapolis, IN 46240 USA
+
+
+Reader Services
+
+Visit our website and register this book at www.informit.com/register for convenient access to any updates, downloads, or errata that might be available for this book.
+
+
+Introduction
+
+The C programming language was pioneered by Dennis Ritchie at AT&amp;T Bell Laboratories in the early 1970s. It was not until the late 1970s, however, that this programming language began to gain widespread popularity and support. This was because until that time C compilers were not readily available for commercial use outside of Bell Laboratories. Initially, C’s growth in popularity was also spurred on in part by the equal, if not faster, growth in popularity of the Unix operating system. This operating system, which was also developed at Bell Laboratories, had C as its “standard” programming language. In fact, well over 90% of the operating system itself was written in the C language!
+
+The enormous success of the IBM PC and its look-alikes soon made MS-DOS the most popular environment for the C language. As C grew in popularity across different operating systems, more and more vendors hopped on the bandwagon and started marketing their own C compilers. For the most part, their version of the C language was based on an appendix found in the first C programming text—The C Programming Language—by Brian Kernighan and Dennis Ritchie. Unfortunately, this appendix did not provide a complete and unambiguous definition of C, meaning that vendors were left to interpret some aspects of the language on their own.
+
+In the early 1980s, a need was seen to standardize the definition of the C language. The American National Standards Institute (ANSI) is the organization that handles such things, so in 1983 an ANSI C committee (called X3J11) was formed to standardize C. In 1989, the committee’s work was ratified, and in 1990, the first official ANSI standard definition of C was published.
+
+Because C is used around the world, the International Standard Organization (ISO) soon got involved. They adopted the standard, where it was called ISO/IEC 9899:1990. Since that time, additional changes have been made to the C language. The most recent standard was adopted in 2011. It is known as ANSI C11, or ISO/IEC 9899:2011. It is this version of the language upon which this book is based.
+
+C is a “higher-level language,” yet it provides capabilities that enable the user to “get in close” with the hardware and deal with the computer on a much lower level. This is because, although C is a general-purpose structured programming language, it was originally designed with systems programming applications in mind and, as such, provides the user with an enormous amount of power and flexibility.
+
+This book proposes to teach you how to program in C. It assumes no previous exposure to the language and was designed to appeal to novice and experienced programmers alike. If you have previous programming experience, you will find that C has a unique way of doing things that probably differs from other languages you have used.
+
+Every feature of the C language is treated in this text. As each new feature is presented, a small complete program example is usually provided to illustrate the feature. This reflects the overriding philosophy that has been used in writing this book: to teach by example. Just as a picture is worth a thousand words, so is a properly chosen program example. If you have access to a computer that supports the C programming language, you are strongly encouraged to download and run each program presented in this book and to compare the results obtained on your system to those shown in the text. By doing so, not only will you learn the language and its syntax, but you will also become familiar with the process of typing in, compiling, and running C programs.
+
+You will find that program readability has been stressed throughout the book. This is because I strongly believe that programs should be written so that they can be easily read—either by the author or by somebody else. Through experience and common sense, you will find that such programs are almost always easier to write, debug, and modify. Furthermore, developing programs that are readable is a natural result of a true adherence to a structured programming discipline.
+
+Because this book was written as a tutorial, the material covered in each chapter is based on previously presented material. Therefore, maximum benefit will be derived from this book by reading each chapter in succession, and you are highly discouraged from “skipping around.” You should also work through the exercises that are presented at the end of each chapter before proceeding on to the next chapter.
+
+Chapter 1, “Some Fundamentals,” which covers some fundamental terminology about higher-level programming languages and the process of compiling programs, has been included to ensure that you understand the language used throughout the remainder of the text. From Chapter 2, “Compiling and Running Your First Program,” on, you will be slowly introduced to the C language. By the time Chapter 15, “Input and Output Operations in C,” rolls around, all the essential features of the language will have been covered. Chapter 15 goes into more depth about I/O operations in C. Chapter 16, “Miscellaneous and Advanced Features,” includes those features of the language that are of a more advanced or esoteric nature.
+
+Chapter 17, “Debugging Programs,” shows how you can use the C preprocessor to help debug your programs. It also introduces you to interactive debugging. The popular debugger gdb was chosen to illustrate this debugging technique.
+
+Over the last decade, the programming world has been abuzz with the notion of object-oriented programming, or OOP for short. C is not an OOP language; however, several other programming languages that are based on C are OOP languages. Chapter 18, “Object-oriented Programming,” gives a brief introduction to OOP and some of its terminology. It also gives a brief overview of three OOP languages that are based on C, namely C++, C#, and Objective-C.
+
+Appendix A, “C Language Summary,” provides a complete summary of the language and is provided for reference purposes.
+
+Appendix B, “The Standard C Library,” provides a summary of many of the standard library routines that you will find on all systems that support C.
+
+Appendix C, “Compiling Programs with gcc,” summarizes many of the commonly used options when compiling programs with GNU’s C compiler gcc.
+
+In Appendix D, “Common Programming Mistakes,” you’ll find a list of common programming mistakes.
+
+Finally, Appendix E, “Resources,” provides a list of resources you can turn to for more information about the C language and to further your studies.
+
+This book makes no assumptions about a particular computer system or operating system on which the C language is implemented. The text makes brief mention of how to compile and execute programs using the popular GNU C compiler gcc.
+
+
+1. Some Fundamentals
+
+This chapter describes some fundamental terms that you must understand before you can learn how to program in C. A general overview of the nature of programming in a higher-level language is provided, as is a discussion of the process of compiling a program developed in such a language.
+
+
+Programming
+
+Computers are really very dumb machines indeed because they do only what they are told to do. Most computer systems perform their operations on a very primitive level. For example, most computers know how to add one to a number or how to test whether a number is equal to zero. The sophistication of these basic operations usually does not go much further than that. The basic operations of a computer system form what is known as the computer’s instruction set.
+
+
+
+To solve a problem using a computer, you must express the solution to the problem in terms of the instructions of the particular computer. A computer program is just a collection of the instructions necessary to solve a specific problem. The approach or method that is used to solve the problem is known as an algorithm. For example, if you want to develop a program that tests if a number is odd or even, the set of statements that solves the problem becomes the program. The method that is used to test if the number is even or odd is the algorithm. Normally, to develop a program to solve a particular problem, you first express the solution to the problem in terms of an algorithm and then develop a program that implements that algorithm. So, the algorithm for solving the even/odd problem might be expressed as follows: First, divide the number by two. If the remainder of the division is zero, the number is even; otherwise, the number is odd. With the algorithm in hand, you can then proceed to write the instructions necessary to implement the algorithm on a particular computer system. These instructions would be expressed in the statements of a particular computer language, such as Java, C++, Objective-C, or C.
+
+
+Higher-Level Languages
+
+When computers were first developed, the only way they could be programmed was in terms of binary numbers that corresponded directly to specific machine instructions and locations in the computer’s memory. The next technological software advance occurred in the development of assembly languages, which enabled the programmer to work with the machine on a slightly higher level. Instead of having to specify sequences of binary numbers to carry out particular tasks, the assembly language permits the programmer to use symbolic names to perform various operations and to refer to specific memory locations. A special program, known as an assembler, translates the assembly language program from its symbolic format into the specific machine instructions of the computer system.
+
+
+
+Because a one-to-one correspondence still exists between each assembly language statement and a specific machine instruction, assembly languages are regarded as low-level languages. The programmer must still learn the instruction set of the particular computer system to write a program in assembly language, and the resulting program is not portable; that is, the program will not run on a different processor type without being rewritten. This is because different processor types have different instruction sets, and because assembly language programs are written in terms of these instruction sets, they are machine dependent.
+
+Then, along came the so-called higher-level languages, of which the FORTRAN (FORmula TRANslation) language was one of the first. Programmers developing programs in FORTRAN no longer had to concern themselves with the architecture of the particular computer, and operations performed in FORTRAN were of a much more sophisticated or higher level, far removed from the instruction set of the particular machine. One FORTRAN instruction or statement resulted in many different machine instructions being executed, unlike the one-to-one correspondence found between assembly language statements and machine instructions.
+
+Standardization of the syntax of a higher-level language meant that a program could be written in the language to be machine independent. That is, a program could run on any machine that supported the language with few or no changes.
+
+To support a higher-level language, a special computer program must be developed that translates the statements of the program developed in the higher-level language into a form that the computer can understand—in other words, into the particular instructions of the computer. Such a program is known as a compiler.
+
+
+Operating Systems
+
+Before continuing with compilers, it is worthwhile to understand the role that is played by a computer program known as an operating system.
+
+
+
+An operating system is a program that controls the entire operation of a computer system. All input and output (that is, I/O) operations that are performed on a computer system are channeled through the operating system. The operating system must also manage the computer system’s resources and must handle the execution of programs.
+
+One of the most popular operating systems today is the Unix operating system, which was developed at Bell Laboratories. Unix is a rather unique operating system in that it can be found on many different types of computer systems, and under different “flavors,” such as Linux or Mac OS X. Historically, operating systems were typically associated with only one type of computer system. But because Unix was written primarily in the C language and made very few assumptions about the architecture of the computer, it has been successfully ported to many different computer systems with a relatively small amount of effort.
+
+Microsoft Windows is another example of a popular operating system. That system is found running primarily on Intel (or Intel-compatible) processors.
+
+Of more recent vintage are operating systems that were developed to run on portable devices such as cell phones and tablets. Apple’s iOS and Google’s Android operating systems are the two most popular examples.
+
+
+Compiling Programs
+
+A compiler is a software program that is, in principle, no different than the ones you will see in this book, although it is certainly much more complex. A compiler analyzes a program developed in a particular computer language and then translates it into a form that is suitable for execution on your particular computer system.
+
+
+
+Figure 1.1 shows the steps that are involved in entering, compiling, and executing a computer program developed in the C programming language and the typical Unix commands that would be entered from the command line.
+
+
+[image: Image]
+
+Figure 1.1 Typical steps for entering, compiling, and executing C programs from the command line.
+
+
+
+The program that is to be compiled is first typed into a file on the computer system. Computer installations have various conventions that are used for naming files, but in general, the choice of the name is up to you. C programs can typically be given any name provided the last two characters are “.c” (this is not so much a requirement as it is a convention). So, the name prog1.c might be a valid filename for a C program on your system.
+
+A text editor is usually used to enter the C program into a file. For example, vim is a popular text editor used on Unix systems. The program that is entered into the file is known as the source program because it represents the original form of the program expressed in the C language. After the source program has been entered into a file, you can then proceed to have it compiled.
+
+The compilation process is initiated by typing a special command on the system. When this command is entered, the name of the file that contains the source program must also be specified. For example, under Unix, the command to initiate program compilation is called cc. If you are using the popular GNU C compiler, the command you use is gcc. Typing the line
+
+gcc prog1.c
+
+has the effect of initiating the compilation process with the source program contained in prog1.c.
+
+In the first step of the compilation process, the compiler examines each program statement contained in the source program and checks it to ensure that it conforms to the syntax and semantics of the language1. If any mistakes are discovered by the compiler during this phase, they are reported to the user and the compilation process ends right there. The errors then have to be corrected in the source program (with the use of an editor), and the compilation process must be restarted. Typical errors reported during this phase of compilation might be due to an expression that has unbalanced parentheses (syntactic error), or due to the use of a variable that is not “defined” (semantic error).
+
+1. Technically speaking, the C compiler normally makes a prepass of the program looking for special statements. This preprocessing phase is described in detail in Chapter 12, “The Preprocessor.”
+
+When all the syntactic and semantic errors have been removed from the program, the compiler then proceeds to take each statement of the program and translate it into a “lower” form. On most systems, this means that each statement is translated by the compiler into the equivalent statement or statements in assembly language needed to perform the identical task.
+
+After the program has been translated into an equivalent assembly language program, the next step in the compilation process is to translate the assembly language statements into actual machine instructions. This step might or might not involve the execution of a separate program known as an assembler. On most systems, the assembler is executed automatically as part of the compilation process.
+
+The assembler takes each assembly language statement and converts it into a binary format known as object code, which is then written into another file on the system. This file typically has the same name as the source file under Unix, with the last letter an “o” (for object) instead of a “c”. Under Windows, the suffix letters “obj&quot; typically replace the “c” in the filename.
+
+After the program has been translated into object code, it is ready to be linked. This process is once again performed automatically whenever the cc or gcc command is issued under Unix. The purpose of the linking phase is to get the program into a final form for execution on the computer. If the program uses other programs that were previously processed by the compiler, then during this phase the programs are linked together. Programs that are used from the system’s program library are also searched and linked together with the object program during this phase.
+
+The entire process of compiling and linking a program is often called building.
+
+The final linked file, which is in an executable object code format, is stored in another file on the system, ready to be run or executed. Under Unix, this file is called a.out by default. Under Windows, the executable file usually has the same name as the source file, with the c extension replaced by an exe extension.
+
+To subsequently execute the program, all you do is type in the name of the executable object file. So, the command
+
+a.out
+
+has the effect of loading the program called a.out into the computer’s memory and initiating its execution.
+
+When the program is executed, each of the statements of the program is sequentially executed in turn. If the program requests any data from the user, known as input, the program temporarily suspends its execution so that the input can be entered. Or, the program might simply wait for an event, such as a mouse being clicked, to occur. Results that are displayed by the program, known as output, appear in a window, sometimes called the console. Or, the output might be directly written to a file on the system.
+
+If all goes well (and it probably won’t the first time the program is executed), the program performs its intended functions. If the program does not produce the desired results, it is necessary to go back and reanalyze the program’s logic. This is known as the debugging phase, during which an attempt is made to remove all the known problems or bugs from the program. To do this, it will most likely be necessary to make changes to the original source program. In that case, the entire process of compiling, linking, and executing the program must be repeated until the desired results are obtained.
+
+
+Integrated Development Environments
+
+The individual steps involved in developing C programs were outlined earlier, showing typical commands that would be entered for each step. This process of editing, compiling, running, and debugging programs is often managed by a single integrated application known as an Integrated Development Environment, or IDE for short. An IDE is a windows-based program that allows you to easily manage large software programs, edit files in windows, and compile, link, run, and debug your programs.
+
+
+
+On Mac OS X, Xcode is an IDE supported by Apple that is used by many programmers. Under Windows, Microsoft Visual Studio is a good example of a popular IDE. All the IDE applications greatly simplify the entire process involved in program development so it is worth your while to learn how to use one. Most IDEs also support program development in several different programming languages in addition to C, such as Objective-C, Java, C#, and C++.
+
+For more information about IDEs, consult Appendix E, “Resources.”
+
+
+Language Interpreters
+
+Before leaving this discussion of the compilation process, note that there is another method used for analyzing and executing programs developed in a higher-level language. With this method, programs are not compiled but are interpreted. An interpreter analyzes and executes the statements of a program at the same time. This method usually allows programs to be more easily debugged. On the other hand, interpreted languages are typically slower than their compiled counterparts because the program statements are not converted into a low-level form in advance of their execution.
+
+
+
+BASIC and JavaScript are two programming languages in which programs are often interpreted and not compiled. Other examples include the Unix system’s shell and Python. Some vendors also offer interpreters for the C programming language.
+
+
+2. Compiling and Running Your First Program
+
+In this chapter, you are introduced to the C language so that you can see what programming in C is all about. What better way to gain an appreciation for this language than by taking a look at an actual program written in C?
+
+This chapter is short, but you’ll be surprised at how much ground you can cover in a brief chapter, including
+
+[image: Image] Writing your first program.
+
+[image: Image] Modifying it to change its output.
+
+[image: Image] Understanding the main() function.
+
+[image: Image] Outputting information with the printf() function
+
+[image: Image] Improving your program’s readability with comments
+
+To begin with, you’ll choose a rather simple example—a program that displays the phrase “Programming is fun.” in your window. Program 2.1 shows a C program to accomplish this task.
+
+Program 2.1 Writing Your First C Program
+
+Click here to view code image
+
+
+
+#include &lt;stdio.h&gt;
+
+int main (void)
+{
+     printf (&quot;Programming is fun.\n&quot;);
+
+     return 0;
+}
+
+
+
+In the C programming language, lowercase and uppercase letters are distinct. In addition, in C, it does not matter where on the line you begin typing—you can begin typing your statement at any position on the line. This fact can be used to your advantage in developing programs that are easier to read. Tab characters are often used by programmers as a convenient way to indent lines.
+
+
+Compiling Your Program
+
+Returning to your first C program, you first need to type it into a file. Any text editor can be used for this purpose. Unix users often use an editor such as vi or emacs.
+
+
+
+C compilers recognize filenames that end in the two characters “.” and “c” as C programs. So, assume you type Program 2.1 into a file called prog1.c. Next, you need to compile the program.
+
+Using the GNU C compiler, this can be as simple as issuing the gcc command at the terminal followed by the filename, like this:
+
+$ gcc prog1.c
+$
+
+If you’re using the standard Unix C compiler, the command is cc instead of gcc. Here, the text you typed is entered in bold. The dollar sign is your command prompt if you’re compiling your C program from the command line. Your actual command prompt might be some characters other than the dollar sign.
+
+If you make any mistakes keying in your program, the compiler lists them after you enter the gcc command, typically identifying the line numbers from your program that contain the errors. If, instead, another command prompt appears, as is shown in the preceding example, no errors were found in your program.
+
+When the compiler compiles and links your program, it creates an executable version of your program. Using the GNU or standard C compiler, this program is called a.out by default. Under Windows, it is often called a.exe instead.
+
+
+Running Your Program
+
+You can now run the executable by simply typing its name on the command line:1
+
+
+
+1. If you get an error like this: a.out: No such file or directory, then it probably means the current directory is not in your PATH. You can either add it to your PATH or type the following at the command prompt: ./a.out.
+
+$ a.out
+Programming is fun.
+$
+
+You can also specify a different name for the executable file at the time the program is compiled. This is done with the –o (that’s the letter O) option, which is followed by the name of the executable. For example, the command line
+
+$ gcc prog1.c –o prog1
+
+compiles the program prog1.c, placing the executable in the file prog1, which can subsequently be executed just by specifying its name:
+
+$ prog1
+Programming is fun.
+$
+
+
+Understanding Your First Program
+
+Take a closer look at your first program. The first line of the program
+
+
+
+#include &lt;stdio.h&gt;
+
+should be included at the beginning of just about every program you write. It tells the compiler information about the printf() output routine that is used later in the program. Chapter 12, “The Preprocessor,” discusses in detail what this line does.
+
+The line of the program that reads
+
+int main (void)
+
+informs the system that the name of the program is main(), and that it returns an integer value, which is abbreviated “int.” main() is a special name that indicates precisely where the program is to begin execution. The open and close parentheses immediately following main() specify that main() is the name of a function. The keyword void that is enclosed in the parentheses specifies that the function main() takes no arguments (that is, it is void of arguments). These concepts are explained in great detail in Chapter 7, “Working with Functions.”
+
+
+
+Note
+
+If you’re using an IDE, you may find that it generates a template main() for you. In such a case, you may find the first line of main() looks more like this:
+
+Click here to view code image
+
+int main(int argc, char *argv[])
+
+This won’t affect your program’s operation, so just ignore the differences for now.
+
+
+
+
+Now that you have identified main() to the system, you are ready to specify precisely what this routine is to perform. This is done by enclosing all program statements of the routine within a pair of curly braces. All program statements included between the braces are taken as part of the main() routine by the system. In Program 2.1, you have only two such statements. This statement specifies that a routine named printf() is to be invoked or called. The parameter or argument to be passed to the printf() routine is the string of characters
+
+&quot;Programming is fun.\n&quot;
+
+The printf() routine is a function in the C library that simply prints or displays its argument (or arguments, as you will see shortly) on your screen. The last two characters in the string, namely the backslash (\) and the letter n, are known collectively as the newline character. A newline character tells the system to do precisely what its name implies—that is, go to a new line. Any characters to be printed after the newline character then appear on the next line of the display. In fact, the newline character is similar in concept to the carriage return key on a typewriter. (Remember those?)
+
+All program statements in C must be terminated by a semicolon (;). This is the reason for the semicolon that appears immediately following the closing parenthesis of the printf() call.
+
+The last statement in main() that reads
+
+return 0;
+
+says to finish execution of main(), and return to the system a status value of 0. You can use any integer here. Zero is used by convention to indicate that the program completed successfully—that is, without running into any errors. Different numbers can be used to indicate different types of error conditions that occurred (such as a file not being found). This exit status can be tested by other programs (such as the Unix shell) to see whether the program ran successfully.
+
+Now that you’ve finished analyzing your first program, you can modify it to also display the phrase “And programming in C is even more fun.” This can be done by the simple addition of another call to the printf() routine, as shown in Program 2.2. Remember that every C program statement must be terminated by a semicolon.
+
+Program 2.2
+
+Click here to view code image
+
+
+
+#include &lt;stdio.h&gt;
+
+int main (void)
+{
+     printf (&quot;Programming is fun.\n&quot;);
+     printf (&quot;And programming in C is even more fun.\n&quot;);
+
+     return 0;
+}
+
+
+
+If you type in Program 2.2 and then compile and execute it, you can expect the following output in your program’s output window, sometimes called the “console.”
+
+Program 2.2 Output
+
+Click here to view code image
+
+
+
+Programming is fun.
+And programming in C is even more fun.
+
+
+
+As you will see from the next program example, it is not necessary to make a separate call to the printf() routine for each line of output. Study the program listed in Program 2.3 and try to predict the results before examining the output. (No cheating now!)
+
+Program 2.3 Displaying Multiple Lines of Output
+
+Click here to view code image
+
+
+
+#include &lt;stdio.h&gt;
+
+int main (void)
+{
+     printf (&quot;Testing...\n..1\n...2\n....3\n&quot;);
+
+     return 0;
+}
+
+
+
+Program 2.3 Output
+
+
+
+Testing...
+..1
+...2
+....3
+
+
+
+
+Displaying the Values of Variables
+
+The printf() routine is the most commonly used routine in this book. This is because it provides an easy and convenient means to display program results. Not only can simple phrases be displayed, but the values of variables and the results of computations can also be displayed. In fact, Program 2.4 uses the printf() routine to display the results of adding two numbers, namely 50 and 25.
+
+
+
+Program 2.4 Displaying Variables
+
+Click here to view code image
+
+
+
+#include &lt;stdio.h&gt;
+
+int main (void)
+{
+     int sum;
+
+     sum = 50 + 25;
+     printf (&quot;The sum of 50 and 25 is %i\n&quot;, sum);
+
+     return 0;
+}
+
+
+
+Program 2.4 Output
+
+Click here to view code image
+
+
+
+The sum of 50 and 25 is 75
+
+
+
+In Program 2.4, the first C program statement declares the variable sum to be of type integer. C requires that all program variables be declared before they are used in a program. The declaration of a variable specifies to the C compiler how a particular variable will be used by the program. This information is needed by the compiler to generate the correct instructions to store and retrieve values into and out of the variable. A variable declared as type int can only be used to hold integral values; that is, values without decimal places. Examples of integral values are 3, 5, −20, and 0. Numbers with decimal places, such as 3.14, 2.455, and 27.0, for example, are known as floating-point numbers.
+
+The integer variable sum is used to store the result of the addition of the two integers 50 and 25. A blank line was intentionally left following the declaration of this variable to visually separate the variable declarations of the routine from the program statements; this is strictly a matter of style. Sometimes, the addition of a single blank line in a program can help to make the program more readable.
+
+The program statement
+
+sum = 50 + 25;
+
+reads as it would in most other programming languages: The number 50 is added (as indicated by the plus sign) to the number 25, and the result is stored (as indicated by the assignment operator, the equal sign) in the variable sum.
+
+The printf() routine call in Program 2.4 now has two items or arguments enclosed within the parentheses. These arguments are separated by a comma. The first argument to the printf() routine is always the character string to be displayed. However, along with the display of the character string, you might also frequently want to have the value of certain program variables displayed. In this case, you want to have the value of the variable sum displayed at the terminal after the characters
+
+The sum of 50 and 25 is
+
+are displayed. The percent character inside the first argument is a special character recognized by the printf() function. The character that immediately follows the percent sign specifies what type of value is to be displayed at that point. In the preceding program, the letter i is recognized by the printf() routine as signifying that an integer value is to be displayed.2
+
+2. Note that printf also allows you to specify %d format characters to display an integer. This book consistently uses %i throughout the remaining chapters.
+
+Whenever the printf() routine finds the %i characters inside a character string, it automatically displays the value of the next argument to the printf() routine. Because sum is the next argument to printf(), its value is automatically displayed after the characters “The sum of 50 and 25 is ” are displayed.
+
+Now try to predict the output from Program 2.5.
+
+Program 2.5 Displaying Multiple Values
+
+Click here to view code image
+
+
+
+#include &lt;stdio.h&gt;
+
+int main (void)
+{
+     int  value1, value2, sum;
+
+     value1 = 50;
+     value2 = 25;
+     sum = value1 + value2;
+     printf (&quot;The sum of %i and %i is %i\n&quot;, value1, value2, sum);
+
+     return 0;
+}
+
+
+
+Program 2.5 Output
+
+Click here to view code image
+
+
+
+The sum of 50 and 25 is 75
+
+
+
+The first program statement declares three variables called value1, value2, and sum all to be of type int. This statement could have equivalently been expressed using three separate declaratory statements as follows:
+
+int value1;
+int value2;
+int sum;
+
+After the three variables have been declared, the program assigns the value 50 to the variable value1 and then assigns 25 to value2. The sum of these two variables is then computed, and the result is assigned to the variable sum.
+
+The call to the printf() routine now contains four arguments. Once again, the first argument, commonly called the format string, describes to the system how the remaining arguments are to be displayed. The value of value1 is to be displayed immediately following the display of the “The sum of ” characters. Similarly, the values of value2 and sum are to be printed at the appropriate points, as indicated by the next two occurrences of the %i characters in the format string.
+
+
+Comments
+
+The final program in this chapter (Program 2.6) introduces the concept of the comment. A comment statement is used in a program to document a program and to enhance its readability. As you will see from the following example, comments serve to tell the reader of the program—the programmer or someone else whose responsibility it is to maintain the program—just what the programmer had in mind when he or she wrote a particular program or a particular sequence of statements.
+
+
+
+Program 2.6 Using Comments in a Program
+
+Click here to view code image
+
+
+
+/* This program adds two integer values
+   and displays the results             */
+
+#include &lt;stdio.h&gt;
+
+int main (void)
+{
+    // Declare variables
+    int  value1, value2, sum;
+
+    // Assign values and calculate their sum
+    value1 = 50;
+    value2 = 25;
+    sum = value1 + value2;
+
+    // Display the result
+    printf (&quot;The sum of %i and %i is %i\n&quot;, value1, value2, sum);
+
+    return 0;
+}
+
+
+
+Program 2.6 Output
+
+Click here to view code image
+
+
+
+The sum of 50 and 25 is 75
+
+
+
+There are two ways to insert comments into a C program. A comment can be initiated by the two characters / and *. This marks the beginning of the comment. These types of comments have to be terminated. To end the comment, the characters * and / are used without any embedded spaces. All characters included between the opening /* and the closing */ are treated as part of the comment statement and are ignored by the C compiler. This form of comment is often used when comments span several lines in the program. The second way to add a comment to your program is by using two consecutive slash characters //. Any characters that follow these slashes up to the end of the line are ignored by the compiler.
+
+In Program 2.6, four separate comment statements were used. This program is otherwise identical to Program 2.5. Admittedly, this is a contrived example because only the first comment at the head of the program is useful. (Yes, it is possible to insert so many comments into a program that the readability of the program is actually degraded instead of improved!)
+
+The intelligent use of comment statements inside a program cannot be overemphasized. Many times, a programmer returns to a program that he coded perhaps only six months ago, only to discover to his dismay that he could not for the life of him remember the purpose of a particular routine or of a particular group of statements. A simple comment statement judiciously inserted at that particular point in the program might have saved a significant amount of time otherwise wasted on rethinking the logic of the routine or set of statements.
+
+It is a good idea to get into the habit of inserting comment statements into the program as the program is being written or typed in. There are good reasons for this. First, it is far easier to document the program while the particular program logic is still fresh in your mind than it is to go back and rethink the logic after the program has been completed. Second, by inserting comments into the program at such an early stage of the game, you get to reap the benefits of the comments during the debug phase, when program logic errors are being isolated and debugged. A comment can not only help you read through the program, but it can also help point the way to the source of the logic mistake. Finally, I have yet to discover a programmer who actually enjoyed documenting a program. In fact, after you have finished debugging your program, you will probably not relish the idea of going back to the program to insert comments. Inserting comments while developing the program makes this sometimes-tedious task a bit easier to swallow.
+
+This concludes this introductory chapter on developing programs in C. By now, you should have a good feel as to what is involved in writing a program in C, and you should be able to develop a small program on your own. In the next chapter, you begin to learn some of the finer intricacies of this wonderfully powerful and flexible programming language. But first, try your hand at the following exercises to make certain you understand the concepts presented in this chapter.
+
+
+Exercises
+
+1. Type in and run the six programs presented in this chapter. Compare the output produced by each program with the output presented after each program in the text.
+
+
+
+2. Write a program that prints the following text.
+
+1. In C, lowercase letters are significant.
+
+2. main() is where program execution begins.
+
+3. Opening and closing braces enclose program statements in a routine.
+
+4. All program statements must be terminated by a semicolon.
+
+3. What output would you expect from the following program?
+
+#include &lt;stdio.h&gt;
+
+int main (void)
+{
+    printf (&quot;Testing...&quot;);
+    printf (&quot;....1&quot;);
+    printf (&quot;...2&quot;);
+    printf (&quot;..3&quot;);
+    printf (&quot;\n&quot;);
+
+    return 0;
+}
+
+4. Write a program that subtracts the value 15 from 87 and displays the result, together with an appropriate message, at the terminal.
+
+5. Identify the syntactic errors in the following program. Then type in and run the corrected program to ensure you have correctly identified all the mistakes.
+
+Click here to view code image
+
+#include &lt;stdio.h&gt;
+
+int main (Void)
+(
+        INT  sum;
+        /* COMPUTE RESULT
+        sum = 25 + 37 - 19
+        /* DISPLAY RESULTS //
+        printf (&quot;The answer is %i\n&quot; sum);
+        return 0;
+}
+
+6. What output might you expect from the following program?
+
+Click here to view code image
+
+#include &lt;stdio.h&gt;
+
+int main (void)
+{
+      int answer, result;
+
+      answer = 100;
+      result = answer - 10;
+      printf (&quot;The result is %i\n&quot;, result + 5);
+
+      return 0;
+}
+
+
+3. Variables, Data Types, and Arithmetic Expressions
+
+The true power of programs you create is their manipulation of data. In order to truly take advantage of this power, you need to better understand the different data types you can use, as well as how to create and name variables. C has a rich variety of math operators that you can use to manipulate your data. In this chapter you will cover:
+
+[image: Image] The int, float, double, char, and _Bool data types
+
+[image: Image] Modifying data types with short, long, and long long
+
+[image: Image] The rules for naming variables
+
+[image: Image] Basic math operators and arithmetic expressions
+
+[image: Image] Type casting
+
+
+Understanding Data Types and Constants
+
+You have already been exposed to the C basic data type int. As you will recall, a variable declared to be of type int can be used to contain integral values only—that is, values that do not contain decimal places.
+
+
+
+The C programming language provides four other basic data types: float, double, char, and _Bool. A variable declared to be of type float can be used for storing floating-point numbers (values containing decimal places). The double type is the same as type float, only with roughly twice the precision. The char data type can be used to store a single character, such as the letter ’a’, the digit character ’6’, or a semicolon (’;’) (more on this later). Finally, the _Bool data type can be used to store just the values 0 or 1. Variables of this type are used for indicating an on/off, yes/no, or true/false situation. These one-or-the-other choices are also known as binary choices.
+
+In C, any number, single character, or character string is known as a constant. For example, the number 58 represents a constant integer value. The character string &quot;Programming in C is fun.\n&quot; is an example of a constant character string. Expressions consisting entirely of constant values are called constant expressions. So, the expression
+
+128 + 7 - 17
+
+is a constant expression because each of the terms of the expression is a constant value. But if i were declared to be an integer variable, the expression
+
+128 + 7 – i
+
+would not represent a constant expression because its value would change based on the value of i. If i is 10, the expression is equal to 125, but if i is 200, the expression is equal to −65.
+
+
+The Integer Type int
+
+In C, an integer constant consists of a sequence of one or more digits. A minus sign preceding the sequence indicates that the value is negative. The values 158, −10, and 0 are all valid examples of integer constants. No embedded spaces are permitted between the digits, and values larger than 999 cannot be expressed using commas. (So, the value 12,000 is not a valid integer constant and must be written as 12000.)
+
+
+
+Two special formats in C enable integer constants to be expressed in a base other than decimal (base 10). If the first digit of the integer value is a 0, the integer is taken as expressed in octal notation—that is, in base 8. In that case, the remaining digits of the value must be valid base-8 digits and, therefore, must be 0–7. So, to express the value 50 in base 8 in C, which is equivalent to the value 40 in decimal, the notation 050 is used. Similarly, the octal constant 0177 represents the decimal value 127 (1 × 64 + 7 × 8 + 7). An integer value can be displayed at the terminal in octal notation by using the format characters %o in the format string of a printf() statement. In such a case, the value is displayed in octal without a leading zero. The format character %#o does cause a leading zero to be displayed before an octal value.
+
+If an integer constant is preceded by a zero and the letter x (either lowercase or uppercase), the value is taken as being expressed in hexadecimal (base 16) notation. Immediately following the letter x are the digits of the hexadecimal value, which can be composed of the digits 0–9 and the letters a–f (or A–F). The letters represent the values 10–15, respectively. So, to assign the hexadecimal value FFEF0D to an integer variable called rgbColor, the statement
+
+rgbColor = 0xFFEF0D;
+
+can be used. The format characters %x display a value in hexadecimal format without the leading 0x, and using lowercase letters a–f for hexadecimal digits. To display the value with the leading 0x, you use the format characters %#x, as in the following:
+
+Click here to view code image
+
+printf (&quot;Color is %#x\n&quot;, rgbColor);
+
+An uppercase x, as in %X or %#X, can be used to display the leading x and the hexadecimal digits that follow using uppercase letters.
+
+
+Storage Sizes and Ranges
+
+Every value, whether it’s a character, integer, or floating-point number, has a range of values associated with it. This range has to do with the amount of storage that is allocated to store a particular type of data. In general, that amount is not defined in the language. It typically depends on the computer you’re running, and is, therefore, called implementation- or machine-dependent. For example, an integer might take up 32 bits on your computer, or perhaps it might be stored in 64. You should never write programs that make any assumptions about the size of your data types. You are, however, guaranteed that a minimum amount of storage will be set aside for each basic data type. For example, it’s guaranteed that an integer value will be stored in a minimum of 32 bits of storage, which is the size of a “word” on many computers.
+
+
+
+
+The Floating Number Type float
+
+A variable declared to be of type float can be used for storing values containing decimal places. A floating-point constant is distinguished by the presence of a decimal point. You can omit digits before the decimal point or digits after the decimal point, but obviously you can’t omit both. The values 3., 125.8, and −.0001 are all valid examples of floating-point constants. To display a floating-point value at the terminal, the printf conversion characters %f are used.
+
+
+
+Floating-point constants can also be expressed in scientific notation. The value 1.7e4 is a floating-point value expressed in this notation and represents the value 1.7 × 104. The value before the letter e is known as the mantissa, whereas the value that follows is called the exponent. This exponent, which can be preceded by an optional plus or minus sign, represents the power of 10 by which the mantissa is to be multiplied. So, in the constant 2.25e−3, the 2.25 is the value of the mantissa and −3 is the value of the exponent. This constant represents the value 2.25 × 10−3, or 0.00225. Incidentally, the letter e, which separates the mantissa from the exponent, can be written in either lowercase or uppercase.
+
+To display a value in scientific notation, the format characters %e should be specified in the printf() format string. The printf() format characters %g can be used to let printf() decide whether to display the floating-point value in normal floating-point notation or in scientific notation. This decision is based on the value of the exponent: If it’s less than −4 or greater than 5, %e (scientific notation) format is used; otherwise, %f format is used.
+
+Use the %g format characters for displaying floating-point numbers—it produces the most aesthetically pleasing output.
+
+A hexadecimal floating constant consists of a leading 0x or 0X, followed by one or more decimal or hexadecimal digits, followed by a p or P, followed by an optionally signed binary exponent. For example, 0x0.3p10 represents the value 3/16 × 210 = 0.5.
+
+
+The Extended Precision Type double
+
+The double type is very similar to the float type, but it is used whenever the range provided by a float variable is not sufficient. Variables declared to be of type double can store roughly twice as many significant digits as can a variable of type float. Most computers represent double values using 64 bits.
+
+
+
+Unless told otherwise, all floating-point constants are taken as double values by the C compiler. To explicitly express a float constant, append either an f or F to the end of the number, as follows:
+
+12.5f
+
+To display a double value, the format characters %f, %e, or %g, which are the same format characters used to display a float value, can be used.
+
+
+The Single Character Type char
+
+A char variable can be used to store a single character.1 A character constant is formed by enclosing the character within a pair of single quotation marks. So 'a', ';', and '0' are all valid examples of character constants. The first constant represents the letter a, the second is a semicolon, and the third is the character zero—which is not the same as the number zero. Do not confuse a character constant, which is a single character enclosed in single quotes, with a character string, which is any number of characters enclosed in double quotes.
+
+
+
+1. Appendix A discusses methods for storing characters from extended character sets, through special escape sequences, universal characters, and wide characters.
+
+The character constant '\n'—the newline character—is a valid character constant even though it seems to contradict the rule cited previously. This is because the backslash character is a special character in the C system and does not actually count as a character. In other words, the C compiler treats the character '\n' as a single character, even though it is actually formed by two characters. There are other special characters that are initiated with the backslash character. Consult Appendix A, “C Language Summary,” for a complete list.
+
+The format characters %c can be used in a printf() call to display the value of a char variable at the terminal.
+
+
+The Boolean Data Type _Bool
+
+A _Bool variable is defined in the language to be large enough to store just the values 0 and 1. The precise amount of memory that is used is unspecified. _Bool variables are used in programs that need to indicate a Boolean condition. For example, a variable of this type might be used to indicate whether all data has been read from a file.
+
+
+
+By convention, 0 is used to indicate a false value, and 1 indicates a true value. When assigning a value to a _Bool variable, a value of 0 is stored as 0 inside the variable, whereas any nonzero value is stored as 1.
+
+To make it easier to work with _Bool variables in your program, the standard header file &lt;stdbool.h&gt; defines the values bool, true, and false. An example of this is shown in Program 5.10A in Chapter 5, “Making Decisions.”
+
+In Program 3.1, the basic C data types are used.
+
+Program 3.1 Using the Basic Data Types
+
+Click here to view code image
+
+
+
+#include &lt;stdio.h&gt;
+
+int main (void)
+{
+     int       integerVar = 100;
+     float     floatingVar = 331.79;
+     double    doubleVar = 8.44e+11;
+     char      charVar = 'W';
+
+     _Bool     boolVar = 0;
+
+     printf (&quot;integerVar = %i\n&quot;, integerVar);
+     printf (&quot;floatingVar = %f\n&quot;, floatingVar);
+     printf (&quot;doubleVar = %e\n&quot;, doubleVar);
+     printf (&quot;doubleVar = %g\n&quot;, doubleVar);
+     printf (&quot;charVar = %c\n&quot;, charVar);
+
+     printf (&quot;boolVar = %i\n&quot;, boolVar);
+
+     return 0;
+}
+
+
+
+Program 3.1 Output
+
+Click here to view code image
+
+
+
+integerVar = 100
+floatingVar = 331.790009
+doubleVar = 8.440000e+11
+doubleVar = 8.44e+11
+charVar = W
+boolVar = 0;
+
+
+
+The first statement of Program 3.1 declares the variable integerVar to be an integer variable and also assigns to it an initial value of 100, as if the following two statements had been used instead:
+
+int  integerVar;
+integerVar = 100;
+
+In the second line of the program’s output, notice that the value of 331.79, which is assigned to floatingVar, is actually displayed as 331.790009. In fact, the actual value displayed is dependent on the particular computer system you are using. The reason for this inaccuracy is the particular way in which numbers are internally represented inside the computer. You have probably come across the same type of inaccuracy when dealing with numbers on your pocket calculator. If you divide 1 by 3 on your calculator, you get the result .33333333, with perhaps some additional 3s tacked on at the end. The string of 3s is the calculator’s approximation to one third. Theoretically, there should be an infinite number of 3s. But the calculator can hold only so many digits, thus the inherent inaccuracy of the machine. The same type of inaccuracy applies here: Certain floating-point values cannot be exactly represented inside the computer’s memory.
+
+When displaying the values of float or double variables, you have the choice of three different formats. The %f characters are used to display values in a standard manner. Unless told otherwise, printf() always displays a float or double value to six decimal places rounded. You see later in this chapter how to select the number of decimal places that are displayed.
+
+The %e characters are used to display the value of a float or double variable in scientific notation. Once again, six decimal places are automatically displayed by the system.
+
+With the %g characters, printf() chooses between %f and %e and also automatically removes from the display any trailing zeroes. If no digits follow the decimal point, it doesn’t display that either.
+
+In the next-to-last printf() statement, the %c characters are used to display the single character 'W' that you assigned to charVar when the variable was declared. Remember that whereas a character string (such as the first argument to printf()) is enclosed within a pair of double quotes, a character constant must always be enclosed within a pair of single quotes.
+
+The last printf() shows that a _Bool variable can have its value displayed using the integer format characters %i.
+
+
+Type Specifiers: long, long long, short, unsigned, and signed
+
+If the specifier long is placed directly before the int declaration, the declared integer variable is of extended range on some computer systems. An example of a long int declaration might be
+
+
+
+long int factorial;
+
+This declares the variable factorial to be a long integer variable. As with floats and doubles, the particular accuracy of a long variable depends on your particular computer system. On many systems, an int and a long int have the same range and either can be used to store integer values up to 32-bits wide (231 − 1, or 2,147,483,647).
+
+A constant value of type long int is formed by optionally appending the letter L (upper- or lowercase) onto the end of an integer constant. No spaces are permitted between the number and the L. So, the declaration
+
+Click here to view code image
+
+long int numberOfPoints = 131071100L;
+
+declares the variable numberOfPoints to be of type long int with an initial value of 131,071,100.
+
+To display the value of a long int using printf(), the letter l is used as a modifier before the integer format characters i, o, and x. This means that the format characters %li can be used to display the value of a long int in decimal format, the characters %lo can display the value in octal format, and the characters %lx can display the value in hexadecimal format.
+
+There is also a long long integer data type, so
+
+Click here to view code image
+
+long long int maxAllowedStorage;
+
+declares the indicated variable to be of the specified extended accuracy, which is guaranteed to be at least 64 bits wide. Instead of a single letter l, two ls are used in the printf string to display long long integers, as in &quot;%lli&quot;.
+
+The long specifier is also allowed in front of a double declaration, as follows:
+
+long double US_deficit_2004;
+
+A long double constant is written as a floating constant with the letter l or L immediately following, such as
+
+1.234e+7L
+
+To display a long double, the L modifier is used. So, %Lf displays a long double value in floating-point notation, %Le displays the same value in scientific notation, and %Lg tells printf() to choose between %Lf and %Le.
+
+The specifier short, when placed in front of the int declaration, tells the C compiler that the particular variable being declared is used to store fairly small integer values. The motivation for using short variables is primarily one of conserving memory space, which can be an issue in situations in which the program needs a lot of memory and the amount of available memory is limited.
+
+On some machines, a short int takes up half the amount of storage as a regular int variable does. In any case, you are guaranteed that the amount of space allocated for a short int will not be less than 16 bits.
+
+There is no way to explicitly write a constant of type short int in C. To display a short int variable, place the letter h in front of any of the normal integer conversion characters: %hi, %ho, or %hx. Alternatively, you can also use any of the integer conversion characters to display short ints, due to the way they can be converted into integers when they are passed as arguments to the printf() routine.
+
+The final specifier that can be placed in front of an int variable is used when an integer variable will be used to store only positive numbers. The declaration
+
+unsigned int counter;
+
+declares to the compiler that the variable counter is used to contain only positive values. By restricting the use of an integer variable to the exclusive storage of positive integers, the accuracy of the integer variable is extended.
+
+An unsigned int constant is formed by placing the letter u (or U) after the constant, as follows:
+
+0x00ffU
+
+You can combine the letters u (or U) and l (or L) when writing an integer constant, so
+
+20000UL
+
+tells the compiler to treat the constant 20000 as an unsigned long.
+
+An integer constant that’s not followed by any of the letters u, U, l, or L and that is too large to fit into a normal-sized int is treated as an unsigned int by the compiler. If it’s too small to fit into an unsigned int, the compiler treats it as a long int. If it still can’t fit inside a long int, the compiler makes it an unsigned long int. If it doesn’t fit there, the compiler treats it as a long long int if it fits, and as an unsigned long long int otherwise.
+
+When declaring variables to be of type long long int, long int, short int, or unsigned int, you can omit the keyword int. Therefore, the unsigned variable counter could have been equivalently declared as follows:
+
+unsigned counter;
+
+You can also declare char variables to be unsigned.
+
+The signed qualifier can be used to explicitly tell the compiler that a particular variable is a signed quantity. Its use is primarily in front of the char declaration, and further discussion is deferred until Chapter 13, “More on Data Types.”
+
+Don’t worry if the discussions of these specifiers seem a bit esoteric to you at this point. In later sections of this book, many of these different types are illustrated with actual program examples. Chapter 13 goes into more detail about data types and conversions.
+
+Table 3.1 summarizes the basic data types and qualifiers.
+
+
+[image: Image]
+
+Table 3.1 Basic Data Types
+
+
+
+
+Working with Variables
+
+Early computer programmers had the onerous task of having to write their programs in the binary language of the machine they were programming. This meant that computer instructions had to be hand-coded into binary numbers by the programmer before they could be entered into the machine. Furthermore, the programmer had to explicitly assign and reference any storage locations inside the computer’s memory by a specific number or memory address.
+
+
+
+Today’s programming languages allow you to concentrate more on solving the particular problem at hand than worrying about specific machine codes or memory locations. They enable you to assign symbolic names, known as variable names, for storing program computations and results. A variable name can be chosen by you in a meaningful way to reflect the type of value that is to be stored in that variable.
+
+In Chapter 2, “Compiling and Running Your First Program,” you used several variables to store integer values. For example, you used the variable sum in Program 2.4 to store the result of the addition of the two integers 50 and 25.
+
+The C language allows data types other than just integers to be stored in variables as well, provided the proper declaration for the variable is made before it is used in the program. Variables can be used to store floating-point numbers, characters, and even pointers to locations inside the computer’s memory.
+
+The rules for forming variable names are quite simple: They must begin with a letter or underscore ( _ ) and can be followed by any combination of letters (upper- or lowercase), underscores, or the digits 0–9. The following is a list of valid variable names.
+
+sum
+pieceFlag
+i
+J5x7
+Number_of_moves
+_sysflag
+
+On the other hand, the following variable names are not valid for the stated reasons:
+
+[image: Image]
+
+int cannot be used as a variable name because its use has a special meaning to the C compiler. This use is known as a reserved name or reserved word. In general, any name that has special significance to the C compiler cannot be used as a variable name. Appendix A provides a complete list of such reserved names.
+
+You should always remember that upper- and lowercase letters are distinct in C. Therefore, the variable names sum, Sum, and SUM each refer to a different variable.
+
+Your variable names can be as long as you want, although only the first 63 characters might be significant, and in some special cases (as described in Appendix A), only the first 31 characters might be significant. It’s typically not practical to use variable names that are too long—just because of all the extra typing you have to do. For example, although the following line is valid
+
+Click here to view code image
+
+theAmountOfMoneyWeMadeThisYear = theAmountOfMoneyLeftAttheEndOfTheYear –
+           theAmountOfMoneyAtTheStartOfTheYear;
+
+this line
+
+Click here to view code image
+
+moneyMadeThisYear = moneyAtEnd – moneyAtStart;
+
+conveys almost as much information in much less space.
+
+When deciding on the choice of a variable name, keep one recommendation in mind—don’t be lazy. Pick names that reflect the intended use of the variable. The reasons are obvious. Just as with comments, meaningful variable names can dramatically increase the readability of a program and pay off in the debug and documentation phases. In fact, the documentation task is probably greatly reduced because the program is more self-explanatory.
+
+
+Working with Arithmetic Expressions
+
+In C, just as in virtually all programming languages, the plus sign (+) is used to add two values, the minus sign (−) is used to subtract two values, the asterisk (*) is used to multiply two values, and the slash (/) is used to divide two values. These operators are known as binary arithmetic operators because they operate on two values or terms.
+
+
+
+You have seen how a simple operation such as addition can be performed in C. Program 3.2 further illustrates the operations of subtraction, multiplication, and division. The last two operations performed in the program introduce the notion that one operator can have a higher priority, or precedence, over another operator. In fact, each operator in C has a precedence associated with it. This precedence is used to determine how an expression that has more than one operator is evaluated: The operator with the higher precedence is evaluated first. Expressions containing operators of the same precedence are evaluated either from left to right or from right to left, depending on the operator. This is known as the associative property of an operator. Appendix A provides a complete list of operator precedences and their rules of association.
+
+Program 3.2 Using the Arithmetic Operators
+
+Click here to view code image
+
+
+
+// Illustrate the use of various arithmetic operators
+
+#include &lt;stdio.h&gt;
+
+int main (void)
+{
+      int a = 100;
+      int b = 2;
+      int c = 25;
+      int d = 4;
+      int result;
+
+      result = a - b;       // subtraction
+      printf (&quot;a - b = %i\n&quot;, result);
+
+      result = b * c;       // multiplication
+      printf (&quot;b * c = %i\n&quot;, result);
+
+      result = a / c;       // division
+      printf (&quot;a / c = %i\n&quot;, result);
+
+      result = a + b * c;   // precedence
+      printf (&quot;a + b * c = %i\n&quot;, result);
+
+      printf (&quot;a * b + c * d = %i\n&quot;, a * b + c * d);
+
+      return 0;
+}
+
+
+
+Program 3.2 Output
+
+
+
+a - b = 98
+b * c = 50
+a / c = 4
+a + b * c = 150
+a * b + c * d = 300
+
+
+
+After declaring the integer variables a, b, c, d, and result, the program assigns the result of subtracting b from a to result and then displays its value with an appropriate printf() call.
+
+The next statement
+
+result = b * c;
+
+has the effect of multiplying the value of b by the value of c and storing the product in result. The result of the multiplication is then displayed using a printf() call that should be familiar to you by now.
+
+The next program statement introduces the division operator—the slash. The result of 4, as obtained by dividing 100 by 25, is displayed by the printf() statement immediately following the division of a by c.
+
+On some computer systems, attempting to divide a number by zero results in abnormal termination of the program.2 Even if the program does not terminate abnormally, the results obtained by such a division will be meaningless.
+
+2. This happens using the gcc compiler under Windows. On Unix systems, the program might not terminate abnormally, and might give 0 as the result of an integer division by zero and “Infinity” as the result of a float division by zero.
+
+In Chapter 5, you see how you can check for division by zero before the division operation is performed. If it is determined that the divisor is zero, an appropriate action can be taken and the division operation can be averted.
+
+The expression
+
+a + b * c
+
+does not produce the result of 2550 (102 × 25); rather, the result as displayed by the corresponding printf() statement is shown as 150. This is because C, like most other programming languages, has rules for the order of evaluating multiple operations or terms in an expression. Evaluation of an expression generally proceeds from left to right. However, the operations of multiplication and division are given precedence over the operations of addition and subtraction. Therefore, the expression
+
+a + b * c
+
+is evaluated as
+
+a + (b * c)
+
+by the C programming language. (This is the same way this expression would be evaluated if you were to apply the basic rules of algebra.)
+
+If you want to alter the order of evaluation of terms inside an expression, you can use parentheses. In fact, the expression listed previously is a perfectly valid C expression. Thus, the statement
+
+result = a + (b * c);
+
+could have been substituted in Program 3.2 to achieve identical results. However, if the expression
+
+result = (a + b) * c;
+
+were used instead, the value assigned to result would be 2550 because the value of a (100) would be added to the value of b (2) before multiplication by the value of c (25) would take place. Parentheses can also be nested, in which case evaluation of the expression proceeds outward from the innermost set of parentheses. Just be certain you have as many closed parentheses as you have open ones.
+
+You will notice from the last statement in Program 3.2 that it is perfectly valid to give an expression as an argument to printf() without having to first assign the result of the expression evaluation to a variable. The expression
+
+a * b + c * d
+
+is evaluated according to the rules stated previously as
+
+(a * b) + (c * d)
+
+or
+
+(100 * 2) + (25 * 4)
+
+The result of 300 is handed to the printf() routine.
+
+
+Integer Arithmetic and the Unary Minus Operator
+
+Program 3.3 reinforces what you just learned and introduces the concept of integer arithmetic.
+
+
+
+Program 3.3 More Examples with Arithmetic Operators
+
+Click here to view code image
+
+
+
+// More arithmetic expressions
+
+#include &lt;stdio.h&gt;
+
+int main (void)
+{
+     int   a = 25;
+     int   b = 2;
+
+     float c = 25.0;
+     float d = 2.0;
+
+     printf (&quot;6 + a / 5 * b = %i\n&quot;, 6 + a / 5 * b);
+     printf (&quot;a / b * b = %i\n&quot;, a / b * b);
+     printf (&quot;c / d * d = %f\n&quot;, c / d * d);
+     printf (&quot;-a = %i\n&quot;, -a);
+
+     return 0;
+}
+
+
+
+Program 3.3 Output
+
+
+
+6 + a / 5 * b = 16
+a / b * b = 24
+c / d * d = 25.000000
+-a = -25
+
+
+
+Extra blank spaces are inserted between int and the declaration of a, b, c, and d in the first four statements to align the declaration of each variable. This helps make the program more readable. You also might have noticed in each program presented thus far that a blank space was placed around each operator. This, too, is not required and is done solely for aesthetic reasons. In general, you can add extra blank spaces just about anywhere that a single blank space is allowed. A few extra presses of the spacebar prove worthwhile if the resulting program is easier to read.
+
+The expression in the first printf() call of Program 3.3 reinforces the notion of operator precedence. Evaluation of this expression proceeds as follows:
+
+1. Because division has higher precedence than addition, the value of a (25) is divided by 5 first. This gives the intermediate result of 5.
+
+2. Because multiplication also has higher precedence than addition, the intermediate result of 5 is next multiplied by 2, the value of b, giving a new intermediate result of 10.
+
+3. Finally, the addition of 6 and 10 is performed, giving a final result of 16.
+
+The second printf() statement introduces a new twist. You would expect that dividing a by b and then multiplying by b would return the value of a, which has been set to 25. But this does not seem to be the case, as shown by the output display of 24. It might seem like the computer lost a bit somewhere along the way. The fact of the matter is that this expression was evaluated using integer arithmetic.
+
+If you glance back at the declarations for the variables a and b, you will recall that they were both declared to be of type int. Whenever a term to be evaluated in an expression consists of two integers, the C system performs the operation using integer arithmetic. In such a case, all decimal portions of numbers are lost. Therefore, when the value of a is divided by the value of b, or 25 is divided by 2, you get an intermediate result of 12 and not 12.5 as you might expect. Multiplying this intermediate result by 2 gives the final result of 24, thus explaining the “lost” digit. Don’t forget that if you divide two integers, you always get an integer result. In addition, keep in mind that no rounding occurs, the decimal value is simply dropped, so integer division that ends up with 12.01, 12.5, or 12.99 will end up with the same value—12.
+
+As you can see from the next-to-last printf() statement in Program 3.3, if you perform the same operation using floating-point values instead of integers, you obtain the expected result.
+
+The decision of whether to use a float variable or an int variable should be made based on the variable’s intended use. If you don’t need any decimal places, use an integer variable. The resulting program is more efficient—that is, it executes more quickly on many computers. On the other hand, if you need the decimal place accuracy, the choice is clear. The only question you then must answer is whether to use a float, double, or long double. The answer to this question depends on the desired accuracy of the numbers you are dealing with, as well as their magnitude.
+
+In the last printf() statement, the value of the variable a is negated by use of the unary minus operator. A unary operator is one that operates on a single value, as opposed to a binary operator, which operates on two values. The minus sign actually has a dual role: As a binary operator, it is used for subtracting two values; as a unary operator, it is used to negate a value.
+
+The unary minus operator has higher precedence than all other arithmetic operators, except for the unary plus operator (+), which has the same precedence. So the expression
+
+c = -a * b;
+
+results in the multiplication of −a by b. Once again, in Appendix A you will find a table summarizing the various operators and their precedences.
+
+
+The Modulus Operator
+
+A surprisingly valuable operator, one you may not have experience with, is the modulus operator, which is symbolized by the percent sign (%). Try to determine how this operator works by analyzing Program 3.4.
+
+
+
+Program 3.4 Illustrating the Modulus Operator
+
+Click here to view code image
+
+
+
+// The modulus operator
+
+#include &lt;stdio.h&gt;
+
+int main (void)
+{
+      int a = 25, b = 5, c = 10, d = 7;
+
+      printf(&quot;a = %i, b = %i, c = %i, and d = %i\n&quot;, a, b, c, d);
+      printf (&quot;a %% b = %i\n&quot;, a % b);
+      printf (&quot;a %% c = %i\n&quot;, a % c);
+      printf (&quot;a %% d = %i\n&quot;, a % d);
+      printf (&quot;a / d * d + a %% d = %i\n&quot;,
+                  a / d * d + a % d);
+
+      return 0;
+}
+
+
+
+Program 3.4 Output
+
+Click here to view code image
+
+
+
+a = 25, b = 5, c = 10, and d = 7
+a % b = 0
+a % c = 5
+a % d = 4
+a / d * d + a % d = 25
+
+
+
+The first statement inside main() defines and initializes the variables a, b, c, and d in a single statement.
+
+For a reminder, before a series of statements that use the modulus operator are printed, the first printf() statement prints the values of the four variables used in the program. It’s not crucial, but it’s a nice reminder to help someone follow along with your program. For the remaining printf() lines, as you know,  printf() uses the character that immediately follows the percent sign to determine how to print the next argument. However, if it is another percent sign that follows, the printf() routine takes this as an indication that you really intend to display a percent sign and inserts one at the appropriate place in the program’s output.
+
+You are correct if you concluded that the function of the modulus operator % is to give the remainder of the first value divided by the second value. In the first example, the remainder after 25 is divided by 5 and is displayed as 0. If you divide 25 by 10, you get a remainder of 5, as verified by the second line of output. Dividing 25 by 7 gives a remainder of 4, as shown in the third output line.
+
+The last line of output in Program 3.4 requires a bit of explanation. First, you will notice that the program statement has been written on two lines. This is perfectly valid in C. In fact, a program statement can be continued to the next line at any point at which a blank space could be used. (An exception to this occurs when dealing with character strings—a topic discussed in Chapter 9, “Character Strings.”) At times, it might not only be desirable, but perhaps even necessary, to continue a program statement onto the next line. The continuation of the printf() call in Program 3.4 is indented to visually show that it is a continuation of the preceding program statement.
+
+Turn your attention to the expression evaluated in the final statement. You will recall that any operations between two integer values in C are performed with integer arithmetic. Therefore, any remainder resulting from the division of two integer values is simply discarded. Dividing 25 by 7, as indicated by the expression a / d, gives an intermediate result of 3. Multiplying this value by the value of d, which is 7, produces the intermediate result of 21. Finally, adding the remainder of dividing a by d, as indicated by the expression a % d, leads to the final result of 25. It is no coincidence that this value is the same as the value of the variable a. In general, the expression
+
+a / b * b + a % b
+
+will always equal the value of a, assuming of course that a and b are both integer values. In fact, the modulus operator % is defined to work only with integer values.
+
+As far as precedence is concerned, the modulus operator has equal precedence to the multiplication and division operators. This implies, of course, that an expression such as
+
+table + value % TABLE_SIZE
+
+will be evaluated as
+
+table + (value % TABLE_SIZE)
+
+
+Integer and Floating-Point Conversions
+
+To effectively develop C programs, you must understand the rules used for the implicit conversion of floating-point and integer values in C. Program 3.5 demonstrates some of the simple conversions between numeric data types. You should note that some compilers might give warning messages to alert you of the fact that conversions are being performed.
+
+
+
+Program 3.5 Converting Between Integers and Floats
+
+Click here to view code image
+
+
+
+// Basic conversions in C
+
+#include &lt;stdio.h&gt;
+
+int main (void)
+{
+      float  f1 = 123.125, f2;
+      int    i1, i2 = -150;
+      char      c = 'a';
+
+      i1 = f1;                 // floating to integer conversion
+      printf (&quot;%f assigned to an int produces %i\n&quot;, f1, i1);
+
+      f1 = i2;                 // integer to floating conversion
+      printf (&quot;%i assigned to a float produces %f\n&quot;, i2, f1);
+
+      f1 = i2 / 100;           // integer divided by integer
+      printf (&quot;%i divided by 100 produces %f\n&quot;, i2, f1);
+
+      f2 = i2 / 100.0;           // integer divided by a float
+      printf (&quot;%i divided by 100.0 produces %f\n&quot;, i2, f2);
+
+      f2 = (float) i2 / 100;     // type cast operator
+      printf (&quot;(float) %i divided by 100 produces %f\n&quot;, i2, f2);
+
+      return 0;
+}
+
+
+
+Program 3.5 Output
+
+Click here to view code image
+
+
+
+123.125000 assigned to an int produces 123
+-150 assigned to a float produces -150.000000
+-150 divided by 100 produces -1.000000
+-150 divided by 100.0 produces -1.500000
+(float) -150 divided by 100 produces -1.500000
+
+
+
+Whenever a floating-point value is assigned to an integer variable in C, the decimal portion of the number gets truncated. So, when the value of f1 is assigned to i1 in the previous program, the number 123.125 is truncated, which means that only its integer portion, or 123, is stored in i1. The first line of the program’s output verifies that this is the case.
+
+Assigning an integer variable to a floating variable does not cause any change in the value of the number; the value is simply converted by the system and stored in the floating variable. The second line of the program’s output verifies that the value of i2 (−150) was correctly converted and stored in the float variable f1.
+
+The next two lines of the program’s output illustrate two points that must be remembered when forming arithmetic expressions. The first has to do with integer arithmetic, which was previously discussed in this chapter. Whenever two operands in an expression are integers (and this applies to short, unsigned, long, and long long integers as well), the operation is carried out under the rules of integer arithmetic. Therefore, any decimal portion resulting from a division operation is discarded, even if the result is assigned to a floating variable (as you did in the program). Therefore, when the integer variable i2 is divided by the integer constant 100, the system performs the division as an integer division. The result of dividing −150 by 100, which is −1, is, therefore, the value that is stored in the float variable f1.
+
+The next division performed in the previous listing involves an integer variable and a floating-point constant. Any operation between two values in C is performed as a floating-point operation if either value is a floating-point variable or constant. Therefore, when the value of i2 is divided by 100.0, the system treats the division as a floating-point division and produces the result of −1.5, which is assigned to the float variable f1.
+
+
+The Type Cast Operator
+
+The last division operation from Program 3.5 that reads
+
+
+
+Click here to view code image
+
+f2 = (float) i2 / 100;     // type cast operator
+
+introduces the type cast operator. The type cast operator has the effect of converting the value of the variable i2 to type float for purposes of evaluation of the expression. In no way does this operator permanently affect the value of the variable i2; it is a unary operator that behaves like other unary operators. Because the expression −a has no permanent effect on the value of a, neither does the expression (float) a.
+
+The type cast operator has a higher precedence than all the arithmetic operators except the unary minus and unary plus. Of course, if necessary, you can always use parentheses in an expression to force the terms to be evaluated in any desired order.
+
+As another example of the use of the type cast operator, the expression
+
+(int) 29.55 + (int) 21.99
+
+is evaluated in C as
+
+29 + 21
+
+because the effect of casting a floating value to an integer is one of truncating the floating-point value. The expression
+
+(float) 6 / (float) 4
+
+produces a result of 1.5, as does the following expression:
+
+(float) 6 / 4
+
+
+Combining Operations with Assignment: The Assignment Operators
+
+The C language permits you to join the arithmetic operators with the assignment operator using the following general format: op=
+
+
+
+In this format, op is any of the arithmetic operators, including +, −, ×, /, and %. In addition, op can be any of the bit operators for shifting and masking, which is discussed later.
+
+Consider this statement:
+
+count += 10;
+
+The effect of the so-called “plus equals” operator += is to add the expression on the right side of the operator to the expression on the left side of the operator and to store the result back into the variable on the left-hand side of the operator. So, the previous statement is equivalent to this statement:
+
+count = count + 10;
+
+The expression
+
+counter -= 5
+
+uses the “minus equals” assignment operator to subtract 5 from the value of counter and is equivalent to this expression:
+
+counter = counter - 5
+
+A slightly more involved expression is
+
+a /= b + c
+
+which divides a by whatever appears to the right of the equal sign—or by the sum of b and c—and stores the result in a. The addition is performed first because the addition operator has higher precedence than the assignment operator. In fact, all operators but the comma operator have higher precedence than the assignment operators, which all have the same precedence.
+
+In this case, this expression is identical to the following:
+
+a = a / (b + c)
+
+The motivation for using assignment operators is threefold. First, the program statement becomes easier to write because what appears on the left side of the operator does not have to be repeated on the right side. Second, the resulting expression is usually easier to read. Third, the use of these operators can result in programs that execute more quickly because the compiler can sometimes generate less code to evaluate an expression.
+
+
+Types _Complex and _Imaginary
+
+Before leaving this chapter it is worthy to note two other types in the language called _Complex and _Imaginary for working with complex and imaginary numbers.
+
+
+
+Support for _Complex and _Imaginary types has been part of the ANSI C standard since C99, although C11 does make it optional. The best way to know if your compiler supports these types is to examine the summary of data types in Appendix A.
+
+
+Exercises
+
+1. Type in and run the five programs presented in this chapter. Compare the output produced by each program with the output presented after each program in the text.
+
+
+
+2. Which of the following are invalid variable names? Why?
+
+Click here to view code image
+
+Int            char     6_05
+Calloc         Xx       alpha_beta_routine
+floating       _1312    z
+ReInitialize   _        A$
+
+3. Which of the following are invalid constants? Why?
+
+Click here to view code image
+
+123.456     0x10.5     0X0G1
+0001        0xFFFF     123L
+0Xab05      0L         -597.25
+123.5e2     .0001      +12
+98.6F       98.7U     17777s
+0996        -12E-12   07777
+1234uL      1.2Fe-7   15,000
+1.234L      197u      100U
+0XABCDEFL   0xabcu    +123
+
+4. Write a program that converts 27® from degrees Fahrenheit (F) to degrees Celsius (C) using the following formula:
+
+C = (F - 32) / 1.8
+
+5. What output would you expect from the following program?
+
+#include &lt;stdio.h&gt;
+
+int main (void)
+{
+     char c, d;
+
+     c = 'd';
+     d = c;
+     printf (&quot;d = %c\n&quot;, d);
+
+    return 0;
+}
+
+6. Write a program to evaluate the polynomial shown here:
+
+3x3 - 5x2 + 6
+
+for x = 2.55.
+
+7. Write a program that evaluates the following expression and displays the results (remember to use exponential format to display the result):
+
+Click here to view code image
+
+(3.31 x 10-8 x  2.01 x 10-7) / (7.16 x 10-6 + 2.01 x 10-8)
+
+8. To round off an integer i to the next largest even multiple of another integer j, the following formula can be used:
+
+Next_multiple = i + j - i % j
+
+For example, to round off 256 days to the next largest number of days evenly divisible by a week, values of i = 256 and j = 7 can be substituted into the preceding formula as follows:
+
+Click here to view code image
+
+Next_multiple    = 256 + 7 - 256 % 7
+                 = 256 + 7 - 4
+                 = 259
+
+9. Write a program to find the next largest even multiple for the following values of i and j:
+
+[image: Image]
+
+
+4. Program Looping
+
+One of the great powers of computers is their ability to perform repeated calculations. The C program has a few constructs specifically designed to handle these situations when you need to use the same code repeatedly. This chapter will help you understand these tools, including
+
+[image: Image] The for statement
+
+[image: Image] The while statement
+
+[image: Image] The do statement
+
+[image: Image] The break statement
+
+[image: Image] The continue statement
+
+
+Triangular Numbers
+
+If you arrange 15 dots in the shape of a triangle, you end up with an arrangement that might look something like this:
+
+
+
+                                           •
+                                         •   •
+                                       •   •   •
+                                     •   •   •   •
+                                   •   •   •   •   •
+
+The first row of the triangle contains one dot, the second row contains two dots, and so on. In general, the number of dots it takes to form a triangle containing n rows is the sum of the integers from 1 through n. This sum is known as a triangular number. If you start at 1, the fourth triangular number is the sum of the consecutive integers 1 through 4 (1 + 2 + 3 + 4), or 10.
+
+Suppose you want to write a program that calculates and displays the value of the eighth triangular number at the terminal. Obviously, you could easily calculate this number in your head, but for the sake of argument, assume that you want to write a program in C to perform this task. Such a program is shown in Program 4.1.
+
+The technique of Program 4.1 works fine for calculating relatively small, triangular numbers. But what happens if you need to find the value of the 200th triangular number, for example? It certainly would be tedious to modify Program 4.1 to explicitly add up all of the integers from 1 to 200. Luckily, there is an easier way.
+
+Program 4.1 Calculating the Eighth Triangular Number
+
+Click here to view code image
+
+
+
+// Program to calculate the eighth triangular number
+
+#include &lt;stdio.h&gt;
+
+int main ()
+{
+        int  triangularNumber;
+
+        triangularNumber = 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8;
+
+        printf (&quot;The eighth triangular number is %i\n&quot;,  triangularNumber);
+
+        return 0;
+}
+
+
+
+Program 4.1 Output
+
+Click here to view code image
+
+
+
+The eighth triangular number is 36
+
+
+
+One of the fundamental properties of a computer is its ability to repetitively execute a set of statements. These looping capabilities enable you to develop concise programs containing repetitive</pre></div>                                                                    </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr style="height:60px">
+                    <td id="footer" valign="top">
+                        <div class="container-fluid">
+<!-- footer begin -->
+<div class="row">
+    <div class="col-md-12">
+        <div style="float:left; color:#888; font-size:13px;">
+            <span style="font-style:italic;">Free ebooks since 2009. <a style="margin:0 5px 0 20px" href="mailto:support@bookmail.org">support@bookmail.org</a></span>
+            <span style="margin:0 0 0 15px;"> <a href="/faq.php">FAQ</a></span>
+            <span style="margin:0 0 0 15px;"> <a href="/blog/">Blog</a></span>
+        </div>
+        <div style="float: right;" role="navigation">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/privacy.php">Privacy</a></li>
+                <li><a href="/dmca.php">DMCA</a></li>
+                <li class="dropup">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">English <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a onclick="setLanguage('en'); return false;" href="//en.b-ok.cc/book/3410504/f27cb9">English</a></li><li><a onclick="setLanguage('ru'); return false;" href="//ru.b-ok.cc/book/3410504/f27cb9">Русский</a></li><li><a onclick="setLanguage('ua'); return false;" href="//ua.b-ok.cc/book/3410504/f27cb9">Українська</a></li><li><a onclick="setLanguage('pl'); return false;" href="//pl.b-ok.cc/book/3410504/f27cb9">Polski</a></li><li><a onclick="setLanguage('it'); return false;" href="//it.b-ok.cc/book/3410504/f27cb9">Italiano</a></li><li><a onclick="setLanguage('es'); return false;" href="//es.b-ok.cc/book/3410504/f27cb9">Español</a></li><li><a onclick="setLanguage('zh'); return false;" href="//zh.b-ok.cc/book/3410504/f27cb9">汉语</a></li><li><a onclick="setLanguage('id'); return false;" href="//id.b-ok.cc/book/3410504/f27cb9">Bahasa Indonesia</a></li><li><a onclick="setLanguage('in'); return false;" href="//in.b-ok.cc/book/3410504/f27cb9">हिन्दी</a></li><li><a onclick="setLanguage('pt'); return false;" href="//pt.b-ok.cc/book/3410504/f27cb9">Português</a></li><li><a onclick="setLanguage('jp'); return false;" href="//jp.b-ok.cc/book/3410504/f27cb9">日本語</a></li><li><a onclick="setLanguage('de'); return false;" href="//de.b-ok.cc/book/3410504/f27cb9">Deutsch</a></li><li><a onclick="setLanguage('fr'); return false;" href="//fr.b-ok.cc/book/3410504/f27cb9">Français</a></li><li><a onclick="setLanguage('th'); return false;" href="//th.b-ok.cc/book/3410504/f27cb9">ภาษาไทย</a></li><li><a onclick="setLanguage('el'); return false;" href="//el.b-ok.cc/book/3410504/f27cb9">ελληνικά </a></li><li><a onclick="setLanguage('ar'); return false;" href="//ar.b-ok.cc/book/3410504/f27cb9">اللغة العربية</a></li>                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div></div>
+                    </td>
+                </tr>
+            </tbody></table>
+
+
+        <script type="text/javascript" src="/scripts/root.js?version=1x03"></script>
+        <script type="text/javascript" src="/ext/paginator3000/jquery.paginator.3000.js"></script>
+        <script>
+            if (typeof pagerOptions !== "undefined" && pagerOptions) {
+                $('div.paginator').paginator(pagerOptions);
+            }
+        </script>
+        <!-- ggAdditionalHtml -->
+        
+    <script>
+        var Config = {"currentLanguage":"en","L":{"90":"The file is located on an external resource","91":"It is a folder","92":"File from disk storage","93":"File is aviable by direct link","94":"Popular","95":"Limitation of downloading: no more than 2 files at same time","96":"Size","97":" Language","98":"Category","99":"Find all the author's book"}};
+    </script>
+    <!--LiveInternet counter--><script type="text/javascript">
+new Image().src = "//counter.yadro.ru/hit;bookzz?r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random();</script><!--/LiveInternet-->
+
+<iframe name="uploader" id="uploader" style="border:0px solid #ddd; width:90%; display:none;"></iframe>        <!-- /ggAdditionalHtml -->
+        <script src="/adhelper/helpers.js"></script><script src="/adhelper/jquert.jsRotate.js"></script>    </body>
+</html>

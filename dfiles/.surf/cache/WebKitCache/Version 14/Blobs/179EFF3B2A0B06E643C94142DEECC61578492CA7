@@ -1,0 +1,3217 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en" id="vbulletin_html">
+<head>
+<base href="https://cboard.cprogramming.com/" /><!--[if IE]></base><![endif]-->
+<link href="https://mainsite-static-cprogrammingcom.netdna-ssl.com/syntax-highlight/styles/shCore.css" rel="stylesheet" type="text/css" />
+<link href="https://mainsite-static-cprogrammingcom.netdna-ssl.com/syntax-highlight/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
+
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta id="e_vb_meta_bburl" name="vb_meta_bburl" content="https://cboard.cprogramming.com" />
+
+<meta name="generator" content="vBulletin 4.2.5" />
+
+	<link rel="Shortcut Icon" href="https://cboard.cprogramming.com/favicon.ico" type="image/x-icon" />
+
+
+
+
+
+
+
+
+	
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/yui/2.9.0/build/yuiloader-dom-event/yuiloader-dom-event.js"></script>
+	
+
+<script type="text/javascript">
+<!--
+	if (typeof YAHOO === 'undefined') // Load ALL YUI Local
+	{
+		document.write('<script type="text/javascript" src="clientscript/yui/yuiloader-dom-event/yuiloader-dom-event.js?v=425"><\/script>');
+		document.write('<script type="text/javascript" src="clientscript/yui/connection/connection-min.js?v=425"><\/script>');
+		var yuipath = 'clientscript/yui';
+		var yuicombopath = '';
+		var remoteyui = false;
+	}
+	else	// Load Rest of YUI remotely (where possible)
+	{
+		var yuipath = 'https://ajax.googleapis.com/ajax/libs/yui/2.9.0/build';
+		var yuicombopath = '';
+		var remoteyui = true;
+		if (!yuicombopath)
+		{
+			document.write('<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/yui/2.9.0/build/connection/connection-min.js?v=425"><\/script>');
+		}
+	}
+	var SESSIONURL = "s=ad8d6bce2d6e047bbf5889e030c22c3f&";
+	var SECURITYTOKEN = "guest";
+	var IMGDIR_MISC = "images/misc";
+	var IMGDIR_BUTTON = "images/buttons";
+	var vb_disable_ajax = parseInt("0", 10);
+	var SIMPLEVERSION = "425";
+	var BBURL = "https://cboard.cprogramming.com";
+	var LOGGEDIN = 0 > 0 ? true : false;
+	var THIS_SCRIPT = "showthread";
+	var RELPATH = "showthread.php?t=57178";
+	var PATHS = {
+		forum : "",
+		cms   : "",
+		blog  : ""
+	};
+	var AJAXBASEURL = "https://cboard.cprogramming.com/";
+// -->
+</script>
+<script type="text/javascript" src="https://cboard.cprogramming.com/clientscript/vbulletin-core.js?v=425"></script>
+
+
+
+	<link rel="alternate" type="application/rss+xml" title="C Board RSS Feed" href="https://cboard.cprogramming.com/external.php?type=RSS2" />
+	
+		<link rel="alternate" type="application/rss+xml" title="C Board - Windows Programming - RSS Feed" href="https://cboard.cprogramming.com/external.php?type=RSS2&amp;forumids=7" />
+	
+
+
+
+	<link rel="stylesheet" type="text/css" href="https://cboard.cprogramming.com/clientscript/vbulletin_css/style00006l/main-rollup.css?d=1554700297" />
+        
+
+	<!--[if lt IE 8]>
+	<link rel="stylesheet" type="text/css" href="https://cboard.cprogramming.com/clientscript/vbulletin_css/style00006l/popupmenu-ie.css?d=1554700297" />
+	<link rel="stylesheet" type="text/css" href="https://cboard.cprogramming.com/clientscript/vbulletin_css/style00006l/vbulletin-ie.css?d=1554700297" />
+	<link rel="stylesheet" type="text/css" href="https://cboard.cprogramming.com/clientscript/vbulletin_css/style00006l/vbulletin-chrome-ie.css?d=1554700297" />
+	<link rel="stylesheet" type="text/css" href="https://cboard.cprogramming.com/clientscript/vbulletin_css/style00006l/vbulletin-formcontrols-ie.css?d=1554700297" />
+	<link rel="stylesheet" type="text/css" href="https://cboard.cprogramming.com/clientscript/vbulletin_css/style00006l/editor-ie.css?d=1554700297" />
+	<![endif]-->
+
+<script type="application/ld+json">
+{
+	"@context": "http://schema.org",
+	"@type": "WebSite",
+	"url": "https://www.cprogramming.com",
+	"potentialAction": {
+		"@type": "SearchAction",
+		"target": "https://cboard.cprogramming.com/search.php?do=process&query={search_term_string}",
+		"query-input": "required name=search_term_string"
+	}
+}
+</script>
+	
+	<meta name="description" content="i was given this example to paste from the clipboard and it works fine. Code: #include &lt;stdio.h&gt; #include &lt;windows.h&gt; #include &lt;iostrea" />
+
+	<title> copying to clipboard</title>
+	<link rel="canonical" href="https://cboard.cprogramming.com/windows-programming/57178-copying-clipboard.html?s=ad8d6bce2d6e047bbf5889e030c22c3f" />
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+		<link rel="stylesheet" type="text/css" href="https://cboard.cprogramming.com/clientscript/vbulletin_css/style00006l/showthread-rollup.css?d=1554700297" />
+	
+	<!--[if lt IE 8]><link rel="stylesheet" type="text/css" href="https://cboard.cprogramming.com/clientscript/vbulletin_css/style00006l/toolsmenu-ie.css?d=1554700297" />
+	<link rel="stylesheet" type="text/css" href="https://cboard.cprogramming.com/clientscript/vbulletin_css/style00006l/postlist-ie.css?d=1554700297" />
+	<link rel="stylesheet" type="text/css" href="https://cboard.cprogramming.com/clientscript/vbulletin_css/style00006l/showthread-ie.css?d=1554700297" />
+	<link rel="stylesheet" type="text/css" href="https://cboard.cprogramming.com/clientscript/vbulletin_css/style00006l/postbit-ie.css?d=1554700297" />
+	<link rel="stylesheet" type="text/css" href="https://cboard.cprogramming.com/clientscript/vbulletin_css/style00006l/poll-ie.css?d=1554700297" /><![endif]-->
+<link rel="stylesheet" type="text/css" href="https://cboard.cprogramming.com/clientscript/vbulletin_css/style00006l/additional.css?d=1554700297" />
+
+<link rel="stylesheet" type="text/css" href="https://cboard.cprogramming.com/clientscript/vbulletin_css/style00006l/additional.css?d=1554700297" />
+
+
+
+<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script>
+
+<script>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/1038815/Message_board_box_sync_tag', [300, 250], 'div-gpt-ad-1526968534026-0').addService(googletag.pubads());
+    googletag.defineSlot('/1038815/MessageBoard_ATF_leaderboard_728x90', [728, 90], 'div-gpt-ad-1526968534026-1').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+
+
+
+					<script type="text/javascript">
+					<!--
+						var _gaq = _gaq || [];
+						var inPagePlugin = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+
+						_gaq.push(['_setAccount', 'UA-7820175-1']);
+
+_gaq.push(['_trackPageview']);
+
+						(function() {
+							var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+							ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+							var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+						})();
+					//-->
+					</script>
+				</head>
+
+<body>
+
+<div class="above_body"> <!-- closing tag is in template navbar -->
+<div id="header" class="floatcontainer doc_header">
+	<div><a name="top" href="https://cboard.cprogramming.com/?s=ad8d6bce2d6e047bbf5889e030c22c3f" class="logo-image"><img src="https://cboard.cprogramming.com/head/cprog.png" alt="C Board" /></a></div>
+	<div id="toplinks" class="toplinks">
+		
+			<ul class="nouser">
+			
+				<li><a href="https://cboard.cprogramming.com/register.php?s=ad8d6bce2d6e047bbf5889e030c22c3f" rel="nofollow">Register</a></li>
+			
+				
+				<li>
+			<script type="text/javascript" src="clientscript/vbulletin_md5.js?v=425"></script>
+			<form id="navbar_loginform" action="https://cboard.cprogramming.com/login.php?s=ad8d6bce2d6e047bbf5889e030c22c3f&amp;do=login" method="post" onsubmit="md5hash(vb_login_password, vb_login_md5password, vb_login_md5password_utf, 0)">
+				<fieldset id="logindetails" class="logindetails">
+					<div>
+						<div>
+					<input type="text" class="textbox default-value" name="vb_login_username" id="navbar_username" size="10" accesskey="u" tabindex="101" value="User Name" />
+					<input type="password" class="textbox" tabindex="102" name="vb_login_password" id="navbar_password" size="10" />
+					<input type="text" class="textbox default-value" tabindex="102" name="vb_login_password_hint" id="navbar_password_hint" size="10" value="Password" style="display:none;" />
+					<input type="submit" class="loginbutton" tabindex="104" value="Log in" title="Enter your username and password in the boxes provided to login, or click the 'register' button to create a profile for yourself." accesskey="s" />
+						</div>
+					</div>
+				</fieldset>
+				<div id="remember" class="remember">
+					<label for="cb_cookieuser_navbar"><input type="checkbox" name="cookieuser" value="1" id="cb_cookieuser_navbar" class="cb_cookieuser_navbar" accesskey="c" tabindex="103" /> Remember Me?</label>
+				</div>
+
+				<input type="hidden" name="s" value="ad8d6bce2d6e047bbf5889e030c22c3f" />
+				<input type="hidden" name="securitytoken" value="guest" />
+				<input type="hidden" name="do" value="login" />
+				<input type="hidden" name="vb_login_md5password" />
+				<input type="hidden" name="vb_login_md5password_utf" />
+			</form>
+			<script type="text/javascript">
+			YAHOO.util.Dom.setStyle('navbar_password_hint', "display", "inline");
+			YAHOO.util.Dom.setStyle('navbar_password', "display", "none");
+			vB_XHTML_Ready.subscribe(function()
+			{
+			//
+				YAHOO.util.Event.on('navbar_username', "focus", navbar_username_focus);
+				YAHOO.util.Event.on('navbar_username', "blur", navbar_username_blur);
+				YAHOO.util.Event.on('navbar_password_hint', "focus", navbar_password_hint);
+				YAHOO.util.Event.on('navbar_password', "blur", navbar_password);
+			});
+			
+			function navbar_username_focus(e)
+			{
+			//
+				var textbox = YAHOO.util.Event.getTarget(e);
+				if (textbox.value == 'User Name')
+				{
+				//
+					textbox.value='';
+					textbox.style.color='#000000';
+				}
+			}
+
+			function navbar_username_blur(e)
+			{
+			//
+				var textbox = YAHOO.util.Event.getTarget(e);
+				if (textbox.value == '')
+				{
+				//
+					textbox.value='User Name';
+					textbox.style.color='#777777';
+				}
+			}
+			
+			function navbar_password_hint(e)
+			{
+			//
+				var textbox = YAHOO.util.Event.getTarget(e);
+				
+				YAHOO.util.Dom.setStyle('navbar_password_hint', "display", "none");
+				YAHOO.util.Dom.setStyle('navbar_password', "display", "inline");
+				YAHOO.util.Dom.get('navbar_password').focus();
+			}
+
+			function navbar_password(e)
+			{
+			//
+				var textbox = YAHOO.util.Event.getTarget(e);
+				
+				if (textbox.value == '')
+				{
+					YAHOO.util.Dom.setStyle('navbar_password_hint', "display", "inline");
+					YAHOO.util.Dom.setStyle('navbar_password', "display", "none");
+				}
+			}
+			</script>
+				</li>
+				
+			</ul>
+		
+	</div>
+	<div class="ad_global_header">
+		 
+		 
+	</div>
+	<hr />
+</div>
+<style type="text/css">
+.bbcode_container {
+overflow: auto;
+}
+</style>
+<div id="navbar" class="navbar">
+	<ul id="navtabs" class="navtabs floatcontainer">
+		
+		
+			<li class="selected"><a class="navtab" href="https://cboard.cprogramming.com/?s=ad8d6bce2d6e047bbf5889e030c22c3f">Forum</a>
+				<ul class="floatcontainer">
+					
+					
+					
+						
+						<li><a href="https://cboard.cprogramming.com/search.php?do=getdaily&amp;contenttype=vBForum_Post&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f">Today's Posts</a></li>
+						
+					
+					
+					
+					
+					<li><a rel="help" href="http://faq.cprogramming.com/cgi-bin/smartfaq.cgi?s=ad8d6bce2d6e047bbf5889e030c22c3f" accesskey="5">C and C++ FAQ</a></li>
+					
+					
+					
+					
+					
+					<li class="popupmenu">
+						<a href="javascript://" class="popupctrl">Forum Actions</a>
+						<ul class="popupbody popuphover">
+							
+							<li>
+								<a rel="nofollow" href="https://cboard.cprogramming.com/forumdisplay.php?do=markread&amp;markreadhash=guest&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f">Mark Forums Read</a>
+							</li>
+							
+							
+						</ul>
+					</li>
+					
+					<li class="popupmenu">
+						<a href="javascript://" class="popupctrl" accesskey="3">Quick Links</a>
+						<ul class="popupbody popuphover">
+							
+							
+							
+							
+							<li><a href="https://cboard.cprogramming.com/showgroups.php?s=ad8d6bce2d6e047bbf5889e030c22c3f" rel="nofollow">
+								
+									View Forum Leaders
+								
+							</a></li>
+							
+							
+							
+							
+						</ul>
+					</li>
+					
+				</ul>
+			</li>
+		
+		
+		
+			<li><a class="navtab" href="https://cboard.cprogramming.com/search.php?do=getdaily&amp;contenttype=vBForum_Post&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" accesskey="2">What's New?</a></li>
+		
+<li><a class="navtab" href="http://www.cprogramming.com/begin.html?mb=top">Get Started with C or C++</a></li>
+<li><a class="navtab" href="http://www.cprogramming.com/tutorial/c-tutorial.html?mb=top">C Tutorial</a></li>
+<li><a class="navtab" href="http://www.cprogramming.com/tutorial/c++-tutorial.html?mb=top">C++ Tutorial</a></li>
+<li><a class="navtab" href="http://www.cprogramming.com/c++book/?inl=mbnav">Get the C++ Book</a></li>
+<li><a class="navtab" href="http://www.cprogramming.com/tutorial.html?mb=top">All Tutorials</a></li>
+		
+	</ul>
+	
+		<div id="globalsearch" class="globalsearch">
+			<form action="https://cboard.cprogramming.com/search.php?s=ad8d6bce2d6e047bbf5889e030c22c3f&amp;do=process" method="post" id="navbar_search" class="navbar_search">
+				
+				<input type="hidden" name="securitytoken" value="guest" />
+				<input type="hidden" name="do" value="process" />
+				<span class="textboxcontainer"><span><input type="text" value="" name="query" class="textbox" tabindex="99"/></span></span>
+				<span class="buttoncontainer"><span><input type="image" class="searchbutton" src="images/buttons/search.png" name="submit" onclick="document.getElementById('navbar_search').submit;" tabindex="100"/></span></span>
+			</form>
+			<ul class="navbar_advanced_search">
+				<li><a href="https://cboard.cprogramming.com/search.php?s=ad8d6bce2d6e047bbf5889e030c22c3f" accesskey="4">Advanced Search</a></li>
+				
+			</ul>
+		</div>
+	
+</div>
+</div><!-- closing div for above_body -->
+
+<div class="body_wrapper">
+<div id="breadcrumb" class="breadcrumb">
+	<ul class="floatcontainer">
+		<li class="navbithome"><a href="https://cboard.cprogramming.com/?s=ad8d6bce2d6e047bbf5889e030c22c3f" accesskey="1"><img src="https://cboard.cprogramming.com/images/misc/navbit-home.png" alt="Home" /></a></li>
+		
+	<li class="navbit" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="https://cboard.cprogramming.com/?s=ad8d6bce2d6e047bbf5889e030c22c3f" itemprop="url"><span itemprop="title">Forum</span></a></li>
+
+	<li class="navbit" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="https://cboard.cprogramming.com/platform-specific-boards/?s=ad8d6bce2d6e047bbf5889e030c22c3f" itemprop="url"><span itemprop="title">Platform Specific Boards</span></a></li>
+
+	<li class="navbit" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="https://cboard.cprogramming.com/windows-programming/?s=ad8d6bce2d6e047bbf5889e030c22c3f" itemprop="url"><span itemprop="title">Windows Programming</span></a></li>
+
+		
+	<li class="navbit lastnavbit"><span itemprop="title"> copying to clipboard</span></li>
+
+	</ul>
+	<hr />
+</div>
+
+
+<div style="width:728px; margin:0 auto; padding-bottom:1em">
+
+
+</div>
+
+ 
+
+
+	<form action="https://cboard.cprogramming.com/profile.php?do=dismissnotice" method="post" id="notices" class="notices">
+		<input type="hidden" name="do" value="dismissnotice" />
+		<input type="hidden" name="s" value="s=ad8d6bce2d6e047bbf5889e030c22c3f&amp;" />
+		<input type="hidden" name="securitytoken" value="guest" />
+		<input type="hidden" id="dismiss_notice_hidden" name="dismiss_noticeid" value="" />
+		<input type="hidden" name="url" value="" />
+		<ol>
+			<li class="restore" id="navbar_notice_1">
+	
+	<a href=http://www.cprogramming.com/begin.html?mb=unreg>Getting started with C or C++</a> | <a href="http://www.cprogramming.com/tutorial/c-tutorial.html?mb=unreg-c">C Tutorial</a> | <a href="http://www.cprogramming.com/tutorial/c++-tutorial.html?mb=unreg-cpp">C++ Tutorial</a> | <a href="http://faq.cprogramming.com/cgi-bin/smartfaq.cgi?mb=unreg">C and C++ FAQ</a> | <a href=http://www.cprogramming.com/code_blocks/?mb=unreg>Get a compiler</a> | <a href=http://www.cprogramming.com/tutorial/common.html?mb=unreg>Fixes for common problems</a>
+</li>
+		</ol>
+	</form>
+
+
+
+
+
+	<div id="pagetitle" class="pagetitle">
+		<h1>
+			Thread: <span class="threadtitle"><a href="https://cboard.cprogramming.com/windows-programming/57178-copying-clipboard.html?s=ad8d6bce2d6e047bbf5889e030c22c3f" title="Reload this Page">copying to clipboard</a></span>
+		</h1>
+		
+	</div>
+	<div id="thread_controls" class="thread_controls toolsmenu">
+		<div>
+		<ul id="postlist_popups" class="postlist_popups popupgroup">
+			
+			
+			<li class="popupmenu" id="threadtools">
+				<h6><a class="popupctrl" href="javascript://">Thread Tools</a></h6>
+				<ul class="popupbody popuphover">
+					<li><a href="https://cboard.cprogramming.com/printthread.php?t=57178&amp;pp=15&amp;page=1&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" accesskey="3" rel="nofollow">Show Printable Version</a></li>
+					
+						<li><a href="https://cboard.cprogramming.com/sendmessage.php?do=sendtofriend&amp;t=57178&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" rel="nofollow">Email this Page&hellip;</a></li>
+					
+					<li>
+						
+							<a href="https://cboard.cprogramming.com/subscription.php?do=addsubscription&amp;t=57178&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" rel="nofollow">Subscribe to this Thread&hellip;</a>
+						
+					</li>
+					
+				</ul>
+			</li>
+
+			
+
+			
+				<li class="popupmenu searchthread menusearch" id="searchthread">
+					<h6><a class="popupctrl" href="javascript://">Search Thread</a></h6>
+					<form action="https://cboard.cprogramming.com/search.php" method="post">
+						<ul class="popupbody popuphover">
+							<li>
+								<input type="text" name="query" class="searchbox" value="Search..." tabindex="13" />
+								<input type="submit" class="button" value="Search" tabindex="14" />
+							</li>
+							<li class="formsubmit" id="popupsearch">
+								<div class="submitoptions">&nbsp;</div>
+								<div class="advancedsearchlink"><a rel="nofollow" href="https://cboard.cprogramming.com/search.php?search_type=1&amp;searchthreadid=57178&amp;contenttype=vBForum_Post&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f">Advanced Search</a></div>
+							</li>
+						</ul>
+						<input type="hidden" name="s" value="ad8d6bce2d6e047bbf5889e030c22c3f" />
+						<input type="hidden" name="securitytoken" value="guest" />
+						<input type="hidden" name="do" value="process" />
+						<input type="hidden" name="searchthreadid" value="57178" />
+						<input type="hidden" name="search_type" value="1" />
+						<input type="hidden" name="contenttype" value="vBForum_Post" />
+					</form>
+				</li>
+			
+
+			
+
+			
+				<li class="popupmenu" id="displaymodes">
+					<h6><a class="popupctrl" href="javascript://">Display</a></h6>
+					<ul class="popupbody popuphover">
+						<li><label>Linear Mode</label></li>
+						<li><a rel="nofollow" href="https://cboard.cprogramming.com/windows-programming/57178-copying-clipboard.html?mode=hybrid&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f"> Switch to Hybrid Mode</a></li>
+						<li><a rel="nofollow" href="https://cboard.cprogramming.com/windows-programming/57178-copying-clipboard-post400713.html?mode=threaded&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f#post400713"> Switch to Threaded Mode</a></li>
+					</ul>
+				</li>
+			
+
+			
+			</ul>
+		</div>
+	</div>
+
+<div id="postlist" class="postlist restrain">
+	
+
+	
+		<ol id="posts" class="posts" start="1">
+			
+<li class="postbitlegacy postbitim postcontainer old" id="post_400713">
+<!-- see bottom of postbit.css for .userinfo .popupmenu styles -->
+
+	<div class="posthead">
+			<span class="postdate old">
+				
+					<span class="date">09-25-2004</span>
+				
+			</span>
+			<span class="nodecontrols">
+				
+					<a name="post400713" href="https://cboard.cprogramming.com/windows-programming/57178-copying-clipboard-post400713.html?s=ad8d6bce2d6e047bbf5889e030c22c3f#post400713" class="postcounter">#1</a><a id="postcount400713" name="1"></a>
+				
+				
+				
+			</span>
+	</div>
+	<div class="postdetails">
+		<div class="userinfo">
+			<div class="username_container">
+			
+				<div class="popupmenu memberaction">
+	<a rel="nofollow" class="username offline popupctrl" href="https://cboard.cprogramming.com/member.php?u=11448&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" title="bballzone is offline"><strong>bballzone</strong></a>
+	<ul class="popupbody popuphover memberaction_body">
+		<li class="left">
+			<a rel="nofollow" href="https://cboard.cprogramming.com/member.php?u=11448&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" class="siteicon_profile">
+				View Profile
+			</a>
+		</li>
+		
+		<li class="right">
+			<a href="https://cboard.cprogramming.com/search.php?do=finduser&amp;userid=11448&amp;contenttype=vBForum_Post&amp;showposts=1&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" class="siteicon_forum" rel="nofollow">
+				View Forum Posts
+			</a>
+		</li>
+		
+		
+		
+		
+		
+		
+		
+		
+
+		
+
+		
+		
+	</ul>
+</div>
+				<img class="inlineimg onlinestatus" src="https://cboard.cprogramming.com/images/statusicon/user-offline.png" alt="bballzone is offline" border="0" />
+
+			
+			</div>
+			<span class="usertitle">
+				Registered User
+			</span>
+			
+			
+			
+			 
+			
+				<hr />
+				<dl class="userinfo_extra">
+					<dt>Join Date</dt> <dd>Jul 2004</dd>
+					
+					
+					<dt>Posts</dt> <dd>67</dd>	
+					
+				</dl>
+				
+				
+				<div class="imlinks">
+					    
+				</div>
+			
+		</div>
+		<div class="postbody">
+			<div class="postrow">
+				
+				
+				<h2 class="title icon">
+					copying to clipboard
+				</h2>
+				
+
+
+						
+							<div style="float:left; width:300px; height:250px; margin:0px 10px 10px 0px">
+
+
+
+<!-- /1038815/Message_board_box_sync_tag -->
+<div id='div-gpt-ad-1526968534026-0' style='height:250px; width:300px;'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1526968534026-0'); });
+</script>
+</div>
+
+</div>
+							
+						
+						
+				<div class="content">
+					<div id="post_message_400713">
+						<blockquote class="postcontent restore " style="overflow: visible">
+							i was given this example to paste from the clipboard and it works fine.<br />
+<br />
+<div class="bbcode_container">
+	<div class="bbcode_description">Code:</div>
+	<pre class="bbcode_code">#include &lt;stdio.h&gt; 
+#include &lt;windows.h&gt; 
+#include &lt;iostream.h&gt;
+#include &lt;fstream.h&gt;
+#include &lt;stdlib.h&gt;
+#include &lt;string.h&gt;
+#include &lt;windows.h&gt;
+#include &lt;cstdio&gt; 
+#include &lt;conio.h&gt;
+
+int GetClipboardSize() 
+{ 
+  OpenClipboard(NULL) ;                          // Obtain clipboard 
+  HGLOBAL handle = GetClipboardData (CF_TEXT) ;  // get handle to data 
+  CloseClipboard() ;                             // Close clipboard 
+  return GlobalSize( handle ) ;                  // return size of data 
+} 
+
+void GetClipboardText( TCHAR * buffer ) 
+{ 
+  OpenClipboard(NULL) ;                          // Obtain clipboard  
+  HGLOBAL handle = GetClipboardData (CF_TEXT) ;  // get handle to data  
+  char* szClipboard = (char*)GlobalLock(handle); // lock data 
+  lstrcpy( buffer, szClipboard ) ;               // copy clipboard text 
+  GlobalUnlock (handle) ;                        // unlock data 
+  CloseClipboard () ;                            // close data 
+} 
+
+int main() 
+{
+  // Allocate enough memory to save text in clipboard. 
+  char * szClipboardText = new char[ GetClipboardSize() + 1 ] ; 
+
+  // Get the clipboard text. 
+  GetClipboardText( szClipboardText ) ; 
+
+  // Print clipboard text. 
+  printf( &quot;Clipboard Text: \&quot;%s\&quot;&quot;, szClipboardText ); 
+cout &lt;&lt; endl;
+
+  // Delete the memory. 
+  delete[] szClipboardText ; 
+
+  getchar(); 
+}</pre>
+</div><br />
+is there similar code that will copy to the clipboard? i would like to use these two together.
+						</blockquote>
+					</div>
+
+					
+				</div>
+			</div>
+			
+			<div class="cleardiv"></div>
+		</div>
+	</div>
+		<div class="postfoot">
+			<!-- <div class="postfoot_container"> -->
+			<div class="textcontrols floatcontainer">
+				<span class="postcontrols">
+					<img style="display:none" id="progress_400713" src="https://cboard.cprogramming.com/images/misc/progress.gif" alt="" />
+					
+					
+					
+					
+				</span>
+				<span class="postlinking">
+					
+						
+					
+
+					
+					
+					
+					
+
+					
+					
+
+					
+					
+					
+					
+					
+				</span>
+			<!-- </div> -->
+			</div>
+		</div>
+	<hr />
+</li>
+
+<li class="postbitlegacy postbitim postcontainer old" id="post_400728">
+<!-- see bottom of postbit.css for .userinfo .popupmenu styles -->
+
+	<div class="posthead">
+			<span class="postdate old">
+				
+					<span class="date">09-26-2004</span>
+				
+			</span>
+			<span class="nodecontrols">
+				
+					<a name="post400728" href="https://cboard.cprogramming.com/windows-programming/57178-copying-clipboard-post400728.html?s=ad8d6bce2d6e047bbf5889e030c22c3f#post400728" class="postcounter">#2</a><a id="postcount400728" name="2"></a>
+				
+				
+				
+			</span>
+	</div>
+	<div class="postdetails">
+		<div class="userinfo">
+			<div class="username_container">
+			
+				<div class="popupmenu memberaction">
+	<a rel="nofollow" class="username offline popupctrl" href="https://cboard.cprogramming.com/member.php?u=11935&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" title="bithub is offline"><strong>bithub</strong></a>
+	<ul class="popupbody popuphover memberaction_body">
+		<li class="left">
+			<a rel="nofollow" href="https://cboard.cprogramming.com/member.php?u=11935&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" class="siteicon_profile">
+				View Profile
+			</a>
+		</li>
+		
+		<li class="right">
+			<a href="https://cboard.cprogramming.com/search.php?do=finduser&amp;userid=11935&amp;contenttype=vBForum_Post&amp;showposts=1&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" class="siteicon_forum" rel="nofollow">
+				View Forum Posts
+			</a>
+		</li>
+		
+		
+		
+		
+		
+		
+		
+		
+
+		
+
+		
+		
+	</ul>
+</div>
+				<img class="inlineimg onlinestatus" src="https://cboard.cprogramming.com/images/statusicon/user-offline.png" alt="bithub is offline" border="0" />
+
+			
+			</div>
+			<span class="usertitle">
+				Registered User
+			</span>
+			
+			
+			
+			 
+			
+				<hr />
+				<dl class="userinfo_extra">
+					<dt>Join Date</dt> <dd>Sep 2004</dd>
+					<dt>Location</dt> <dd>California</dd>
+					
+					<dt>Posts</dt> <dd>3,267</dd>	
+					
+				</dl>
+				
+				
+				<div class="imlinks">
+					    
+				</div>
+			
+		</div>
+		<div class="postbody">
+			<div class="postrow">
+				
+				
+
+
+						
+						
+				<div class="content">
+					<div id="post_message_400728">
+						<blockquote class="postcontent restore " style="overflow: visible">
+							<div class="bbcode_container">
+	<div class="bbcode_description">Code:</div>
+	<pre class="bbcode_code">BOOL GetClipboardText(LPTSTR buff, UINT iBuffSize)
+{
+	HANDLE hClip;
+	char* pszClipboard;
+
+	if(OpenClipboard(NULL))	// Open the clipboard so we can read its contents
+	{
+		hClip = GetClipboardData(CF_TEXT);	// Get a handle to the clipboad contents
+		if(hClip == NULL)
+		{
+			CloseClipboard();
+			return FALSE;
+		}
+		pszClipboard = (char*)GlobalLock(hClip);	// Point pClipboard to the clipboard contents
+		if(!pszClipboard)
+		{
+			GlobalUnlock(hClip);
+			return FALSE;
+		}
+		strncpy(buff,pszClipboard,iBuffSize);		// Copy the contents to a local variable
+		buff[iBuffSize-1] = 0;
+		GlobalUnlock(hClip);	// Release the lock on the clipboard contents
+		CloseClipboard();	// Close the clipboard.
+	}
+	else
+	{
+		return FALSE;
+	}
+
+	return TRUE;
+}</pre>
+</div>
+						</blockquote>
+					</div>
+
+					
+				</div>
+			</div>
+			
+			<div class="cleardiv"></div>
+		</div>
+	</div>
+		<div class="postfoot">
+			<!-- <div class="postfoot_container"> -->
+			<div class="textcontrols floatcontainer">
+				<span class="postcontrols">
+					<img style="display:none" id="progress_400728" src="https://cboard.cprogramming.com/images/misc/progress.gif" alt="" />
+					
+					
+					
+					
+				</span>
+				<span class="postlinking">
+					
+						
+					
+
+					
+					
+					
+					
+
+					
+					
+
+					
+					
+					
+					
+					
+				</span>
+			<!-- </div> -->
+			</div>
+		</div>
+	<hr />
+</li>
+
+<li class="postbitlegacy postbitim postcontainer old" id="post_400729">
+<!-- see bottom of postbit.css for .userinfo .popupmenu styles -->
+
+	<div class="posthead">
+			<span class="postdate old">
+				
+					<span class="date">09-26-2004</span>
+				
+			</span>
+			<span class="nodecontrols">
+				
+					<a name="post400729" href="https://cboard.cprogramming.com/windows-programming/57178-copying-clipboard-post400729.html?s=ad8d6bce2d6e047bbf5889e030c22c3f#post400729" class="postcounter">#3</a><a id="postcount400729" name="3"></a>
+				
+				
+				
+			</span>
+	</div>
+	<div class="postdetails">
+		<div class="userinfo">
+			<div class="username_container">
+			
+				<div class="popupmenu memberaction">
+	<a rel="nofollow" class="username offline popupctrl" href="https://cboard.cprogramming.com/member.php?u=11935&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" title="bithub is offline"><strong>bithub</strong></a>
+	<ul class="popupbody popuphover memberaction_body">
+		<li class="left">
+			<a rel="nofollow" href="https://cboard.cprogramming.com/member.php?u=11935&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" class="siteicon_profile">
+				View Profile
+			</a>
+		</li>
+		
+		<li class="right">
+			<a href="https://cboard.cprogramming.com/search.php?do=finduser&amp;userid=11935&amp;contenttype=vBForum_Post&amp;showposts=1&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" class="siteicon_forum" rel="nofollow">
+				View Forum Posts
+			</a>
+		</li>
+		
+		
+		
+		
+		
+		
+		
+		
+
+		
+
+		
+		
+	</ul>
+</div>
+				<img class="inlineimg onlinestatus" src="https://cboard.cprogramming.com/images/statusicon/user-offline.png" alt="bithub is offline" border="0" />
+
+			
+			</div>
+			<span class="usertitle">
+				Registered User
+			</span>
+			
+			
+			
+			 
+			
+				<hr />
+				<dl class="userinfo_extra">
+					<dt>Join Date</dt> <dd>Sep 2004</dd>
+					<dt>Location</dt> <dd>California</dd>
+					
+					<dt>Posts</dt> <dd>3,267</dd>	
+					
+				</dl>
+				
+				
+				<div class="imlinks">
+					    
+				</div>
+			
+		</div>
+		<div class="postbody">
+			<div class="postrow">
+				
+				
+
+
+						
+						
+				<div class="content">
+					<div id="post_message_400729">
+						<blockquote class="postcontent restore " style="overflow: visible">
+							Oops, I read your question too fast and thought you asked for a way to get text from the clipboard <img src="https://cboard.cprogramming.com/images/smilies/smile.png" border="0" alt="" title="Smile" class="inlineimg" />  <br />
+<br />
+Here we go:<br />
+<br />
+<div class="bbcode_container">
+	<div class="bbcode_description">Code:</div>
+	<pre class="bbcode_code">BOOL SetClipboardText(LPCTSTR lpszText, UINT uBuff)
+{
+	HGLOBAL hgText = NULL;
+	LPTSTR	lpszCopy = NULL;
+
+	// First open the clipboard
+	if(!::OpenClipboard(NULL))
+		return FALSE;
+	// Empty the clipboard, and make us the owner
+	if(!::EmptyClipboard())
+	{
+		::CloseClipboard();
+		return FALSE;
+	}
+
+	hgText = GlobalAlloc(GMEM_DDESHARE, (uBuff+1) * sizeof(TCHAR));
+
+    if (hgText != NULL)
+    {
+		// Lock the handle and copy the text to the buffer.
+        lpszCopy = (char*)GlobalLock(hgText);
+        memcpy(lpszCopy, lpszText, uBuff * sizeof(TCHAR));
+        lpszCopy[uBuff] = (TCHAR) 0;
+        GlobalUnlock(hgText);
+
+		// Set the clipboard text
+		if(!::SetClipboardData(CF_TEXT,hgText))
+		{
+			::CloseClipboard();
+			return FALSE;
+		}
+	}
+	::CloseClipboard();
+	return TRUE;
+}</pre>
+</div>
+						</blockquote>
+					</div>
+
+					
+				</div>
+			</div>
+			
+			<div class="cleardiv"></div>
+		</div>
+	</div>
+		<div class="postfoot">
+			<!-- <div class="postfoot_container"> -->
+			<div class="textcontrols floatcontainer">
+				<span class="postcontrols">
+					<img style="display:none" id="progress_400729" src="https://cboard.cprogramming.com/images/misc/progress.gif" alt="" />
+					
+					
+					
+					
+				</span>
+				<span class="postlinking">
+					
+						
+					
+
+					
+					
+					
+					
+
+					
+					
+
+					
+					
+					
+					
+					
+				</span>
+			<!-- </div> -->
+			</div>
+		</div>
+	<hr />
+</li>
+
+<li class="postbitlegacy postbitim postcontainer old" id="post_400738">
+<!-- see bottom of postbit.css for .userinfo .popupmenu styles -->
+
+	<div class="posthead">
+			<span class="postdate old">
+				
+					<span class="date">09-26-2004</span>
+				
+			</span>
+			<span class="nodecontrols">
+				
+					<a name="post400738" href="https://cboard.cprogramming.com/windows-programming/57178-copying-clipboard-post400738.html?s=ad8d6bce2d6e047bbf5889e030c22c3f#post400738" class="postcounter">#4</a><a id="postcount400738" name="4"></a>
+				
+				
+				
+			</span>
+	</div>
+	<div class="postdetails">
+		<div class="userinfo">
+			<div class="username_container">
+			
+				<div class="popupmenu memberaction">
+	<a rel="nofollow" class="username offline popupctrl" href="https://cboard.cprogramming.com/member.php?u=7476&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" title="Dante Shamest is offline"><strong>Dante Shamest</strong></a>
+	<ul class="popupbody popuphover memberaction_body">
+		<li class="left">
+			<a rel="nofollow" href="https://cboard.cprogramming.com/member.php?u=7476&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" class="siteicon_profile">
+				View Profile
+			</a>
+		</li>
+		
+		<li class="right">
+			<a href="https://cboard.cprogramming.com/search.php?do=finduser&amp;userid=7476&amp;contenttype=vBForum_Post&amp;showposts=1&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" class="siteicon_forum" rel="nofollow">
+				View Forum Posts
+			</a>
+		</li>
+		
+		
+		
+		
+		
+		
+		
+		
+
+		
+
+		
+		
+	</ul>
+</div>
+				<img class="inlineimg onlinestatus" src="https://cboard.cprogramming.com/images/statusicon/user-offline.png" alt="Dante Shamest is offline" border="0" />
+
+			
+			</div>
+			<span class="usertitle">
+				Registered User
+			</span>
+			
+			
+			
+			
+			<a rel="nofollow" class="postuseravatar" href="https://cboard.cprogramming.com/member.php?u=7476&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" title="Dante Shamest is offline">
+				<img src="https://cboard.cprogramming.com/customavatars/avatar7476_3.gif" alt="Dante Shamest's Avatar" title="Dante Shamest's Avatar" />
+			</a>
+			 
+			
+				<hr />
+				<dl class="userinfo_extra">
+					<dt>Join Date</dt> <dd>Apr 2003</dd>
+					
+					
+					<dt>Posts</dt> <dd>970</dd>	
+					
+				</dl>
+				
+				
+				<div class="imlinks">
+					    
+				</div>
+			
+		</div>
+		<div class="postbody">
+			<div class="postrow">
+				
+				
+
+
+						
+						
+				<div class="content">
+					<div id="post_message_400738">
+						<blockquote class="postcontent restore " style="overflow: visible">
+							<div class="bbcode_container">
+	<div class="bbcode_description">Code:</div>
+	<pre class="bbcode_code">void SetClipboardText( HWND hwnd, TCHAR * szText )
+{
+  HGLOBAL globalHandle = GlobalAlloc( GHND|GMEM_SHARE,
+                                     (lstrlen(szText)+1) * sizeof(TCHAR)) ;
+
+  TCHAR * szClipboard = (TCHAR*)GlobalLock(globalHandle) ;
+  lstrcpy( szClipboard, szText ) ;
+  GlobalUnlock (globalHandle) ;
+  OpenClipboard(hwnd) ;
+  EmptyClipboard () ;
+  SetClipboardData (CF_TEXT, globalHandle) ;
+  CloseClipboard() ;
+}</pre>
+</div>By the way bballzone, did you get your code from <a href="http://www.cpp-home.com/forum/viewtopic.php?t=6290&amp;highlight=getclipboarddata" target="_blank">here</a>?
+						</blockquote>
+					</div>
+
+					
+				</div>
+			</div>
+			
+			<div class="cleardiv"></div>
+		</div>
+	</div>
+		<div class="postfoot">
+			<!-- <div class="postfoot_container"> -->
+			<div class="textcontrols floatcontainer">
+				<span class="postcontrols">
+					<img style="display:none" id="progress_400738" src="https://cboard.cprogramming.com/images/misc/progress.gif" alt="" />
+					
+					
+					
+					
+				</span>
+				<span class="postlinking">
+					
+						
+					
+
+					
+					
+					
+					
+
+					
+					
+
+					
+					
+					
+					
+					
+				</span>
+			<!-- </div> -->
+			</div>
+		</div>
+	<hr />
+</li>
+
+<li class="postbitlegacy postbitim postcontainer old" id="post_400802">
+<!-- see bottom of postbit.css for .userinfo .popupmenu styles -->
+
+	<div class="posthead">
+			<span class="postdate old">
+				
+					<span class="date">09-26-2004</span>
+				
+			</span>
+			<span class="nodecontrols">
+				
+					<a name="post400802" href="https://cboard.cprogramming.com/windows-programming/57178-copying-clipboard-post400802.html?s=ad8d6bce2d6e047bbf5889e030c22c3f#post400802" class="postcounter">#5</a><a id="postcount400802" name="5"></a>
+				
+				
+				
+			</span>
+	</div>
+	<div class="postdetails">
+		<div class="userinfo">
+			<div class="username_container">
+			
+				<div class="popupmenu memberaction">
+	<a rel="nofollow" class="username offline popupctrl" href="https://cboard.cprogramming.com/member.php?u=11448&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" title="bballzone is offline"><strong>bballzone</strong></a>
+	<ul class="popupbody popuphover memberaction_body">
+		<li class="left">
+			<a rel="nofollow" href="https://cboard.cprogramming.com/member.php?u=11448&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" class="siteicon_profile">
+				View Profile
+			</a>
+		</li>
+		
+		<li class="right">
+			<a href="https://cboard.cprogramming.com/search.php?do=finduser&amp;userid=11448&amp;contenttype=vBForum_Post&amp;showposts=1&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" class="siteicon_forum" rel="nofollow">
+				View Forum Posts
+			</a>
+		</li>
+		
+		
+		
+		
+		
+		
+		
+		
+
+		
+
+		
+		
+	</ul>
+</div>
+				<img class="inlineimg onlinestatus" src="https://cboard.cprogramming.com/images/statusicon/user-offline.png" alt="bballzone is offline" border="0" />
+
+			
+			</div>
+			<span class="usertitle">
+				Registered User
+			</span>
+			
+			
+			
+			 
+			
+				<hr />
+				<dl class="userinfo_extra">
+					<dt>Join Date</dt> <dd>Jul 2004</dd>
+					
+					
+					<dt>Posts</dt> <dd>67</dd>	
+					
+				</dl>
+				
+				
+				<div class="imlinks">
+					    
+				</div>
+			
+		</div>
+		<div class="postbody">
+			<div class="postrow">
+				
+				
+
+
+						
+						
+				<div class="content">
+					<div id="post_message_400802">
+						<blockquote class="postcontent restore " style="overflow: visible">
+							yea i did. i don't like those forums as much because they do not respond as fast.<br />
+<br />
+is there also a way that i can just put the contents of a variable into the clipboard. for example if i prompt the user to enter their name and i store it in a variable called fname, can i put fname into the clipboard?
+						</blockquote>
+					</div>
+
+					
+				</div>
+			</div>
+			
+			<div class="cleardiv"></div>
+		</div>
+	</div>
+		<div class="postfoot">
+			<!-- <div class="postfoot_container"> -->
+			<div class="textcontrols floatcontainer">
+				<span class="postcontrols">
+					<img style="display:none" id="progress_400802" src="https://cboard.cprogramming.com/images/misc/progress.gif" alt="" />
+					
+					
+					
+					
+				</span>
+				<span class="postlinking">
+					
+						
+					
+
+					
+					
+					
+					
+
+					
+					
+
+					
+					
+					
+					
+					
+				</span>
+			<!-- </div> -->
+			</div>
+		</div>
+	<hr />
+</li>
+
+<li class="postbitlegacy postbitim postcontainer old" id="post_400821">
+<!-- see bottom of postbit.css for .userinfo .popupmenu styles -->
+
+	<div class="posthead">
+			<span class="postdate old">
+				
+					<span class="date">09-26-2004</span>
+				
+			</span>
+			<span class="nodecontrols">
+				
+					<a name="post400821" href="https://cboard.cprogramming.com/windows-programming/57178-copying-clipboard-post400821.html?s=ad8d6bce2d6e047bbf5889e030c22c3f#post400821" class="postcounter">#6</a><a id="postcount400821" name="6"></a>
+				
+				
+				
+			</span>
+	</div>
+	<div class="postdetails">
+		<div class="userinfo">
+			<div class="username_container">
+			
+				<div class="popupmenu memberaction">
+	<a rel="nofollow" class="username offline popupctrl" href="https://cboard.cprogramming.com/member.php?u=11935&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" title="bithub is offline"><strong>bithub</strong></a>
+	<ul class="popupbody popuphover memberaction_body">
+		<li class="left">
+			<a rel="nofollow" href="https://cboard.cprogramming.com/member.php?u=11935&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" class="siteicon_profile">
+				View Profile
+			</a>
+		</li>
+		
+		<li class="right">
+			<a href="https://cboard.cprogramming.com/search.php?do=finduser&amp;userid=11935&amp;contenttype=vBForum_Post&amp;showposts=1&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" class="siteicon_forum" rel="nofollow">
+				View Forum Posts
+			</a>
+		</li>
+		
+		
+		
+		
+		
+		
+		
+		
+
+		
+
+		
+		
+	</ul>
+</div>
+				<img class="inlineimg onlinestatus" src="https://cboard.cprogramming.com/images/statusicon/user-offline.png" alt="bithub is offline" border="0" />
+
+			
+			</div>
+			<span class="usertitle">
+				Registered User
+			</span>
+			
+			
+			
+			 
+			
+				<hr />
+				<dl class="userinfo_extra">
+					<dt>Join Date</dt> <dd>Sep 2004</dd>
+					<dt>Location</dt> <dd>California</dd>
+					
+					<dt>Posts</dt> <dd>3,267</dd>	
+					
+				</dl>
+				
+				
+				<div class="imlinks">
+					    
+				</div>
+			
+		</div>
+		<div class="postbody">
+			<div class="postrow">
+				
+				
+
+
+						
+						
+				<div class="content">
+					<div id="post_message_400821">
+						<blockquote class="postcontent restore " style="overflow: visible">
+							of course.<br />
+<br />
+<div class="bbcode_container">
+	<div class="bbcode_description">Code:</div>
+	<pre class="bbcode_code">char szName[] = &quot;this is my name&quot;;
+SetClipboardText(szName,strlen(szName));</pre>
+</div>
+						</blockquote>
+					</div>
+
+					
+				</div>
+			</div>
+			
+			<div class="cleardiv"></div>
+		</div>
+	</div>
+		<div class="postfoot">
+			<!-- <div class="postfoot_container"> -->
+			<div class="textcontrols floatcontainer">
+				<span class="postcontrols">
+					<img style="display:none" id="progress_400821" src="https://cboard.cprogramming.com/images/misc/progress.gif" alt="" />
+					
+					
+					
+					
+				</span>
+				<span class="postlinking">
+					
+						
+					
+
+					
+					
+					
+					
+
+					
+					
+
+					
+					
+					
+					
+					
+				</span>
+			<!-- </div> -->
+			</div>
+		</div>
+	<hr />
+</li>
+
+<li class="postbitlegacy postbitim postcontainer old" id="post_400888">
+<!-- see bottom of postbit.css for .userinfo .popupmenu styles -->
+
+	<div class="posthead">
+			<span class="postdate old">
+				
+					<span class="date">09-26-2004</span>
+				
+			</span>
+			<span class="nodecontrols">
+				
+					<a name="post400888" href="https://cboard.cprogramming.com/windows-programming/57178-copying-clipboard-post400888.html?s=ad8d6bce2d6e047bbf5889e030c22c3f#post400888" class="postcounter">#7</a><a id="postcount400888" name="7"></a>
+				
+				
+				
+			</span>
+	</div>
+	<div class="postdetails">
+		<div class="userinfo">
+			<div class="username_container">
+			
+				<div class="popupmenu memberaction">
+	<a rel="nofollow" class="username offline popupctrl" href="https://cboard.cprogramming.com/member.php?u=11448&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" title="bballzone is offline"><strong>bballzone</strong></a>
+	<ul class="popupbody popuphover memberaction_body">
+		<li class="left">
+			<a rel="nofollow" href="https://cboard.cprogramming.com/member.php?u=11448&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" class="siteicon_profile">
+				View Profile
+			</a>
+		</li>
+		
+		<li class="right">
+			<a href="https://cboard.cprogramming.com/search.php?do=finduser&amp;userid=11448&amp;contenttype=vBForum_Post&amp;showposts=1&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" class="siteicon_forum" rel="nofollow">
+				View Forum Posts
+			</a>
+		</li>
+		
+		
+		
+		
+		
+		
+		
+		
+
+		
+
+		
+		
+	</ul>
+</div>
+				<img class="inlineimg onlinestatus" src="https://cboard.cprogramming.com/images/statusicon/user-offline.png" alt="bballzone is offline" border="0" />
+
+			
+			</div>
+			<span class="usertitle">
+				Registered User
+			</span>
+			
+			
+			
+			 
+			
+				<hr />
+				<dl class="userinfo_extra">
+					<dt>Join Date</dt> <dd>Jul 2004</dd>
+					
+					
+					<dt>Posts</dt> <dd>67</dd>	
+					
+				</dl>
+				
+				
+				<div class="imlinks">
+					    
+				</div>
+			
+		</div>
+		<div class="postbody">
+			<div class="postrow">
+				
+				
+
+
+						
+						
+				<div class="content">
+					<div id="post_message_400888">
+						<blockquote class="postcontent restore " style="overflow: visible">
+							<div class="bbcode_container">
+	<div class="bbcode_description">Code:</div>
+	<pre class="bbcode_code">Error: need explicit cast for function parameter 2 to get
+from: unsigned
+to: char *</pre>
+</div>at this line<br />
+<br />
+SetClipboardText(szName,strlen(szName));
+						</blockquote>
+					</div>
+
+					
+				</div>
+			</div>
+			
+			<div class="cleardiv"></div>
+		</div>
+	</div>
+		<div class="postfoot">
+			<!-- <div class="postfoot_container"> -->
+			<div class="textcontrols floatcontainer">
+				<span class="postcontrols">
+					<img style="display:none" id="progress_400888" src="https://cboard.cprogramming.com/images/misc/progress.gif" alt="" />
+					
+					
+					
+					
+				</span>
+				<span class="postlinking">
+					
+						
+					
+
+					
+					
+					
+					
+
+					
+					
+
+					
+					
+					
+					
+					
+				</span>
+			<!-- </div> -->
+			</div>
+		</div>
+	<hr />
+</li>
+
+<li class="postbitlegacy postbitim postcontainer old" id="post_400960">
+<!-- see bottom of postbit.css for .userinfo .popupmenu styles -->
+
+	<div class="posthead">
+			<span class="postdate old">
+				
+					<span class="date">09-26-2004</span>
+				
+			</span>
+			<span class="nodecontrols">
+				
+					<a name="post400960" href="https://cboard.cprogramming.com/windows-programming/57178-copying-clipboard-post400960.html?s=ad8d6bce2d6e047bbf5889e030c22c3f#post400960" class="postcounter">#8</a><a id="postcount400960" name="8"></a>
+				
+				
+				
+			</span>
+	</div>
+	<div class="postdetails">
+		<div class="userinfo">
+			<div class="username_container">
+			
+				<div class="popupmenu memberaction">
+	<a rel="nofollow" class="username offline popupctrl" href="https://cboard.cprogramming.com/member.php?u=11935&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" title="bithub is offline"><strong>bithub</strong></a>
+	<ul class="popupbody popuphover memberaction_body">
+		<li class="left">
+			<a rel="nofollow" href="https://cboard.cprogramming.com/member.php?u=11935&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" class="siteicon_profile">
+				View Profile
+			</a>
+		</li>
+		
+		<li class="right">
+			<a href="https://cboard.cprogramming.com/search.php?do=finduser&amp;userid=11935&amp;contenttype=vBForum_Post&amp;showposts=1&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" class="siteicon_forum" rel="nofollow">
+				View Forum Posts
+			</a>
+		</li>
+		
+		
+		
+		
+		
+		
+		
+		
+
+		
+
+		
+		
+	</ul>
+</div>
+				<img class="inlineimg onlinestatus" src="https://cboard.cprogramming.com/images/statusicon/user-offline.png" alt="bithub is offline" border="0" />
+
+			
+			</div>
+			<span class="usertitle">
+				Registered User
+			</span>
+			
+			
+			
+			 
+			
+				<hr />
+				<dl class="userinfo_extra">
+					<dt>Join Date</dt> <dd>Sep 2004</dd>
+					<dt>Location</dt> <dd>California</dd>
+					
+					<dt>Posts</dt> <dd>3,267</dd>	
+					
+				</dl>
+				
+				
+				<div class="imlinks">
+					    
+				</div>
+			
+		</div>
+		<div class="postbody">
+			<div class="postrow">
+				
+				
+
+
+						
+						
+				<div class="content">
+					<div id="post_message_400960">
+						<blockquote class="postcontent restore " style="overflow: visible">
+							That's because you used Dante Shamest's code instead of mine.<br />
+<br />
+You should be using mine since Dante's doesnt accept a buffer length as a function parameter, and his also ignores return values which is a very bad idea in this case.
+						</blockquote>
+					</div>
+
+					
+				</div>
+			</div>
+			
+			<div class="cleardiv"></div>
+		</div>
+	</div>
+		<div class="postfoot">
+			<!-- <div class="postfoot_container"> -->
+			<div class="textcontrols floatcontainer">
+				<span class="postcontrols">
+					<img style="display:none" id="progress_400960" src="https://cboard.cprogramming.com/images/misc/progress.gif" alt="" />
+					
+					
+					
+					
+				</span>
+				<span class="postlinking">
+					
+						
+					
+
+					
+					
+					
+					
+
+					
+					
+
+					
+					
+					
+					
+					
+				</span>
+			<!-- </div> -->
+			</div>
+		</div>
+	<hr />
+</li>
+
+<li class="postbitlegacy postbitim postcontainer old" id="post_400971">
+<!-- see bottom of postbit.css for .userinfo .popupmenu styles -->
+
+	<div class="posthead">
+			<span class="postdate old">
+				
+					<span class="date">09-26-2004</span>
+				
+			</span>
+			<span class="nodecontrols">
+				
+					<a name="post400971" href="https://cboard.cprogramming.com/windows-programming/57178-copying-clipboard-post400971.html?s=ad8d6bce2d6e047bbf5889e030c22c3f#post400971" class="postcounter">#9</a><a id="postcount400971" name="9"></a>
+				
+				
+				
+			</span>
+	</div>
+	<div class="postdetails">
+		<div class="userinfo">
+			<div class="username_container">
+			
+				<div class="popupmenu memberaction">
+	<a rel="nofollow" class="username offline popupctrl" href="https://cboard.cprogramming.com/member.php?u=11448&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" title="bballzone is offline"><strong>bballzone</strong></a>
+	<ul class="popupbody popuphover memberaction_body">
+		<li class="left">
+			<a rel="nofollow" href="https://cboard.cprogramming.com/member.php?u=11448&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" class="siteicon_profile">
+				View Profile
+			</a>
+		</li>
+		
+		<li class="right">
+			<a href="https://cboard.cprogramming.com/search.php?do=finduser&amp;userid=11448&amp;contenttype=vBForum_Post&amp;showposts=1&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" class="siteicon_forum" rel="nofollow">
+				View Forum Posts
+			</a>
+		</li>
+		
+		
+		
+		
+		
+		
+		
+		
+
+		
+
+		
+		
+	</ul>
+</div>
+				<img class="inlineimg onlinestatus" src="https://cboard.cprogramming.com/images/statusicon/user-offline.png" alt="bballzone is offline" border="0" />
+
+			
+			</div>
+			<span class="usertitle">
+				Registered User
+			</span>
+			
+			
+			
+			 
+			
+				<hr />
+				<dl class="userinfo_extra">
+					<dt>Join Date</dt> <dd>Jul 2004</dd>
+					
+					
+					<dt>Posts</dt> <dd>67</dd>	
+					
+				</dl>
+				
+				
+				<div class="imlinks">
+					    
+				</div>
+			
+		</div>
+		<div class="postbody">
+			<div class="postrow">
+				
+				
+
+
+						
+						
+				<div class="content">
+					<div id="post_message_400971">
+						<blockquote class="postcontent restore " style="overflow: visible">
+							thanks a lot bithub <img src="https://cboard.cprogramming.com/images/smilies/cool.png" border="0" alt="" title="Cool" class="inlineimg" />  <img src="https://cboard.cprogramming.com/images/smilies/smile.png" border="0" alt="" title="Smile" class="inlineimg" />
+						</blockquote>
+					</div>
+
+					
+				</div>
+			</div>
+			
+			<div class="cleardiv"></div>
+		</div>
+	</div>
+		<div class="postfoot">
+			<!-- <div class="postfoot_container"> -->
+			<div class="textcontrols floatcontainer">
+				<span class="postcontrols">
+					<img style="display:none" id="progress_400971" src="https://cboard.cprogramming.com/images/misc/progress.gif" alt="" />
+					
+					
+					
+					
+				</span>
+				<span class="postlinking">
+					
+						
+					
+
+					
+					
+					
+					
+
+					
+					
+
+					
+					
+					
+					
+					
+				</span>
+			<!-- </div> -->
+			</div>
+		</div>
+	<hr />
+</li>
+
+<li class="postbitlegacy postbitim postcontainer old" id="post_400987">
+<!-- see bottom of postbit.css for .userinfo .popupmenu styles -->
+
+	<div class="posthead">
+			<span class="postdate old">
+				
+					<span class="date">09-26-2004</span>
+				
+			</span>
+			<span class="nodecontrols">
+				
+					<a name="post400987" href="https://cboard.cprogramming.com/windows-programming/57178-copying-clipboard-post400987.html?s=ad8d6bce2d6e047bbf5889e030c22c3f#post400987" class="postcounter">#10</a><a id="postcount400987" name="10"></a>
+				
+				
+				
+			</span>
+	</div>
+	<div class="postdetails">
+		<div class="userinfo">
+			<div class="username_container">
+			
+				<div class="popupmenu memberaction">
+	<a rel="nofollow" class="username offline popupctrl" href="https://cboard.cprogramming.com/member.php?u=11448&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" title="bballzone is offline"><strong>bballzone</strong></a>
+	<ul class="popupbody popuphover memberaction_body">
+		<li class="left">
+			<a rel="nofollow" href="https://cboard.cprogramming.com/member.php?u=11448&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" class="siteicon_profile">
+				View Profile
+			</a>
+		</li>
+		
+		<li class="right">
+			<a href="https://cboard.cprogramming.com/search.php?do=finduser&amp;userid=11448&amp;contenttype=vBForum_Post&amp;showposts=1&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" class="siteicon_forum" rel="nofollow">
+				View Forum Posts
+			</a>
+		</li>
+		
+		
+		
+		
+		
+		
+		
+		
+
+		
+
+		
+		
+	</ul>
+</div>
+				<img class="inlineimg onlinestatus" src="https://cboard.cprogramming.com/images/statusicon/user-offline.png" alt="bballzone is offline" border="0" />
+
+			
+			</div>
+			<span class="usertitle">
+				Registered User
+			</span>
+			
+			
+			
+			 
+			
+				<hr />
+				<dl class="userinfo_extra">
+					<dt>Join Date</dt> <dd>Jul 2004</dd>
+					
+					
+					<dt>Posts</dt> <dd>67</dd>	
+					
+				</dl>
+				
+				
+				<div class="imlinks">
+					    
+				</div>
+			
+		</div>
+		<div class="postbody">
+			<div class="postrow">
+				
+				
+
+
+						
+						
+				<div class="content">
+					<div id="post_message_400987">
+						<blockquote class="postcontent restore " style="overflow: visible">
+							since this is related to this topic i'll just put this here also. why isn't this allowed?<br />
+<br />
+<div class="bbcode_container">
+	<div class="bbcode_description">Code:</div>
+	<pre class="bbcode_code">	keybd_event(VK_V,0,0,0); 
+	keybd_event(VK_V,0,KEYEVENTF_KEYUP,0);</pre>
+</div>i can use VK_CONTROL but i can't have it type V.
+						</blockquote>
+					</div>
+
+					
+				</div>
+			</div>
+			
+			<div class="cleardiv"></div>
+		</div>
+	</div>
+		<div class="postfoot">
+			<!-- <div class="postfoot_container"> -->
+			<div class="textcontrols floatcontainer">
+				<span class="postcontrols">
+					<img style="display:none" id="progress_400987" src="https://cboard.cprogramming.com/images/misc/progress.gif" alt="" />
+					
+					
+					
+					
+				</span>
+				<span class="postlinking">
+					
+						
+					
+
+					
+					
+					
+					
+
+					
+					
+
+					
+					
+					
+					
+					
+				</span>
+			<!-- </div> -->
+			</div>
+		</div>
+	<hr />
+</li>
+
+<li class="postbitlegacy postbitim postcontainer old" id="post_401107">
+<!-- see bottom of postbit.css for .userinfo .popupmenu styles -->
+
+	<div class="posthead">
+			<span class="postdate old">
+				
+					<span class="date">09-27-2004</span>
+				
+			</span>
+			<span class="nodecontrols">
+				
+					<a name="post401107" href="https://cboard.cprogramming.com/windows-programming/57178-copying-clipboard-post401107.html?s=ad8d6bce2d6e047bbf5889e030c22c3f#post401107" class="postcounter">#11</a><a id="postcount401107" name="11"></a>
+				
+				
+				
+			</span>
+	</div>
+	<div class="postdetails">
+		<div class="userinfo">
+			<div class="username_container">
+			
+				<div class="popupmenu memberaction">
+	<a rel="nofollow" class="username offline popupctrl" href="https://cboard.cprogramming.com/member.php?u=7476&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" title="Dante Shamest is offline"><strong>Dante Shamest</strong></a>
+	<ul class="popupbody popuphover memberaction_body">
+		<li class="left">
+			<a rel="nofollow" href="https://cboard.cprogramming.com/member.php?u=7476&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" class="siteicon_profile">
+				View Profile
+			</a>
+		</li>
+		
+		<li class="right">
+			<a href="https://cboard.cprogramming.com/search.php?do=finduser&amp;userid=7476&amp;contenttype=vBForum_Post&amp;showposts=1&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" class="siteicon_forum" rel="nofollow">
+				View Forum Posts
+			</a>
+		</li>
+		
+		
+		
+		
+		
+		
+		
+		
+
+		
+
+		
+		
+	</ul>
+</div>
+				<img class="inlineimg onlinestatus" src="https://cboard.cprogramming.com/images/statusicon/user-offline.png" alt="Dante Shamest is offline" border="0" />
+
+			
+			</div>
+			<span class="usertitle">
+				Registered User
+			</span>
+			
+			
+			
+			
+			<a rel="nofollow" class="postuseravatar" href="https://cboard.cprogramming.com/member.php?u=7476&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" title="Dante Shamest is offline">
+				<img src="https://cboard.cprogramming.com/customavatars/avatar7476_3.gif" alt="Dante Shamest's Avatar" title="Dante Shamest's Avatar" />
+			</a>
+			 
+			
+				<hr />
+				<dl class="userinfo_extra">
+					<dt>Join Date</dt> <dd>Apr 2003</dd>
+					
+					
+					<dt>Posts</dt> <dd>970</dd>	
+					
+				</dl>
+				
+				
+				<div class="imlinks">
+					    
+				</div>
+			
+		</div>
+		<div class="postbody">
+			<div class="postrow">
+				
+				
+
+
+						
+						
+				<div class="content">
+					<div id="post_message_401107">
+						<blockquote class="postcontent restore " style="overflow: visible">
+							Try 'V' ?
+						</blockquote>
+					</div>
+
+					
+				</div>
+			</div>
+			
+			<div class="cleardiv"></div>
+		</div>
+	</div>
+		<div class="postfoot">
+			<!-- <div class="postfoot_container"> -->
+			<div class="textcontrols floatcontainer">
+				<span class="postcontrols">
+					<img style="display:none" id="progress_401107" src="https://cboard.cprogramming.com/images/misc/progress.gif" alt="" />
+					
+					
+					
+					
+				</span>
+				<span class="postlinking">
+					
+						
+					
+
+					
+					
+					
+					
+
+					
+					
+
+					
+					
+					
+					
+					
+				</span>
+			<!-- </div> -->
+			</div>
+		</div>
+	<hr />
+</li>
+
+<li class="postbitlegacy postbitim postcontainer old" id="post_401283">
+<!-- see bottom of postbit.css for .userinfo .popupmenu styles -->
+
+	<div class="posthead">
+			<span class="postdate old">
+				
+					<span class="date">09-27-2004</span>
+				
+			</span>
+			<span class="nodecontrols">
+				
+					<a name="post401283" href="https://cboard.cprogramming.com/windows-programming/57178-copying-clipboard-post401283.html?s=ad8d6bce2d6e047bbf5889e030c22c3f#post401283" class="postcounter">#12</a><a id="postcount401283" name="12"></a>
+				
+				
+				
+			</span>
+	</div>
+	<div class="postdetails">
+		<div class="userinfo">
+			<div class="username_container">
+			
+				<div class="popupmenu memberaction">
+	<a rel="nofollow" class="username offline popupctrl" href="https://cboard.cprogramming.com/member.php?u=11448&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" title="bballzone is offline"><strong>bballzone</strong></a>
+	<ul class="popupbody popuphover memberaction_body">
+		<li class="left">
+			<a rel="nofollow" href="https://cboard.cprogramming.com/member.php?u=11448&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" class="siteicon_profile">
+				View Profile
+			</a>
+		</li>
+		
+		<li class="right">
+			<a href="https://cboard.cprogramming.com/search.php?do=finduser&amp;userid=11448&amp;contenttype=vBForum_Post&amp;showposts=1&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" class="siteicon_forum" rel="nofollow">
+				View Forum Posts
+			</a>
+		</li>
+		
+		
+		
+		
+		
+		
+		
+		
+
+		
+
+		
+		
+	</ul>
+</div>
+				<img class="inlineimg onlinestatus" src="https://cboard.cprogramming.com/images/statusicon/user-offline.png" alt="bballzone is offline" border="0" />
+
+			
+			</div>
+			<span class="usertitle">
+				Registered User
+			</span>
+			
+			
+			
+			 
+			
+				<hr />
+				<dl class="userinfo_extra">
+					<dt>Join Date</dt> <dd>Jul 2004</dd>
+					
+					
+					<dt>Posts</dt> <dd>67</dd>	
+					
+				</dl>
+				
+				
+				<div class="imlinks">
+					    
+				</div>
+			
+		</div>
+		<div class="postbody">
+			<div class="postrow">
+				
+				
+
+
+						
+						
+				<div class="content">
+					<div id="post_message_401283">
+						<blockquote class="postcontent restore " style="overflow: visible">
+							and now... thank you dante <img src="https://cboard.cprogramming.com/images/smilies/biggrin.png" border="0" alt="" title="Big Grin" class="inlineimg" />
+						</blockquote>
+					</div>
+
+					
+				</div>
+			</div>
+			
+			<div class="cleardiv"></div>
+		</div>
+	</div>
+		<div class="postfoot">
+			<!-- <div class="postfoot_container"> -->
+			<div class="textcontrols floatcontainer">
+				<span class="postcontrols">
+					<img style="display:none" id="progress_401283" src="https://cboard.cprogramming.com/images/misc/progress.gif" alt="" />
+					
+					
+					
+					
+				</span>
+				<span class="postlinking">
+					
+						
+					
+
+					
+					
+					
+					
+
+					
+					
+
+					
+					
+					
+					
+					
+				</span>
+			<!-- </div> -->
+			</div>
+		</div>
+	<hr />
+</li>
+
+<li class="postbitlegacy postbitim postcontainer old" id="post_401289">
+<!-- see bottom of postbit.css for .userinfo .popupmenu styles -->
+
+	<div class="posthead">
+			<span class="postdate old">
+				
+					<span class="date">09-27-2004</span>
+				
+			</span>
+			<span class="nodecontrols">
+				
+					<a name="post401289" href="https://cboard.cprogramming.com/windows-programming/57178-copying-clipboard-post401289.html?s=ad8d6bce2d6e047bbf5889e030c22c3f#post401289" class="postcounter">#13</a><a id="postcount401289" name="13"></a>
+				
+				
+				
+			</span>
+	</div>
+	<div class="postdetails">
+		<div class="userinfo">
+			<div class="username_container">
+			
+				<div class="popupmenu memberaction">
+	<a rel="nofollow" class="username offline popupctrl" href="https://cboard.cprogramming.com/member.php?u=4535&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" title="moi is offline"><strong>moi</strong></a>
+	<ul class="popupbody popuphover memberaction_body">
+		<li class="left">
+			<a rel="nofollow" href="https://cboard.cprogramming.com/member.php?u=4535&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" class="siteicon_profile">
+				View Profile
+			</a>
+		</li>
+		
+		<li class="right">
+			<a href="https://cboard.cprogramming.com/search.php?do=finduser&amp;userid=4535&amp;contenttype=vBForum_Post&amp;showposts=1&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" class="siteicon_forum" rel="nofollow">
+				View Forum Posts
+			</a>
+		</li>
+		
+		
+		
+		
+		
+		
+		
+		
+
+		
+
+		
+		
+	</ul>
+</div>
+				<img class="inlineimg onlinestatus" src="https://cboard.cprogramming.com/images/statusicon/user-offline.png" alt="moi is offline" border="0" />
+
+			
+			</div>
+			<span class="usertitle">
+				Registered User
+			</span>
+			
+			
+			
+			
+			<a rel="nofollow" class="postuseravatar" href="https://cboard.cprogramming.com/member.php?u=4535&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" title="moi is offline">
+				<img src="https://cboard.cprogramming.com/customavatars/avatar4535_2.gif" alt="moi's Avatar" title="moi's Avatar" />
+			</a>
+			 
+			
+				<hr />
+				<dl class="userinfo_extra">
+					<dt>Join Date</dt> <dd>Jul 2002</dd>
+					
+					
+					<dt>Posts</dt> <dd>946</dd>	
+					
+				</dl>
+				
+				
+				<div class="imlinks">
+					    
+				</div>
+			
+		</div>
+		<div class="postbody">
+			<div class="postrow has_after_content">
+				
+				
+
+
+						
+						
+				<div class="content">
+					<div id="post_message_401289">
+						<blockquote class="postcontent restore " style="overflow: visible">
+							<div class="bbcode_container">
+	<div class="bbcode_quote">
+		<div class="quote_container">
+			<div class="bbcode_quote_container"></div>
+			
+				<div class="bbcode_postedby">
+					<img src="https://cboard.cprogramming.com/images/misc/quote_icon.png" alt="Quote" /> Originally Posted by <strong>bballzone</strong>
+					
+				</div>
+				<div class="message">i was given this example to paste from the clipboard and it works fine.<br />
+<br />
+<div class="bbcode_container">
+	<div class="bbcode_description">Code:</div>
+	<pre class="bbcode_code">#include &lt;stdio.h&gt; 
+#include &lt;windows.h&gt; 
+#include &lt;iostream.h&gt;
+#include &lt;fstream.h&gt;
+#include &lt;stdlib.h&gt;
+#include &lt;string.h&gt;
+#include &lt;windows.h&gt;
+#include &lt;cstdio&gt; 
+#include &lt;conio.h&gt;
+
+int GetClipboardSize() 
+{ 
+  OpenClipboard(NULL) ;                          // Obtain clipboard 
+  HGLOBAL handle = GetClipboardData (CF_TEXT) ;  // get handle to data 
+  CloseClipboard() ;                             // Close clipboard 
+  return GlobalSize( handle ) ;                  // return size of data 
+} 
+
+void GetClipboardText( TCHAR * buffer ) 
+{ 
+  OpenClipboard(NULL) ;                          // Obtain clipboard  
+  HGLOBAL handle = GetClipboardData (CF_TEXT) ;  // get handle to data  
+  char* szClipboard = (char*)GlobalLock(handle); // lock data 
+  lstrcpy( buffer, szClipboard ) ;               // copy clipboard text 
+  GlobalUnlock (handle) ;                        // unlock data 
+  CloseClipboard () ;                            // close data 
+} 
+
+int main() 
+{
+  // Allocate enough memory to save text in clipboard. 
+  char * szClipboardText = new char[ GetClipboardSize() + 1 ] ; 
+
+  // Get the clipboard text. 
+  GetClipboardText( szClipboardText ) ; 
+
+  // Print clipboard text. 
+  printf( &quot;Clipboard Text: \&quot;%s\&quot;&quot;, szClipboardText ); 
+cout &lt;&lt; endl;
+
+  // Delete the memory. 
+  delete[] szClipboardText ; 
+
+  getchar(); 
+}</pre>
+</div><br />
+is there similar code that will copy to the clipboard? i would like to use these two together.</div>
+			
+		</div>
+	</div>
+</div>What a terrible mess; never use wherever you got that from again.<br />
+Using depreciated old C headers in a C++ program (string.h, stdlib.h, stdio.h)<br />
+Using depreciated old C++ headers in a C++ program (fstream.h, iostream.h)<br />
+Yet all this along-side cstdio?<br />
+C-style casts in a C++ program.<br />
+Mixing C-stdio (printf) and C++ iostreams (cout)<br />
+conio.h is nasty... and you don't even use any of it's nasty functions!  why include it?<br />
+windows.h included twice?<br />
+<br />
+In GetClipboardText you take a TCHAR * and use lstrcpy(), why?  in main() you create szClipboardText as a char *, and if this thing so happened to be compiled in the mythical land of wide characters, I guarantee you at least one function in the program as written wouldn't know what to do with it's data.
+						</blockquote>
+					</div>
+
+					
+				</div>
+			</div>
+			
+			<div class="after_content">
+				
+				
+				
+				
+					<blockquote class="signature restore"><div class="signaturecontainer">hello, internet!</div></blockquote>
+				
+				
+			</div>
+			
+			<div class="cleardiv"></div>
+		</div>
+	</div>
+		<div class="postfoot">
+			<!-- <div class="postfoot_container"> -->
+			<div class="textcontrols floatcontainer">
+				<span class="postcontrols">
+					<img style="display:none" id="progress_401289" src="https://cboard.cprogramming.com/images/misc/progress.gif" alt="" />
+					
+					
+					
+					
+				</span>
+				<span class="postlinking">
+					
+						
+					
+
+					
+					
+					
+					
+
+					
+					
+
+					
+					
+					
+					
+					
+				</span>
+			<!-- </div> -->
+			</div>
+		</div>
+	<hr />
+</li>
+
+<li class="postbitlegacy postbitim postcontainer old" id="post_401310">
+<!-- see bottom of postbit.css for .userinfo .popupmenu styles -->
+
+	<div class="posthead">
+			<span class="postdate old">
+				
+					<span class="date">09-27-2004</span>
+				
+			</span>
+			<span class="nodecontrols">
+				
+					<a name="post401310" href="https://cboard.cprogramming.com/windows-programming/57178-copying-clipboard-post401310.html?s=ad8d6bce2d6e047bbf5889e030c22c3f#post401310" class="postcounter">#14</a><a id="postcount401310" name="14"></a>
+				
+				
+				
+			</span>
+	</div>
+	<div class="postdetails">
+		<div class="userinfo">
+			<div class="username_container">
+			
+				<div class="popupmenu memberaction">
+	<a rel="nofollow" class="username offline popupctrl" href="https://cboard.cprogramming.com/member.php?u=11448&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" title="bballzone is offline"><strong>bballzone</strong></a>
+	<ul class="popupbody popuphover memberaction_body">
+		<li class="left">
+			<a rel="nofollow" href="https://cboard.cprogramming.com/member.php?u=11448&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" class="siteicon_profile">
+				View Profile
+			</a>
+		</li>
+		
+		<li class="right">
+			<a href="https://cboard.cprogramming.com/search.php?do=finduser&amp;userid=11448&amp;contenttype=vBForum_Post&amp;showposts=1&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" class="siteicon_forum" rel="nofollow">
+				View Forum Posts
+			</a>
+		</li>
+		
+		
+		
+		
+		
+		
+		
+		
+
+		
+
+		
+		
+	</ul>
+</div>
+				<img class="inlineimg onlinestatus" src="https://cboard.cprogramming.com/images/statusicon/user-offline.png" alt="bballzone is offline" border="0" />
+
+			
+			</div>
+			<span class="usertitle">
+				Registered User
+			</span>
+			
+			
+			
+			 
+			
+				<hr />
+				<dl class="userinfo_extra">
+					<dt>Join Date</dt> <dd>Jul 2004</dd>
+					
+					
+					<dt>Posts</dt> <dd>67</dd>	
+					
+				</dl>
+				
+				
+				<div class="imlinks">
+					    
+				</div>
+			
+		</div>
+		<div class="postbody">
+			<div class="postrow">
+				
+				
+
+
+						
+						
+				<div class="content">
+					<div id="post_message_401310">
+						<blockquote class="postcontent restore " style="overflow: visible">
+							it was part of a whole program that did use those headers.<br />
+<br />
+i use the Digital Mars compiler that requires all headers to end in a '.h' extension.
+						</blockquote>
+					</div>
+
+					
+				</div>
+			</div>
+			
+			<div class="cleardiv"></div>
+		</div>
+	</div>
+		<div class="postfoot">
+			<!-- <div class="postfoot_container"> -->
+			<div class="textcontrols floatcontainer">
+				<span class="postcontrols">
+					<img style="display:none" id="progress_401310" src="https://cboard.cprogramming.com/images/misc/progress.gif" alt="" />
+					
+					
+					
+					
+				</span>
+				<span class="postlinking">
+					
+						
+					
+
+					
+					
+					
+					
+
+					
+					
+
+					
+					
+					
+					
+					
+				</span>
+			<!-- </div> -->
+			</div>
+		</div>
+	<hr />
+</li>
+
+<li class="postbitlegacy postbitim postcontainer old" id="post_401315">
+<!-- see bottom of postbit.css for .userinfo .popupmenu styles -->
+
+	<div class="posthead">
+			<span class="postdate old">
+				
+					<span class="date">09-27-2004</span>
+				
+			</span>
+			<span class="nodecontrols">
+				
+					<a name="post401315" href="https://cboard.cprogramming.com/windows-programming/57178-copying-clipboard-post401315.html?s=ad8d6bce2d6e047bbf5889e030c22c3f#post401315" class="postcounter">#15</a><a id="postcount401315" name="15"></a>
+				
+				
+				
+			</span>
+	</div>
+	<div class="postdetails">
+		<div class="userinfo">
+			<div class="username_container">
+			
+				<div class="popupmenu memberaction">
+	<a rel="nofollow" class="username offline popupctrl" href="https://cboard.cprogramming.com/member.php?u=4535&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" title="moi is offline"><strong>moi</strong></a>
+	<ul class="popupbody popuphover memberaction_body">
+		<li class="left">
+			<a rel="nofollow" href="https://cboard.cprogramming.com/member.php?u=4535&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" class="siteicon_profile">
+				View Profile
+			</a>
+		</li>
+		
+		<li class="right">
+			<a href="https://cboard.cprogramming.com/search.php?do=finduser&amp;userid=4535&amp;contenttype=vBForum_Post&amp;showposts=1&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" class="siteicon_forum" rel="nofollow">
+				View Forum Posts
+			</a>
+		</li>
+		
+		
+		
+		
+		
+		
+		
+		
+
+		
+
+		
+		
+	</ul>
+</div>
+				<img class="inlineimg onlinestatus" src="https://cboard.cprogramming.com/images/statusicon/user-offline.png" alt="moi is offline" border="0" />
+
+			
+			</div>
+			<span class="usertitle">
+				Registered User
+			</span>
+			
+			
+			
+			
+			<a rel="nofollow" class="postuseravatar" href="https://cboard.cprogramming.com/member.php?u=4535&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" title="moi is offline">
+				<img src="https://cboard.cprogramming.com/customavatars/avatar4535_2.gif" alt="moi's Avatar" title="moi's Avatar" />
+			</a>
+			 
+			
+				<hr />
+				<dl class="userinfo_extra">
+					<dt>Join Date</dt> <dd>Jul 2002</dd>
+					
+					
+					<dt>Posts</dt> <dd>946</dd>	
+					
+				</dl>
+				
+				
+				<div class="imlinks">
+					    
+				</div>
+			
+		</div>
+		<div class="postbody">
+			<div class="postrow has_after_content">
+				
+				
+
+
+						
+						
+							
+						
+				<div class="content">
+					<div id="post_message_401315">
+						<blockquote class="postcontent restore " style="overflow: visible">
+							<div class="bbcode_container">
+	<div class="bbcode_quote">
+		<div class="quote_container">
+			<div class="bbcode_quote_container"></div>
+			
+				<div class="bbcode_postedby">
+					<img src="https://cboard.cprogramming.com/images/misc/quote_icon.png" alt="Quote" /> Originally Posted by <strong>bballzone</strong>
+					
+				</div>
+				<div class="message">it was part of a whole program that did use those headers.<br />
+<br />
+i use the Digital Mars compiler that requires all headers to end in a '.h' extension.</div>
+			
+		</div>
+	</div>
+</div>Where does &lt;cstdio&gt; fit in then?  I don't know what digital mars is, but if it doesnt support standard C++ and modern headers, chuck it for something useful.
+						</blockquote>
+					</div>
+
+					
+				</div>
+			</div>
+			
+			<div class="after_content">
+				
+				
+				
+				
+					<blockquote class="signature restore"><div class="signaturecontainer">hello, internet!</div></blockquote>
+				
+				
+			</div>
+			
+			<div class="cleardiv"></div>
+		</div>
+	</div>
+		<div class="postfoot">
+			<!-- <div class="postfoot_container"> -->
+			<div class="textcontrols floatcontainer">
+				<span class="postcontrols">
+					<img style="display:none" id="progress_401315" src="https://cboard.cprogramming.com/images/misc/progress.gif" alt="" />
+					
+					
+					
+					
+				</span>
+				<span class="postlinking">
+					
+						
+					
+
+					
+					
+					
+					
+
+					
+					
+
+					
+					
+					
+					
+					
+				</span>
+			<!-- </div> -->
+			</div>
+		</div>
+	<hr />
+</li>
+
+		</ol>
+		<div class="separator"></div>
+		<div class="postlistfoot">
+			
+		</div>
+
+	
+
+</div>
+
+<div id="below_postlist" class="noinlinemod below_postlist">
+	
+	<div id="pagination_bottom" class="pagination_bottom">
+	
+		<form action="https://cboard.cprogramming.com/showthread.php?t=57178&amp;page=2&amp;s=ad8d6bce2d6e047bbf5889e030c22c3f" method="get" class="pagination popupmenu nohovermenu">
+<input type="hidden" name="t" value="57178" /><input type="hidden" name="s" value="ad8d6bce2d6e047bbf5889e030c22c3f" />
+	
+		<span><a href="javascript://" class="popupctrl">Page 1 of 2</a></span>
+		
+		
+		
+		<span class="selected"><a href="javascript://" title="Results 1 to 15 of 25">1</a></span><span><a href="https://cboard.cprogramming.com/windows-programming/57178-copying-clipboard-2.html?s=ad8d6bce2d6e047bbf5889e030c22c3f" title="Show results 16 to 25 of 25">2</a></span>
+		
+		
+		<span class="prev_next"><a rel="next" href="https://cboard.cprogramming.com/windows-programming/57178-copying-clipboard-2.html?s=ad8d6bce2d6e047bbf5889e030c22c3f" title="Next Page - Results 16 to 25 of 25"><img src="https://cboard.cprogramming.com/images/pagination/next-right.png" alt="Next" /></a></span>
+		
+		
+		<span class="first_last"><a href="https://cboard.cprogramming.com/windows-programming/57178-copying-clipboard-2.html?s=ad8d6bce2d6e047bbf5889e030c22c3f" title="Last Page - Results 16 to 25 of 25">Last<img src="https://cboard.cprogramming.com/images/pagination/last-right.png" alt="Last" /></a></span>
+		
+	
+	<ul class="popupbody popuphover">
+		<li class="formsubmit jumptopage"><label>Jump to page: <input type="text" name="page" size="4" /></label> <input type="submit" class="button" value="Go" /></li>
+	</ul>
+</form>
+	
+		<div class="clear"></div>
+<div class="navpopupmenu popupmenu nohovermenu" id="showthread_navpopup">
+	
+		<span class="shade">Quick Navigation</span>
+		<a href="https://cboard.cprogramming.com/windows-programming/57178-copying-clipboard.html?s=ad8d6bce2d6e047bbf5889e030c22c3f" class="popupctrl"><span class="ctrlcontainer">Windows Programming</span></a>
+		<a href="https://cboard.cprogramming.com/windows-programming/57178-copying-clipboard.html#top" class="textcontrol" onclick="document.location.hash='top';return false;">Top</a>
+	
+	<ul class="navpopupbody popupbody popuphover">
+		
+		<li class="optionlabel">Site Areas</li>
+		<li><a href="https://cboard.cprogramming.com/usercp.php?s=ad8d6bce2d6e047bbf5889e030c22c3f">Settings</a></li>
+		<li><a href="https://cboard.cprogramming.com/private.php?s=ad8d6bce2d6e047bbf5889e030c22c3f">Private Messages</a></li>
+		<li><a href="https://cboard.cprogramming.com/subscription.php?s=ad8d6bce2d6e047bbf5889e030c22c3f">Subscriptions</a></li>
+		<li><a href="https://cboard.cprogramming.com/online.php?s=ad8d6bce2d6e047bbf5889e030c22c3f">Who's Online</a></li>
+		<li><a href="https://cboard.cprogramming.com/search.php?s=ad8d6bce2d6e047bbf5889e030c22c3f">Search Forums</a></li>
+		<li><a href="https://cboard.cprogramming.com/?s=ad8d6bce2d6e047bbf5889e030c22c3f">Forums Home</a></li>
+		
+			<li class="optionlabel">Forums</li>
+			
+		
+			
+				<li><a href="https://cboard.cprogramming.com/general-programming-boards/?s=ad8d6bce2d6e047bbf5889e030c22c3f">General Programming Boards</a>
+					<ol class="d1">
+						
+		
+			
+				<li><a href="https://cboard.cprogramming.com/cplusplus-programming/?s=ad8d6bce2d6e047bbf5889e030c22c3f">C++ Programming</a></li>
+			
+		
+			
+				<li><a href="https://cboard.cprogramming.com/c-programming/?s=ad8d6bce2d6e047bbf5889e030c22c3f">C Programming</a></li>
+			
+		
+			
+				<li><a href="https://cboard.cprogramming.com/csharp-programming/?s=ad8d6bce2d6e047bbf5889e030c22c3f">C# Programming</a></li>
+			
+		
+			
+				<li><a href="https://cboard.cprogramming.com/game-programming/?s=ad8d6bce2d6e047bbf5889e030c22c3f">Game Programming</a></li>
+			
+		
+			
+				<li><a href="https://cboard.cprogramming.com/networking-device-communication/?s=ad8d6bce2d6e047bbf5889e030c22c3f">Networking/Device Communication</a></li>
+			
+		
+			
+				<li><a href="https://cboard.cprogramming.com/faq-board/?s=ad8d6bce2d6e047bbf5889e030c22c3f">FAQ Board</a></li>
+			
+		
+			
+				<li><a href="https://cboard.cprogramming.com/programming-book-and-product-reviews/?s=ad8d6bce2d6e047bbf5889e030c22c3f">Programming Book and Product Reviews</a></li>
+			
+		
+			
+					</ol>
+				</li>
+			
+		
+			
+				<li><a href="https://cboard.cprogramming.com/platform-specific-boards/?s=ad8d6bce2d6e047bbf5889e030c22c3f">Platform Specific Boards</a>
+					<ol class="d1">
+						
+		
+			
+				<li><a href="https://cboard.cprogramming.com/windows-programming/?s=ad8d6bce2d6e047bbf5889e030c22c3f">Windows Programming</a></li>
+			
+		
+			
+				<li><a href="https://cboard.cprogramming.com/linux-programming/?s=ad8d6bce2d6e047bbf5889e030c22c3f">Linux Programming</a></li>
+			
+		
+			
+					</ol>
+				</li>
+			
+		
+			
+				<li><a href="https://cboard.cprogramming.com/cprogramming-com-and-aihorizon-com-s-artificial-intelligence-boards/?s=ad8d6bce2d6e047bbf5889e030c22c3f">Cprogramming.com and AIHorizon.com's Artificial Intelligence Boards</a>
+					<ol class="d1">
+						
+		
+			
+				<li><a href="https://cboard.cprogramming.com/general-ai-programming/?s=ad8d6bce2d6e047bbf5889e030c22c3f">General AI Programming</a></li>
+			
+		
+			
+					</ol>
+				</li>
+			
+		
+			
+				<li><a href="https://cboard.cprogramming.com/community-boards/?s=ad8d6bce2d6e047bbf5889e030c22c3f">Community Boards</a>
+					<ol class="d1">
+						
+		
+			
+				<li><a href="https://cboard.cprogramming.com/article-discussions/?s=ad8d6bce2d6e047bbf5889e030c22c3f">Article Discussions</a></li>
+			
+		
+			
+				<li><a href="https://cboard.cprogramming.com/tech-board/?s=ad8d6bce2d6e047bbf5889e030c22c3f">Tech Board</a></li>
+			
+		
+			
+				<li><a href="https://cboard.cprogramming.com/general-discussions/?s=ad8d6bce2d6e047bbf5889e030c22c3f">General Discussions</a></li>
+			
+		
+			
+				<li><a href="https://cboard.cprogramming.com/a-brief-history-of-cprogramming-com/?s=ad8d6bce2d6e047bbf5889e030c22c3f">A Brief History of Cprogramming.com</a></li>
+			
+		
+			
+				<li><a href="https://cboard.cprogramming.com/contests-board/?s=ad8d6bce2d6e047bbf5889e030c22c3f">Contests Board</a></li>
+			
+		
+			
+				<li><a href="https://cboard.cprogramming.com/projects-and-job-recruitment/?s=ad8d6bce2d6e047bbf5889e030c22c3f">Projects and Job Recruitment</a></li>
+			
+		
+			
+					</ol>
+				</li>
+			
+		
+		
+	</ul>
+</div>
+<div class="clear"></div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+	<!-- next / previous links -->
+	<div class="navlinks">
+		
+			<strong>&laquo;</strong>
+			<a href="https://cboard.cprogramming.com/windows-programming/57178-copying-clipboard-prev-thread.html?s=ad8d6bce2d6e047bbf5889e030c22c3f" rel="nofollow">Previous Thread</a>
+			|
+			<a href="https://cboard.cprogramming.com/windows-programming/57178-copying-clipboard-next-thread.html?s=ad8d6bce2d6e047bbf5889e030c22c3f" rel="nofollow">Next Thread</a>
+			<strong>&raquo;</strong>
+		
+	</div>
+	<!-- / next / previous links -->
+
+<div id="thread_info" class="thread_info block">
+	
+
+<div style="font-size:14px;padding:10px;margin-top:5px;margin-bottom:5px;">
+<b>Popular pages</b>
+<ul>
+<li style="list-style-type: disc; list-style-position: inside"><a href=http://www.cprogramming.com/begin.html>Exactly how to get started with C++ (or C) today</a> 
+<li style="list-style-type: disc; list-style-position: inside"><a href=http://www.cprogramming.com/tutorial/c-tutorial.html>C Tutorial</a>
+<li style="list-style-type: disc; list-style-position: inside"><a href=http://www.cprogramming.com/tutorial/c++-tutorial.html>C++ Tutorial</a>
+<li style="list-style-type: disc; list-style-position: inside"><a href=http://www.cprogramming.com/how_to_learn_to_program.html>5 ways you can learn to program faster</a> 
+<li style="list-style-type: disc; list-style-position: inside"><a href=http://www.cprogramming.com/beginner_programming_mistakes.html>The 5 Most Common Problems New Programmers Face</a>
+<li style="list-style-type: disc; list-style-position: inside"><a href=http://www.cprogramming.com/code_blocks/>How to set up a compiler</a>
+<li style="list-style-type: disc; list-style-position: inside"><a href=http://www.cprogramming.com/tutorial/common.html>8 Common programming Mistakes</a> 
+<li style="list-style-type: disc; list-style-position: inside"><a href=http://www.cprogramming.com/c++11/what-is-c++0x.html>What is C++11?</a>
+<li style="list-style-type: disc; list-style-position: inside"><a href=http://www.cprogramming.com/tutorial/game_programming/same_game_part1.html>Creating a game, from start to finish</a>
+</ul>
+
+<b>Recent additions</b> <a href="http://feeds2.feedburner.com/Cprogrammingcom" rel="alternate" type="application/rss+xml"><img src="https://www.feedburner.com/fb/images/pub/feed-icon16x16.png" alt="subscribe to a feed" style="border:0" width="16" height="16"></img></a>
+<ul>
+<li style="list-style-type: disc; list-style-position: inside"><a href=http://www.cprogramming.com/tutorial/shared-libraries-linux-gcc.html>How to create a shared library on Linux with GCC</a> - December 30, 2011</li>
+<li style="list-style-type: disc; list-style-position: inside"> <a href="http://www.cprogramming.com/c++11/c++11-nullptr-strongly-typed-enum-class.html">Enum classes and nullptr in C++11</a> - November 27, 2011</li>
+<li style="list-style-type: disc; list-style-position: inside"><a href="http://www.cprogramming.com/tutorial/computersciencetheory/hash-table.html">Learn about The Hash Table</a> - November 20, 2011</li>
+<li style="list-style-type: disc; list-style-position: inside"><a href="http://www.cprogramming.com/c++11/rvalue-references-and-move-semantics-in-c++11.html">Rvalue References and Move Semantics in C++11</a> - November 13, 2011</li>
+<li style="list-style-type: disc; list-style-position: inside"><a href="http://www.cprogramming.com/java/c-and-c++-for-java-programmers.html">C and C++ for Java Programmers</a> - November 5, 2011</li>
+<li style="list-style-type: disc; list-style-position: inside"><a href="http://www.cprogramming.com/tutorial/c++-iostreams.html">A Gentle Introduction to C++ IO Streams</a> - October 10, 2011</li>
+</ul>
+</div>
+
+
+	
+	<div id="similar_threads">
+		<h4 class="threadinfohead blockhead">Similar Threads</h4>
+		<div id="similar_threads_list" class="thread_info_block blockbody formcontrols">
+			<ol class="similar_threads">
+			<li class="floatcontainer">
+  <div class="titleblock">
+    <h6><a href="https://cboard.cprogramming.com/a-brief-history-of-cprogramming-com/108833-clipboard-hijack.html?s=ad8d6bce2d6e047bbf5889e030c22c3f" title="DISCLAIMER: 
+The following link hijacks your clipboard.However you can change the content of the clipboard by closing the page. 
+ 
+http://garyc.mooo.com:3232/rr/ 
+ 
+Normally I have seen websites that are intrusive by opening popups and changing the 
+homepage. 
+But this one has gone one-level up by...">Clipboard hijack</a></h6>
+    <div class="starter_forum">
+       By stevesmithx in forum A Brief History of Cprogramming.com
+    </div>
+  </div>
+  <div class="dateblock">
+    <span class="shade">Replies:</span> 16
+      <div class="starter_forum">
+        <span class="shade">Last Post:</span> 11-08-2008, <span class="time">06:04 AM</span>
+      </div>
+  </div>
+</li><li class="floatcontainer">
+  <div class="titleblock">
+    <h6><a href="https://cboard.cprogramming.com/cplusplus-programming/67699-copying-directory-clipboard.html?s=ad8d6bce2d6e047bbf5889e030c22c3f" title="Hello, I want to be able to copy an entire directory to the global windows clipboard so i can right click on a normal windows window and paste it in there.  I am doing the copying from my application and I can get it to work with files just not directories.  Has anyone messed around with this...">Copying a Directory to the Clipboard</a></h6>
+    <div class="starter_forum">
+       By Buiden in forum C++ Programming
+    </div>
+  </div>
+  <div class="dateblock">
+    <span class="shade">Replies:</span> 0
+      <div class="starter_forum">
+        <span class="shade">Last Post:</span> 07-15-2005, <span class="time">12:21 PM</span>
+      </div>
+  </div>
+</li><li class="floatcontainer">
+  <div class="titleblock">
+    <h6><a href="https://cboard.cprogramming.com/csharp-programming/56835-clipboard-custom-types.html?s=ad8d6bce2d6e047bbf5889e030c22c3f" title="Hello, 
+I've been trying like crazy to figure out how to copy an object of a custom type to the Clipboard via Clipboard.SetDataObject() and then retrieve it with Clipboard.GetDataObject(). 
+ 
+I've tried everything I can think of. I declare a DataObject, made out of my custom object, and give it a...">Clipboard and Custom Types</a></h6>
+    <div class="starter_forum">
+       By McClamm in forum C# Programming
+    </div>
+  </div>
+  <div class="dateblock">
+    <span class="shade">Replies:</span> 1
+      <div class="starter_forum">
+        <span class="shade">Last Post:</span> 09-16-2004, <span class="time">04:43 PM</span>
+      </div>
+  </div>
+</li><li class="floatcontainer">
+  <div class="titleblock">
+    <h6><a href="https://cboard.cprogramming.com/windows-programming/48893-clipboard-modifier.html?s=ad8d6bce2d6e047bbf5889e030c22c3f" title="I'm currently coding a formatter for the clipboard : when it finds a certain thing on the clipboard, it will modify it, empty the clipboard, and put the new modified data onto the clipboard, ready for the user to paste elsewhere. However, I'm having the following troubles : 
+ 
+1....">Clipboard Modifier</a></h6>
+    <div class="starter_forum">
+       By Korhedron in forum Windows Programming
+    </div>
+  </div>
+  <div class="dateblock">
+    <span class="shade">Replies:</span> 2
+      <div class="starter_forum">
+        <span class="shade">Last Post:</span> 01-03-2004, <span class="time">02:32 PM</span>
+      </div>
+  </div>
+</li><li class="floatcontainer">
+  <div class="titleblock">
+    <h6><a href="https://cboard.cprogramming.com/windows-programming/23261-ole-clipboard-win32-api-vs-mfc.html?s=ad8d6bce2d6e047bbf5889e030c22c3f" title="Hi. 
+ 
+I use Programming Windows with MFC, Second Edition by Jeff Prosise as a reference for the OLE Clipboard.  Prosise demonstrates both Win32 API method and MFC simple classes encapsulating the Win32 API method for the OLE Clipboard.  
+ 
+The Win32 API method is not difficult, just takes up a...">OLE Clipboard :: Win32 API vs. MFC</a></h6>
+    <div class="starter_forum">
+       By kuphryn in forum Windows Programming
+    </div>
+  </div>
+  <div class="dateblock">
+    <span class="shade">Replies:</span> 3
+      <div class="starter_forum">
+        <span class="shade">Last Post:</span> 08-11-2002, <span class="time">05:57 PM</span>
+      </div>
+  </div>
+</li>
+			</ol>
+		</div>
+	</div>
+
+
+	
+	
+	
+	
+	<div class="options_block_container">
+		
+		
+	</div>
+</div>
+
+
+
+
+
+
+
+
+<div style="clear: left">
+  
+   
+</div>
+
+<div id="footer" class="floatcontainer footer">
+
+	<form action="https://cboard.cprogramming.com/index.php" method="get" id="footer_select" class="footer_select">
+
+		
+			<select name="styleid" onchange="switch_id(this, 'style')">
+				<optgroup label="Quick Style Chooser"><option class="hidden"></option></optgroup>
+				
+					
+					<optgroup label="&nbsp;Standard Styles">
+									
+					
+	<option value="6" class="" selected="selected">-- Normal Style</option>
+
+					
+					</optgroup>
+										
+				
+				
+					
+					<optgroup label="&nbsp;Mobile Styles">
+					
+					
+	<option value="13" class="" >-- Mobile Style</option>
+
+	<option value="14" class="" >-- Default Mobile Style</option>
+
+					
+					</optgroup>
+										
+				
+			</select>	
+		
+		
+		
+	</form>
+
+	<ul id="footer_links" class="footer_links">
+		<li><a href="https://www.cprogramming.com/email.html?s=ad8d6bce2d6e047bbf5889e030c22c3f" rel="nofollow" accesskey="9">Contact Us</a></li>
+		<li><a href="https://www.cprogramming.com">C and C++ Programming at Cprogramming.com</a></li>
+		
+		
+		<li><a href="https://cboard.cprogramming.com/archive/index.php?s=ad8d6bce2d6e047bbf5889e030c22c3f">Archive</a></li>
+		<li><a href="http://glowhost.com" target="_blank">Web Hosting</a></li>
+		<li><a href="https://www.cprogramming.com/privacy.html">Privacy Statement</a></li>
+		
+		<li><a href="https://cboard.cprogramming.com/windows-programming/57178-copying-clipboard.html#top" onclick="document.location.hash='top'; return false;">Top</a></li>
+	</ul>
+	
+	
+	
+	
+	<script type="text/javascript">
+	<!--
+		// Main vBulletin Javascript Initialization
+		vBulletin_init();
+	//-->
+	</script>
+        
+</div>
+</div> <!-- closing div for body_wrapper -->
+
+<div class="below_body">
+<div id="footer_time" class="shade footer_time">All times are GMT -6. The time now is <span class="time">06:49 PM</span>.</div>
+
+<div id="footer_copyright" class="shade footer_copyright">
+	<!-- Do not remove this copyright notice -->
+	Powered by <a href="https://www.vbulletin.com" id="vbulletinlink">vBulletin&reg;</a> Version 4.2.5 <br />Copyright &copy; 2019 vBulletin Solutions Inc. All rights reserved. 
+	<!-- Do not remove this copyright notice -->	
+</div>
+<div id="footer_morecopyright" class="shade footer_morecopyright">
+	<!-- Do not remove cronimage or your scheduled tasks will cease to function -->
+	
+	<!-- Do not remove cronimage or your scheduled tasks will cease to function -->
+	Search Engine Optimisation provided by 
+			<a rel="nofollow" href="https://www.dragonbyte-tech.com/vbecommerce.php?productid=303&amp;do=product&amp;utm_source=cboard.cprogramming.com&amp;utm_campaign=product&amp;utm_medium=DragonByte%2BSEO&amp;utm_content=Pro" target="_blank">DragonByte SEO v2.0.40 (Pro)</a> -
+			<a rel="nofollow" href="https://www.dragonbyte-tech.com/?utm_source=cboard.cprogramming.com&amp;utm_campaign=site&amp;utm_medium=DragonByte%2BSEO&amp;utm_content=Pro" target="_blank">vBulletin Mods &amp; Addons</a> Copyright &copy; 2019 DragonByte Technologies Ltd.
+	
+</div>
+ 
+
+</div>
+</body>
+<script type="text/javascript" src="https://mainsite-static-cprogrammingcom.netdna-ssl.com/syntax-highlight/scripts/XRegExp.js"></script>
+
+<script type="text/javascript" src="https://mainsite-static-cprogrammingcom.netdna-ssl.com/syntax-highlight/scripts/shCore-vb.js"></script>
+
+
+<script type="text/javascript" src="https://mainsite-static-cprogrammingcom.netdna-ssl.com/syntax-highlight/scripts/shBrushCpp.js"></script>
+
+<script type="text/javascript">
+         SyntaxHighlighter.all();
+</script>
+
+</html>

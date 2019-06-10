@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Nouveau - ArchWiki</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Nouveau","wgTitle":"Nouveau","wgCurRevisionId":559608,"wgRevisionId":559608,"wgArticleId":7352,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Pages with dead links","Pages or sections flagged with Template:Expansion","Graphics","X server"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Nouveau","wgRelevantArticleId":7352,"wgRequestId":"f573b755b471093a3ffcf75f","wgCSPNonce":false,"wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.toc.styles":"ready","zzz.ext.archLinux.styles":"ready","skins.vector.styles.responsive":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"});mw.loader.implement("user.tokens@0tffind",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});RLPAGEMODULES=["site","mediawiki.page.startup","mediawiki.user","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","skins.vector.js"];mw.loader.load(RLPAGEMODULES);});</script>
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cmediawiki.toc.styles%7Cskins.vector.styles%7Cskins.vector.styles.responsive%7Czzz.ext.archLinux.styles&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.32.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="ArchWiki (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="https://wiki.archlinux.org/api.php?action=rsd"/>
+<link rel="license" href="http://www.gnu.org/copyleft/fdl.html"/>
+<link rel="alternate" type="application/atom+xml" title="ArchWiki Atom feed" href="/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<!--[if lt IE 9]><script src="/load.php?debug=false&amp;lang=en&amp;modules=html5shiv&amp;only=scripts&amp;skin=vector&amp;sync=1"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Nouveau rootpage-Nouveau skin-vector action-view"><div id="archnavbar" class="noprint">
+    <div id="archnavbarlogo">
+        <p><a id="logo" href="https://www.archlinux.org/"></a></p>
+    </div>
+    <div id="archnavbarmenu">
+        <ul id="archnavbarlist">
+                        <li id="anb-home"><a href="https://www.archlinux.org/">Home</a></li>            <li id="anb-packages"><a href="https://www.archlinux.org/packages/">Packages</a></li>            <li id="anb-forums"><a href="https://bbs.archlinux.org/">Forums</a></li>            <li id="anb-wiki" class="anb-selected"><a href="https://wiki.archlinux.org/">Wiki</a></li>            <li id="anb-bugs"><a href="https://bugs.archlinux.org/">Bugs</a></li>            <li id="anb-security"><a href="https://security.archlinux.org/">Security</a></li>            <li id="anb-aur"><a href="https://aur.archlinux.org/">AUR</a></li>            <li id="anb-download"><a href="https://www.archlinux.org/download/">Download</a></li>        </ul>
+    </div>
+</div>
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div class="mw-indicators mw-body-content">
+</div>
+<h1 id="firstHeading" class="firstHeading" lang="en">Nouveau</h1>			<div id="bodyContent" class="mw-body-content">
+				<div id="siteSub" class="noprint">From ArchWiki</div>				<div id="contentSub"></div>
+				<div id="jump-to-nav"></div>				<a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+				<a class="mw-jump-link" href="#p-search">Jump to search</a>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div class="archwiki-template-meta-related-articles-start"><p>Related articles</p><ul>
+<li><a href="/index.php/NVIDIA" title="NVIDIA">NVIDIA</a></li>
+<li><a href="/index.php/Xorg" title="Xorg">Xorg</a></li>
+<li><a href="/index.php/Bumblebee" title="Bumblebee">Bumblebee</a></li>
+</ul></div>
+<p>This article covers the open-source <a rel="nofollow" class="external text" href="https://nouveau.freedesktop.org/">Nouveau</a> driver for NVIDIA graphics cards. For information about the proprietary driver, see <a href="/index.php/NVIDIA" title="NVIDIA">NVIDIA</a>.
+</p><p>Find your card's <a rel="nofollow" class="external text" href="https://nouveau.freedesktop.org/wiki/CodeNames">code name</a> (a more detailed list is available on <a href="https://en.wikipedia.org/wiki/Comparison_of_Nvidia_Graphics_Processing_Units" class="extiw" title="wikipedia:Comparison of Nvidia Graphics Processing Units">Wikipedia</a>), and compare it with the <a rel="nofollow" class="external text" href="https://nouveau.freedesktop.org/wiki/FeatureMatrix/">feature matrix</a> for supported features.
+</p>
+<div id="toc" class="toc"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Installation"><span class="tocnumber">1</span> <span class="toctext">Installation</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Loading"><span class="tocnumber">2</span> <span class="toctext">Loading</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Enable_early_KMS"><span class="tocnumber">2.1</span> <span class="toctext">Enable early KMS</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-4"><a href="#Tips_and_tricks"><span class="tocnumber">3</span> <span class="toctext">Tips and tricks</span></a>
+<ul>
+<li class="toclevel-2 tocsection-5"><a href="#Keep_NVIDIA_driver_installed"><span class="tocnumber">3.1</span> <span class="toctext">Keep NVIDIA driver installed</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Installing_the_latest_development_packages"><span class="tocnumber">3.2</span> <span class="toctext">Installing the latest development packages</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Dual_head"><span class="tocnumber">3.3</span> <span class="toctext">Dual head</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Setting_console_resolution"><span class="tocnumber">3.4</span> <span class="toctext">Setting console resolution</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Power_management"><span class="tocnumber">3.5</span> <span class="toctext">Power management</span></a>
+<ul>
+<li class="toclevel-3 tocsection-10"><a href="#Fan_control"><span class="tocnumber">3.5.1</span> <span class="toctext">Fan control</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-11"><a href="#Optimus"><span class="tocnumber">3.6</span> <span class="toctext">Optimus</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Vertical_Sync"><span class="tocnumber">3.7</span> <span class="toctext">Vertical Sync</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-13"><a href="#Troubleshooting"><span class="tocnumber">4</span> <span class="toctext">Troubleshooting</span></a>
+<ul>
+<li class="toclevel-2 tocsection-14"><a href="#Disable_MSI"><span class="tocnumber">4.1</span> <span class="toctext">Disable MSI</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#Phantom_output_issue"><span class="tocnumber">4.2</span> <span class="toctext">Phantom output issue</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#Random_lockups_with_kernel_error_messages"><span class="tocnumber">4.3</span> <span class="toctext">Random lockups with kernel error messages</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="#Flat_Panel_Table_Invalid"><span class="tocnumber">4.4</span> <span class="toctext">Flat Panel Table Invalid</span></a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Installation">Installation</span></h2>
+<p><a href="/index.php/Install" class="mw-redirect" title="Install">Install</a> the <span class="plainlinks archwiki-template-pkg"><a rel="nofollow" class="external text" href="https://www.archlinux.org/packages/?name=mesa">mesa</a></span> package, which provides the DRI driver for 3D acceleration.
+</p>
+<ul><li>For 32-bit application support, also install the <span class="plainlinks archwiki-template-pkg"><a rel="nofollow" class="external text" href="https://www.archlinux.org/packages/?name=lib32-mesa">lib32-mesa</a></span> package from the <a href="/index.php/Multilib" class="mw-redirect" title="Multilib">multilib</a> repostory.</li>
+<li>For the DDX driver (which provides 2D acceleration in <a href="/index.php/Xorg" title="Xorg">Xorg</a>), <a href="/index.php/Install" class="mw-redirect" title="Install">install</a> the <span class="plainlinks archwiki-template-pkg"><a rel="nofollow" class="external text" href="https://www.archlinux.org/packages/?name=xf86-video-nouveau">xf86-video-nouveau</a></span> package.</li></ul>
+<p>Also see <a href="/index.php/Hardware_video_acceleration" title="Hardware video acceleration">Hardware video acceleration</a>.
+</p>
+<h2><span class="mw-headline" id="Loading">Loading</span></h2>
+<p>The Nouveau kernel module should load automatically on system boot. If it does not happen, then:
+</p>
+<ul><li>Make sure you do <b>not</b> have <code>nomodeset</code> or <code>vga=</code> as a <a href="/index.php/Kernel_parameter" class="mw-redirect" title="Kernel parameter">kernel parameter</a>, since Nouveau requires kernel mode-setting.</li>
+<li>Also, check that you do not have Nouveau disabled using any modprobe blacklisting technique within <code>/etc/modprobe.d/</code> or <code>/usr/lib/modprobe.d/</code>.</li>
+<li>If all above still fails to load nouveau check dmesg for an opcode error. Add <code>nouveau.config=NvBios=PRAMIN</code> to your <a href="/index.php/Kernel_parameters" title="Kernel parameters">Kernel parameters</a> to prevent module unloading.<a rel="nofollow" class="external autonumber" href="https://nouveau.freedesktop.org/wiki/TroubleShooting/#index10h3">[1]</a></li></ul>
+<h3><span class="mw-headline" id="Enable_early_KMS">Enable early KMS</span></h3>
+<div class="archwiki-template-box archwiki-template-box-tip"><strong>Tip:</strong> If you have problems with the resolution, check <a href="/index.php/Kernel_mode_setting#Forcing_modes_and_EDID" title="Kernel mode setting">Kernel mode setting#Forcing modes and EDID</a>.</div>
+<p><a href="/index.php/Kernel_mode_setting" title="Kernel mode setting">Kernel mode setting</a> (KMS) is required by the Nouveau driver. By default, the KMS is done after the other kernel modules are loaded. You will see the text "Loading modules" and the size of the text may change, possibly with an undesirable flicker. See the <a rel="nofollow" class="external text" href="https://nouveau.freedesktop.org/wiki/KernelModeSetting">Nouveau KernelModeSetting page</a> for more details.
+</p><p>It is also possible to start the KMS as early as possible in the boot process, when the <a href="/index.php/Initramfs" class="mw-redirect" title="Initramfs">initramfs</a> is loaded. 
+</p><p>To do this, add <code>nouveau</code> to the <code>MODULES</code> array in <code>/etc/mkinitcpio.conf</code> (module names are separated by spaces): 
+</p>
+<pre>MODULES="... nouveau ..."
+</pre>
+<p>If you are using a custom EDID file, you should embed it into initramfs as well:
+</p>
+<pre style="margin-bottom: 0; border-bottom:none; padding-bottom:0.8em;">/etc/mkinitcpio.conf</pre>
+<pre style="margin-top: 0; border-top-style:dashed; padding-top: 0.8em;">FILES="/lib/firmware/edid/your_edid.bin"</pre>
+<p>Re-generate the initial ramdisk image:
+</p>
+<pre># mkinitcpio -p &lt;kernel preset; e.g. <i>linux</i>&gt;
+</pre>
+<p>If you're experiencing troubles with Nouveau leading to rebuild nouveau-drm several times for testing purposes, do not add <code>nouveau</code> to the initramfs. It is too easy to forget to rebuild the initramfs and it will just make any testing harder. Just use "Late start" until you are confident the system is stable. There might be additional problems with initramfs if you need a custom firmware (generally not advised).
+</p>
+<h2><span class="mw-headline" id="Tips_and_tricks">Tips and tricks</span></h2>
+<h3><span class="mw-headline" id="Keep_NVIDIA_driver_installed">Keep NVIDIA driver installed</span></h3>
+<p>If you want to keep the proprietary NVIDIA driver installed (and are not using OpenGL), but want to use the Nouveau driver, comment out nouveau blacklisting in <code>/etc/modprobe.d/nouveau_blacklist.conf</code> or <code>/usr/lib/modprobe.d/nvidia.conf</code> modifying it as follows:
+</p>
+<pre>#blacklist nouveau
+</pre>
+<p>And tell Xorg to load nouveau instead of nvidia by creating the file <code>/etc/X11/xorg.conf.d/20-nouveau.conf</code> with the following content:
+</p>
+<pre>Section "Device"
+    Identifier "Nvidia card"
+    Driver "nouveau"
+EndSection
+</pre>
+<p>If you already used the NVIDIA driver, and want to test Nouveau without reboot, make sure the 'nvidia' module is no longer loaded:
+</p>
+<pre># rmmod nvidia
+</pre>
+<p>Then load the 'nouveau' module: 
+</p>
+<pre># modprobe nouveau
+</pre>
+<p>And check that it loaded fine by looking at kernel messages: 
+</p>
+<pre>$ dmesg
+</pre>
+<h3><span class="mw-headline" id="Installing_the_latest_development_packages">Installing the latest development packages</span></h3>
+<p>To get the latest Nouveau improvements
+</p>
+<ul><li><span class="plainlinks archwiki-template-pkg"><a rel="nofollow" class="external text" href="https://aur.archlinux.org/packages/linux-git/">linux-git</a></span><sup><small>AUR</small></sup> PKGBUILD to use the Nouveau tree at <a rel="nofollow" class="external free" href="https://github.com/skeggsb/linux/">https://github.com/skeggsb/linux/</a>, instead of making a package from scratch.</li>
+<li><span class="plainlinks archwiki-template-pkg"><a rel="nofollow" class="external text" href="https://aur.archlinux.org/packages/libdrm-git/">libdrm-git</a></span><sup><small>AUR</small></sup></li>
+<li><span class="plainlinks archwiki-template-pkg"><a rel="nofollow" class="external text" href="https://aur.archlinux.org/packages/lib32-libdrm-git/">lib32-libdrm-git</a></span><sup><small>AUR</small></sup></li>
+<li><span class="plainlinks archwiki-template-pkg"><a rel="nofollow" class="external text" href="https://aur.archlinux.org/packages/lib32-mesa-git/">lib32-mesa-git</a></span><sup><small>AUR</small></sup></li>
+<li><span class="plainlinks archwiki-template-pkg"><a rel="nofollow" class="external text" href="https://aur.archlinux.org/packages/mesa-git/">mesa-git</a></span><sup><small>AUR</small></sup></li>
+<li><span class="plainlinks archwiki-template-pkg"><a rel="nofollow" class="external text" href="https://aur.archlinux.org/packages/xf86-video-nouveau-git/">xf86-video-nouveau-git</a></span><sup><small>AUR</small></sup></li></ul>
+<h3><span class="mw-headline" id="Dual_head">Dual head</span></h3>
+<p>Nouveau supports the xrandr extension for modesetting and multiple monitors. See the <a href="/index.php/Xrandr" title="Xrandr">xrandr</a> page for tutorials.
+</p><p>Here is a full sample <code>/etc/X11/xorg.conf.d/20-nouveau.conf</code> above for running 2 monitors in dual head mode. You may prefer to use a graphical tool to configure monitors like GNOME Control Center's Display panel (<code>gnome-control-center display</code>).
+</p>
+<pre># the right one
+Section "Monitor"
+          Identifier   "NEC"
+          Option "PreferredMode" "1280x1024_60.00"
+EndSection
+
+# the left one
+Section "Monitor"
+          Identifier   "FUS"
+          Option "PreferredMode" "1280x1024_60.00"
+          Option "LeftOf" "NEC"
+EndSection
+
+Section "Device"
+    Identifier "nvidia card"
+    Driver "nouveau"
+    Option  "Monitor-DVI-I-1" "NEC"
+    Option  "Monitor-DVI-I-2" "FUS"
+EndSection
+
+Section "Screen"
+    Identifier "screen1"
+   Monitor "NEC"
+    DefaultDepth 24
+      SubSection "Display"
+       Depth      24
+       Virtual 2560 2048
+      EndSubSection
+    Device "nvidia card"
+EndSection
+
+Section "ServerLayout"
+    Identifier "layout1"
+    Screen "screen1"
+EndSection</pre>
+<h3><span class="mw-headline" id="Setting_console_resolution">Setting console resolution</span></h3>
+<p>Use the <span class="plainlinks archwiki-template-pkg"><a rel="nofollow" class="external text" href="https://www.archlinux.org/packages/?name=fbset">fbset</a></span> tool to adjust console resolution.
+</p><p>You can also pass the resolution to nouveau with the <code>video=</code> kernel line option (see <a href="/index.php/KMS" class="mw-redirect" title="KMS">KMS</a>).
+</p>
+<h3><span class="mw-headline" id="Power_management">Power management</span></h3>
+<p>The lack of proper power management in the nouveau driver is one of the most important causes of performance issues, since most cards will remain in their lower power state with lower clocks during their use. Experimental support for GPU reclocking is available for some cards (see the <a rel="nofollow" class="external text" href="https://nouveau.freedesktop.org/wiki/PowerManagement">Nouveau PowerManagement page</a>) and since kernel 4.5 can be controlled through a debugfs interface located at <code>/sys/kernel/debug/dri/*/pstate</code>.
+</p><p>For example, to check the available power states and the current setting for the first card in your system, run:
+</p>
+<pre># cat /sys/kernel/debug/dri/0/pstate
+</pre>
+<p>It's also possible to manually set/force a certain power state by writing to said interface:
+</p>
+<pre># echo <i>pstate</i> &gt; /sys/kernel/debug/dri/0/pstate
+</pre>
+<div class="archwiki-template-box archwiki-template-box-warning"><strong>Warning:</strong> The support for reclocking is highly experimental. Manually setting the power state may hang your system, cause corruption or overheat your card.</div>
+<h4><span class="mw-headline" id="Fan_control">Fan control</span></h4>
+<p>If it is implemented for you card you can configure fan control via <code>/sys</code>.
+</p>
+<pre>$ find /sys -name pwm1_enable
+/sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0/hwmon/hwmon1/pwm1_enable
+$ readlink /sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0/driver
+../../../../bus/pci/drivers/nouveau
+</pre>
+<p><code>pwm1_enable</code> can be set to 0, 1 or 2 meaning NONE, MANUAL and AUTO fan control. If set to manual fan control, you can set <code>pwm1</code> manually, for example to 40 for 40%.
+</p>
+<div class="archwiki-template-box archwiki-template-box-warning"><strong>Warning:</strong> Use at your own risk! Don't overheat your card!</div>
+<p>You can also set it by udev rule:
+</p>
+<pre>$ cat /etc/udev/rules.d/50-nouveau-hwmon.rules
+ACTION=="add", SUBSYSTEM=="hwmon", DRIVERS=="nouveau", ATTR{pwm1_enable}="2"
+</pre>
+<p>Sources:
+</p>
+<ul><li><a rel="nofollow" class="external free" href="http://floppym.blogspot.de/2013/07/fan-control-with-nouveau.html">http://floppym.blogspot.de/2013/07/fan-control-with-nouveau.html</a></li>
+<li><a rel="nofollow" class="external free" href="https://kalgan.cc/blog/posts/Controlling_nVidia_cards_fans_with_nouveau_in_Debian/">https://kalgan.cc/blog/posts/Controlling_nVidia_cards_fans_with_nouveau_in_Debian/</a></li></ul>
+<h3><span class="mw-headline" id="Optimus">Optimus</span></h3>
+<p>You have two solutions to use <a href="/index.php/Optimus" class="mw-redirect" title="Optimus">Optimus</a> on a laptop (aka hybrid graphics, when you have two GPUs on your laptop): <a href="/index.php/Bumblebee" title="Bumblebee">bumblebee</a> and <a href="/index.php/PRIME" title="PRIME">PRIME</a>
+</p>
+<h3><span class="mw-headline" id="Vertical_Sync">Vertical Sync</span></h3>
+<p>Xorg compositors are prone to show issues with Nouveau. Unlike most of them, <a href="/index.php/Compton" title="Compton">Compton</a> offers lots of options to tweak for a smoother and tearing free result. A configuration which is expected to deliver a good result would be the following:
+</p>
+<pre>compton -b --paint-on-overlay --unredir-if-possible --backend xr_glx_hybrid --vsync drm --glx-swap-method -1 --glx-no-stencil
+</pre>
+<div class="archwiki-template-box archwiki-template-box-tip"><strong>Tip:</strong> Don't forget to turn off compositing of your DE's window manager like KWin when using a different compositor.</div>
+<h2><span class="mw-headline" id="Troubleshooting">Troubleshooting</span></h2>
+<p>Add <code>drm.debug=14</code> and <code>log_buf_len=16M</code> to your <a href="/index.php/Kernel_parameters" title="Kernel parameters">kernel parameters</a> to turn on video debugging:
+</p><p>Create verbose Xorg log:
+</p>
+<pre>$ startx -- -logverbose 9 -verbose 9
+</pre>
+<p>View loaded video module parameters and values:
+</p>
+<pre>$ modinfo -p video
+</pre>
+<h3><span class="mw-headline" id="Disable_MSI">Disable MSI</span></h3>
+<p>If you are still having problems loading the module or starting X server append <code>nouveau.config=NvMSI=0</code> to your <a href="/index.php/Kernel_parameters" title="Kernel parameters">Kernel parameters</a>.
+</p><p>Source: <a rel="nofollow" class="external free" href="https://bugs.freedesktop.org/show_bug.cgi?id=78441">https://bugs.freedesktop.org/show_bug.cgi?id=78441</a>
+</p>
+<h3><span class="mw-headline" id="Phantom_output_issue">Phantom output issue</span></h3>
+<p>It is possible for the nouveau driver to detect "phantom" outputs.  For example, both VGA-1 and LVDS-1 are shown as connected but only LVDS-1 is present.
+</p><p>This causes display problems and a corrupted screen.
+</p><p>The problem can be overcome by disabling the phantom output (VGA-1 in the examples given) on the kernel command line of your boot loader. This can be achieved by appending the following:
+</p>
+<pre>video=VGA-1:d
+</pre>
+<p>Where <b>d</b> = disable.
+</p><p>The phantom output can also be disabled in X by adding the following to <code>/etc/X11/xorg.conf.d/20-nouveau.conf</code>:
+</p>
+<pre>Section "Monitor"
+Identifier "VGA-1"
+Option "Ignore" "1"
+EndSection
+</pre>
+<p>Source: <a rel="nofollow" class="external free" href="http://gentoo-en.vfose.ru/wiki/Nouveau#Phantom_and_unpopulated_output_connector_issues">http://gentoo-en.vfose.ru/wiki/Nouveau#Phantom_and_unpopulated_output_connector_issues</a><sup>[<a href="https://en.wikipedia.org/wiki/Wikipedia:Link_rot" class="extiw" title="wikipedia:Wikipedia:Link rot">dead link</a> 2017-06-01]</sup>
+</p>
+<h3><span class="mw-headline" id="Random_lockups_with_kernel_error_messages">Random lockups with kernel error messages</span></h3>
+<p>Specific Nvidia chips with Nouveau may give random system lockups and more commonly throw many kernel messages, seen with <i>dmesg</i>.  Try adding the <code>nouveau.noaccel=1</code> <a href="/index.php/Kernel_parameter" class="mw-redirect" title="Kernel parameter">kernel parameter</a>. See <a rel="nofollow" class="external autonumber" href="https://fedoraproject.org/wiki/Common_kernel_problems#Systems_with_nVidia_adapters_using_the_nouveau_driver_lock_up_randomly">[2]</a> for more information.
+</p><p>As an alternative you can also use the <code>QT_XCB_FORCE_SOFTWARE_OPENGL=1</code> <a href="/index.php/Environment_variable" class="mw-redirect" title="Environment variable">environment variable</a> to disable OpenGL acceleration in Qt applications.
+</p>
+<h3><span class="mw-headline" id="Flat_Panel_Table_Invalid">Flat Panel Table Invalid</span></h3>
+<div class="noprint archwiki-template-message">
+<p><a href="/index.php/File:Tango-view-fullscreen.png" class="image"><img alt="Tango-view-fullscreen.png" src="/images/3/38/Tango-view-fullscreen.png" width="48" height="48" /></a><b>This article or section needs expansion.</b><a href="/index.php/File:Tango-view-fullscreen.png" class="image"><img alt="Tango-view-fullscreen.png" src="/images/3/38/Tango-view-fullscreen.png" width="48" height="48" /></a></p>
+<div><b>Reason:</b> Missing references to the bug reports or support threads. (Discuss in <a rel="nofollow" class="external text" href="https://wiki.archlinux.org/index.php/Talk:Nouveau">Talk:Nouveau#</a>)</div>
+</div>
+<p>NVIDIA graphics cards with recent chipsets can cause startup issues - this includes X11 being unable to start and lspci freezing indefinitely<a rel="nofollow" class="external autonumber" href="https://bugzilla.redhat.com/show_bug.cgi?id=1425253">[3]</a><a rel="nofollow" class="external autonumber" href="https://bbs.archlinux.org/viewtopic.php?id=192532">[4]</a><a rel="nofollow" class="external autonumber" href="https://stackoverflow.com/questions/28062458/nouveau-error-while-booting-arch">[5]</a><a rel="nofollow" class="external autonumber" href="https://bbs.archlinux.org/viewtopic.php?id=207602">[6]</a><a rel="nofollow" class="external autonumber" href="https://unix.stackexchange.com/questions/207895/how-do-i-install-antergos-with-a-gtx-970">[7]</a>. 
+</p><p>This can break live distributions/installation media. This can be detected either by running lspci, or checking the systemd journal for the error:
+</p>
+<pre>nouveau E[     DRM]Pointer to flat panel table invalid
+</pre>
+<p>The system may start if the Nouveau driver is disabled by passing the following <a href="/index.php/Kernel_parameters" title="Kernel parameters">kernel parameters</a>:
+</p>
+<pre>modprobe.blacklist=nouveau
+</pre>
+<p>The Nouveau driver can then be loaded using
+</p>
+<pre>modprobe nouveau
+</pre>
+<p>The system should then function correctly.
+If you have another Nvidia graphics card, or just want to be safe, you can disable the offending card using:
+</p>
+<pre>$ echo 1 &gt; /sys/bus/pci/devices/[card device id]/remove
+</pre>
+<p>The <a href="/index.php/NVIDIA" title="NVIDIA">NVIDIA</a> proprietary driver currently works correctly (version 381).
+</p>
+<!-- 
+NewPP limit report
+Cached time: 20190603115657
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.072 seconds
+Real time usage: 0.086 seconds
+Preprocessor visited node count: 462/1000000
+Preprocessor generated node count: 1439/1000000
+Post‐expand include size: 5215/2097152 bytes
+Template argument size: 2245/2097152 bytes
+Highest expansion depth: 5/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 2/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   26.913      1 -total
+ 14.08%    3.789     25 Template:Ic
+ 12.67%    3.409      1 Template:Expansion
+  8.09%    2.177      1 Template:Dead_link
+  7.38%    1.987      6 Template:AUR
+  7.12%    1.915      1 Template:Related_articles_start
+  6.39%    1.720      1 Template:META_Message
+  6.24%    1.680      1 Template:Hc
+  5.75%    1.547      4 Template:Pkg
+  4.66%    1.253      2 Template:Tip
+-->
+
+<!-- Saved in parser cache with key archwiki:pcache:idhash:7352-0!canonical and timestamp 20190603115657 and revision id 559608
+ -->
+</div></div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://wiki.archlinux.org/index.php?title=Nouveau&amp;oldid=559608">https://wiki.archlinux.org/index.php?title=Nouveau&amp;oldid=559608</a>"					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/index.php/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/index.php/Category:Graphics" title="Category:Graphics">Graphics</a></li><li><a href="/index.php/Category:X_server" title="Category:X server">X server</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/index.php/Category:Pages_with_dead_links" title="Category:Pages with dead links">Pages with dead links</a></li><li><a href="/index.php/Category:Pages_or_sections_flagged_with_Template:Expansion" title="Category:Pages or sections flagged with Template:Expansion">Pages or sections flagged with Template:Expansion</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-createaccount"><a href="/index.php?title=Special:CreateAccount&amp;returnto=Nouveau" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="/index.php?title=Special:UserLogin&amp;returnto=Nouveau" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+							<li id="ca-nstab-main" class="selected"><span><a href="/index.php/Nouveau" title="View the content page [c]" accesskey="c">Page</a></span></li><li id="ca-talk"><span><a href="/index.php/Talk:Nouveau" rel="discussion" title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>						</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-variants-label" />
+						<h3 id="p-variants-label">
+							<span>Variants</span>
+						</h3>
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+							<li id="ca-view" class="collapsible selected"><span><a href="/index.php/Nouveau">Read</a></span></li><li id="ca-viewsource" class="collapsible"><span><a href="/index.php?title=Nouveau&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li><li id="ca-history" class="collapsible"><span><a href="/index.php?title=Nouveau&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>						</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-cactions-label" />
+						<h3 id="p-cactions-label"><span>More</span></h3>
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+						<form action="/index.php" id="searchform">
+							<div id="simpleSearch">
+								<input type="search" name="search" placeholder="Search ArchWiki" title="Search ArchWiki [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/index.php/Main_page"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id="p-navigation" aria-labelledby="p-navigation-label">
+			<h3 id="p-navigation-label">Navigation</h3>
+			<div class="body">
+								<ul>
+					<li id="n-mainpage-description"><a href="/index.php/Main_page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-Table-of-contents"><a href="/index.php/Table_of_contents">Table of contents</a></li><li id="n-portal"><a href="/index.php/Getting_involved" title="Various ways Archers can contribute to the community">Getting involved</a></li><li id="n-currentevents"><a href="/index.php/ArchWiki:News" title="The latest lowdown on the wiki">Wiki news</a></li><li id="n-randompage"><a href="/index.php/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Interaction" aria-labelledby="p-Interaction-label">
+			<h3 id="p-Interaction-label">Interaction</h3>
+			<div class="body">
+								<ul>
+					<li id="n-help"><a href="/index.php/Category:Help" title="Wiki navigation, reading, and editing help">Help</a></li><li id="n-Contributing"><a href="/index.php/ArchWiki:Contributing">Contributing</a></li><li id="n-recentchanges"><a href="/index.php/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-Recent-talks"><a href="https://wiki.archlinux.org/index.php/Special:RecentChanges?namespace=0&amp;invert=1" rel="nofollow">Recent talks</a></li><li id="n-newpages"><a href="/index.php/Special:NewPages">New pages</a></li><li id="n-Statistics"><a href="/index.php/ArchWiki:Statistics">Statistics</a></li><li id="n-Requests"><a href="/index.php/ArchWiki:Requests">Requests</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+			<h3 id="p-tb-label">Tools</h3>
+			<div class="body">
+								<ul>
+					<li id="t-whatlinkshere"><a href="/index.php/Special:WhatLinksHere/Nouveau" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/index.php/Special:RecentChangesLinked/Nouveau" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-specialpages"><a href="/index.php/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-print"><a href="/index.php?title=Nouveau&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li><li id="t-permalink"><a href="/index.php?title=Nouveau&amp;oldid=559608" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/index.php?title=Nouveau&amp;action=info" title="More information about this page">Page information</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-lang" aria-labelledby="p-lang-label">
+			<h3 id="p-lang-label">In other languages</h3>
+			<div class="body">
+								<ul>
+					<li class="interlanguage-link interwiki-es"><a href="https://wiki.archlinux.org/index.php/Nouveau_(Espa%C3%B1ol)" title="Nouveau – español" lang="es" hreflang="es" class="interlanguage-link-target">Español</a></li><li class="interlanguage-link interwiki-it"><a href="https://wiki.archlinux.org/index.php/Nouveau_(Italiano)" title="Nouveau – italiano" lang="it" hreflang="it" class="interlanguage-link-target">Italiano</a></li><li class="interlanguage-link interwiki-ja"><a href="https://wiki.archlinux.jp/index.php/Nouveau" title="Nouveau – 日本語" lang="ja" hreflang="ja" class="interlanguage-link-target">日本語</a></li><li class="interlanguage-link interwiki-ru"><a href="https://wiki.archlinux.org/index.php/Nouveau_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9)" title="Nouveau – русский" lang="ru" hreflang="ru" class="interlanguage-link-target">Русский</a></li><li class="interlanguage-link interwiki-zh-hans"><a href="https://wiki.archlinux.org/index.php/Nouveau_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)" title="Nouveau – 中文（简体）‎" lang="zh-Hans" hreflang="zh-Hans" class="interlanguage-link-target">中文（简体）‎</a></li>				</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+				<div id="footer" role="contentinfo">
+						<ul id="footer-info">
+								<li id="footer-info-lastmod"> This page was last edited on 20 December 2018, at 18:27.</li>
+								<li id="footer-info-copyright">Content is available under <a class="external" rel="nofollow" href="http://www.gnu.org/copyleft/fdl.html">GNU Free Documentation License 1.3 or later</a> unless otherwise noted.</li>
+							</ul>
+						<ul id="footer-places">
+								<li id="footer-places-privacy"><a href="/index.php/ArchWiki:Privacy_policy" title="ArchWiki:Privacy policy">Privacy policy</a></li>
+								<li id="footer-places-about"><a href="/index.php/ArchWiki:About" title="ArchWiki:About">About ArchWiki</a></li>
+								<li id="footer-places-disclaimer"><a href="/index.php/ArchWiki:General_disclaimer" title="ArchWiki:General disclaimer">Disclaimers</a></li>
+							</ul>
+										<ul id="footer-icons" class="noprint">
+										<li id="footer-copyrightico">
+											</li>
+									</ul>
+						<div style="clear: both;"></div>
+		</div>
+		
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.072","walltime":"0.086","ppvisitednodes":{"value":462,"limit":1000000},"ppgeneratednodes":{"value":1439,"limit":1000000},"postexpandincludesize":{"value":5215,"limit":2097152},"templateargumentsize":{"value":2245,"limit":2097152},"expansiondepth":{"value":5,"limit":40},"expensivefunctioncount":{"value":0,"limit":100},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":2,"limit":5000000},"timingprofile":["100.00%   26.913      1 -total"," 14.08%    3.789     25 Template:Ic"," 12.67%    3.409      1 Template:Expansion","  8.09%    2.177      1 Template:Dead_link","  7.38%    1.987      6 Template:AUR","  7.12%    1.915      1 Template:Related_articles_start","  6.39%    1.720      1 Template:META_Message","  6.24%    1.680      1 Template:Hc","  5.75%    1.547      4 Template:Pkg","  4.66%    1.253      2 Template:Tip"]},"cachereport":{"timestamp":"20190603115657","ttl":86400,"transientcontent":false}}});mw.config.set({"wgBackendResponseTime":40});});</script>
+	</body>
+<!-- Cached/compressed 20190604041302 -->
+</html>

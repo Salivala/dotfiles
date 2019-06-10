@@ -1,0 +1,4690 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shell Programming in Unix, Linux and OS X | Stephen G. Kochan, Patrick Wood | download</title>
+<base href="/">
+
+                        <meta charset="utf-8">		                       
+                        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+                        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                        <meta name="viewport" content="width=device-width, initial-scale=1">
+                        <meta name="title" content="Shell Programming in Unix, Linux and OS X | Stephen G. Kochan, Patrick Wood | download">
+			<meta name="description" content="Shell Programming in Unix, Linux and OS X | Stephen G. Kochan, Patrick Wood | download | B–OK. Download books for free. Find books">
+			<meta name="robots" content="index,all">
+			<meta name="distribution" content="global">
+			<meta http-equiv="cache-control" content="no-cache">
+			<meta http-equiv="pragma" content="no-cache">
+
+                        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+                        <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+                        <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+                        <link rel="manifest" href="/manifest.json">
+                        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+                        <meta name="apple-mobile-web-app-title" content="Z-Library">
+                        <meta name="application-name" content="Z-Library">
+                        <meta name="theme-color" content="#ffffff">
+
+                        <meta name="propeller" content="49c350d528ba144cace841cac74260ab">
+	
+<!-- CSS SET -->
+<link rel="stylesheet" type="text/css" href="/css/bootstrap/css/bootstrap.min.css?version=0.142" >
+<link rel="stylesheet" type="text/css" href="/css/root.css?version=0.142" >
+<link rel="stylesheet" type="text/css" href="/adhelper/ah-style.css?version=0.142" >
+<link rel="stylesheet" type="text/css" href="/adhelper/animate.css?version=0.142" >
+<!-- JS SET --> 
+<script type="text/javascript" language="JavaScript" src="https://code.jquery.com/jquery-2.2.4.min.js?version=0.142"></script>
+<script type="text/javascript" language="JavaScript" src="/scripts/underscore.js?version=0.142"></script>
+<script type="text/javascript" language="JavaScript" src="/css/bootstrap/js/bootstrap.min.js?version=0.142"></script>
+<script type="text/javascript" language="JavaScript" src="/adhelper/advert.js?version=0.142"></script>
+<link REL="SHORTCUT ICON" HREF="/favicon.ico">
+        <link rel="search" type="application/opensearchdescription+xml" href="http://search.xml" title="Search for books in the library B-OK.org" />
+    </head>
+    <body style="margin:0px;padding:0px;" class="books/details">
+        
+        <table border="0" height="100%" width="100%" style="height:100%;" cellpadding="0" cellspacing="0"><tbody>
+                <tr style="height:10px;">
+                    <td>
+                        <div class="container-fluid">
+                            
+<div class="row">
+    <div class="col-md-12">
+        <div id="colorBoxes" class="darkShadow">
+            <ul>
+                <a href="/"><li style="background: #49afd0;">4,732,726 books</li></a>
+                <a href="http://booksc.xyz"><li style="background: #90a5a8;">74,620,210 articles</li></a>
+                <li style="background: #8ecd51;">for free</li>
+            </ul>
+        </div>
+
+
+
+        <div role="navigation" class="navbar-default" style="background-color: transparent;">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right" style="">
+                                            <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sign in <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://singlelogin.org?from=b-ok.cc">Login</a></li>
+                                <li><a href="https://singlelogin.org/registration.php">Registration</a></li>
+                            </ul>
+                        </li>
+                    
+                    <li>
+                        <a href="/howtodonate.php" style="color:#8EB46A;">Donate</a>                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span style="font-size: 120%;" class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-header">Books</li>
+                                                            <li><a href="/book-add.php">Add book</a></li>
+                                <li><a href="/categories">Categories</a></li>
+                                <li><a href="/popular.php">Most Popular</a></li>
+                                                            <li><a href="/recently.php">Recently Added</a></li>
+                                                            <li role="separator" class="divider"></li>
+                                <li class="dropdown-header">Z-Library Project</li>
+                                <li><a href="/blog/">Blog</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+
+
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="container" style="max-width: 1000px;padding-bottom: 40px;">
+                            <div class="row">
+                                <div class="col-md-12 itemFullText">
+                                    
+
+<style>
+    .adFixW iframe{
+        width:100%;
+    }
+</style>
+
+<div class="bcNav">
+    <a href="/" title="Ebook library B-OK.org">Main</a> <i></i>
+        Shell Programming in Unix, Linux and OS X</div>
+
+<div  itemscope  itemtype="http://schema.org/Book">
+    <div class="row cardBooks">
+        <div class="col-md-3"><a itemprop="image"  class="lightbox" href="//b-ok.cc/covers/books/ab/43/b7/ab43b7c320e2a59bf62f0b78fb70dd5b.jpg" style="background:#fff;padding:3px; display:block;float:left; border:1px solid #ccc;"><img style="font-size:0px; width:100%;" src="//b-ok.cc/covers/books/ab/43/b7/ab43b7c320e2a59bf62f0b78fb70dd5b.jpg" alt="Book cover Shell Programming in Unix, Linux and OS X"/></a></div>
+        <div class="col-md-9">
+            <h1 itemprop="name" style="color:#000;line-height: 140%;" class="moderatorPanelToggler">Shell Programming in Unix, Linux and OS X</h1>
+            <i><a  itemprop="author" class="color1" title="Find all the author's book" href="/g/Stephen G. Kochan">Stephen G. Kochan</a>, <a  itemprop="author" class="color1" title="Find all the author's book" href="/g/Patrick Wood">Patrick Wood</a></i>
+            
+            <div style="padding:10px 0; font-size:10pt" id="bookDescriptionBox"  itemprop="reviewBody"><p style="margin:0px;"> <i>Shell Programming in Unix, Linux and OS X </i>is a thoroughly updated revision of Kochan and Wood’s classic <i>Unix Shell Programming </i>tutorial. Following the methodology of the original text, the book focuses on the POSIX standard shell, and teaches you how to develop programs in this useful programming environment, taking full advantage of the underlying power of Unix and Unix-like operating systems.</p> <p style="margin:0px;"> <br> </p> <p style="margin:0px;">After a quick review of Unix utilities, the book’s authors take you step-by-step through the process of building shell scripts, debugging them, and understanding how they work within the shell’s environment. All major features of the shell are covered, and the large number of practical examples make it easy for you to build shell scripts for your particular applications. The book also describes the major features of the Korn and Bash shells.</p> <p style="margin:0px;"> <br> </p> <p style="margin:0px;">Learn how to…</p> <ul> <li> Take advantage of the many utilities provided in the Unix system </li> <li> Write powerful shell scripts  </li> <li> Use the shell’s built-in decision-making and looping constructs </li> <li> Use the shell’s powerful quoting mechanisms </li> <li> Make the most of the shell’s built-in history and command editing capabilities </li> <li> Use regular expressions with Unix commands </li> <li> Take advantage of the special features of the Korn and Bash shells </li> <li> Identify the major differences between versions of the shell language </li> <li> Customize the way your Unix system responds to you </li> <li> Set up your shell environment </li> <li> Make use of functions </li> <li> Debug scripts </li> </ul> <p style="margin:0px;"> <b>Contents at a Glance</b> </p> <p style="margin:0px;"> <br> </p> <p style="margin:0px;">1  A Quick Review of the Basics</p> <p style="margin:0px;">2  What Is the Shell?</p> <p style="margin:0px;">3  Tools of the Trade</p> <p style="margin:0px;">4  And Away We Go</p> <p style="margin:0px;">5  Can I Quote You on That?</p> <p style="margin:0px;">6  Passing Arguments</p> <p style="margin:0px;">7  Decisions, Decisions</p> <p style="margin:0px;">8  ‘Round and ‘Round She Goes</p> <p style="margin:0px;">9  Reading and Printing Data</p> <p style="margin:0px;">10 Your Environment</p> <p style="margin:0px;">11 More on Parameters</p> <p style="margin:0px;">12 Loose Ends</p> <p style="margin:0px;">13 Rolo Revisited</p> <p style="margin:0px;">14 Interactive and Nonstandard Shell Features</p> <p style="margin:0px;"> <br> </p> <p style="margin:0px;">A Shell Summary</p> <p style="margin:0px;">B For More Information</p> <p style="margin:0px;"> <br> </p></div>
+                     <div style="overflow:hidden; zoom:1; margin-top: 30px;">
+                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2016
+                </div>
+                <div class="bookProperty property_edition">
+                    <span>Edition:</span>
+                    4
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property_pages">
+                    <span>Pages:</span>
+                    456
+                </div>
+                <div class="bookProperty property_isbn 10">
+                    <span>ISBN 10:</span>
+                    0134496000
+                </div>
+                <div class="bookProperty property_isbn 13">
+                    <span>ISBN 13:</span>
+                    9780134496009
+                </div>
+                <div class="bookProperty property_series">
+                    <span>Series:</span>
+                    Developer’s Library
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 5.26 MB
+                </div></div>            </div>
+        </div>
+    </div>
+
+
+
+
+    <div style="margin:15px 0;">
+        <a class="btn btn-primary dlButton" href="/dl/2865837/cc4d7a" target="" rel="nofollow"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Download  (pdf, 5.26 MB)</a>                <a class="btn btn-default" href="ireader/2865837" target="_blank" rel="nofollow">Read online</a>        <div class="btn-group" id="sendToEmailButtonBox">
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Send-to-Kindle or Email <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu"><li><a href="http://singlelogin.org?from=b-ok.cc" target="blank">Please login to your account first</a></li></ul>
+</div>
+        
+
+            </div>
+    <div class="cBox1" id="sentToEmailInfo" style="display:none;">The file will be sent to selected email address. It may takes up to 1-5 minutes before you received it.</div>
+    <div class="cBox1" id="sentToEmailInfoKindle" style="display:none;">The file will be sent to your Kindle account. It may takes up to 1-5 minutes before you received it.
+        <br/>Please note you've to add our email <b>mailer@bookmail.org</b> to approved e-mail addresses. <a target="blank" href="https://www.amazon.com/gp/help/customer/display.html/?ie=UTF8&amp;nodeId=201974240">Read more</a>.
+    </div>
+
+
+    
+        <script type="text/javascript">
+          $(document).ready(function($) {
+           
+            $.jsRotate({data: false, device_type: '-1', contentWrapper: '.itemFullText'});
+
+          });
+        </script>
+    <div id="converterCurrentStatusesBox" class="cBox1" style="display:none;"></div>
+
+
+
+
+</div>
+
+<script type="text/javascript" src="scripts/jquery.lightbox-0.5.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
+
+<script type="text/javascript">
+    var BOOK_ID = 2865837;
+    $(function () {
+        // This, or...
+        $('a.lightbox').lightBox({
+            containerResizeSpeed: 1
+        }); // Select all links with lightbox class
+    });
+
+
+    // read more
+    $(function () {
+        if($('#bookDescriptionBox').height() > 300)
+        {
+            $('#bookDescriptionBox').css('overflow', 'hidden');
+            $('#bookDescriptionBox').css('height', '300px');
+            moreLink = '<div style="text-align:right; margin: 5px 0 0 0;"><a class="more" style="border-bottom:1px dashed;color:#49AFD0; cursor:pointer;text-decoration:none;">Read more → </a></div>';
+            $( moreLink ).insertAfter("#bookDescriptionBox");
+        }
+
+        $('.more').click(function(){
+            $('#bookDescriptionBox').css('height', 'auto');
+            $('#bookDescriptionBox').css('overflow', 'auto');
+            $(this).remove();
+        });
+    });
+
+
+
+    // converter links
+    $('.converterLink').click(function (e) {
+        var el = $(e.currentTarget);
+        $('#converterCurrentStatusesBox').show();
+        $('#converterCurrentStatusesBox').html('Refreshing..');
+
+
+
+        $.RPC('ConvertationTools::rpcConvert', {'book_id': $(this).data('book-id'), 'convertTo': $(this).data('convert-to')}).done(function (e) {
+            convertationStatusesAutoupdaterObserver();
+        }).fail(function (a, b) {
+            $('#converterCurrentStatusesBox').html('<span class="error">' + b.errors.message() + '</span>');
+        });
+    });
+
+    $('.sendToEmailButton').click(function () {
+        $.RPC('sendToKindle', {'book_id': $(this).data('id'), 'email': $(this).data('email')}).done(function (e) {
+            if (e.response.status) {
+                //alert('Sent to ' + e.response.email);
+            }
+        }).fail(function (a, b) {
+            $('#sentToEmailInfo').html(b.errors.message());
+            $('#sentToEmailInfoKindle').html(b.errors.message());
+        });
+
+        if ($(this).data('kindle'))
+        {
+            $('#sentToEmailInfoKindle').show('slow');
+        } else {
+            $('#sentToEmailInfo').show('slow');
+        }
+        $('#sendToEmailButtonBox').hide('slow');
+    });
+
+    //$('[data-toggle="tooltip"]').tooltip({'html': true});
+    $(window).on("load", function () {
+        $('[data-toggle="tooltip"]').tooltip({'html': true});
+        $('[data-autoopen="true"]').tooltip('show');
+    });
+
+    var convertationStatusesAutoupdaterRuned = false;
+    function convertationStatusesAutoupdaterObserver()
+    {
+        if (convertationStatusesAutoupdaterRuned)
+        {
+            return;
+        } else {
+            convertationStatusesAutoupdaterRuned = true;
+            convertationStatusesAutoupdater();
+        }
+    }
+
+    function convertationStatusesAutoupdater()
+    {
+        rpcUrl = '/rpc/ConvertationTools::getCurrentJobsStatuses?clear=1&gg_text_mode=1&bookId=' + BOOK_ID;
+        $.ajaxSetup({cache: false}); // This part addresses an IE bug.  without it, IE will only load the first number and will never refresh
+
+
+        $.ajax({
+            url: rpcUrl,
+            datatype: 'html'
+        }).done(function (response) {
+            $('#converterCurrentStatusesBox').html(response);
+            if (response.search('progress') === -1)
+            {
+                convertationStatusesAutoupdaterRuned = false;
+                return;
+            }
+            setTimeout(convertationStatusesAutoupdater, 15000);
+        }).error(function () {
+            setTimeout(convertationStatusesAutoupdater, 15000);
+        });
+    }
+
+    if ($('#converterCurrentStatusesBox').html().length)
+    {
+        convertationStatusesAutoupdaterObserver();
+        //$('#converterCurrentStatusesBox').css('display', 'block');
+        $('#converterCurrentStatusesBox').show();
+    }
+</script>
+
+<h2 class="color1" style="margin-top:20px;">You may be interested in</h2>
+<div style="background: #49AFD0; height:2px; width: 100%; margin-bottom: 20px;">&nbsp;</div>
+<div id="searchResultBox"><div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter"></div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/1b/90/4d/1b904dd14a7b6278bcec2aed5ebb794b.jpg" data-srcset="//b-ok.cc/covers100/books/1b/90/4d/1b904dd14a7b6278bcec2aed5ebb794b.jpg 1x, //b-ok.cc/covers200/books/1b/90/4d/1b904dd14a7b6278bcec2aed5ebb794b.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/633123/277f65" class="tdn">UNIX systems programming: communication, concurrency and threads</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Kay A. Robbins">Kay A. Robbins</a>, <a itemprop="author" title="Find all the author's book" href="/author/Steve Robbins">Steve Robbins</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/633123/277f65" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2003
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 10.41 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter"></div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/2c/ad/8e/2cad8eb632e7aae4d523d17731fa58d2.jpg" data-srcset="//b-ok.cc/covers100/books/2c/ad/8e/2cad8eb632e7aae4d523d17731fa58d2.jpg 1x, //b-ok.cc/covers200/books/2c/ad/8e/2cad8eb632e7aae4d523d17731fa58d2.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/3556226/072a01" class="tdn">Learning Web Design : A Beginner’s Guide to HTML, CSS, JavaScript, and Web Graphics</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Niederst Robbins">Niederst Robbins</a>, <a itemprop="author" title="Find all the author's book" href="/author/Jennifer">Jennifer</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/3556226/072a01" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2018
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 76.02 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<center></center></div><script type="text/javascript" src="/scripts/jquery.lazy.min.js"></script>
+<script>
+    $(function () {
+        $(".lazy").Lazy({
+            effect: "fadeIn",
+            effectTime: 1000,
+            beforeLoad: function(element) {
+                $(element).css({"border-width": "0px"});
+            },
+            afterLoad: function(element) {
+                $(element).css({"border-width": "1px"});
+            }
+        });
+    });
+</script>
+<link rel="stylesheet" type="text/css" href="css/jscomments/jscomments.css">
+
+<div style="background: #49AFD0; height:2px; width: 100%; margin:40px 0 40px 0;">&nbsp;</div>
+
+
+<div id="jscommentsRootBox">
+    <div class="jscommentsFormBox">
+        <div style="width:65%; float:left;">
+            <form id="jscommentsForm" target="uploader" action="rpc.php" method="POST">
+                <input type="hidden" name="book_id" value="2865837">
+                <input type="hidden" name="action" value="addReview">
+                <input type="hidden" name="rx" value="0">
+                <input id="jscommentsNamefield" name="name" type="textfield" placeholder="Your Name" value="" onchange="if (this.value) {
+                            $(this).removeClass('error');
+                        }"/>
+                <textarea id="jscommentsTextarea" name="text" placeholder="Write a Review"  onchange="if (this.value) {
+                            $(this).removeClass('error');}"></textarea>
+                <br clear="all" />
+                <a href="#" onclick="onReviewSubmit();
+                        return false;" id="jscommentsButton">Post a Review</a><img id="jscommentsLoader" src="css/jscomments/loader.gif" style="position: relative; left: -35px; display: none;"/>
+            </form>
+        </div>
+        <div style="width:35%; float:left;" class="jscommentsFormHelp">
+            <div style="padding:10px 0 0 20px;  border-left:1px solid #ccc;">
+                You can write a book review and share your experiences. Other readers will always be interested in your opinion of the books you've read. Whether you've loved the book or not, if you give your honest and detailed thoughts then people will find new books that are right for them.
+            </div>
+        </div>
+    </div>
+    <div id="jscommentsCommentsBox"></div>
+</div>
+
+<script>
+    $('#jscommentsForm')[0].rx.value = 12;
+
+    function onReviewSubmit()
+    {
+        $('#jscommentsForm')[0].submit();
+
+        $('#jscommentsButton').css('width', $('#jscommentsButton').width() + 'px');
+        $('#jscommentsButton').data('originaltxt', $('#jscommentsButton')[0].innerHTML);
+        $('#jscommentsButton').text('Posting..'); // simulate server request
+        $('#jscommentsNamefield').attr("disabled", "disabled");
+        $('#jscommentsTextarea').attr("disabled", "disabled");
+        $('#jscommentsLoader').show();
+
+    }
+
+    function onReviewSubmitFailure()
+    {
+        $('#jscommentsButton').text($('#jscommentsButton').data('originaltxt'));
+        $('#jscommentsButton').css('width', '');
+        $('#jscommentsNamefield').removeAttr("disabled");
+        $('#jscommentsTextarea').removeAttr("disabled");
+        $('#jscommentsLoader').hide();
+    }
+
+</script><div style="display: none;">
+<div id="searchResultBox"><div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">1</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/6f/2a/ce/6f2ace4742cdcd993b82bd63ae4d1c8d.jpg" data-srcset="//b-ok.cc/covers100/books/6f/2a/ce/6f2ace4742cdcd993b82bd63ae4d1c8d.jpg 1x, //b-ok.cc/covers200/books/6f/2a/ce/6f2ace4742cdcd993b82bd63ae4d1c8d.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/2865838/8c61ba" class="tdn">Shell Programming in Unix, Linux and OS X</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Stephen G. Kochan">Stephen G. Kochan</a>, <a itemprop="author" title="Find all the author's book" href="/author/Patrick Wood">Patrick Wood</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/2865838/8c61ba" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2016
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    EPUB, 18.61 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">2</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/1f/11/f9/1f11f9a1d8bd7e2c7eaaf11c7e68b200.jpg" data-srcset="//b-ok.cc/covers100/books/1f/11/f9/1f11f9a1d8bd7e2c7eaaf11c7e68b200.jpg 1x, //b-ok.cc/covers200/books/1f/11/f9/1f11f9a1d8bd7e2c7eaaf11c7e68b200.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/2865836/9fc717" class="tdn">Psicologia, subjetividade e políticas públicas</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Maria da Graça M. Gonçalves">Maria da Graça M. Gonçalves</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/2865836/9fc717" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2013
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    portuguese
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    EPUB, 1.45 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<center></center></div><script type="text/javascript" src="/scripts/jquery.lazy.min.js"></script>
+<script>
+    $(function () {
+        $(".lazy").Lazy({
+            effect: "fadeIn",
+            effectTime: 1000,
+            beforeLoad: function(element) {
+                $(element).css({"border-width": "0px"});
+            },
+            afterLoad: function(element) {
+                $(element).css({"border-width": "1px"});
+            }
+        });
+    });
+</script><pre>An iconic symbol of the American West, Monument Valley
+is one of the natural wonders of the world. The red-sand desert
+region is located within the range of the Navajo Nation on the
+Arizona-Utah border and is host to towering sandstone rock
+formations that have been sculpted over time and soar
+400 to 1,000 feet above the valley floor. Three of the valley’s
+most photographed peaks are the distinctive East and West
+Mitten Buttes and Merrick Butte.
+
+Shell Programming
+in Unix, Linux
+and OS X
+Fourth Edition
+
+Developer’s Library
+ESSENTIAL REFERENCES FOR PROGRAMMING PROFESSIONALS
+
+Developer’s Library books are designed to provide practicing programmers with unique,
+high-quality references and tutorials on the programming languages and technologies
+they use in their daily work.
+All books in the Developer’s Library are written by expert technology practitioners who
+are especially skilled at organizing and presenting information in a way that’s useful for
+other programmers.
+
+Key titles include some of the best, most widely acclaimed books within their
+topic areas:
+PHP &amp; MySQL Web Development
+Luke Welling &amp; Laura Thomson
+ISBN-13: 978-0-321-83389-1
+
+Python Essential Reference
+David Beazley
+ISBN-13: 978-0-672-32862-6
+
+MySQL
+Paul DuBois
+ISBN-13: 978-0-672-32938-8
+
+Programming in Objective-C
+Stephen G. Kochan
+ISBN-13: 978-0-321-56615-7
+
+Linux Kernel Development
+Robert Love
+ISBN-13: 978-0-672-32946-3
+
+Programming in C
+Stephen G. Kochan
+ISBN-13: 978-0-321-77641-9
+
+Developer’s Library books are available at most retail and online bookstores, as well as
+by subscription from Safari Books Online at safari.informit.com
+
+Developer’s
+Library
+informit.com/devlibrary
+
+Shell Programming
+in Unix, Linux
+and OS X
+Fourth Edition
+Stephen G. Kochan
+Patrick Wood
+
+800 East 96th Street, Indianapolis, Indiana 46240
+
+Shell Programming in Unix, Linux and OS X, Fourth Edition
+Copyright © 2017 by Pearson Education, Inc.
+All rights reserved. No part of this book shall be reproduced, stored in a retrieval system,
+or transmitted by any means, electronic, mechanical, photocopying, recording, or otherwise,
+without written permission from the publisher. No patent liability is assumed with respect to
+the use of the information contained herein. Although every precaution has been taken in
+the preparation of this book, the publisher and author assume no responsibility for errors or
+omissions. Nor is any liability assumed for damages resulting from the use of the information contained herein.
+ISBN-13: 978-0-13-4449600-9
+ISBN-10: 0-13-449600-0
+Printed in the United States of America
+First Printing: August 2016
+The Library of Congress Control Number is on file.
+
+Trademarks
+All terms mentioned in this book that are known to be trademarks or service marks
+have been appropriately capitalized. The publisher cannot attest to the accuracy of this
+information. Use of a term in this book should not be regarded as affecting the validity of
+any trademark or service mark.
+
+Warning and Disclaimer
+Every effort has been made to make this book as complete and as accurate as possible,
+but no warranty or fitness is implied. The information provided is on an “as is” basis. The
+author and the publisher shall have neither liability nor responsibility to any person or entity
+with respect to any loss or damages arising from the information contained in this book.
+
+Special Sales
+For information about buying this title in bulk quantities, or for special sales opportunities
+(which may include electronic versions; custom cover designs; and content particular to
+your business, training goals, marketing focus, or branding interests), please contact our
+corporate sales department at corpsales@pearsoned.com or (800) 382-3419.
+For government sales inquiries, please contact
+governmentsales@pearsoned.com
+For questions about sales outside the U.S., please contact
+international@pearsoned.com
+
+Editor
+Mark Taber
+Copy Editor
+Larry Sulky
+Technical Editor
+Brian Tiemann
+Designer
+Chuti Prasertsith
+Page Layout
+codeMantra
+
+Contents at a Glance
+Introduction 1
+1 A Quick Review of the Basics
+2 What Is the Shell?
+
+39
+
+3 Tools of the Trade
+4 And Away We Go
+
+5
+
+51
+93
+
+5 Can I Quote You on That?
+6 Passing Arguments
+
+105
+
+121
+
+7 Decisions, Decisions
+
+131
+
+8 'Round and 'Round She Goes
+9 Reading and Printing Data
+10 Your Environment
+
+185
+
+209
+
+11 More on Parameters
+12 Loose Ends
+
+163
+
+239
+
+255
+
+13 Rolo Revisited
+
+273
+
+14 Interactive and Nonstandard Shell Features
+A Shell Summary
+
+321
+
+B For More Information
+
+Index 363
+
+359
+
+289
+
+Table of Contents
+Introduction
+
+1
+
+How This Book Is Organized 2
+Accessing the Free Web Edition
+
+1 A Quick Review of the Basics
+Some Basic Commands
+
+3
+
+5
+
+5
+
+Displaying the Date and Time: The date Command
+Finding Out Who’s Logged In: The who Command
+Echoing Characters: The echo Command
+Working with Files
+
+5
+
+5
+
+6
+
+6
+
+Listing Files: The ls Command
+
+7
+
+Displaying the Contents of a File: The cat Command
+
+7
+
+Counting the Number of Words in a File: The wc Command
+Command Options
+
+8
+
+Making a Copy of a File: The cp Command
+Renaming a File: The mv Command
+
+8
+
+Removing a File: The rm Command
+
+9
+
+Working with Directories
+
+8
+
+9
+
+The Home Directory and Pathnames
+
+10
+
+Displaying Your Working Directory: The pwd Command
+Changing Directories: The cd Command
+More on the ls Command
+
+12
+
+15
+
+Creating a Directory: The mkdir Command
+Copying a File from One Directory to Another
+Moving Files Between Directories
+Linking Files: The ln Command
+
+The Asterisk
+
+20
+
+24
+
+24
+
+Matching Single Characters
+Filename Nuances
+
+25
+
+27
+
+Spaces in Filenames
+
+27
+
+Other Weird Characters
+
+18
+
+19
+
+Removing a Directory: The rmdir Command
+Filename Substitution
+
+17
+
+28
+
+Standard Input/Output, and I/O Redirection
+Standard Input and Standard Output
+
+28
+
+28
+
+23
+
+12
+
+7
+
+Contents
+
+Output Redirection
+Input Redirection
+Pipes
+
+30
+32
+
+33
+
+Filters
+
+35
+
+Standard Error 35
+More on Commands
+
+36
+
+Typing More Than One Command on a Line
+Sending a Command to the Background
+The ps Command
+
+37
+
+Command Summary
+
+37
+
+2 What Is the Shell?
+
+39
+
+The Kernel and the Utilities
+The Login Shell
+
+36
+
+36
+
+39
+
+40
+
+Typing Commands to the Shell
+The Shell’s Responsibilities
+Program Execution
+
+43
+
+44
+
+45
+
+Variable and Filename Substitution
+I/O Redirection
+
+47
+
+48
+
+Hooking up a Pipeline
+Environment Control
+
+49
+49
+
+Interpreted Programming Language
+
+3 Tools of the Trade
+
+50
+
+51
+
+Regular Expressions
+
+51
+
+Matching Any Character: The Period (.)
+
+51
+
+Matching the Beginning of the Line: The Caret (^)
+Matching the End of the Line: The Dollar Sign $
+Matching a Character Set: The [...] Construct
+
+53
+53
+55
+
+Matching Zero or More Characters: The Asterisk (*)
+
+57
+
+Matching a Precise Number of Subpatterns: \{...\}
+Saving Matched Characters: \(...\)
+
+cut
+
+64
+
+The -d and -f Options
+
+paste
+
+68
+
+The -d Option
+
+69
+
+The -s Option
+
+70
+
+66
+
+61
+
+59
+
+vii
+
+viii
+
+Contents
+
+sed
+
+tr
+
+70
+
+The -n Option
+
+72
+
+Deleting Lines
+
+73
+
+74
+The -s Option
+
+76
+
+The -d Option
+
+77
+
+grep
+
+78
+
+Regular Expressions and grep
+The -v Option
+
+82
+
+The -l Option
+
+82
+
+The -n Option
+
+83
+
+sort
+
+84
+
+The -u Option
+
+84
+
+The -r Option
+
+85
+
+The -o Option
+
+85
+
+The -n Option
+
+86
+
+Skipping Fields
+
+87
+
+The -t Option
+
+87
+
+Other Options
+
+88
+
+uniq
+
+81
+
+88
+
+The -d Option
+
+89
+
+Other Options
+
+90
+
+4 And Away We Go
+Command Files
+Comments
+Variables
+
+93
+
+93
+96
+
+97
+
+Displaying the Values of Variables
+
+98
+
+Undefined Variables Have the Null Value
+Filename Substitution and Variables
+The ${variable} Construct
+Built-in Integer Arithmetic
+
+5 Can I Quote You on That?
+The Single Quote
+The Double Quote
+The Backslash
+
+105
+109
+
+111
+
+103
+
+105
+
+102
+
+101
+
+100
+
+Contents
+
+Using the Backslash for Continuing Lines
+The Backslash Inside Double Quotes
+Command Substitution
+The Back Quote
+
+112
+
+112
+
+114
+
+114
+
+The $(...) Construct
+The expr Command
+
+115
+
+119
+
+6 Passing Arguments 121
+The $# Variable 122
+The $* Variable 123
+A Program to Look Up Someone in the Phone Book
+A Program to Add Someone to the Phone Book
+
+124
+
+125
+
+A Program to Remove Someone from the Phone Book
+
+${n}
+
+128
+
+The shift Command
+
+7 Decisions, Decisions
+Exit Status
+
+128
+
+131
+
+131
+
+The $? Variable
+
+132
+
+The test Command
+String Operators
+
+135
+135
+
+An Alternative Format for test
+Integer Operators
+File Operators
+
+139
+
+140
+
+142
+
+The Logical Negation Operator !
+The Logical AND Operator -a
+Parentheses
+
+143
+
+143
+
+144
+
+The Logical OR Operator -o
+The else Construct
+
+145
+
+The exit Command
+
+147
+
+144
+
+A Second Look at the rem Program
+The elif Construct
+
+148
+
+Yet Another Version of rem
+The case Command
+
+147
+
+151
+
+153
+
+Special Pattern-Matching Characters
+
+155
+
+The -x Option for Debugging Programs
+Back to the case
+
+159
+
+157
+
+127
+
+ix
+
+x
+
+Contents
+
+The Null Command :
+
+160
+
+The &amp;&amp; and || Constructs
+
+161
+
+8 'Round and 'Round She Goes 163
+The for Command 163
+The $@ Variable 166
+The for Without the List 167
+The while Command 168
+The until Command 170
+More on Loops
+
+174
+
+Breaking Out of a Loop
+
+174
+
+Skipping the Remaining Commands in a Loop
+Executing a Loop in the Background
+I/O Redirection on a Loop
+
+177
+
+Piping Data into and out of a Loop
+Typing a Loop on One Line
+The getopts Command
+
+178
+
+179
+
+180
+
+9 Reading and Printing Data
+The read Command 185
+A Program to Copy Files
+
+185
+185
+
+Special echo Escape Characters
+An Improved Version of mycp
+A Final Version of mycp
+
+187
+
+188
+
+190
+
+A Menu-Driven Phone Program
+
+193
+
+The $$ Variable and Temporary Files
+The Exit Status from read
+The printf Command
+
+10 Your Environment
+Local Variables
+Subshells
+
+209
+
+209
+210
+
+Exported Variables
+
+211
+
+export -p 215
+PS1 and PS2 216
+HOME 217
+PATH 217
+
+177
+
+202
+
+199
+
+198
+
+176
+
+Contents
+
+Your Current Directory
+
+225
+
+CDPATH 226
+More on Subshells
+
+227
+
+The .Command
+
+227
+
+The exec Command
+
+230
+
+The (...) and { ...; } Constructs
+
+231
+
+Another Way to Pass Variables to a Subshell
+Your .profile File
+The TERM Variable
+The TZ Variable
+
+236
+
+237
+
+11 More on Parameters
+
+239
+
+Parameter Substitution
+
+239
+
+${parameter} 239
+${parameter:-value}
+${parameter:=value}
+${parameter:?value}
+${parameter:+value}
+Pattern Matching Constructs
+${#variable}
+
+The $0 Variable
+
+240
+241
+241
+242
+242
+
+244
+
+245
+
+The set Command
+The -x Option
+
+234
+
+235
+
+246
+246
+
+set with No Arguments 247
+Using set to Reassign Positional Parameters 247
+The -- Option 248
+Other Options to set 251
+The IFS Variable 251
+The readonly Command 254
+The unset Command 254
+12 Loose Ends 255
+The eval Command 255
+The wait Command 257
+The $! Variable 257
+The trap Command 258
+trap with No Arguments 259
+
+xi
+
+xii
+
+Contents
+
+Ignoring Signals
+
+260
+
+Resetting Traps
+
+261
+
+More on I/O
+
+261
+
+&lt;&amp;- and &gt;&amp;-
+
+262
+
+In-line Input Redirection
+Shell Archives
+Functions
+
+262
+
+264
+
+268
+
+Removing a Function Definition
+The return Command
+The type Command
+
+13 Rolo Revisited
+
+271
+
+271
+
+271
+
+273
+
+Data Formatting Considerations
+
+273
+
+rolo 274
+add 277
+lu 278
+display 278
+rem 280
+change 281
+listall 283
+Sample Output
+
+284
+
+14 Interactive and Nonstandard Shell Features
+Getting the Right Shell
+The ENV File
+
+289
+
+290
+
+Command-Line Editing
+Command History
+
+291
+
+292
+
+The vi Line Edit Mode
+
+292
+
+Accessing Commands from Your History
+The emacs Line Edit Mode
+
+Other Ways to Access Your History
+The history Command
+The fc Command
+The r Command
+
+300
+
+300
+
+301
+301
+
+303
+
+Local Variables
+
+294
+
+296
+
+Accessing Commands from Your History
+
+Functions
+
+289
+
+303
+
+Automatically Loaded Functions
+
+303
+
+298
+
+Contents
+
+Integer Arithmetic
+Integer Types
+
+303
+304
+
+Numbers in Different Bases
+The alias Command
+Removing Aliases
+Arrays
+
+305
+
+307
+309
+
+309
+
+Job Control
+
+315
+
+Stopped Jobs and the fg and bg Commands
+Miscellaneous Features
+
+317
+
+Other Features of the cd Command
+Tilde Substitution
+Order of Search
+
+318
+319
+
+Compatibility Summary
+
+A Shell Summary
+Startup
+
+317
+
+319
+
+321
+
+321
+
+Commands
+
+321
+
+Comments
+
+322
+
+Parameters and Variables
+Shell Variables
+
+322
+
+322
+
+Positional Parameters
+Special Parameters
+
+322
+
+323
+
+Parameter Substitution
+Command Re-entry
+
+324
+
+326
+
+The fc Command
+
+326
+
+vi Line Edit Mode 326
+Quoting
+
+329
+
+Tilde Substitution
+
+329
+
+Arithmetic Expressions
+Filename Substitution
+I/O Redirection
+
+330
+
+331
+
+331
+
+Exported Variables and Subshell Execution
+The (...) Construct
+
+332
+
+The { ...; } Construct
+
+332
+
+More on Shell Variables
+
+333
+
+Functions
+Job Control
+
+333
+333
+
+332
+
+316
+
+xiii
+
+xiv
+
+Contents
+
+Shell Jobs
+
+333
+
+Stopping Jobs
+
+334
+
+Command Summary
+
+334
+
+The : Command
+
+334
+
+The . Command
+
+334
+
+The alias Command
+The bg Command
+
+335
+
+335
+
+The break Command
+The case Command
+The cd Command
+
+336
+336
+
+337
+
+The continue Command
+The echo Command
+
+338
+
+The eval Command
+
+339
+
+The exec Command
+
+339
+
+The exit Command
+
+340
+
+The export Command
+The false Command
+
+340
+341
+
+The fc Command
+
+341
+
+The fg Command
+
+342
+
+The for Command
+
+342
+
+The getopts Command
+The hash Command
+The if Command
+
+338
+
+343
+
+344
+
+344
+
+The jobs Command
+
+347
+
+The kill Command
+
+347
+
+The newgrp Command
+The pwd Command
+
+347
+
+348
+
+The read Command
+
+348
+
+The readonly Command
+The return Command
+The set Command
+
+350
+
+The shift Command
+The test Command
+The times Command
+
+349
+
+349
+352
+
+352
+354
+
+The trap Command
+
+355
+
+The true Command
+
+356
+
+The type Command
+
+356
+
+Contents
+
+The umask Command
+
+356
+
+The unalias Command
+
+356
+
+The unset Command
+
+357
+
+The until Command
+
+357
+
+The wait Command
+
+358
+
+The while Command
+
+358
+
+B For More Information
+
+359
+
+Online Documentation
+
+359
+
+Documentation on the Web
+Books
+
+O’Reilly &amp; Associates
+Pearson
+
+Index
+
+360
+
+360
+
+363
+
+361
+
+360
+
+xv
+
+About the Authors
+Stephen Kochan is the author or co-author of several best-selling titles on Unix and the
+C language, including Programming in C, Programming in Objective-C, Topics in C Programming,
+and Exploring the Unix System. He is a former software consultant for AT&amp;T Bell Laboratories,
+where he developed and taught classes on Unix and C programming.
+Patrick Wood is the CTO of the New Jersey location of Electronics for Imaging. He was a
+member of the technical staff at Bell Laboratories when he met Mr. Kochan in 1985. Together
+they founded Pipeline Associates, Inc., a Unix consulting firm, where he was vice president.
+They co-authored Exploring the Unix System, Unix System Security, Topics in C Programming,
+and Unix Shell Programming.
+
+We Want to Hear from You!
+As the reader of this book, you are our most important critic and commentator. We value your
+opinion and want to know what we’re doing right, what we could do better, what areas you’d
+like to see us publish in, and any other words of wisdom you’re willing to pass our way.
+We welcome your comments. You can email or write directly to let us know what you did or
+didn’t like about this book—as well as what we can do to make our books better.
+Please note that we cannot help you with technical problems related to the topic of this book, and that
+due to the high volume of mail we receive, we might not be able to reply to every message.
+When you write, please be sure to include this book’s title and author, as well as your name and phone
+or email address.
+Email:
+
+feedback@developers-library.info
+
+Mail:
+
+Reader Feedback
+Addison-Wesley Developer’s Library
+800 East 96th Street
+Indianapolis, IN 46240 USA
+
+Reader Services
+Visit our website and register this book at www.informit.com/register for convenient access
+to any updates, downloads, or errata that might be available for this book.
+
+This page intentionally left blank
+
+Introduction
+
+It’s no secret that the family of Unix and Unix-like operating systems has emerged over the last
+few decades as the most pervasive, most widely used group of operating systems in computing
+today. For programmers who have been using Unix for many years, this came as no surprise:
+The Unix system provides an elegant and efficient environment for program development.
+That’s exactly what Dennis Ritchie and Ken Thompson sought to create when they developed
+Unix at Bell Laboratories way back in the late 1960s.
+
+Note
+Throughout this book we’ll use the term Unix to refer generically to the broad family of
+Unix-based operating systems, including true Unix operating systems such as Solaris
+as well as Unix-like operating systems such as Linux and Mac OS X.
+One of the strongest features of the Unix system is its wide collection of programs. More than
+200 basic commands are distributed with the standard operating system and Linux adds to it,
+often shipping with 700–1000 standard commands! These commands (also known as tools)
+do everything from counting the number of lines in a file, to sending electronic mail, to
+displaying a calendar for any desired year.
+But the real strength of the Unix system comes not from its large collection of commands but
+from the elegance and ease with which these commands can be combined to perform far more
+sophisticated tasks.
+The standard user interface to Unix is the command line, which actually turns out to be a
+shell, a program that acts as a buffer between the user and the lowest levels of the system itself
+(the kernel ). The shell is simply a program that reads in the commands you type and converts
+them into a form more readily understood by the system. It also includes core programming
+constructs that let you make decisions, loop, and store values in variables.
+The standard shell distributed with Unix systems derives from AT&amp;T’s distribution, which
+evolved from a version originally written by Stephen Bourne at Bell Labs. Since then,
+the IEEE has created standards based on the Bourne shell and the other more recent shells.
+The current version of this standard, as of this writing, is the Shell and Utilities volume
+of IEEE Std 1003.1-2001, also known as the POSIX standard. This shell is what we use as the
+basis for the rest of this book.
+The examples in this book were tested on a Mac running Mac OS X 10.11, Ubuntu Linux 14.0,
+and an old version of SunOS 5.7 running on a Sparcstation Ultra-30. All examples, with the
+
+2
+
+Introduction
+
+exception of some Bash examples in Chapter 14, were run using the Korn shell, although all of
+them also work fine with Bash.
+Because the shell offers an interpreted programming language, programs can be written, modified,
+and debugged quickly and easily. We turn to the shell as our first choice of programming
+language and after you become adept at shell programming, you will too.
+
+How This Book Is Organized
+This book assumes that you are familiar with the fundamentals of the system and command
+line; that is, that you know how to log in; how to create files, edit them, and remove them;
+and how to work with directories. In case you haven’t used the Linux or Unix system for a
+while, we’ll examine the basics in Chapter 1, “A Quick Review of the Basics.” In addition,
+filename substitution, I/O redirection, and pipes are also reviewed in the first chapter.
+Chapter 2, “What Is the Shell?,” reveals what the shell really is, how it works, and how it ends
+up being your primary method of interacting with the operating system itself. You’ll learn
+about what happens every time you log in to the system, how the shell program gets started,
+how it parses the command line, and how it executes other programs for you. A key point
+made in Chapter 2 is that the shell is just another program; nothing more, nothing less.
+Chapter 3, “Tools of the Trade,” provides tutorials on tools useful in writing shell programs.
+Covered in this chapter are cut, paste, sed, grep, sort, tr, and uniq. Admittedly, the
+selection is subjective, but it does set the stage for programs that we’ll develop throughout the
+remainder of the book. Also in Chapter 3 is a detailed discussion of regular expressions, which
+are used by many Unix commands, such as sed, grep, and ed.
+Chapters 4 through 9 teach you how to put the shell to work for writing programs. You’ll
+learn how to write your own commands; use variables; write programs that accept arguments;
+make decisions; use the shell’s for, while, and until looping commands; and use the read
+command to read data from the terminal or from a file. Chapter 5, “Can I Quote you on
+That?”, is devoted entirely to a discussion of one of the most intriguing (and often confusing)
+aspects of the shell: the way it interprets quotes.
+By that point in the book, all the basic programming constructs in the shell will have been
+covered, and you will be able to write shell programs to solve your particular problems.
+Chapter 10, “Your Environment,” covers a topic of great importance for a real understanding
+of the way the shell operates: the environment. You’ll learn about local and exported variables;
+subshells; special shell variables, such as HOME, PATH, and CDPATH; and how to set up
+your .profile file.
+Chapter 11, “More on Parameters,” and Chapter 12, “Loose Ends,” tie up some loose ends, and
+Chapter 13, “Rolo Revisited,” presents a final version of a phone directory program called
+rolo that is developed throughout the book.
+
+Accessing the Free Web Edition
+
+Chapter 14, “Interactive and Nonstandard Shell Features,” discusses features of the shell that
+either are not formally part of the IEEE POSIX standard shell (but are available in most
+Unix and Linux shells) or are mainly used interactively instead of in programs.
+Appendix A, “Shell Summary,” summarizes the features of the IEEE POSIX standard shell.
+Appendix B, “For More Information,” lists references and resources, including the Web sites
+where different shells can be downloaded.
+The philosophy this book uses is to teach by example. We believe that properly chosen
+examples do a far better job of illustrating how a particular feature is used than ten times as
+many words. The old “A picture is worth …” adage seems to apply just as well to coding.
+We encourage you to type in each example and test it on your own system, for only by doing
+can you become adept at shell programming. Don’t be afraid to experiment. Try changing
+commands in the program examples to see the effect, or add different options or features to
+make the programs more useful or robust.
+
+Accessing the Free Web Edition
+Your purchase of this book in any format includes access to the corresponding Web Edition,
+which provides several special features to help you learn:
+■
+
+The complete text of the book online
+
+■
+
+Interactive quizzes and exercises to test your understanding of the material
+
+■
+
+Updates and corrections as they become available
+
+The Web Edition can be viewed on all types of computers and mobile devices with any modern
+web browser that supports HTML5.
+To get access to the Web Edition of Shell Programming with Unix, Linux, and OS X all you need to
+do is register this book:
+1. Go to www.informit.com/register.
+2. Sign in or create a new account.
+3. Enter ISBN: 9780134496009.
+4. Answer the questions as proof of purchase.
+The Web Edition will appear under the Digital Purchases tab on your Account page. Click the
+Launch link to access the product.
+
+3
+
+This page intentionally left blank
+
+1
+A Quick Review
+of the Basics
+
+This chapter provides a review of the Unix system, including the file system, basic commands,
+filename substitution, I/O redirection, and pipes.
+
+Some Basic Commands
+Displaying the Date and Time: The date Command
+The date command tells the system to print the date and time:
+$ date
+Thu Dec
+$
+
+3 11:04:09 MST 2015
+
+date prints the day of the week, month, day, time (24-hour clock, the system’s time zone),
+and year. Throughout the code examples in this book, whenever we use boldface type like
+this, it’s to indicate what you, the user, type in. Normal face type like this is used to
+indicate what the Unix system prints. Italic type is used for comments in interactive sequences.
+
+Every Unix command is submitted to the system with the pressing of the Enter key. Enter
+says that you are finished typing things in and are ready for the Unix system to do its thing.
+
+Finding Out Who’s Logged In: The who Command
+The who command can be used to get information about all users currently logged in to the
+system:
+$ who
+pat
+ruth
+steve
+$
+
+tty29
+tty37
+tty25
+
+Jul 19 14:40
+Jul 19 10:54
+Jul 19 15:52
+
+6
+
+Chapter 1 A Quick Review of the Basics
+
+Here, three users are logged in: pat, ruth, and steve. Along with each user ID is listed the
+tty number of that user and the day and time that user logged in. The tty number is a unique
+identification number the Unix system gives to each terminal or network device that a user is
+on when they log into the system.
+The who command also can be used to get information about yourself:
+$ who am i
+pat
+tty29
+$
+
+Jul 19 14:40
+
+who and who am i are actually the same command: who. In the latter case, the am and i are
+arguments to the who command. (This isn’t a good example of how command arguments work;
+it’s just a curiosity of the who command.)
+
+Echoing Characters: The echo Command
+The echo command prints (or echoes) at the terminal whatever else you happen to type on the
+line (there are some exceptions to this that you’ll learn about later):
+$ echo this is a test
+this is a test
+$ echo why not print out a longer line with echo?
+why not print out a longer line with echo?
+$ echo
+A blank line is displayed
+$ echo one
+two
+three
+four five
+one two three four five
+$
+
+You will notice from the preceding example that echo squeezes out extra blanks between
+words. That’s because on a Unix system, the words are important while the blanks are only
+there to separate the words. Generally, the Unix system ignores extra blanks (you’ll learn more
+about this in the next chapter).
+
+Working with Files
+The Unix system recognizes only three basic types of files: ordinary files, directory files, and
+special files. An ordinary file is just that: any file on the system that contains data, text,
+program instructions, or just about anything else. Directories, or folders, are described later in
+this chapter. Finally, as its name implies, a special file has a special meaning to the Unix system
+and is typically associated with some form of I/O.
+A filename can be composed of just about any character directly available from the keyboard
+(and even some that aren’t) provided that the total number of characters contained in the
+name is not greater than 255. If more than 255 characters are specified, the Unix system
+simply ignores the extra characters.
+
+Working with Files
+
+The Unix system provides many tools that make working with files easy. Here we’ll review
+some of the basic file manipulation commands.
+
+Listing Files: The ls Command
+To see what files you have stored in your directory, you can type the ls command:
+$ ls
+READ_ME
+names
+tmp
+$
+
+This output indicates that three files called READ_ME, names, and tmp are contained in the
+current directory. (Note that the output of ls may vary from system to system. For example,
+on many Unix systems ls produces multicolumn output when sending its output to a
+terminal; on others, different colors may be used for different types of files. You can always
+force single-column output with the –1 option—that’s the number one.)
+
+Displaying the Contents of a File: The cat Command
+You can examine the contents of a file by using the cat command. (That’s short for “concatenate,”
+if you’re thinking feline thoughts.) The argument to cat is the name of the file whose contents
+you want to examine.
+$ cat names
+Susan
+Jeff
+Henry
+Allan
+Ken
+$
+
+Counting the Number of Words in a File: The wc Command
+With the wc command, you can get a count of the total number of lines, words, and characters
+contained in a file. Once again, the name of the file is expected to be specified as the argument
+to this command:
+$ wc names
+5
+$
+
+7
+
+27 names
+
+The wc command lists three numbers followed by the filename. The first number represents the
+number of lines in the file (5), the second the number of words (7), and the third the number
+of characters (27).
+
+7
+
+8
+
+Chapter 1 A Quick Review of the Basics
+
+Command Options
+Most Unix commands allow the specification of options at the time a command is executed.
+These options generally follow the same format:
+-letter
+
+That is, a command option is a minus sign followed immediately by a single letter. For
+example, to count just the number of lines contained in a file, the option -l (that’s the letter l)
+is given to the wc command:
+$ wc -l names
+5 names
+$
+
+To count just the number of characters in a file, the -c option is specified:
+$ wc -c names
+27 names
+$
+
+Finally, the -w option can be used to count the number of words contained in the file:
+$ wc -w names
+7 names
+$
+
+Some commands require that the options be listed before the filename arguments. For example,
+sort names -r is acceptable, whereas wc names -l is not. Still, the former is unusual and
+most Unix commands are designed for you to specify command options first, as exemplified by
+wc -l names.
+
+Making a Copy of a File: The cp Command
+To make a copy of a file, use the cp command. The first argument to the command is the name
+of the file to be copied (known as the source file), and the second argument is the name of the
+file to place the copy into (known as the destination file). You can make a copy of the file names
+and call it saved_names as follows:
+$ cp names saved_names
+$
+
+Execution of this command causes the contents of the file names to be copied into a new file
+named saved_names. As with many Unix commands, the fact that no output other than a
+command prompt was displayed after the cp command was typed indicates that the command
+executed successfully.
+
+Renaming a File: The mv Command
+A file can be renamed with the mv (“move”) command. The arguments to the mv command
+follow the same format as the cp command. The first argument is the name of the file to be
+
+Working with Directories
+
+renamed, and the second argument is the new name. So, to change the name of the file
+saved_names to hold_it, for example, the following command would do the trick:
+$ mv saved_names hold_it
+$
+
+Be careful! When executing an mv or cp command, the Unix system does not care whether the
+file specified as the second argument already exists. If it does, the contents of the file will be
+lost. For example, if a file called old_names exists, executing the command
+cp names old_names
+
+would copy the filenames to old_names, destroying the previous contents of old_names in the
+process. Similarly, the command
+mv names old_names
+
+would rename names to old_names, even if the file old_names existed prior to execution of
+the command.
+
+Removing a File: The rm Command
+Use the rm command to remove a file from the system. The argument to rm is simply the name
+of the file to be removed:
+$ rm hold_it
+$
+
+You can remove more than one file at a time with the rm command by simply specifying all
+such files on the command line. For example, the following would remove the three files wb,
+collect, and mon:
+$ rm wb collect mon
+$
+
+Working with Directories
+Suppose that you had a set of files consisting of various memos, proposals, and letters.
+Further suppose that you had another set of files that were computer programs. It would seem
+logical to group this first set into a directory called documents and the latter into a directory
+called programs. Figure 1.1 illustrates such a directory organization.
+
+documents
+
+plan
+
+dact
+
+sys.A
+
+new.hire no.JSK AMG.reply
+
+Figure 1.1 Example directory structure
+
+programs
+
+wb
+
+collect
+
+mon
+
+9
+
+10
+
+Chapter 1 A Quick Review of the Basics
+
+The file directory documents contains the files plan, dact, sys.A, new.hire, no.JSK, and
+AMG.reply. The directory programs contains the files wb, collect, and mon. At some point,
+you may decide to further categorize the files in a directory. This can be done by creating
+subdirectories and then placing each file into the appropriate subdirectory. For example,
+you might want to create subdirectories called memos, proposals, and letters inside your
+documents directory, as shown in Figure 1.2.
+
+documents
+
+memos
+
+plan
+
+dact
+
+proposals
+
+sys.A
+
+new.hire
+
+programs
+
+letters
+
+wb
+
+collect
+
+mon
+
+no.JSK AMG.reply
+
+Figure 1.2 Directories containing subdirectories
+documents contains the subdirectories memos, proposals, and letters. Each of these
+subdirectories in turn contains two files: memos contains plan and dact; proposals contains
+sys.A and new.hire; and letters contains no.JSK and AMG.reply.
+
+Although each file in a given directory must have a unique name, files contained in different
+directories do not. So you could have a file in your programs directory called dact, even
+though a file by that name also exists in the memos subdirectory.
+
+The Home Directory and Pathnames
+The Unix system always associates each user of the system with a particular directory. When
+you log in to the system, you are placed automatically into your own directory (called your
+home directory).
+Although the location of users’ home directories can vary from one system to the next,
+let’s assume that your home directory is called steve and that this directory is actually a
+subdirectory of a directory called users. Therefore, if you had the directories documents and
+programs, the overall directory structure would actually look something like Figure 1.3.
+A special directory named / (pronounced “slash”) is shown at the top of the directory tree.
+This directory is known as the root.
+Whenever you are “inside” a particular directory (called your current working directory), the
+files contained within that directory are immediately accessible, without specifying any path
+information. If you want to access a file from another directory, you can either first issue a
+command to “change” to the appropriate directory and then access the particular file, or you
+can specify the particular file by its pathname.
+
+Working with Directories
+
+/
+users
+
+…
+pat
+
+steve
+
+ruth
+
+documents
+
+memos
+
+plan
+
+dact
+
+proposals
+
+sys.A
+
+new.hire
+
+programs
+
+letters
+
+wb
+
+collect
+
+mon
+
+no.JSK AMG.reply
+
+Figure 1.3 Hierarchical directory structure
+A pathname enables you to uniquely identify a particular file to the Unix system. In the
+specification of a pathname, successive directories along the path are separated by the slash
+character /. A pathname that begins with a slash character is known as a full or absolute
+pathname because it specifies a complete path from the root. For example, the pathname
+/users/steve identifies the directory steve contained within the directory users. Similarly,
+the pathname /users/steve/documents references the directory documents as contained
+in the directory steve within users. As a final example, the pathname /users/steve/
+documents/letters/AMG.reply identifies the file AMG.reply contained along the appropriate
+directory path.
+To help reduce the typing that would otherwise be required, Unix provides certain notational
+conveniences. A pathname that does not begin with a slash is known as a relative pathname:
+the path is relative to your current working directory. For example, if you just logged in to the
+system and were placed into your home directory /users/steve, you could directly reference
+the directory documents simply by typing documents. Similarly, the relative pathname
+programs/mon could be typed to access the file mon contained inside your programs directory.
+By convention, .. always references the directory that is one level higher than the current
+directory, known as the parent directory. For example, if you were in your home directory
+/users/steve, the pathname .. would reference the directory users. If you had issued
+the appropriate command to change your working directory to documents/letters, the
+pathname .. would reference the documents directory, ../.. would reference the directory
+steve, and ../proposals/new.hire would reference the file new.hire contained in the
+proposals directory. There is usually more than one way to specify a path to a particular
+file, a very Unix-y characteristic.
+
+11
+
+12
+
+Chapter 1 A Quick Review of the Basics
+
+Another notational convention is the single period., which always refers to the current
+directory. That’ll become more important later in the book when you want to specify a shell
+script in the current directory, not one in the PATH. We’ll explain this in more detail soon.
+
+Displaying Your Working Directory: The pwd Command
+The pwd command is used to help you “get your bearings” by telling you the name of your
+current working directory.
+Recall the directory structure from Figure 1.3. The directory that you are placed in after you log
+in to the system is called your home directory. You can assume from Figure 1.3 that the home
+directory for the user steve is /users/steve. Therefore, whenever steve logs in to
+the system, he will automatically be placed inside this directory. To verify that this is the
+case, the pwd (print working directory) command can be issued:
+$ pwd
+/users/steve
+$
+
+The output from the command verifies that steve’s current working directory is /users/
+steve.
+
+Changing Directories: The cd Command
+You can change your current working directory by using the cd command. This command
+takes as its argument the name of the target or destination directory.
+Let’s assume that you just logged in to the system and were placed in your home directory,
+/users/steve. This is depicted by the arrow in Figure 1.4.
+You know that two directories are directly “below” steve’s home directory: documents and
+programs. This can be easily verified at the terminal by issuing the ls command:
+$ ls
+documents
+programs
+$
+
+The ls command lists the two directories documents and programs the same way it listed
+other ordinary files in previous examples.
+
+Working with Directories
+
+/
+users
+
+…
+steve
+
+pat
+
+ruth
+
+documents
+
+memos
+
+plan
+
+dact
+
+proposals
+
+sys.A
+
+new.hire
+
+programs
+
+letters
+
+wb
+
+collect
+
+mon
+
+no.JSK AMG.reply
+
+Figure 1.4 Current working directory is steve
+To change your current working directory, issue the cd command, followed by the name of the
+new directory:
+$ cd documents
+$
+
+After executing this command, you will be placed inside the documents directory, as depicted
+in Figure 1.5.
+/
+users
+
+…
+steve
+
+pat
+
+ruth
+
+documents
+
+memos
+
+plan
+
+dact
+
+proposals
+
+sys.A
+
+new.hire
+
+Figure 1.5 cd documents
+
+programs
+
+letters
+
+wb
+
+no.JSK AMG.reply
+
+collect
+
+mon
+
+13
+
+14
+
+Chapter 1 A Quick Review of the Basics
+
+You can verify at the terminal that the working directory has been changed by using the pwd
+command:
+$ pwd
+/users/steve/documents
+$
+
+The easiest way to move up one level in a directory is to reference the .. shortcut with the
+command
+cd ..
+
+because by convention .. always refers to the directory one level up (see Figure 1.6).
+$ cd ..
+$ pwd
+/users/steve
+$
+/
+users
+
+…
+steve
+
+pat
+
+ruth
+
+documents
+
+memos
+
+plan
+
+dact
+
+proposals
+
+sys.A
+
+new.hire
+
+programs
+
+letters
+
+no.JSK
+
+wb
+
+collect
+
+mon
+
+AMG.reply
+
+Figure 1.6 cd ..
+If you wanted to change to the letters directory, you could get there with a single cd
+command by specifying the relative path documents/letters (see Figure 1.7):
+$ cd documents/letters
+$ pwd
+/users/steve/documents/letters
+$
+
+Working with Directories
+
+/
+users
+
+…
+steve
+
+pat
+
+ruth
+
+documents
+
+memos
+
+plan
+
+dact
+
+programs
+
+proposals
+
+sys.A
+
+new.hire
+
+letters
+
+wb
+
+collect
+
+mon
+
+no.JSK AMG.reply
+
+Figure 1.7 cd documents/letters
+You can get back up to your home directory by using a single cd command to go up two
+directories as shown:
+$ cd ../..
+$ pwd
+/users/steve
+$
+
+Or you can get back to the home directory using a full pathname rather than a relative one:
+$ cd /users/steve
+$ pwd
+/users/steve
+$
+
+Finally, there is a third way to get back to the home directory that is also the easiest. Typing the
+command cd without an argument always moves you back to your home directory, no matter
+where you are in the file system:
+$ cd
+$ pwd
+/users/steve
+$
+
+More on the ls Command
+When you type the ls command, the files contained in the current working directory are
+listed. But you can also use ls to obtain a list of files in other directories by supplying an
+argument to the command. First let’s get back to your home directory:
+$ cd
+$ pwd
+/users/steve
+$
+
+15
+
+16
+
+Chapter 1 A Quick Review of the Basics
+
+Now let’s take a look at the files in the current working directory:
+$ ls
+documents
+programs
+$
+
+If you supply the name of one of these directories to the ls command, you can get a list of
+the contents of that directory. So you can find out what’s contained in the documents directory
+by typing the command ls documents:
+$ ls documents
+letters
+memos
+proposals
+$
+
+To take a look at the subdirectory memos, you can follow a similar procedure:
+$ ls documents/memos
+dact
+plan
+$
+
+If you specify a nondirectory file argument to the ls command, you simply get that filename
+echoed back at the terminal:
+$ ls documents/memos/plan
+documents/memos/plan
+$
+
+Confused? There’s an option to the ls command that lets you determine whether a particular
+file is a directory, among other things. The -l option (the letter l) provides a more detailed
+description of the files in a directory. If you were currently in steve’s home directory, here’s
+what the -l option to the ls command produces:
+$ ls –l
+total 2
+drwxr-xr-x
+drwxr-xr-x
+$
+
+5 steve
+2 steve
+
+DP3725
+DP3725
+
+80 Jun 25 13:27 documents
+96 Jun 25 13:31 programs
+
+The first line of the display is a count of the total number of blocks (1,024 bytes) of storage that
+the listed files use. Each successive line displayed by the ls -l command contains detailed
+information about a file in the directory. The first character on each line indicates what type of
+file it is: d for a directory, - for a file, b, c, l, or p for a special file.
+The next nine characters on the line define the access permissions of that particular file or
+directory. These access modes apply to the file’s owner (the first three characters), other users in
+
+Working with Directories
+
+the same group as the file’s owner (the next three characters), and finally all other users on the
+system (the last three characters). Generally, they indicate whether the specified class of user
+can read the file, write to the file, or execute the contents of the file (in the case of a program
+or shell script).
+The ls -l command then shows the link count (see “Linking Files: The ln Command,” later
+in this chapter), the owner of the file, the group owner of the file, how large the file is (that is,
+how many characters are contained in it), and when the file was last modified. The information
+displayed last on the line is the filename itself.
+
+Note
+Many modern Unix systems have gone away from using groups, so while those permissions are
+still shown, the group owner for a specific file or directory is often omitted in the output of the
+ls command.
+You should now be able to glean a lot of information from the ls -l output for a directory full
+of files:
+$ ls -l programs
+total 4
+-rwxr-xr-x
+1 steve
+-rwxr-xr-x
+1 steve
+-rwxr-xr-x
+1 steve
+$
+
+DP3725
+DP3725
+DP3725
+
+358 Jun 25 13:31 collect
+1219 Jun 25 13:31 mon
+89 Jun 25 13:30 wb
+
+The dash in the first column of each line indicates that the three files collect, mon, and wb are
+ordinary files and not directories. Now, can you figure out how big are they?
+
+Creating a Directory: The mkdir Command
+Use mkdir to create directories. The argument to this command is simply the name of the
+directory you want to create. For example, assume that you are still working with the directory
+structure depicted in Figure 1.7 and that you want to create a new directory called misc at the
+same level as the directories documents and programs. If you were currently in your home
+directory, typing the command mkdir misc would achieve the desired effect:
+$ mkdir misc
+$
+
+Now if you run ls, you will have the new directory listed:
+$ ls
+documents
+misc
+programs
+$
+
+17
+
+18
+
+Chapter 1 A Quick Review of the Basics
+
+The directory structure now appears as shown in Figure 1.8.
+steve
+
+documents
+
+memos
+
+plan
+
+dact
+
+proposals
+
+sys.A
+
+new.hire
+
+programs
+
+letters
+
+no.JSK
+
+wb
+
+collect
+
+misc
+
+mon
+
+AMG.reply
+
+Figure 1.8 Directory structure with newly created misc directory
+
+Copying a File from One Directory to Another
+The cp command can be used to copy a file from one directory into another. For example, you
+can copy the file wb from the programs directory into a file called wbx in the misc directory
+as follows:
+$ cp programs/wb misc/wbx
+$
+
+Because the two files are in different directories, they can safely have the exact same name:
+$ cp programs/wb misc/wb
+$
+
+When the destination file is going to have the same name as the source file (in a different
+directory, of course), it is necessary to specify only the destination directory as the
+second argument:
+$ cp programs/wb misc
+$
+
+When this command gets executed, the Unix system recognizes that the second argument is a
+directory and copies the source file into that directory. The new file is given the same name
+as the source file.
+You can copy more than one file into a directory by listing the files to be copied prior to
+the name of the destination directory. If you were currently in the programs directory, the
+command
+$ cp wb collect mon ../misc
+$
+
+would copy the three files wb, collect, and mon into the misc directory, with the same
+filenames.
+
+Working with Directories
+
+To copy a file from another directory into your current location in the file system and give the
+file the same name, use the handy “.” shortcut for the current directory:
+$ pwd
+/users/steve/misc
+$ cp ../programs/collect .
+$
+
+The preceding command copies the file collect from the directory ../programs into the
+current directory (/users/steve/misc).
+
+Moving Files Between Directories
+You recall that the mv command can be used to rename a file. Indeed, there is no “rename”
+command in Unix. However, when the two arguments reference different directories, the file is
+actually moved from the first directory into the second.
+To demonstrate, go from the home directory to the documents directory:
+$ cd documents
+$
+
+Suppose that now you decide that the file plan contained in the memos directory is really a
+proposal so you want to move it from the memos directory into the proposals directory. The
+following would do the trick:
+$ mv memos/plan proposals/plan
+$
+
+As with the cp command, if the source file and destination file have the same name, only the
+name of the destination directory need be supplied, so there’s an easier way to move this file:
+$ mv memos/plan proposals
+$
+
+Also like the cp command, a group of files can be simultaneously moved into a directory by
+simply listing all files to be moved before the name of the destination directory:
+$ pwd
+/users/steve/programs
+$ mv wb collect mon ../misc
+$
+
+This would move the three files wb, collect, and mon into the directory misc.
+You can also use the mv command to change the name of a directory, as it happens. For
+example, the following renames the programs directory to bin.
+$ mv programs bin
+$
+
+19
+
+20
+
+Chapter 1 A Quick Review of the Basics
+
+Linking Files: The ln Command
+So far everything we’ve talked about with file management has assumed that a given collection
+of data has one and only one filename, wherever it may be located in the file system. It turns
+out that Unix is more sophisticated than that and can assign multiple filenames to the same
+collection of data.
+The main command for creating these duplicate names for a given file is the ln command.
+The general form of the command is
+ln from to
+
+This links the file from to the file to.
+Recall the structure of steve’s programs directory from Figure 1.8. In that directory, he has
+stored a program called wb. Suppose that he decides that he’d also like to call the program
+writeback. The most obvious thing to do would be to simply create a copy of wb called
+writeback:
+$ cp wb writeback
+$
+
+The drawback with this approach is that now twice as much disk space is being consumed by
+the program. Furthermore, if steve ever changes wb, he may forget to duplicate the change
+in writeback, resulting in two different, out of sync copies of what he thinks is the same
+program. Not so good, Steve!
+By linking the file wb to the new name, these problems are avoided:
+$ ln wb writeback
+$
+
+Now instead of two copies of the file existing, only one exists with two different names: wb and
+writeback. The two files have been logically linked by the Unix system.
+As far as you’re concerned, it appears as though you have two different files. Executing an ls
+command shows the two files separately:
+$ ls
+collect
+mon
+wb
+writeback
+$
+
+Where it gets interesting is when you use ls -l:
+$ ls -l
+total 5
+-rwxr-xr-x
+-rwxr-xr-x
+-rwxr-xr-x
+-rwxr-xr-x
+$
+
+1
+1
+2
+2
+
+steve
+steve
+steve
+steve
+
+DP3725
+DP3725
+DP3725
+DP3725
+
+358
+1219
+89
+89
+
+Jun
+Jun
+Jun
+Jun
+
+25
+25
+25
+25
+
+13:31
+13:31
+13:30
+13:30
+
+collect
+mon
+wb
+writeback
+
+Working with Directories
+
+Look closely at the second column of the output: The number shown is 1 for collect and mon
+and 2 for wb and writeback. This is the number of links to a file, normally 1 for nonlinked,
+nondirectory files. Because wb and writeback are linked, however, this number is 2 for these
+files (or, more correctly, this file with two names).
+You can remove either of the two linked files at any time, and the other will not be removed:
+$ rm writeback
+$ ls -l
+total 4
+-rwxr-xr-x
+1 steve
+-rwxr-xr-x
+1 steve
+-rwxr-xr-x
+1 steve
+$
+
+DP3725
+DP3725
+DP3725
+
+358 Jun 25 13:31 collect
+1219 Jun 25 13:31 mon
+89 Jun 25 13:30 wb
+
+Note that the number of links on wb went from 2 to 1 because one of its links was removed.
+Most often, ln is used to allow a file to appear in more than one directory simultaneously. For
+example, suppose that pat wanted to have access to steve’s wb program. Instead of making
+a copy for himself (subject to the same data sync problems described previously) or including
+steve’s programs directory in his PATH (which has security risks as described in Chapter 10,
+“Your Environment”), he can simply link to the file from his own program directory:
+$ pwd
+/users/pat/bin
+$ ls -l
+total 4
+-rwxr-xr-x
+1 pat
+-rwxr-xr-x
+1 pat
+$ ln /users/steve/wb .
+$ ls -l
+total 5
+-rwxr-xr-x
+1 pat
+-rwxr-xr-x
+2 steve
+-rwxr-xr-x
+1 pat
+$
+
+pat’s program directory
+
+DP3822
+DP3822
+
+1358 Jan 15 11:01 lcat
+504 Apr 21 18:30 xtr
+link wb to pat’s bin
+
+DP3822
+DP3725
+DP3822
+
+1358 Jan 15 11:01 lcat
+89 Jun 25 13:30 wb
+504 Apr 21 18:30 xtr
+
+Note that steve is still listed as the owner of wb, even when viewing the contents of pat’s
+directory. This makes sense, because there’s really only one copy of the file and it’s owned
+by steve.
+The only stipulation on linking files is that for ordinary links the files to be linked together
+must reside on the same file system. If they don’t, you’ll get an error from ln when you try to
+link them. (To determine the different file systems on your system, execute the df command.
+The first field on each line of output is the name of a file system.)
+To create links to files on different file systems (or on different networked systems), you can
+use the -s option to the ln command. This creates a symbolic link. Symbolic links behave a lot
+like regular links, except that the symbolic link points to the original file; if the original file is
+removed, the symbolic link no longer works.
+
+21
+
+22
+
+Chapter 1 A Quick Review of the Basics
+
+Let’s see how symbolic links work with the previous example:
+$ rm wb
+$ ls -l
+total 4
+-rwxr-xr-x
+1 pat
+DP3822
+-rwxr-xr-x
+1 pat
+DP3822
+$ ln -s /users/steve/wb ./symwb
+$ ls -l
+total 5
+-rwxr-xr-x
+1 pat
+DP3822
+lrwxr-xr-x
+1 pat
+DP3822
+-rwxr-xr-x
+1 pat
+DP3822
+$
+
+1358 Jan 15 11:01 lcat
+504 Apr 21 18:30 xtr
+Symbolic link to wb
+
+1358 Jan 15 11:01 lcat
+15 Jul 20 15:22 symwb -&gt; /users/steve/wb
+504 Apr 21 18:30 xtr
+
+Note that pat is listed as the owner of symwb, and the file type shown as the very first character
+in the ls output is l, which indicates a symbolic link. The size of the symbolic link is 15
+(the file actually contains the string /users/steve/wb), but if we attempt to access the
+contents of the file, we are presented with the contents of the file it’s linked to, /users/
+steve/wb:
+$ wc symwb
+5
+$
+
+9
+
+89 symwb
+
+The -L option to the ls command can be used with the -l option to get a detailed list of
+information on the file the symbolic link points to:
+$ ls -Ll
+total 5
+-rwxr-xr-x
+-rwxr-xr-x
+-rwxr-xr-x
+$
+
+1 pat
+2 steve
+1 pat
+
+DP3822
+DP3725
+DP3822
+
+1358 Jan 15 11:01 lcat
+89 Jun 25 13:30 wb
+504 Apr 21 18:30 xtr
+
+Removing the file that a symbolic link points to invalidates the symbolic link (because
+symbolic links are maintained as filenames), but it doesn’t remove it:
+$ rm /users/steve/wb
+Assume pat can remove this file
+$ ls -l
+total 5
+-rwxr-xr-x
+1 pat
+DP3822
+1358 Jan 15 11:01 lcat
+lrwxr-xr-x
+1 pat
+DP3822
+15 Jul 20 15:22 wb -&gt; /users/steve/wb
+-rwxr-xr-x
+1 pat
+DP3822
+504 Apr 21 18:30 xtr
+$ wc wb
+Cannot open wb: No such file or directory
+$
+
+Working with Directories
+
+This type of file is called a dangling symbolic link and should be removed unless you have a
+specific reason to keep it around (for example, if you intend to replace the removed file).
+One last note before leaving this discussion: The ln command follows the same general format
+as cp and mv, meaning that you can create links to a bunch of files within a specific target
+directory using the format
+ln files directory
+
+Removing a Directory: The rmdir Command
+You can remove a directory with the rmdir command. Rather than let you accidentally
+remove dozens or hundreds of files, however, rmdir won’t let you proceed unless the specified
+directory is completely empty of files and subdirectories.
+To remove the directory /users/pat, we could use the following:
+$ rmdir /users/pat
+rmdir: pat: Directory not empty
+$
+
+Phew! That would have been a mistake! Instead, let’s remove the misc directory that you
+created earlier:
+$ rmdir /users/steve/misc
+$
+
+Once again, the preceding command works only if no files or directories are contained in the
+misc directory; otherwise, the following happens, as also shown earlier:
+$ rmdir /users/steve/misc
+rmdir: /users/steve/misc: Directory not empty
+$
+
+If you still want to remove the misc directory, you would first have to remove all the files
+contained in that directory before reissuing the rmdir command.
+As an alternative method for removing a directory and its contents, you can use the -r option
+to the rm command. The format is simple:
+rm -r dir
+
+where dir is the name of the directory that you want to remove. rm removes the
+indicated directory and all files (including directories) in it, so be careful with this
+powerhouse command.
+Want to go full turbo? Add the -f flag and it forces the action without prompting you on
+a command-by-command basis. It can completely trash your system if you’re not careful,
+however, so many admins simply avoid rm -rf entirely!
+
+23
+
+24
+
+Chapter 1 A Quick Review of the Basics
+
+Filename Substitution
+The Asterisk
+One powerful feature of the Unix system that is handled by the shell is filename substitution.
+Let’s say that your current directory has these files in it:
+$ ls
+chaptl
+chapt2
+chapt3
+chapt4
+$
+
+Suppose that you want to display their contents en masse. Easy: cat allows you to display the
+contents of as many files as you specify on the command line. Like this:
+$ cat chaptl chapt2 chapt3 chapt4
+...
+$
+
+But that’s tedious. Instead, you can take advantage of filename substitution by simply typing:
+$ cat *
+...
+$
+
+The shell automatically substitutes the names of all the files in the current directory that match
+the pattern *. The same substitution occurs if you use * with another command too, of course.
+How about echo?
+$ echo *
+chaptl chapt2 chapt3 chapt4
+$
+
+Here the * is again replaced with the names of all the files contained in the current directory,
+and the echo command simply displays that list to you.
+Any place that * appears on the command line, the shell performs its substitution:
+$ echo * : *
+chaptl chapt2 chapt3 chapt4 : chaptl chapt2 chapt3 chapt4
+$
+
+The * is part of a rich file substitution language, actually, and it can also be used in
+combination with other characters to limit which filenames are matched.
+For example, let’s say that in your current directory you have not only chapt1 through chapt4
+but also files a, b, and c:
+$ ls
+a
+b
+
+Filename Substitution
+
+c
+chaptl
+chapt2
+chapt3
+chapt4
+$
+
+To display the contents of just the files beginning with chap, you can type in
+$ cat chap*
+.
+.
+.
+$
+
+The chap* matches any filename that begins with chap. All such filenames matched are
+substituted on the command line before the specified command is even invoked.
+The * is not limited to the end of a filename; it can be used at the beginning or in the middle
+as well:
+$ echo
+chaptl
+$ echo
+chaptl
+$ echo
+*x
+$
+
+*t1
+*t*
+chapt2 chapt3 chapt4
+*x
+
+In the first echo, the *t1 specifies all filenames that end in the characters t1. In the second
+echo, the first * matches everything up to a t and the second everything after; thus, all
+filenames containing a t are printed. Because there are no files ending with x, no substitution
+occurs in the last case. Therefore, the echo command simply displays *x.
+
+Matching Single Characters
+The asterisk (*) matches zero or more characters, meaning that x* matches the file x as well
+as x1, x2, xabc, and so on. The question mark (?) matches exactly one character. So cat? will
+display all files that have filenames of exactly one character, just as cat x? prints all files with
+two-character names beginning with x. Here we see this behavior illustrated again with echo:
+$ ls
+a
+aa
+aax
+alice
+b
+bb
+c
+cc
+
+25
+
+26
+
+Chapter 1 A Quick Review of the Basics
+
+report1
+report2
+report3
+$ echo ?
+a b c
+$ echo a?
+aa
+$ echo ??
+aa bb cc
+$ echo ??*
+aa aax alice bb cc report1 report2 report3
+$
+
+In the preceding example, the ?? matches two characters, and the * matches zero or more
+characters up to the end. The net effect is to match all filenames of two or more characters.
+Another way to match a single character is to give a list of characters to match within square
+brackets [ ]. For example, [abc] matches the letter a, b, or c. It’s similar to the ?, but it allows
+you to choose which characters are valid matches.
+You can also specify a logical range of characters with a dash, a huge convenience! For
+example, [0–9] matches the characters 0 through 9. The only restriction in specifying a range of
+characters is that the first character must be alphabetically less than the last character, so that
+[z–f] is not a valid range specification, while [f–z] is.
+By mixing and matching ranges and characters in the list, you can perform complicated
+substitutions. For example, [a–np–z]* matches all files that start with the letters a through n or
+p through z (or more simply stated, any filename that doesn’t start with the lowercase letter o).
+If the first character following the [ is a !, the sense of the match is inverted. That is, any
+character is matched except those enclosed in the brackets. So
+[!a–z]
+
+matches any character except a lowercase letter, and
+*[!o]
+
+matches any file that doesn’t end with the lowercase letter o.
+Table 1.1 gives a few more examples of filename substitution.
+
+Table 1.1
+
+Filename Substitution Examples
+
+Command
+
+Description
+
+echo a*
+
+Print the names of the files beginning with a
+
+cat *.c
+
+Print the contents of all files ending in .c
+
+rm *.*
+
+Remove all files containing a period
+
+ls x*
+
+List the names of all files beginning with x
+
+Filename Nuances
+
+rm *
+
+Remove all files in the current directory (No??? Be careful when you
+use this.)
+
+echo a*b
+
+Print the names of all files beginning with a and ending with b
+
+cp ../programs/* .
+
+Copy all files from ../programs into the current directory
+
+ls [a-z]*[!0-9]
+
+List files that begin with a lowercase letter and don’t end with a digit
+
+Filename Nuances
+Spaces in Filenames
+A discussion of command lines and filenames wouldn’t be complete without talking about
+the bane of old-school Unix people and very much the day-to-day reality of Linux, Windows,
+and Mac users: spaces in filenames.
+The problem arises from the fact that the shell uses spaces as delimiters between words.
+In other words the phrase echo hi mom is properly parsed as an invocation to the command
+echo, with two arguments hi and mom.
+Now imagine you have a file called my test document. How do you reference it from the
+command line? How do you view it or display it using the cat command?
+$ cat my test document
+cat: my: No such file or directory
+cat: test: No such file or directory
+cat: document: No such file or directory
+
+That definitely doesn’t work. Why? Because cat wants a filename to be specified and instead of
+seeing one, it sees three: my, test, and document.
+There are two standard solutions for this: Either escape every space by using a backslash, or
+wrap the entire filename in quotes so that the shell understands that it’s a single word with
+spaces, rather than multiple words.
+$ cat &quot;my test document&quot;
+This is a test document and is full
+of scintillating information to edify
+and amaze.
+$ cat my\ test\ document
+This is a test document and is full
+of scintillating information to edify
+and amaze.
+
+That solves the problem and is critical to know as you proceed with file systems that quite
+likely have lots of directories and files that contain spaces as part of their filenames.
+
+27
+
+28
+
+Chapter 1 A Quick Review of the Basics
+
+Other Weird Characters
+While the space might be the most difficult and annoying of special characters that can
+appear in filenames, occasionally you’ll find others show up that can throw a proverbial
+monkey-wrench into your command line efforts.
+For example, how would you deal with a filename that contains a question mark? In the
+next section, you’ll learn that the character “?” has a specific meaning to the shell. Most
+modern shells are smart enough to sidestep the duplication of meaning, but, again, quoting
+the filename or using backslashes to denote that the special character is part of the filename is
+required:
+$ ls -l who\ me\?
+-rw-r--r-- 1 taylor
+
+staff
+
+0 Dec
+
+4 10:18 who me?
+
+Where this really gets interesting is if you have a backslash or quote as part of the filename,
+something that can happen inadvertently, particularly for files created by graphically oriented
+programs on a Linux or Mac system. The trick? Use single quotes to escape a filename that
+includes a double quote, and vice versa. Like this:
+$ ls -l &quot;don't quote me&quot; 'She said &quot;yes&quot;'
+-rw-r--r-- 1 taylor staff 0 Dec 4 10:18 don't quote me
+-rw-r--r-- 1 taylor staff 0 Dec 4 10:19 She said &quot;yes&quot;
+
+This topic will come up again as we proceed, but now you know how to side-step problems
+with directories or files that contain spaces or other non-standard characters.
+
+Standard Input/Output, and I/O Redirection
+Standard Input and Standard Output
+Most Unix system commands take input from your screen and send the resulting output back
+to your screen. In Unix nomenclature, the screen is generally called the terminal, a reference
+that harkens back to the earliest days of computing. Nowadays it’s more likely to be a terminal
+program you’re running within a graphical environment, whether it’s a Linux window manager,
+a Windows computer, or a Mac system.
+A command normally reads its input from standard input, which is your computer keyboard
+by default. It’s a fancy way of clarifying that you “type in” your information. Similarly, a
+command normally writes its output to standard output, which is also your terminal or terminal
+app by default. This concept is depicted in Figure 1.9.
+
+standard input
+
+command
+
+Figure 1.9 Typical Unix command
+
+standard output
+
+Standard Input/Output, and I/O Redirection
+
+As an example, recall that executing the who command results in the display of all users that
+are currently logged-in. More formally, the who command writes a list of the logged-in users to
+standard output. This is depicted in Figure 1.10.
+
+who
+
+ai
+oko
+pat
+ruth
+steve
+
+tty01
+tty36
+tty21
+tty24
+tty25
+
+Sep
+Sep
+Sep
+Sep
+Sep
+
+12
+12
+12
+12
+12
+
+07:30
+13:32
+10:10
+13:07
+13:03
+
+Figure 1.10 who command
+It turns out that just about every single Unix command can take the output of a previous
+command or file as its input too, and can even send its output to another command or
+program. This concept is hugely important to understanding the power of the command line
+and why it’s so helpful to know all of these commands even when a graphical interface might
+be also available for your use.
+Before we get there, however, consider this: if the sort command is invoked without a filename
+argument, the command takes its input from standard input. As with standard output, this is
+your terminal (or keyboard) by default.
+When input is entered this way, an end-of-file sequence must be specified after the last line is
+typed, and, by Unix convention, that’s Ctrl+d; that is, the sequence produced by simultaneously pressing the Control (or Ctrl, depending on your keyboard) key and the d key.
+As an example, let’s use the sort command to sort the following four names: Tony, Barbara,
+Harry, Dirk. Instead of first entering the names into a file, we’ll enter them directly from the
+terminal:
+$ sort
+Tony
+Barbara
+Harry
+Dirk
+Ctrl+d
+
+29
+
+30
+
+Chapter 1 A Quick Review of the Basics
+
+Barbara
+Dirk
+Harry
+Tony
+$
+
+Because no filename was specified to the sort command, the input was taken from standard
+input, the terminal. After the fourth name was typed in, the Ctrl and d keys were pressed
+to signal the end of the data. At that point, the sort command sorted the four names and
+displayed the results on the standard output device, which is also the terminal. This is
+depicted in Figure 1.11.
+
+Tony
+Barbara
+Harry
+Dick
+
+sort
+
+Barbara
+Dick
+Harry
+Tony
+
+Figure 1.11 sort command
+The wc command is another example of a command that takes its input from standard input
+if no filename is specified on the command line. The following shows an example of this
+command used to count the number of lines of text entered from the terminal:
+$ wc -l
+This is text that
+is typed on the
+standard input device.
+Ctrl+d
+3
+$
+
+Note that the Ctrl+d that is used to terminate the input is not counted as a separate line
+by the wc command because it’s interpreted by the shell, not handed to the command.
+Furthermore, because the -l flag was specified to the wc command, only the count of the
+number of lines (3) is presented as the output of the command.
+
+Output Redirection
+The output from a command normally intended for standard output can be easily “diverted”
+to a file instead. This capability is known as output redirection and is also essential to
+understanding the power of Unix.
+
+Standard Input/Output, and I/O Redirection
+
+If the notation &gt; file is appended to any command that normally writes its output to standard
+output, the output of that command will be written to the file file instead:
+$ who &gt; users
+$
+
+This command causes the who command to be executed and its output to be written into
+the file users. Notice that no output appears. This is because the output has been redirected
+from the default standard output device (the terminal) into the specified file. We can check
+this, of course:
+$ cat
+oko
+ai
+ruth
+pat
+steve
+$
+
+users
+tty01
+tty15
+tty21
+tty24
+tty25
+
+Sep
+Sep
+Sep
+Sep
+Sep
+
+12
+12
+12
+12
+12
+
+07:30
+13:32
+10:10
+13:07
+13:03
+
+If a command has its output redirected to a file and the file already contains some data, that
+data will be overwritten and lost.
+$ echo line 1 &gt; users
+$ cat users
+line 1
+$
+
+But now consider this example, remembering that users already contains the output of the
+earlier who command:
+$ echo line 2 &gt;&gt; users
+$ cat users
+line 1
+line 2
+$
+
+If you’re paying close attention you’ll notice that this echo command uses a different type
+of output redirection, indicated by the characters &gt;&gt;. This character pair causes the standard
+output from the command to be appended to the contents of the specified file. The previous
+contents are not lost; the new output simply gets added to the end.
+By using the redirection append characters &gt;&gt;, you can use cat to append the contents of one
+file onto the end of another:
+$ cat file1
+This is in file1.
+$ cat file2
+This is in file2.
+$ cat file1 &gt;&gt; file2
+$ cat file2
+This is in file2.
+This is in file1.
+$
+
+Append file1 to file2
+
+31
+
+32
+
+Chapter 1 A Quick Review of the Basics
+
+Recall that specifying more than one filename to cat results in the display of the first file
+followed immediately by the second file, and so on. This means there’s a second way to
+accomplish the same result:
+$ cat file1
+This is in file1.
+$ cat file2
+This is in file2.
+$ cat file1 file2
+This is in file1.
+This is in file2.
+$ cat file1 file2 &gt; file3
+$ cat file3
+This is in filel.
+This is in file2.
+$
+
+Redirect it instead
+
+In fact, that’s where the cat command gets its name: When used with more than one file, its
+effect is to concatenate the files together.
+
+Input Redirection
+Just as the output of a command can be redirected to a file, so can the input of a command be redirected from a file. And as the greater-than character &gt; is used for output redirection, the less-than
+character &lt; is used to redirect the input of a command. Of course, only commands that normally
+take their input from standard input can have their input redirected from a file in this manner.
+To redirect input, type the &lt; character followed by the name of the file that the input is to be
+read from. To count the number of lines in the file users, for example, you already know that
+you can execute the command wc -l users:
+$ wc -l users
+2 users
+$
+
+It turns out that you can also count the number of lines in the file by redirecting standard
+input for the wc command:
+$ wc -l &lt; users
+2
+$
+
+Note that there is a difference in the output produced by the two forms of the wc command.
+In the first case, the name of the file users is listed with the line count; in the second case, it
+is not.
+This points out a subtle distinction between the execution of the two commands. In the first
+case, wc knows that it is reading its input from the file users. In the second case, it only sees
+the raw data which is being fed to it via standard input. The shell redirects the input so that it
+comes from the file users and not the terminal (more about this in the next chapter). As far as
+wc is concerned, it doesn’t know whether its input is coming from the terminal or from a file,
+so it can’t report the filename!
+
+Pipes
+
+Pipes
+As you will recall, the file users that was created previously contains a list of all the users
+currently logged in to the system. Because you know that there will be one line in the file for
+each user logged in to the system, you can easily determine the number of login sessions by
+counting the number of lines in the users file:
+$ who &gt; users
+$ wc -l &lt; users
+5
+$
+
+This output indicates that currently five users are logged in or that there are five login sessions,
+the difference being that users, particularly administrators, often log in more than once. Now
+you have a command sequence you can use whenever you want to know how many users are
+logged in.
+Another approach to determine the number of logged-in users bypasses the intermediate file.
+As referenced earlier, Unix lets you “connect” two commands together. This connection is
+known as a pipe, and it enables you to take the output from one command and feed it directly
+into the input of another. A pipe is denoted by the character |, which is placed between the
+two commands. To create a pipe between the who and wc -l commands, you type
+who | wc -l:
+$ who | wc -l
+5
+$
+
+The pipe that is created between these two commands is depicted in Figure 1.12.
+
+who
+
+ai
+oko
+pat
+ruth
+steve
+
+tty01
+tty36
+tty21
+tty24
+tty25
+
+Sep
+Sep
+Sep
+Sep
+Sep
+
+12
+12
+12
+12
+12
+
+07:30
+13:32
+10:10
+13:07
+13:03
+
+Figure 1.12 Pipeline process: who | wc -l
+
+wc -l
+
+5
+
+33
+
+34
+
+Chapter 1 A Quick Review of the Basics
+
+When a pipe is established between two commands, the standard output from the first command
+is connected directly to the standard input of the second command. You know that the who
+command writes its list of logged-in users to standard output. Furthermore, you know that if
+no filename argument is specified to the wc command, it takes its input from standard input.
+Therefore, the list of logged-in users that is output from the who command automatically becomes
+the input to the wc command. Note that you never see the output of the who command at the
+terminal because it is piped directly into the wc command. This is depicted in Figure 1.13.
+
+who
+
+wc -l
+
+5
+
+Figure 1.13 Pipeline process
+A pipe can be made between any two programs, provided that the first program writes its
+output to standard output, and the second program reads its input from standard input.
+As another example, suppose you wanted to count the number of files contained in your
+directory. Knowledge of the fact that the ls command displays one line of output per
+file enables you to use the same type of approach as before:
+$ ls | wc -l
+10
+$
+
+The output indicates that the current directory contains 10 files.
+It is also possible to create a more complicated pipeline that consists of more than two
+programs, with the output of one program feeding into the input of the next. As you become
+a more sophisticated command line user, you’ll find many situations where pipelines can be
+tremendously powerful.
+
+Standard Error
+
+Filters
+The term filter is often used in Unix terminology to refer to any program that can take input
+from standard input, perform some operation on that input, and write the results to standard
+output. More succinctly, a filter is any program that can be used to modify the output of other
+programs in a pipeline. So in the pipeline in the previous example, wc is considered a filter. ls
+is not because it does not read its input from standard input. As other examples, cat and sort
+are filters, whereas who, date, cd, pwd, echo, rm, mv, and cp are not.
+
+Standard Error
+In addition to standard input and standard output, there is a third virtual device known as
+standard error. This is where most Unix commands write their error messages. And as with the
+other two “standard” places, standard error is associated with your terminal or terminal app by
+default. In most cases, you never know the difference between standard output and standard
+error:
+$ ls n*
+n* not found
+$
+
+List all files beginning with n
+
+Here the “not found” message is actually being written to standard error by the ls command.
+You can verify that this message is not being written to standard output by redirecting the ls
+command’s output:
+$ ls n* &gt; foo
+n* not found
+$
+
+As you can see, the message is still printed out at the terminal and was not added to the file
+foo, even though you redirected standard output.
+The preceding example shows the raison d’être for standard error: so that error messages will
+still get displayed at the terminal even if standard output is redirected to a file or piped to
+another command.
+You can also redirect standard error to a file (for instance, if you’re logging a program’s
+potential errors during long-term operation) by using the slightly more complex notation
+command 2&gt; file
+
+Note that no space is permitted between the 2 and the &gt;. Any error messages normally intended
+for standard error will be diverted into the specified file, similar to the way standard output
+gets redirected.
+$ ls n* 2&gt; errors
+$ cat errors
+n* not found
+$
+
+35
+
+36
+
+Chapter 1 A Quick Review of the Basics
+
+More on Commands
+Typing More Than One Command on a Line
+You can type more than one command on a line provided that you separate them with a
+semicolon. For example, you can find out the current time and your current working directory
+by typing in the date and pwd commands on the same line:
+$ date; pwd
+Sat Jul 20 14:43:25 EDT 2002
+/users/pat/bin
+$
+
+You can string out as many commands as you want on the line, as long as each command is
+delimited by a semicolon.
+
+Sending a Command to the Background
+Normally, you type in a command and then wait for the results of the command to be
+displayed at the terminal. For all the examples you have seen thus far, this waiting time is
+typically short—a fraction of a second.
+Sometimes, however, you may have to run commands that require a few minutes or longer to
+complete. In those cases, you’ll have to wait for the command to finish executing before you
+can proceed further, unless you execute the command in the background.
+It turns out that while your Unix or Linux system seems like it’s focused completely on what
+you’re doing, all systems are actually multitasking, running multiple commands simultaneously at any given time. If you’re on an Ubuntu system, for example, it might have the window
+manager, a clock, a status monitor and your terminal window all running simultaneously. You
+too can run multiple commands simultaneously from the command line. That’s the idea of
+putting a command “into background,” letting you work on other tasks while it completes.
+The notational convention for pushing a command or command sequence into background
+is to append the ampersand character &amp;. This means that the command will no longer tie
+up your terminal, and you can then proceed with other work. The standard output from the
+command will still be directed to your terminal, though in most cases the standard input will
+be dissociated from your terminal. If the command does try to read from standard input, it
+will stop and wait for you to bring it to the foreground (we’ll discuss this in more detail in
+Chapter 14, “Interactive and Nonstandard Shell Features”).
+Here’s an example:
+$ sort bigdata &gt; out &amp;
+Send the sort to the background
+[1] 1258
+Process id
+$ date
+Your terminal is immediately available to do other work
+Sat Jul 20 14:45:09 EDT 2002
+$
+
+Command Summary
+
+When a command is sent to the background, the Unix system automatically displays two
+numbers. The first is called the command’s job number and the second the process ID, or PID. In
+the preceding example, 1 is the job number and 1258 the process ID. The job number is used
+as a shortcut for referring to a specific background job by some shell commands. (You’ll learn
+more about this in Chapter 14.) The process ID uniquely identifies the command that you sent
+to the background and can be used to obtain status information about the command. This is
+done with the processor status—ps—command.
+
+The ps Command
+The ps command gives you information about the processes running on the system. Without
+any options, it prints the status of just your processes. If you type in ps at your terminal, you’ll
+get a few lines back describing the processes you have running:
+$ ps
+PID TTY
+13463 pts/16
+19880 pts/16
+$
+
+TIME CMD
+00:00:09 bash
+00:00:00 ps
+
+The ps command (typically; your system might vary) prints out four columns of information:
+PID, the process ID; TTY, the terminal number that the process was run from; TIME, the
+amount of computer time in minutes and seconds that process has used; and CMD, the name of
+the process. (The bash process in the preceding example is the shell that was started when we
+logged in, and it’s used 9 seconds of computer time.) Until the command is finished, it shows
+up in the output of the ps command as a running process, so process 19880 in the preceding
+example is the ps command itself.
+When used with the -f option, ps prints out more information about your processes,
+including the parent process ID (PPID), the time the process started (STIME), and the command
+arguments:
+$ ps -f
+UID
+steve
+steve
+$
+
+PID
+PPID C STIME TTY
+13463 13355 0 12:12 pts/16
+19884 13463 0 13:39 pts/16
+
+TIME CMD
+00:00:09 bash
+00:00:00 ps -f
+
+Command Summary
+Table 1.2 summarizes the commands reviewed in this chapter. In this table, file refers to a file,
+file(s) to one or more files, dir to a directory, and dir(s) to one or more directories.
+
+37
+
+38
+
+Chapter 1 A Quick Review of the Basics
+
+Table 1.2
+
+Command Summary
+
+Command
+
+Description
+
+cat file(s)
+
+Display contents of file(s) or standard input if not supplied
+
+cd dir
+
+Change working directory to dir
+
+cp filel file2
+
+Copy file1 to file2
+
+cp file(s) dir
+
+Copy file(s) into dir
+
+date
+
+Display the date and time
+
+echo args
+
+Display args
+
+ln filel file2
+
+Link file1 to file2
+
+ln file(s) dir
+
+Link file(s) into dir
+
+ls file(s)
+
+List file(s)
+
+ls dir(s)
+
+List files in dir(s) or in current directory if dir(s) is not specified
+
+mkdir dir(s)
+
+Create directory dir(s)
+
+mv filel file2
+
+Move file1 to file2 (simply rename it if both reference the
+same directory)
+
+mv file(s) dir
+
+Move file(s) into directory dir
+
+ps
+
+List information about active processes
+
+pwd
+
+Display current working directory path
+
+rm file(s)
+
+Remove files(s)
+
+rmdir dir(s)
+
+Remove empty directory dir(s)
+
+sort file(s)
+
+Sort lines of file(s) or standard input if file(s) not supplied
+
+wc file(s)
+
+Count the number of lines, words, and characters in file(s) or standard
+input if file(s) not supplied
+
+who
+
+Display who’s logged in
+
+2
+What Is the Shell?
+
+In this chapter you’ll learn what the Unix command shell is, what it does and why it’s a vital
+part of every power user’s toolbox.
+
+The Kernel and the Utilities
+The Unix system is logically divided into two different areas: the kernel and the utilities
+(see Figure 2.1). Or, if you prefer, the kernel and everything else, generally all accessed through
+the shell.
+
+Unix
+system
+kernel
+
+Utilities
+disks
+
+Memory
+
+Figure 2.1 The Unix system
+The kernel is the heart of the Unix system and resides in the computer’s memory from the time
+the computer is turned on and booted until the time it is shut down.
+The various tools and utilities that make up the full Unix system experience reside on the
+computer’s disk and are only brought into memory and executed as requested. Virtually every
+Unix command you know is a utility; therefore, the program resides on the disk and is only
+brought into memory at your request. So, for example, when you execute the date command,
+the Unix system loads the program called date from the computer’s disk into memory and
+begins reading its code to take the specified action or actions.
+The shell is also a utility program and is loaded into memory for execution as part of your
+login sequence. In fact, it’s worth learning the precise sequence of events that occurs when the
+first shell on a terminal or window starts up.
+
+40
+
+Chapter 2 What Is the Shell?
+
+The Login Shell
+In the old days, terminals were physical devices that were connected to the Unix hardware
+through a direct wire. Nowadays, however, terminal programs let you stay within your Linux,
+Mac or Windows environment and interact with the system over the network in a managed
+window. Generally you launch a program such as Terminal or xterm, then connect to remote
+systems as needed using programs such as ssh, telnet, or rlogin.
+For each physical terminal on a system, a program called getty will be active. This is depicted
+in Figure 2.2.
+
+login:
+
+getty
+
+Unix
+system
+kernel
+
+getty
+
+getty
+
+login:
+
+login:
+
+Figure 2.2 The getty process
+The Unix system—more precisely a program called init—automatically starts up a getty
+program on each terminal port whenever the system is allowing users to log in. getty is
+essentially a device driver, letting the login program display the message login: at its
+assigned terminal and wait for someone to type in something.
+If you connect via a program like ssh, you’ll be assigned a pseudo-terminal or pseudo-tty, in
+Unix parlance. That’s why when you typed in who you saw entries like ptty3 or pty1.
+In both instances, there is the program that reads your account and password information,
+and the program that validates it and invokes whatever login programs are needed for you to
+“log in” if everything checks out and is correct.
+As soon as someone types in some characters followed by the Enter key, the login program
+finishes the process of logging in (see Figure 2.3).
+
+The Login Shell
+
+login: sue
+Password:
+
+login
+
+Unix
+system
+kernel
+
+getty
+
+getty
+
+login:
+
+login:
+
+Figure 2.3 login started on sue’s terminal
+When login begins execution, it displays the string Password: at the terminal and then waits
+for you to type your password. After you have typed it and pressed Enter (you won’t see any
+output as you type, for security reasons), login then proceeds to verify your login name and
+password against the corresponding entry in the file /etc/passwd. This file contains an entry
+for each user account that specifies, among other things, the login name, home directory, and
+program to start up when that user logs in. The last bit of information (the login shell) is stored
+after the last colon of each line. If nothing follows the last colon, the standard shell /bin/sh is
+assumed by default.
+If you log in through a terminal program, the data handshake might involve a program like ssh on
+your system and sshd on the server, and if you’re opening up a window on your Unix computer, it
+will likely just instantly log you in without you having to again type in your password. Handy!
+But back to the password file. The following three lines show typical lines from /etc/passwd
+for three users of the system: sue, pat, and bob:
+sue:*:15:47::/users/sue:
+pat:*:99:7::/users/pat:/bin/ksh
+bob:*:13:100::/users/data:/users/data/bin/data_entry
+
+After login validates an encrypted version of the password you typed in against the encrypted
+password for the specified account as stored in /etc/shadow, it then checks for the name of
+the login program to execute. In most cases, this will be /bin/sh, /bin/ksh, or /bin/bash.
+In other cases, it may be a special custom-designed program or /bin/nologin for accounts that
+don’t include interactive access (common for file ownership management). The idea underlying
+them all is that you can set up a login account to automatically run any program whatsoever
+whenever someone logs in to the system. The shell is the program most often selected because
+of its general utility, but it’s not the only game in town.
+
+41
+
+42
+
+Chapter 2 What Is the Shell?
+
+Back to Sue. Once she’s validated, login essentially kills itself, handing off control of Sue’s
+terminal connection to the standard shell and then vanishing from memory (see Figure 2.4).
+login: sue
+Password:
+Welcome.
+$
+
+/usr/bin/sh
+
+Unix
+system
+kernel
+
+getty
+
+getty
+
+login:
+
+login:
+
+Figure 2.4 login executes /usr/bin/sh
+According to the other entries from /etc/passwd shown previously, pat gets the program ksh
+stored in /bin (this is the Korn shell), and bob gets the specialized program data_entry
+(see Figure 2.5).
+
+login: sue
+Password:
+$
+
+/usr/bin/sh
+
+Unix
+system
+kernel
+
+/usr/bin/ksh
+
+/usr/data/bin
+/data_entry
+
+Figure 2.5 Three users logged in
+
+login: pat
+Password:
+$
+
+login: bob
+Password:
+data:
+
+Typing Commands to the Shell
+
+As mentioned earlier, the init program runs programs similar to getty for networked
+connections. For example, sshd, telnetd, and rlogind answer connection requests via ssh,
+telnet, and rlogin, respectively. Instead of being tied directly to a specific, physical terminal
+or modem line, these programs connect users’ shells to pseudo-ttys. You can see this whether
+you’re logged in to your system over a network, on an X Windows screen, or through a
+networked terminal connection program with the who command:
+$ who
+phw
+$
+
+pts/0
+
+Jul 20 17:37
+
+Logged in with rlogin
+
+Typing Commands to the Shell
+When the shell starts up, it displays a command prompt—typically a dollar sign $—at your
+terminal and then waits for you to type in a command (Figure 2.6, Steps 1 and 2). Each time
+you type in a command and press the Enter key (Step 3), the shell analyzes what you typed
+and proceeds to carry out your request (Step 4).
+If you ask the shell to invoke a particular program, it searches the disk, stepping through all the
+directories you’ve specified in your PATH until it finds the named program. When the program
+is found, the shell creates a clone of itself (known as a subshell) and asks the kernel to replace the
+subshell with the specified program; then the login shell “goes to sleep” until the program has
+finished (Step 5). The kernel copies the specified program into memory and begins its execution.
+This copied program is called a process; in this way, the distinction is made between a program
+that is kept in a file on the disk and a process that is in memory and being executed, line by line.
+If the program writes output to standard output, that output will appear at your terminal unless
+redirected or piped into another command. Similarly, if the program reads input from standard
+input, it will wait for you to type in that input unless redirected from a file or piped from
+another command (Step 6).
+When the command finishes execution, it vanishes and control once again returns to the login
+shell, which prompts for your next command (Steps 7 and 8).
+
+shell
+
+$
+
+$ ls
+
+1.
+
+4.
+2.
+
+Is
+
+shell
+
+$ Is
+foo
+rje
+
+3.
+
+shell
+
+foo
+rje
+$
+
+7.
+
+5.
+6.
+
+Figure 2.6 Command cycle
+
+8.
+
+43
+
+44
+
+Chapter 2 What Is the Shell?
+
+Note that this cycle continues as long as you’re logged in. When you log off the system,
+execution of the shell then terminates and the system starts up a new getty (or rlogind, and
+so on) and waits for someone else to log in. This cycle is illustrated in Figure 2.7.
+
+init
+
+sh
+
+getty
+
+login
+
+Figure 2.7 Login cycle
+It’s important to recognize that the shell is just a program. It has no special privileges on the
+system, meaning that anyone with sufficient expertise and enthusiasm can create their own
+shell. That’s why so many different variations or “flavors” of the shell exist today, including the
+older Bourne shell, developed by Stephen Bourne; the Korn shell, developed by David Korn;
+the “Bourne again shell,” mainly used on Linux systems; and the C shell, developed by Bill Joy.
+They were all designed to serve specific purposes and have their own unique capabilities and
+personalities.
+
+The Shell’s Responsibilities
+Now you know that the shell analyzes (to use proper computer parlance, it parses) each line
+you type in and initiates execution of the selected program. It’s during the parsing phase that
+filename expansion special characters like * are expanded, as discussed in the previous chapter.
+The shell also has other responsibilities, as outlined in Figure 2.8.
+
+The Shell’s Responsibilities
+
+program
+execution
+interpreted
+programming
+language
+
+variable and
+filename
+substitution
+
+SHELL
+
+environment
+control
+
+I/O
+redirection
+
+pipeline
+hookup
+
+Figure 2.8 The shell’s responsibilities
+
+Program Execution
+The shell is responsible for the execution of all programs that you request from your terminal.
+Each time you type in a line to the shell, the shell analyzes the line and then determines what
+to do. As far as the shell is concerned, each line follows the same basic format:
+program-name arguments
+
+The line that is typed to the shell is known more formally as the command line. The shell
+scans this command line and determines the name of the program to be executed and what
+arguments to pass to the program.
+The shell uses special characters to determine where the program name starts and ends,
+and where each argument starts and ends. These characters are collectively called whitespace
+characters, and are the space character, the horizontal tab character, and the end-of-line
+character, known more formally as the newline character. Multiple occurrences of whitespace
+characters are ignored by the shell. When you type the command
+mv
+
+tmp/mazewars games
+
+45
+
+46
+
+Chapter 2 What Is the Shell?
+
+the shell scans the command line and takes everything from the start of the line to the first
+whitespace character as the name of the program to execute: mv. Subsequent whitespace
+(the extra spaces) are ignored and the set of characters up to the next whitespace character
+is the first argument to mv: tmp/mazewars. The characters up to the next whitespace character—in this case, the newline character—is the second argument to mv: games. After parsing the
+command line, the shell then proceeds to execute the mv command, giving it the two specified
+arguments tmp/mazewars and games (see Figure 2.9).
+
+mv
+
+arguments
+
+tmp/mazewars
+games
+
+Figure 2.9 Execution of mv with two arguments
+As mentioned, multiple occurrences of whitespace characters are ignored by the shell. This
+means that when the shell processes this command line:
+echo
+
+when
+
+do
+
+we
+
+eat?
+
+it passes four arguments to the echo program: when, do, we, and eat? (see Figure 2.10).
+
+when
+echo
+
+arguments
+
+do
+we
+eat?
+
+Figure 2.10 Execution of echo with four arguments
+Because echo takes its arguments and simply displays them at the terminal, adding an individual space between each argument, the output from the following becomes a lot more legible:
+$ echo
+when
+when do we eat?
+$
+
+do
+
+we
+
+eat?
+
+It turns out the echo command never sees those blank spaces; they have been “gobbled up” by
+the shell. When we discuss quotes in Chapter 5, you’ll see how you can include blank spaces in
+arguments to programs, but usually having extras vanish is exactly the behavior you want.
+We mentioned earlier that the shell searches the disk until it finds the program you want to
+execute and then asks the Unix kernel to initiate its execution. This is true most of the time.
+However, there are some commands that are actually built into the shell itself. These built-in
+commands include cd, pwd, and echo. Before the shell searches the disk for a command, it first
+determines whether it’s a built-in command, and if so executes the command directly.
+
+The Shell’s Responsibilities
+
+But there’s a bit more the shell does before individual programs are invoked, so let’s talk about
+those for just a moment too.
+
+Variable and Filename Substitution
+Like a more formal programming language, the shell lets you assign values to variables.
+Whenever you specify one of these variables on the command line preceded by a dollar sign,
+the shell substitutes the value assigned to the variable. This topic is covered in much more
+detail in Chapter 4.
+The shell also performs filename substitution on the command line. In fact, the shell scans the
+command line looking for filename substitution characters *, ?, or [...] before determining
+the name of the program to execute and its arguments.
+Suppose that your current directory contains these files:
+$ ls
+mrs.todd
+prog1
+shortcut
+sweeney
+$
+
+Now let’s use filename substitution (*) for the echo command:
+$ echo *
+List all files
+mrs.todd prog1 shortcut sweeney
+$
+
+How many arguments were passed to the echo program, one or four? Because the shell
+performs the filename substitution, the answer is four. When the shell analyzes the line
+echo *
+
+it recognizes the special character * and substitutes the names of all files in the current
+directory (it even alphabetizes them for you):
+echo mrs.todd prog1 shortcut sweeney
+
+Then the shell determines what arguments to pass to the actual command. So echo never sees
+the asterisk and as far as it’s concerned, four arguments were typed on the command line
+(see Figure 2.11).
+
+mrs.todd
+echo
+
+arguments
+
+prog1
+shortcut
+sweeney
+
+Figure 2.11 Execution of echo
+
+47
+
+48
+
+Chapter 2 What Is the Shell?
+
+I/O Redirection
+It is also the shell’s responsibility to take care of input and output redirection. It scans each
+entered command line for occurrences of the special redirection characters &lt;, &gt;, or &gt;&gt; (in case
+you’re curious, there is a &lt;&lt; redirection sequence, as you’ll learn in Chapter 12).
+When you type the command
+echo Remember to record The Walking Dead &gt; reminder
+
+the shell recognizes the special output redirection character &gt; and takes the next word on the
+command line as the name of the file to which the output should be redirected. In this case,
+the file is called reminder. If reminder already exists and you have write access, the previous
+contents are overwritten. If you don’t have write access to the file or its directory, the shell will
+produce an error message.
+Before the shell starts execution of the desired program, it redirects the standard output of the
+program to the indicated file. In almost every case, the program never knows that its output is
+being redirected. It just goes on its merry way writing to standard output (which is normally
+your terminal, you’ll recall), unaware that the shell has redirected that information to a file.
+Let’s take another look at two nearly identical commands:
+$ wc -l users
+5 users
+$ wc -l &lt; users
+5
+$
+
+In the first case, the shell parses the command line and determines that the name of the
+program to execute is wc and passes it two arguments: -l and users (see Figure 2.12).
+
+wc
+
+arguments
+
+-l
+users
+
+Figure 2.12 Execution of wc -l users
+When wc begins execution, it sees that it was passed the two arguments. The first, -l, tells it to
+count the number of lines. The second argument specifies the name of the file whose lines are
+to be counted. So wc opens the file users, counts its lines, and then prints the resultant count
+along with the filename.
+Operation of wc in the second case is slightly different. The shell spots the input redirection
+character &lt; when it scans the command line. The word that follows on the command line
+is therefore interpreted as the name of the file from which input is to be redirected. Having
+“gobbled up” the &lt; users from the command line, the shell then starts execution of the wc
+program, redirecting its standard input from the file users and passing it only the single
+argument -l (see Figure 2.13).
+
+The Shell’s Responsibilities
+
+wc
+
+arguments
+
+-l
+
+Figure 2.13 Execution of wc -l &lt; users
+When wc begins execution this time, it sees that it was passed the single argument -l. Because
+no filename was specified, wc decides that the number of lines coming in from standard input
+should be counted instead. So wc -l counts the number of lines, unaware that it’s actually
+counting the number of lines in the file users. The final tally is displayed as usual, but without
+the name of a file because wc wasn’t given one.
+The difference in execution of the two commands is important for you to understand. If you’re
+still unclear on this point, review the preceding section one more time before proceeding.
+
+Hooking up a Pipeline
+Just as the shell scans the command line looking for redirection characters, it also looks for
+the pipe character |. For each match, it connects the standard output from the preceding
+command to the standard input of the subsequent one, then initiates execution of both
+programs.
+So when you type
+who | wc -l
+
+the shell finds the pipe symbol separating the commands who and wc. It connects the standard
+output of the former command to the standard input of the latter, then initiates execution
+of both. When the who command executes, it produces a list of who’s logged in and writes
+the results to standard output, unaware that this is not going to the terminal but to another
+command instead.
+When the wc command executes, it recognizes that no filename was specified and counts the
+lines on standard input, unaware that standard input is not coming from the terminal but from
+the output of the who command.
+As we proceed, you’ll see that not only can you have two-command pipelines; you can string
+together three, four, five, or more commands in really complicated pipelines too. It’s a bit tricky
+to figure out, but that’s really where some of the greatest power of the Unix system hides.
+
+Environment Control
+The shell provides certain commands that let you customize your environment. Your
+environment includes your home directory, the characters that the shell displays to prompt you
+to type in a command, and a list of the directories to be searched whenever you request that a
+program be executed. You’ll learn more about this in Chapter 10.
+
+49
+
+50
+
+Chapter 2 What Is the Shell?
+
+Interpreted Programming Language
+The shell has its own built-in programming language. This language is interpreted, meaning
+that the shell analyzes each statement as encountered, then executes any valid commands
+found. This differs from programming languages like C++ and Swift, in which the programming
+statements are typically compiled into a machine-executable form before they are executed.
+Programs developed in interpreted programming languages are typically easier to debug and
+modify than compiled ones. However, they can take longer to execute than their compiled
+equivalents.
+The shell programming language provides features you’d find in most other programming
+languages. It has looping constructs, decision-making statements, variables, and functions,
+and is procedure-oriented. Modern shells based on the IEEE POSIX standard have many other
+features including arrays, data typing, and built-in arithmetic operations.
+
+3
+Tools of the Trade
+
+This chapter provides detailed descriptions of some commonly used shell programming tools.
+Covered are cut, paste, sed, tr, grep, uniq, and sort. The more proficient you become
+at using these tools, the easier it will be to write efficient shell scripts.
+
+Regular Expressions
+Before getting into the tools, you need to learn about regular expressions. Regular expressions are
+used by many different Unix commands, including ed, sed, awk, grep, and, to a more limited
+extent, the vi editor. They provide a convenient and consistent way of specifying patterns to
+be matched.
+Where this gets confusing is that the shell recognizes a limited form of regular expressions with
+filename substitution. Recall that the asterisk (*) specifies zero or more characters to match, the
+question mark (?) specifies any single character, and the construct [...] specifies any character
+enclosed between the brackets. But that’s not the same thing as the more formal regular expressions we’ll explore. For example, the shell sees ? as a match for any single character, while a
+regular expression—commonly abbreviated regex—uses a period (.) for the same purpose.
+True regular expressions are far more sophisticated than those recognized by the shell and there
+are entire books written about how to assemble really complex regex statements. Don’t worry,
+though, you won’t need to become an expert to find great value in regular expressions!
+Throughout this section, we assume familiarity with a line-based editor such as ex or ed.
+See Appendix B for more information on these editors if you’re not familiar with them, or
+check the appropriate man page.
+
+Matching Any Character: The Period (.)
+A period in a regular expression matches any single character, no matter what it is. So the
+regular expression
+r.
+
+matches an r followed by any single character.
+
+52
+
+Chapter 3 Tools of the Trade
+
+The regular expression
+.x.
+
+matches an x that is surrounded by any two characters, not necessarily the same.
+We can demonstrate a lot of regular expressions by using the simple ed editor, an old-school
+line-oriented editor that has been around as long as Linux have been around.
+For example, the ed command
+/ ... /
+
+searches forward in the file you are editing for the first line that contains any three characters
+surrounded by blanks. But before we demonstrate that, notice in the very </pre></div>                                                                    </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr style="height:60px">
+                    <td id="footer" valign="top">
+                        <div class="container-fluid">
+<!-- footer begin -->
+<div class="row">
+    <div class="col-md-12">
+        <div style="float:left; color:#888; font-size:13px;">
+            <span style="font-style:italic;">Free ebooks since 2009. <a style="margin:0 5px 0 20px" href="mailto:support@bookmail.org">support@bookmail.org</a></span>
+            <span style="margin:0 0 0 15px;"> <a href="/faq.php">FAQ</a></span>
+            <span style="margin:0 0 0 15px;"> <a href="/blog/">Blog</a></span>
+        </div>
+        <div style="float: right;" role="navigation">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/privacy.php">Privacy</a></li>
+                <li><a href="/dmca.php">DMCA</a></li>
+                <li class="dropup">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">English <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a onclick="setLanguage('en'); return false;" href="//en.b-ok.cc/book/2865837/ddb2f2">English</a></li><li><a onclick="setLanguage('ru'); return false;" href="//ru.b-ok.cc/book/2865837/ddb2f2">Русский</a></li><li><a onclick="setLanguage('ua'); return false;" href="//ua.b-ok.cc/book/2865837/ddb2f2">Українська</a></li><li><a onclick="setLanguage('pl'); return false;" href="//pl.b-ok.cc/book/2865837/ddb2f2">Polski</a></li><li><a onclick="setLanguage('it'); return false;" href="//it.b-ok.cc/book/2865837/ddb2f2">Italiano</a></li><li><a onclick="setLanguage('es'); return false;" href="//es.b-ok.cc/book/2865837/ddb2f2">Español</a></li><li><a onclick="setLanguage('zh'); return false;" href="//zh.b-ok.cc/book/2865837/ddb2f2">汉语</a></li><li><a onclick="setLanguage('id'); return false;" href="//id.b-ok.cc/book/2865837/ddb2f2">Bahasa Indonesia</a></li><li><a onclick="setLanguage('in'); return false;" href="//in.b-ok.cc/book/2865837/ddb2f2">हिन्दी</a></li><li><a onclick="setLanguage('pt'); return false;" href="//pt.b-ok.cc/book/2865837/ddb2f2">Português</a></li><li><a onclick="setLanguage('jp'); return false;" href="//jp.b-ok.cc/book/2865837/ddb2f2">日本語</a></li><li><a onclick="setLanguage('de'); return false;" href="//de.b-ok.cc/book/2865837/ddb2f2">Deutsch</a></li><li><a onclick="setLanguage('fr'); return false;" href="//fr.b-ok.cc/book/2865837/ddb2f2">Français</a></li><li><a onclick="setLanguage('th'); return false;" href="//th.b-ok.cc/book/2865837/ddb2f2">ภาษาไทย</a></li><li><a onclick="setLanguage('el'); return false;" href="//el.b-ok.cc/book/2865837/ddb2f2">ελληνικά </a></li><li><a onclick="setLanguage('ar'); return false;" href="//ar.b-ok.cc/book/2865837/ddb2f2">اللغة العربية</a></li>                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div></div>
+                    </td>
+                </tr>
+            </tbody></table>
+
+
+        <script type="text/javascript" src="/scripts/root.js?version=1x03"></script>
+        <script type="text/javascript" src="/ext/paginator3000/jquery.paginator.3000.js"></script>
+        <script>
+            if (typeof pagerOptions !== "undefined" && pagerOptions) {
+                $('div.paginator').paginator(pagerOptions);
+            }
+        </script>
+        <!-- ggAdditionalHtml -->
+        
+    <script>
+        var Config = {"currentLanguage":"en","L":{"90":"The file is located on an external resource","91":"It is a folder","92":"File from disk storage","93":"File is aviable by direct link","94":"Popular","95":"Limitation of downloading: no more than 2 files at same time","96":"Size","97":" Language","98":"Category","99":"Find all the author's book"}};
+    </script>
+    <!--LiveInternet counter--><script type="text/javascript">
+new Image().src = "//counter.yadro.ru/hit;bookzz?r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random();</script><!--/LiveInternet-->
+
+<iframe name="uploader" id="uploader" style="border:0px solid #ddd; width:90%; display:none;"></iframe>        <!-- /ggAdditionalHtml -->
+        <script src="/adhelper/helpers.js"></script><script src="/adhelper/jquert.jsRotate.js"></script>    </body>
+</html>

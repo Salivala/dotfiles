@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html class='notranslate no-js scheme-white_all ml no-ms no-mm size-standard responsive' xmlns:fb='http://ogp.me/ns/fb#'>
+<head>
+<title>AngelList</title>
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="Zde/J+V+xfUSjc4l+jQa5DqNdWvwE+aHBc0IfYQIGJzbnnlN2jFVuIfv/ZaVzbT898xMTUNluzckokfGGWx0fw==" />
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'>
+<meta content='en_US' http-equiv='Content-Language'>
+<meta content='c2y_K2CiLmGeet7GUQc9e3RVGp_gCOxUC4IdJg_RBVo' name='google-site-verification'>
+<meta content='00bd751d25bdb494779b40bedece7089' name='detectify-verification'>
+<meta content='initial-scale=1.0,maximum-scale=2.0,width=device-width' name='viewport'>
+<meta content='notranslate' name='google'>
+<meta content='AngelList is a platform for startups' name='description'>
+
+<link href='https://angel.co/assets/icons/angellist-e1decb2fb69dc221e2dd4ad5f749797e28b3e9e92957e0f161b8e64d5a8a74c8.ico' rel='shortcut icon'>
+<link href='/images/icons/iOS/Icon.png' rel='apple-touch-icon-precomposed' sizes='57x57'>
+<link href='/images/icons/iOS/Icon-72.png' rel='apple-touch-icon-precomposed' sizes='72x72'>
+<link href='/images/icons/iOS/Icon@2x.png' rel='apple-touch-icon-precomposed' sizes='114x114'>
+<link href='/images/icons/iOS/Icon-72@2x.png' rel='apple-touch-icon-precomposed' sizes='144x144'>
+
+<link rel="stylesheet" media="screen" href="https://angel.co/webpack/wps.g.application0-74f307a29407cee3fd4d.css" /><link rel="stylesheet" media="screen" href="https://angel.co/webpack/wps.g.application1-36eefd7060be623d78d4.css" /><link rel="stylesheet" media="screen" href="https://angel.co/webpack/wps.v.follows-7d739100812ddfaa3bc3.css" /><link rel="stylesheet" media="screen" href="https://angel.co/webpack/wps.v.layouts-b1481d7000ebac5c703b.css" /><link rel="stylesheet" media="screen" href="https://angel.co/webpack/wps.v.messages-c42245a847d412b64410.css" /><link rel="stylesheet" media="screen" href="https://angel.co/webpack/wps.v.profiles-95c1e91cf3616c477d16.css" /><link rel="stylesheet" media="screen" href="https://angel.co/webpack/wps.v.sessions-9dad71f7d94ebc70295b.css" /><link rel="stylesheet" media="screen" href="https://angel.co/webpack/wps.v.shared-ba5b5550321b6b880d45.css" /><link rel="stylesheet" media="screen" href="https://angel.co/webpack/wps.v.startup_roles-d0894a0f1bfa765b86ee.css" /><link rel="stylesheet" media="screen" href="https://angel.co/webpack/wps.v.user_graph_edges-865e7d1873917057db1f.css" /><link rel="stylesheet" media="screen" href="https://angel.co/webpack/application-f5ced7e3d869b0a795ef.css" />
+
+<script>
+//<![CDATA[
+window['fs_disable']=true;
+//]]>
+</script><script>
+//<![CDATA[
+window._rollbarPerson={"id":2127435,"username":"hayden-szymanski"};
+//]]>
+</script><script>
+//<![CDATA[
+window.revision="a5746a66a8336704b1aac879a6f042248d52d111";
+//]]>
+</script><script>
+//<![CDATA[
+window.env={"ROLLBAR_CLIENT_ACCESS_TOKEN":"8fbaa8cc9e274b1d824aa4ff8f64a647","ROLLBAR_CLIENT_ENVIRONMENT":"production_js"};
+//]]>
+</script><script>
+//<![CDATA[
+window.WEBPACK_PUBLIC_PATH = "/webpack/";
+//]]>
+</script><script>
+//<![CDATA[
+!function(r){var e={};function n(o){if(e[o])return e[o].exports;var t=e[o]={i:o,l:!1,exports:{}};return r[o].call(t.exports,t,t.exports,n),t.l=!0,t.exports}n.m=r,n.c=e,n.d=function(r,e,o){n.o(r,e)||Object.defineProperty(r,e,{enumerable:!0,get:o})},n.r=function(r){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(r,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(r,"__esModule",{value:!0})},n.t=function(r,e){if(1&e&&(r=n(r)),8&e)return r;if(4&e&&"object"==typeof r&&r&&r.__esModule)return r;var o=Object.create(null);if(n.r(o),Object.defineProperty(o,"default",{enumerable:!0,value:r}),2&e&&"string"!=typeof r)for(var t in r)n.d(o,t,function(e){return r[e]}.bind(null,t));return o},n.n=function(r){var e=r&&r.__esModule?function(){return r.default}:function(){return r};return n.d(e,"a",e),e},n.o=function(r,e){return Object.prototype.hasOwnProperty.call(r,e)},n.p="",n(n.s=718)}({54:function(r,e,n){n.p=window.WEBPACK_PUBLIC_PATH},718:function(r,e,n){n(54),r.exports=n(719)},719:function(r,e,n){n(720),n(723),n(724)},720:function(r,e,n){window._rollbarConfig={accessToken:window.env.ROLLBAR_CLIENT_ACCESS_TOKEN,captureUncaught:!0,captureUnhandledRejections:!1,globalAlias:"_alRollbar",rollbarJsUrl:n(721),payload:{environment:window.env.ROLLBAR_CLIENT_ENVIRONMENT,client:{javascript:{code_version:window.revision,source_map_enabled:!0,guess_uncaught_frames:!0}},person:window._rollbarPerson},filterTelemetry:function(r){return"dom"===r.type&&"input"===r.body.subtype},checkIgnore:function(r,e,n){var o,t,a,l,i,s,c,u,d,f,p,h,b,_,w,g,v,m,y,E,C,O,S;try{if("development_js"===n.data.environment)return!0;if(S=null!=n&&null!=(d=n.data)&&null!=(f=d.client)&&null!=(_=f.javascript)?_.browser:void 0,a=null!=n&&null!=(w=n.data)&&null!=(g=w.body)&&null!=(v=g.trace)?v.exception:void 0,i=null!=n&&null!=(m=n.data)&&null!=(y=m.body)&&null!=(E=y.trace)&&null!=(C=E.frames)&&null!=(p=C[0])?p.filename:void 0,r&&a.rollbarIgnore)return!0;if(r&&null!=i&&null!=S&&/Firefox/.test(S)&&/^resource:\/\//.test(i))return!0;for(l=0,c=(o=[/Loading chunk [0-9]+ failed/,/atomicFindClose/,/Baiduspider/,/dataKeys/,/gcdemodata/,/bCapGloRef/,/sCapGloRef/]).length;l<c;l++)if(o[l].test(null!=a?a.message:void 0))return!0;for(s=0,u=(O=[/^http[s]?\:\/\/webcache\.googleusercontent\.com/,/^http[s]?\:\/\/web\.archive\.org/,/^http[s]?\:\/\/tunnelproxy\.nu/]).length;s<u;s++)if(O[s].test(null!=n&&null!=(h=n.data)&&null!=(b=h.request)?b.url:void 0))return!0;return!!/NPObject/.test(a.message)||n.data.client.runtime_ms>12e5}catch(t){return t,!1}}},n(722)},721:function(r,e,n){r.exports=n.p+"9bc9aa27c86d427d860875928f73492f.js"},722:function(r,e){!function(r){function e(o){if(n[o])return n[o].exports;var t=n[o]={exports:{},id:o,loaded:!1};return r[o].call(t.exports,t,t.exports,e),t.loaded=!0,t.exports}var n={};e.m=r,e.c=n,e.p="",e(0)}([function(r,e,n){"use strict";var o=n(1),t=n(4);_rollbarConfig=_rollbarConfig||{},_rollbarConfig.rollbarJsUrl=_rollbarConfig.rollbarJsUrl||"https://cdnjs.cloudflare.com/ajax/libs/rollbar.js/2.3.9/rollbar.min.js",_rollbarConfig.async=void 0===_rollbarConfig.async||_rollbarConfig.async;var a=o.setupShim(window,_rollbarConfig),l=t(_rollbarConfig);window.rollbar=o.Rollbar,a.loadFull(window,document,!_rollbarConfig.async,_rollbarConfig,l)},function(r,e,n){"use strict";function o(r){return function(){try{return r.apply(this,arguments)}catch(r){try{console.error("[Rollbar]: Internal error",r)}catch(r){}}}}function t(r,e){this.options=r,this._rollbarOldOnError=null;var n=i++;this.shimId=function(){return n},"undefined"!=typeof window&&window._rollbarShims&&(window._rollbarShims[n]={handler:e,messages:[]})}function a(r){return o(function(){var e=Array.prototype.slice.call(arguments,0),n={shim:this,method:r,args:e,ts:new Date};window._rollbarShims[this.shimId()].messages.push(n)})}var l=n(2),i=0,s=n(3).bind(null,function(r,e){return new t(r,e)});t.prototype.loadFull=function(r,e,n,t,a){var l=!1,i=e.createElement("script"),s=e.getElementsByTagName("script")[0],c=s.parentNode;i.crossOrigin="",i.src=t.rollbarJsUrl,n||(i.async=!0),i.onload=i.onreadystatechange=o(function(){if(!(l||this.readyState&&"loaded"!==this.readyState&&"complete"!==this.readyState)){i.onload=i.onreadystatechange=null;try{c.removeChild(i)}catch(r){}l=!0,function(){var e;if(void 0===r._rollbarDidLoad){e=new Error("rollbar.js did not load");for(var n,o,t,l,i=0;n=r._rollbarShims[i++];)for(n=n.messages||[];o=n.shift();)for(t=o.args||[],i=0;i<t.length;++i)if("function"==typeof(l=t[i])){l(e);break}}"function"==typeof a&&a(e)}()}}),c.insertBefore(i,s)},t.prototype.wrap=function(r,e,n){try{var o;if(o="function"==typeof e?e:function(){return e||{}},"function"!=typeof r)return r;if(r._isWrap)return r;if(!r._rollbar_wrapped&&(r._rollbar_wrapped=function(){n&&"function"==typeof n&&n.apply(this,arguments);try{return r.apply(this,arguments)}catch(n){var e=n;throw"string"==typeof e&&(e=new String(e)),e._rollbarContext=o()||{},e._rollbarContext._wrappedSource=r.toString(),window._rollbarWrappedError=e,e}},r._rollbar_wrapped._isWrap=!0,r.hasOwnProperty))for(var t in r)r.hasOwnProperty(t)&&(r._rollbar_wrapped[t]=r[t]);return r._rollbar_wrapped}catch(e){return r}};for(var c="log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleUnhandledRejection,captureEvent,captureDomContentLoaded,captureLoad".split(","),u=0;u<c.length;++u)t.prototype[c[u]]=a(c[u]);r.exports={setupShim:function(r,e){if(r){var n=e.globalAlias||"Rollbar";if("object"==typeof r[n])return r[n];r._rollbarShims={},r._rollbarWrappedError=null;var t=new s(e);return o(function(){e.captureUncaught&&(t._rollbarOldOnError=r.onerror,l.captureUncaughtExceptions(r,t,!0),l.wrapGlobals(r,t,!0)),e.captureUnhandledRejections&&l.captureUnhandledRejections(r,t,!0);var o=e.autoInstrument;return!1!==e.enabled&&(void 0===o||!0===o||"object"==typeof o&&o.network)&&r.addEventListener&&(r.addEventListener("load",t.captureLoad.bind(t)),r.addEventListener("DOMContentLoaded",t.captureDomContentLoaded.bind(t))),r[n]=t,t})()}},Rollbar:s}},function(r,e){"use strict";function n(r,e,n){if(e.hasOwnProperty&&e.hasOwnProperty("addEventListener")){for(var o=e.addEventListener;o._rollbarOldAdd&&o.belongsToShim;)o=o._rollbarOldAdd;var t=function(e,n,t){o.call(this,e,r.wrap(n),t)};t._rollbarOldAdd=o,t.belongsToShim=n,e.addEventListener=t;for(var a=e.removeEventListener;a._rollbarOldRemove&&a.belongsToShim;)a=a._rollbarOldRemove;var l=function(r,e,n){a.call(this,r,e&&e._rollbar_wrapped||e,n)};l._rollbarOldRemove=a,l.belongsToShim=n,e.removeEventListener=l}}r.exports={captureUncaughtExceptions:function(r,e,n){if(r){var o;"function"==typeof e._rollbarOldOnError?o=e._rollbarOldOnError:r.onerror&&!r.onerror.belongsToShim&&(o=r.onerror,e._rollbarOldOnError=o);var t=function(){var n=Array.prototype.slice.call(arguments,0);!function(r,e,n,o){r._rollbarWrappedError&&(o[4]||(o[4]=r._rollbarWrappedError),o[5]||(o[5]=r._rollbarWrappedError._rollbarContext),r._rollbarWrappedError=null),e.handleUncaughtException.apply(e,o),n&&n.apply(r,o)}(r,e,o,n)};t.belongsToShim=n,r.onerror=t}},captureUnhandledRejections:function(r,e,n){if(r){"function"==typeof r._rollbarURH&&r._rollbarURH.belongsToShim&&r.removeEventListener("unhandledrejection",r._rollbarURH);var o=function(r){var n,o,t;try{n=r.reason}catch(r){n=void 0}try{o=r.promise}catch(r){o="[unhandledrejection] error getting `promise` from event"}try{t=r.detail,!n&&t&&(n=t.reason,o=t.promise)}catch(r){t="[unhandledrejection] error getting `detail` from event"}n||(n="[unhandledrejection] error getting `reason` from event"),e&&e.handleUnhandledRejection&&e.handleUnhandledRejection(n,o)};o.belongsToShim=n,r._rollbarURH=o,r.addEventListener("unhandledrejection",o)}},wrapGlobals:function(r,e,o){if(r){var t,a,l="EventTarget,Window,Node,ApplicationCache,AudioTrackList,ChannelMergerNode,CryptoOperation,EventSource,FileReader,HTMLUnknownElement,IDBDatabase,IDBRequest,IDBTransaction,KeyOperation,MediaController,MessagePort,ModalWindow,Notification,SVGElementInstance,Screen,TextTrack,TextTrackCue,TextTrackList,WebSocket,WebSocketWorker,Worker,XMLHttpRequest,XMLHttpRequestEventTarget,XMLHttpRequestUpload".split(",");for(t=0;t<l.length;++t)r[a=l[t]]&&r[a].prototype&&n(e,r[a].prototype,o)}}}},function(r,e){"use strict";function n(r,e){this.impl=r(e,this),this.options=e,function(r){for(var e=function(r){return function(){var e=Array.prototype.slice.call(arguments,0);if(this.impl[r])return this.impl[r].apply(this.impl,e)}},n="log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleUnhandledRejection,_createItem,wrap,loadFull,shimId,captureEvent,captureDomContentLoaded,captureLoad".split(","),o=0;o<n.length;o++)r[n[o]]=e(n[o])}(n.prototype)}n.prototype._swapAndProcessMessages=function(r,e){this.impl=r(this.options);for(var n,o,t;n=e.shift();)o=n.method,t=n.args,this[o]&&"function"==typeof this[o]&&("captureDomContentLoaded"===o||"captureLoad"===o?this[o].apply(this,[t[0],n.ts]):this[o].apply(this,t));return this},r.exports=n},function(r,e){"use strict";r.exports=function(r){return function(e){if(!e&&!window._rollbarInitialized){for(var n,o,t=(r=r||{}).globalAlias||"Rollbar",a=window.rollbar,l=function(r){return new a(r)},i=0;n=window._rollbarShims[i++];)o||(o=n.handler),n.handler._swapAndProcessMessages(l,n.messages);window[t]=o,window._rollbarInitialized=!0}}}}])},723:function(r,e){window.fs_disable||(window._fs_debug=!1,window._fs_host="www.fullstory.com",window._fs_org="1JRNY",window._fs_namespace="FS_al_noconflict",function(r,e,n,o,t,a,l,i){n in r&&r.console&&r.console.log||((l=r[n]=function(r,e){l.q?l.q.push([r,e]):l._api(r,e)}).q=[],(a=e.createElement(o)).async=1,a.src="https://"+_fs_host+"/s/fs.js",(i=e.getElementsByTagName(o)[0]).parentNode.insertBefore(a,i),l.identify=function(r,e){l(t,{uid:r}),e&&l(t,e)},l.setUserVars=function(r){l(t,r)},l.identifyAccount=function(r,e){a="account",(e=e||{}).acctId=r,l(a,e)},l.clearUserCookie=function(r,n){for(r=e.domain;e.cookie="fs_uid=;domain="+r+";path=/;expires="+new Date(0),!((n=r.indexOf("."))<0);)r=r.slice(n+1)})}(window,document,window._fs_namespace,"script","user"),window._fs_callbacks=[],window._fs_ready=function(){setTimeout(function(){for(var r in window._fs_callbacks)window._fs_callbacks[r]();window._fs_callbacks=!1},100)})},724:function(r,e){var n,o;o=[],n=!1,window._eventQueueClear=function(r,e){var t,a,l,i;if(n)throw new Error("_eventQueueClear only be invoked once");for(n=!0,i=[],a=0,l=o.length;a<l;a++)t=o[a],i.push(t(r,e));return i},window._q=function(r){return!!n||(!!this._eventQueueTriggered||(this._eventQueueTriggered=!0,r.preventDefault(),this.className+=" loading",o.push(function(e){return function(n,o){return o.with(n(e).closest(o.rootSelector()),function(){return n(e).removeClass("loading"),n(e).trigger(n.event.fix(r))})}}(this)),!0))}}});
+//]]>
+</script>
+<script>
+  (function(d) {
+    var config = {
+      kitId: 'jdy1kdx',
+      scriptTimeout: 3000
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
+<script>
+//<![CDATA[
+window._mediaBreakpoints = [767,959];
+//]]>
+</script>
+<script src="https://angel.co/assets/bundles/head-69b7354f7265b5a039957f86c74677439c377972146d205dca074c2aaa7f0f7c.js"></script>
+<script>
+  window._alConfig = {"lib/environment":{"controller":"messages","action":"show","environment":"production","current_user":{"id":2127435,"name":"Hayden Szymanski","username":"hayden-szymanski","avatar":"https://d1qb2nb5cznatu.cloudfront.net/users/2127435-medium_jpg?1558488870","is_admin?":null}},"initializer":{"root_class":"_a","template_name_data_key":"_tn","javascript_module_exists_class":"_jm"},"lib/partials":{"root_class":"_a"},"segment/analytics":{"logging_enabled":false,"send_to_intercom":false},"application":{"js_templates":["messages/tabs_sidebar","messages/message_header","messages/message","messages/form","messages/show","layouts/nav_user_photo","layouts/nav","layouts/header","layouts/flashes","layouts/footer","layouts/footer_links"],"image_host":"https://angel.co/images"}};
+</script>
+<script src="https://angel.co/webpack/application-6133d77897f9cb4337c4.js" async="async"></script>
+
+
+<script>
+//<![CDATA[
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga("create","UA-17693728-1","auto");
+ga("set","dimension1","20160409");
+ga("set","dimension2","false");
+ga("set","dimension3","false");
+ga("set","dimension4","3");
+ga("set","dimension5","true");
+ga("set","dimension6","false");
+ga("set","dimension7","false");
+ga("set","dimension8","");
+ga("set","dimension9","164");
+ga("set","dimension11","https://www.facebook.com/");
+ga("set","userId","2127435");
+ga("set","dimension12","other");
+ga("set","contentGroup1","Messages: View conversation");
+ga("send","pageview");
+
+//]]>
+</script><script async='async' src='https://www.google-analytics.com/analytics.js'></script>
+
+<script>
+//<![CDATA[
+!function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.1.0";
+analytics.load("poTMRBHig2tYBNBP5P6kGfkGBFq19jmB");
+analytics.identify("2127435", {"name":"Hayden Szymanski","email":"hsszyman@gmail.com","profile_url":"https://angel.co/hayden-szymanski","created_at":"2016-04-09T03:18:14.000Z","source":"https://www.facebook.com/","signup_purpose":"candidate","is_candidate":true,"is_candidate_success":true,"is_angel":false,"is_founder":false,"is_recruiter":false,"a_list_roles":["web developer","software engineer","Software Engineer","Mobile Developer","Backend Developer"],"primary_a_list_role":"Web Developer","secondary_a_list_role":"Software Engineer","a_list_engineer":true,"a_list_location":false,"a_list_locations":[],"a_list_invited":false,"candidate_primary_role":"backend developer","candidate_quality_estimate":45.6165,"candidate_location_tags":["Radford","Blacksburg"],"ab_tests":["in_network :: false","flipper:onboarding_redirect :: enabled","limit_jobs_network_promo :: off","candidate preferences promo copy experiment 2 :: v1","job ads copy 2 :: Featured","profile_autocomplete_2 :: on","flipper:platform_test :: disabled","candidate_show_status :: yes","show_quiz_cta :: hide_quiz","signup - cta :: Get Started","blog_link_on_nav :: new"]}, {"integrations":{"Intercom":false}})
+analytics.page(null,null, {"anonymousId":"091185a25e4ce63a7227ab35dca4fd69","controller":"messages","action":"show","pageviewId":"091185a25e4ce63a7227ab35dca4fd69d553730bf485f20533ab25b406780e23"}, {"integrations":{"Intercom":false}})
+window._pageviewId = "091185a25e4ce63a7227ab35dca4fd69d553730bf485f20533ab25b406780e23"
+}}();
+
+//]]>
+</script>
+<!-- Global site tag (gtag.js) - Google AdWords: 828140943 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-828140943"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-828140943');
+</script>
+
+
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window,document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+   fbq('init', '2212641018949602');
+  fbq('track', 'PageView');
+</script>
+<noscript>
+<img height='1' src='https://www.facebook.com/tr?id=2212641018949602&amp;ev=PageView&#x000A;&amp;noscript=1' width='1'>
+</noscript>
+
+<script>
+//<![CDATA[
+window._stripeKey = "pk_live_LVuuoof98c4wqw91j9BWsrOs"
+
+//]]>
+</script>
+</head>
+<body class='' id='layouts-base-body'>
+<div id="root" class=" dl85 layouts ffr55 footer _a _jm" data-_tn="layouts/footer">
+
+<div class="u-fontSize16 normal dl85 layouts ffs42 flashes _a _jm" data-flash_class="flash u-textAlignCenter u-colorWhite s-vgPadTop1 s-vgPadBottom1" data-_tn="layouts/flashes"><div class='js-container s-grid0 s-grid0--outer u-hidden u-maxWidthLayout'>
+</div>
+</div>
+<div class="header_nav unmodified dl85 layouts fhr17 header _a _jm" data-_tn="layouts/header">
+<div data-logged-in="1" class=" dl85 layouts fnv25 nav _a _jm" data-_tn="layouts/nav"><div class='s-grid s-grid--outer u-maxWidthLayout primaryContainer'>
+<div class='s-grid-colSm24'>
+<div class='searchAndLinks u-floatRight u-borderBox'>
+<div class='js-nav-dropdown'></div>
+<div class='s-flexgrid0 s-flexgrid0--inline'>
+<div class='s-flexgrid0-colSm'>
+<form class="s-form u-inlineBlock searchForm u-hiddenMdDown" action="/search" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="e9C717xCo3xPQTzyOPy4BMlRIlizpAYp6jb8/6KnqiXFmX29gw0zMdojD0FXBRYcBBAbfgDSW5nLWbNEP8PGxg==" />
+<div class='s-flexgrid0 s-flexgrid0--inline'>
+<div class='s-flexgrid0-colSm'>
+<label class="fontello-search-1 s-vgPadRight1 s-vgPadLeft1 searchLabel u-inlineBlock u-vAlignTop" for="q"></label>
+</div>
+<div class='s-flexgrid0-colSmW'>
+<div class='s-vgPadRight0_5'><input type="text" name="q" id="q" value="" placeholder="SEARCH" class="searchInput s-form--blended" /></div>
+</div>
+</div>
+</form>
+
+</div><div class='s-flexgrid0-colSm linksContainer respondToNavbarHeight u-floatRight'><div class='u-inlineBlock'><div class='u-inlineBlock u-hiddenSmOnly'><span><a title="Notifications" class="notifications-icon fontello-flash-1 icon u-inlineBlock u-unstyledLink s-vgLeft0_5" href="/notifications"><span class="counter notificationsCounter u-hidden"></span></a></span><span><a title="Messages" class="messages-icon fontello-mail-1 icon u-inlineBlock u-unstyledLink s-vgLeft0_5" href="/messages"><span class="counter messageCounter u-hidden"></span></a></span></div><div class='s-vgLeft0_5 u-inlineBlock u-unstyledLink userPhoto'><div data-user_id="2127435" class=" dl85 layouts fno16 nav_user_photo _a _jm" data-_tn="layouts/nav_user_photo"><img class="angel_image" alt="Hayden Szymanski" style="inline-size: 24px;" src="https://d1qb2nb5cznatu.cloudfront.net/users/2127435-tiny_jpg?1558488870" />
+</div></div>
+</div><div class='u-inlineBlock u-hiddenLgOnly'>
+<div class='fontello-search-1 icon mobileSearchLink s-vgLeft0_5 u-inlineBlock u-unstyledLink'></div>
+</div></div></div>
+</div>
+<div class='navAndPrefix respondToNavbarHeight u-borderBox s-vgPadRight1 u-vAlignTop u-nowrap'>
+<div class='mainNav respondToNavbarHeight u-inlineBlock u-nowrap u-uppercase'>
+<div class='logoWrapper u-inline u-vAlignTop'>
+<a class="u-unstyledLink u-inlineBlock s-vgRight0_5 logo fontello-angellist" href="/?ref=nav">AngelList</a>
+</div>
+<ul class='c-navbar navigationLinks u-inline u-uppercase u-vAlignTop'></ul><li class='u-inlineBlock u-vAlignTop'>
+<a class="c-navbar-item  " href="https://angel.co/hayden-szymanski">Profile</a>
+</li><li class='u-inlineBlock u-vAlignTop'>
+<a class="c-navbar-item network-dropdown-button " href="/people/connections">Connections</a>
+<div class='network-dropdown dropdown hide_when_handheld'>
+<div class='network-dropdown-desktop-menu dropdown-menu js-dropdown-menu u-hidden'>
+<div class='dropdown-nub-wrapper'></div>
+<div class='dropdown-nub'></div>
+<div class='dropdown-inner-menu dropdown-align--center'>
+<a class="u-fontSize14 dropdown-item" href="/people/connections">Your Connections</a>
+<div class='dropdown-hr'></div>
+<a class="u-fontSize14 dropdown-item" href="/hayden-szymanski/recommended_people">People You May Know</a>
+<a class="u-fontSize14 dropdown-item" href="/social">Add Connections</a>
+<a class="u-fontSize14 dropdown-item" href="/people/manage">Manage your Connections</a>
+</div>
+
+</div>
+</div>
+</li><li class='hide_when_handheld u-inlineBlock u-vAlignTop'>
+<a class="c-navbar-item  " href="/jobs">Jobs</a>
+</li><li class='u-inlineBlock u-vAlignTop'>
+<a class="c-navbar-item more-dropdown-button" href="javascript:void(0);">More</a>
+<div class='more-dropdown dropdown hide_when_handheld'>
+<div class='more-dropdown-desktop-menu dropdown-menu js-dropdown-menu u-hidden'>
+<div class='dropdown-nub-wrapper'></div>
+<div class='dropdown-nub'></div>
+<div class='dropdown-inner-menu dropdown-align--center'>
+<span class='hide_when_tablet hide_when_desktop'>
+<a class="u-fontSize14 dropdown-item" href="/jobs">Jobs</a>
+</span>
+<div class='dropdown-hr'></div>
+<a class="u-fontSize14 dropdown-item" href="/recruiting">Post a Job</a>
+<a class="u-fontSize14 dropdown-item" href="/salaries">Salaries</a>
+<div class='dropdown-hr'></div>
+<a class="u-fontSize14 dropdown-item" href="/companies">Companies</a>
+</div>
+
+</div>
+</div>
+</li></div>
+</div>
+<div class='network-dropdown dropdown'>
+<div class='network-dropdown-handheld-menu dropdown-menu js-dropdown-menu u-hidden'>
+<div class='dropdown-nub-wrapper'></div>
+<div class='dropdown-nub'></div>
+<div class='dropdown-inner-menu dropdown-align--center'>
+<a class="u-fontSize14 dropdown-item" href="/people/connections">Your Connections</a>
+<div class='dropdown-hr'></div>
+<a class="u-fontSize14 dropdown-item" href="/hayden-szymanski/recommended_people">People You May Know</a>
+<a class="u-fontSize14 dropdown-item" href="/social">Add Connections</a>
+<a class="u-fontSize14 dropdown-item" href="/people/manage">Manage your Connections</a>
+</div>
+
+</div>
+</div>
+<div class='more-dropdown dropdown hide_when_desktop hide_when_tablet'>
+<div class='more-dropdown-handheld-menu dropdown-menu js-dropdown-menu u-hidden'>
+<div class='dropdown-nub-wrapper'></div>
+<div class='dropdown-nub'></div>
+<div class='dropdown-inner-menu dropdown-align--center'>
+<span class='hide_when_tablet hide_when_desktop'>
+<a class="u-fontSize14 dropdown-item" href="/jobs">Jobs</a>
+</span>
+<div class='dropdown-hr'></div>
+<a class="u-fontSize14 dropdown-item" href="/recruiting">Post a Job</a>
+<a class="u-fontSize14 dropdown-item" href="/salaries">Salaries</a>
+<div class='dropdown-hr'></div>
+<a class="u-fontSize14 dropdown-item" href="/companies">Companies</a>
+</div>
+
+</div>
+</div>
+</div>
+<div class='mobileSearchOuterContainer'>
+<div class='u-hidden mobileSearchContainer'>
+<form class="s-form mobileSearchForm" action="/search" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="DQf44h3vPiaXdrjx93FK3PLxTZEql6qZReXMV8Sqhk+zTj6IIqCuawIUi0KYiOTEP7B0t5nh9ylkioPsWc7qrA==" />
+<input type="text" name="q" id="q" value="" placeholder="Search" class="mobileSearchInput" />
+</form>
+
+</div>
+</div>
+</div>
+</div>
+</div><div class="ghost unmodified dl85 layouts fhr17 header _a _jm" data-_tn="layouts/header">
+</div><div class="page  unmodified dl85 layouts fhr17 header _a _jm" data-_tn="layouts/header"><div class=" dm56 messages fsw49 show _a _jm" data-_tn="messages/show"><div class='s-grid s-grid--outer u-maxWidthLayout s-vgTop2'>
+<div class='s-grid-colMd6'>
+<div class='u-hiddenSmOnly'>
+<div class=" dm56 messages ftr51 tabs_sidebar _a _jm" data-_tn="messages/tabs_sidebar"><div class='messages-nav-header'>
+<div class='u-inlineBlock u-fontSize16'>
+Messages
+</div>
+</div>
+<div class='u-hiddenSmOnly'>
+<div class='g-sub_nav vertical no_shadow'>
+<a class='section' href='/messages'>
+From connections
+</a>
+<a class='section selected' href='/messages/talent'>
+From companies
+<span class='unread'>2</span>
+</a>
+<a class='section' href='/messages/others'>
+From others
+</a>
+<a class="section" href="/messages/sent">Sent</a>
+</div>
+</div>
+<div class='u-hiddenMdUp'>
+<div class='js-dropdown dropdown u-fontSize16'>
+<div class='js-dropdown-button dropdown-button u-block s-vgBottom1_5 s-vgBorder1'>
+<span class='u-fontWeight500'>From companies</span>
+<span class='fontello-down-dir u-colorGray3 u-floatRight'></span>
+</div>
+<div class='js-dropdown-menu dropdown-menu u-fontWeight300 u-hidden'>
+<div class='dropdown-inner-menu u-colorGray3'>
+<div class=''>
+<a class="u-unstyledLink u-block s-vgBorderBottom1 s-vgPad1" href="/messages">From connections</a>
+</div>
+<div class='u-hidden'>
+<a class="u-unstyledLink u-block s-vgBorderBottom1 s-vgPad1" href="/messages/talent">From companies</a>
+</div>
+<div class=''>
+<a class="u-unstyledLink u-block s-vgBorderBottom1 s-vgPad1" href="/messages/others">From others</a>
+</div>
+<div class=''>
+<a class="u-unstyledLink u-block s-vgPad1" href="/messages/sent">Sent</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='u-inlineBlock u-fontSize16 notification-header u-hiddenSmOnly'>
+Notifications
+</div>
+<div class='g-sub_nav vertical no_shadow s-vgBottom2 u-hiddenSmOnly'>
+<a class="section activity-on-you" href="/notifications">Notifications</a>
+</div>
+</div>
+</div>
+</div>
+<div class='s-grid-colMd18'>
+<div class="header dm56 messages fmr53 message_header _a _jm" data-_tn="messages/message_header"><div class='g-module no_shadow'>
+<div class='section heading s-vgBorderBottom1'>
+<div class='s-vgPadTop1 s-vgPadBottom1 u-floatLeft'>
+<a class="u-fontSize14 u-fontWeight300 inbox-link" href="/messages/talent"><span class='fontello-angle-left'></span>
+<span>Back</span>
+</a></div>
+<div class='u-floatRight'>
+</div>
+<div class='u-floatRight'>
+</div>
+</div>
+<div class='section lockup'>
+<div class='pic_container'>
+<div class='pic'>
+<a class="profile-link" data-type="User" data-id="6791619" href="https://angel.co/andre-king-3"><img class="angel_image" alt="Lukas Correia" src="https://d1qb2nb5cznatu.cloudfront.net/users/6791619-medium_jpg?1556747590" /></a>
+</div>
+</div>
+<div class='name_container'>
+<div class='name'>
+<a class="profile-link" data-type="User" data-id="6791619" href="https://angel.co/andre-king-3">Lukas Correia</a>
+<div class='startup'>
+
+</div>
+</div>
+<div class='tagline'>I´m full-stack developer with experience in Nodejs, JAVA,PHP JAVASCRIPT, AJAX, JSON, Android, React, MeteorJS, Mongo, SQL, Laravel, React Native, Firebase</div>
+</div>
+</div>
+</div>
+</div>
+<div class='g-module message_body no_shadow'>
+<div class="section dm56 messages fme41 message _a _jm" id="integrated_messaging" data-_tn="messages/message"><div class='message_box'>
+<div class='left'>
+<div class='post-pic'>
+<a class="profile-link" data-type="User" data-id="6791619" href="https://angel.co/andre-king-3"><img class="angel_image" alt="Lukas Correia" src="https://d1qb2nb5cznatu.cloudfront.net/users/6791619-medium_jpg?1556747590" /></a>
+</div>
+<div class='name'>
+<a class="profile-link" data-type="User" data-id="6791619" href="https://angel.co/andre-king-3">Lukas Correia</a>
+</div>
+<div class='date'>
+10 days
+ago
+</div>
+</div>
+<div class='right'>
+<p><a href="https://forms.gle/Gka6L5xH8E92uCdn6" target="_blank" rel="nofollow">https://forms.gle/Gka6L5xH8E92uCdn6</a><br><br>Hello! We are hiring developers for our company. Fill out the form below to be contacted!</p>
+<div class='clear'></div>
+</div>
+<div class='clear'></div>
+</div>
+</div>
+<div class="section dm56 messages fme41 message _a _jm" id="integrated_messaging" data-_tn="messages/message"><div class='message_box'>
+<div class='left'>
+<div class='post-pic'>
+<a class="profile-link" data-type="User" data-id="6791619" href="https://angel.co/andre-king-3"><img class="angel_image" alt="Lukas Correia" src="https://d1qb2nb5cznatu.cloudfront.net/users/6791619-medium_jpg?1556747590" /></a>
+</div>
+<div class='name'>
+<a class="profile-link" data-type="User" data-id="6791619" href="https://angel.co/andre-king-3">Lukas Correia</a>
+</div>
+<div class='date'>
+1 day
+ago
+</div>
+</div>
+<div class='right'>
+<p>I need you to signup on <a href="https://recruiting.olympikesoft.com" target="_blank" rel="nofollow">https://recruiting.olympikesoft.com</a></p>
+<div class='clear'></div>
+</div>
+<div class='clear'></div>
+</div>
+</div>
+<div class="section dm56 messages fme41 message _a _jm" id="integrated_messaging" data-_tn="messages/message"><div class='message_box'>
+<div class='left'>
+<div class='post-pic'>
+<a class="profile-link" data-type="User" data-id="2127435" href="https://angel.co/hayden-szymanski"><img class="angel_image" alt="Hayden Szymanski" src="https://d1qb2nb5cznatu.cloudfront.net/users/2127435-medium_jpg?1558488870" /></a>
+</div>
+<div class='name'>
+<a class="profile-link" data-type="User" data-id="2127435" href="https://angel.co/hayden-szymanski">Hayden Szymanski</a>
+</div>
+<div class='date'>
+about 24 hours
+ago
+</div>
+</div>
+<div class='right'>
+<p>Alright, done.<br><br>On Wed, Jun 5, 2019 at 8:16 AM Lukas Correia via AngelList Match &lt;<br><a href="mailto:conversation-3414661_170b06a148b802592fff9ab71a1e4748@remail.angel.co" target="_blank" rel="nofollow">conversation-3414661_170b06a148b802592fff9ab71a1e4748@remail.angel.co</a>&gt;<br>wrote:<br><br>&gt; I need you to signup on <a href="https://recruiting.olympikesoft.com" target="_blank" rel="nofollow">https://recruiting.olympikesoft.com</a><br>&gt;</p>
+<div class='clear'></div>
+</div>
+<div class='clear'></div>
+</div>
+</div>
+<div class='section gray reply_allowed messages show' id='integrated_messaging'>
+<div class='message_box'>
+<div class='left'>
+<div class='post-pic'>
+<a class="profile-link" data-type="User" data-id="2127435" href="https://angel.co/hayden-szymanski"><img class="angel_image" alt="Hayden Szymanski" src="https://d1qb2nb5cznatu.cloudfront.net/users/2127435-medium_jpg?1558488870" /></a>
+</div>
+<div class='name'>
+<strong><a class="profile-link" data-type="User" data-id="2127435" href="https://angel.co/hayden-szymanski">Hayden Szymanski</a></strong>
+</div>
+</div>
+<div class='right'>
+<div class=" dm56 messages ffm36 form _a _jm" data-_tn="messages/form"><form class="embedded_message s-form" data-user_id="2127435" id="new_message" enctype="multipart/form-data" action="/messages" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="pmOdMlks2ugJ0/VLhkOl8crIJuRzxsb2RZz77jedvGkYKltYZmNKpZyxxvjpugvpB4kfwsCwm0Zk87RVqvnQig==" /><input type="hidden" value="User" name="message[recipient_type]" id="message_recipient_type" />
+<input type="hidden" value="6791619" name="message[recipient_id]" id="message_recipient_id" />
+<input type="hidden" value="3414661" name="message[thread_id]" id="message_thread_id" />
+<input type="hidden" name="inbox" id="inbox" value="talent" />
+<input class="body_hidden" type="hidden" name="message[body]" id="message_body" />
+<div class='body_container'>
+<textarea name="body_mentions" id="body_mentions" class="body" placeholder="Reply to Lukas...">
+</textarea>
+</div>
+<div class='s-vgTop1 s-vgBottom1 u-actAsLink js-show-attachment-field'>Attach a file</div>
+<div class='s-vgTop1 s-vgBottom1 js-attachment-field hidden'>
+<input class="js-message-attachment-input" type="file" name="message[message_attachment]" id="message_message_attachment" />
+</div>
+<div class='s-vgTop1 s-vgBottom1 submit'><input type="submit" name="commit" value="Send" class="c-button c-button--blue u-fontWeight200" /></div>
+</form>
+</div>
+</div>
+<div class='clear'></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id='root_footer'></div>
+</div><div id="footer" class=" dl85 layouts ffr55 footer _a _jm" data-_tn="layouts/footer"><div class="u-colorGray9 s-fontWeight300 u-fontSize12 u-textAlignCenter u-textShadowWhite s-grid0 s-grid0--outer u-maxWidthLayout dl85 layouts ffs95 footer_links _a _jm" data-_tn="layouts/footer_links"><div class='links'>
+<a class="s-vgRight0_5 u-uncoloredLink" href="/help">Help</a>
+<span class='s-vgRight0_5'>&middot;</span>
+<a class="s-vgRight0_5 u-uncoloredLink" href="/blog">Blog</a>
+<span class='s-vgRight0_5'>&middot;</span>
+<a class="s-vgRight0_5 u-uncoloredLink" rel="nofollow noreferrer" href="http://twitter.com/angellist">Twitter</a>
+<span class='s-vgRight0_5'>&middot;</span>
+<a class="s-vgRight0_5 u-uncoloredLink" href="/terms">Terms &amp; Risks</a>
+<span class='s-vgRight0_5'>&middot;</span>
+<a class="s-vgRight0_5 u-uncoloredLink" href="/privacy">Privacy Policy &amp; Cookies</a>
+<span class='s-vgRight0_5'>&middot;</span>
+<a class="s-vgRight0_5 u-uncoloredLink" href="mailto:press@angel.co">Press</a>
+<div class='view_mobile'>
+<span class='s-vgRight0_5'>&middot;</span>
+<a class="s-vgRight0_5 u-uncoloredLink" href="https://angel.co/messages/3414661?desktop=0&amp;inbox=talent">Mobile</a>
+</div>
+<div class='view_desktop'>
+<span class='u-hiddenLgOnly'>
+<span class='s-vgRight0_5'>&middot;</span>
+<a class="s-vgRight0_5 u-uncoloredLink" href="https://angel.co/messages/3414661?desktop=1&amp;inbox=talent">Desktop</a>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+<div id='fb-root'></div>
+<script>
+  _linkedin_partner_id = "510962"; window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || []; window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+</script>
+<script>
+  (function(){var s = document.getElementsByTagName("script")[0]; var b = document.createElement("script"); b.type = "text/javascript";b.async = true; b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js"; s.parentNode.insertBefore(b, s);})();
+</script>
+<noscript>
+<img alt='' height='1' src='https://dc.ads.linkedin.com/collect/?pid=510962&amp;fmt=gif' style='display:none;' width='1'>
+</noscript>
+
+<script>
+  !function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+  },s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
+  a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+  // Insert Twitter Pixel ID and Standard Event data below
+  twq('init','o0bj7');
+  twq('track','PageView');
+</script>
+
+
+</body>
+</html>
+
+

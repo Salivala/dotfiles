@@ -1,0 +1,4362 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>C# 6.0 in a Nutshell | Joseph Albahari, Ben Albahari | download</title>
+<base href="/">
+
+                        <meta charset="utf-8">		                       
+                        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+                        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                        <meta name="viewport" content="width=device-width, initial-scale=1">
+                        <meta name="title" content="C# 6.0 in a Nutshell | Joseph Albahari, Ben Albahari | download">
+			<meta name="description" content="C# 6.0 in a Nutshell | Joseph Albahari, Ben Albahari | download | B–OK. Download books for free. Find books">
+			<meta name="robots" content="index,all">
+			<meta name="distribution" content="global">
+			<meta http-equiv="cache-control" content="no-cache">
+			<meta http-equiv="pragma" content="no-cache">
+
+                        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+                        <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+                        <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+                        <link rel="manifest" href="/manifest.json">
+                        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+                        <meta name="apple-mobile-web-app-title" content="Z-Library">
+                        <meta name="application-name" content="Z-Library">
+                        <meta name="theme-color" content="#ffffff">
+
+                        <meta name="propeller" content="49c350d528ba144cace841cac74260ab">
+	
+<!-- CSS SET -->
+<link rel="stylesheet" type="text/css" href="/css/bootstrap/css/bootstrap.min.css?version=0.142" >
+<link rel="stylesheet" type="text/css" href="/css/root.css?version=0.142" >
+<link rel="stylesheet" type="text/css" href="/adhelper/ah-style.css?version=0.142" >
+<link rel="stylesheet" type="text/css" href="/adhelper/animate.css?version=0.142" >
+<!-- JS SET --> 
+<script type="text/javascript" language="JavaScript" src="https://code.jquery.com/jquery-2.2.4.min.js?version=0.142"></script>
+<script type="text/javascript" language="JavaScript" src="/scripts/underscore.js?version=0.142"></script>
+<script type="text/javascript" language="JavaScript" src="/css/bootstrap/js/bootstrap.min.js?version=0.142"></script>
+<script type="text/javascript" language="JavaScript" src="/adhelper/advert.js?version=0.142"></script>
+<link REL="SHORTCUT ICON" HREF="/favicon.ico">
+        <link rel="search" type="application/opensearchdescription+xml" href="http://search.xml" title="Search for books in the library B-OK.org" />
+    </head>
+    <body style="margin:0px;padding:0px;" class="books/details">
+        
+        <table border="0" height="100%" width="100%" style="height:100%;" cellpadding="0" cellspacing="0"><tbody>
+                <tr style="height:10px;">
+                    <td>
+                        <div class="container-fluid">
+                            
+<div class="row">
+    <div class="col-md-12">
+        <div id="colorBoxes" class="darkShadow">
+            <ul>
+                <a href="/"><li style="background: #49afd0;">4,732,839 books</li></a>
+                <a href="http://booksc.xyz"><li style="background: #90a5a8;">74,620,210 articles</li></a>
+                <li style="background: #8ecd51;">for free</li>
+            </ul>
+        </div>
+
+
+
+        <div role="navigation" class="navbar-default" style="background-color: transparent;">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right" style="">
+                                            <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sign in <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://singlelogin.org?from=b-ok.cc">Login</a></li>
+                                <li><a href="https://singlelogin.org/registration.php">Registration</a></li>
+                            </ul>
+                        </li>
+                    
+                    <li>
+                        <a href="/howtodonate.php" style="color:#8EB46A;">Donate</a>                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span style="font-size: 120%;" class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-header">Books</li>
+                                                            <li><a href="/book-add.php">Add book</a></li>
+                                <li><a href="/categories">Categories</a></li>
+                                <li><a href="/popular.php">Most Popular</a></li>
+                                                            <li><a href="/recently.php">Recently Added</a></li>
+                                                            <li role="separator" class="divider"></li>
+                                <li class="dropdown-header">Z-Library Project</li>
+                                <li><a href="/blog/">Blog</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+
+
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="container" style="max-width: 1000px;padding-bottom: 40px;">
+                            <div class="row">
+                                <div class="col-md-12 itemFullText">
+                                    
+
+<style>
+    .adFixW iframe{
+        width:100%;
+    }
+</style>
+
+<div class="bcNav">
+    <a href="/" title="Ebook library B-OK.org">Main</a> <i></i>
+        C# 6.0 in a Nutshell</div>
+
+<div  itemscope  itemtype="http://schema.org/Book">
+    <div class="row cardBooks">
+        <div class="col-md-3"><a itemprop="image"  class="lightbox" href="//b-ok.cc/covers/books/f0/e1/e4/f0e1e4eca682b4fed34408e3623b8782.jpg" style="background:#fff;padding:3px; display:block;float:left; border:1px solid #ccc;"><img style="font-size:0px; width:100%;" src="//b-ok.cc/covers/books/f0/e1/e4/f0e1e4eca682b4fed34408e3623b8782.jpg" alt="Book cover C# 6.0 in a Nutshell"/></a></div>
+        <div class="col-md-9">
+            <h1 itemprop="name" style="color:#000;line-height: 140%;" class="moderatorPanelToggler">C# 6.0 in a Nutshell</h1>
+            <i><a  itemprop="author" class="color1" title="Find all the author's book" href="/g/Joseph Albahari">Joseph Albahari</a>, <a  itemprop="author" class="color1" title="Find all the author's book" href="/g/Ben Albahari">Ben Albahari</a></i>
+            
+            <div style="padding:10px 0; font-size:10pt" id="bookDescriptionBox"  itemprop="reviewBody">When you have questions about C# 6.0 or the .NET CLR and its core Framework assemblies, this bestselling guide has the answers you need. C# has become a language of unusual flexibility and breadth since its premiere in 2000, but this continual growth means there’s still much more to learn.<br />
+<br />
+Organized around concepts and use cases, this thoroughly updated sixth edition provides intermediate and advanced programmers with a concise map of C# and .NET knowledge. Dive in and discover why this Nutshell guide is considered the definitive reference on C#.<br />
+<br />
+    Get up to speed with all aspects of the C# language, from the basics of syntax and variables, to advanced topics such as pointers and operator overloading<br />
+    Dig deep into LINQ via three chapters dedicated to the topic<br />
+    Learn about dynamic, asynchronous, and parallel programming<br />
+    Work with .NET features, including XML, networking, serialization, reflection, security, application domains, and code contracts<br />
+    Explore the new C# 6.0 compiler-as-a-service, Roslyn</div>
+                     <div style="overflow:hidden; zoom:1; margin-top: 30px;">
+                <div class="bookDetailsBox">
+                <div class="bookProperty property_categories">
+                    <span>Categories:</span>
+                    <a href="Programming-Programming-Languages-cat92" style="color:#000;">Computers\\Programming: Programming Languages</a>
+                </div>
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2016
+                </div>
+                <div class="bookProperty property_edition">
+                    <span>Edition:</span>
+                    6
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property_pages">
+                    <span>Pages:</span>
+                    1133
+                </div>
+                <div class="bookProperty property_isbn 13">
+                    <span>ISBN 13:</span>
+                    9781491927069
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 7.73 MB
+                </div></div>            </div>
+        </div>
+    </div>
+
+
+
+
+    <div style="margin:15px 0;">
+        <a class="btn btn-primary dlButton" href="/dl/2621411/53e7d8" target="" rel="nofollow"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Download  (pdf, 7.73 MB)</a>                <a class="btn btn-default" href="ireader/2621411" target="_blank" rel="nofollow">Read online</a>        <div class="btn-group" id="sendToEmailButtonBox">
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Send-to-Kindle or Email <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu"><li><a href="http://singlelogin.org?from=b-ok.cc" target="blank">Please login to your account first</a></li></ul>
+</div>
+        
+
+            </div>
+    <div class="cBox1" id="sentToEmailInfo" style="display:none;">The file will be sent to selected email address. It may takes up to 1-5 minutes before you received it.</div>
+    <div class="cBox1" id="sentToEmailInfoKindle" style="display:none;">The file will be sent to your Kindle account. It may takes up to 1-5 minutes before you received it.
+        <br/>Please note you've to add our email <b>mailer@bookmail.org</b> to approved e-mail addresses. <a target="blank" href="https://www.amazon.com/gp/help/customer/display.html/?ie=UTF8&amp;nodeId=201974240">Read more</a>.
+    </div>
+
+
+    
+        <script type="text/javascript">
+          $(document).ready(function($) {
+           
+            $.jsRotate({data: false, device_type: '-1', contentWrapper: '.itemFullText'});
+
+          });
+        </script>
+    <div id="converterCurrentStatusesBox" class="cBox1" style="display:none;"></div>
+
+
+
+
+</div>
+
+<script type="text/javascript" src="scripts/jquery.lightbox-0.5.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
+
+<script type="text/javascript">
+    var BOOK_ID = 2621411;
+    $(function () {
+        // This, or...
+        $('a.lightbox').lightBox({
+            containerResizeSpeed: 1
+        }); // Select all links with lightbox class
+    });
+
+
+    // read more
+    $(function () {
+        if($('#bookDescriptionBox').height() > 300)
+        {
+            $('#bookDescriptionBox').css('overflow', 'hidden');
+            $('#bookDescriptionBox').css('height', '300px');
+            moreLink = '<div style="text-align:right; margin: 5px 0 0 0;"><a class="more" style="border-bottom:1px dashed;color:#49AFD0; cursor:pointer;text-decoration:none;">Read more → </a></div>';
+            $( moreLink ).insertAfter("#bookDescriptionBox");
+        }
+
+        $('.more').click(function(){
+            $('#bookDescriptionBox').css('height', 'auto');
+            $('#bookDescriptionBox').css('overflow', 'auto');
+            $(this).remove();
+        });
+    });
+
+
+
+    // converter links
+    $('.converterLink').click(function (e) {
+        var el = $(e.currentTarget);
+        $('#converterCurrentStatusesBox').show();
+        $('#converterCurrentStatusesBox').html('Refreshing..');
+
+
+
+        $.RPC('ConvertationTools::rpcConvert', {'book_id': $(this).data('book-id'), 'convertTo': $(this).data('convert-to')}).done(function (e) {
+            convertationStatusesAutoupdaterObserver();
+        }).fail(function (a, b) {
+            $('#converterCurrentStatusesBox').html('<span class="error">' + b.errors.message() + '</span>');
+        });
+    });
+
+    $('.sendToEmailButton').click(function () {
+        $.RPC('sendToKindle', {'book_id': $(this).data('id'), 'email': $(this).data('email')}).done(function (e) {
+            if (e.response.status) {
+                //alert('Sent to ' + e.response.email);
+            }
+        }).fail(function (a, b) {
+            $('#sentToEmailInfo').html(b.errors.message());
+            $('#sentToEmailInfoKindle').html(b.errors.message());
+        });
+
+        if ($(this).data('kindle'))
+        {
+            $('#sentToEmailInfoKindle').show('slow');
+        } else {
+            $('#sentToEmailInfo').show('slow');
+        }
+        $('#sendToEmailButtonBox').hide('slow');
+    });
+
+    //$('[data-toggle="tooltip"]').tooltip({'html': true});
+    $(window).on("load", function () {
+        $('[data-toggle="tooltip"]').tooltip({'html': true});
+        $('[data-autoopen="true"]').tooltip('show');
+    });
+
+    var convertationStatusesAutoupdaterRuned = false;
+    function convertationStatusesAutoupdaterObserver()
+    {
+        if (convertationStatusesAutoupdaterRuned)
+        {
+            return;
+        } else {
+            convertationStatusesAutoupdaterRuned = true;
+            convertationStatusesAutoupdater();
+        }
+    }
+
+    function convertationStatusesAutoupdater()
+    {
+        rpcUrl = '/rpc/ConvertationTools::getCurrentJobsStatuses?clear=1&gg_text_mode=1&bookId=' + BOOK_ID;
+        $.ajaxSetup({cache: false}); // This part addresses an IE bug.  without it, IE will only load the first number and will never refresh
+
+
+        $.ajax({
+            url: rpcUrl,
+            datatype: 'html'
+        }).done(function (response) {
+            $('#converterCurrentStatusesBox').html(response);
+            if (response.search('progress') === -1)
+            {
+                convertationStatusesAutoupdaterRuned = false;
+                return;
+            }
+            setTimeout(convertationStatusesAutoupdater, 15000);
+        }).error(function () {
+            setTimeout(convertationStatusesAutoupdater, 15000);
+        });
+    }
+
+    if ($('#converterCurrentStatusesBox').html().length)
+    {
+        convertationStatusesAutoupdaterObserver();
+        //$('#converterCurrentStatusesBox').css('display', 'block');
+        $('#converterCurrentStatusesBox').show();
+    }
+</script>
+
+
+<link rel="stylesheet" type="text/css" href="css/jscomments/jscomments.css">
+
+<div style="background: #49AFD0; height:2px; width: 100%; margin:40px 0 40px 0;">&nbsp;</div>
+
+
+<div id="jscommentsRootBox">
+    <div class="jscommentsFormBox">
+        <div style="width:65%; float:left;">
+            <form id="jscommentsForm" target="uploader" action="rpc.php" method="POST">
+                <input type="hidden" name="book_id" value="2621411">
+                <input type="hidden" name="action" value="addReview">
+                <input type="hidden" name="rx" value="0">
+                <input id="jscommentsNamefield" name="name" type="textfield" placeholder="Your Name" value="" onchange="if (this.value) {
+                            $(this).removeClass('error');
+                        }"/>
+                <textarea id="jscommentsTextarea" name="text" placeholder="Write a Review"  onchange="if (this.value) {
+                            $(this).removeClass('error');}"></textarea>
+                <br clear="all" />
+                <a href="#" onclick="onReviewSubmit();
+                        return false;" id="jscommentsButton">Post a Review</a><img id="jscommentsLoader" src="css/jscomments/loader.gif" style="position: relative; left: -35px; display: none;"/>
+            </form>
+        </div>
+        <div style="width:35%; float:left;" class="jscommentsFormHelp">
+            <div style="padding:10px 0 0 20px;  border-left:1px solid #ccc;">
+                You can write a book review and share your experiences. Other readers will always be interested in your opinion of the books you've read. Whether you've loved the book or not, if you give your honest and detailed thoughts then people will find new books that are right for them.
+            </div>
+        </div>
+    </div>
+    <div id="jscommentsCommentsBox"></div>
+</div>
+
+<script>
+    $('#jscommentsForm')[0].rx.value = 12;
+
+    function onReviewSubmit()
+    {
+        $('#jscommentsForm')[0].submit();
+
+        $('#jscommentsButton').css('width', $('#jscommentsButton').width() + 'px');
+        $('#jscommentsButton').data('originaltxt', $('#jscommentsButton')[0].innerHTML);
+        $('#jscommentsButton').text('Posting..'); // simulate server request
+        $('#jscommentsNamefield').attr("disabled", "disabled");
+        $('#jscommentsTextarea').attr("disabled", "disabled");
+        $('#jscommentsLoader').show();
+
+    }
+
+    function onReviewSubmitFailure()
+    {
+        $('#jscommentsButton').text($('#jscommentsButton').data('originaltxt'));
+        $('#jscommentsButton').css('width', '');
+        $('#jscommentsNamefield').removeAttr("disabled");
+        $('#jscommentsTextarea').removeAttr("disabled");
+        $('#jscommentsLoader').hide();
+    }
+
+</script><div style="display: none;">
+<div id="searchResultBox"><div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">1</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/c2/78/79/c27879cc36861c7e00ef7cb554474272.jpg" data-srcset="//b-ok.cc/covers100/books/c2/78/79/c27879cc36861c7e00ef7cb554474272.jpg 1x, //b-ok.cc/covers200/books/c2/78/79/c27879cc36861c7e00ef7cb554474272.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/2621412/8c0f38" class="tdn">The Mind of an Engineer</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Purnendu Ghosh">Purnendu Ghosh</a>, <a itemprop="author" title="Find all the author's book" href="/author/Baldev Raj (eds.)">Baldev Raj (eds.)</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/2621412/8c0f38" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2015
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 6.52 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">2</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/49/a1/3a/49a13a9be10b0eb0116e3d24a68ef7ea.jpg" data-srcset="//b-ok.cc/covers100/books/49/a1/3a/49a13a9be10b0eb0116e3d24a68ef7ea.jpg 1x, //b-ok.cc/covers200/books/49/a1/3a/49a13a9be10b0eb0116e3d24a68ef7ea.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/2621410/b4fb95" class="tdn">Corpus Perspectives on Patterns of Lexis</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Hilde Hasselgård">Hilde Hasselgård</a>, <a itemprop="author" title="Find all the author's book" href="/author/Jarle Ebeling">Jarle Ebeling</a>, <a itemprop="author" title="Find all the author's book" href="/author/Signe Oksefjell Ebeling">Signe Oksefjell Ebeling</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/2621410/b4fb95" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2013
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 4.84 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<center></center></div><script type="text/javascript" src="/scripts/jquery.lazy.min.js"></script>
+<script>
+    $(function () {
+        $(".lazy").Lazy({
+            effect: "fadeIn",
+            effectTime: 1000,
+            beforeLoad: function(element) {
+                $(element).css({"border-width": "0px"});
+            },
+            afterLoad: function(element) {
+                $(element).css({"border-width": "1px"});
+            }
+        });
+    });
+</script><pre>on &amp;
+i t i .6 i l e r
+Ed T 4 p
+h NE om
+6t r s . y n C
+ve s l
+Co e Ro
+th
+
+C#
+6.
+0
+in a Nutshell
+THE DEFINITIVE REFERENCE
+
+Joseph Albahari &amp; Ben Albahari
+
+C# 6.0 in a Nutshell
+When you have questions about C# 6.0 or the
+.NET CLR and its core Framework assemblies, this
+bestselling guide has the answers you need. C# has
+become a language of unusual flexibility and breadth
+since its premiere in 2000, but this continual growth
+means there’s still much more to learn.
+O rg a n ize d a ro u n d co n ce pt s a n d u s e c a s e s ,
+this thoroughly updated sixth edition provides
+intermediate and advanced programmers with a
+concise map of C# and .NET knowledge. Dive in and
+discover why this Nutshell guide is considered the
+definitive reference on C#.
+■■
+
+Get up to speed with all aspects of the
+C# language, from the basics of syntax
+and variables, to advanced topics such
+as pointers and operator overloading
+
+■■
+
+Dig deep into LINQ via three chapters
+dedicated to the topic
+
+■■
+
+Learn about dynamic, asynchronous, and
+parallel programming
+
+■■
+
+Work with .NET features, including XML,
+networking, serialization, reflection,
+security, application domains, and code
+contracts
+
+■■
+
+Explore the new C# 6.0 compiler-as-aservice, Roslyn
+
+I keep on my desk as
+a quick reference.
+
+”
+
+—Scott Guthrie
+
+Microsoft
+
+and experts
+“Novices
+alike will find the latest
+techniques in C#
+programming here.
+
+”
+
+—Eric Lippert
+
+C# MVP
+
+Joseph Albahari, author of C#
+5.0 in a Nutshell, C# 5.0 Pocket
+Reference, and LINQ Pocket
+Reference, also wrote LINQPad,
+the popular code scratchpad and
+LINQ querying utility..
+Ben Albahari, a former program
+manager at Microsoft, is cofounder
+of Auditionist, a casting website
+for actors in the UK.
+
+Twitter: @oreillymedia
+facebook.com/oreilly
+
+C#/MICROSOF T .NET
+
+US $59.99
+
+6.0 in a Nutshell is
+“C#
+one of the few books
+
+CAN $68.99
+
+ISBN: 978-1-491-92706-9
+
+C# 6.0
+IN A NUTSHELL
+
+Joseph Albahari &amp; Ben Albahari
+
+C# 6.0 in a Nutshell
+by Joseph Albahari and Ben Albahari
+Copyright © 2016 Joseph Albahari and Ben Albahari. All rights reserved.
+Printed in the United States of America.
+Published by O’Reilly Media, Inc., 1005 Gravenstein Highway North, Sebastopol, CA 95472.
+O’Reilly books may be purchased for educational, business, or sales promotional use. Online
+editions are also available for most titles (http://safaribooksonline.com). For more information,
+contact our corporate/institutional sales department: 800-998-9938 or corporate@oreilly.com.
+
+Editor: Brian MacDonald
+Production Editor: Kristen Brown
+Proofreader: Amanda Kersey
+Indexer: Angela Howard
+December 2015:
+
+Interior Designer: David Futato
+Cover Designer: Karen Montgomery
+Illustrator: Rebecca Demarest
+
+Sixth Edition
+
+Revision History for the Sixth Edition
+2015-11-03:
+
+First Release
+
+See http://oreilly.com/catalog/errata.csp?isbn=9781491927069 for release details.
+The O’Reilly logo is a registered trademark of O’Reilly Media, Inc. C# 6.0 in a Nutshell, the
+cover image, and related trade dress are trademarks of O’Reilly Media, Inc.
+While the publisher and the authors have used good faith efforts to ensure that the informa‐
+tion and instructions contained in this work are accurate, the publisher and the authors dis‐
+claim all responsibility for errors or omissions, including without limitation responsibility for
+damages resulting from the use of or reliance on this work. Use of the information and
+instructions contained in this work is at your own risk. If any code samples or other technol‐
+ogy this work contains or describes is subject to open source licenses or the intellectual prop‐
+erty rights of others, it is your responsibility to ensure that your use thereof complies with
+such licenses and/or rights.
+
+978-1-491-92706-9
+[M]
+
+Table of Contents
+
+Preface. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . xi
+1. Introducing C# and the .NET Framework. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+Object Orientation
+Type Safety
+Memory Management
+Platform Support
+C#’s Relationship with the CLR
+The CLR and .NET Framework
+C# and Windows Runtime
+What’s New in C# 6.0
+What Was New in C# 5.0
+What Was New in C# 4.0
+What Was New in C# 3.0
+
+1
+2
+3
+3
+3
+3
+5
+6
+8
+8
+9
+
+2. C# Language Basics. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+A First C# Program
+Syntax
+Type Basics
+Numeric Types
+Boolean Type and Operators
+Strings and Characters
+Arrays
+Variables and Parameters
+Expressions and Operators
+Null Operators
+Statements
+Namespaces
+
+11
+14
+17
+26
+33
+35
+38
+42
+51
+55
+56
+65
+
+3. Creating Types in C#. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 73
+iii
+
+Classes
+Inheritance
+The object Type
+Structs
+Access Modifiers
+Interfaces
+Enums
+Nested Types
+Generics
+
+73
+88
+97
+101
+102
+104
+109
+113
+114
+
+4. Advanced C#. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 127
+Delegates
+Events
+Lambda Expressions
+Anonymous Methods
+try Statements and Exceptions
+Enumeration and Iterators
+Nullable Types
+Operator Overloading
+Extension Methods
+Anonymous Types
+Dynamic Binding
+Attributes
+Caller Info Attributes (C# 5)
+Unsafe Code and Pointers
+Preprocessor Directives
+XML Documentation
+
+127
+136
+143
+147
+148
+156
+162
+168
+171
+174
+175
+183
+185
+187
+190
+193
+
+5. Framework Overview. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 199
+The CLR and Core Framework
+Applied Technologies
+
+202
+206
+
+6. Framework Fundamentals. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 213
+String and Text Handling
+Dates and Times
+Dates and Time Zones
+Formatting and Parsing
+Standard Format Strings and Parsing Flags
+Other Conversion Mechanisms
+Globalization
+Working with Numbers
+Enums
+
+iv
+
+|
+
+Table of Contents
+
+213
+226
+234
+240
+246
+253
+257
+258
+262
+
+Tuples
+The Guid Struct
+Equality Comparison
+Order Comparison
+Utility Classes
+
+266
+267
+267
+278
+281
+
+7. Collections. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 285
+Enumeration
+The ICollection and IList Interfaces
+The Array Class
+Lists, Queues, Stacks, and Sets
+Dictionaries
+Customizable Collections and Proxies
+Plugging in Equality and Order
+
+285
+293
+297
+305
+314
+321
+327
+
+8. LINQ Queries. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 335
+Getting Started
+Fluent Syntax
+Query Expressions
+Deferred Execution
+Subqueries
+Composition Strategies
+Projection Strategies
+Interpreted Queries
+LINQ to SQL and Entity Framework
+Building Query Expressions
+
+335
+337
+344
+348
+355
+358
+362
+364
+371
+385
+
+9. LINQ Operators. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 391
+Overview
+Filtering
+Projecting
+Joining
+Ordering
+Grouping
+Set Operators
+Conversion Methods
+Element Operators
+Aggregation Methods
+Quantifiers
+Generation Methods
+
+393
+396
+400
+412
+420
+423
+426
+427
+430
+432
+437
+438
+
+10. LINQ to XML. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 441
+Table of Contents
+
+|
+
+v
+
+Architectural Overview
+X-DOM Overview
+Instantiating an X-DOM
+Navigating and Querying
+Updating an X-DOM
+Working with Values
+Documents and Declarations
+Names and Namespaces
+Annotations
+Projecting into an X-DOM
+
+441
+442
+446
+448
+453
+456
+459
+463
+468
+469
+
+11. Other XML Technologies. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 477
+XmlReader
+XmlWriter
+Patterns for Using XmlReader/XmlWriter
+XSD and Schema Validation
+XSLT
+
+478
+487
+489
+493
+496
+
+12. Disposal and Garbage Collection. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 499
+IDisposable, Dispose, and Close
+Automatic Garbage Collection
+Finalizers
+How the Garbage Collector Works
+Managed Memory Leaks
+Weak References
+
+499
+505
+507
+512
+516
+520
+
+13. Diagnostics and Code Contracts. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 525
+Conditional Compilation
+Debug and Trace Classes
+Code Contracts Overview
+Preconditions
+Postconditions
+Assertions and Object Invariants
+Contracts on Interfaces and Abstract Methods
+Dealing with Contract Failure
+Selectively Enforcing Contracts
+Static Contract Checking
+Debugger Integration
+Processes and Process Threads
+StackTrace and StackFrame
+Windows Event Logs
+Performance Counters
+
+vi
+
+|
+
+Table of Contents
+
+525
+529
+532
+537
+541
+543
+545
+546
+548
+549
+551
+552
+553
+555
+557
+
+The Stopwatch Class
+
+562
+
+14. Concurrency and Asynchrony. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 563
+Introduction
+Threading
+Tasks
+Principles of Asynchrony
+Asynchronous Functions in C#
+Asynchronous Patterns
+Obsolete Patterns
+
+563
+564
+581
+589
+594
+610
+618
+
+15. Streams and I/O. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 623
+Stream Architecture
+Using Streams
+Stream Adapters
+Compression Streams
+Working with ZIP Files
+File and Directory Operations
+File I/O in Windows Runtime
+Memory-Mapped Files
+Isolated Storage
+
+623
+625
+639
+647
+649
+650
+661
+663
+666
+
+16. Networking. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 673
+Network Architecture
+Addresses and Ports
+URIs
+Client-Side Classes
+Working with HTTP
+Writing an HTTP Server
+Using FTP
+Using DNS
+Sending Mail with SmtpClient
+Using TCP
+Receiving POP3 Mail with TCP
+TCP in Windows Runtime
+
+673
+675
+676
+679
+692
+698
+701
+703
+703
+704
+708
+709
+
+17. Serialization. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 713
+Serialization Concepts
+The Data Contract Serializer
+Data Contracts and Collections
+Extending Data Contracts
+The Binary Serializer
+
+713
+717
+727
+730
+733
+
+Table of Contents
+
+|
+
+vii
+
+Binary Serialization Attributes
+Binary Serialization with ISerializable
+XML Serialization
+
+735
+738
+742
+
+18. Assemblies. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 753
+What’s in an Assembly
+Strong Names and Assembly Signing
+Assembly Names
+Authenticode Signing
+The Global Assembly Cache
+Resources and Satellite Assemblies
+Resolving and Loading Assemblies
+Deploying Assemblies Outside the Base Folder
+Packing a Single-File Executable
+Working with Unreferenced Assemblies
+
+753
+758
+761
+764
+768
+770
+779
+784
+785
+787
+
+19. Reflection and Metadata. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 789
+Reflecting and Activating Types
+Reflecting and Invoking Members
+Reflecting Assemblies
+Working with Attributes
+Dynamic Code Generation
+Emitting Assemblies and Types
+Emitting Type Members
+Emitting Generic Methods and Types
+Awkward Emission Targets
+Parsing IL
+
+790
+797
+810
+812
+818
+825
+828
+834
+836
+840
+
+20. Dynamic Programming. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 847
+The Dynamic Language Runtime
+Numeric Type Unification
+Dynamic Member Overload Resolution
+Implementing Dynamic Objects
+Interoperating with Dynamic Languages
+
+847
+849
+850
+856
+859
+
+21. Security. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 863
+Permissions
+Code Access Security (CAS)
+Allowing Partially Trusted Callers
+The Transparency Model
+Sandboxing Another Assembly
+Operating System Security
+
+viii
+
+|
+
+Table of Contents
+
+863
+868
+871
+873
+881
+885
+
+Identity and Role Security
+Cryptography Overview
+Windows Data Protection
+Hashing
+Symmetric Encryption
+Public Key Encryption and Signing
+
+888
+889
+890
+891
+892
+897
+
+22. Advanced Threading. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 903
+Synchronization Overview
+Exclusive Locking
+Locking and Thread Safety
+Nonexclusive Locking
+Signaling with Event Wait Handles
+The Barrier Class
+Lazy Initialization
+Thread-Local Storage
+Interrupt and Abort
+Suspend and Resume
+Timers
+
+904
+904
+912
+918
+923
+932
+933
+936
+938
+939
+940
+
+23. Parallel Programming. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 945
+Why PFX?
+PLINQ
+The Parallel Class
+Task Parallelism
+Working with AggregateException
+Concurrent Collections
+BlockingCollection&lt;T&gt;
+
+945
+948
+961
+968
+978
+980
+983
+
+24. Application Domains. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 989
+Application Domain Architecture
+Creating and Destroying Application Domains
+Using Multiple Application Domains
+Using DoCallBack
+Monitoring Application Domains
+Domains and Threads
+Sharing Data Between Domains
+
+989
+990
+992
+994
+995
+995
+997
+
+25. Interoperability. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1003
+Calling into Native DLLs
+Type Marshaling
+Callbacks from Unmanaged Code
+
+1003
+1004
+1007
+
+Table of Contents
+
+|
+
+ix
+
+Simulating a C Union
+Shared Memory
+Mapping a Struct to Unmanaged Memory
+COM Interoperability
+Calling a COM Component from C#
+Embedding Interop Types
+Primary Interop Assemblies
+Exposing C# Objects to COM
+
+1007
+1008
+1011
+1015
+1017
+1020
+1021
+1022
+
+26. Regular Expressions. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1023
+Regular Expression Basics
+Quantifiers
+Zero-Width Assertions
+Groups
+Replacing and Splitting Text
+Cookbook Regular Expressions
+Regular Expressions Language Reference
+
+1024
+1028
+1029
+1032
+1033
+1035
+1038
+
+27. The Roslyn Compiler. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1043
+Roslyn Architecture
+Syntax Trees
+Compilations and Semantic Models
+
+1044
+1045
+1060
+
+Index. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1073
+
+x
+
+|
+
+Table of Contents
+
+Preface
+
+C# 6.0 represents the fifth major update to Microsoft’s flagship programming lan‐
+guage, positioning C# as a language with unusual flexibility and breadth. At one
+end, it offers high-level abstractions such as query expressions and asynchronous
+continuations; while at the other end, it allows low-level efficiency through con‐
+structs such as custom value types and the optional use of pointers.
+The price of this growth is that there’s more than ever to learn. Although tools such
+as Microsoft’s IntelliSense—and online references—are excellent in helping you on
+the job, they presume an existing map of conceptual knowledge. This book provides
+exactly that map of knowledge in a concise and unified style—free of clutter and
+long introductions.
+Like the past three editions, C# 6.0 in a Nutshell is organized around concepts and
+use cases, making it friendly both to sequential reading and to random browsing. It
+also plumbs significant depths while assuming only basic background knowledge—
+making it accessible to intermediate as well as advanced readers.
+This book covers C#, the CLR, and the core Framework assemblies. We’ve chosen
+this focus to allow space for difficult topics such as concurrency, security, and appli‐
+cation domains—without compromising depth or readability. Features new to C#
+6.0 and the associated Framework are flagged so that you can also use this book as a
+C# 5.0 reference.
+
+Intended Audience
+This book targets intermediate to advanced audiences. No prior knowledge of C# is
+required, but some general programming experience is necessary. For the beginner,
+this book complements, rather than replaces, a tutorial-style introduction to pro‐
+gramming.
+If you’re already familiar with C# 5.0, you’ll find updated language sections, and a
+new chapter on “Roslyn,” the compiler-as-a-service.
+
+xi
+
+This book is an ideal companion to any of the vast array of books that focus on an
+applied technology such as WPF, ASP.NET, or WCF. The areas of the language
+and .NET Framework that such books omit, C# 6.0 in a Nutshell covers in detail—
+and vice versa.
+If you’re looking for a book that skims every .NET Framework technology, this is
+not for you. This book is also unsuitable if you want to learn about APIs specific to
+tablet or Windows Phone development.
+
+How This Book Is Organized
+The first three chapters after the introduction concentrate purely on C#, starting
+with the basics of syntax, types, and variables, and finishing with advanced topics
+such as unsafe code and preprocessor directives. If you’re new to the language, you
+should read these chapters sequentially.
+The remaining chapters cover the core .NET Framework, including such topics as
+LINQ, XML, collections, code contracts, concurrency, I/O and networking, memory
+management, reflection, dynamic programming, attributes, security, application
+domains, and native interoperability. You can read most of these chapters randomly,
+except for Chapters 6 and 7, which lay a foundation for subsequent topics. The three
+chapters on LINQ are also best read in sequence, and some chapters assume some
+knowledge of concurrency, which we cover in Chapter 14.
+
+What You Need to Use This Book
+The examples in this book require a C# 6.0 compiler and Microsoft .NET Frame‐
+work 4.6. You will also find Microsoft’s .NET documentation useful to look up indi‐
+vidual types and members (which is available online).
+While it’s possible to write source code in Notepad and invoke the compiler from
+the command line, you’ll be much more productive with a code scratchpad for
+instantly testing code snippets, plus an integrated development environment (IDE)
+for producing executables and libraries.
+For a code scratchpad, download LINQPad 5 or later from http://www.linqpad.net
+(free). LINQPad fully supports C# 6.0 and is maintained by one of the authors.
+For an IDE, download Microsoft Visual Studio 2015: any edition, except the free
+express edition, is suitable for what’s taught in this book.
+All code listings for Chapters 2 through 10, plus the chapters
+on concurrency, parallel programming, and dynamic pro‐
+gramming are available as interactive (editable) LINQPad
+samples. You can download the whole lot in a single click: go
+to LINQPad’s Sample Libraries page and choose “C# 6.0 in a
+Nutshell.”
+
+xii
+
+|
+
+Preface
+
+Conventions Used in This Book
+The book uses basic UML notation to illustrate relationships between types, as
+shown in Figure P-1. A slanted rectangle means an abstract class; a circle means an
+interface. A line with a hollow triangle denotes inheritance, with the triangle point‐
+ing to the base type. A line with an arrow denotes a one-way association; a line
+without an arrow denotes a two-way association.
+
+Figure P-1. Sample diagram
+The following typographical conventions are used in this book:
+
+Italic
+
+Indicates new terms, URIs, filenames, and directories
+
+Constant width
+Indicates C# code, keywords and identifiers, and program output
+Constant width bold
+Shows a highlighted section of code
+Constant width italic
+Shows text that should be replaced with user-supplied values
+
+Preface
+
+|
+
+xiii
+
+This element signifies a tip or suggestion.
+
+This element signifies a general note.
+
+This element indicates a warning or caution.
+
+Using Code Examples
+Supplemental material (code examples, exercises, etc.) is available for download at
+LINQPad’s Sample Libraries page: choose “C# 6.0 in a Nutshell.”
+This book is here to help you get your job done. In general, if example code is
+offered with this book, you may use it in your programs and documentation. You do
+not need to contact us for permission unless you’re reproducing a significant por‐
+tion of the code. For example, writing a program that uses several chunks of code
+from this book does not require permission. Selling or distributing a CD-ROM of
+examples from O’Reilly books does require permission. Answering a question by
+citing this book and quoting example code does not require permission. Incorporat‐
+ing a significant amount of example code from this book into your product’s docu‐
+mentation does require permission.
+We appreciate, but do not require, attribution. An attribution usually includes the
+title, author, publisher, and ISBN. For example: “C# 6.0 in a Nutshell by Joseph Alba‐
+hari and Ben Albahari (O’Reilly). Copyright 2016 Joseph Albahari and Ben Alba‐
+hari, 978-1-491-92706-9.”
+If you feel your use of code examples falls outside fair use or the permission given
+above, feel free to contact us at permissions@oreilly.com.
+
+Safari® Books Online
+Safari Books Online is an on-demand digital
+library that delivers expert content in both book
+and video form from the world’s leading authors
+in technology and business.
+Technology professionals, software developers, web designers, and business and
+creative professionals use Safari Books Online as their primary resource for
+research, problem solving, learning, and certification training.
+Safari Books Online offers a range of plans and pricing for enterprise, government,
+education, and individuals.
+
+xiv
+
+|
+
+Preface
+
+Members have access to thousands of books, training videos, and prepublication
+manuscripts in one fully searchable database from publishers like O’Reilly Media,
+Prentice Hall Professional, Addison-Wesley Professional, Microsoft Press, Sams,
+Que, Peachpit Press, Focal Press, Cisco Press, John Wiley &amp; Sons, Syngress, Morgan
+Kaufmann, IBM Redbooks, Packt, Adobe Press, FT Press, Apress, Manning, New
+Riders, McGraw-Hill, Jones &amp; Bartlett, Course Technology, and hundreds more. For
+more information about Safari Books Online, please visit us online.
+
+How to Contact Us
+Please address comments and questions concerning this book to the publisher:
+
+O’Reilly Media, Inc.
+1005 Gravenstein Highway North
+Sebastopol, CA 95472
+800-998-9938 (in the United States or Canada)
+707-829-0515 (international or local)
+707-829-0104 (fax)
+We have a web page for this book, where we list errata, examples, and any additional
+information. You can access this page at http://bit.ly/c-sharp6_nutshell.
+To comment or ask technical questions about this book, send email to bookques‐
+tions@oreilly.com.
+For more information about our books, courses, conferences, and news, see our
+website at http://www.oreilly.com.
+Find us on Facebook: http://facebook.com/oreilly
+Follow us on Twitter: http://twitter.com/oreillymedia
+Watch us on YouTube: http://www.youtube.com/oreillymedia
+
+Acknowledgments
+Joseph Albahari
+First, I want to thank my brother, Ben Albahari, for persuading me to take on C# 3.0
+in a Nutshell, whose success has spawned three subsequent editions. Ben shares my
+willingness to question conventional wisdom and tenacity to pull things apart until
+it becomes clear how they really work.
+It’s been an honor to have superb technical reviewers on the team. In this edition,
+we had invaluable and extensive feedback from Jared Parsons, Stephen Toub, Mat‐
+thew Groves, Dixin Yan, Lee Coward, Bonnie DeWitt, Wonseok Chae, Lori Lalonde
+and James Montemagno.
+
+Preface
+
+|
+
+xv
+
+The book was built on previous editions, whose technical reviewers I owe a similar
+honor: Eric Lippert, Jon Skeet, Stephen Toub, Nicholas Paldino, Chris Burrows,
+Shawn Farkas, Brian Grunkemeyer, Maoni Stephens, David DeWinter, Mike Bar‐
+nett, Melitta Andersen, Mitch Wheat, Brian Peek, Krzysztof Cwalina, Matt Warren,
+Joel Pobar, Glyn Griffiths, Ion Vasilian, Brad Abrams, Sam Gentile, and Adam
+Nathan.
+I appreciate that many of the technical reviewers are accomplished individuals at
+Microsoft, and I particularly thank you for taking out time to raise this book to the
+next quality bar.
+Finally, I want to thank the O’Reilly team, including my best ever editor, Brian Mac‐
+Donald, and extend personal thanks to Miri and Sonia.
+
+Ben Albahari
+Because my brother wrote his acknowledgments first, you can infer most of what I
+want to say. :) We’ve actually both been programming since we were kids (we shared
+an Apple IIe; he was writing his own operating system while I was writing Hang‐
+man), so it’s cool that we’re now writing books together. I hope the enriching experi‐
+ence we had writing the book will translate into an enriching experience for you
+reading the book.
+I’d also like to thank my former colleagues at Microsoft. Many smart people work
+there, not just in terms of intellect but also in a broader emotional sense, and I miss
+working with them. In particular, I learned a lot from Brian Beckman, to whom I
+am indebted.
+
+xvi
+
+| Preface
+
+Introducing C# and
+the .NET Framework
+
+C# is a general-purpose, type-safe, object-oriented programming language. The goal
+of the language is programmer productivity. To this end, the language balances sim‐
+plicity, expressiveness, and performance. The chief architect of the language since
+its first version is Anders Hejlsberg (creator of Turbo Pascal and architect of Del‐
+phi). The C# language is platform-neutral, but it was written to work well with the
+Microsoft .NET Framework.
+
+Object Orientation
+C# is a rich implementation of the object-orientation paradigm, which includes
+encapsulation, inheritance, and polymorphism. Encapsulation means creating a
+boundary around an object, to separate its external (public) behavior from its inter‐
+nal (private) implementation details. The distinctive features of C# from an objectoriented perspective are:
+
+Unified type system
+The fundamental building block in C# is an encapsulated unit of data and
+functions called a type. C# has a unified type system, where all types ulti‐
+mately share a common base type. This means that all types, whether they
+represent business objects or are primitive types such as numbers, share the
+same basic set of functionality. For example, an instance of any type can be
+converted to a string by calling its ToString method.
+Classes and interfaces
+In a traditional object-oriented paradigm, the only kind of type is a class. In
+C#, there are several other kinds of types, one of which is an interface. An
+interface is like a class, except that it only describes members. The imple‐
+mentation for those members comes from types that implement the inter‐
+face. Interfaces are particularly useful in scenarios where multiple inheri‐
+1
+
+C# and
+the .NET
+Framework
+
+1
+
+tance is required (unlike languages such as C++ and Eiffel, C# does not
+support multiple inheritance of classes).
+Properties, methods, and events
+In the pure object-oriented paradigm, all functions are methods (this is the
+case in Smalltalk). In C#, methods are only one kind of function member,
+which also includes properties and events (there are others, too). Properties
+are function members that encapsulate a piece of an object’s state, such as a
+button’s color or a label’s text. Events are function members that simplify
+acting on object state changes.
+While C# is primarily an object-oriented language, it also borrows from the func‐
+tional programming paradigm. Specifically:
+
+Functions can be treated as values
+Through the use of delegates, C# allows functions to be passed as values to
+and from other functions.
+C# supports patterns for purity
+Core to functional programming is avoiding the use of variables whose val‐
+ues change, in favor of declarative patterns. C# has key features to help with
+those patterns, including the ability to write unnamed functions on the fly
+that “capture” variables (lambda expressions) and the ability to perform list
+or reactive programming via query expressions. C# 6.0 also includes readonly auto-properties to help with writing immutable (read-only) types.
+
+Type Safety
+C# is primarily a type-safe language, meaning that instances of types can interact
+only through protocols they define, thereby ensuring each type’s internal consis‐
+tency. For instance, C# prevents you from interacting with a string type as though it
+were an integer type.
+More specifically, C# supports static typing, meaning that the language enforces type
+safety at compile time. This is in addition to type safety being enforced at runtime.
+Static typing eliminates a large class of errors before a program is even run. It shifts
+the burden away from runtime unit tests onto the compiler to verify that all the
+types in a program fit together correctly. This makes large programs much easier to
+manage, more predictable, and more robust. Furthermore, static typing allows tools
+such as IntelliSense in Visual Studio to help you write a program, since it knows for
+a given variable what type it is, and hence what methods you can call on that vari‐
+able.
+C# also allows parts of your code to be dynamically typed via
+the dynamic keyword (introduced in C# 4.0). However, C#
+remains a predominantly statically typed language.
+
+2
+
+|
+
+Chapter 1: Introducing C# and the .NET Framework
+
+Strong typing also plays a role in enabling C# code to run in a sandbox—an envi‐
+ronment where every aspect of security is controlled by the host. In a sandbox, it is
+important that you cannot arbitrarily corrupt the state of an object by bypassing its
+type rules.
+
+Memory Management
+C# relies on the runtime to perform automatic memory management. The Com‐
+mon Language Runtime has a garbage collector that executes as part of your pro‐
+gram, reclaiming memory for objects that are no longer referenced. This frees pro‐
+grammers from explicitly deallocating the memory for an object, eliminating the
+problem of incorrect pointers encountered in languages such as C++.
+C# does not eliminate pointers: it merely makes them unnecessary for most pro‐
+gramming tasks. For performance-critical hotspots and interoperability, pointers
+may be used, but they are permitted only in blocks that are explicitly marked
+unsafe.
+
+Platform Support
+Historically, C# was used almost entirely for writing code to run on Windows plat‐
+forms. Recently, however, Microsoft and other companies have invested in other
+platforms, including Mac OS X and iOS, and Android. Xamarin™ allows crossplatform C# development for mobile applications, and Portable Class Libraries are
+becoming increasingly widespread. Microsoft’s ASP.NET 5 is a new web hosting
+framework that can run either on the .NET Framework or on .NET Core, a new
+small, fast, open source, cross-platform runtime.
+
+C#’s Relationship with the CLR
+C# depends on a runtime equipped with a host of features such as automatic mem‐
+ory management and exception handling. The design of C# closely maps to the
+design of Microsoft’s Common Language Runtime (CLR), which provides these run‐
+time features (although C# is technically independent of the CLR). Furthermore, the
+C# type system maps closely to the CLR type system (e.g., both share the same defi‐
+nitions for predefined types).
+
+The CLR and .NET Framework
+The .NET Framework consists of the CLR plus a vast set of libraries. The libraries
+consist of core libraries (which this book is concerned with) and applied libraries,
+
+Memory Management
+
+|
+
+3
+
+C# and
+the .NET
+Framework
+
+C# is also called a strongly typed language because its type rules (whether enforced
+statically or at runtime) are very strict. For instance, you cannot call a function that’s
+designed to accept an integer with a floating-point number, unless you first explicitly
+convert the floating-point number to an integer. This helps prevent mistakes.
+
+which depend on the core libraries. Figure 1-1 is a visual overview of those libraries
+(and also serves as a navigational aid to the book).
+
+Figure 1-1. Topics covered in this book and the chapters in which they are
+found. Topics not covered are shown outside the large circle.
+The CLR is the runtime for executing managed code. C# is one of several managed
+languages that get compiled into managed code. Managed code is packaged into an
+assembly, in the form of either an executable file (an .exe) or a library (a .dll), along
+with type information, or metadata.
+Managed code is represented in intermediate language or IL. When the CLR loads
+an assembly, it converts the IL into the native code of the machine, such as x86. This
+conversion is done by the CLR’s JIT (just-in-time) compiler. An assembly retains
+almost all of the original source language constructs, which makes it easy to inspect
+and even generate code dynamically.
+You can examine and decompile the contents of an IL assem‐
+bly with tools such as ILSpy, dotPeek (JetBrains) or Reflector
+(Red Gate).
+
+When writing Windows Store apps, you also now have the option of generating
+native code directly (“.NET Native”). This improves startup performance and mem‐
+
+4
+
+| Chapter 1: Introducing C# and the .NET Framework
+
+The CLR performs as a host for numerous runtime services. Examples of these serv‐
+ices include memory management, the loading of libraries, and security services.
+The CLR is language-neutral, allowing developers to build applications in multiple
+languages (e.g., C#, F#, Visual Basic .NET and Managed C++).
+The .NET Framework contains libraries for writing just about any Windows- or
+web-based application. Chapter 5 gives an overview of the .NET Framework libra‐
+ries.
+
+C# and Windows Runtime
+C# also interoperates with Windows Runtime (WinRT) libraries. WinRT is an execu‐
+tion interface and runtime environment for accessing libraries in a language-neutral
+and object-oriented fashion. It ships with Windows 8 and newer and is (in part) an
+enhanced version of Microsoft’s Component Object Model or COM (see Chapter 25).
+Windows 8 and newer ship with a set of unmanaged WinRT libraries that serve as a
+framework for touch-enabled applications delivered through Microsoft’s application
+store. (The term WinRT also refers to these libraries.) Being WinRT, the libraries
+can easily be consumed not only from C# and VB, but C++ and JavaScript.
+Some WinRT libraries can also be consumed in normal nontablet applications. However, taking a dependency on WinRT
+gives your application a minimum OS requirement of Win‐
+dows 8.
+
+The WinRT libraries support the new “modern” user interface (for writing immer‐
+sive touch-first applications), mobile device-specific features (sensors, text messag‐
+ing and so on), and a range of core functionality that overlaps with parts of
+the .NET Framework. Because of this overlap, Visual Studio includes a reference pro‐
+file (a set of .NET reference assemblies) for Windows Store projects that hides the
+portions of the .NET Framework that overlap with WinRT. This profile also hides
+large portions of the .NET Framework considered unnecessary for tablet apps (such
+as accessing a database). Microsoft’s application store, which controls the distribu‐
+tion of software to consumer devices, rejects any program that attempts to access a
+hidden type.
+A reference assembly exists purely to compile against and may
+have a restricted set of types and members. This allows devel‐
+opers to install the full .NET Framework on their machines
+while coding certain projects as though they had only a subset.
+The actual functionality comes at runtime from assemblies in
+the global assembly cache (see Chapter 18) that may superset
+the reference assemblies.
+
+Hiding most of the .NET Framework eases the learning curve for developers new to
+the Microsoft platform, although there are two more important goals:
+
+C# and Windows Runtime
+
+|
+
+5
+
+C# and
+the .NET
+Framework
+
+ory usage (which is particularly beneficial on mobile devices) and also runtime per‐
+formance through static linking and other optimizations.
+
+• It sandboxes applications (restricts functionality to reduce the impact of mal‐
+ware). For instance, arbitrary file access is forbidden, and there the ability to
+start or communicate with other programs on the computer is extremely
+restricted.
+• It allows low-powered Windows RT-only tablets to ship with a reduced .NET
+Framework, lowering the OS footprint.
+What distinguishes WinRT from ordinary COM is that WinRT projects its libraries
+into a multitude of languages, namely C#, VB, C++ and JavaScript, so that each lan‐
+guage sees WinRT types (almost) as though they were written especially for it. For
+example, WinRT will adapt capitalization rules to suit the standards of the target
+language, and will even remap some functions and interfaces. WinRT assemblies
+also ship with rich metadata in .winmd files, which have the same format as .NET
+assembly files, allowing transparent consumption without special ritual. In fact, you
+might even be unaware that you’re using WinRT rather than .NET types, aside of
+namespace differences. Another clue is that WinRT types are subject to COM-style
+restrictions; for instance, they offer limited support for inheritance and generics.
+WinRT does not supersede the full .NET Framework. The lat‐
+ter is still recommended (and necessary) for standard desktop
+and server-side development, and has the following advan‐
+tages:
+• Programs are not restricted to running in a sandbox.
+• Programs can use the entire .NET Framework and any
+third-party library.
+• Application distribution does not rely on the Windows
+Store.
+• Applications can target the latest Framework version
+without requiring users to have the latest OS version.
+
+What’s New in C# 6.0
+C# 6.0’s biggest new feature is that the compiler has been completely rewritten in
+C#. Known as project “Roslyn,” the new compiler exposes the entire compilation
+pipeline via libraries, allowing you to perform code analysis on arbitrary source
+code (see Chapter 27). The compiler itself is open source, and the source code is
+available at github.com/dotnet/roslyn.
+In addition, C# 6.0 features a number of minor but significant enhancements, aimed
+primarily at reducing code clutter.
+The null-conditional (“Elvis”) operator (see “Null Operators” on page 55, Chapter 2)
+avoids having to explicitly check for null before calling a method or accessing a type
+member. In the following example, result evaluates to null instead of throwing a
+NullReferenceException:
+
+6
+
+|
+
+Chapter 1: Introducing C# and the .NET Framework
+
+Expression-bodied functions (see “Methods” on page 74, Chapter 3) allow methods,
+properties, operators, and indexers that comprise a single expression to be written
+more tersely, in the style of a lambda expression:
+public int TimesTwo (int x) =&gt; x * 2;
+public string SomeProperty =&gt; &quot;Property value&quot;;
+
+Property initializers (Chapter 3) let you assign an initial value to an automatic prop‐
+erty:
+public DateTime Created { get; set; } = DateTime.Now;
+
+Initialized properties can also be read-only:
+public DateTime Created { get; } = DateTime.Now;
+
+Read-only properties can also be set in the constructor, making it easier to create
+immutable (read-only) types.
+Index initializers (Chapter 4) allow single-step initialization of any type that exposes
+an indexer:
+new Dictionary&lt;int,string&gt;()
+{
+[3] = &quot;three&quot;,
+[10] = &quot;ten&quot;
+}
+
+String interpolation (see “String Type” on page 36, Chapter 2) offers a succinct alter‐
+native to string.Format:
+string s = $&quot;It is {DateTime.Now.DayOfWeek} today&quot;;
+
+Exception filters (see “try Statements and Exceptions” on page 148, Chapter 4) let
+you apply a condition to a catch block:
+try
+{
+new WebClient().DownloadString(&quot;http://asef&quot;);
+}
+catch (WebException ex) when (ex.Status == WebExceptionStatus.Timeout)
+{
+...
+}
+
+The using static (see “Namespaces” on page 65, Chapter 2) directive lets you
+import all the static members of a type, so that you can use those members unquali‐
+fied:
+using static System.Console;
+...
+WriteLine (&quot;Hello, world&quot;); // WriteLine instead of Console.WriteLine
+
+What’s New in C# 6.0
+
+|
+
+7
+
+C# and
+the .NET
+Framework
+
+System.Text.StringBuilder sb = null;
+string result = sb?.ToString();
+// result is null
+
+The nameof (Chapter 3) operator returns the name of a variable, type or other sym‐
+bol as a string. This avoids breaking code when you rename a symbol in Visual Stu‐
+dio:
+int capacity = 123;
+string x = nameof (capacity);
+string y = nameof (Uri.Host);
+
+// x is &quot;capacity&quot;
+// y is &quot;Host&quot;
+
+And finally, you’re now allowed to await inside catch and finally blocks.
+
+What Was New in C# 5.0
+C# 5.0’s big new feature was support for asynchronous functions via two new key‐
+words, async and await. Asynchronous functions enable asynchronous continua‐
+tions, which make it easier to write responsive and thread-safe, rich-client applica‐
+tions. They also make it easy to write highly concurrent and efficient I/O-bound
+applications that don’t tie up a thread resource per operation.
+We cover asynchronous functions in detail in Chapter 14.
+
+What Was New in C# 4.0
+The features new to C# 4.0 were:
+• Dynamic binding
+• Optional parameters and named arguments
+• Type variance with generic interfaces and delegates
+• COM interoperability improvements
+Dynamic binding (Chapters 4 and 20) defers binding—the process of resolving types
+and members—from compile time to runtime and is useful in scenarios that would
+otherwise require complicated reflection code. Dynamic binding is also useful when
+interoperating with dynamic languages and COM components.
+Optional parameters (Chapter 2) allow functions to specify default parameter values
+so that callers can omit arguments, and named arguments allow a function caller to
+identify an argument by name rather than position.
+Type variance rules were relaxed in C# 4.0 (Chapters 3 and 4), such that type param‐
+eters in generic interfaces and generic delegates can be marked as covariant or con‐
+travariant, allowing more natural type conversions.
+COM interoperability (Chapter 25) was enhanced in C# 4.0 in three ways. First,
+arguments can be passed by reference without the ref keyword (particularly useful
+in conjunction with optional parameters). Second, assemblies that contain COM
+interop types can be linked rather than referenced. Linked interop types support type
+equivalence, avoiding the need for Primary Interop Assemblies and putting an end to
+versioning and deployment headaches. Third, functions that return COM-Variant
+
+8
+
+|
+
+Chapter 1: Introducing C# and the .NET Framework
+
+What Was New in C# 3.0
+The features added to C# 3.0 were mostly centered on Language Integrated Query
+capabilities, or LINQ for short. LINQ enables queries to be written directly within a
+C# program and checked statically for correctness, and to query both local collec‐
+tions (such as lists or XML documents) or remote data sources (such as a database).
+The C# 3.0 features added to support LINQ comprised implicitly typed local vari‐
+ables, anonymous types, object initializers, lambda expressions, extension methods,
+query expressions, and expression trees.
+Implicitly typed local variables (var keyword, Chapter 2) let you omit the variable
+type in a declaration statement, allowing the compiler to infer it. This reduces clut‐
+ter as well as allowing anonymous types (Chapter 4), which are simple classes cre‐
+ated on the fly that are commonly used in the final output of LINQ queries. Arrays
+can also be implicitly typed (Chapter 2).
+Object initializers (Chapter 3) simplify object construction by allowing properties to
+be set inline after the constructor call. Object initializers work with both named and
+anonymous types.
+Lambda expressions (Chapter 4) are miniature functions created by the compiler on
+the fly and are particularly useful in “fluent” LINQ queries (Chapter 8).
+Extension methods (Chapter 4) extend an existing type with new methods (without
+altering the type’s definition), making static methods feel like instance methods.
+LINQ’s query operators are implemented as extension methods.
+Query expressions (Chapter 8) provide a higher-level syntax for writing LINQ quer‐
+ies that can be substantially simpler when working with multiple sequences or range
+variables.
+Expression trees (Chapter 8) are miniature code DOMs (Document Object Models)
+that describe lambda expressions assigned to the special type Expression&lt;TDele
+gate&gt;. Expression trees make it possible for LINQ queries to execute remotely (e.g.,
+on a database server) because they can be introspected and translated at runtime
+(e.g., into a SQL statement).
+C# 3.0 also added automatic properties and partial methods.
+Automatic properties (Chapter 3) cut the work in writing properties that simply
+get/set a private backing field by having the compiler do that work automatically.
+Partial methods (Chapter 3) let an auto-generated partial class provide customizable
+hooks for manual authoring which “melt away” if unused.
+
+What Was New in C# 3.0
+
+|
+
+9
+
+C# and
+the .NET
+Framework
+
+types from linked interop types are mapped to dynamic rather than object, elimi‐
+nating the need for casting.
+
+2
+
+C# Language Basics
+
+C#
+Language
+Basics
+
+In this chapter, we introduce the basics of the C# language.
+All programs and code snippets in this and the following two
+chapters are available as interactive samples in LINQPad.
+Working through these samples in conjunction with the book
+accelerates learning in that you can edit the samples and
+instantly see the results without needing to set up projects and
+solutions in Visual Studio.
+To download the samples, go to LINQPad’s Sample Libraries
+page and choose “C# 6.0 in a Nutshell.” LINQPad is free—go
+to http://www.linqpad.net.
+
+A First C# Program
+Here is a program that multiplies 12 by 30 and prints the result, 360, to the screen.
+The double forward slash indicates that the remainder of a line is a comment:
+using System;
+
+// Importing namespace
+
+class Test
+{
+static void Main()
+{
+int x = 12 * 30;
+Console.WriteLine (x);
+}
+}
+
+// Class declaration
+// Method declaration
+//
+//
+//
+//
+
+Statement 1
+Statement 2
+End of method
+End of class
+
+At the heart of this program lie two statements:
+int x = 12 * 30;
+Console.WriteLine (x);
+
+Statements in C# execute sequentially and are terminated by a semicolon (or a code
+block, as we’ll see later). The first statement computes the expression 12 * 30 and
+
+C# Language Basics
+
+|
+
+11
+
+stores the result in a local variable, named x, which is an integer type. The second
+statement calls the Console class’s WriteLine method, to print the variable x to a text
+window on the screen.
+A method performs an action in a series of statements, called a statement block—a
+pair of braces containing zero or more statements. We defined a single method
+named Main:
+static void Main()
+{
+...
+}
+
+Writing higher-level functions that call upon lower-level functions simplifies a pro‐
+gram. We can refactor our program with a reusable method that multiplies an inte‐
+ger by 12 as follows:
+using System;
+class Test
+{
+static void Main()
+{
+Console.WriteLine (FeetToInches (30));
+Console.WriteLine (FeetToInches (100));
+}
+
+// 360
+// 1200
+
+static int FeetToInches (int feet)
+{
+int inches = feet * 12;
+return inches;
+}
+}
+
+A method can receive input data from the caller by specifying parameters and output
+data back to the caller by specifying a return type. We defined a method called Feet
+ToInches that has a parameter for inputting feet, and a return type for outputting
+inches:
+static int FeetToInches (int feet ) {...}
+
+The literals 30 and 100 are the arguments passed to the FeetToInches method. The
+Main method in our example has empty parentheses because it has no parameters,
+and is void because it doesn’t return any value to its caller:
+static void Main()
+
+C# recognizes a method called Main as signaling the default entry point of execu‐
+tion. The Main method may optionally return an integer (rather than void) in order
+to return a value to the execution environment (where a nonzero value typically
+indicates an error). The Main method can also optionally accept an array of strings
+
+12
+
+|
+
+Chapter 2: C# Language Basics
+
+as a parameter (that will be populated with any arguments passed to the executable).
+For example:
+static int Main (string[] args) {...}
+
+Methods are one of several kinds of functions in C#. Another kind of function we
+used in our example program was the * operator, which performs multiplication.
+There are also constructors, properties, events, indexers, and finalizers.
+In our example, the two methods are grouped into a class. A class groups function
+members and data members to form an object-oriented building block. The Con
+sole class groups members that handle command-line input/output functionality,
+such as the WriteLine method. Our Test class groups two methods—the Main
+method and the FeetToInches method. A class is a kind of type, which we will
+examine in “Type Basics” on page 17.
+At the outermost level of a program, types are organized into namespaces. The
+using directive was used to make the System namespace available to our applica‐
+tion, to use the Console class. We could define all our classes within the TestPro
+grams namespace, as follows:
+using System;
+namespace TestPrograms
+{
+class Test {...}
+class Test2 {...}
+}
+
+The .NET Framework is organized into nested namespaces. For example, this is the
+namespace that contains types for handling text:
+using System.Text;
+
+The using directive is there for convenience; you can also refer to a type by its fully
+qualified name, which is the type name prefixed with its namespace, such as Sys
+tem.Text.StringBuilder.
+
+Compilation
+The C# compiler compiles source code, specified as a set of files with the .cs exten‐
+sion, into an assembly. An assembly is the unit of packaging and deployment
+in .NET. An assembly can be either an application or a library. A normal console or
+Windows application has a Main method and is an .exe file. A library is a .dll and is
+equivalent to an .exe without an entry point. Its purpose is to be called upon (refer‐
+
+A First C# Program
+
+|
+
+13
+
+C#
+Language
+Basics
+
+An array (such as string[]) represents a fixed number of ele‐
+ments of a particular type. Arrays are specified by placing
+square brackets after the element type and are described in
+“Arrays” on page 38.
+
+enced) by an application or by other libraries. The .NET Framework is a set of libra‐
+ries.
+The name of the C# compiler is csc.exe. You can either use an IDE such as Visual
+Studio to compile, or call csc manually from the command line. (The compiler is
+also available as a library; see Chapter 27.) To compile manually, first save a pro‐
+gram to a file such as MyFirstProgram.cs, and then go to the command line and
+invoke csc (located in %ProgramFiles(X86)%\msbuild\14.0\bin) as follows:
+csc MyFirstProgram.cs
+
+This produces an application named MyFirstProgram.exe.
+Peculiarly, .NET Framework 4.6 ships with the C# 5 compiler.
+To obtain the C# 6 command-line compiler, you must install
+Visual Studio or MSBuild 14.
+
+To produce a library (.dll), do the following:
+csc /target:library MyFirstProgram.cs
+
+We explain assemblies in detail in Chapter 18.
+
+Syntax
+C# syntax is inspired by C and C++ syntax. In this section, we will describe C#’s ele‐
+ments of syntax, using the following program:
+using System;
+class Test
+{
+static void Main()
+{
+int x = 12 * 30;
+Console.WriteLine (x);
+}
+}
+
+Identifiers and Keywords
+Identifiers are names that programmers choose for their classes, methods, variables,
+and so on. These are the identifiers in our example program, in the order they
+appear:
+System
+
+Test
+
+Main
+
+x
+
+Console
+
+WriteLine
+
+An identifier must be a whole word, essentially made up of Unicode characters
+starting with a letter or underscore. C# identifiers are case-sensitive. By convention,
+parameters, local variables, and private fields should be in camel case (e.g., myVaria
+ble), and all other identifiers should be in Pascal case (e.g., MyMethod).
+
+14
+
+|
+
+Chapter 2: C# Language Basics
+
+Keywords are names that mean something special to the compiler. These are the
+keywords in our example program:
+using
+
+class
+
+static
+
+void
+
+int
+
+Most keywords are reserved, which means that you can’t use them as identifiers.
+Here is the full list of C# reserved keywords:
+do
+double
+else
+enum
+event
+explicit
+extern
+false
+finally
+fixed
+float
+for
+foreach
+goto
+if
+implicit
+
+in
+int
+interface
+internal
+is
+lock
+longnamespace
+new
+null
+object
+operator
+out
+override
+params
+private
+protected
+
+public
+readonly
+ref
+return
+sbyte
+sealed
+short
+sizeof
+stackalloc
+static
+string
+struct
+switch
+this
+throw
+true
+
+C#
+Language
+Basics
+
+abstract
+as
+base
+bool
+break
+byte
+case
+catch
+char
+checked
+class
+const
+continue
+decimal
+default
+delegate
+
+try
+typeof
+uint
+ulong
+unchecked
+unsafe
+ushort
+using
+virtual
+void
+volatile
+while
+
+Avoiding conflicts
+If you really want to use an identifier that clashes with a reserved keyword, you can
+do so by qualifying it with the @ prefix. For instance:
+class class {...}
+class @class {...}
+
+// Illegal
+// Legal
+
+The @ symbol doesn’t form part of the identifier itself. So @myVariable is the same as
+myVariable.
+The @ prefix can be useful when consuming libraries written
+in other .NET languages that have different keywords.
+
+Contextual keywords
+Some keywords are contextual, meaning they can also be used as identifiers—
+without an @ symbol. These are:
+
+Syntax
+
+|
+
+15
+
+add
+ascending
+async
+await
+by
+descending
+
+dynamic
+equals
+from
+get
+global
+group
+
+in
+into
+join
+let
+nameof
+on
+
+orderby
+partial
+remove
+select
+set
+value
+
+var
+when
+where
+yield
+
+With contextual keywords, ambiguity cannot arise within the context in which they
+are used.
+
+Literals, Punctuators, and Operators
+Literals are primitive pieces of data lexically embedded into the program. The liter‐
+als we used in our example program are 12 and 30.
+Punctuators help demarcate the structure of the program. These are the punctuators
+we used in our example program:
+{
+
+}
+
+;
+
+The braces group multiple statements into a statement block.
+The semicolon terminates a statement. (Statement blocks, however, do not require a
+semicolon.) Statements can wrap multiple lines:
+Console.WriteLine
+(1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10);
+
+An operator transforms and combines expressions. Most operators in C# are deno‐
+ted with a symbol, such as the multiplication operator, *. We will discuss operators
+in more detail later in this chapter. These are the operators we used in our example
+program:
+.
+
+()
+
+*
+
+=
+
+A period denotes a member of something (or a decimal point with numeric literals).
+Parentheses are used when declaring or calling a method; empty parentheses are
+used when the method accepts no arguments. (Parentheses also have other purposes
+that we’ll see later in this chapter.) An equals sign performs assignment. (The double
+equals sign, ==, performs equality comparison, as we’ll see later.)
+
+Comments
+C# offers two different styles of source-code documentation: single-line comments
+and multiline comments. A single-line comment begins with a double forward slash
+and continues until the end of the line. For example:
+int x = 3;
+
+// Comment about assigning 3 to x
+
+A multiline comment begins with /* and ends with */. For example:
+
+16
+
+|
+
+Chapter 2: C# Language Basics
+
+int x = 3;
+
+/* This is a comment that
+spans two lines */
+
+Comments may embed XML documentation tags, explained in “XML Documenta‐
+tion” on page 193 in Chapter 4.
+
+A type defines the blueprint for a value. In our example, we used two literals of type
+
+int with values 12 and 30. We also declared a variable of type int whose name was
+x:
+static void Main()
+{
+int x = 12 * 30;
+Console.WriteLine (x);
+}
+
+A variable denotes a storage location that can contain different values over time. In
+contrast, a constant always represents the same value (more on this later):
+const int y = 360;
+
+All values in C# are instances of a type. The meaning of a value, and the set of possi‐
+ble values a variable can have, is determined by its type.
+
+Predefined Type Examples
+Predefined types are types that are specially supported by the compiler. The int
+type is a predefined type for representing the set of integers that fit into 32 bits of
+memory, from −231 to 231−1, and is the default type for numeric literals within this
+range. We can perform functions such as arithmetic with instances of the int type
+as follows:
+int x = 12 * 30;
+
+Another predefined C# type is string. The string type represents a sequence of
+characters, such as “.NET” or “http://oreilly.com.” We can work with strings by call‐
+ing functions on them as follows:
+string message = &quot;Hello world&quot;;
+string upperMessage = message.ToUpper();
+Console.WriteLine (upperMessage);
+
+// HELLO WORLD
+
+int x = 2015;
+message = message + x.ToString();
+Console.WriteLine (message);
+
+// Hello world2015
+
+The predefined bool type has exactly two possible values: true and false. The bool
+type is commonly used to conditionally branch execution flow based with an if
+statement. For example:
+bool simpleVar = false;
+if (simpleVar)
+
+Type Basics
+
+|
+
+17
+
+C#
+Language
+Basics
+
+Type Basics
+
+Console.WriteLine (&quot;This will not print&quot;);
+int x = 5000;
+bool lessThanAMile = x &lt; 5280;
+if (lessThanAMile)
+Console.WriteLine (&quot;This will print&quot;);
+
+In C#, predefined types (also referred to as built-in types) are
+recognized with a C# keyword. The System namespace in
+the .NET Framework contains many important types that are
+not predefined by C# (e.g., DateTime).
+
+Custom Type Examples
+Just as we can build complex functions from simple functions, we can build com‐
+plex types from primitive types. In this example, we will define a custom type
+named UnitConverter—a class that serves as a blueprint for unit conversions:
+using System;
+public class UnitConverter
+{
+int ratio;
+// Field
+public UnitConverter (int unitRatio) {ratio = unitRatio; } // Constructor
+public int Convert
+(int unit)
+{return unit * ratio; } // Method
+}
+class Test
+{
+static void Main()
+{
+UnitConverter feetToInchesConverter = new UnitConverter (12);
+UnitConverter milesToFeetConverter = new UnitConverter (5280);
+Console.WriteLine (feetToInchesConverter.Convert(30));
+Console.WriteLine (feetToInchesConverter.Convert(100));
+Console.WriteLine (feetToInchesConverter.Convert(
+milesToFeetConverter.Convert(1)));
+
+// 360
+// 1200
+// 63360
+
+}
+}
+
+Members of a type
+A type contains data members and function members. The data member of
+UnitConverter is the field called ratio. The function members of UnitConverter
+are the Convert method and the UnitConverter’s constructor.
+
+Symmetry of predefined types and custom types
+A beautiful aspect of C# is that predefined types and custom types have few differ‐
+ences. The predefined int type serves as a blueprint for integers. It holds data—32
+bits—and provides function members that use that data, such as ToString. Simi‐
+
+18
+
+|
+
+Chapter 2: C# Language Basics
+
+larly, our custom UnitConverter type acts as a blueprint for unit conversions. It
+holds data—the ratio—and provides function members to use that data.
+
+Constructors and instantiation
+
+UnitConverter feetToInchesConverter = new UnitConverter (12);
+
+Immediately after the new operator instantiates an object, the object’s constructor is
+called to perform initialization. A constructor is defined like a method, except that
+the method name and return type are reduced to the name of the enclosing type:
+public class UnitConverter
+{
+...
+public UnitConverter (int unitRatio) { ratio = unitRatio; }
+...
+}
+
+Instance versus static members
+The data members and function members that operate on the instance of the type
+are called instance members. The UnitConverter’s Convert method and the int’s
+ToString method are examples of instance members. By default, members are
+instance members.
+Data members and function members that don’t operate on the instance of the type,
+but rather on the type itself, must be marked as static. The Test.Main and Con
+sole.WriteLine methods are static methods. The Console class is actually a static
+class, which means all its members are static. You never actually create instances of a
+Console—one console is shared across the whole application.
+Let’s contrast instance from static members. In the following code, the instance field
+Name pertains to an instance of a particular Panda, whereas Population pertains to
+the set of all Panda instances:
+public class Panda
+{
+public string Name;
+public static int Population;
+public Panda (string n)
+{
+Name = n;
+Population = Population + 1;
+}
+
+// Instance field
+// Static field
+// Constructor
+// Assign the instance field
+// Increment the static Population field
+
+}
+
+Type Basics
+
+|
+
+19
+
+C#
+Language
+Basics
+
+Data is created by instantiating a type. Predefined types can be instantiated simply
+by using a literal such as 12 or &quot;Hello world&quot;. The new operator creates instances of
+a custom type. We created and declared an instance of the UnitConverter type with
+this statement:
+
+The following code creates two instances of the Panda, prints their names, and then
+prints the total population:
+using System;
+class Test
+{
+static void Main()
+{
+Panda p1 = new Panda (&quot;Pan Dee&quot;);
+Panda p2 = new Panda (&quot;Pan Dah&quot;);
+Console.WriteLine (p1.Name);
+Console.WriteLine (p2.Name);
+
+// Pan Dee
+// Pan Dah
+
+Console.WriteLine (Panda.Population);
+
+// 2
+
+}
+}
+
+Attempting to evaluate p1.Population or Panda.Name will generate a compile-time
+error.
+
+The public keyword
+The public keyword exposes members to other classes. In this example, if the Name
+field in Panda was not marked as public, it would be private, and the Test class
+could not access it. Marking a member public is how a type communicates: “Here
+is what I want other types to see—everything else is my own private implementation
+details.” In object-oriented terms, we say that the public members encapsulate the
+private members of the class.
+
+Conversions
+C# can convert between instances of compatible types. A conversion always creates
+a new value from an existing one. Conversions can be either implicit or explicit:
+implicit conversions happen automatically, and explicit conversions require a cast.
+In the following example, we implicitly convert an int to a long type (which has
+twice the bitwise capacity of an int) and explicitly cast an int to a short type
+(which has half the capacity of an int):
+int x = 12345;
+// int is a 32-bit integer
+long y = x;
+// Implicit conversion to 64-bit integer
+short z = (short)x; // Explicit conversion to 16-bit integer
+
+20
+
+|
+
+Chapter 2: C# Language Basics
+
+Implicit conversions are allowed when both of the following are true:
+• The compiler can guarantee they will always succeed.
+• No information is lost in conversion.1
+C#
+Language
+Basics
+
+Conversely, explicit conversions are required when one of the following is true:
+• The compiler cannot guarantee they will always succeed.
+• Information may be lost during conversion.
+(If the compiler can determine that a conversion will always fail, both kinds of con‐
+version are prohibited. Conversions that involve generics can also fail in certain
+conditions—see “Type Parameters and Conversions” on page 121 in Chapter 3.)
+The numeric conversions that we just saw are built into the lan‐
+guage. C# also supports reference conversions and boxing con‐
+versions (see Chapter 3) as well as custom conversions (see
+“Operator Overloading” on page 168 in Chapter 4). The com‐
+piler doesn’t enforce the aforementioned rules with custom
+conversions, so it’s possible for badly designed types to behave
+otherwise.
+
+Value Types Versus Reference Types
+All C# types fall into the following categories:
+• Value types
+• Reference types
+• Generic type parameters
+• Pointer types
+In this section, we’ll describe value types and reference types.
+We’ll cover generic type parameters in “Generics” on page 114
+in Chapter 3, and pointer types in “Unsafe Code and Pointers”
+on page 187 in Chapter 4.
+
+Value types comprise most built-in types (specifically, all numeric types, the char
+type, and the bool type), as well as custom struct and enum types.
+Reference types comprise all class, array, delegate, and interface types. (This includes
+the predefined string type.)
+The fundamental difference between value types and reference types is how they are
+handled in memory.
+
+1 A minor caveat is that very large long values lose some precision when converted to double.
+
+Type Basics
+
+|
+
+21
+
+Value types
+The content of a value type variable or constant is simply a value. For example, the
+content of the built-in value type, int, is 32 bits of data.
+You can define a custom value type with the struct keyword (see Figure 2-1):
+public struct Point { public int X; public int Y; }
+
+or more tersely:
+public struct Point { public int X, Y; }
+
+Figure 2-1. A value-type instance in memory
+The assignment of a value-type instance always copies the instance. For example:
+static void Main()
+{
+Point p1 = new Point();
+p1.X = 7;
+Point p2 = p1;
+
+// Assignment causes copy
+
+Console.WriteLine (p1.X);
+Console.WriteLine (p2.X);
+
+// 7
+// 7
+
+p1.X = 9;
+
+// Change p1.X
+
+Console.WriteLine (p1.X);
+Console.WriteLine (p2.X);
+
+// 9
+// 7
+
+}
+
+Figure 2-2 shows that p1 and p2 have independent storage.
+
+Figure 2-2. Assignment copies a value-type instance
+
+Reference types
+A reference type is more complex than a value type, having two parts: an object and
+the reference to that object. The content of a reference-type variable or constant is a
+
+22
+
+|
+
+Chapter 2: C# Language Basics
+
+reference to an object that contains the value. Here is the Point type from our previ‐
+ous example rewritten as a class, rather than a struct (shown in Figure 2-3):
+public class Point { public int X, Y; }
+
+C#
+Language
+Basics
+
+Figure 2-3. A reference-type instance in memory
+Assigning a reference-type variable copies the reference, not the object instance.
+This allows multiple variables to refer to the same object—something not ordinarily
+possible with value types. If we repeat the previous example, but with Point now a
+class, an operation to p1 affects p2:
+static void Main()
+{
+Point p1 = new Point();
+p1.X = 7;
+Point p2 = p1;
+
+// Copies p1 reference
+
+Console.WriteLine (p1.X);
+Console.WriteLine (p2.X);
+
+// 7
+// 7
+
+p1.X = 9;
+
+// Change p1.X
+
+Console.WriteLine (p1.X);
+Console.WriteLine (p2.X);
+
+// 9
+// 9
+
+}
+
+Figure 2-4 shows that p1 and p2 are two references that point to the same object.
+
+Figure 2-4. Assignment copies a reference
+Type Basics
+
+|
+
+23
+
+Null
+A reference can be assigned the literal null, indicating that the reference points to
+no object:
+class Point {...}
+...
+Point p = null;
+Console.WriteLine (p == null);
+
+// True
+
+// The following line generates a runtime error
+// (a NullReferenceException is thrown):
+Console.WriteLine (p.X);
+
+In contrast, a value type cannot ordinarily have a null value:
+struct Point {...}
+...
+Point p = null;
+int x = null;
+
+// Compile-time error
+// Compile-time error
+
+C# also has a construct called nullable types for representing
+value-type nulls (see “Nullable Types” on page 162 in Chap‐
+ter 4).
+
+Storage overhead
+Value-type instances occupy precisely the memory required to store their fields. In
+this example, Point takes eight bytes of memory:
+struct Point
+{
+int x; // 4 bytes
+int y; // 4 bytes
+}
+
+Technically, the CLR positions fields within the type at an
+address that’s a multiple of the fields’ size (up to a maximum
+of eight bytes). Thus, the following actually consumes 16 bytes
+of memory (with the seven bytes following the first field “was‐
+ted”):
+struct A { byte b; long l; }
+
+You can override this behavior with the StructLayout
+attribute (see “Mapping a Struct to Unmanaged Memory” on
+page 1011 in Chapter 25).
+
+24
+
+|
+
+Chapter 2: C# Language Basics
+
+Predefined Type Taxonomy
+The predefined types in C# are:
+
+Value types
+
+• Numeric
+—Signed integer (sbyte, short, int, long)
+—Unsigned integer (byte, ushort, uint, ulong)
+—Real number (float, double, decimal)
+• Logical (bool)
+• Character (char)
+
+Reference types
+
+• String (string)
+• Object (object)
+
+Predefined types in C# alias Framework types in the System namespace. There is
+only a syntactic difference between these two statements:
+int i = 5;
+System.Int32 i = 5;
+
+The set of predefined value types, excluding decimal, are known as primitive types
+in the CLR. Primitive types are so called because they are supported directly via
+instructions in compiled code, and this usually translates to direct support on the
+underlying processor. For example:
+int i = 7;
+bool b = true;
+char c = 'A';
+float f = 0.5f;
+
+//
+//
+//
+//
+//
+
+Underlying hexadecimal representation
+0x7
+0x1
+0x41
+uses IEEE floating-point encoding
+
+The System.IntPtr and System.UIntPtr types are also primitive (see Chapter 25).
+
+Type Basics
+
+|
+
+25
+
+C#
+Language
+Basics
+
+Reference types require separate allocations of memory for the reference and object.
+The object consumes as many bytes as its fields, plus additional administrative over‐
+head. The precise overhead is intrinsically private to the implementation of
+the .NET runtime, but at minimum, the overhead is eight bytes, used to store a key
+to the object’s type, as well as temporary information such as its lock state for multi‐
+threading and a flag to indicate whether it has been fixed from movement by the
+garbage collector. Each reference to an object requires an extra four or eight bytes,
+depending on whether the .NET runtime is running on a 32- or 64-bit platform.
+
+Numeric Types
+C# has the predefined numeric types shown in Table 2-1.
+
+Table 2-1. Predefined numeric types in C#
+C# type
+
+System type Suffix Size
+
+Range
+
+Integral—signed
+sbyte
+
+SByte
+
+8 bits
+
+–27 to 27–1
+
+short
+
+Int16
+
+16 bits
+
+–215 to 215–1
+
+int
+
+Int32
+
+32 bits
+
+–231 to 231–1
+
+long
+
+Int64
+
+64 bits
+
+–263 to 263–1
+
+L
+
+Integral—unsigned
+byte
+
+Byte
+
+8 bits
+
+0 to 28–1
+
+ushort
+
+UInt16
+
+16 bits
+
+0 to 216–1
+
+uint
+
+UInt32
+
+U
+
+32 bits
+
+0 to 232–1
+
+ulong
+
+UInt64
+
+UL
+
+64 bits
+
+0 to 264–1
+
+float
+
+Single
+
+F
+
+32 bits
+
+± (~10–45 to 1038)
+
+double
+
+Double
+
+D
+
+64 bits
+
+± (~10–324 to 10308)
+
+decimal
+
+Decimal
+
+M
+
+128 bits ± (~10–28 to 1028)
+
+Real
+
+Of the integral types, int and long are first-class citizens and are favored by both C#
+and the runtime. The other integral types are typically used for interoperability or
+when space efficiency is paramount.
+Of the real number types, float and double are called floating-point types2 and are
+typically used for scientific and graphical calculations. The decimal type is typically
+used for financial calculations, where base-10-accurate arithmetic and high preci‐
+sion are required.
+
+Numeric Literals
+Integral literals can use decimal or hexadecimal notation; hexadecimal is denoted
+with the 0x prefix. For example:
+int x = 127;
+long y = 0x7F;
+
+Real literals can use decimal and/or exponential notation. For example:
+
+2 Technically, decimal is a floating-point type too, although it’s not referred to as such in the C#
+
+language specification.
+
+26
+
+|
+
+Chapter 2: C# Language Basics
+
+double d = 1.5;
+double million = 1E06;
+
+Numeric literal type inference
+
+• If the literal contains a decimal point or the exponential symbol (E), it is a
+double.
+• Otherwise, the literal’s type is the first type in this list that can fit the literal’s
+value: int, uint, long, and ulong.
+For example:
+Console.WriteLine
+Console.WriteLine
+Console.WriteLine
+Console.WriteLine
+Console.WriteLine
+
+(
+1.0.GetType());
+(
+1E06.GetType());
+(
+1.GetType());
+( 0xF0000000.GetType());
+(0x100000000.GetType());
+
+//
+//
+//
+//
+//
+
+Double
+Double
+Int32
+UInt32
+Int64
+
+(double)
+(double)
+(int)
+(uint)
+(long)
+
+Numeric suffixes
+Numeric suffixes explicitly define the type of a literal. Suffixes can be either lower- or
+uppercase, and are as follows:
+Category C# type
+
+Example
+
+F
+
+float
+
+float f = 1.0F;
+
+D
+
+double
+
+double d = 1D;
+
+M
+
+decimal decimal d = 1.0M;
+
+U
+
+uint
+
+uint i = 1U;
+
+L
+
+long
+
+long i = 1L;
+
+UL
+
+ulong
+
+ulong i = 1UL;
+
+The suffixes U and L are rarely necessary, because the uint, long, and ulong types
+can nearly always be either inferred or implicitly converted from int:
+long i = 5;
+
+// Implicit lossless conversion from int literal to long
+
+The D suffix is technically redundant, in that all literals with a decimal point are
+inferred to be double. And you can always add a decimal point to a numeric literal:
+double x = 4.0;
+
+The F and M suffixes are the most useful and should always be applied when specify‐
+ing float or decimal literals. Without the F suffix, the following line would not
+compile, because 4.5 would be inferred to be of type double, which has no implicit
+conversion to float:
+Numeric Types
+
+|
+
+27
+
+C#
+Language
+Basics
+
+By default, the compiler infers a numeric literal to be either double or an integral
+type:
+
+float f = 4.5F;
+
+The same principle is true for a decimal literal:
+decimal d = -1.23M;
+
+// Will not compile without the M suffix.
+
+We describe the semantics of numeric conversions in detail in the following section.
+
+Numeric Conversions
+Integral to integral conversions
+Integral conversions are implicit when the destination type can represent every pos‐
+sible value of the source type. Otherwise, an explicit conversion is required. For
+example:
+int x = 12345;
+long y = x;
+short z = (short)x;
+
+// int is a 32-bit integral
+// Implicit conversion to 64-bit integral
+// Explicit conversion to 16-bit integral
+
+Floating-point to floating-point conversions
+A float can be implicitly converted to a double, since a double can represent every
+possible value of a float. The reverse conversion must be explicit.
+
+Floating-point to integral conversions
+All integral types may be implicitly converted to all floating-point types:
+int i = 1;
+float f = i;
+
+The reverse conversion must be explicit:
+int i2 = (int)f;
+
+When you cast from a floating-point number to an integral,
+any fractional portion is truncated; no rounding is performed.
+The static class System.Convert provides methods that round
+while converting between various numeric types (see Chap‐
+ter 6).
+
+Implicitly converting a large integral type to a floating-point type preserves magni‐
+tude but may occasionally lose precision. This is because floating-point types always
+have more magnitude than integral types, but may have less precision. Rewriting
+our example with a larger number demonstrates this:
+int i1 = 100000001;
+float f = i1;
+int i2 = (int)f;
+
+28
+
+|
+
+// Magnitude preserved, precision lost
+// 100000000
+
+Chapter 2: C# Language Basics
+
+Decimal conversions
+All integral types can be implicitly converted to the decimal type, since a decimal
+can represent every possible C# integral value. All other numeric conversions to and
+from a decimal type must be explicit.
+
+The arithmetic operators (+, -, *, /, %) are defined for all numeric types except the 8and 16-bit integral types:
++
+*
+/
+%
+
+Addition
+Subtraction
+Multiplication
+Division
+Remainder after division
+
+Increment and Decrement Operators
+The increment and decrement operators (++, --) increment and decrement numeric
+types by 1. The operator can either follow or precede the variable, depending on
+whether you want its value before or after the increment/decrement. For example:
+int x = 0, y = 0;
+Console.WriteLine (x++);
+Console.WriteLine (++y);
+
+// Outputs 0; x is now 1
+// Outputs 1; y is now 1
+
+Specialized Integral Operations
+Integral division
+Division operations on integral types always truncate remainders (round toward
+zero). Dividing by a variable whose value is zero generates a runtime error (a Divid
+eByZeroException):
+int a = 2 / 3;
+
+// 0
+
+int b = 0;
+int c = 5 / b;
+
+// throws DivideByZeroException
+
+Dividing by the literal or constant 0 generates a compile-time error.
+
+Integral overflow
+At runtime, arithmetic operations on integral types can overflow. By default, this
+happens silently—no exception is thrown, and the result exhibits “wraparound”
+behavior, as though the computation was done on a larger integer type and the extra
+significant bits discarded. For example, decrementing the minimum possible int
+value results in the maximum possible int value:
+int a = int.MinValue;
+a--;
+Console.WriteLine (a == int.MaxValue); // True
+
+Numeric Types
+
+|
+
+29
+
+C#
+Language
+Basics
+
+Arithmetic Operators
+
+Integral arithmetic overflow check operators
+The checked operator tells the runtime to generate an OverflowException rather
+than overflowing silently when an integral expression or statement exceeds the
+arithmetic limits of that type. The checked operator affects expressions with the ++,
+−−, +, − (binary and unary), *, /, and explicit conversion operators between integral
+types.
+The checked operator has no effect on the double and float
+types (which overflow to special “infinite” values, as we’ll see
+soon) and no effect on the decimal type (which is always
+checked).
+
+checked can be used around either an expression or a statement block. For example:
+int a = 1000000;
+int b = 1000000;
+int c = checked (a * b);
+
+// Checks just the expression.
+
+checked
+{
+...
+c = a * b;
+...
+}
+
+// Checks all expressions
+// in statement block.
+
+You can make arithmetic overflow checking the default for all expressions in a pro‐
+gram by compiling with the /checked+ command-line switch (in Visual Studio, go
+to Advanced Build Settings). If you then need to disable overflow checking just for
+specific expressions or statements, you can do so with the unchecked operator. For
+example, the following code will not throw exceptions—even if compiled
+with /checked+:
+int x = int.MaxValue;
+int y = unchecked (x + 1);
+unchecked { int z = x + 1; }
+
+Overflow checking for constant expressions
+Regardless of the /checked compiler switch, expressions evaluated at compile time
+are always overflow-checked—unless you apply the unchecked operator:
+int x = int.MaxValue + 1;
+int y = unchecked (int.MaxValue + 1);
+
+Bitwise operators
+C# supports the following bitwise operators:
+
+30
+
+|
+
+Chapter 2: C# Language Basics
+
+// Compile-time error
+// No errors
+
+Operator Meaning
+
+Sample expression
+
+Result
+
+~
+
+Complement ~0xfU
+
+0xfffffff0U
+
+&amp;
+
+And
+
+0xf0 &amp; 0x33
+
+0x30
+0xf3
+
+Or
+
+0xf0 | 0x33
+
+Exclusive Or
+
+0xff00 ^ 0x0ff0 0xf0f0
+
+&lt;&lt;
+
+Shift left
+
+0x20 &lt;&lt; 2
+
+0x80
+
+&gt;&gt;
+
+Shift right
+
+0x20 &gt;&gt; 1
+
+0x10
+
+C#
+Language
+Basics
+
+|
+^
+
+8- and 16-Bit Integrals
+The 8- and 16-bit integral types are byte, sbyte, short, and ushort. These types
+lack their own arithmetic operators, so C# implicitly converts them to larger types
+as required. This can cause a compile-time error when trying to assign the result
+back to a small integral type:
+short x = 1, y = 1;
+short z = x + y;
+
+// Compile-time error
+
+In this case, x and y are implicitly converted to int so that the addition can be per‐
+formed. This means the result is also an int, which cannot be implicitly cast back to
+a short (because it could cause loss of data). To make this compile, we must add an
+explicit cast:
+short z = (short) (x + y);
+
+// OK
+
+Special Float and Double Values
+Unlike integral types, floating-point types have values that certain operations treat
+specially. These special values are NaN (not a number), +∞, −∞, and −0. The float
+and double classes have constants for NaN, +∞, and −∞, as well as other values (Max
+Value, MinValue, and Epsilon). For example:
+Console.WriteLine (double.NegativeInfinity);
+
+// -Infinity
+
+The constants that represent special values for double and float are as follows:
+Special value Double constant
+
+Float constant
+
+NaN
+
+double.NaN
+
+float.NaN
+
++∞
+
+double.PositiveInfinity float.PositiveInfinity
+
+−∞
+
+double.NegativeInfinity float.NegativeInfinity
+
+−0
+
+−0.0
+
+−0.0f
+
+Dividing a nonzero number by zero results in an infinite value. For example:
+Console.WriteLine ( 1.0 /
+Console.WriteLine (−1.0 /
+
+0.0);
+0.0);
+
+// Infinity
+// -Infinity
+
+Numeric Types
+
+|
+
+31
+
+Console.WriteLine ( 1.0 / −0.0);
+Console.WriteLine (−1.0 / −0.0);
+
+// -Infinity
+// Infinity
+
+Dividing zero by zero, or subtracting infinity from infinity, results in a NaN. For
+example:
+Console.WriteLine ( 0.0 /
+Console.WriteLine ((1.0 /
+
+0.0);
+0.0) − (1.0 / 0.0));
+
+//
+//
+
+NaN
+NaN
+
+When using ==, a NaN value is never equal to another value, even another NaN
+value:
+Console.WriteLine (0.0 / 0.0 == double.NaN);
+
+// False
+
+To test whether a value is NaN, you must use the float.IsNaN or double.IsNaN
+method:
+Console.WriteLine (double.IsNaN (0.0 / 0.0));
+
+// True
+
+When using object.Equals, however, two NaN values are equal:
+Console.WriteLine (object.Equals (0.0 / 0.0, double.NaN));
+
+// True
+
+NaNs are sometimes useful in representing special values. In
+WPF, double.NaN represents a measurement whose value is
+“Automatic”. Another way to represent such a value is with a
+nullable type (Chapter 4); another is with a custom struct that
+wraps a numeric type and adds an additional field (Chapter 3).
+
+float and double follow the specification of the IEEE 754 format types, supported
+
+natively by almost all processors. You can find detailed information on the behavior
+of these types at http://www.ieee.org.
+
+double Versus decimal
+double is useful for scientific computations (such as computing spatial coordinates).
+decimal is useful for financial computations and values that are “man-made” rather
+
+than the result of real-world measurements. Here’s a summary of the differences:
+Category
+
+double
+
+decimal
+
+Internal representation Base 2
+
+Base 10
+
+Decimal precision
+
+15–16 significant figures
+
+28–29 significant figures
+
+Range
+
+±(~10−324 to ~10308)
+
+±(~10−28 to ~1028)
+
+Special values
+
++0, −0, +∞, −∞, and NaN None
+
+Speed
+
+Native to processor
+
+Non-native to processor (about 10 times slower than
+double)
+
+Real-Number Rounding Errors
+float and double internally represent numbers in base 2. For this reason, only
+numbers expressible in base 2 are represented precisely. Practically, this means most
+32
+
+|
+
+Chapter 2: C# Language Basics
+
+literals with a fractional component (which are in base 10) will not be represented
+precisely. For example:
+float tenth = 0.1f;
+float one
+= 1f;
+Console.WriteLine (one - tenth * 10f);
+
+// Not quite 0.1
+// -1.490116E-08
+
+decimal m = 1M / 6M;
+double d = 1.0 / 6.0;
+
+// 0.1666666666666666666666666667M
+// 0.16666666666666666
+
+This leads to accumulated rounding errors:
+decimal notQuiteWholeM = m+m+m+m+m+m; // 1.0000000000000000000000000002M
+double notQuiteWholeD = d+d+d+d+d+d; // 0.99999999999999989
+
+which breaks equality and comparison operations:
+Console.WriteLine (notQuiteWholeM == 1M);
+Console.WriteLine (notQuiteWholeD &lt; 1.0);
+
+// False
+// True
+
+Boolean Type and Operators
+C#’s bool type (aliasing the System.Boolean type) is a logical value that can be
+assigned the literal true or false.
+Although a Boolean value requires only one bit of storage, the runtime will use one
+byte of memory, since this is the minimum chunk that the runtime and processor
+can efficiently work with. To avoid space inefficiency in the case of arrays, the
+Framework provides a BitArray class in the System.Collections namespace that
+is designed to use just one bit per Boolean value.
+
+Bool Conversions
+No casting conversions can be made from the bool type to numeric types or vice
+versa.
+
+Equality and Comparison Operators
+== and != test for equality and inequality of any type, but always return a bool
+value.3 Value types typically have a very simple notion of equality:
+
+3 It’s possible to overload these operators (Chapter 4) such that they return a non-bool type, but
+
+this is almost never done in practice.
+
+Boolean Type and Operators
+
+|
+
+33
+
+C#
+Language
+Basics
+
+This is why float and double are bad for financial calculations. In contrast, deci
+mal works in base 10 and so can precisely represent numbers expressible in base 10
+(as well as its factors, base 2 and base 5). Since real literals are in base 10, decimal
+can precisely represent numbers such as 0.1. However, neither double nor decimal
+can precisely represent a fractional number whose base 10 representation is recur‐
+ring:
+
+int x = 1;
+int y = 2;
+int z = 1;
+Console.WriteLine (x == y);
+Console.WriteLine (x == z);
+
+// False
+// True
+
+For reference types, equality, by default, is based on reference, as opposed to the
+actual value of the underlying object (more on this in Chapter 6):
+public class Dude
+{
+public string Name;
+public Dude (string n) { Name = n; }
+}
+...
+Dude d1 = new Dude (&quot;John&quot;);
+Dude d2 = new Dude (&quot;John&quot;);
+Console.WriteLine (d1 == d2);
+// False
+Dude d3 = d1;
+Console.WriteLine (d1 == d3);
+// True
+
+The equality and comparison operators, ==, !=, &lt;, &gt;, &gt;=, and &lt;=, work for all numeric
+types, but should be used with caution with real numbers (as we saw in “RealNumber Rounding Errors” on page 32). The comparison operators also work on
+enum type members, by comparing their underlying integral values. We describe this
+in “Enums” on page 109 in Chapter 3.
+We explain the equality and comparison operators in greater detail in “Operator
+Overloading” on page 168 in Chapter 4, and in “Equality Comparison” on page 267
+and “Order Comparison” on page 278 in Chapter 6.
+
+Conditional Operators
+The &amp;&amp; and || operators test for and and or conditions. They are frequently used in
+conjunction with the ! operator, which expresses not. In this example, the UseUm
+brella method returns true if it’s rainy or sunny (to protect us from the rain or the
+sun), as long as it’s not also windy (since umbrellas are useless in the wind):
+static bool UseUmbrella (bool rainy, bool sunny, bool windy)
+{
+return !windy &amp;&amp; (rainy || sunny);
+}
+
+The &amp;&amp; and || operators short-circuit evaluation when possible. In the preceding
+example, if it is windy, the expression (rainy || sunny) is not even evaluated.
+Short-circuiting is essential in allowing expressions such as the following to run
+without throwing a NullReferenceException:
+if (sb != null &amp;&amp; sb.Length &gt; 0) ...
+
+The &amp; and | operators also test for and and or conditions:
+return !windy &amp; (rainy | sunny);
+
+34
+
+| Chapter 2: C# Language Basics
+
+The difference is that they do not short-circuit. For this reason, they are rarely used
+in place of conditional operators.
+
+Conditional operator (ternary operator)
+The conditional operator (more commonly called the ternary operator, as it’s the only
+operator that takes three operands) has the form q ? a : b, where if condition q is
+true, a is evaluated, else b is evaluated. For example:
+static int Max (int a, int b)
+{
+return (a &gt; b) ? a : b;
+}
+
+The conditional operator is particularly useful in LINQ queries (Chapter 8).
+
+Strings and Characters
+C#’s char type (aliasing the System.Char type) represents a Unicode character and
+occupies 2 bytes. A char literal is specified inside single quotes:
+char c = 'A';
+
+// Simple character
+
+Escape sequences express characters that cannot be expressed or interpreted literally.
+An escape sequence is a backslash followed by a character with a special meaning.
+For example:
+char newLine = '\n';
+char backSlash = '\\';
+
+The escape sequence characters are shown in Table 2-2.
+
+Table 2-2. Escape sequence characters
+Char Meaning
+
+Value
+
+\'
+
+Single quote
+
+0x0027
+
+\&quot;
+
+Double quote
+
+0x0022
+
+\\
+
+Backslash
+
+0x005C
+
+\0
+
+Null
+
+0x0000
+
+\a
+
+Alert
+
+0x0007
+
+\b
+
+Backspace
+
+0x0008
+
+\f
+
+Form feed
+
+0x000C
+
+Strings and Characters
+
+|
+
+35
+
+C#
+Language
+Basics
+
+Unlike in C and C++, the &amp; and | operators perform (nonshort-circuiting) Boolean comparisons when applied to bool
+expressions. The &amp; and | operators perform bitwise operations
+only when applied to numbers.
+
+Char Meaning
+New line
+
+\n
+
+Value
+0x000A
+
+\r
+
+Carriage return 0x000D
+
+\t
+
+Horizontal tab
+
+0x0009
+
+\v
+
+Vertical tab
+
+0x000B
+
+The \u (or \x) escape sequence lets you specify any Unicode character via its fourdigit hexadecimal code:
+char copyrightSymbol = '\u00A9';
+char omegaSymbol
+= '\u03A9';
+char newLine
+= '\u000A';
+
+Char Conversions
+An implicit conversion from a char to a numeric type works for the numeric types
+that can accommodate an unsigned short. For other numeric types, an explicit con‐
+version is required.
+
+String Type
+C#’s string type (aliasing the System.String type, covered in depth in Chapter 6)
+represents an immutable sequence of Unicode characters. A string literal is specified
+inside double quotes:
+string a = &quot;Heat&quot;;
+
+string is a reference type, rather than a value type. Its equality
+
+operators, however, follow value-type semantics:
+string a = &quot;test&quot;;
+string b = &quot;test&quot;;
+Console.Write (a == b);
+
+// True
+
+The escape sequences that are valid for char literals also work inside strings:
+string a = &quot;Here's a tab:\t&quot;;
+
+The cost of this is that whenever you need a literal backslash, you must write it
+twice:
+string a1 = &quot;\\\\server\\fileshare\\helloworld.cs&quot;;
+
+To avoid this problem, C# allows verbatim string literals. A verbatim string literal is
+prefixed with @ and does not support escape sequences. The following verbatim
+string is identical to the preceding one:
+string a2 = @ &quot;\\server\fileshare\helloworld.cs&quot;;
+
+A verbatim string literal can also span multiple lines:
+string escaped = &quot;First Line\r\nSecond Line&quot;;
+string verbatim = @&quot;First Line
+
+36
+
+|
+
+Chapter 2: C# Language Basics
+
+Second Line&quot;;
+// True if your IDE uses CR-LF line separators:
+Console.WriteLine (escaped == verbatim);
+
+You can include the double-quote character in a verbatim literal by writing it twice:
+C#
+Language
+Basics
+
+string xml = @&quot;&lt;customer id=&quot;&quot;123&quot;&quot;&gt;&lt;/customer&gt;&quot;;
+
+String concatenation
+The + operator concatenates two strings:
+string s = &quot;a&quot; + &quot;b&quot;;
+
+One of the operands may be a nonstring value, in which case ToString is called on
+that value. For example:
+string s = &quot;a&quot; + 5;
+
+// a5
+
+Using the + operator repeatedly to build up a string is inefficient: a better solution is
+to use the System.Text.StringBuilder type (described in Chapter 6).
+
+String interpolation (C# 6)
+A string preceded with the $ character is called an interpolated string. Interpolated
+strings can include expressions inside braces:
+int x = 4;
+Console.Write ($&quot;A square has {x} sides&quot;);
+
+// Prints: A square has 4 sides
+
+Any valid C# expression of any type can appear within the braces, and C# will con‐
+vert the expression to a string by calling its ToString method or equivalent. You can
+change the formatting by appending the expression with a colon and a format string
+(format strings are described in “Formatting and parsing” on page 233 in Chap‐
+ter 6):
+string s = $&quot;255 in hex is {byte.MaxValue:X2}&quot;;
+// Evaluates to &quot;255 in hex is FF&quot;
+
+// X2 = 2-digit Hexadecimal
+
+Interpolated strings must complete on a single line, unless you also specify the ver‐
+batim string operator. Note that the $ operator must come before @:
+int x = 2;
+string s = $@&quot;this spans {
+x} lines&quot;;
+
+To include a brace literal in an interpolated string, repeat the desired brace charac‐
+ter.
+
+String comparisons
+string does not support &lt; and &gt; operators for comparisons. You must use the
+string’s CompareTo method, described in Chapter 6.
+
+Strings and Characters
+
+|
+
+37
+
+Arrays
+An array represents a fixed number of variables (called elements) of a particular
+type. The elements in an array are always stored in a contiguous block of memory,
+providing highly efficient access.
+An array is denoted with square brackets after the element type. For example:
+char[] vowels = new char[5];
+
+// Declare an array of 5 characters
+
+Square brackets also index the array, accessing a particular element by position:
+vowels[0] = 'a';
+vowels[1] = 'e';
+vowels[2] = 'i';
+vowels[3] = 'o';
+vowels[4] = 'u';
+Console.WriteLine (vowels[1]);
+
+// e
+
+This prints “e” because array indexes start at 0. We can use a for loop statement to
+iterate through each element in the array. The for loop in this example cycles the
+integer i from 0 to 4:
+for (int i = 0; i &lt; vowels.Length; i++)
+Console.Write (vowels[i]);
+// aeiou
+
+The Length property of an array returns the number of elements in the array. Once
+an array has been created, its length cannot be changed. The System.Collection
+namespace and subnamespaces provide higher-level data structures, such as
+dynamically sized arrays and dictionaries.
+An array initialization expression lets you declare and populate an array in a single
+step:
+char[] vowels = new char[] {'a','e','i','o','u'};
+
+or simply:
+char[] vowels = {'a','e','i','o','u'};
+
+All arrays inherit from the System.Array class, providing common services for all
+arrays. These members include methods to get and set elements regardless of the
+array type, and are described in “The Array Class” on page 297 in Chapter 7.
+
+Default Element Initialization
+Creating an array always preinitializes the elements with default values. The default
+value for a type is the result of a bitwise zeroing of memory. For example, consider
+creating an array of integers. Since int is a value type, this allocates 1,000 integers in
+one contiguous block of memory. The default value for each element will be 0:
+int[] a = new int[1000];
+Console.Write (a[123]);
+
+38
+
+|
+
+Chapter 2: C# Language Basics
+
+// 0
+
+Value types versus reference types
+Whether an array element type is a value type or a reference type has important per‐
+formance implications. When the element type is a value type, each element value is
+allocated as part of the array. For example:
+public struct Point { public int X, Y; }
+...
+Point[] a = new Point[1000];
+int x = a[500].X;
+
+// 0
+
+public class Point { public int X, Y; }
+...
+Point[] a = new Point[1000];
+int x = a[500].X;
+
+// Runtime error, NullReferenceException
+
+To avoid this error, we must explicitly instantiate 1,000 Points after instantiating the
+array:
+Point[] a = new Point[1000];
+for (int i = 0; i &lt; a.Length; i++) // Iterate i from 0 to 999
+a[i] = new Point();
+// Set array element i with new point
+
+An array itself is always a reference type object, regardless of the element type. For
+instance, the following is legal:
+int[] a = null;
+
+Multidimensional Arrays
+Multidimensional arrays come in two varieties: rectangular and jagged. Rectangular
+arrays represent an n-dimensional block of memory, and jagged arrays are arrays of
+arrays.
+
+Rectangular arrays
+Rectangular arrays are declared using commas to separate each dimension. The fol‐
+lowing declares a rectangular two-dimensional array, where the dimensions are
+3 x 3:
+int[,] matrix = new int[3,3];
+
+The GetLength method of an array returns the length for a given dimension (start‐
+ing at 0):
+for (int i = 0; i &lt; matrix.GetLength(0); i++)
+for (int j = 0; j &lt; matrix.GetLength(1); j++)
+matrix[i,j] = i * 3 + j;
+
+Arrays
+
+|
+
+39
+
+C#
+Language
+Basics
+
+Had Point been a class, creating the array would have merely allocated 1,000 null
+references:
+
+A rectangular array can be initialized as follows (to create an array identical to the
+previous example):
+int[,] matrix = new int[,]
+{
+{0,1,2},
+{3,4,5},
+{6,7,8}
+};
+
+Jagged arrays
+Jagged arrays are declared using successive square brackets to represent each
+dimension. Here is an example of declaring a jagged two-dimensional array, where
+the outermost dimension is 3:
+int[][] matrix = new int[3][];
+
+Interestingly, this is new int[3][] and not new int[][3].
+Eric Lippert has written an excellent article on why this is so:
+see http://albahari.com/jagged.
+
+The inner dimensions aren’t specified in the declaration because, unlike a rectangu‐
+lar array, each inner array can be an arbitrary length. Each inner array is implicitly
+initialized to null rather than an empty array. Each inner array must be created
+manually:
+for (int i = 0; i &lt; matrix.Length; i++)
+{
+matrix[i] = new int[3];
+// Create inner array
+for (int j = 0; j &lt; matrix[i].Length; j++)
+matrix[i][j] = i * 3 + j;
+}
+
+A jagged array can be initialized as follows (to create an array identical to the previ‐
+ous example with an additional element at the end):
+int[][] matrix = new int[][]
+{
+new int[] {0,1,2},
+new int[] {3,4,5},
+new int[] {6,7,8,9}
+};
+
+Simplified Array Initialization Expressions
+There are two ways to shorten array initialization expressions. The first is to omit
+the new operator and type qualifications:
+char[] vowels = {'a','e','i','o','u'};
+int[,] rectangularMatrix =
+{
+{0,1,2},
+{3,4,5},
+
+40
+
+|
+
+Chapter 2: C# Language Basics
+
+{6,7,8}
+};
+
+The second approach is to use the var keyword, which tells the compiler to implic‐
+itly type a local variable:
+var i = 3;
+var s = &quot;sausage&quot;;
+
+// i is implicitly of type int
+// s is implicitly of type string
+
+// Therefore:
+var rectMatrix = new int[,]
+{
+{0,1,2},
+{3,4,5},
+{6,7,8}
+};
+
+// rectMatrix is implicitly of type int[,]
+
+var jaggedMat = new int[][]
+{
+new int[] {0,1,2},
+new int[] {3,4,5},
+new int[] {6,7,8}
+};
+
+// jaggedMat is implicitly of type int[][]
+
+Implicit typing can be taken one stage further with arrays: you can omit the type
+qualifier after the new keyword and have the compiler infer the array type:
+var vowels = new[] {'a','e','i','o','u'};
+
+// Compiler infers char[]
+
+For this to work, the elements must all be implicitly convertible to a single type (and
+at least one of the elements must be of that type, and there must be exactly one best
+type). For example:
+var x = new[] {1,10000000000};
+
+// all convertible to long
+
+Bounds Checking
+All array indexing is bounds-checked by the runtime. An IndexOutOfRangeExcep
+tion is thrown if you use an invalid index:
+int[] arr = new int[3];
+arr[3] = 1;
+
+// IndexOutOfRangeException thrown
+
+As with Java, array bounds checking is necessary for type safety and simplifies
+debugging.
+
+Arrays
+
+|
+
+41
+
+C#
+Language
+Basics
+
+int[][] jaggedMatrix =
+{
+new int[] {0,1,2},
+new int[] {3,4,5},
+new int[] {6,7,8}
+};
+
+Generally, the performance hit from bounds checking is
+minor, and the JIT (just-in-time) compiler can perform opti‐
+mizations, such as determining in advance whether all indexes
+will be safe before entering a loop, thus avoiding a check on
+each iteration. In addition, C# provides “unsafe” code that can
+explicitly bypass bounds checking (see “Unsafe Code and
+Pointers” on page 187 in Chapter 4).
+
+Variables and Parameters
+A variable represents a storage location that has a modifiable value. A variable can
+be a local variable, parameter (value, ref, or out), field (instance or static), or array
+element.
+
+The Stack and the Heap
+The stack and the heap are the places where variables and constants reside. Each has
+very different lifetime semantics.
+
+Stack
+The stack is a block of memory for storing local variables and parameters. The stack
+logically grows and shrinks as a function is entered and exited. Consider the follow‐
+ing method (to avoid distraction, input argument checking is ignored):
+static int Factorial (int x)
+{
+if (x == 0) return 1;
+return x * Factorial (x-1);
+}
+
+This method is recursive, meaning that it calls itself. Each time the method is
+entered, a new int is allocated on the stack, and each time the method exits, the int
+is deallocated.
+
+Heap
+The heap is a block of memory in which objects (i.e., reference-type instances)
+reside. Whenever a new object is created, it is allocated on the heap, and a reference
+to that object is returned. During a program’s execution, the heap starts filling up as
+new objects are created. The runtime has a garbage collector that periodically deal‐
+locates objects from the heap, so your program does not run out of memory. An
+object is eligible for deallocation as soon as it’s not referenced by anything that’s
+itself “alive.”
+In the following example, we start by creating a StringBuilder object referenced by
+the variable ref1, and then write out its content. That StringBuilder object is then
+immediately eligible for garbage collection, because nothing subsequently uses it.
+
+42
+
+|
+
+Chapter 2: C# Language Basics
+
+Then, we create another StringBuilder referenced by variable ref2, and copy that
+reference to ref3. Even though ref2 is not used after that point, ref3 keeps the
+same StringBuilder object alive—ensuring that it doesn’t become eligible for col‐
+lection until we’ve finished using ref3:
+C#
+Language
+Basics
+
+using System;
+using System.Text;
+class Test
+{
+static void Main()
+{
+StringBuilder ref1 = new StringBuilder (&quot;object1&quot;);
+Console.WriteLine (ref1);
+// The StringBuilder referenced by ref1 is now eligible for GC.
+StringBuilder ref2 = new StringBuilder (&quot;object2&quot;);
+StringBuilder ref3 = ref2;
+// The StringBuilder referenced by ref2 is NOT yet eligible for GC.
+Console.WriteLine (ref3);
+
+// object2
+
+}
+}
+
+Value-type instances (and object references) live wherever the variable was declared.
+If the instance was declared as a field within a class type, or as an array element, that
+instance lives on the heap.
+You can’t explicitly delete objects in C#, as you can in C++. An
+unreferenced object is eventually collected by the garbage col‐
+lector.
+
+The heap also stores static fields. Unlike objects allocated on the heap (which can
+get garbage-collected), these live until the application domain is torn down.
+
+Definite Assignment
+C# enforces a definite assignment policy. In practice, this means that outside of an
+unsafe context, it’s impossible to access uninitialized memory. Definite assignment
+has three implications:
+• Local variables must be assigned a value before they can be read.
+• Function arguments must be supplied when a method is called (unless marked
+as optional—see “Optional parameters” on page 48).
+• All other variables (such as fields and array elements) are automatically initial‐
+ized by the runtime.
+For example, the following code results in a compile-time error:
+
+Variables and Parameters
+
+|
+
+43
+
+static void Main()
+{
+int x;
+Console.WriteLine (x);
+}
+
+// Compile-time error
+
+Fields and array elements are automatically initialized with the default values for
+their type. The following code outputs 0, because array elements are implicitly
+assigned to their default values:
+static void Main()
+{
+int[] ints = new int[2];
+Console.WriteLine (ints[0]);
+}
+
+// 0
+
+The following code outputs 0, because fields are implicitly assigned a default value:
+class Test
+{
+static int x;
+static void Main() { Console.WriteLine (x); }
+}
+
+// 0
+
+Default Values
+All type instances have a default value. The default value for the predefined types is
+the result of a bitwise zeroing of memory:
+Type
+
+Default value
+
+All reference types
+
+null
+
+All numeric and enum types 0
+char type
+
+'\0'
+
+bool type
+
+false
+
+You can obtain the default value for any type with the default keyword (in practice,
+this is useful with generics which we’ll cover in Chapter 3):
+decimal d = default (decimal);
+
+The default value in a custom value type (i.e., struct) is the same as the default
+value for each field defined by the custom type.
+
+Parameters
+A method has a sequence of parameters. Parameters define the set of arguments
+that must be provided for that method. In this example, the method Foo has a single
+parameter named p, of type int:
+static void Foo (int p)
+{
+p = p + 1;
+
+44
+
+|
+
+Chapter 2: C# Language Basics
+
+// Increment p by 1
+
+Console.WriteLine (p);
+
+// Write p to screen
+
+}
+static void Main()
+{
+Foo (8);
+}
+
+// Call Foo with an argument of 8
+C#
+Language
+Basics
+
+You can control how parameters are passed with the ref and out modifiers:
+Parameter modifier Passed by Variable must be definitely assigned
+(None)
+
+Value
+
+Going in
+
+ref
+
+Reference
+
+Going in
+
+out
+
+Reference
+
+Going out
+
+Passing arguments by value
+By default, arguments in C# are passed by value, which is by far the most common
+case. This means a copy of the value is created when passed to the method:
+class Test
+{
+static void Foo (int p)
+{
+p = p + 1;
+Console.WriteLine (p);
+}
+static void Main()
+{
+int x = 8;
+Foo (x);
+Console.WriteLine (x);
+}
+
+// Increment p by 1
+// Write p to screen
+
+// Make a copy of x
+// x will still be 8
+
+}
+
+Assigning p a new value does not change the contents of x, since p and x reside in
+different memory locations.
+Passing a reference-type argument by value copies the reference, but not the object.
+In the followi</pre></div>                                                                    </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr style="height:60px">
+                    <td id="footer" valign="top">
+                        <div class="container-fluid">
+<!-- footer begin -->
+<div class="row">
+    <div class="col-md-12">
+        <div style="float:left; color:#888; font-size:13px;">
+            <span style="font-style:italic;">Free ebooks since 2009. <a style="margin:0 5px 0 20px" href="mailto:support@bookmail.org">support@bookmail.org</a></span>
+            <span style="margin:0 0 0 15px;"> <a href="/faq.php">FAQ</a></span>
+            <span style="margin:0 0 0 15px;"> <a href="/blog/">Blog</a></span>
+        </div>
+        <div style="float: right;" role="navigation">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/privacy.php">Privacy</a></li>
+                <li><a href="/dmca.php">DMCA</a></li>
+                <li class="dropup">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">English <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a onclick="setLanguage('en'); return false;" href="//en.b-ok.cc/book/2621411/99dbcf">English</a></li><li><a onclick="setLanguage('ru'); return false;" href="//ru.b-ok.cc/book/2621411/99dbcf">Русский</a></li><li><a onclick="setLanguage('ua'); return false;" href="//ua.b-ok.cc/book/2621411/99dbcf">Українська</a></li><li><a onclick="setLanguage('pl'); return false;" href="//pl.b-ok.cc/book/2621411/99dbcf">Polski</a></li><li><a onclick="setLanguage('it'); return false;" href="//it.b-ok.cc/book/2621411/99dbcf">Italiano</a></li><li><a onclick="setLanguage('es'); return false;" href="//es.b-ok.cc/book/2621411/99dbcf">Español</a></li><li><a onclick="setLanguage('zh'); return false;" href="//zh.b-ok.cc/book/2621411/99dbcf">汉语</a></li><li><a onclick="setLanguage('id'); return false;" href="//id.b-ok.cc/book/2621411/99dbcf">Bahasa Indonesia</a></li><li><a onclick="setLanguage('in'); return false;" href="//in.b-ok.cc/book/2621411/99dbcf">हिन्दी</a></li><li><a onclick="setLanguage('pt'); return false;" href="//pt.b-ok.cc/book/2621411/99dbcf">Português</a></li><li><a onclick="setLanguage('jp'); return false;" href="//jp.b-ok.cc/book/2621411/99dbcf">日本語</a></li><li><a onclick="setLanguage('de'); return false;" href="//de.b-ok.cc/book/2621411/99dbcf">Deutsch</a></li><li><a onclick="setLanguage('fr'); return false;" href="//fr.b-ok.cc/book/2621411/99dbcf">Français</a></li><li><a onclick="setLanguage('th'); return false;" href="//th.b-ok.cc/book/2621411/99dbcf">ภาษาไทย</a></li><li><a onclick="setLanguage('el'); return false;" href="//el.b-ok.cc/book/2621411/99dbcf">ελληνικά </a></li><li><a onclick="setLanguage('ar'); return false;" href="//ar.b-ok.cc/book/2621411/99dbcf">اللغة العربية</a></li>                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div></div>
+                    </td>
+                </tr>
+            </tbody></table>
+
+
+        <script type="text/javascript" src="/scripts/root.js?version=1x03"></script>
+        <script type="text/javascript" src="/ext/paginator3000/jquery.paginator.3000.js"></script>
+        <script>
+            if (typeof pagerOptions !== "undefined" && pagerOptions) {
+                $('div.paginator').paginator(pagerOptions);
+            }
+        </script>
+        <!-- ggAdditionalHtml -->
+        
+    <script>
+        var Config = {"currentLanguage":"en","L":{"90":"The file is located on an external resource","91":"It is a folder","92":"File from disk storage","93":"File is aviable by direct link","94":"Popular","95":"Limitation of downloading: no more than 2 files at same time","96":"Size","97":" Language","98":"Category","99":"Find all the author's book"}};
+    </script>
+    <!--LiveInternet counter--><script type="text/javascript">
+new Image().src = "//counter.yadro.ru/hit;bookzz?r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random();</script><!--/LiveInternet-->
+
+<iframe name="uploader" id="uploader" style="border:0px solid #ddd; width:90%; display:none;"></iframe>        <!-- /ggAdditionalHtml -->
+        <script src="/adhelper/helpers.js"></script><script src="/adhelper/jquert.jsRotate.js"></script>    </body>
+</html>

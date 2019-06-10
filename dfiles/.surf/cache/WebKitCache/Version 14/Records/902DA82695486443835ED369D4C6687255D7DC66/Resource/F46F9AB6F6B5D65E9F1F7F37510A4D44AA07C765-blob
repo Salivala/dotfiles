@@ -1,0 +1,445 @@
+//Math UTILS.
+
+Math.randomBetween = function (a, b) {
+    return Math.random() * (b - a + 1) + a;
+};
+Math.getRandomInt = function (min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+Math.getRandomFloat = function (min, max) {
+    return (Math.random() * (max - min) + min).toFixed(2);
+}
+
+
+function intializeRichload() {
+
+
+    function initAnimation() {
+
+        timeline
+
+
+            .to([container, bg, txt_f1_A], 0.25, {autoAlpha: 1, ease: Power2.easeOut}, "start")
+
+            .add('firstFrame', "+=0.25")
+
+
+            .add('secondFrame', "+=1")
+            .to(txt_f1_A, 0.6, {autoAlpha: 0, ease: Power4.easeOut}, "secondFrame")
+
+
+            .fromTo(device, 0.6, {y: 0, autoAlpha: 1, ease: Power4.easeOut, transformOrigin: "10% 50%"},
+                {y: 250, autoAlpha: 0, force3D: false}, "secondFrame")
+
+            .from(txt_f1_B, 0.6, {y: "-=50", autoAlpha: 0, ease: Power4.easeOut}, "thirdFrame-=0.5")
+
+            .add('thirdFrame', "+=.5")
+            .to(txt_f1_B, 0.6, {autoAlpha: 0, ease: Power4.easeOut}, "thirdFrame+=0.3")
+            .to(contract, 0.6, {autoAlpha: 0}, "thirdFrame")
+
+
+            .from(contractLeft, 0, {transformOrigin: "100% 100%"})
+            .from(contractRight, 0, {transformOrigin: "0% 100%"})
+
+
+            .set(contract, {autoAlpha: 0}, "contractAnim")
+            .from(txt_f2_A, 0.6, {y: "+=150", autoAlpha: 0, ease: Power4.easeOut}, "contractAnim")
+            .to(contract, 0.6, {autoAlpha: 0, ease: Power4.easeOut}, "contractAnim")
+
+
+            .to(contractLeft, 0.1, {x: "+=2", ease: Power1.easeOut}, "contractAnim")
+            .to(contractRight, 0.1, {x: "0", ease: Power1.easeOut}, "contractAnim")
+
+
+            .to(contractLeft, 0.15, {rotation: -32, ease: Power1.easeOut}, "contractAnim").delay(1.15)
+            .to(contractRight, 0.15, {rotation: +15, ease: Power1.easeOut}, "contractAnim").delay(1.15)
+
+            .fromTo([contractLeft, contractRight], 0.25, {y: 0, ease: Power4.easeOut}, {
+                y: 400,
+                ease: Power4.easeOut
+            }, "contractAnim+=1.6")
+
+
+            .to(txt_f2_A, 1, {y: 250, autoAlpha: 0, ease: Power4.easeOut}, "contractAnim+=1.6")
+
+            .add('thirdFrame', "+=.5")
+
+
+
+            // .fromTo(contract, 1, {y: 0, autoAlpha: 1, ease: Power4.easeOut, transformOrigin: "10% 50%"},
+            //     {y: 250, autoAlpha: 0, force3D: false}, "thirdFrame+=.3")
+
+
+            .add('lockout', "-=.5")
+            .to(uscLogo, 0.25, {autoAlpha: 1, ease: Power2.easeOut}, "lockout")
+            .staggerTo([txt_lockout_A, txt_lockout_B, txt_lockout_C, txt_lockout_D], .6, {
+                autoAlpha: 1,
+                ease: Power4.easeOut
+            }, 0.3, "lockout")
+
+            .fromTo(line1A, 0.3, {scaleX: 0.01, opacity: 0, transformOrigin: "50% 50%"},
+                {scaleX: 1, opacity: 1, rotationZ: 0.01, ease: Power4.easeOut,}, "lockout+=.9")
+
+            .fromTo(line1B, 0.3, {scaleX: 0.01, opacity: 0, transformOrigin: "50% 50%"},
+                {scaleX: 1, opacity: 1, rotationZ: 0.01, ease: Power4.easeOut}, "lockout+=.9")
+
+            .fromTo(line3A, 0.2, {scaleX: 0.01, opacity: 0, transformOrigin: "50% 50%"},
+                {scaleX: 1, opacity: 1, rotationZ: 0.01, ease: Power4.easeOut,}, "lockout+=.8")
+
+            .fromTo(line3B, 0.2, {scaleX: 0.01, opacity: 0, transformOrigin: "50% 50%"},
+                {scaleX: 1, opacity: 1, rotationZ: 0.01, ease: Power4.easeOut}, "lockout+=.8")
+
+            .to([ctaBtn, legalText], .6, {autoAlpha: 1, ease: Power4.easeOut}, "lockout+=1")
+
+            .call(function (state) {
+                var snipeTL = new TimelineMax();
+                if (!state) {
+                    snipeTL.to(snipe, 0.35, {autoAlpha: 1}, "lockout+=1.5")
+                        .from(snipe, 0.25, {scale: 1.45}, "lockout+=1.5")
+                }
+                return snipeTL;
+            }, [snipeStartOn], this, "lockout+=1.5")
+
+            .call(onOverCTA, [], this, "+=0.5")
+
+            .play();
+    }
+
+
+    //define timeline
+    var timeline = new TimelineMax({paused: true, smoothChildTiming: true});
+
+    var txt_f1_A = getAssets("#txt_f1_A");
+    var txt_f1_B = getAssets("#txt_f1_B");
+    var txt_f2_A = getAssets("#txt_f2_A");
+    var txt_f2_B = getAssets("#txt_f2_B");
+    var txt_lockout_A = getAssets("#txt_lockout_A");
+    var txt_lockout_B = getAssets("#txt_lockout_B");
+    var txt_lockout_C = getAssets("#txt_lockout_C");
+    var txt_lockout_D = getAssets("#txt_lockout_D");
+    var line1A = getAssets("#line1A");
+    var line1B = getAssets("#line1B");
+    var line3A = getAssets("#line3A");
+    var line3B = getAssets("#line3B");
+
+
+    var device = getAssets("#device");
+    var contract = getAssets("#contract");
+    var contractLeft = getAssets("#contractLeft");
+    var contractRight = getAssets("#contractRight");
+
+
+    //recurring elements below
+
+    var container = getAssets("#container");
+    var uscLogo = getAssets("#uscLogo");
+    var uscLogoWhite = getAssets("#uscLogoWhite");
+    var lockout = getAssets("#lockout");
+
+    var snipe = getAssets("#snipe");
+    var snipeText = getAssets("#snipeText");
+    var snipeGradient = getAssets("#snipeGradient");
+
+    var ctaBtn = getAssets("#cta_btn");
+    var ctaText = getAssets(".cta-text");
+    var ctaGradient = getAssets("#cta_gradient");
+
+    var legalText = getAssets("#legal_text");
+    var legalIAText = getAssets("#legal_ia_text");
+
+    var legalDetails = getAssets("#legal_details");
+    var legalDetailsText = getAssets("#legal_details_text");
+
+    var bg = getAssets("#bg");
+
+    var snipeStartOn = false;
+    var isLegalHidden = true;
+    var isWebkit = navigator.userAgent.indexOf('AppleWebKit') != -1;
+
+
+    // ====================================================================
+    // DYNAMIC IA SETUP
+    // populate instantAd components
+
+    myFT.on("instantads", function () {
+
+        clickThroughURL = myFT.instantAds.clickTagURL;
+        myFT.applyClickTag(container, 1, clickThroughURL);
+
+        // you can use a callback or
+        var cb = function () {
+            myFT.tracker("bannerClick", "banner container clicked");
+        };
+        myFT.applyButton(container, cb);
+
+
+        /*-----------------
+        * TEXT FIELDS
+        ------------------------------*/
+
+        var textFields = [txt_f1_A, txt_f1_B, txt_f2_A, txt_f2_B, txt_lockout_A, txt_lockout_B, txt_lockout_C, txt_lockout_D]
+
+        for (var i = 0; i < textFields.length; ++i) {
+
+            var assetName = String(textFields[i].id);
+            var props = splitValues(myFT.instantAds[assetName + 'Props']);
+
+            textFields[i].innerHTML = myFT.instantAds[assetName];
+            textFields[i].style.fontSize = props[0];
+            textFields[i].style.lineHeight = props[1];
+            textFields[i].style.color = props[2];
+            textFields[i].style.textAlign = props[3];
+            textFields[i].style.left = props[4];
+            textFields[i].style.top = props[5];
+
+        }
+
+
+        /*-----------------
+        * DIVs WITH BG IMAGE
+        ------------------------------*/
+
+        var imageFields = [uscLogo, device, contract, contractLeft, contractRight];
+
+        for (var i = 0; i < imageFields.length; ++i) {
+
+            var assetName = imageFields[i].id.toString();
+            var props = splitValues(myFT.instantAds[assetName + 'SizePosZ']);
+            var bgSrc = "url(" + myFT.instantAds[assetName] + ")";
+            console.log("assetName ", assetName, " ", bgSrc);
+
+            imageFields[i].style.position = "absolute";
+            imageFields[i].style.backgroundSize = "100% 100%, 100% 100%";
+            imageFields[i].style.backgroundRepeat = "no-repeat";
+            imageFields[i].style.backgroundImage = bgSrc;
+            imageFields[i].style.width = props[0];
+            imageFields[i].style.height = props[1];
+            imageFields[i].style.left = props[2];
+            imageFields[i].style.top = props[3];
+            imageFields[i].style.zIndex = props[4];
+
+            if (assetName == 'uscLogo' && uscLogoWhite != undefined) {
+
+                uscLogoWhite.style.position = "absolute";
+                uscLogoWhite.style.backgroundSize = "100% 100%, 100% 100%";
+                uscLogoWhite.style.backgroundRepeat = "no-repeat";
+                uscLogoWhite.style.backgroundImage = bgSrc;
+                uscLogoWhite.style.width = props[0];
+                uscLogoWhite.style.height = props[1];
+                uscLogoWhite.style.left = props[2];
+                uscLogoWhite.style.top = props[3];
+                uscLogoWhite.style.zIndex = props[4];
+            }
+        }
+
+
+        /*-----------------
+        * LINES
+        ------------------------------*/
+
+        var lines = [line1A, line1B, line3A, line3B];
+
+        for (var i = 0; i < lines.length; ++i) {
+
+            var assetName = lines[i].id.toString();
+            var props = splitValues(myFT.instantAds[assetName + 'SizePosZColor']);
+
+            lines[i].style.width = props[0];
+            lines[i].style.height = props[1];
+            lines[i].style.left = props[2];
+            lines[i].style.top = props[3];
+            lines[i].style.zIndex = props[4];
+            lines[i].style.backgroundColor = props[5];
+        }
+
+
+        var lockoutProps = splitValues(myFT.instantAds.lockoutWidthPos);
+        lockout.style.width = lockoutProps[0];
+        lockout.style.left = lockoutProps[1];
+        lockout.style.top = lockoutProps[2];
+
+        var ctaTextProps = splitValues(myFT.instantAds.ctaTextProps);
+        ctaText.innerHTML = myFT.instantAds.cta;
+        ctaText.style.fontSize = ctaTextProps[0];
+        ctaText.style.lineHeight = ctaTextProps[1];
+        ctaText.style.color = ctaTextProps[2];
+        ctaText.style.textAlign = ctaTextProps[3];
+        ctaText.style.left = ctaTextProps[4];
+        ctaText.style.top = ctaTextProps[5];
+
+        var ctaButtonProps = splitValues(myFT.instantAds.ctaSizePosZ);
+        ctaBtn.style.width = ctaButtonProps[0];
+        ctaBtn.style.height = ctaButtonProps[1];
+        ctaBtn.style.left = ctaButtonProps[2];
+        ctaBtn.style.top = ctaButtonProps[3];
+        ctaBtn.style.zIndex = ctaButtonProps[4];
+
+        var legalTextProps = splitValues(myFT.instantAds.legalTextProps);
+        legalIAText.innerHTML = myFT.instantAds.legal;
+        legalIAText.style.fontSize = legalTextProps[0];
+        legalIAText.style.lineHeight = legalTextProps[1];
+        legalIAText.style.color = legalTextProps[2];
+        legalText.style.textAlign = legalTextProps[3];
+        legalIAText.style.left = legalTextProps[4];
+        legalIAText.style.top = legalTextProps[5];
+
+        var legalHolderProps = splitValues(myFT.instantAds.legalSizePosZ);
+        legalText.style.width = legalHolderProps[0];
+        legalText.style.height = legalHolderProps[1];
+        legalText.style.left = legalHolderProps[2];
+        legalText.style.top = legalHolderProps[3];
+        legalText.style.zIndex = legalHolderProps[4];
+
+
+        // // check to see if there are legal details that would display on click
+        if (myFT.instantAds.legalDetails != "") {
+
+            var legalDetailsSizeProps = splitValues(myFT.instantAds.legalDetailsSizePosZ);
+            legalDetailsText.innerHTML = myFT.instantAds.legalDetails;
+            legalDetails.style.width = legalDetailsSizeProps[0];
+            legalDetails.style.height = legalDetailsSizeProps[1];
+            legalDetails.style.left = legalDetailsSizeProps[2];
+            legalDetails.style.top = legalDetailsSizeProps[3];
+            legalDetails.style.zIndex = legalDetailsSizeProps[4];
+        }
+
+
+        // SNIPE
+        snipe.style.display = "none";
+
+        if (myFT.instantAds.showSnipe == "yes") {
+
+            if (myFT.instantAds.snipeDate != "" && myFT.instantAds.snipeText != "") {
+
+                snipeStartOn = false;
+
+                var dateRegexp = /(\d{1,2})\/(\d{1,2})\/(\d{4})/;
+                var date = dateRegexp.exec(myFT.instantAds.snipeDate);
+
+                if (date !== null) {
+
+                    var daysLeft = countdown(date[1], date[2], date[3]);
+                    var maxDayCount = myFT.instantAds.snipeDayCount;
+
+                    if (daysLeft <= maxDayCount && daysLeft > 0) {
+                        snipe.style.display = "flex";
+                        snipeText.innerHTML = (daysLeft == 1) ? 'LAST DAY' : '<span class="snipeBold" style="padding-right:1px;">' + daysLeft + '</span> DAYS LEFT'
+                    }
+
+                }
+            } else if (String(myFT.instantAds.snipeText).toLowerCase() == "prepaid") {
+                snipeStartOn = true;
+
+                snipe.style.display = "flex";
+                snipe.style.height = (snipe.clientHeight + 5) + 'px';
+                snipe.style.top = (snipe.offsetTop - 4) + 'px';
+                snipe.style.backgroundColor = "#FFFFFF";
+                snipe.style.textTransform = "none";
+                snipe.style.boxShadow = "0px 0px 8px 0px rgba(0,0,0,0.05)";
+                snipeText.innerHTML = "<span class='medium' style='color:#EE3241;'>Pre</span><span class='medium' style='color:#0366A5;'>paid</span>";
+
+                var style = window.getComputedStyle(snipeText, null).getPropertyValue('font-size');
+                var fontSize = parseFloat(style);
+                snipeText.style.fontSize = (fontSize + 4) + 'px';
+
+            } else if (myFT.instantAds.snipeText != "") {
+                snipeStartOn = false;
+                snipe.style.display = "flex";
+                snipeText.innerHTML = myFT.instantAds.snipeText;
+
+                var style = window.getComputedStyle(snipeText, null).getPropertyValue('font-size');
+                var fontSize = parseFloat(style);
+                snipeText.style.fontSize = (fontSize + 2) + 'px';
+            }
+        }
+
+
+        initAnimation();
+
+    });
+
+
+    // Display related function
+    function onOverCTA() {
+        TweenMax.fromTo(ctaBtn, 0.2, {scale: 1, boxShadow: "0px 2px 8px -2px rgba(0,0,0,0.4)"},
+            {
+                scale: 1.08,
+                boxShadow: "6px 16px 10px -8px rgba(0,0,0,0.2)",
+                force3D: false,
+                transformOrigin: "center bottom"
+            }).yoyo(true).repeat(1);
+        TweenMax.fromTo(ctaGradient, 0.5, {x: 0}, {x: "+=350", ease: Power0.easeNone, force3D: false});
+        TweenMax.fromTo(snipeGradient, 0.5, {x: 0}, {x: "+=200", ease: Power0.easeNone, force3D: false});
+    }
+
+    function showLegal() {
+        TweenMax.to(legalDetails, 0.10, {autoAlpha: 1});
+        myFT.tracker("legalClick", "show legal");
+        isLegalHidden = false;
+    }
+
+    function hideLegal() {
+        TweenMax.to(legalDetails, 0.10, {autoAlpha: 0});
+        myFT.tracker("legalClick", "hide legal");
+        isLegalHidden = true;
+    }
+
+
+    //ADD SOME EVENT LISTENERS
+
+    myFT.applyButton(legalText, function () {
+        if (isLegalHidden) {
+            showLegal();
+        } else {
+            hideLegal();
+        }
+    });
+
+    myFT.applyButton(legalDetails, function () {
+        hideLegal();
+    });
+
+
+    // rollover visual on cta
+    container.onmouseenter = onOverCTA;
+
+
+    //CODE UTILS
+
+    function splitValues(values) {
+        return values.split(',');
+    }
+
+    function getAssets(cssPointer) {
+
+        // Return undefined, or
+        // a direct reference if only one match
+        // or the array of matches.
+
+        var a = myFT.$(cssPointer)
+        var returnVal = undefined;
+        if (a != undefined && a.length > 0)
+            returnVal = a.length == 1 ? a[0] : a;
+        return returnVal;
+    }
+
+    function applyBlur(tl) {
+        var blurElement = tl.target;
+        if (!isWebkit) {
+            cssFilter = {filter: "blur(" + blurElement.a + "px)"};
+        } else {
+            cssFilter = {'-webkit-filter': "blur(" + blurElement.a + "px)"};
+        }
+        TweenMax.set(blurElement.element, cssFilter);
+    }
+
+
+    function countdown(d, m, yr) {
+        var endDate = new Date(yr, m - 1, d, 23, 59, 59, 999)
+        var now = new Date()
+        var dayDiff = Math.floor((endDate - now) / (60 * 60 * 1000 * 24));
+        return dayDiff + 1;
+    }
+
+
+} // close the intializeRichload, using a call from base instead of an iife

@@ -1,0 +1,1050 @@
+/**********************************************************************/
+/* GLOBAL JAVASCRIPT SUPPORTING CODE TO BE LOADED JUST BEFORE </body> */
+/**********************************************************************/
+
+var ktbs = ktbs || { };
+
+
+var firstControlFocused = false;
+
+
+// Execute this work once the DOM is ready
+$(function () {
+
+    // Apply form styles as soon as content is rendered, but wait until the page is fully loaded
+    // before focusing the first field. Otherwise, the focus may not work correctly.
+    applyFormStyles({ focusFirstControl: false });
+
+    // Apply scripted page styles and fixes as soon as content is rendered to avoid FOUC (Flicker Of Unstyled Content).
+    applyPageStylesAndFixes();
+
+    // --- Prevent page from scrolling when listboxes are clicked - override input's focus() to do nothing --- //
+    var $lbNative = $('.dxeListBox .dxKBSW > INPUT[type="text"][readonly="readonly"]');
+    if ($lbNative.length && typeof $lbNative[0] === 'object')
+        $lbNative[0].focus = function () {}; // NOOP
+
+    // --- Hoist grid system messages above grid bar --- //
+    $('#grid_message_placeholder').first().each(function () {
+        var $gridMessages = $('DIV.grid-message');
+        if ($gridMessages.length) {
+            var $followingBreak = $gridMessages.next('BR.clear-inline-block');
+            $(this).append($gridMessages);
+            if ($followingBreak.length)
+                $(this).append($followingBreak);
+            else
+                $(this).append('<br class="clear-inline-block" />');
+            $gridMessages.removeClass('grid-message');
+            if ($('BODY').hasClass('ie7'))
+                $(this).show();
+            else
+                $(this).slideFadeToggle(900);
+        }
+    });
+
+    // --- Enforce a maximum text length for textareas, specified by the maxlength attribute
+    maxLengthSupport = !!document.createElement('textarea').maxLength;
+
+    if (!maxLengthSupport) {
+        $('TEXTAREA[maxlength]').bind('input propertychange', function () {
+            var maxLength = $(this).attr("maxlength");
+            if ($(this).val().length > maxLength) {
+                $(this).val($(this).val().substring(0, maxLength));
+            }
+        })
+    };
+
+    // --- Hide the SECTION#guidance sidebar if there is no content for it.
+    if (!$('SECTION#guidance *').length)
+        $('SECTION#guidance').remove();
+    else
+        $('SECTION#guidance').addClass('has-content');
+
+    // --- Force onChange event to fire after using autocomplete --- //
+    $('INPUT[type=text], INPUT[type=password], INPUT[type=file], INPUT[type=search]').change(function () {
+        var dummy = 0;
+    });
+
+
+    // --- Make the main navigation bar stick to the top of the page --- //
+    $(window).load(function () {
+        enableStickyNav();
+    });
+
+
+    if (!firstControlFocused) {
+        if (ktbs.focus_field.onload) {
+            $(window).load(function () {
+                focusFirstControl();
+            });
+        }
+        else
+            focusFirstControl();
+    }
+});
+
+
+
+
+/*
+Supporting code for forms using class="cssform"
+===============================================
+
+    ALTERNATIVE TO JQUERY MANIPULATING FORM FIELD ELEMENTS
+    ------------------------------------------------------
+    If a field is malfunctioning, try using the alternative preset HTML below. Ordinarily, the
+    fields of a form are managed using JavaScript. By using the preset HTML below, the field
+    will not be managed by script.
+    An example implementation can be found in Areas\Members\Views\Comments\CommentForm.ascx:
+
+    Instructions:
+      - Add class "preset" to the div for the field.
+      - Here's an example of the HTML. Notice that the example has class="required" on the label tag. Remove that class
+       if the field is not required.
+
+    <div class="preset">
+        <span class="field-validation-error validator"><%-- Place the validation message here --%></span>
+        <label class="required" for="<%-- Enter the value of the ID attribute for the control here --%>"><%-- Place the label text here --%>:</label>
+        <div class="controls">
+            <div>
+                <div class="control"><%-- Place the control here --%></div>
+                <div class="aside"><aside><%-- Place help text and/or icons here --%></aside></div>
+                <div class="aside"><aside><%-- Place more help/supplemental content here --%></aside></div>
+                <div class="aside"><aside><%-- Place more help/supplemental content here --%></aside></div>
+            </div>
+        </div>
+    </div>
+
+
+    OPTIONS
+    -------
+        root:
+            jQuery object of the fields' container. This should be the parent element of fieldsets.
+            This is useful for AJAX calls and will slightly improve performance. [default = $('.cssform')]
+        focusFirstControl:
+            Focuses the first visible, enabled control in the fields' container. [default = true]
+    EXAMPLE
+    -------
+        applyFormStyles({ root: $myroot, focusFirstControl: false });
+*/
+function applyFormStyles(options) {
+    setTimeout(
+        function () {
+            var focusFirst = true;
+            var $root = null;
+            if (typeof (options) === 'object') {
+                if ('focusFirstControl' in options && options.focusFirstControl === false)
+                    focusFirst = false;
+                if (typeof (options.root) === 'object')
+                    $root = options.root;
+            }
+            $root = $root !== null ? $root : $('.cssform');
+            if (!$root.length)
+                return;
+
+
+            // STEP 1: Prevent child divs and labels from being assigned primary form styling by
+            //         adding a class to top-level div and label.
+            $root.find('FIELDSET > DIV').each(function () {
+                var $fsdiv = $(this);
+                if (!$fsdiv.hasClass('applied') && !$fsdiv.hasClass('justify') && !$fsdiv.hasClass('fieldset-intro') && !$fsdiv.hasClass('buttons') && !$fsdiv.hasClass('option-list'))
+                    $fsdiv.addClass('field');
+            });
+            $root.find('DIV.field:not(.applied)').find('> LABEL:first').addClass('field').removeClass('dxeBase');
+
+            // STEP 2: Hoist the field error class to the field's DIV so that we can paint controls
+            //         that do not add their own error classes.
+            $root.find('DIV.field').each(function () {
+                var $field = $(this);
+                if (!$field.hasClass('applied')) {
+                    var $fieldValidationMessage = $field.children('.field-validation-error').first();
+                    if ($fieldValidationMessage.length && $.trim($fieldValidationMessage.text())) {
+                        $field.addClass('field-validation-error');
+                        $field.find('INPUT[type="text"]:not(.dxeEditArea), INPUT[type="password"]:not(.dxeEditArea)').addClass('error-frame');
+                    }
+                }
+            });
+
+            // STEP 3: Move label elements inside label tag.
+            $root.find('DIV.field:not(.applied) > .pre-label').each(function () {
+                var lbl = $(this).closest('DIV.field').children('LABEL.field').first();
+                if (lbl.length)
+                    lbl.prepend($(this));
+            });
+
+            // STEP 4: Add image for required fields (using image for screen readers that read the
+            //         alt text). Also use CSS for adding colons after labels.
+            $root.find('DIV.field').each(function () {
+                var $field = $(this);
+                if (!$field.hasClass('applied')) {
+                    $field.find('LABEL.field').each(function () {
+                        var $label = $(this);
+                        if ($label.text().match(/:\s*$/)) {
+                            $label
+                                .addClass('colon-after')
+                                .contents()
+                                .filter(function () {
+                                    return this.nodeType === 3; // text nodes only
+                                })
+                                .last()
+                                .each(function () {
+                                    $(this).replaceWith($(this).text().replace(/:\s*$/, ''));
+                                });
+                        }
+                        $label.append('<em class="required-indicator"><img src="' + ktbs.imagesFolderWebPath + 'glyph__required_star.png" alt="Required" title="Required" /></em>');
+                    });
+                }
+            });
+
+            // STEP 5: Converting relative URLs within inline styles to absolute secure URLs when
+            //         necessary to avoid a bug in IE that produces security warnings.
+            if (ktbs.browser.isIe) {
+                $root.find('DIV.field').each(function () {
+                    var $field = $(this);
+                    if (!$field.hasClass('applied')) {
+                        $field.find('*[style]').each(function () {
+                            var $el = $(this),
+                                style = $el.attr('style');
+                            if (style !== undefined && style.indexOf('url(') !== -1) {
+                                var urlRegEx = /(.*url\()(.*?)(\).*)/g;
+                                var match = urlRegEx.exec(style);
+                                $el.attr('style', match[1] + makeUrlSslAwareAndIeSafe(match[2]) + match[3]);
+                            }
+                        });
+                    }
+                });
+            }
+
+            // STEP 6: Set up containers for controls and help text
+            if (!('ktbs_cssform_ctid' in window) || typeof (window.ktbs_cssform_ctid) !== 'number')
+                window.ktbs_cssform_ctid = 0;
+            $root.find('DIV.field').each(function () {
+                var $field = $(this);
+                if (!$field.hasClass('applied') && !$field.hasClass('preset')) {
+                    $field.find('SCRIPT[id^="dxss"]').remove();
+                    $field.wrapInner('<div class="controls" id="ctid' + window.ktbs_cssform_ctid + '"><div><div class="control"></div></div></div>');
+                    $field.prepend($field.find('LABEL.field'));
+                    window.ktbs_cssform_ctid++;
+                }
+            });
+
+            // STEP 7: Move aside help text into containers adjacent to controls.
+            $root.find('DIV.controls ASIDE:not(.bottom, DIV.field.preset DIV.controls ASIDE, DIV.field.applied DIV.controls ASIDE)').each(function () {
+                var $this = $(this),
+                    $controlRow = $this.parent().parent();
+                if ($this.hasClass('top'))
+                    $this.parent().prepend($this);
+                else {
+                    $controlRow.children('DIV:last').after('<div class="aside' + ($this.hasClass('align-middle') ? ' align-middle' : '') + '" />');
+                    $controlRow.children('DIV:last').append($this);
+                }
+                if ($this.hasClass('always-adjacent'))
+                    $this.closest('DIV.field').addClass('aside-always-adjacent');
+            });
+
+            // STEP 8: Move designated text above controls.
+            $root.find('DIV.field:not(.applied) > DIV.controls > DIV > DIV.control > .above-control, DIV.field.preset:not(.applied) > .above-control').each(function () {
+                $(this).closest('DIV.field').find('DIV.controls > DIV > DIV.control:first').parent().parent().prepend('<div><div class="above-control" colspan="99" /></div>').find('DIV:first').prepend($(this));
+            });
+
+            // STEP 9: Highlight controls with errors. Move validation messages below controls and,
+            //         if message exists, adjust bottom spacing and show message.
+            $root.find('DIV.field:not(.applied) > DIV.controls > DIV > TD.control > SPAN.validator, DIV.field.preset:not(.applied) > SPAN.validator').each(function () {
+                var $this = $(this);
+                if ($.trim($this.text()).length) {
+                    $this.removeClass('empty');
+                    $this.parent().find('.dxeTextBox, .dxeMemo, .dxeButtonEdit, .dxheControl').addClass('error-frame');
+                }
+                else
+                    $this.addClass('empty');
+
+                var $control = $this.closest('DIV.field').find('DIV.controls .control'),
+                    $bottomAside = $control.find('ASIDE');
+                if ($bottomAside.length)
+                    $bottomAside.first().before($this);
+                else
+                    $control.append($this);
+            });
+
+            // STEP 10: Fix alignment for non-textbox/select controls
+            $root.find('DIV.field:not(.applied) DIV.controls DIV.control').each(function () {
+                var $this = $(this),
+                    $control = $this.find('.dxeValidStEditorTable .dxeButtonEdit, .dxeValidDynEditorTable .dxeTextBox, SELECT, TEXTAREA, INPUT[type="file"], INPUT[type="text"]:not(.dxeRadioButtonList INPUT[type="text"], .dxeHyperlink ~ .dxpcLite .dxeListBox INPUT[type="text"]), INPUT[type="password"], INPUT[type="search"], INPUT[type="email"], INPUT[type="number"], INPUT[type="date"], INPUT[type="color"], INPUT[type="range"], INPUT[type="month"], INPUT[type="week"], INPUT[type="time"], INPUT[type="datetime"], INPUT[type="datetime-local"], INPUT[type="tel"], INPUT[type="url"]'),
+                    $excludedParent = $control.closest('.dx-texteditor.dx-state-invisible');
+                if (!$control.length || !!$excludedParent.length)
+                    $this.addClass('baseline');
+            });
+
+            // STEP 11: Remove tab stop from hidden iframes used for popup help modals. Otherwise,
+            //          focus will be momentarily lost when tabbing by fields with help links.
+            $root.find('.dxpcContent IFRAME').attr('tabindex', '-1');
+
+            // STEP 12: Fix empty space near DevEx controls reserved for error info
+            fixErrorCells($root);
+
+
+            // STEP 13: Hoist control classes so that we can write better CSS
+            $root.find('.dxeTextBox').closest('.dxeRoot').addClass('dxeTextBoxHoist');
+            $root.find('.dxeButtonEdit').closest('.dxeRoot').addClass('dxeButtonEditHoist');
+            $root.find('.dxeRoot INPUT[type="checkbox"]').parent().addClass('checkboxHoist');
+
+            // STEP 14: Hoist textbox error class so that we can write better CSS
+            $root.find('.dxeRoot .dxeInvalid').closest('.dxeRoot').addClass('dxeInvalidHoist');
+
+            // STEP 15: Adjust alignment of aside help text based on content height.
+            $root.find('DIV.controls ASIDE:not(.bottom, .align-middle, .align-top, DIV.field.applied DIV.controls ASIDE)').each(function () {
+                var $this = $(this);
+                if ($this.height() > 20)
+                    $this.parent().addClass('align-top');
+            });
+
+            // STEP 16: Provide visual indication that a field is currently focused.
+            $root.find('FIELDSET DIV.field:not(.applied)').each(function () {
+                $(this).find('A, :input').focus(function () {
+                    $(this).closest('DIV.field').addClass('focused');
+                }).blur(function () {
+                    $(this).closest('DIV.field').removeClass('focused');
+                });
+            });
+
+            // STEP 17: Clear floats
+            $root.find('DIV.field:not(.applied)').append('<span class="clear-fix"></span>');
+
+            // STEP 18: Mark fields as processed in case applyFormStyles() is called again on the same root container.
+            $root.find('DIV.field:not(.applied)').addClass('applied');
+
+            // STEP 19: Run any JS code via event or declared on the root element before we reveal the form.
+            $root.trigger('beforeReveal');
+            if ($root.attr('data-before-reveal'))
+                eval($root.attr('data-before-reveal'));
+
+            // STEP 20: Add class to indicate that form enrichment is complete. Used to show form.
+            if ($root.hasClass('cssform'))
+                $root.addClass('formatting-applied');
+            else
+                $root.find('.cssform').addClass('formatting-applied');
+
+            // STEP 21: Run any JS code via event or declared on the root element after we reveal the form.
+            $root.trigger('afterReveal');
+            if ($root.attr('data-after-reveal'))
+                eval($root.attr('data-after-reveal'));
+
+            // STEP 22: Focus first control on form, looking first for any fields with errors.
+            // We'll let the execution of this functionality be toggled by the caller in case the caller
+            // wants to take responsibility for timing the focusing.
+            if ($root.attr('data-focus-after-reveal')) {
+                eval($root.attr('data-focus-after-reveal'));
+                firstControlFocused = true;
+            }
+            else if (focusFirst) {
+                focusFirstControl($root);
+                firstControlFocused = true;
+            }
+        },
+        0
+    );
+
+}
+
+function applyPageStylesAndFixes($root) {
+    if (!$root)
+        $root = $('BODY');
+    if (!$root.length)
+        return;
+
+
+    // wait to allow navigation to be sticky ... too soon and position:sticky can make the page jump around as content loads
+    $(window).load(function () {
+        if (!ktbs.isMobileDevice && !ktbs.renderMobileView)
+            $('html').removeClass('static-nav');
+    });
+
+
+    // Wrap text of external links inside a span so we can underline the text and not the icon
+    $root.find('A.external').each(function () {
+        var $this = $(this);
+        if (!$this.children('SPAN').length) {
+            $this.html($this.html().trim());
+            $this.wrapInner('<span />');
+        }
+    });
+
+    // Remove focus from buttons after being clicked by mouse so the focus ring doesn't show.
+    // The focus ring will still show for keyboard users that tab onto buttons and use the spacebar to click.
+    $root.on('mouseup', 'A.btn, BUTTON, INPUT[type="button"], INPUT[type="reset"], INPUT[type="submit"]', function () { this.blur(); });
+
+    // --- MENU.sidebar complimentary code --- //
+    // if the current menu item is the last menu item, we need to set the parent's bottom border to nothing
+    $root.find('MENU.sidebar LI.current').each(function () {
+        var $menuItem = $(this);
+        if ($menuItem.is(':last-child'))
+            $menuItem.parent().css('border-bottom', 'none');
+    });
+
+    // --- System messages --- //
+    $root.find('.user-message').each(function () {
+        var $message = $(this);
+        if (!$message.hasClass('formatting-applied')) {
+            // make sure message is not processed a second time
+            $message.addClass('formatting-applied');
+
+            // Make sure content proceeding message wraps to the next line.
+            $message.after('<span class="clear-fix"></span>');
+
+            // Center the message if it is short (single line of text).
+            if (!$message.find('.expand-target').length) {
+//                $message.wrapInner('<div class="message-centering-container" />');
+//                $message.children('.message-centering-container').first().height($message.height());
+            }
+        }
+    });
+
+    // --- Declarative popover & tooltip support --- //
+    if ('dxPopoversFromAttributes' in ktbs) ktbs.dxPopoversFromAttributes();
+    if ('dxTooltipsFromAttributes' in ktbs) ktbs.dxTooltipsFromAttributes();
+
+    // --- Declarative popup support --- //
+    if ('dxPopupsFromAttributes' in ktbs) ktbs.dxPopupsFromAttributes();
+
+    // --- Dismissable notification support --- //
+    enableDismissableNotifications($root);
+
+    // --- Apply any grid styles and events --- //
+    applyGridStyles($root);
+
+    // --- Fix empty space near DevEx controls reserved for error info --- //
+    fixErrorCells($root);
+
+
+    // --- Enable any fixed sliders --- //
+    $root.find('.tag-along').tagAlong();
+
+    enableGrowerSupport();
+
+    enableListLimits();
+
+    // --- Fix borders that disappear on IE10 when border-collapse is applied --- //
+    fixDisappearingIE10Borders($root);
+
+    // --- Enable support for smooth scrolling to internal links --- //
+    enableSmoothScrollingInternalLinks();
+
+    // --- Turn on support for the feature matrix UI control --- //
+    enableFeatureMatrixSupport();
+
+    // --- Turn on support for labels within select controls --- //
+    enableInPlaceLabelsForSelects()
+
+    // --- Allow closing popups using the escape key --- //
+    $('BODY').keyup(function (e) {
+        if (e.keyCode === 27) // escape key
+            ktbs.closePopup();
+    });
+
+    // --- Enable support for expanding detail sections --- //
+    enableExpandSupport();
+
+    // --- Fire a new event called "clear" when users click the X of a search input so that other code can subscribe if need be --- //
+    if (ktbs.browser.isIe || ktbs.browser.isEdge || ktbs.browser.isMozilla) {
+        $('INPUT[type="search"], INPUT[type="text"]').bind('mouseup', function (e) {
+            var $input = $(this);
+            if (!$input.val().length) return;
+            setTimeout(function () {
+                if (!$input.val().length)
+                    $input.trigger('clear');
+            }, 0);
+        });
+    }
+    else {
+        $('INPUT[type="search"]').on('search', function () {
+            if (!$(this).val().length)
+                $(this).trigger('clear');
+        });
+    }
+
+    // --- Hoist control classes so that we can write better CSS --- //
+    $root.find('.dxeTextBox').closest('.dxeRoot').addClass('dxeTextBoxHoist');
+    $root.find('.dxeButtonEdit').closest('.dxeRoot').addClass('dxeButtonEditHoist');
+    $root.find('.dxeRoot INPUT[type="checkbox"]').parent().addClass('checkboxHoist');
+
+    applyPageDisableOnButtonClicks();
+
+    // --- Enable the hamburger menu for mobile view --- //
+    enableMobileMenuSupport();
+}
+
+
+function enableMobileMenuSupport() {
+    if (ktbs.renderMobileView) {
+        var scrollTop;
+
+        var getBodyScrollTop = function () {
+            var el = document.scrollingElement || document.documentElement;
+            return el.scrollTop;
+        };
+
+        var setBodyScrollTop = function (newScrollTop) {
+            var el = document.scrollingElement || document.documentElement;
+            return el.scrollTop = newScrollTop;
+        };
+
+        var openMobileMenu = function () {
+//            if (Modernizr.csspositionstickytable) {
+            scrollTop = getBodyScrollTop();
+            $('BODY').css('top', '-' + scrollTop + 'px');
+//            }
+            $('HTML').addClass('transitioning-mobile-menu').addClass('mobile-menu-visible');
+        };
+
+        var closeMobileMenu = function () {
+            $('HTML').addClass('transitioning-mobile-menu').removeClass('mobile-menu-visible');
+        };
+
+        var bodyClickEvents = 'click.ktbsMobileMenuClose' + (ktbs.browser.isiOS ? ' touchstart.ktbsMobileMenuClose' : '');
+        $('BODY').off(bodyClickEvents).on(bodyClickEvents, function (e) {
+            if (!($(e.target).is('A') && $(e.target).parents('#mobile_menu')) && !$(e.target).is('#mobile_menu') && $(this).parent().hasClass('mobile-menu-visible'))
+                closeMobileMenu();
+        });
+
+        $('.mobile-menu-button').off('click.ktbs').on('click.ktbs', function (e) {
+            e.stopPropagation();
+            if ($('HTML').hasClass('mobile-menu-visible'))
+                closeMobileMenu();
+            else
+                openMobileMenu();
+            return false;
+        });
+
+        $('#mobile_menu').off(ktbs.transitionEndEvents).on(ktbs.transitionEndEvents, function (e) {
+            $('HTML').removeClass('transitioning-mobile-menu');
+
+//            if (Modernizr.csspositionstickytable) {
+            if (!$('HTML').hasClass('mobile-menu-visible')) {
+                $('BODY').css('top', '');
+                setBodyScrollTop(scrollTop);
+            }
+//            }
+        });
+    }
+}
+
+// Detail section expand support.  Detail section is initially hidden.
+//
+// EXAMPLE
+// -------
+// <a href="#details" class="expand-action" data-target="#abc_details">Read more</div>
+// <p id="abc_details" class="expand-target">details...</p>
+//
+function enableExpandSupport() {
+    $('[data-expand-target]').click(function () {
+        $($(this).attr('data-expand-target')).show();
+
+        if (!$(this).is('[data-expand-keep-action]'))
+            $(this).remove();
+
+        if ($(this).is('[data-expand-hide-target]'))
+            $($(this).attr('data-expand-hide-target')).remove();
+
+        return false;
+    });
+}
+
+
+function enableGrowerSupport() {
+    function grower() {
+        var scrollTop = $(window).scrollTop(),
+            menuAffordance = 70;
+
+        $('.grower').each(function () {
+            var $grower = $(this),
+                stopScalingWhenScrolledOutOfViewport = !!$grower.data('grower-limit-scaling-to-viewport'),
+                bottomMargin = parseInt($grower.data('grower-bottom-margin')) || 20,
+                growerOffset = parseInt($grower.data('grower-offset')) || 0,
+                growerTop = $grower.offset().top,
+                growerScrollOffset = growerTop - scrollTop,
+                growerFixedHeightAdjust = menuAffordance + growerOffset + bottomMargin,
+                scalingThreshold = scrollTop + menuAffordance + growerOffset;
+
+            $grower.css('height', stopScalingWhenScrolledOutOfViewport && scalingThreshold > growerTop
+                                  ? 'calc(100vh - ' + growerFixedHeightAdjust + 'px)'
+                                  : 'calc(100vh - ' + (growerScrollOffset + bottomMargin) + 'px)');
+        });
+    }
+
+    $(window)
+        .scroll(function () { grower(); })
+        .resize(function () { grower(); });
+
+    grower();
+}
+
+
+// Dismissable notification support
+//
+// EXAMPLE
+// -------
+//    <div class="user-message warning dismiss" ondismiss="exampleAjaxDismissFunction()">Example message</div>
+//
+function enableDismissableNotifications($root) {
+    if (!$root)
+        $root = $('BODY');
+    if (!$root.length)
+        return;
+
+    $root.find('DIV.dismiss').each(function () {
+        var $dismissable = $(this);
+        if (!$dismissable.hasClass('dismiss-feature-applied')) {
+            $dismissable.addClass('dismiss-feature-applied')
+                .prepend('<div class="dismiss-action"><span>X</span></div>');
+            $dismissable.find('DIV.dismiss-action SPAN').click(function () {
+                var $messageEl = $(this).parent().parent();
+                var onDismiss = $messageEl.attr('ondismiss');
+                $messageEl.slideUp(ktbs.effects.revealSpeed);
+                if (onDismiss) setTimeout(function () { eval(onDismiss); }, 10);
+            });
+        }
+    });
+}
+
+
+function enableListLimits()
+{
+    $('UL[data-limit]:not(.enriched)').each(function () {
+        var $list = $(this),
+            limit = parseInt($list.data('limit')),
+            showMoreCountLabel = $list.hasClass('data-limit-show-count');
+        if (!isNaN(limit) && limit > 1) {
+            var $items = $list.children('LI:not(.action)');
+            if ($items.length > limit) {
+                var moreCount = ($items.length - limit) + 1,
+                    showMoreLabel = showMoreCountLabel ? '+' + moreCount + ' more' : 'Show More';
+                $items.filter(':gt(' + (limit - 2) + ')').hide();
+                $items.last().after(
+                    $('<li class="data-limit-toggle-item"></li>').append(
+                        $('<a href="#toggle" class="exhibitor">' + showMoreLabel + '</a>').click(function (e) {
+                            e.preventDefault();
+                            var $exhibitor = $(this);
+                            if ($exhibitor.hasClass('exhibited')) {
+                                $items.filter(':gt(' + (limit - 2) + ')').fadeOut({
+                                    complete: function () {
+                                        $exhibitor.html(showMoreLabel);
+                                    }
+                                });
+                            }
+                            else {
+                                $items.fadeIn({
+                                    complete: function () {
+                                        $exhibitor.html('Show Less');
+                                    }
+                                });
+                            }
+                            $(this).toggleClass('exhibited');
+                        })
+                    )
+                );
+            }
+        }
+    }).addClass('enriched').fadeIn();
+}
+
+
+function focusFirstControl($root) {
+    if (typeof ($root) !== 'object' || !$root.length)
+    {
+        if (ktbs.focus_field.selector)
+            $root = $(ktbs.focus_field.selector);
+        else
+            $root = $('.cssform DIV.field.field-validation-error');
+        if (!$root.length) {
+            $root = $('.cssform');
+            if (!$root.length) {
+                $root = $('#content_holder');
+                if (!$root.length)
+                    $root = $('BODY');
+            }
+        }
+    }
+
+    if ($root.length)
+        $root.first().focus_first();
+}
+
+
+
+// DevEx reserves space for error icons next to certain controls like masked text boxes. This
+// creates awkward spaces when there are no errors. Unfortunately, they are controlling the
+// error image's visibiltiy through a parent element's visisbility (set directly on the element).
+// There is no way to do anything with this directly in CSS. Instead, we'll create a change event
+// handler for the underlying hidden input. Whenever the value changes, we'll detect whether or
+// not to show or hide/collapse the error icon area.
+function fixErrorCells($root) {
+    if (!$root)
+        $root = $('BODY');
+    if (!$root.length)
+        return;
+
+    $root.find('TABLE.dxeErrorFrame:not(.error-cell-fix-applied), TABLE.dxeErrorFrame_DevEx:not(.error-cell-fix-applied), TABLE.dxeRoot[errorFrame="errorFrame"]:not(.error-cell-fix-applied)').each(function () {
+        fixErrorCell($(this));
+        $(this).find('INPUT.dxeEditArea').keydown(function () {
+            fixErrorCell($(this).closest('TABLE.dxeErrorFrame, TABLE.dxeErrorFrame_DevEx, TABLE.dxeRoot[errorFrame="errorFrame"]'));
+        }).change(function () {
+            fixErrorCell($(this).closest('TABLE.dxeErrorFrame, TABLE.dxeErrorFrame_DevEx, TABLE.dxeRoot[errorFrame="errorFrame"]'));
+        }).addClass('error-cell-fix-applied');
+    });
+
+    function fixErrorCell($errorFrame) {
+        $errorFrame.find('TD.dxeErrorCell, TD.dxeErrorCell_devex').each(function () {
+            var $this = $(this);
+            $this[$this.css('visibility') === 'hidden' || $this.css('display') === 'none' ? 'hide' : 'show']();
+        });
+    }
+}
+
+
+function fixDisappearingIE10Borders($root) {
+    if (ktbs.browser.isIe10) {
+        if (!$root)
+            $root = $('BODY');
+        if (!$root.length)
+            return;
+
+        $root.find('TABLE.legacy-grid > TBODY > TR > TD[colspan]').parent().before('<tr><td colspan="99" style="display: none;"></td></tr>');
+    }
+}
+
+function makeUrlSslAwareAndIeSafe(url) {
+    url = $.trim(url);
+    if (url.length === 0) return url;
+    if (url.length === 1) return makeUrlSslAwareAndIeSafe_noquotes(url);
+    if (url.charAt(0) === "'" && url.charAt(url.length - 1) === "'") return "'" + makeUrlSslAwareAndIeSafe_noquotes(url.substring(1, url.length)) + "'";
+    if (url.charAt(0) === '"' && url.charAt(url.length - 1) === '"') return '"' + makeUrlSslAwareAndIeSafe_noquotes(url.substring(1, url.length)) + '"';
+
+    return makeUrlSslAwareAndIeSafe_noquotes(url);
+}
+
+function makeUrlSslAwareAndIeSafe_noquotes(url) {
+    url = $.trim(url);
+
+    // if current location is not secure, then there's no need to do anything
+    if (document.location.protocol !== 'https:' || url.length === 0) return url;
+
+    // handle protocol relative urls that start with //hostname
+    if (url.length > 1 && url.substring(0, 2) === '//') return 'https:' + url;
+
+    // handle absolute secure urls
+    if (url.length > 8 && url.substring(0, 8) === 'https://') return url;
+
+    // handle absolute urls
+    if (url.length > 7 && url.substring(0, 7) === 'http://') return 'https://' + url.substring(7, url.length);
+
+    // handle absolute paths
+    if (url.charAt(0) === '/') return 'https://' + document.location.host + url;
+
+    // handle relative paths
+    var dlp = document.location.pathname;
+    if (dlp.length === 0 || dlp === '/') return 'https://' + document.location.host + '/' + url;
+    return 'https://' + document.location.host + dlp.substring(0, dlp.lastIndexOf('/') + 1) + url;
+}
+
+function applyGridStyles($root) {
+    if (!$root)
+        $root = $('BODY');
+    if (!$root.length)
+        return;
+
+    $root.find('.dxgvControl.has-preview-rows').each(function () {
+        var $grid = $(this);
+        if (!$grid.hasClass('row-hover-applied')) {
+            $grid.addClass('row-hover-applied');
+
+            $grid.find('.dxgvPreviewRow').each(function () {
+                var $previewRow = $(this);
+                $previewRow
+                    .mouseover(function () {
+                        $(this).prev('.dxgvDataRow').addClass('dxgvDataRowHover');
+                    })
+                    .mouseout(function () {
+                        $(this).prev('.dxgvDataRow').removeClass('dxgvDataRowHover');
+                    });
+            });
+
+            $grid.find('.dxgvDataRow').each(function () {
+                var $dataRow = $(this);
+                $dataRow
+                    .mouseover(function () {
+                        $(this).next('.dxgvPreviewRow').addClass('dxgvDataRowHover');
+                    })
+                    .mouseout(function () {
+                        $(this).next('.dxgvPreviewRow').removeClass('dxgvDataRowHover');
+                    });
+            });
+        }
+    });
+}
+
+(function ($) {
+    ktbs.showPageLoadingIndicator = function (loadingMessage) {
+        if (!$('#page_loading_indicator').length)
+            $('BODY').prepend('<div id="page_loading_indicator" />');
+
+        var message = loadingMessage ? loadingMessage : 'Loading ...';
+
+        $('#page_loading_indicator').dxLoadPanel({
+            visible: true,
+            height: '100%',
+            width: '100%',
+            shadingColor: 'rgba(255, 255, 255, 0.97)',
+            showPane: false,
+            message: message
+        });
+    }
+
+    ktbs.hidePageLoadingIndicator = function () {
+        if ($('#page_loading_indicator').length)
+            $('#page_loading_indicator').dxLoadPanel('instance').hide();
+    }
+})(jQuery);
+
+
+
+function enableInPlaceLabelsForSelects() {
+    $('select[data-in-place-label]').each(function () {
+        var $sel = $(this);
+
+        $sel.find('option').each(function () {
+            var $opt = $(this);
+            $opt.data('original-text', $opt.text());
+            if ($opt.is(':selected'))
+                $opt.text($sel.data('in-place-label'));
+        });
+
+        $sel.focus(function () {
+            var $opt = $sel.find('option:selected');
+            if ($opt.length)
+                $opt.text($opt.data('original-text'));
+        })
+            .blur(function () {
+                var $opt = $sel.find('option:selected');
+                if ($opt.length)
+                    $opt.text($sel.data('in-place-label'));
+            })
+            .css('min-width', $sel.outerWidth())
+            .addClass('enriched');
+    });
+}
+
+
+// SMOOTH SCROLLING SUPPORT FOR INTERNAL PAGE LINKS
+//
+// Example:
+// <a href="#section" class="smooth-scroll">link</a>
+//
+function enableSmoothScrollingInternalLinks() {
+    $('A[href^="#"].smooth-scroll').click(function (e) {
+        e.preventDefault();
+        ktbs.scrollToAnchor($(this).attr('href').replace('#', ''));
+        return false;
+    });
+}
+
+
+// MAKE THE MAIN NAVIGATION BAR STICK TO THE TOP OF THE PAGE
+function enableStickyNav() {
+    var $menuBar = $('NAV.menu');
+
+    if ($menuBar.length) {
+        var stickyNavTop = $menuBar.offset().top,
+            stickyNav = function () {
+                var $html = $('HTML'),
+                    stickNavClass = 'nav-scrolled-out',
+                    isSticky = $html.hasClass(stickNavClass);
+
+                if ($(window).scrollTop() > stickyNavTop) {
+                    if (!isSticky) {
+                        $html.addClass(stickNavClass);
+                        $(window).trigger('menuStuck');
+                    }
+                }
+                else if (isSticky) {
+                    $html.removeClass(stickNavClass);
+                    $(window).trigger('menuUnStuck');
+                }
+            };
+
+        $(window).scroll(function () {
+            stickyNav();
+            //workaround for the ticket SDEV-20104 before waiting for the fix from devextreme team.
+            try {
+                var inst = $('#siteMenu').dxMenu('instance');
+                if (inst) {
+                    var expandedItem = $('#siteMenu div.dx-item.dx-menu-item.dx-menu-item-expanded')[0];
+                    if (expandedItem !== null)
+                        inst.repaint();
+                }
+            } catch (e) {
+                //
+            }
+            //--------------------------------------------------------------------------------------
+        }).resize(function () {
+            stickyNav();
+        });
+        if (ktbs.browser.isMozilla)
+            setInterval(stickyNav, 1000);
+        stickyNav();
+    }
+}
+
+
+// TURNS ON SUPPORT FOR THE FEATURE MATRIX UI CONTROL (EXAMPLE ON THE EMPLOYEE ACCESS SETTINGS PAGE)
+function enableFeatureMatrixSupport() {
+    $('.feature-matrix TFOOT BUTTON').click(function (e) {
+        e.preventDefault();
+        var $button = $(this),
+            columnIndex = $button.parent().parent().children().index($button.parent()) + 1,
+            $featureMatrix = $button.closest('.feature-matrix');
+
+        // reset grid
+        $featureMatrix.find('.selected').removeClass('selected');
+        $featureMatrix.find('TFOOT BUTTON').addClass('secondary').removeClass('selected').text('Select');
+
+        // highlight selected column
+        $button.removeClass('secondary').addClass('selected').text('Selected');
+        $featureMatrix.find('TH:nth-child(' + columnIndex + '), TD:nth-child(' + columnIndex + ')').addClass('selected');
+
+        $('INPUT[name="' + $featureMatrix.attr('data-selected-value-element-name') + '"]').val($button.val());
+    });
+}
+
+
+// SUPPORT FOR SHOWING STATUS OF LONG RUNNING TASK STATUS WITHIN AN INPUT ELEMENT BY ANIMATING AN ELIPSIS AFTER PROGRESS TEXT
+// see http://localhost/ktbsonline/support/kellystyle##InputProgressText for a demo and usage
+
+ktbs.inputProgressText = {
+    // showDelay provides a small window for the input's value to be updated using stop() before the progress text will be shown. This helps with fast returning calls and reduces flicker.
+    showDelay: 500,
+    // amount of time for progress text, once shown, to remain visible
+    hideDelay: 1000,
+    // maximum number of periods to add to progress text
+    ellipsisMax: 5,
+    // call start() when you long task begins.  Pass the control (as native DOM element or a jQuery DOM object) where the progress text should be shown along with the text to show.
+    start: function (control, progressText, showDelay) {
+        if (typeof showDelay === 'number')
+            this.showDelay = showDelay;
+
+        var $control = $(control),
+            // get the last intervalId in case this control is already showing animated progress text
+            intervalId = $control.data('progressTextIntervalId'),
+            // get the last timeoutId in case this control is in the midst of stopping (hideDelay not elapsed for hiding progress text)
+            timeoutId = $control.data('progressTextStopProgressTimeoutId'),
+            // support inputs and display-only elements
+            valueAccessor = $control.is('input') ? 'val' : 'text';
+
+        // if we have a timeoutId, then the control is in midst of stopping. Since we're starting a new progress text instance, we need to cancel the timeout.
+        if (typeof timeoutId === 'number') {
+            // clear the stored timeoutId
+            $control.removeData('progressTextStopProgressTimeoutId');
+            // clear the timeout to cancel the planned hiding of progress text
+            clearTimeout(timeoutId);
+        }
+
+        if (!$control.data('progressTextShown')) {
+            // store previous value so that we can restore it when we stop progress text (if new text is not provided to stop())
+            $control.data('progressTextPreviousValue', $control[valueAccessor]());
+            // reset the animation step
+            $control.removeData('progressTextStep');
+        }
+
+        if (!intervalId) {
+            // mark the time we began the start of progress text so that we can determine when to show and hide the progress text
+            $control.data('progressTextStartTime', new Date());
+
+            // create an interval that will animate the ellipsis every 200ms
+            $control.data('progressTextIntervalId', setInterval(function (showDelay, ellipsisMax) {
+                // see if enough time has passed to start showing the progress text
+                if (new Date() - $control.data('progressTextStartTime') < showDelay)
+                    return;
+                $control.data('progressTextShown', true);
+
+                // determine which animation step we're on
+                var step = $control.data('progressTextStep');
+                step = typeof step === 'undefined' ? 0 : step;
+
+                // show the progress text along with the ellipsis
+                $control[valueAccessor](progressText + Array((step++ % (ellipsisMax + 1)) + 1).join('.'));
+                // update animation step
+                $control.data('progressTextStep', step);
+            }, 200, this.showDelay, this.ellipsisMax));
+        }
+
+    },
+    // call stop() when your long task ends. Pass the control that is used to show progress text and pass a new value to show after the progress text is hidden.
+    stop: function (control, newInputText) {
+        var $control = $(control),
+            timeoutId = $control.data('progressTextStopProgressTimeoutId'),
+            startTime = $control.data('progressTextStartTime'),
+            textShown = $control.data('progressTextShown'),
+            valueAccessor = $control.is('input') ? 'val' : 'text';
+
+        // if we have a timeoutId, then the control is in the midst of stopping. We need to cancel that operation since we may have new newInputText to show.
+        if (typeof timeoutId === 'number') {
+            $control.removeData('progressTextStopProgressTimeoutId');
+            clearTimeout(timeoutId);
+        }
+
+        if (textShown) {
+            var elapsedTime = typeof startTime !== "undefined" ? new Date() - startTime : this.showDelay + this.hideDelay + 1;
+            if (elapsedTime > this.showDelay + this.hideDelay)
+                // hide progress text immediately since the text has been shown for the minimum amount of time
+                resetInputProgressText($control, newInputText);
+            else
+                // delay the hiding of progress text to avoid flicker
+                $control.data('progressTextStopProgressTimeoutId', setTimeout(resetInputProgressText, this.showDelay + this.hideDelay - elapsedTime, $control, newInputText));
+        } else {
+            // no progress text is currently shown, so we'll cancel future progress text and then show the new input text (if any)
+            resetInputProgressText($control, newInputText);
+        }
+
+        function resetInputProgressText($control, newInputText) {
+            var intervalId = $control.data('progressTextIntervalId'),
+                previousValue = $control.data('progressTextPreviousValue');
+
+            // stop animating of progress text
+            if (typeof intervalId === 'number')
+                clearInterval(intervalId);
+
+            // show the new input text if any
+            if (typeof newInputText !== 'undefined')
+                $control[valueAccessor](newInputText);
+            // if no new input text, revert the text to what was in the input before we showed progress text
+            else if (typeof previousValue !== 'undefined')
+                $control[valueAccessor](previousValue);
+
+            $control.removeData('progressTextStartTime');
+            $control.removeData('progressTextShown');
+            $control.removeData('progressTextIntervalId');
+            $control.removeData('progressTextPreviousValue');
+        }
+
+        $control.removeData('progressTextStep');
+    }
+};
+
+function applyPageDisableOnButtonClicks() {
+    $('[data-disable-page-when-clicked]').each(function () {
+        var $this = $(this),
+            dataOptions = $this.attr('data-disable-page-when-clicked'),
+            options = {};
+
+        if (dataOptions) {
+            try {
+                options = eval('(' + dataOptions + ')');
+            }
+            catch (e) {
+                console.log('Error parsing data-disable-page-when-clicked options', $this, e);
+                if (typeof window.JL !== 'undefined')
+                    JL('$.disablePageOnButtonClicks').error('Error parsing data-disable-page-when-clicked: ' + dataOptions);
+            }
+        }
+
+        $this.disablePageOnButtonClicks(options);
+    });
+}

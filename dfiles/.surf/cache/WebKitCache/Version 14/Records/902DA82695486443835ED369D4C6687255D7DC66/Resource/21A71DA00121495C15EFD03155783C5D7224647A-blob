@@ -1,0 +1,5024 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Head First Programming: A Learner's Guide to Programming Using the Python Language | David Griffiths, Paul Barry | download</title>
+<base href="/">
+
+                        <meta charset="utf-8">		                       
+                        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+                        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                        <meta name="viewport" content="width=device-width, initial-scale=1">
+                        <meta name="title" content="Head First Programming: A Learner&#039;s Guide to Programming Using the Python Language | David Griffiths, Paul Barry | download">
+			<meta name="description" content="Head First Programming: A Learner&#039;s Guide to Programming Using the Python Language | David Griffiths, Paul Barry | download | B–OK. Download books for free. Find books">
+			<meta name="robots" content="index,all">
+			<meta name="distribution" content="global">
+			<meta http-equiv="cache-control" content="no-cache">
+			<meta http-equiv="pragma" content="no-cache">
+
+                        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+                        <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+                        <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+                        <link rel="manifest" href="/manifest.json">
+                        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+                        <meta name="apple-mobile-web-app-title" content="Z-Library">
+                        <meta name="application-name" content="Z-Library">
+                        <meta name="theme-color" content="#ffffff">
+
+                        <meta name="propeller" content="49c350d528ba144cace841cac74260ab">
+	
+<!-- CSS SET -->
+<link rel="stylesheet" type="text/css" href="/css/bootstrap/css/bootstrap.min.css?version=0.142" >
+<link rel="stylesheet" type="text/css" href="/css/root.css?version=0.142" >
+<link rel="stylesheet" type="text/css" href="/adhelper/ah-style.css?version=0.142" >
+<link rel="stylesheet" type="text/css" href="/adhelper/animate.css?version=0.142" >
+<!-- JS SET --> 
+<script type="text/javascript" language="JavaScript" src="https://code.jquery.com/jquery-2.2.4.min.js?version=0.142"></script>
+<script type="text/javascript" language="JavaScript" src="/scripts/underscore.js?version=0.142"></script>
+<script type="text/javascript" language="JavaScript" src="/css/bootstrap/js/bootstrap.min.js?version=0.142"></script>
+<script type="text/javascript" language="JavaScript" src="/adhelper/advert.js?version=0.142"></script>
+<link REL="SHORTCUT ICON" HREF="/favicon.ico">
+        <link rel="search" type="application/opensearchdescription+xml" href="http://search.xml" title="Search for books in the library B-OK.org" />
+    </head>
+    <body style="margin:0px;padding:0px;" class="books/details">
+        
+        <table border="0" height="100%" width="100%" style="height:100%;" cellpadding="0" cellspacing="0"><tbody>
+                <tr style="height:10px;">
+                    <td>
+                        <div class="container-fluid">
+                            
+<div class="row">
+    <div class="col-md-12">
+        <div id="colorBoxes" class="darkShadow">
+            <ul>
+                <a href="/"><li style="background: #49afd0;">4,732,839 books</li></a>
+                <a href="http://booksc.xyz"><li style="background: #90a5a8;">74,620,210 articles</li></a>
+                <li style="background: #8ecd51;">for free</li>
+            </ul>
+        </div>
+
+
+
+        <div role="navigation" class="navbar-default" style="background-color: transparent;">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right" style="">
+                                            <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sign in <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://singlelogin.org?from=b-ok.cc">Login</a></li>
+                                <li><a href="https://singlelogin.org/registration.php">Registration</a></li>
+                            </ul>
+                        </li>
+                    
+                    <li>
+                        <a href="/howtodonate.php" style="color:#8EB46A;">Donate</a>                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span style="font-size: 120%;" class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-header">Books</li>
+                                                            <li><a href="/book-add.php">Add book</a></li>
+                                <li><a href="/categories">Categories</a></li>
+                                <li><a href="/popular.php">Most Popular</a></li>
+                                                            <li><a href="/recently.php">Recently Added</a></li>
+                                                            <li role="separator" class="divider"></li>
+                                <li class="dropdown-header">Z-Library Project</li>
+                                <li><a href="/blog/">Blog</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+
+
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="container" style="max-width: 1000px;padding-bottom: 40px;">
+                            <div class="row">
+                                <div class="col-md-12 itemFullText">
+                                    
+
+<style>
+    .adFixW iframe{
+        width:100%;
+    }
+</style>
+
+<div class="bcNav">
+    <a href="/" title="Ebook library B-OK.org">Main</a> <i></i>
+        Head First Programming: A Learner's Guide to Programming Using the Python Language</div>
+
+<div  itemscope  itemtype="http://schema.org/Book">
+    <div class="row cardBooks">
+        <div class="col-md-3"><a itemprop="image"  class="lightbox" href="//b-ok.cc/covers/books/0f/c7/0d/0fc70d5e7f9ea3bbecc073f1b5d5822f.jpg" style="background:#fff;padding:3px; display:block;float:left; border:1px solid #ccc;"><img style="font-size:0px; width:100%;" src="//b-ok.cc/covers/books/0f/c7/0d/0fc70d5e7f9ea3bbecc073f1b5d5822f.jpg" alt="Book cover Head First Programming: A Learner&#039;s Guide to Programming Using the Python Language"/></a></div>
+        <div class="col-md-9">
+            <h1 itemprop="name" style="color:#000;line-height: 140%;" class="moderatorPanelToggler">Head First Programming: A Learner's Guide to Programming Using the Python Language</h1>
+            <i><a  itemprop="author" class="color1" title="Find all the author's book" href="/g/David Griffiths">David Griffiths</a>, <a  itemprop="author" class="color1" title="Find all the author's book" href="/g/Paul Barry">Paul Barry</a></i>
+            
+            <div style="padding:10px 0; font-size:10pt" id="bookDescriptionBox"  itemprop="reviewBody">First, excuse my English.<br /><br />Now that we have that clear, the book is highly dynamic and very effective, I have been trying to learn programming for a while now, I was always confused and lost interest because of it on the way, with this book, that will not happen, when you do the exercises and get them right you get highly motivated to keep going, I recommend this.</div>
+                     <div style="overflow:hidden; zoom:1; margin-top: 30px;">
+                <div class="bookDetailsBox">
+                <div class="bookProperty property_categories">
+                    <span>Categories:</span>
+                    <a href="Programming-Programming-Languages-cat92" style="color:#000;">Computers\\Programming: Programming Languages</a>
+                </div>
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2009
+                </div>
+                <div class="bookProperty property_edition">
+                    <span>Edition:</span>
+                    1
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property_pages">
+                    <span>Pages:</span>
+                    442
+                </div>
+                <div class="bookProperty property_isbn 10">
+                    <span>ISBN 10:</span>
+                    0596802374
+                </div>
+                <div class="bookProperty property_isbn 13">
+                    <span>ISBN 13:</span>
+                    9780596802370
+                </div>
+                <div class="bookProperty property_series">
+                    <span>Series:</span>
+                    Head First Series
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 16.83 MB
+                </div></div>            </div>
+        </div>
+    </div>
+
+
+
+
+    <div style="margin:15px 0;">
+        <a class="btn btn-primary dlButton" href="/dl/660071/ab2a68" target="" rel="nofollow"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Download  (pdf, 16.83 MB)</a>                <a class="btn btn-default" href="ireader/660071" target="_blank" rel="nofollow">Read online</a>        <div class="btn-group" id="sendToEmailButtonBox">
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Send-to-Kindle or Email <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu"><li><a href="http://singlelogin.org?from=b-ok.cc" target="blank">Please login to your account first</a></li></ul>
+</div>
+        
+
+            </div>
+    <div class="cBox1" id="sentToEmailInfo" style="display:none;">The file will be sent to selected email address. It may takes up to 1-5 minutes before you received it.</div>
+    <div class="cBox1" id="sentToEmailInfoKindle" style="display:none;">The file will be sent to your Kindle account. It may takes up to 1-5 minutes before you received it.
+        <br/>Please note you've to add our email <b>mailer@bookmail.org</b> to approved e-mail addresses. <a target="blank" href="https://www.amazon.com/gp/help/customer/display.html/?ie=UTF8&amp;nodeId=201974240">Read more</a>.
+    </div>
+
+
+    
+        <script type="text/javascript">
+          $(document).ready(function($) {
+           
+            $.jsRotate({data: false, device_type: '-1', contentWrapper: '.itemFullText'});
+
+          });
+        </script>
+    <div id="converterCurrentStatusesBox" class="cBox1" style="display:none;"></div>
+
+
+
+
+</div>
+
+<script type="text/javascript" src="scripts/jquery.lightbox-0.5.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
+
+<script type="text/javascript">
+    var BOOK_ID = 660071;
+    $(function () {
+        // This, or...
+        $('a.lightbox').lightBox({
+            containerResizeSpeed: 1
+        }); // Select all links with lightbox class
+    });
+
+
+    // read more
+    $(function () {
+        if($('#bookDescriptionBox').height() > 300)
+        {
+            $('#bookDescriptionBox').css('overflow', 'hidden');
+            $('#bookDescriptionBox').css('height', '300px');
+            moreLink = '<div style="text-align:right; margin: 5px 0 0 0;"><a class="more" style="border-bottom:1px dashed;color:#49AFD0; cursor:pointer;text-decoration:none;">Read more → </a></div>';
+            $( moreLink ).insertAfter("#bookDescriptionBox");
+        }
+
+        $('.more').click(function(){
+            $('#bookDescriptionBox').css('height', 'auto');
+            $('#bookDescriptionBox').css('overflow', 'auto');
+            $(this).remove();
+        });
+    });
+
+
+
+    // converter links
+    $('.converterLink').click(function (e) {
+        var el = $(e.currentTarget);
+        $('#converterCurrentStatusesBox').show();
+        $('#converterCurrentStatusesBox').html('Refreshing..');
+
+
+
+        $.RPC('ConvertationTools::rpcConvert', {'book_id': $(this).data('book-id'), 'convertTo': $(this).data('convert-to')}).done(function (e) {
+            convertationStatusesAutoupdaterObserver();
+        }).fail(function (a, b) {
+            $('#converterCurrentStatusesBox').html('<span class="error">' + b.errors.message() + '</span>');
+        });
+    });
+
+    $('.sendToEmailButton').click(function () {
+        $.RPC('sendToKindle', {'book_id': $(this).data('id'), 'email': $(this).data('email')}).done(function (e) {
+            if (e.response.status) {
+                //alert('Sent to ' + e.response.email);
+            }
+        }).fail(function (a, b) {
+            $('#sentToEmailInfo').html(b.errors.message());
+            $('#sentToEmailInfoKindle').html(b.errors.message());
+        });
+
+        if ($(this).data('kindle'))
+        {
+            $('#sentToEmailInfoKindle').show('slow');
+        } else {
+            $('#sentToEmailInfo').show('slow');
+        }
+        $('#sendToEmailButtonBox').hide('slow');
+    });
+
+    //$('[data-toggle="tooltip"]').tooltip({'html': true});
+    $(window).on("load", function () {
+        $('[data-toggle="tooltip"]').tooltip({'html': true});
+        $('[data-autoopen="true"]').tooltip('show');
+    });
+
+    var convertationStatusesAutoupdaterRuned = false;
+    function convertationStatusesAutoupdaterObserver()
+    {
+        if (convertationStatusesAutoupdaterRuned)
+        {
+            return;
+        } else {
+            convertationStatusesAutoupdaterRuned = true;
+            convertationStatusesAutoupdater();
+        }
+    }
+
+    function convertationStatusesAutoupdater()
+    {
+        rpcUrl = '/rpc/ConvertationTools::getCurrentJobsStatuses?clear=1&gg_text_mode=1&bookId=' + BOOK_ID;
+        $.ajaxSetup({cache: false}); // This part addresses an IE bug.  without it, IE will only load the first number and will never refresh
+
+
+        $.ajax({
+            url: rpcUrl,
+            datatype: 'html'
+        }).done(function (response) {
+            $('#converterCurrentStatusesBox').html(response);
+            if (response.search('progress') === -1)
+            {
+                convertationStatusesAutoupdaterRuned = false;
+                return;
+            }
+            setTimeout(convertationStatusesAutoupdater, 15000);
+        }).error(function () {
+            setTimeout(convertationStatusesAutoupdater, 15000);
+        });
+    }
+
+    if ($('#converterCurrentStatusesBox').html().length)
+    {
+        convertationStatusesAutoupdaterObserver();
+        //$('#converterCurrentStatusesBox').css('display', 'block');
+        $('#converterCurrentStatusesBox').show();
+    }
+</script>
+
+<h2 class="color1" style="margin-top:20px;">You may be interested in</h2>
+<div style="background: #49AFD0; height:2px; width: 100%; margin-bottom: 20px;">&nbsp;</div>
+<script src="/scripts/freewall.js"></script><div id="bMosaicBox" style="display:none"><div class="brick" style="width:14%;"><a href="/book/463390/2df322" title="Head First Object-Oriented Analysis and Design "><img src="//b-ok.cc/covers200/books/c5/e6/03/c5e60362f266c82fe24c6603a6c569cc.jpg" class="bMosaicCover bgrid-item item" width="100%"/></a></div><div class="brick" style="width:14%;"><a href="/book/487976/558a5b" title="Head First Design Patterns"><img src="//b-ok.cc/covers200/books/5e/4a/e4/5e4ae46582d52f32f692b55e811f2459.jpg" class="bMosaicCover bgrid-item item" width="100%"/></a></div><div class="brick" style="width:14%;"><a href="/book/510581/5919dc" title="Head First Software Development"><img src="//b-ok.cc/covers200/books/44/a5/ad/44a5adda833e504615e2126eea0687e8.jpg" class="bMosaicCover bgrid-item item" width="100%"/></a></div><div class="brick" style="width:14%;"><a href="/book/510768/65dfed" title="Head First Servlets and JSP: Passing the Sun Certified Web Component Developer Exam"><img src="//b-ok.cc/covers200/books/da/81/e4/da81e4b5048d32aacb5f17aaa6d4b38e.jpg" class="bMosaicCover bgrid-item item" width="100%"/></a></div><div class="brick" style="width:14%;"><a href="/book/510797/4029d2" title="Head First JavaScript"><img src="//b-ok.cc/covers200/books/9f/fd/87/9ffd874d156d88c7744e6a259c6be0ae.jpg" class="bMosaicCover bgrid-item item" width="100%"/></a></div><div class="brick" style="width:14%;"><a href="/book/540469/beb750" title="LINUX assembly language programming"><img src="//b-ok.cc/covers200/books/a3/d6/75/a3d6758e6e21b80b35e1b981ecbc1234.jpg" class="bMosaicCover bgrid-item item" width="100%"/></a></div><div class="brick" style="width:14%;"><a href="/book/633007/0f2089" title="Head First Java, "><img src="//b-ok.cc/covers200/books/a6/fe/d2/a6fed263344ca4c35328f19bfeaf2fa1.jpg" class="bMosaicCover bgrid-item item" width="100%"/></a></div><div class="brick" style="width:14%;"><a href="/book/682365/25b63c" title="Head First Web Design"><img src="//b-ok.cc/covers200/books/5e/cf/44/5ecf44f52b8fe885462043b1efc71e62.jpg" class="bMosaicCover bgrid-item item" width="100%"/></a></div><div class="brick" style="width:14%;"><a href="/book/687906/c0989d" title="Head First Excel: A learner's guide to spreadsheets (Head First Guides)"><img src="//b-ok.cc/covers200/books/b9/d9/85/b9d985aecd7a53c46374b2f723ef820c.jpg" class="bMosaicCover bgrid-item item" width="100%"/></a></div><div class="brick" style="width:14%;"><a href="/book/705390/e14df4" title="Head First Data Analysis"><img src="//b-ok.cc/covers200/books/c5/e1/83/c5e18368d71817b17f75c46750465f72.jpg" class="bMosaicCover bgrid-item item" width="100%"/></a></div><div class="brick" style="width:14%;"><a href="/book/755169/43953a" title="Head First PHP &amp; MySQL"><img src="//b-ok.cc/covers200/books/82/63/8c/82638cb8273e1f5c8e67db7688b2991f.jpg" class="bMosaicCover bgrid-item item" width="100%"/></a></div><div class="brick" style="width:14%;"><a href="/book/766965/9fd95c" title="Head First Python"><img src="//b-ok.cc/covers200/books/41/32/ff/4132ffaa411b7c1d509bc360cb01bab3.jpg" class="bMosaicCover bgrid-item item" width="100%"/></a></div><div class="brick" style="width:14%;"><a href="/book/867527/19328c" title="Head First Networking"><img src="//b-ok.cc/covers200/books/fc/ed/9d/fced9dc5299b6b57577d4511794c464e.jpg" class="bMosaicCover bgrid-item item" width="100%"/></a></div><div class="brick" style="width:14%;"><a href="/book/899239/a0858f" title="Head First Java, 2nd Edition"><img src="//b-ok.cc/covers200/books/d5/be/db/d5bedbe6b001445ebb3851500fd19fb3.jpg" class="bMosaicCover bgrid-item item" width="100%"/></a></div><div class="brick" style="width:14%;"><a href="/book/1240711/220578" title="Head First HTML5 Programming: Building Web Apps with JavaScript (Head First)"><img src="//b-ok.cc/covers200/books/56/38/42/56384230335773971974b68a2efe129d.jpg" class="bMosaicCover bgrid-item item" width="100%"/></a></div><div class="brick" style="width:14%;"><a href="/book/2581584/530cb9" title="Head First Ruby"><img src="//b-ok.cc/covers200/books/4e/33/dc/4e33dcf7749b01817efeab5b560d8608.jpg" class="bMosaicCover bgrid-item item" width="100%"/></a></div><div class="brick" style="width:14%;"><a href="/book/2841430/9e88b1" title="Head First Python  A Brain-Friendly Guide"><img src="//b-ok.cc/covers200/books/c8/e0/09/c8e00939decdbc3d6323d780ef9c6610.jpg" class="bMosaicCover bgrid-item item" width="100%"/></a></div><div class="brick" style="width:14%;"><a href="/book/2841722/b34f17" title="Head First Python  A Brain-Friendly Guide"><img src="//b-ok.cc/covers200/books/fd/61/23/fd6123431b4cc1c87c9024825728b014.jpg" class="bMosaicCover bgrid-item item" width="100%"/></a></div><div class="brick" style="width:14%;"><a href="/book/2924996/c9e6ea" title="Head First JavaScript Programming: A Brain-Friendly Guide"><img src="//b-ok.cc/covers200/books/1d/4c/13/1d4c138b41d09cc3d3ef4579330bf41c.jpg" class="bMosaicCover bgrid-item item" width="100%"/></a></div><div class="brick" style="width:14%;"><a href="/book/3427805/db03be" title="Head First Learn to Code: A Learner’s Guide to Coding and Computational Thinking"><img src="//b-ok.cc/covers200/books/65/95/45/659545ba41bed976e323f3773be87e00.jpg" class="bMosaicCover bgrid-item item" width="100%"/></a></div><div class="brick" style="width:14%;"><a href="/book/3601170/7f6c24" title="Head First Agile: A Brain-Friendly Guide to Agile Principles, Ideas, and Real-World Practices"><img src="//b-ok.cc/covers200/books/68/73/d0/6873d0d5e6bd9e8d182fa9449dfaa8b7.jpg" class="bMosaicCover bgrid-item item" width="100%"/></a></div></div><script>
+    $('#bMosaicBox').css('display', 'block');
+
+    var wall = new Freewall('#bMosaicBox');
+    wall.reset({
+        selector: '.brick',
+        keepOrder: true,
+        //animate: true,
+        cellW: $($('.brick')[0]).outerWidth(),
+        cellH: 'auto',
+        gutterX: 8,
+        gutterY: 8,
+        fixSize: false,
+        onResize: function () {
+            wall.fitWidth();
+        }
+    });
+
+    wall.container.find('img').load(function () {
+        wall.fitWidth();
+    });
+
+    wall.fitWidth();
+
+</script>
+<link rel="stylesheet" type="text/css" href="css/jscomments/jscomments.css">
+
+<div style="background: #49AFD0; height:2px; width: 100%; margin:40px 0 40px 0;">&nbsp;</div>
+
+
+<div id="jscommentsRootBox">
+    <div class="jscommentsFormBox">
+        <div style="width:65%; float:left;">
+            <form id="jscommentsForm" target="uploader" action="rpc.php" method="POST">
+                <input type="hidden" name="book_id" value="660071">
+                <input type="hidden" name="action" value="addReview">
+                <input type="hidden" name="rx" value="0">
+                <input id="jscommentsNamefield" name="name" type="textfield" placeholder="Your Name" value="" onchange="if (this.value) {
+                            $(this).removeClass('error');
+                        }"/>
+                <textarea id="jscommentsTextarea" name="text" placeholder="Write a Review"  onchange="if (this.value) {
+                            $(this).removeClass('error');}"></textarea>
+                <br clear="all" />
+                <a href="#" onclick="onReviewSubmit();
+                        return false;" id="jscommentsButton">Post a Review</a><img id="jscommentsLoader" src="css/jscomments/loader.gif" style="position: relative; left: -35px; display: none;"/>
+            </form>
+        </div>
+        <div style="width:35%; float:left;" class="jscommentsFormHelp">
+            <div style="padding:10px 0 0 20px;  border-left:1px solid #ccc;">
+                You can write a book review and share your experiences. Other readers will always be interested in your opinion of the books you've read. Whether you've loved the book or not, if you give your honest and detailed thoughts then people will find new books that are right for them.
+            </div>
+        </div>
+    </div>
+    <div id="jscommentsCommentsBox"></div>
+</div>
+
+<script>
+    $('#jscommentsForm')[0].rx.value = 12;
+
+    function onReviewSubmit()
+    {
+        $('#jscommentsForm')[0].submit();
+
+        $('#jscommentsButton').css('width', $('#jscommentsButton').width() + 'px');
+        $('#jscommentsButton').data('originaltxt', $('#jscommentsButton')[0].innerHTML);
+        $('#jscommentsButton').text('Posting..'); // simulate server request
+        $('#jscommentsNamefield').attr("disabled", "disabled");
+        $('#jscommentsTextarea').attr("disabled", "disabled");
+        $('#jscommentsLoader').show();
+
+    }
+
+    function onReviewSubmitFailure()
+    {
+        $('#jscommentsButton').text($('#jscommentsButton').data('originaltxt'));
+        $('#jscommentsButton').css('width', '');
+        $('#jscommentsNamefield').removeAttr("disabled");
+        $('#jscommentsTextarea').removeAttr("disabled");
+        $('#jscommentsLoader').hide();
+    }
+
+</script><div style="display: none;">
+<div id="searchResultBox"><div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">1</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/91/0b/2c/910b2cd517746cd04ffa5d970b072cfa.jpg" data-srcset="//b-ok.cc/covers100/books/91/0b/2c/910b2cd517746cd04ffa5d970b072cfa.jpg 1x, //b-ok.cc/covers200/books/91/0b/2c/910b2cd517746cd04ffa5d970b072cfa.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/660072/d2557c" class="tdn">Animal Cell Biotechnology: Methods and Protocols</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Ralf Pörtner">Ralf Pörtner</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/660072/d2557c" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2007
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 4.18 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">2</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/87/ad/20/87ad20bd833c6c9fc7e8711a2262f1f4.jpg" data-srcset="//b-ok.cc/covers100/books/87/ad/20/87ad20bd833c6c9fc7e8711a2262f1f4.jpg 1x, //b-ok.cc/covers200/books/87/ad/20/87ad20bd833c6c9fc7e8711a2262f1f4.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/660070/fb6579" class="tdn">Geometry II</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Marcel Berger">Marcel Berger</a>, <a itemprop="author" title="Find all the author's book" href="/author/Michael Cole">Michael Cole</a>, <a itemprop="author" title="Find all the author's book" href="/author/Silvio Levy">Silvio Levy</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/660070/fb6579" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    1987
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 8.37 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<center></center></div><script type="text/javascript" src="/scripts/jquery.lazy.min.js"></script>
+<script>
+    $(function () {
+        $(".lazy").Lazy({
+            effect: "fadeIn",
+            effectTime: 1000,
+            beforeLoad: function(element) {
+                $(element).css({"border-width": "0px"});
+            },
+            afterLoad: function(element) {
+                $(element).css({"border-width": "1px"});
+            }
+        });
+    });
+</script><pre>Advance Praise for Head First Programming
+“Head First Programming does a great job teaching programming using an iterative process. Add a little,
+explain a little, make the program a little better. This is how programming works in the real world
+and Head First Programming makes use of that in a teaching forum. I recommend this book to anyone
+who wants to start dabbling in programming but doesn’t know where to start. I’d also recommend this
+book to anyone not necessarily new to programming, but curious about Python. It’s a great intro to
+programming in general and programming Python specifically.”
+— Jeremy Jones, Coauthor of Python for Unix and Linux System Administration
+“David Griffiths and Paul Barry have crafted the latest gem in the Head First series. Do you use a
+computer, but are tired of always using someone else’s software? Is there something you wish your
+computer would do but wasn’t programmed for? In Head First Programming, you’ll learn how to write
+code and make your computer do things your way.”
+— Bill Mietelski, Software Engineer
+“Head First Programming provides a unique approach to a complex subject. The early chapters make
+excellent use of metaphors to introduce basic programming concepts used as a foundation for the rest
+of the book. This book has everything, from web development to graphical user interfaces and game
+programming.”
+— Doug Hellmann, Senior Software Engineer, Racemi
+“A good introduction to programming using one of the best languages around, Head First Programming
+uses a unique combination of visuals, puzzles, and exercises to teach programming in a way that is
+approachable and fun.”
+— Ted Leung, Principal Software Engineer, Sun Microsystems
+
+Praise for other Head First books
+“Kathy and Bert’s Head First Java transforms the printed page into the closest thing to a GUI you’ve ever
+seen. In a wry, hip manner, the authors make learning Java an engaging ‘what’re they gonna do next?’
+experience.”
+— Warren Keuffel, Software Development Magazine
+“Beyond the engaging style that drags you forward from know-nothing into exalted Java warrior status, Head
+First Java covers a huge amount of practical matters that other texts leave as the dreaded ‘exercise for the
+reader....’ It’s clever, wry, hip and practical—there aren’t a lot of textbooks that can make that claim and live
+up to it while also teaching you about object serialization and network launch protocols.”
+— Dr. Dan Russell, Director of User Sciences and Experience Research
+IBM Almaden Research Center (and teaches Artificial Intelligence at
+Stanford University)
+“It’s fast, irreverent, fun, and engaging. Be careful—you might actually learn something!”
+— Ken Arnold, former Senior Engineer at Sun Microsystems
+Coauthor (with James Gosling, creator of Java), The Java Programming
+Language
+“I feel like a thousand pounds of books have just been lifted off of my head.”
+— Ward Cunningham, inventor of the Wiki and founder of the Hillside Group
+“Just the right tone for the geeked-out, casual-cool guru coder in all of us. The right reference for practical development strategies—gets my brain going without having to slog through a bunch of tired, stale
+professor­-speak.”
+— Travis Kalanick, Founder of Scour and Red Swoosh
+Member of the MIT TR100
+“There are books you buy, books you keep, books you keep on your desk, and thanks to O’Reilly and the
+Head First crew, there is the penultimate category, Head First books. They’re the ones that are dog-eared,
+mangled, and carried everywhere. Head First SQL is at the top of my stack. Heck, even the PDF I have
+for review is tattered and torn.”
+— Bill Sawyer, ATG Curriculum Manager, Oracle
+“This book’s admirable clarity, humor and substantial doses of clever make it the sort of book that helps
+even non-programmers think well about problem-solving.”
+— Cory Doctorow, co-editor of Boing Boing
+Author, Down and Out in the Magic Kingdom
+and Someone Comes to Town, Someone Leaves Town
+
+Praise for other Head First books
+“I received the book yesterday and started to read it... and I couldn’t stop. This is definitely très ‘cool.’ It
+is fun, but they cover a lot of ground and they are right to the point. I’m really impressed.”
+— Erich Gamma, IBM Distinguished Engineer, and co-author of Design Patterns
+“One of the funniest and smartest books on software design I’ve ever read.”
+— Aaron LaBerge, VP Technology, ESPN.com
+“What used to be a long trial and error learning process has now been reduced neatly into an engaging
+paperback.”
+— Mike Davidson, CEO, Newsvine, Inc.
+“Elegant design is at the core of every chapter here, each concept conveyed with equal doses of
+pragmatism and wit.”
+— Ken Goldstein, Executive Vice President, Disney Online
+“I ♥ Head First HTML with CSS &amp; XHTML—it teaches you everything you need to learn in a ‘fun coated’
+format.”
+— Sally Applin, UI Designer and Artist
+“Usually when reading through a book or article on design patterns, I’d have to occasionally stick myself
+in the eye with something just to make sure I was paying attention. Not with this book. Odd as it may
+sound, this book makes learning about design patterns fun.
+“While other books on design patterns are saying ‘Buehler… Buehler… Buehler…’ this book is on the
+float belting out ‘Shake it up, baby!’”
+— Eric Wuehler
+“I literally love this book. In fact, I kissed this book in front of my wife.”
+— Satish Kumar
+
+Other related books from O’Reilly
+Learning Python
+Programming Python
+Python Cookbook
+
+Other books in O’Reilly’s Head First series
+Head First JavaTM
+Head First Object-Oriented Analysis and Design (OOA&amp;D)
+Head First HTML with CSS and XHTML
+Head First Design Patterns
+Head First Data Analysis
+Head First Servlets and JSP
+Head First EJB
+Head First PMP
+Head First SQL
+Head First Software Development
+Head First JavaScript
+Head First Ajax
+Head First Physics
+Head First Statistics
+Head First Rails
+Head First PHP &amp; MySQL
+Head First Algebra
+Head First Web Design
+
+Head First Programming
+Wouldn‛t it be dreamy if
+there were an introductory
+programming book that didn’t
+make you wish you were anywhere
+other than stuck in front of your
+computer writing code? I guess it’s
+just a fantasy...
+
+Paul Barry
+David Griffiths
+
+Beijing • Cambridge • Farnham • Kln • Sebastopol • Taipei • Tokyo
+
+Head First Programming
+by Paul Barry and David Griffiths
+Copyright © 2009 O’Reilly Media, Inc. All rights reserved.
+Printed in the United States of America.
+Published by O’Reilly Media, Inc., 1005 Gravenstein Highway North, Sebastopol, CA 95472.
+O’Reilly Media books may be purchased for educational, business, or sales promotional use. Online editions are
+also available for most titles (safari.oreilly.com). For more information, contact our corporate/institutional sales
+department: (800) 998-9938 or corporate@oreilly.com.
+
+Series Creators:		
+
+Kathy Sierra, Bert Bates
+
+Series Editor:		
+
+Brett D. McLaughlin
+
+Editor:			
+
+Brian Sawyer
+
+Cover Designers:		
+
+Steve Fehler
+
+Production Editor:		
+
+Scott DeLugan
+
+Proofreader: 		
+
+Colleen Toporek
+
+Indexer:			
+
+Angela Howard
+
+Page Viewers:
+
+David: Dawn; Paul: Deirdre, Joseph, Aaron, and Aideen
+
+Deirdre
+(super mom)
+
+Printing History:
+November 2009: First Edition.
+
+Dawn (without
+whom the book
+would never have
+been finished)
+
+Paul
+Aideen (future
+singer/songwriter)
+
+The O’Reilly logo is a registered trademark of O’Reilly Media, Inc. The Head First series designations,
+Head First Programming, and related trade dress are trademarks of O’Reilly Media, Inc.
+
+Aaron and Joseph
+(real-life surfer
+dudes)
+
+Many of the designations used by manufacturers and sellers to distinguish their products are claimed as
+trademarks. Where those designations appear in this book, and O’Reilly Media, Inc., was aware of a trademark
+claim, the designations have been printed in caps or initial caps.
+
+While every precaution has been taken in the preparation of this book, the publisher and the authors assume no
+responsibility for errors or omissions, or for damages resulting from the use of the information contained herein.
+No surfers or snakes were harmed in the making of this book.
+
+TM
+
+This book uses RepKover™, a durable and flexible lay-flat binding.
+
+ISBN: 978-0-596-80237-0
+[C]										
+
+We dedicate this book to the first person who looked at a computer
+and then asked the question, “I wonder how I make it do this... ?”
+And to those that made programming complex enough that people
+need a book like ours to learn it.
+
+David: To Dawn. The smartest person I know.
+Paul: This one’s dedicated to my father, Jim Barry, who, 25 years
+ago—when I needed a push—pushed me toward computing. That
+was a good push.
+
+the authors
+
+Authors of Head First Programming
+Paul Barry
+
+s
+
+David Griffith
+
+Paul Barry recently worked out that he has
+
+been programming for close to a quarter century, a
+fact that came as a bit of a shock. In that time, Paul
+has programmed in lots of different programming
+languages, lived and worked in two countries on two
+continents, got married, had three kids (well... his wife
+Deirdre actually had them, but Paul did play his part),
+completed a B.Sc. and M.Sc. in Computing, written
+two other books, written a bunch of technical articles
+for Linux Journal, and managed not to lose his hair... a
+situation that, sadly, may in fact be changing.
+When Paul first saw Head First HTML with CSS &amp;
+XHTML, he loved it so much he knew immediately that
+the Head First approach would be a great way to teach
+programming. He is only too delighted, together with
+David, to create this book in an attempt to prove his
+hunch correct.
+Paul’s day job is working as a lecturer at The Institute
+of Technology, Carlow in Ireland. As part of the
+Department of Computing &amp; Networking, Paul gets
+to spend his day exploring, learning, and teaching
+cool programming technologies, which is his idea of
+fun (and further proof that Paul probably needs to get
+out more). Paul hopes his students think the stuff he
+teaches is fun, too.
+viii
+
+David Griffiths began programming at age 12,
+
+when he saw a documentary on the work of Seymour
+Papert. At age 15, he wrote an implementation of
+Papert’s computer language LOGO. After studying
+Pure Mathematics at University, he began writing code
+for computers and magazine articles for humans. He’s
+worked as an agile coach, a developer, and a garage
+attendant, but not in that order. He can write code in
+over 10 languages and prose in just one, and when not
+writing, coding, or coaching, he spends much of his
+spare time travelling with his lovely wife—and fellow
+Head First author—Dawn.
+Before writing Head First Programming, he wrote another
+book called Head First Rails, which is an excellent read
+and would make a thoughtful gift for any close friend or
+family member.
+You can follow him on Twitter at:
+http://twitter.com/dgriffiths
+
+table of contents
+
+Table of Contents (Summary)
+Intro
+
+xxiii
+
+1
+
+Starting to Code: Finding Your Way
+
+1
+
+2
+
+Textual Data: Every String Has Its Place
+
+37
+
+3
+
+Functions: Let’s Get Organized
+
+77
+
+4
+
+Data Files and Arrays: Sort It Out
+
+113
+
+5
+
+Hashes and Databases: Putting Data in Its Place
+
+145
+
+6
+
+Modular Programming: Keeping Things Straight
+
+177
+
+7
+
+Building a Graphical User Interface: Going All Gooey
+
+215
+
+8
+
+GUIs and Data: Data Entry Widgets
+
+257
+
+81/2
+
+Exceptions and Message Boxes: Get the Message?			
+
+293
+
+9
+
+Graphical Interface Elements: Selecting the Right Tool
+
+313
+
+10
+
+Custom Widgets and Classes: With an Object in Mind
+
+349
+
+i
+
+Leftovers: The Top Ten Things (We Didn’t Cover)
+
+385
+
+Table of Contents (the real thing)
+Intro
+Your brain on Programming.  Here
+
+you are trying to learn something,
+
+while here your brain is doing you a favor by making sure the learning doesn’t stick.
+Your brain’s thinking, “Better leave room for more important things, like which wild
+animals to avoid and whether naked snowboarding is a bad idea.” So how do you
+trick your brain into thinking that your life depends on knowing Programming?
+
+Who is this book for?
+We know what you’re thinking
+Metacognition
+Bend your brain into submission
+Read me
+The technical review team
+Acknowledgments
+
+xxiv
+xxv
+xxvii
+xxix
+xxx
+xxxii
+xxxiii
+
+ix
+
+table of contents
+
+1
+
+starting to code
+Finding your way
+Writing programs gives you the power to control your PC.
+Almost everyone knows how to use a computer, but few people take the next step and
+learn how to control it. If you use other people’s software, you will always be limited by
+what other people think you want to do. Write your own programs and the only limit will
+be your own imagination. Programming will make you more creative, it will make you
+think more precisely, and it will teach you to analyze and solve problems logically.
+
+Do you want to be programmed or be the programmer?
+
+&lt;= 5?
+guess
+
+x
+
+Programming lets you do more
+
+2
+
+So how do you run your code?
+
+5
+
+Create a new program file
+
+6
+
+Prepare and run your code
+
+7
+
+A program is more than a list of commands
+
+12
+
+Codeville: Your program is like a network of roads
+
+13
+
+Branches are code intersections
+
+14
+
+if/else branches
+
+15
+
+The Python code needs interconnecting paths
+
+20
+
+Python uses indents to connect paths
+
+21
+
+Loops let you run the same piece of code over and over again
+
+28
+
+Python’s while loop
+
+29
+
+Your Programming Toolbox
+
+35
+
+table of contents
+
+2
+
+textual data
+Every string has its place
+Imagine trying to communicate without words.
+All programs process data, and one of the most important types of data is text. In this
+chapter, you’ll work through the basics of textual data. You’ll automatically search
+text and get back exactly what you’re looking for. Along the way, you’ll pick up key
+programming concepts such as methods and how you can use them to bend your
+data to your will. And finally, you’ll instantly power up your programs with the help of
+library code.
+
+Your new gig at Starbuzz Coffee		
+
+38
+
+Here’s the current Starbuzz code		
+
+39
+
+The cost is embedded in the HTML		
+
+41
+
+A string is a series of characters		
+
+41
+
+Find characters inside the text		
+
+42
+
+But how do you get at more than one character?		
+
+43
+
+The String Exposed		
+
+48
+
+Beans’R’Us is rewarding loyal customers		
+
+50
+
+Searching is complex		
+
+52
+
+Python data is smart		
+
+54
+
+Strings and numbers are different		
+
+64
+
+The program has overloaded the Beans’R’Us Server		
+
+67
+
+Time... if only you had more of it		
+
+68
+
+You’re already using library code		
+
+69
+
+Order is restored		
+
+74
+
+Your Programming Toolbox		
+
+75
+
+xi
+
+table of contents
+
+3
+
+functions
+Let’s get organized
+As programs grow, the code often becomes more complex.
+And complex code can be hard to read, and even harder to maintain. One way of
+managing this complexity is to create functions. Functions are snippets of code
+that you use as needed from within your program. They allow you to separate out
+common actions, and this means that they make your code easier to read and
+easier to maintain. In this chapter, you’ll discover how a little function knowledge
+can make your coding life a whole lot easier.
+
+xii
+
+Starbuzz is out of beans!		
+
+78
+
+What does the new program need to do?		
+
+79
+
+Don’t duplicate your code...		
+
+81
+
+Reuse code with functions		
+
+82
+
+Always get things in the right order		
+
+84
+
+Return data with the return command		
+
+87
+
+Use the Web, Luke		
+
+93
+
+The function always sends the same message		
+
+94
+
+Use parameters to avoid duplicating functions		
+
+96
+
+Someone decided to mess with your code		
+
+102
+
+The rest of the program can’t see the password variable		
+
+104
+
+When you call a function, the computer creates a fresh list of variables
+
+105
+
+When you leave a function, its variables get thrown away		
+
+106
+
+Starbuzz is fully stocked!		
+
+110
+
+Your Programming Toolbox		
+
+111
+
+table of contents
+
+4
+
+data files and arrays
+Sort it out
+As your programs develop, so do your data handling needs.
+And when you have lots of data to work with, using an individual variable for each piece
+of data gets really old, really quickly. So programmers employ some rather awesome
+containers (known as data structures) to help them work with lots of data. More times
+than not, all that data comes from a file stored on a hard disk. So, how can you work
+with data in your files? Turns out it’s a breeze.
+
+Hey, dude, it’s
+Chapter 4... time
+for a break - let’s
+catch some waves.
+
+Surf ’s up in Codeville
+
+114
+
+Find the highest score in the results file
+
+115
+
+Iterate through the file with the open, for, close pattern
+
+116
+
+The file contains more than numbers...
+
+120
+
+Split each line as you read it
+
+121
+
+The split() method cuts the string
+
+122
+
+But you need more than one top score
+
+126
+
+Keeping track of 3 scores makes the code more complex
+
+127
+
+An ordered list makes code much simpler
+
+128
+
+Sorting is easier in memory
+
+129
+
+You can’t use a separate variable for each line of data
+
+130
+
+An array lets you manage a whole train of data
+
+131
+
+Python gives you arrays with lists
+
+132
+
+Sort the array before displaying the results
+
+136
+
+Sort the scores from highest to lowest
+
+139
+
+And the winner is...?
+
+142
+
+You somehow forgot the surfer names
+
+143
+
+Your Programming Toolbox
+
+144
+
+xiii
+
+table of contents
+
+5
+
+hashes and databases
+Putting data in its place
+Arrays aren’t the only show in town when it comes to data.
+Programming languages come with other data-arranging goodies too, and our
+chosen tool, Python, is no exception. In this chapter, you’ll associate values
+with names using a data structure commonly called the hash (better known as
+dictionary to Python-folk). And when it comes to working with stored data, you’ll
+read data from an external database system as well as from regular text-based
+files. All the world’s awash with data, so turn the page and start applying your everexpanding programming skills to some cool data-processing tasks.
+
+Who won the surfing contest?
+
+146
+
+Associate the name with the score
+
+150
+
+Associate a key with a value using a hash
+
+153
+
+Iterate hash data with for
+
+154
+
+The data isn’t sorted
+
+158
+
+When data gets complex
+
+160
+
+Return a data structure from a function
+
+164
+
+H
+
+168
+
+’s your new board!
+while, down at the studio...
+
+169
+
+code remains the same; it’s the function that changes
+
+170
+
+’s data is on the money!
+
+174
+
+Programming Toolbox
+
+175
+
+table of contents
+
+6
+
+modular programming
+Keeping things straight
+The code that you write will make its way into many programs.
+And, although sharing is good, you need to be careful. One programmer might take
+your code and use it in an unexpected way, while another might change it without even
+letting you know. You might want to use one function in all your programs and, over
+time, that function’s code might change to suit your needs. Smart programmers take
+advantage of modular programming techniques to keep their workload manageable.
+
+Head First Health Club is upgrading some systems		
+
+178
+
+The program needs to create a transaction file		
+
+179
+
+Use strings to format strings		
+
+180
+
+The Format String Exposed		
+
+186
+
+A late night email ruins your day		
+
+187
+
+$50,000... for a donut?!		
+
+188
+
+Only the sales from your program were rejected		
+
+189
+
+The new bank uses a new format		
+
+190
+
+Your coffee bar program still uses the old format		
+
+191
+
+Don’t just update your copy		
+
+192
+
+So how do you create a module...?		
+
+193
+
+The transaction file is working great, too		
+
+199
+
+The health club has a new requirement		
+
+200
+
+The Starbuzz code		
+
+205
+
+The two discount functions have the same name		
+
+206
+
+Fully Qualified Names (FQNs) prevent your programs from getting confused
+
+207
+
+The discounts get the customers flooding in		
+
+213
+
+Your Programming Toolbox		
+
+214
+
+xv
+
+table of contents
+
+7
+
+building a graphical user interface
+Going all gooey
+Your coding skills are great and getting better all the time.
+It’s just a shame your programs are not that nice to look at. Displaying prompts
+and messages on a text-based console is all well and good, but it’s so 1970s,
+isn’t it? Add some green text on a black background and your retro look will be
+complete. There has to be a better way to communicate with your users than
+the console, and there is: using a graphical user interface or GUI (pronounced
+“gooey”). Sounds cool, but complex, and it can be. But, don’t fret; learning a trick or
+two will have your code all graphical in no time. Let’s get all gooey (sorry, GUI) in
+this chapter.
+
+xvi
+
+Head First TVN now produces game shows
+
+216
+
+pygame is cross platform
+
+220
+
+pygame Exposed
+
+229
+
+0... 2... 1... 9... blast off !
+
+230
+
+tkinter gives you the event loop for free
+
+234
+
+tkinter is packed with options
+
+235
+
+The GUI works, but doesn’t do anything
+
+238
+
+Connect code to your button events
+
+239
+
+The GUI program’s now ready for a screentest
+
+244
+
+But TVN is still not happy
+
+246
+
+Label it
+
+249
+
+Your Programming Toolbox
+
+255
+
+table of contents
+
+8
+
+guis and data
+Data entry widgets
+GUIs don’t just process events. They also handle data.
+Almost all GUI applications need to read user data, and choosing the right widgets can
+change your interface from data entry hell to user heaven. Widgets can accept plain
+text, or just present a menu of options. There are lots of different widgets out there,
+which means there are lots of choices, too. And, of course, making the right choice can
+make all the difference. It’s time to take your GUI program to the next level.
+
+Look, I don‛t care
+what you guys do, I‛m
+gonna stay selected.
+
+Head-Ex needs a new delivery system
+
+258
+
+They’ve already designed the interface
+
+259
+
+Read data from the GUI
+
+260
+
+The Entry and Text widgets let you enter text data into your GUI
+
+261
+
+Read and write data to text fields
+
+262
+
+Large Text fields are harder to handle
+
+263
+
+One of the Head-Ex deliveries went astray
+
+270
+
+Users can enter anything in the fields
+
+271
+
+Radio buttons force users to choose a valid depot
+
+272
+
+Creating radio buttons in tkinter
+
+273
+
+The radio buttons should work together
+
+275
+
+The radio buttons can share a model
+
+276
+
+The system tells the other widgets when the model changes
+
+277
+
+So how do you use models in tkinter?
+
+278
+
+Head-Ex’s business is expanding
+
+282
+
+There are too many depots on the GUI
+
+283
+
+An OptionMenu lets you have as many options as needed
+
+284
+
+The model stays the same
+
+285
+
+Things are going great at Head-Ex
+
+291
+
+Your Programming Toolbox
+
+292
+
+Yeah,
+me too.
+
+Huh, and me.
+
+xvii
+
+table of contents
+
+8/
+
+exceptions and message boxes
+Get the message?
+Sometimes things just go wrong. You just need to handle it.
+There will always be things beyond your control. Networks will fail. Files will
+disappear. Smart coders learn how to deal with those kinds of errors and make
+their programs recover gracefully. The best software keeps the user informed
+about the bad things that happen and what should be done to recover. By learning
+how to use exceptions and message boxes, you can take your software to the
+next level of reliability and quality.
+
+xviii
+
+What’s that smell?
+
+294
+
+Someone changed the file permissions
+
+295
+
+When it couldn’t write to the file, the program threw an exception
+
+296
+
+Catch the exception
+
+297
+
+Watch for exceptions with try/except
+
+298
+
+There’s an issue with the exception handler
+
+302
+
+A message box demands attention
+
+303
+
+Creating message boxes in Python
+
+304
+
+Your Programming Toolbox
+
+311
+
+table of contents
+
+9
+
+graphical interface elements
+Selecting the right tool
+It’s easy to make your programs more effective for your users.
+And when it comes to GUI applications, there’s a world of difference between a working
+interface and one that’s both useful and effective. Selecting the right tool for the
+right job is a skill that comes with experience, and the best way to get that experience
+is to use the tools available to you. In this chapter, you’ll continue to expand your
+GUI application building skills. There’s a bunch of truly useful widgets waiting to be
+experienced. So, turn the page and let’s get going.
+
+Time to mix it up
+
+314
+
+The music just kept on playing...
+
+318
+
+Not all events are generated by button clicks
+
+319
+
+Capturing the protocol event isn’t enough
+
+326
+
+Two buttons, or not two buttons? That is the question...
+
+328
+
+The checkbox is an on/off, flip/flop toggle
+
+331
+
+Working with checkboxes in tkinter
+
+332
+
+Pump up the volume!
+
+336
+
+Model a slider on a scale
+
+337
+
+Use pygame to set the volume
+
+339
+
+Use tkinter for everything else
+
+340
+
+The DJ is over the moon!
+
+347
+
+Your Programming Toolbox
+
+348
+
+xix
+
+table of contents
+
+10
+
+custom widgets and classes
+With an object in mind
+Requirements can be complex, but programs don’t have
+to be.
+By using object orientation, you can give your programs great power without
+writing lots of extra code. Keep reading, and you’ll create custom widgets that do
+exactly what you want and give you the power to take your programming skills
+to the next level.
+
+xx
+
+The DJ wants to play more than one track
+
+350
+
+Create code for each track as a function
+
+351
+
+The new function contains other functions
+
+356
+
+Your new function needs to create widgets and event handlers
+
+357
+
+The DJ is confused
+
+362
+
+Group widgets together
+
+363
+
+A frame widget contains other widgets
+
+364
+
+A class is a machine for creating objects
+
+366
+
+A class has methods that define behavior
+
+367
+
+But how does an object call a method?
+
+369
+
+The SoundPanel class looks a lot like the create_gui() function
+
+370
+
+class = methods + data
+
+372
+
+The Class Exposed
+
+373
+
+The DJ has an entire directory of tracks
+
+378
+
+It’s party time!
+
+382
+
+Your Programming Toolbox
+
+383
+
+Leaving town...
+
+384
+
+It’s been great having you here in Codeville!
+
+384
+
+table of contents
+
+i
+
+leftovers
+The Top Ten Things (we didn’t cover)
+You’ve come a long way.
+But learning how to program is an activity that never stops. The more you code, the
+more you’ll need to learn new ways to do certain things. You’ll need to master new
+tools and new techniques, too. There’s just not enough room in this book to show you
+everything you might possibly need to know. So, here’s our list of the top ten things we
+didn’t cover that you might want to learn more about next.
+
+#1: Doing things “The Python Way”
+
+386
+
+#2: Using Python 2
+
+387
+
+#3: Other programming languages
+
+388
+
+#4: Automated testing techniques
+
+389
+
+#5: Debugging
+
+390
+
+#6: Command-line execution
+
+391
+
+#7: Ooops... we could’ve covered more OOP
+
+392
+
+#8: Algorithms
+
+393
+
+#9: Advanced programming topics
+
+394
+
+#10: Other IDEs, shells and text editors
+
+395
+
+xxi
+
+how to use this book
+
+Intro
+I can’t believe
+they put that in a
+programming book.
+
+ning question:
+In this section we answer theinbur
+programming book?”
+“So why DID they put that a
+
+xxiii
+
+how to use this book
+
+Who is this book for?
+If you can answer “yes” to all of these:
+1
+
+Do you wish you had the know-how to control your
+computer and make it do new things?
+
+2
+
+Do you want to learn how to program, so you can create
+the next big thing in software, make a small fortune, and
+retire to your own private island?
+
+3
+
+Do you prefer actually doing things and applying the stuff
+you learn over listening to someone in a lecture rattle on
+for hours on end?
+
+this book is for you.
+
+Who should probably back away from this book?
+If you can answer “yes” to any of these:
+1
+
+Are you a seasoned programmer? Do you already know
+how to program?
+
+2
+
+Are you looking for a quick introduction or reference book
+to Python?
+
+3
+
+Would you rather have your toenails pulled out by 15
+screaming monkeys than learn something new? Do you
+believe a programming book should cover everything and
+if it bores the reader to tears in the process then so much
+the better?
+
+this book is not for you.
+
+[Note from marketing: this book
+is for anyone with a credit card...
+we’ll accept a check, too.]
+xxiv   intro
+
+OK, maybe that one’s a little
+far-fetched. But, you gotta
+start somewhere, right?
+
+We know what you’re thinking
+“How can this be a serious Programming book?”
+“What’s with all the graphics?”
+“Can I actually learn it this way?”
+
+We know what your brain is thinking
+
+Your bra
+THIS is imin thinks
+portant.
+
+Your brain craves novelty. It’s always searching, scanning, waiting for something
+unusual. It was built that way, and it helps you stay alive.
+So what does your brain do with all the routine, ordinary, normal things
+you encounter? Everything it can to stop them from interfering with the
+brain’s real job—recording things that matter. It doesn’t bother saving the
+boring things; they never make it past the “this is obviously not important”
+filter.
+How does your brain know what’s important? Suppose you’re out for a day
+hike and a tiger jumps in front of you, what happens inside your head and
+body?
+Great. Only 464
+more dull, dry,
+boring pages.
+
+Neurons fire. Emotions crank up. Chemicals surge.
+And that’s how your brain knows...
+This must be important! Don’t forget it!
+
+But imagine you’re at home, or in a library. It’s a safe, warm, tiger‑free zone. Your brain
+You’re studying. Getting ready for an exam. Or trying to learn some tough THIS isn’t
+technical topic your boss thinks will take a week, ten days at the most.
+saving.
+
+thinks
+worth
+
+Just one problem. Your brain’s trying to do you a big favor. It’s trying to
+make sure that this obviously non-important content doesn’t clutter up scarce
+resources. Resources that are better spent storing the really big things.
+Like tigers. Like the danger of fire. Like how you should never have
+posted those “party” photos on your Facebook page. And there’s no
+simple way to tell your brain, “Hey brain, thank you very much, but
+no matter how dull this book is, and how little I’m registering on the
+emotional Richter scale right now, I really do want you to keep this
+stuff around.”
+
+you are here 4   xxv
+
+how to use this book
+
+ader as a learner.
+
+t” re
+We think of a “Head Firs
+
+then make sure
+st, you have to get it,
+Fir
+?
+ng
+thi
+me
+so
+rn
+e to lea
+sed on the latest
+So what does it tak
+ts into your head. Ba
+fac
+ing
+sh
+pu
+t
+ou
+ab
+t
+It’s no
+hology, learning
+you don’t forget it.
+d educational psyc
+an
+y,
+og
+iol
+ob
+ur
+ne
+,
+e science
+research in cognitiv
+ns your brain on.
+. We know what tur
+ge
+pa
+a
+on
+t
+tex
+n
+takes a lot more tha
+ciples:
+First lear ning prin
+Some of the Head
+ch
+
+ng mu
+alone, and make learni
+memorable than words
+re
+mo
+far
+are
+ngs more
+s
+thi
+age
+Im
+kes
+Make it visual.
+er studies). It also ma
+ent in recall and transf
+vem
+pro
+im
+rather than on
+to,
+89%
+ate
+to
+more effective (up
+gr aphics they rel
+thin or near the
+wi
+s
+rd
+wo
+ms related to the
+e
+ble
+th
+t
+pro
+understandable. Pu
+twice as likely to solve
+to
+up
+be
+l
+wil
+rs
+rne
+ther page, and lea
+the bottom or on ano
+content.
+
+performed up
+recent studies, students
+onalized style. In
+rs
+pe
+d
+an
+l
+first-person,
+a
+na
+ng
+tio
+usi
+Use a conver sa
+ectly to the reader,
+dir
+ke
+spo
+t
+ten
+con
+the
+guage.
+earning tests if
+turing. Use casual lan
+to 40% better on post-l
+l stories instead of lec
+Tel
+e.
+ton
+l
+ma
+for
+a
+ty
+her than tak ing
+ulating dinner par
+conversational style rat
+re attention to: a stim
+ich would you pay mo
+Wh
+.
+sly
+iou
+ser
+too
+lf
+Don’t take yourse
+e?
+companion, or a lec tur
+s,
+ively flex your neuron
+words, unless you act
+er
+oth
+In
+ly.
+ep
+de
+to
+think more
+ious, and inspired
+Get the learner to
+tivated, engaged, cur
+A reader has to be mo
+d.
+hea
+r
+you
+in
+need challenges,
+ns
+pe
+you
+nothing much hap
+wledge. And for that,
+kno
+new
+ate
+ner
+ge
+conclusions, and
+of the brain and
+solve problems, draw
+that involve both sides
+estions, and activities
+qu
+ing
+vok
+pro
+htug
+exercises, and tho
+’t
+multiple senses.
+nt to learn this but I can
+all had the “I really wa
+’ve
+We
+.
+ion
+nt
+te
+ry,
+at
+he reader’s
+are out of the ordina
+Get—and keep—t
+ention to things that
+be
+e. Your brain pays att
+enc
+eri
+exp
+e”
+on
+e
+l topic doesn’t have to
+pag
+ica
+stay awake past
+a new, tough, techn
+ng
+rni
+Lea
+ed.
+ect
+exp
+-catching, un
+interesting, strange, eye
+if it’s not.
+rn much more quick ly
+lea
+l
+wil
+in
+boring. Your bra
+ndent
+ething is largely depe
+lity to remember som
+abi
+r
+you
+t
+tha
+w
+ing.
+kno
+eth
+ions. We now
+r when you feel som
+Touch their emot
+about. You remembe
+e
+car
+you
+at
+wh
+r
+be
+t. You remem
+king emotions like
+on its emotional conten
+y and his dog. We’re tal
+rn
+ng stories about a bo
+chi
+ren
+rt‑w
+hea
+you solve a puzzle, lea
+g
+en
+kin
+No, we’re not tal
+Rule!” that comes wh
+“I
+of
+ling
+fee
+the
+n
+and
+tha
+,
+, “what the...?”
+more technical
+surprise, curiosity, fun
+w something that “I’m
+hard, or realize you kno
+is
+nks
+thi
+e
+els
+y
+od
+something everyb
+ering doesn’t.
+thou” Bob from engine
+
+xxvi   intro
+
+Metacognition: thinking about thinking
+If you really want to learn, and you want to learn more quickly and more
+deeply, pay attention to how you pay attention. Think about how you think.
+Learn how you learn.
+Most of us did not take courses on metacognition or learning theory when we
+were growing up. We were expected to learn, but rarely taught to learn.
+
+I wonder how
+I can trick my brain
+into remembering
+this stuff...
+
+But we assume that if you’re holding this book, you really want to learn how
+to program And you probably don’t want to spend a lot of time. If you want
+to use what you read in this book, you need to remember what you read. And
+for that, you’ve got to understand it. To get the most from this book, or any book
+or learning experience, take responsibility for your brain. Your brain on this
+content.
+The trick is to get your brain to see the new material you’re learning as
+Really Important. Crucial to your well‑being. As important as a tiger.
+Otherwise, you’re in for a constant battle, with your brain doing its best to
+keep the new content from sticking.
+So just how DO you get your brain to treat
+programming like it was a hungry tiger?
+There’s the slow, tedious way, or the faster, more effective way. The
+slow way is about sheer repetition. You obviously know that you are able to learn
+and remember even the dullest of topics if you keep pounding the same thing into your
+brain. With enough repetition, your brain says, “This doesn’t feel important to him, but he
+keeps looking at the same thing over and over and over, so I suppose it must be.”
+The faster way is to do anything that increases brain activity, especially different
+types of brain activity. The things on the previous page are a big part of the solution,
+and they’re all things that have been proven to help your brain work in your favor. For
+example, studies show that putting words within the pictures they describe (as opposed to
+somewhere else in the page, like a caption or in the body text) causes your brain to try to
+makes sense of how the words and picture relate, and this causes more neurons to fire.
+More neurons firing = more chances for your brain to get that this is something worth
+paying attention to, and possibly recording.
+A conversational style helps because people tend to pay more attention when they
+perceive that they’re in a conversation, since they’re expected to follow along and hold up
+their end. The amazing thing is, your brain doesn’t necessarily care that the “conversation”
+is between you and a book! On the other hand, if the writing style is formal and dry, your
+brain perceives it the same way you experience being lectured to while sitting in a roomful
+of passive attendees. No need to stay awake.
+But pictures and conversational style are just the beginning…
+
+you are here 4   xxvii
+
+how to use this book
+
+Here’s what WE did:
+We used pictures, because your brain is tuned for visuals, not text. As far as your brain’s
+concerned, a picture really is worth a thousand words. And when text and pictures work
+together, we embedded the text in the pictures because your brain works more effectively
+when the text is within the thing the text refers to, as opposed to in a caption or buried in the
+text somewhere.
+We used redundancy, saying the same thing in different ways and with different media types,
+and multiple senses, to increase the chance that the content gets coded into more than one area
+of your brain.
+We used concepts and pictures in unexpected ways because your brain is tuned for novelty,
+and we used pictures and ideas with at least some emotional content, because your brain
+is tuned to pay attention to the biochemistry of emotions. That which causes you to feel
+something is more likely to be remembered, even if that feeling is nothing more than a little
+humor, surprise, or interest.
+We used a personalized, conversational style, because your brain is tuned to pay more
+attention when it believes you’re in a conversation than if it thinks you’re passively listening
+to a presentation. Your brain does this even when you’re reading.
+We included more than 80 activities, because your brain is tuned to learn and remember
+more when you do things than when you read about things. And we made the exercises
+challenging-yet-do-able, because that’s what most people prefer.
+We used multiple learning styles, because you might prefer step-by-step procedures, while
+someone else wants to understand the big picture first, and someone else just wants to see
+an example. But regardless of your own learning preference, everyone benefits from seeing the
+same content represented in multiple ways.
+We include content for both sides of your brain, because the more of your brain you
+engage, the more likely you are to learn and remember, and the longer you can stay focused.
+Since working one side of the brain often means giving the other side a chance to rest, you
+can be more productive at learning for a longer period of time.
+And we included stories and exercises that present more than one point of view,
+because your brain is tuned to learn more deeply when it’s forced to make evaluations and
+judgments.
+We included challenges, with exercises, and by asking questions that don’t always have
+a straight answer, because your brain is tuned to learn and remember when it has to work at
+something. Think about it—you can’t get your body in shape just by watching people at the
+gym. But we did our best to make sure that when you’re working hard, it’s on the right things.
+That you’re not spending one extra dendrite processing a hard-to-understand example,
+or parsing difficult, jargon-laden, or overly terse text.
+We used people. In stories, examples, pictures, etc., because, well, because you’re a person.
+And your brain pays more attention to people than it does to things.
+
+xxviii   intro
+
+Here’s what YOU can do to bend
+your brain into submission
+So, we did our part. The rest is up to you. These tips are a
+starting point; listen to your brain and figure out what works
+for you and what doesn’t. Try new things.
+
+Cut this out and sti
+on your refrigerator.ck it
+1
+
+Slow down. The more you understand, the
+less you have to memorize.
+
+Don’t just read. Stop and think. When the book asks
+you a question, don’t just skip to the answer. Imagine
+that someone really is asking the question. The
+more deeply you force your brain to think, the better
+chance you have of learning and remembering.
+2
+
+7
+
+8
+
+Part of the learning (especially the transfer to
+long-term memory) happens after you put the book
+down. Your brain needs time on its own, to do more
+processing. If you put in something new during that
+processing time, some of what you just learned will
+be lost.
+5 Talk about it. Out loud.
+Speaking activates a different part of the brain. If
+you’re trying to understand something, or increase
+your chance of remembering it later, say it out loud.
+Better still, try to explain it out loud to someone else.
+You’ll learn more quickly, and you might uncover
+ideas you hadn’t known were there when you were
+reading about it.
+
+Feel something.
+
+Your brain needs to know that this matters. Get
+involved with the stories. Make up your own
+captions for the photos. Groaning over a bad joke
+is still better than feeling nothing at all.
+
+Read the “There are No Dumb Questions”
+
+Make this the last thing you read before bed.
+Or at least the last challenging thing.
+
+Listen to your brain.
+
+Pay attention to whether your brain is getting
+overloaded. If you find yourself starting to skim
+the surface or forget what you just read, it’s time
+for a break. Once you go past a certain point, you
+won’t learn faster by trying to shove more in, and
+you might even hurt the process.
+
+That means all of them. They’re not optional
+sidebars, they’re part of the core content!
+Don’t skip them.
+4
+
+Drink water. Lots of it.
+
+Your brain works best in a nice bath of fluid.
+Dehydration (which can happen before you ever
+feel thirsty) decreases cognitive function.
+
+Do the exercises. Write your own notes.
+
+We put them in, but if we did them for you, that
+would be like having someone else do your workouts
+for you. And don’t just look at the exercises. Use a
+pencil. There’s plenty of evidence that physical
+activity while learning can increase the learning.
+3
+
+6
+
+9
+
+Write a lot of code!
+
+There’s only one way to learn to program: writing
+a lot of code. And that’s what you’re going to
+do throughout this book. Coding is a skill, and the
+only way to get good at it is to practice. We’re going
+to give you a lot of practice: every chapter has
+exercises that pose a problem for you to solve. Don’t
+just skip over them—a lot of the learning happens
+when you solve the exercises. We included a solution
+to each exercise—don’t be afraid to peek at the
+solution if you get stuck! (It’s easy to get snagged
+on something small.) But try to solve the problem
+before you look at the solution. And definitely get it
+working before you move on to the next part of the
+book.
+
+you are here 4   xxix
+
+how to use this book
+
+Read Me
+This is a learning experience, not a reference book. We deliberately stripped out everything
+that might get in the way of learning whatever it is we’re working on at that point in the
+book. And the first time through, you need to begin at the beginning, because the book
+makes assumptions about what you’ve already seen and learned.
+This is not Head First Python.
+We use release 3 of the Python programming language throughout this book, but this
+fact alone does not make this book Head First Python. We chose Python because it’s a great
+programming language to start with and it’s also a great programming language to grow
+with. In fact, Python might be the only programming language you’ll ever need to learn
+and use (although your employer might think otherwise). Of course, you have to start with
+something, and we can think of no better programming language to use than Python when
+first learning how to program. That said, this book isn’t designed to teach you Python;
+it’s designed to teach you programming, so most of the things we show you are designed to
+hightlight the programming concept, not the Python feature.
+You need to install Python 3 on your computer.
+To run the programs in this book, you need to download and install Python 3 on your
+computer. This isn’t as hard as it sounds. Pop on over to the Python download site and
+select the option that fits best with the computer you are using. Just be sure to select release
+3 of Python, not release 2: http://www.python.org/download.
+We begin by teaching some basic programming concepts, then we
+start putting programming to work for you right away.
+We cover the fundamentals of programming in Chapter 1. That way, by the time you
+make it all the way to Chapter 2, you are creating programs that actually do something
+real, useful, and—gulp!—fun. We are guessing you’ll be amazed by how much you can do
+with less than a dozen lines of code in Chapter 2. The rest of the book then builds on your
+programming skills turning you from programming newbie to coding ninja master in no time.
+
+xxx   intro
+
+The activities are NOT optional.
+The exercises and activities are not add-ons; they’re part of the core content of the book.
+Some of them are to help with memory, some are for understanding, and some will help
+you apply what you’ve learned. Don’t skip the exercises.
+The redundancy is intentional and important.
+One distinct difference in a Head First book is that we want you to really get it. And we
+want you to finish the book remembering what you’ve learned. Most reference books
+don’t have retention and recall as a goal, but this book is about learning, so you’ll see some
+of the same concepts come up more than once.
+The examples are as lean as possible.
+Our readers tell us that it’s frustrating to wade through 200 lines of an example looking
+for the two lines they need to understand. Most examples in this book are shown within
+the smallest possible context, so that the part you’re trying to learn is clear and simple.
+Don’t expect all of the examples to be robust, or even complete—they are written
+specifically for learning, and aren’t always fully-functional.
+We’ve placed a lot of the code examples on the Web so you can copy and paste them as
+needed. You’ll find them at two locations:
+http://www.headfirstlabs.com/books/hfprog/ and
+http://programming.itcarlow.ie
+The Brain Power exercises don’t have answers.
+For some of them, there is no right answer, and for others, part of the learning
+experience of the Brain Power activities is for you to decide if and when your answers
+are right. In some of the Brain Power exercises, you will find hints to point you in the
+right direction.
+
+you are here 4   xxxi
+
+the review team
+
+The technical review team
+Doug Hellman
+
+Jeremy Jones
+
+Ted Leung
+
+Bill Mietelski
+
+Technical Reviewers:
+Doug Hellmann is a Senior Software Engineer
+at Racemi and former Editor in Chief for Python
+Magazine. He has been programming in Python since
+version 1.4 and prior to Python worked mostly with C
+on a variety of Unix and non-Unix platforms. He has
+worked on projects ranging from mapping to medical
+news publishing, with a little banking thrown in for
+good measure. Doug spends his spare time working on
+several open source projects; reading science fiction,
+history, and biographies; and writing the Python Module
+of the Week blog series.
+Jeremy Jones is the coauthor of Python for Unix and
+Linux System Administration and has been actively using
+Python since 2001. He has been a developer, system
+administrator, quality assurance engineer, and tech
+support analyst. They all have their rewards and
+challenges, but his most challenging and rewarding job
+has been husband and father.
+
+xxxii   intro
+
+Ted Leung has been programming in Python since
+2002 and is currently a Principal Software Engineer
+at Sun Microsystems. He has a Bachelor of Science
+degree in Mathematics from the Massachusetts Institute
+of Technology and a Master’s of Science degree in
+computer science from Brown University. Ted’s weblog
+is available at http://www.sauria.com/blog
+Bill Mietelski has been an Information Technology
+geek for over 20 years. He’s currently a Software
+Engineer at a leading national academic medical center
+in the Chicagoland area, working on statistical research
+studies. When he’s not at the office or tied to a computer,
+you’ll find him at a golf course chasing a little white ball.
+
+Acknowledgments
+Our editor:
+Brian Sawyer was Head First Programming’s editor. When not editing
+books, Brian likes to run marathons “for fun.” It transpires that this
+was the perfect training for working on the marathon that producing
+this book turned into. At times, Brian worked us very hard, and,
+consequently, we have a much better book.
+The O’Reilly team:
+
+Brian Sawyer
+
+Brett McLaughlin, the Series Editor, kept an eye on what we were up to and on more than once occasion came to
+our rescue we when we found ourselves in trouble. Karen Shaner provided administrative support and very capably
+coordinated our techical review process.
+Friends and colleagues:
+David and Paul are especially grateful to Lou Barr for first thinking that the two of them might like to work together
+on this book, suggesting they do, and then working hard to get the idea approved at O’Reilly. Thanks, Lou!
+David: My thanks to Kathy Sierra and Bert Bates for this extraordinary series of books. And to Andy Parker and
+Joe Broughton and Carl Jacques and Simon Jones and the many other friends who have heard so little from me
+whilst I was busy scribbling away.
+Paul: My thanks to Nigel Whyte, Head of Department, Computing and Networking at The Institute of Technology,
+Carlow for supporting my involvement in yet another writing project. Also at work, Dr. Christophe Meudec
+reviewed the early chapters and offered some very welcome words of encouragement, together with suggestions as how
+to make things just that little bit better. Joseph Kehoe also reviewed the early material and liked what he saw.
+Family:
+David: I owe a very particular thank you to my wife, the author of Head First Statistics, Dawn Griffiths. For her wit,
+humor, patience, and ability to turn vague ideas into real chapters.
+Paul: Thanks are due to my father, Jim Barry, who reviewed the early, draft material and (once again) pointed out
+where my writing could be improved and clarified. Regretfully, my home life suffered as working on this book grew to
+consume all of my free time. Deirdre, Joseph, Aaron, and Aideen had to bear the grunts and groans, huffs and
+puffs, and more than a few roars as the pressure reached boiling point on more than one occasion. I sometimes wonder
+how they put up with me, but somehow they do, and I’m very grateful for their ongoing love and support.
+The without-whom list:
+Our technical review team did an excellent job of keeping us straight and making sure what we covered was spot on.
+Finally, we both owe a huge debt of gratitude to David’s wife, Dawn, who not only looks after David, but also got
+involved in the production of this book at a time when things looked like we’d never finish. Without Dawn’s help, this
+book would never have been done on time. Dawn is the Head First Programming guardian angel.
+
+you are here 4   xxxiii
+
+safari books online
+
+Safari® Books Online
+When you see a Safari® icon on the cover of your favorite
+technology book that means the book is available online
+through the O’Reilly Network Safari Bookshelf.
+Safari offers a solution that’s better than e-books. It’s a virtual library that lets you
+easily search thousands of top tech books, cut and paste code samples, download
+chapters, and find quick answers when you need the most accurate, current
+information. Try it for free at http://safari.oreilly.com.
+
+xxxiv   intro
+
+1 starting to code
+
+Finding your way
+I wish “sweet cheeks” here
+would finish with the polishing.
+I‛ve got to re-bore the cam
+shaft and reprogram the EMS
+for Saturday‛s drift race.
+
+Writing programs gives you the power to control your PC.
+Almost everyone knows how to use a computer, but few people take the next step and
+learn how to control it. If you use other people’s software, you will always be limited by
+what other people think you want to do. Write your own programs and the only limit will be
+your own imagination. Programming will make you more creative, it will make you think
+more precisely, and it will teach you to analyze and solve problems logically.
+
+Do you want to be programmed or be the programmer?
+this is a new chapter   1
+
+take control of your computer
+
+Programming lets you do more
+You’ve got problems to solve and work to do, but your existing software
+doesn’t quite cut it. Even with all those programs on your computer,
+you still need to do something different, something specific to you.
+If only I could
+program Twitter...
+How do I get
+my website to do
+what I want?
+Whaddaya mean, that‛s
+not the way the website
+was programmed?!?
+
+Man, I‛m sooooo fed
+up with the “same old,
+same old” games.
+
+You want to do more with your computer. You want to take control.
+Learning to program gives you the power to create and solve.
+Learning to program puts you in charge.
+But, how does programming work?
+Let’s look at a simple game written in Python.
+2   Chapter 1
+
+starting to code
+
+This code is a guessing-game program. Study it carefully, and
+opposite each line of code in the program, write down what you
+think the code does. If you’re not sure what a particular line of
+code does, don’t worry, but try to guess anyway. One line has
+already been entered to get you started:
+
+print(&quot;Welcome!&quot;)
+g = input(&quot;Guess the number: &quot;)
+guess = int(g)
+
+Convert the input to a number.
+
+if guess == 5:
+print(&quot;You win!&quot;)
+else:
+print(&quot;You lose!&quot;)
+print(&quot;Game over!&quot;)
+
+This code is written in
+release 3 of the Pyth
+programming language, on
+is used throughout thiswhich
+book.
+
+you are here 4   3
+
+guessing games
+
+This code is a guessing-game program. You were to write down
+what you think the code does.
+
+print(&quot;Welcome!&quot;)
+
+Don’t worry if your answer
+different from ours. If thesy are
+similar, then everything is OK.are
+
+g = input(&quot;Guess the number: &quot;)
+guess = int(g)
+if guess == 5:
+print(&quot;You win!&quot;)
+
+Display a welcome message.
+Ask the user to input a guess.
+Convert the input to a number.
+Was the guessed number equal to 5?
+Tell the user “You win!&quot;
+Otherwise...
+
+else:
+print(&quot;You lose!&quot;)
+print(&quot;Game over!&quot;)
+
+...tell the user “You lose!&quot;
+End the program.
+
+But what are g and guess?
+You might be wondering what g and guess are in the code. They are
+called variables and they’re used to keep track of data in the computer’s
+memory.
+
+A variable
+
+The value entered wi
+be known as “g&quot;. ll
+g = input(&quot;Guess the number: &quot;)
+guess = int(g)
+
+A variable
+
+mberThis creates a nu
+value and
+gversion of the&quot;.
+calls it “guess
+
+A variable is really just a label for data. So if the user inputs “3” at the
+keyboard, then guess will be set to the number 3, and whenever the
+computer reads guess, it will read it as the value 3.
+4   Chapter 1
+
+Be careful with
+= signs in code.
+Programming
+languages use =
+signs for different
+purposes. In most languages
+(including Python), a double
+equals (==) is a test for equality.
+It means, “are these two things
+equal?” In contrast, a single
+equal (=) is an instruction
+(known as assignment) that
+means “set the value to.”
+
+starting to code
+
+So how do you run your code?
+There are two things that you will need to run the guessing-game
+program: an editor and an interpreter.
+The editor saves the code you write into a file on your hard disk. The
+code (sometimes called the source code) is just text, and it can be
+written and read by humans.
+
+The editor
+source code will save the
+into a file.
+.py
+The source code
+But computers can’t process text meant for humans, at least not very well.
+That’s why we need a tool to translate the human-friendly source code
+into the binary 1s and 0s that computers do understand. That’s what an
+interpreter does. In this book, an interpreter called Python is used.
+
+Hmmm... looks
+like a guessing
+game...
+
+The Python
+interpreter
+.py
+tes
+The interpreter transla
+ce
+ur
+the text of the so at the
+code into language th and.
+computer can underst
+So we need an editor and a Python interpreter. Fortunately, Python 3
+comes with a built-in application called IDLE, which does both jobs and
+more. IDLE enables you to write and edit Python code, it translates this
+code into binary form, and finally, it runs the Python 3 program. Because
+of this, IDLE is known as an Integrated Development Environment.
+Let’s see these steps in action.
+you are here 4   5
+
+open the shell
+
+Create a new program file
+When you first start IDLE, it displays a window called the Python Shell.
+Select the New Window option from the Python Shell File menu,
+which creates a new edit window for you. Input your program code as text
+into this edit window and you’ll be on your way.
+
+This is IDLE's
+Python Shell.
+
+menu option
+The New Winditowwindow.
+creates an ed
+
+This is an IDLE
+edit window.
+
+The Python program is colorcoded within IDLE's edit
+window. This color-coding
+is referred to as “syntax
+highlighting.&quot; Be sure to enter
+the code in EXACTLY as
+appears here. Don't forget it
+those “:” characters.
+
+Do this!
+
+Go ahead and open a new IDLE edit
+window and type in the code from page 3.
+
+6   Chapter 1
+
+gs
+This is how IDLE looks on our computer. Thin
+'t
+Don
+s.
+your
+on
+might look a little different
+worry: the IDLE menu system and IDLE's which
+behavior should be the same, regardless of
+operating system you're using.
+
+starting to code
+
+Prepare and run your code
+The next step is to prepare your program code for execution. To do this,
+select File → Save from the menu to save your program code to a file.
+Choose an appropriate name for your program.
+
+If you choose File →
+ve
+from the menu, you caSa
+n
+save
+your code in a file.
+
+Python progra
+filenames usuallym
+end with “.py&quot;.
+
+Python programs are usually saved in files that end with .py, so let’s call
+this program game.py.
+
+Click the Save button to
+create and save the file.
+
+It doesn’t really matter to IDLE which directory you save the file in. Some
+coders like to create special directories for each new programming project.
+But for now, just save the code in some directory that’s easy to remember.
+Now, let’s see what happens when we run the program.
+
+In the IDLE edit window,
+go to the “Run&quot; menu and
+choose “Run Module.&quot;
+
+you are here 4   7
+
+test drive
+
+Test Drive
+To run the program, you need to make sure that the edit window for
+the game.py program code is selected. Each time you run (or rerun)
+the program, you need to click on the IDLE edit window and choose
+the Run Module option from the Run menu. The word module is
+a name that IDLE uses to refer to your program code.
+Here’s what happens when you run the code:
+
+A couple of incorrect guesses...
+
+...and then the correct
+answer.
+
+Congratulations! The program works.
+Each time you run the code, it displays a “Welcome!” message,
+accepts input from the keyboard, and then tells us whether or not
+we guessed the right answer. That means the program is accepting
+input, it’s processing the data, and then it generates output.
+
+8   Chapter 1
+
+When you run your code within ID
+LE,
+any messages appear within the
+Py
+Shell, not within the edit window thon
+IDLE automatically makes the she.
+currently selected window the instll the
+ant
+your program runs.
+
+starting to code
+
+Q:
+
+I’ve never heard of Python. Is it
+popular?
+
+A:
+
+Python is used in lots of cool places.
+Google, Industrial Light &amp; Magic, YouTube,
+and NASA (to name a few) all use Python.
+We think they know what they’re doing.
+
+Q:
+
+So, when I’m done with this
+book I’ll throw Python away and use
+something else, like C# or Java?
+
+A:
+
+Only if you want to. Python might be
+the only programming language you’ll ever
+need. But, yes, if you want to learn another
+programming language, you can take
+everything you learn about programming in
+this book and apply it to any other language
+with the minimum of effort.
+
+Q:
+
+But a buddy of mine told me I
+should learn Java or C#. Why are you
+not using either of these programming
+languages in this book?
+
+A:
+
+Both Java and C# are great
+programming technologies, but they can be
+difficult to learn, especially when you are
+just starting out. This is not the case with
+Python. And, anyway, this is a book that’s
+designed to teach you how to program, and
+using Python as your first programming
+language will help us to do just that.
+
+Q:
+A:
+
+There seems to be many different
+versions of Python. Which should I use?
+
+There are two main releases of
+Python: 2 and 3. This book is based on
+release 3 of the language. Python 3 is the
+future of the language; any new features
+are guaranteed to be added to release 3
+of the language, not release 2. Of course,
+like all releases, Python 3 remains a free
+download, which makes it a no-brainer
+when decidiing if you can afford to use it.
+
+Q:
+A:
+
+Will Python run on my phone, just
+like Java?
+
+That really depends on your phone.
+Python is designed to run on lots of
+different technologies and operating
+systems. Running your own code on your
+own phone is a very specific requirement,
+and Java has that pretty well covered at
+the moment. As a programming technology,
+Java was initially designed to run on very
+small devices, so it is no big surprise that
+it is a strong and popular choice when it
+comes to telephony.
+
+Q:
+A:
+
+IDLE?
+
+Why is the Python IDE called
+
+It’s partly because it sounds like IDE,
+but we suspect that it has more to do with
+Eric Idle, one of the founding members of
+the Monty Python’s Flying Circus comedy
+group.
+
+Q:
+A:
+
+Come again?!? Monty Python’s
+Flying what?
+
+Q:
+A:
+
+So what if we’d left it out?
+
+The computer would have treated the
+input entered by the user of the program as
+a letter. If you ask the computer if a letter
+is equal to a number, it gets confused and
+tells you it isn’t.
+
+Q:
+A:
+
+Why’s that?
+
+Because if the computer thinks that
+two pieces of information are of different
+“types,” it assumes that there’s no way they
+can be equal.
+
+Q:
+
+So what if I had not typed a
+number when I was asked for a guess?
+What if I’d just entered my name or
+something?
+
+A:
+
+The code would have crashed with an
+error. In fact, Python will complain that the
+program crashed with a “ValueError” (more
+on these error messages later in the book).
+
+Circus. Yes, we know: sounds silly,
+doesn’t it? And, believe us, it is. It’s funny,
+too. The creator of Python, Guido van
+Rossum, is a big Monthy Python fan and
+reportedly watched the show’s reruns
+while he designed Python. You’ll find lots
+of references to Monty Python folklore in
+the Python community. Dead parrots are a
+particular favorite.
+
+Q:
+A:
+
+What does int(g) mean?
+
+It tells Python to interpret the user’s
+input as a number rather than a letter.
+Within programming languages, the number
+5 is different than the letter ‘5’.
+
+you are here 4   9
+
+give a hint
+
+I don‛t get it. How am I
+supposed to guess the winning
+number? All the program tells
+me is that my guess is right or
+wrong. Come on, give me some
+help here!
+
+The program needs to do more.
+At the moment, the guessing game tells the user whether his
+guess is right or wrong, but nothing more than that. It might
+be more helpful if the program displayed more informative
+messages, such as whether the guess is higher or lower than
+the correct answer. That would help the user to hone in on the
+right answer the next time the program is run.
+
+One of your users
+
+We need this program
+to display messages that
+are more informative.
+
+10   Chapter 1
+
+We can do this by changing the code. But in what way?
+
+starting to code
+
+You need to decide what messages should be displayed to the
+user. Below is a table showing some typical values the user might
+enter. What do you think the message should say?
+
+Program Modif
+
+ication
+
+Number en
+tered
+3
+
+Message to
+display
+
+5
+7
+8
+
+Think about the original code. You will need to use
+more than just print() commands to provide
+more informative feedback. What else will you
+need?
+
+you are here 4   11
+
+code is a highway
+
+You needed to decide what messages should be displayed to the
+user. Below is a table showing some typical values the user might
+enter. What did you think the message should say?
+
+Program Modif
+
+ication
+
+Number en
+tered
+3
+5
+7
+8
+
+Message to
+display
+
+Too low
+You win!
+Too high
+Too high
+
+A program is more than a list of commands
+You could create a program that was simply a list of commands. But you
+almost never will. This is because a simple list of commands can only be
+run in one direction. It’s just like driving down a straight piece of road:
+there’s really only one way of doing it.
+
+print
+(&quot;Howdy!&quot;)
+
+But programs need to be much smarter than that.
+
+12   Chapter 1
+
+print(), input()
+are examples of, and int()
+that you've alreadcommands
+y seen.
+print
+(&quot;Come
+again!&quot;)
+
+starting to code
+
+Codeville: Your program is like a network
+of roads
+Programs need to do different things under different circumstances. In
+the game, the code displays “You win!” if the user guesses the number
+correctly, and “You lose!” if not. This means that all programs, even really
+simple programs, typically have multiple paths through them.
+
+There are decision points in
+every program that are like
+road intersections.
+The computer runs
+commands that it fithe
+on the “path&quot; it ta nds
+through the code. kes
+
+There are many roads (or
+paths) through the code.
+A path refers to the set of instructions that the computer will actually
+follow (or execute). Your code is like a street network, with lots of sections
+of code connected together just like the streets in a city. When you drive
+through a city, you make decisions as to which streets you drive down by
+turning left or right at different intersections. It’s the same for a program.
+It also needs to make decisions from time to time as to which path to take,
+but for your code, it is not like driving along a road, it’s executing a particular
+path.
+Let’s look in more detail at how a program decides
+which path to take.
+you are here 4   13
+
+fork in the road
+
+Branches are code intersections
+Driving down a street is easy. You need to make a decision only when
+you get to an intersection. It’s the same for your program. When a
+program has a list of commands, it can blindly execute them one after
+another. But sometimes, your program needs to make a decision. Does
+it run this piece of code or that piece of code?
+These decision points are called branches, and they are the road
+intersections in your code.
+
+Branches are like road
+intersections.
+
+Your program makes a decision using a branch condition. A branch
+condition has the value true or false. If the branch condition is true, it
+runs the code on the true branch. And if the branch condition is false, it
+runs the code on the false branch.
+
+The computer will take this path if the
+branch condition is true−that is, “guess&quot;
+is equal to 5.
+The true path..
+
+The branch
+condition.
+guess==5?
+
+The computer wi
+the branch conditlliotake this path if
+is, “guess&quot; is somethin is false−that
+ng other than 5.
+14   Chapter 1
+
+The false path.
+
+starting to code
+
+if/else branches
+We’ve already seen a branch in the Python game program:
+
+if guess == 5:
+print(&quot;You win!&quot;)
+else:
+print(&quot;You lose!&quot;)
+print(&quot;Game over!&quot;)
+Python, like many languages, has if/else branches. In our example,
+the branch condition is the if guess == 5 piece of code. This is a
+test for equality and it will result in the value true or false.
+The code on the true path is indented, and given after the if line. The
+code on the false path is indented, and given after the else line:
+
+These commands run onthly
+if they are on the pa
+the program takes.
+
+The true path
+
+The false path
+
+print
+(&quot;You win!&quot;)
+print
+(&quot;Game over!&quot;)
+
+guess==5?
+
+print
+(&quot;You lose!&quot;)
+
+You need to amend the game program to give more informative messages
+to the user.
+But what will the paths in the program look like?
+you are here 4   15
+
+start your engines
+
+Race Track
+Construction Kit
+The countdown’s started on the Codeville Grand Prix. The
+cars have arrived, they’re warming their tires on the grid,
+and the race is about to start. Can you assemble the track
+so that it displays the right feedback message? Note that
+you might not need all the pieces of track.
+Number entered
+3
+
+Feedback message
+Too low
+
+5
+
+You win!
+
+7
+
+Too high
+
+8
+
+Too high
+
+The race
+start line is
+fixed here.
+
+16   Chapter 1
+
+guess &lt;= 5?
+
+print
+igh&quot;)
+(&quot;Too h
+
+starting to code
+
+guess=
+=5?
+
+prin
+(&quot;Too t
+low&quot;)
+
+print !&quot;)
+r
+e ove
+(&quot;Gam
+
+print
+(&quot;You win
+!&quot;)
+
+The race is
+finish line .
+fixed here
+
+?
+guess &gt; 5
+
+you are here 4   17
+
+finish line
+
+Race Track
+Construction Kit Solution
+The countdown’s started on the Codeville Grand Prix. The
+cars have arrived, they’re warming their tires on the grid,
+and the race is about to start. Were you able to assemble
+the track so that it displays the right feedback message?
+
+Number entered
+
+Feedback message
+
+3
+
+Too low
+
+5
+
+You win!
+
+7
+
+Too high
+
+8
+
+Too high
+
+print
+(&quot;You win!&quot;)
+
+guess==5?
+
+guess &gt; 5?
+
+18   Chapter 1
+
+starting to code
+
+ed this
+We didn't nterack.
+section of
+
+print
+(&quot;Too high&quot;)
+
+guess &lt;= 5?
+
+print
+(&quot;Game over!&quot;)
+
+print
+(&quot;Too low&quot;)
+
+you are here 4   19
+
+connect branches
+
+The Python code needs
+interconnecting paths
+The solution’s mapped out, and now we know that the program code will
+need to have paths that match this:
+
+branch
+First
+
+print
+(&quot;You win!&quot;)
+
+guess 5?
+
+print
+(&quot;Game over!&quot;)
+
+print
+(&quot;Too high&quot;)
+
+guess &gt; 5?
+
+print
+(&quot;Too low&quot;)
+
+Second branch
+But isn’t there a problem here? In the design there are many interconnecting
+paths, but so far, we have only written code that contains just one branch:
+if guess == 5:
+print(&quot;You win!&quot;)
+else:
+print(&quot;You lose!&quot;)
+
+In the new code, we will need to connect two branches together. We need the
+second branch to appear on the false path of the first.
+
+guess 5?
+
+guess &gt; 5?
+
+We need to connect
+these two paths
+together
+
+So how do you connect branches together in Python?
+20   Chapter 1
+
+starting to code
+
+Python uses indents to connect paths
+The code inside the if and else statements is indented. This isn’t just
+to make the code pretty. In Python, indents matter. Let’s consider a
+different piece of example code: something that will decide if you can
+drive downtown. Python uses indents to connect a sequence of commands
+together to form paths.
+
+This is the
+TRUE path.
+This is the
+FALSE path.
+
+The INDENTs tell
+Python that
+the commands ar
+e in the same path
+if fuel &gt; 3:
+print(&quot;It's OK&quot;)
+print(&quot;You can drive downtown.&quot;)
+else:
+print(&quot;Sorry&quot;)
+print(&quot;You don't have enough fuel&quot;)
+print(&quot;What's next?&quot;)
+
+This command is not on thenot
+FALSE path because it is run.
+indented. So it will always
+So how do you connect branches together? You simply indent the
+second branch in by one more level.
+
+ranch
+
+b
+The first if
+
+This second if br
+is connected to thanch
+“false&quot; path of th e
+first if branch. e
+
+if fuel &gt; 3:
+print(&quot;It's OK&quot;)
+print(&quot;You can drive downtown.&quot;)
+else:
+if money &gt; 10:
+print(&quot;You should buy some gas.&quot;)
+else:
+print(&quot;You better stay at home.&quot;)
+
+Indents matter
+in Python.
+Be careful how
+you indent code in
+Python; if you don’t
+indent your code correctly, your
+code might do something wildly
+different from what you expect.
+
+print(&quot;What's next?&quot;)
+
+Notice the extr
+indentation. a
+
+You should now have enough information to go fix the code, but
+before we do that, let’s take a look at how IDLE helps you indent
+code.
+you are here 4   21
+
+idle time
+
+IDLE ...at a glance
+You’ll be using IDLE to enter all of the Python code in this book, so it’s
+worth taking a little time to familiarize yourself with a few of its features.
+Even though IDLE looks like a simple editor, it’s actually packed full
+of smarts that will make Python programming much easier and faster
+for you. It’s worth spending some time exploring IDLE’s menus and help
+system, but for now here’s a few handy hints to help you feel at home.
+
+d
+When you type a “:&quot; an
+ll
+wi
+on
+hit ENTER, Pyth rrec
+tly
+co
+automatically and for you.
+e
+lin
+indent the next
+
+You can change the wa
+IDLE uses colors and y
+indenting by clicking
+Options menu (on the onM the
+it's called Preferences). ac
+
+Before you type in “else:&quot;, make
+sure you hit BACKSPACE to
+move the indent back one level.
+By default IDLSEPACEs.
+idents using 4
+
+22   Chapter 1
+
+If you press TAB, IDLE
+converts it into SPACE
+characters.
+
+The Help menu not only
+gives you help about s you
+IDLE, but it also letthon
+read the built-in Py
+documentation.
+
+starting to code
+
+Pool Puzzle
+
+Your task is to take the Python code
+fragments from the pool and place
+them into the blank lines in the
+game. You may not use the same
+code fragment more than once, and
+you won’t need to use all the code
+fragments. Your goal is to complete
+the guessing game program.
+Hint: Don’t forget to indent.
+print(&quot;Welcome!&quot;)
+g = input(&quot;Guess the number: &quot;)
+guess = int(g)
+
+Note: each code
+fragment from the
+pool can be used only
+once!
+print(&quot;
+Too hig
+h&quot;)
+p
+r
+i
+nt(&quot;Game
+over!&quot;)
+u lose!&quot;)
+print(&quot;Yo
+== 5:
+else:
+if guess
+)
+&quot;
+!
+n
+u wi
+else:
+print(&quot;Yo
+w&quot;)
+print(&quot;Too lo
+
+if gues
+s &gt; 5:
+
+else:
+&lt;= 5:
+if guess
+
+you are here 4   23
+
+indent or else
+
+Pool Puzzle Solution
+Your task was to take the Python code
+fragments from the pool and place
+them into the blank lines in the
+game. You could not use the same
+code fragment more than once,
+and you didn’t need to use all
+the code fragments. Your goal
+was to complete the guessing game
+program.
+Hint: Don’t forget to indent.
+print(&quot;Welcome!&quot;)
+g = input(&quot;Guess the number: &quot;)
+guess = int(g)
+if guess == 5:
+
+Did you remember
+to indent your
+code deep enough?
+
+print(&quot;You win!&quot;)
+
+else:
+
+is
+his code the
+t
+f
+o
+ll
+A
+under
+indenterdt of the
+else pa if part.
+original
+
+if guess &gt; 5:
+print(&quot;Too high&quot;)
+else:
+print(&quot;Too low&quot;)
+
+print(&quot;Game over!&quot;)
+
+This piece of code
+from the first version
+of this program is no
+longer needed.
+u lose!&quot;)
+print(&quot;Yo
+
+else:
+
+&lt;= 5:
+if guess
+
+24   Chapter 1
+
+starting to code
+
+Test Drive
+So, what happens if you run the new version of the program?
+Let’s try a few tests. Remember, you will need to switch back to the
+program window for each run and choose Run module from the menu.
+
+Looks like the first guess was too
+low, so we need to try again.
+
+Now the guess is too high.
+Let’s have another go, and...
+
+...success! We’ve guessed the
+correct answer.
+
+The program works! But, are the users any happier?
+
+you are here 4   25
+
+another guess
+
+Why do I have to keep
+rerunning the program?
+You mean I only get one
+guess?????
+
+The users still don’t like it.
+The program works, and now generates extra feedback, but
+there’s a problem. If the users want to have another guess, they
+have to run the program again. They really want the program
+to keep asking them for another guess until they finally get the
+correct answer.
+Can you see what the problem is?
+How do we get the computer to do something repeatedly? Should
+we just make a copy of the code and paste it at the end of the file?
+That would make sure the user is asked twice. But what if they
+need to make 3 guesses? Or 4 guesses? Or 10,000 guesses?
+What about the case where the guess is correct?
+The guessing game program needs to be able to
+run some code repeatedly.
+
+26   Chapter 1
+
+starting to code
+
+Wouldn‛t it be dreamy if
+there were a way to get a piece
+of code to run several times?
+But I guess it‛s just a fantasy…
+
+you are here 4   27
+
+loop around
+
+Loops let you run the same piece
+of code over and over again
+Programs often need to keep running the same piece of code
+many times. In addition to branches, programming languages also
+provide loops.
+Loops are a little like branches. Just like branches, loops have a
+condition (the loop condition) that is either true or false. Also,
+like the if part of branches, if the loop condition is true, then
+a loop will run a given piece of code. For a branch, this code is
+called the body. For a loop, it’s called the loop body.
+
+loop
+The “
+
+body”
+
+answer =
+input(&quot;Are
+we there?&quot;)
+
+When the program fi
+reaches
+the loop, it checks thrst
+e
+va
+of the loop condition be lue
+deciding what to do nextfore
+.
+
+If the
+true, thloop condition is
+the codee program runs
+in the lo
+op body.
+print
+
+answer=&quot;no&quot;
+answer==“no”?
+
+p, the program
+At the end of the looar
+of the loop
+will go back to the st ontagain...
+and check the conditi
+The big difference between a loop and a branch is how many
+times it runs the code associated with it. A branch will run its code
+only once. But a loop will run the loop body, then check the loop
+condition again and, if it’s still true, it will run the loop body again.
+And again. And again. In fact, it will keep running the loop body
+until the loop condition becomes false.
+28   Chapter 1
+
+FALSE
+
+(&quot;We’re
+there!&quot;)
+
+starting to code
+
+Python’s while loop
+Programming languages have lots of different ways of creating loops,
+but one of the simplest ways in Python is to use a while loop. Here’s
+an example:
+
+make
+The loop body is th
+We want toop runs
+indented code follo e
+sure the lo ime.
+T
+he
+loop condition
+the “while” line. wing
+the first t
+answer = &quot;no&quot;
+while answer == &quot;no&quot;:
+answer = input(&quot;Are we there? &quot;)
+of code
+print(&quot;We're there!&quot;)
+The loop body is just one linep bod
+y can
+loo
+the
+in this example, but
+n
+eve
+ht
+mig
+It
+e.
+be many lines of cod
+This is what the loop looks like when you write it as a Python while loop.
+ps.
+loo
+er
+oth
+include branches and
+The code keeps asking the question “Are we there?” until the user types
+something other than no. This is what it looks like when it runs:
+
+As soon as we type something
+other than “no&quot;, the loop
+body ends.
+
+Did you notice that you had to set the value of the answer variable to
+something sensible before you started the loop? This is important, because
+if the answer variable doesn’t already have the value no, the loop
+condition would have been false and the code in the loop body would
+never have run at all.
+Bear that in mind. It might be useful in this next exercise...
+you are here 4   29
+
+change the game
+
+Now, it’s time to apply your programming mojo. Be warned: this exercise is kind of tricky.
+You need to rewrite your game program so it keeps running until the user guesses the
+correct answer. You will need to use all of the things you’ve learned in this chapter. You will
+need to work out the conditions for each of the branches and loops that are required.
+Remember: the program needs to keep asking the user for an answer while the current
+guess is wrong.
+Hint: If you need to test that two things have different values, use the != operator.
+
+This is the “not
+equal to&quot; operator.
+r
+Write youe.
+r
+e
+code h
+
+30   Chapter 1
+
+starting to code
+
+Ready Bake
+Code
+If you add these two lines of code to the top of your program:
+from random import randint
+secret = randint(1, 10)
+
+The secret variable will be set to a random number between 1 and 10. Modify your
+program from the facing page so that instead of the answer always being 5, it will
+instead use a random number from 1 to 10 as the answer.
+
+your
+Write the next versionrsof
+ion of your
+program here. This ve of
+the “secret&quot;
+program uses the valuet answer.
+variable as the correc
+
+you are here 4   31
+
+new game
+
+You needed to rewrite your game program so it keeps running until the user guesses the
+correct answer. You needed to use all of the things you’ve learned in this chapter. You
+needed to work out the conditions for each of the branches and loops that are required.
+Hint: If you need to test that two things have different values, use the != operator.
+
+o
+he guess tsure
+t
+t
+e
+s
+o
+t
+member
+to make
+Did you rseible default value e?
+some sen ran the first tim
+the loop
+
+Don't worry if your code doesn't look
+exactly like this. The important thing is that
+it works in the same way when you run it.
+
+print(“Welcome!&quot;)
+
+We need to keep runn
+while the guess is wroning
+g.
+
+dented, which
+All of this code is einthe loop body.
+means it's all insid
+
+guess = 0
+while guess != 5:
+g = input(“Guess the number: &quot;)
+guess = int(g)
+if guess == 5:
+print(“You win!&quot;)
+else:
+if guess &gt; 5:
+print(“Too high&quot;)
+else:
+print(“Too low&quot;)
+print(“Game over!&quot;)
+This part of the program is very
+similar to what you had before.
+
+32   Chapter 1
+
+starting to code
+
+Ready Bake
+Code
+If you add these two lines of code to the top of your program:
+from random import randint
+secret = randint(1, 10)
+
+The secret variable will be set to a random number between 1 and 10. You were to
+modify your program from the facing page so that instead of the answer always being
+5, it will instead use a random number from 1 to 10 as the answer.
+
+Here are the two the
+lines that create
+random number.
+
+from random import randint
+secret = randint(1, 10)
+print(“Welcome!&quot;)
+guess = 0
+while guess != secret:
+
+Now, instead of checking if the
+answer's 5, we check it against
+the random number, which is held
+in the “secret&quot; variable.
+
+g = input(“Guess the number: &quot;)
+guess = int(g)
+if guess == secret:
+print(“You win!&quot;)
+else:
+if guess &gt; secret:
+print(“Too high&quot;)
+else:
+print(“Too low&quot;)
+print(“Game over!&quot;)
+
+you are here 4   33
+
+test drive
+
+Test Drive
+So, what happens when you run the new version of your program?
+
+The program keeps asking for
+another guess for as long as you
+keep getting the answer wrong.
+
+The correct answer is now a random
+number and it should be different
+each time you play the game.
+The program stops wh
+you get the answer rigenht
+.
+
+This game‛s pretty cool.
+No matter how many
+times I play it, I still have
+to think to get the right
+answer!
+
+Your users love the program.
+And you created it all yourself. By carefully analyzing the problem,
+deciding what the feedback needed to be, and working out the intricate
+looping and branching logic, you’ve created something that really rocks.
+Well done. You’re on your way to becoming a real code
+jockey.
+34   Chapter 1
+
+starting to code
+
+Your Programming Toolbox
+
+ols
+o
+T
+g
+in
+m
+m
+a
+r
+g
+o
+Pr
+e statements:
+ated from cod
+re cre
+* Programs a
+things.
+commands do
+e things.
+branches decid
+hings.
+loops repeat t
+e if
+help you decid
+ls
+a
+n
+io
+it
+d
+n
+o
+C
+*
+rue or False.
+T
+is
+g
+in
+h
+t
+e
+m
+so
+me to a value.
+a
+n
+a
+s
+t
+se
+t
+n
+e
+* Assignm
+ble”.
+red in a “varia
+o
+st
+is
+e
+lu
+va
+d
+* A name
+
+CHAPTER 1
+
+You’ve got Chapter 1 under your
+belt. Let’s look back at what
+you’ve learned so far.
+
+Python Tools
+
+* if/else branches
+* while loops
+* = assignment oper
+ator
+* == equality oper
+ator
+* != inequality oper
+ator
+* &gt; greater than op
+erator
+* print() displays a
+message on screen
+* input() gets and
+returns user input
+* int() converts ch
+aracters to numbers
+* randint() produc
+es a random number
+
+you are here 4   35
+
+2 textual data
+
+Every string
+has its place
+I keep shix - hic! - honest
+working men. They taught me all I
+knew - hic! Their names are What..
+and Why and... Gus... and - hic! Jim, and Bob, and Lou.
+
+Imagine trying to communicate without words.
+All programs process data, and one of the most important types of data is text. In this
+chapter, you’ll work through the basics of textual data. You’ll automatically search
+text and get back exactly what you’re looking for. Along the way, you’ll pick up key
+programming concepts such as methods and how you can use them to bend your data
+to your will. And finally, you’ll instantly power up your programs with the help of library
+code.
+
+this is a new chapter   37
+
+bean counter
+
+Your new gig at Starbuzz Coffee
+Starbuzz Coffee has made a name for itself as the fastest growing
+coffee shop around. If you’ve seen one on your local corner, look
+across the street; you’ll see another one.
+The Starbuzz CEO is always on the lookout for ways to boost profits,
+and he’s come up with a great idea. He wants a program that will
+show him the current price of coffee beans so that his buyers can
+make informed decisions about when to buy.
+
+I had a programmer do some
+work for me, but they‛re not
+answering their phone. They‛ve
+disappeared! Think you can take
+over? I ll let you have the code
+they‛ve already come up with.
+
+EO
+The Starbuzz C
+
+38   Chapter 2
+
+textual data
+
+Here’s the current Starbuzz code
+The previous programmer has already made a head start on
+the code, and we can use this as a basis. Here’s the existing
+Python code, but what does it do?
+
+m code
+Here’s the prograrm
+.
+fo
+t
+in its curren
+
+equest
+import urllib.r
+
+prices.html&quot;)
+eans-r-us.biz/
+.b
+ww
+/w
+:/
+tp
+ht
+(&quot;
+equest.urlopen
+page = urllib.r
+&quot;)
+f8
+ut
+(&quot;
+d().decode
+text = page.rea
+print(text)
+
+Take a good look at the existing Starbuzz code. What do you think it
+actually does?
+
+you are here 4   39
+
+test drive
+
+Test Drive
+Type the code into IDLE, save the program, and run it.
+
+m
+Here’s the progedra
+er
+t
+en
+code as
+into IDLE.
+
+When executed,
+the program
+produces this.
+The code you’ve been left goes to the prices page on the
+Beans’R’Us website to get the current price of coffee
+beans. But instead of giving just the cost, it gives you all
+of the HTML text used to create the web page itself.
+
+chunk of “raw&quot;
+This looks like wahich is the format
+HTML text, e web pages.
+used to creat
+
+Hey, that‛s not right! I only
+need to see the current
+price of coffee beans, not all
+that other stuff. Think you
+can give me just the cost?
+
+40   Chapter 2
+
+textual data
+
+The cost is embedded in the HTML
+Take a closer look at the results of the program. The current price
+of beans is right in the middle of the output:
+
+This is the HTML code
+from the price web page
+.
+
+rice you need
+This is the pfrom the page.
+to extract
+
+The Starbuzz CEO would find it a lot easier if you could extract
+the price of beans and just display that, rather than have to look
+for it in the HTML. But how do you do that?
+
+A string is a series of characters
+The output of the Starbuzz program is an example of a string.
+In other words, it’s a series of characters like this:
+
+Somewhere within the string is the price of coffee beans. To
+retrieve just the price, all you need to do is go to the right bit
+of the string, retrieve the characters that give the price, and
+display just those characters. But how?
+
+You only need these few characters.
+
+you are here 4   41
+
+offset values
+
+Find characters inside the text
+The computer keeps track of individual characters by using two pieces
+of information: the start of the string and the offset of an individual
+character. The offset is how far the individual character is from the start of
+the string.
+
+We are at the start
+string and, as we haveofmothe
+zero places, the offset ved
+is 0.
+
+The first character in a string has an offset of 0, because it is zero
+characters from the start. The second character has an offset of 1, and
+so on:
+
+Offset of 2
+
+Offset of 1
+
+Offset
+values
+
+As we start counting from 0,lessthe
+offset values are always one
+than their actual position.
+
+The offset value is always 1 less than the position. Python lets you read a single
+character from a string by providing the offset value in square brackets
+after the variable name. Because the offset value is used to find a character,
+it is called the index of the character:
+
+42   Chapter 2
+
+Remember: the first
+has index 0, so we arech“oaracter
+by one&quot; when referring toff
+an
+individual character.
+
+textual data
+
+But how do you get at more than
+one character?
+For Starbuzz, you don’t just need a single character. You need to extract
+the price from the string of HTML, and the price is made up of several
+characters.
+You need to extract a smaller substring from a bigger string. A substring
+is a sequence of characters contained within another string. Specifying
+substrings in Python is a little like reading single characters from a string,
+except that you provide two index values within the square brackets:
+
+gle index
+If you provide a sin
+name, you
+after the variableacter.
+get a single char
+
+s[14]
+
+This will read the sm
+substring from the aller
+string contained withentire
+in “s&quot;.
+
+s[138:147]
+you extract a
+If you provide two index values,first index up to
+group of characters from the index.
+(but not including) the second
+
+Let’s work out what each of the following substring specifications
+mean. Imagine the variable s is set to the string below. Your job
+is to determine what each of the substrings provide.
+
+s[5:9]
+
+s[10:12]
+
+s[13:18]
+
+In general, if you specify a substring using s[a:b], then:
+
+a is
+
+Write down what
+u think “a&quot;
+and “b&quot; represent yo
+here.
+
+b is
+
+you are here 4   43
+
+here is waldo
+
+Imagine the variable s is set to the string below. Your job was to
+determine what each of the substrings provide.
+
+s[5:9]
+
+9 minus 5 = 4 characters
+
+s[10:12]
+
+12 minus 10 = 2 characters
+s[13:18]
+
+18 minus 13 = 5 characters
+
+“here&quot;
+“is&quot;
+“Waldo&quot;
+
+In general, if you specify a substring using s[a:b], then:
+
+a is
+
+the index of the first character
+
+b is
+
+the index after the last character
+
+s[13:18]
+
+Even though index 18
+is mentioned in the
+substring specification,
+it’s not included in the
+extracted substring.
+
+44   Chapter 2
+
+Up to, but not including.
+
+The second
+index value is
+after the last
+character in
+the substring
+This is even though the
+first index value is the start
+character of the substring.
+
+textual data
+
+he 235th
+Remember: int the string has
+character 234.
+index value
+
+You need to update the program to extract the price starting at
+the 235th character of the string. The price is four characters long.
+Store the price substring in a variable called price. Write the
+new version of the program here:
+
+ib.request
+import urll
+
+tml&quot;)
+z/prices.h
+ns-r-us.bi
+ea
+.b
+ww
+/w
+http:/
+.urlopen(&quot;
+ib.request
+&quot;)
+f8
+ut
+(&quot;
+page = urll
+de
+ead().deco
+.r
+ge
+pa
+=
+text
+)
+print(text
+
+Here’s the current
+version of the code.
+
+w
+Write the ne
+.
+e
+r
+e
+code h
+
+you are here 4   45
+
+extract the price
+
+You needed to update the program to extract the price starting at
+the 235th character of the string. The price is four characters long
+and stored in a variable called price.
+
+import urllib.request
+page = urllib.request.urlopen(“http://www.beans-r-us.biz/prices.html&quot;)
+bstring in
+You store the risuable.
+the “price&quot; va
+Now, instead of printing
+“text&quot; (the entire web
+page), you are just
+printing “price&quot; (the
+extracted substring).
+
+ML text
+This is the HoTthe price.
+leading up t
+
+text = page.read().decode(“utf8&quot;)
+price = text[234:238]
+print(price)
+
+The substring includes character
+236, and 237. Note how you’ve s at indexes 234, 235,
+with two index values, separatedspecified the substring
+by the “:&quot; character.
+
+This is the first character
+in the required substring,
+at index 234.
+
+238 is th
+used in thee second index value
+because it substring specificat
+character is after the last ion
+to be extra
+cted.
+
+Here it is: the substring to
+extract and the current
+price of coffee.
+46   Chapter 2
+
+textual data
+
+Test Drive
+Type the code into IDLE, save the program (choose a name for
+the program that is meaningful to you), and run it.
+
+ce of coffee
+And there it is: the current pri
+e.
+pag
+from the Beans’R’Us web
+
+That looks a lot cleaner. Now, instead of displaying the entire
+HTML text of the web page, you’ve cut it down to just the
+piece of the string (the substring) that you need.
+
+That’s great. It’s exactly
+what I need! You have no
+idea how much time and money
+this is going to save me...
+
+4   47
+
+string theory
+
+The String Exposed
+This week’s interview:
+
+We ask the String what it’s like
+being the world’s most eligible
+datatype.
+Head First: String, it’s so good of you to find the
+time to speak to us.
+String: Please, the honor is mine. Sit. Sit. Make
+yourself at home. Did you eat yet?
+Head First: I’m fine, thank you. String, where
+should I begin? You are known the world over for
+your work. In your time you’ve carried the works of
+Shakespeare, Geothe...
+String: Dan Brown.
+Head First: ...all the great works of literature. And
+even mundane things like names and addresses. Tell
+me, how did you become so popular?
+String: It’s a question of character. Well, characters.
+See, before I existed, computer systems used to
+record text one character at a time.
+Head First: That must have been rather
+inconvenient.
+String: Inconvenient? It was a royal pain in the
+tuchis.
+Head First: Quite.
+String: Without me, handling text was like riding a
+pedal cycle without a saddle.
+Head First: In what way?
+String: It was possible to get somewhere, but the
+journey was kind of stressful.
+Head First: You simplify things.
+String: Certainly. I simplify. Instead of keeping
+track of a hundred, or a thousand, or a million
+letters, you just need keep an eye on one thing. Me!
+
+48   Chapter 2
+
+Head First: That’s a good point.
+String: I like to think of myself as a front. An agent,
+you might say, for all the characters I work with.
+Head First: People deal with you, so they don’t
+have to deal with individual characters in memory.
+String: Exactly. I’m an organizer. I keep an eye on
+the day to day business of the letters. If I need to be
+shorter or longer, I arrange for the characters to be
+made available.
+Head First: Tell me about your substrings.
+String: Ah, my substrings. Like chips off the old
+block. That a humble datatype should be so blessed!
+Head First: A tissue?
+String: Bless you. &lt;blows nose&gt;. Those boys are
+so close to me. Here’s a photo. Can you see the
+resemblance?
+Head First: Why he looks just like...
+String: Ah, you guessed! Yes, my character
+sequence from 137 to 149. Exactly. Just like his old
+man. But shorter. Little more hair.
+Head First: Your substrings are strings as well.
+String: Certainly. Strings just like me. And they, I
+hope, should one day be able to produce their own
+substrings as well.
+Head First: Yet some people are confused by your
+indexing.
+String: What can I say? I started with nothing!
+Head First: String, thank you.
+String: A pleasure. Are you sure you ate?
+
+textual data
+
+Q:
+
+So, I can put any web address into
+this code and grab the associated web
+page from the Internet?
+
+Q:
+
+And I guess that call to urlopen()
+goes and gets the web page?
+
+A:
+Q:
+
+A:
+
+A:
+
+Q:
+A:
+urlopen()
+
+Yes, feel free to try it out for yourself.
+
+Don’t I need a web browser to
+view web pages?
+
+Yes, to view a web page in all its
+formatted glory−with embedded pictures,
+music, videos and the like−a web browser
+is a must-have. However, if all you want to
+see is the “raw” HTML, a browser is overkill.
+
+Q:
+
+do?
+
+A:
+
+What does the import line of code
+
+It gives the program the ability to talk
+to the Internet. The
+urllib.request code comes as
+standard with Python 3.
+
+That’s right! The provided web
+address (or “URL” to use the proper webspeak) is fetched from the Internet and
+returned by the call to urlopen().
+In this code, the fetched web page is
+assigned to the page variable.
+And the urllib.request bit?
+
+That just tells the program to use the
+function that comes as
+standard with Python 3’s Internet page—
+reading technology. We’ll have more to say
+about urllib.request in a little bit.
+For now, just think how lucky we all are not
+to have to write code to fetch web pages
+from the Internet.
+
+ You can download the HTML of a
+web page as a textual string.
+ A string is a sequence of characters.
+ You can access individual characters
+in a string using an offset.
+ The offset is known as the index
+value of the character (or just index
+for short).
+ Strings within strings are called
+substrings.
+
+Q:
+
+I get that the call to read() actually
+reads the web page from the page
+variable, but what’s that decode(“utf8”)
+thing?
+
+A:
+
+When the web page is fetched from
+the Internet, it is in a “raw” textual format.
+This format can be a little hard for humans
+to read. The call to decode() converts
+the raw web page into something that looks
+a little easier on the eye.
+To see what we mean, try removing the
+call to decode() from the program and
+running the code again. Looks a little weird,
+doesn’t it? (Don’t forget to put the call to
+decode() back in before continuing.)
+
+ Substrings are specified using
+two index values−for example:
+text[10:20].
+ The first index value is the location of
+the first character of the substring.
+ The second index value is the
+location after the last character of the
+substring (up to, but not including).
+ Subtract the second index from
+the first to work out how long the
+substring should be.
+
+you are here 4   49
+
+change of address
+
+Beans'R'Us is rewarding loyal customers
+The CEO just got great news from the beans supplier.
+The supplier is so happy
+about all the business we‛re giving
+them that they are going to make
+us members of their loyalty discount
+program. They say it should be a
+simple fix. Can you look into it?
+
+The supplier actually maintains two prices: one for regular customers
+and one for loyalty program customers. The different prices are published on
+different web pages:
+
+Regular customers get
+their prices here. http://www.beans-r-us.biz/prices.html
+Loyalty program http://www.beans-r-us.biz/prices-loyalty.html
+customers get .
+their prices here
+That means you need to change the web page address in the code:
+import urllib.request
+page = urllib.request.urlopen(&quot;http://www.beans-r-us.biz/prices-loyalty.html&quot;)
+text = page.read().decode(&quot;utf8&quot;)
+price = text[234:238]
+print(price)
+
+Let’s run it to make sure everything works OK.
+
+50   Chapter 2
+
+This is the new
+address.
+
+textual data
+
+Test Drive
+This time when you run it, this happens...
+
+What’s going on here?
+
+The program is no longer displaying a price. So what happened?
+
+The price moved
+The web page for loyalty customers is much more dynamic that the old
+web page. The page for regular customers always displays the price in a
+substring beginning at index 234. That’s not true for the loyalty program
+web page. The price on that page can be almost anywhere. All you know
+for sure is that the price follows the substring &gt;$:
+
+The price couldHERE
+appear ANYW
+in the string.
+
+All you know is that
+follows these two charthace price
+ters.
+You need to search for the price string.
+
+you are here 4   51
+
+searching for substrings
+
+Searching is complex
+You already know how to find a substring, so you could run through the
+entire web page and check each two characters to see if they match &gt;$,
+like this:
+
+We could search through theg
+whole string for “&gt;$&quot;, lookin
+at 2 characters at a time.
+
+We’ve found “&gt;$&quot;!
+
+You could do it this way... but should you?
+There’s a lot to worry about. Which two characters are you currently
+comparing? Where in the string are you right now? What if “&gt;$” isn’t
+found? Searching for substrings in strings is a little more complex than it
+first appears...
+But if you don’t want to write code to search the
+string, what else could you do?
+
+52   Chapter 2
+
+So these next 4
+characters must be
+the price, right?
+
+textual data
+
+Wouldn‛t it be dreamy if there were
+a simple way to search a string for a
+substring? But I suppose that‛s just a
+fantasy...
+
+you are here 4   53
+
+smart data
+
+Python data is smart
+The more code you write, the more you will find that you need to do the
+same kind of things to the data in your variables all the time. To prevent
+you from having to create the same code over and over, programming
+languages provide built-in functionality to help you avoid writing
+unnecessary code. Python data is smart: it can do things.
+Let’s look at an example.
+Imagine you have a piece of text in a variable that you want to display in
+uppercase (all CAPITAL letters):
+
+msg = &quot;Monster truck rally. 4pm. Monday.&quot;
+You could write code that read through each character in the string and
+printed out the matching uppercase letter. But if you’re programming in a
+language like Python, you can do this:
+
+The dot means d on&quot;
+“call the methovariable.
+the specified
+
+“upper()&quot; is a string method.
+
+print(msg.upper())
+MONSTER TRUCK RALLY. 4PM. MONDAY.
+
+But what does msg.upper() mean?
+Well, msg is the string containing our piece of text. The .upper() that
+follows it is called a string method. A method is just an instruction for the
+string. When you call msg.upper(), you are telling the string to give
+you an UPPERCASE version of its data.
+But is there a string method that can help you search
+for a substring within a string object?
+
+54   Chapter 2
+
+Here’s what gets
+displayed, the value of
+the “msg&quot; variable in
+UPPERCASE.
+
+textual data
+
+These are some of the many built-in string methods that come with
+Python. Match each method to what it does. We’ve done one for you
+already.
+
+Method
+
+What the method does
+
+text.endswith(&quot;.jpg&quot;)
+
+Return a copy of the string with all occurrences of one
+substring replaced by another.
+
+text.upper():
+
+Return a copy of the string converted to lowercase.
+
+text.lower():
+
+Return the value True if the string has the given
+substring at the beginning.
+
+text.replace(&quot;tomorrow&quot;, &quot;Tuesday&quot;):
+
+Return the value True if the string has the given
+substring at the end.
+
+text.strip():
+
+Return the first index value when the given substring is
+found.
+
+text.find(&quot;python&quot;):
+
+Return a copy of the string with the leading and
+trailing whitespace removed.
+
+text.startswith(&quot;&lt;HTML&gt;&quot;)
+
+Return a copy of the string converted to uppercase.
+
+Which of the above methods do you need to use to locate the
+price substring within the Beans’R’Us web page?
+
+you are here 4   55
+
+find, the right method
+
+SOlUTion
+These are some of the many built-in string methods that come with
+Python. You were to match each method to what it does.
+
+Method
+
+What the method does
+
+text.endswith(&quot;.jpg&quot;)
+
+Return a copy of the string with all occurrences of one
+substring replaced by another.
+
+text.upper():
+
+Return a copy of the string converted to lowercase.
+
+text.lower():
+
+Return the value True if the string has the given
+substring at the beginning.
+
+text.replace(&quot;tomorrow&quot;, &quot;Tuesday&quot;):
+
+Return the value True if the string has the given
+substring at the end.
+
+text.strip():
+
+Return the first index value when the given substring is
+found.
+
+text.find(&quot;python&quot;):
+
+Return a copy of the string with the leading and
+trailing whitespace removed.
+
+text.startswith(&quot;&lt;HTML&gt;&quot;)
+
+Return a copy of the string converted to uppercase.
+
+Which of the above methods do you need to use to locate the
+price substring within the Beans’R’Us web page?
+
+The “find()&quot; method
+
+56   Chapter 2
+
+textual data
+
+You need to update your price-grabbing program so that it extracts the four-character substring
+that follows the occurence of the “&gt;$” characters. Write the new version of your code in the
+space provided.
+Hints: Don’t forget that the find() method finds the starting position of a substring. Once
+you’ve found “&gt;$”, use Python’s addition operator to calculate where in the string you want to
+extract the substring. The addition operator is the “+” symbol.
+
+ter
+Search for this 2-charac
+combination.
+
+Here’s wha
+you’re reallyt
+looking for.
+
+coffee beans = &lt;strong&gt;$5.49&lt;/
+strong&gt;&lt;/p&gt;&lt;p&gt;Price valid for
+
+you are here 4   57
+
+finding the deal
+
+You needed to update your price-grabbing program so that it extracts the four-character
+substring that follows the occurence of the “&gt;$” characters.
+Hints: Don’t forget that the find() method finds the starting position of a substring. Once
+you’ve found “&gt;$”, use Python’s addition operator to calculate where in the string you want to
+extract the substring. The addition operator is the “+” symbol.
+
+This code
+hasn’t
+changed.
+
+import urllib.request
+page = urllib.request.urlopen(“http://www.beans-r-us.biz/prices.html&quot;)
+text = page.read().decode(“utf8&quot;)
+
+Search for the index locati
+of the “&gt;$&quot; combination. on
+
+This is the addition operator.
+The start of the actual price
+is another 2 index positions
+along the string, while the end
+of the price is another 4.
+
+where = text.find(‘&gt;$')
+start_of_price = where + 2
+end_of_price = start_of_price + 4
+price = text[start_of_price:end_of_price]
+print(price)
+
+Did you remember to
+print out the price
+once you’d found it?
+
+58   Chapter 2
+
+With the start and end index
+locations known, it’s easy to
+specify the substring required.
+
+textual data
+
+Test Drive
+OK, so your program should now be able to find the price, no matter
+where it appears in the page.
+
+Version 3 of
+your program
+
+The price
+extracted from
+the larger string
+of HTML
+It works! By adding very little extra code, you have made the program
+much smarter and more useful.
+That was quick! We‛re
+back to saving money
+once more. Now,
+there‛s just one thing...
+
+you are here 4   59
+
+frugality feature
+
+I forgot to say that I
+only need to know the
+price when it’s $4.74 or
+lower. I don’t want it to
+bug me when it isn’t.
+
+The new version of the program works, </pre></div>                                                                    </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr style="height:60px">
+                    <td id="footer" valign="top">
+                        <div class="container-fluid">
+<!-- footer begin -->
+<div class="row">
+    <div class="col-md-12">
+        <div style="float:left; color:#888; font-size:13px;">
+            <span style="font-style:italic;">Free ebooks since 2009. <a style="margin:0 5px 0 20px" href="mailto:support@bookmail.org">support@bookmail.org</a></span>
+            <span style="margin:0 0 0 15px;"> <a href="/faq.php">FAQ</a></span>
+            <span style="margin:0 0 0 15px;"> <a href="/blog/">Blog</a></span>
+        </div>
+        <div style="float: right;" role="navigation">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/privacy.php">Privacy</a></li>
+                <li><a href="/dmca.php">DMCA</a></li>
+                <li class="dropup">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">English <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a onclick="setLanguage('en'); return false;" href="//en.b-ok.cc/book/660071/40bede">English</a></li><li><a onclick="setLanguage('ru'); return false;" href="//ru.b-ok.cc/book/660071/40bede">Русский</a></li><li><a onclick="setLanguage('ua'); return false;" href="//ua.b-ok.cc/book/660071/40bede">Українська</a></li><li><a onclick="setLanguage('pl'); return false;" href="//pl.b-ok.cc/book/660071/40bede">Polski</a></li><li><a onclick="setLanguage('it'); return false;" href="//it.b-ok.cc/book/660071/40bede">Italiano</a></li><li><a onclick="setLanguage('es'); return false;" href="//es.b-ok.cc/book/660071/40bede">Español</a></li><li><a onclick="setLanguage('zh'); return false;" href="//zh.b-ok.cc/book/660071/40bede">汉语</a></li><li><a onclick="setLanguage('id'); return false;" href="//id.b-ok.cc/book/660071/40bede">Bahasa Indonesia</a></li><li><a onclick="setLanguage('in'); return false;" href="//in.b-ok.cc/book/660071/40bede">हिन्दी</a></li><li><a onclick="setLanguage('pt'); return false;" href="//pt.b-ok.cc/book/660071/40bede">Português</a></li><li><a onclick="setLanguage('jp'); return false;" href="//jp.b-ok.cc/book/660071/40bede">日本語</a></li><li><a onclick="setLanguage('de'); return false;" href="//de.b-ok.cc/book/660071/40bede">Deutsch</a></li><li><a onclick="setLanguage('fr'); return false;" href="//fr.b-ok.cc/book/660071/40bede">Français</a></li><li><a onclick="setLanguage('th'); return false;" href="//th.b-ok.cc/book/660071/40bede">ภาษาไทย</a></li><li><a onclick="setLanguage('el'); return false;" href="//el.b-ok.cc/book/660071/40bede">ελληνικά </a></li><li><a onclick="setLanguage('ar'); return false;" href="//ar.b-ok.cc/book/660071/40bede">اللغة العربية</a></li>                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div></div>
+                    </td>
+                </tr>
+            </tbody></table>
+
+
+        <script type="text/javascript" src="/scripts/root.js?version=1x03"></script>
+        <script type="text/javascript" src="/ext/paginator3000/jquery.paginator.3000.js"></script>
+        <script>
+            if (typeof pagerOptions !== "undefined" && pagerOptions) {
+                $('div.paginator').paginator(pagerOptions);
+            }
+        </script>
+        <!-- ggAdditionalHtml -->
+        
+    <script>
+        var Config = {"currentLanguage":"en","L":{"90":"The file is located on an external resource","91":"It is a folder","92":"File from disk storage","93":"File is aviable by direct link","94":"Popular","95":"Limitation of downloading: no more than 2 files at same time","96":"Size","97":" Language","98":"Category","99":"Find all the author's book"}};
+    </script>
+    <!--LiveInternet counter--><script type="text/javascript">
+new Image().src = "//counter.yadro.ru/hit;bookzz?r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random();</script><!--/LiveInternet-->
+
+<iframe name="uploader" id="uploader" style="border:0px solid #ddd; width:90%; display:none;"></iframe>        <!-- /ggAdditionalHtml -->
+        <script src="/adhelper/helpers.js"></script><script src="/adhelper/jquert.jsRotate.js"></script>    </body>
+</html>

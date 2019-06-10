@@ -1,0 +1,5476 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Head First C | David Griffiths, Dawn Griffiths | download</title>
+<base href="/">
+
+                        <meta charset="utf-8">		                       
+                        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+                        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                        <meta name="viewport" content="width=device-width, initial-scale=1">
+                        <meta name="title" content="Head First C | David Griffiths, Dawn Griffiths | download">
+			<meta name="description" content="Head First C | David Griffiths, Dawn Griffiths | download | B–OK. Download books for free. Find books">
+			<meta name="robots" content="index,all">
+			<meta name="distribution" content="global">
+			<meta http-equiv="cache-control" content="no-cache">
+			<meta http-equiv="pragma" content="no-cache">
+
+                        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+                        <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+                        <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+                        <link rel="manifest" href="/manifest.json">
+                        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+                        <meta name="apple-mobile-web-app-title" content="Z-Library">
+                        <meta name="application-name" content="Z-Library">
+                        <meta name="theme-color" content="#ffffff">
+
+                        <meta name="propeller" content="49c350d528ba144cace841cac74260ab">
+	
+<!-- CSS SET -->
+<link rel="stylesheet" type="text/css" href="/css/bootstrap/css/bootstrap.min.css?version=0.142" >
+<link rel="stylesheet" type="text/css" href="/css/root.css?version=0.142" >
+<link rel="stylesheet" type="text/css" href="/adhelper/ah-style.css?version=0.142" >
+<link rel="stylesheet" type="text/css" href="/adhelper/animate.css?version=0.142" >
+<!-- JS SET --> 
+<script type="text/javascript" language="JavaScript" src="https://code.jquery.com/jquery-2.2.4.min.js?version=0.142"></script>
+<script type="text/javascript" language="JavaScript" src="/scripts/underscore.js?version=0.142"></script>
+<script type="text/javascript" language="JavaScript" src="/css/bootstrap/js/bootstrap.min.js?version=0.142"></script>
+<script type="text/javascript" language="JavaScript" src="/adhelper/advert.js?version=0.142"></script>
+<link REL="SHORTCUT ICON" HREF="/favicon.ico">
+        <link rel="search" type="application/opensearchdescription+xml" href="http://search.xml" title="Search for books in the library B-OK.org" />
+    </head>
+    <body style="margin:0px;padding:0px;" class="books/details">
+        
+        <table border="0" height="100%" width="100%" style="height:100%;" cellpadding="0" cellspacing="0"><tbody>
+                <tr style="height:10px;">
+                    <td>
+                        <div class="container-fluid">
+                            
+<div class="row">
+    <div class="col-md-12">
+        <div id="colorBoxes" class="darkShadow">
+            <ul>
+                <a href="/"><li style="background: #49afd0;">4,732,726 books</li></a>
+                <a href="http://booksc.xyz"><li style="background: #90a5a8;">74,620,210 articles</li></a>
+                <li style="background: #8ecd51;">for free</li>
+            </ul>
+        </div>
+
+
+
+        <div role="navigation" class="navbar-default" style="background-color: transparent;">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right" style="">
+                                            <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sign in <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://singlelogin.org?from=b-ok.cc">Login</a></li>
+                                <li><a href="https://singlelogin.org/registration.php">Registration</a></li>
+                            </ul>
+                        </li>
+                    
+                    <li>
+                        <a href="/howtodonate.php" style="color:#8EB46A;">Donate</a>                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span style="font-size: 120%;" class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-header">Books</li>
+                                                            <li><a href="/book-add.php">Add book</a></li>
+                                <li><a href="/categories">Categories</a></li>
+                                <li><a href="/popular.php">Most Popular</a></li>
+                                                            <li><a href="/recently.php">Recently Added</a></li>
+                                                            <li role="separator" class="divider"></li>
+                                <li class="dropdown-header">Z-Library Project</li>
+                                <li><a href="/blog/">Blog</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+
+
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="container" style="max-width: 1000px;padding-bottom: 40px;">
+                            <div class="row">
+                                <div class="col-md-12 itemFullText">
+                                    
+
+<style>
+    .adFixW iframe{
+        width:100%;
+    }
+</style>
+
+<div class="bcNav">
+    <a href="/" title="Ebook library B-OK.org">Main</a> <i></i>
+        Head First C</div>
+
+<div  itemscope  itemtype="http://schema.org/Book">
+    <div class="row cardBooks">
+        <div class="col-md-3"><a itemprop="image"  class="lightbox" href="//b-ok.cc/covers/books/b4/37/4c/b4374cabbfb7416b5ba4ed37950c2673.jpg" style="background:#fff;padding:3px; display:block;float:left; border:1px solid #ccc;"><img style="font-size:0px; width:100%;" src="//b-ok.cc/covers/books/b4/37/4c/b4374cabbfb7416b5ba4ed37950c2673.jpg" alt="Book cover Head First C"/></a></div>
+        <div class="col-md-9">
+            <h1 itemprop="name" style="color:#000;line-height: 140%;" class="moderatorPanelToggler">Head First C</h1>
+            <i><a  itemprop="author" class="color1" title="Find all the author's book" href="/g/David Griffiths">David Griffiths</a>, <a  itemprop="author" class="color1" title="Find all the author's book" href="/g/Dawn Griffiths">Dawn Griffiths</a></i>
+            
+            <div style="padding:10px 0; font-size:10pt" id="bookDescriptionBox"  itemprop="reviewBody">Ever wished you could learn C from a book? Head First C provides a complete learning experience for C and structured imperative programming. With a unique method that goes beyond syntax and how-to manuals, this guide not only teaches you the language, it helps you understand how to be a great programmer. Youll learn key areas such as language basics, pointers and pointer arithmetic, and dynamic memory management. Advanced topics include multi-threading and network programming—topics typically covered on a college-level course.<br>This book also features labs in-depth projects intended to stretch your abilities, test your new skills, and build confidence. Head First C mimics the style of college-level C courses, making it ideal as an accessible textbook for students.<br>We think your time is too valuable to waste struggling with new concepts. Using the latest research in cognitive science and learning theory to craft a multi-sensory learning experience, Head First C uses a visually rich format designed for the way your brain works, not a text-heavy approach that puts you to sleep.</div>
+                     <div style="overflow:hidden; zoom:1; margin-top: 30px;">
+                <div class="bookDetailsBox">
+                <div class="bookProperty property_categories">
+                    <span>Categories:</span>
+                    <a href="Programming-cat87" style="color:#000;">Computers\\Programming</a>
+                </div>
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2012
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property_pages">
+                    <span>Pages:</span>
+                    278
+                </div>
+                <div class="bookProperty property_isbn 10">
+                    <span>ISBN 10:</span>
+                    1449399916
+                </div>
+                <div class="bookProperty property_isbn 13">
+                    <span>ISBN 13:</span>
+                    9781449399917
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 22.42 MB
+                </div></div>            </div>
+        </div>
+    </div>
+
+
+
+
+    <div style="margin:15px 0;">
+        <a class="btn btn-primary dlButton" href="/dl/1239881/ba6bfd" target="" rel="nofollow"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Download  (pdf, 22.42 MB)</a>                <a class="btn btn-default" href="ireader/1239881" target="_blank" rel="nofollow">Read online</a>        
+        
+
+            </div>
+    <div class="cBox1" id="sentToEmailInfo" style="display:none;">The file will be sent to selected email address. It may takes up to 1-5 minutes before you received it.</div>
+    <div class="cBox1" id="sentToEmailInfoKindle" style="display:none;">The file will be sent to your Kindle account. It may takes up to 1-5 minutes before you received it.
+        <br/>Please note you've to add our email <b>mailer@bookmail.org</b> to approved e-mail addresses. <a target="blank" href="https://www.amazon.com/gp/help/customer/display.html/?ie=UTF8&amp;nodeId=201974240">Read more</a>.
+    </div>
+
+
+    
+        <script type="text/javascript">
+          $(document).ready(function($) {
+           
+            $.jsRotate({data: false, device_type: '-1', contentWrapper: '.itemFullText'});
+
+          });
+        </script>
+    <div id="converterCurrentStatusesBox" class="cBox1" style="display:none;"></div>
+
+
+
+
+</div>
+
+<script type="text/javascript" src="scripts/jquery.lightbox-0.5.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
+
+<script type="text/javascript">
+    var BOOK_ID = 1239881;
+    $(function () {
+        // This, or...
+        $('a.lightbox').lightBox({
+            containerResizeSpeed: 1
+        }); // Select all links with lightbox class
+    });
+
+
+    // read more
+    $(function () {
+        if($('#bookDescriptionBox').height() > 300)
+        {
+            $('#bookDescriptionBox').css('overflow', 'hidden');
+            $('#bookDescriptionBox').css('height', '300px');
+            moreLink = '<div style="text-align:right; margin: 5px 0 0 0;"><a class="more" style="border-bottom:1px dashed;color:#49AFD0; cursor:pointer;text-decoration:none;">Read more → </a></div>';
+            $( moreLink ).insertAfter("#bookDescriptionBox");
+        }
+
+        $('.more').click(function(){
+            $('#bookDescriptionBox').css('height', 'auto');
+            $('#bookDescriptionBox').css('overflow', 'auto');
+            $(this).remove();
+        });
+    });
+
+
+
+    // converter links
+    $('.converterLink').click(function (e) {
+        var el = $(e.currentTarget);
+        $('#converterCurrentStatusesBox').show();
+        $('#converterCurrentStatusesBox').html('Refreshing..');
+
+
+
+        $.RPC('ConvertationTools::rpcConvert', {'book_id': $(this).data('book-id'), 'convertTo': $(this).data('convert-to')}).done(function (e) {
+            convertationStatusesAutoupdaterObserver();
+        }).fail(function (a, b) {
+            $('#converterCurrentStatusesBox').html('<span class="error">' + b.errors.message() + '</span>');
+        });
+    });
+
+    $('.sendToEmailButton').click(function () {
+        $.RPC('sendToKindle', {'book_id': $(this).data('id'), 'email': $(this).data('email')}).done(function (e) {
+            if (e.response.status) {
+                //alert('Sent to ' + e.response.email);
+            }
+        }).fail(function (a, b) {
+            $('#sentToEmailInfo').html(b.errors.message());
+            $('#sentToEmailInfoKindle').html(b.errors.message());
+        });
+
+        if ($(this).data('kindle'))
+        {
+            $('#sentToEmailInfoKindle').show('slow');
+        } else {
+            $('#sentToEmailInfo').show('slow');
+        }
+        $('#sendToEmailButtonBox').hide('slow');
+    });
+
+    //$('[data-toggle="tooltip"]').tooltip({'html': true});
+    $(window).on("load", function () {
+        $('[data-toggle="tooltip"]').tooltip({'html': true});
+        $('[data-autoopen="true"]').tooltip('show');
+    });
+
+    var convertationStatusesAutoupdaterRuned = false;
+    function convertationStatusesAutoupdaterObserver()
+    {
+        if (convertationStatusesAutoupdaterRuned)
+        {
+            return;
+        } else {
+            convertationStatusesAutoupdaterRuned = true;
+            convertationStatusesAutoupdater();
+        }
+    }
+
+    function convertationStatusesAutoupdater()
+    {
+        rpcUrl = '/rpc/ConvertationTools::getCurrentJobsStatuses?clear=1&gg_text_mode=1&bookId=' + BOOK_ID;
+        $.ajaxSetup({cache: false}); // This part addresses an IE bug.  without it, IE will only load the first number and will never refresh
+
+
+        $.ajax({
+            url: rpcUrl,
+            datatype: 'html'
+        }).done(function (response) {
+            $('#converterCurrentStatusesBox').html(response);
+            if (response.search('progress') === -1)
+            {
+                convertationStatusesAutoupdaterRuned = false;
+                return;
+            }
+            setTimeout(convertationStatusesAutoupdater, 15000);
+        }).error(function () {
+            setTimeout(convertationStatusesAutoupdater, 15000);
+        });
+    }
+
+    if ($('#converterCurrentStatusesBox').html().length)
+    {
+        convertationStatusesAutoupdaterObserver();
+        //$('#converterCurrentStatusesBox').css('display', 'block');
+        $('#converterCurrentStatusesBox').show();
+    }
+</script>
+
+<h2 class="color1" style="margin-top:20px;">You may be interested in</h2>
+<div style="background: #49AFD0; height:2px; width: 100%; margin-bottom: 20px;">&nbsp;</div>
+<script src="/scripts/freewall.js"></script><div id="bMosaicBox" style="display:none"><div class="brick" style="width:14%;"><a href="/book/463390/2df322" title="Head First Object-Oriented Analysis and Design "><img src="//b-ok.cc/covers200/books/c5/e6/03/c5e60362f266c82fe24c6603a6c569cc.jpg" class="bMosaicCover bgrid-item item" width="100%"/></a></div><div class="brick" style="width:14%;"><a href="/book/487976/558a5b" title="Head First Design Patterns"><img src="//b-ok.cc/covers200/books/5e/4a/e4/5e4ae46582d52f32f692b55e811f2459.jpg" class="bMosaicCover bgrid-item item" width="100%"/></a></div><div class="brick" style="width:14%;"><a href="/book/510581/5919dc" title="Head First Software Development"><img src="//b-ok.cc/covers200/books/44/a5/ad/44a5adda833e504615e2126eea0687e8.jpg" class="bMosaicCover bgrid-item item" width="100%"/></a></div><div class="brick" style="width:14%;"><a href="/book/510797/4029d2" title="Head First JavaScript"><img src="//b-ok.cc/covers200/books/9f/fd/87/9ffd874d156d88c7744e6a259c6be0ae.jpg" class="bMosaicCover bgrid-item item" width="100%"/></a></div><div class="brick" style="width:14%;"><a href="/book/633007/0f2089" title="Head First Java, "><img src="//b-ok.cc/covers200/books/a6/fe/d2/a6fed263344ca4c35328f19bfeaf2fa1.jpg" class="bMosaicCover bgrid-item item" width="100%"/></a></div><div class="brick" style="width:14%;"><a href="/book/633009/951b8b" title="Head First PMP: A Brain-Friendly Guide to Passing the Project Management Professional Exam"><img src="//b-ok.cc/covers200/books/b0/e8/bd/b0e8bd7ac216a1a55ee9340fd2c96dfc.jpg" class="bMosaicCover bgrid-item item" width="100%"/></a></div><div class="brick" style="width:14%;"><a href="/book/633010/85cc08" title="Head First Rails: A Learner's Companion to Ruby on Rails"><img src="//b-ok.cc/covers200/books/e6/1e/fd/e61efdfc847b9ac81b5e0967a5cf1d65.jpg" class="bMosaicCover bgrid-item item" width="100%"/></a></div><div class="brick" style="width:14%;"><a href="/book/647528/e6832a" title="Head First Statistics"><img src="//b-ok.cc/covers200/books/86/e0/12/86e0125513976838ad5c9c49a2ce3e0b.jpg" class="bMosaicCover bgrid-item item" width="100%"/></a></div><div class="brick" style="width:14%;"><a href="/book/682365/25b63c" title="Head First Web Design"><img src="//b-ok.cc/covers200/books/5e/cf/44/5ecf44f52b8fe885462043b1efc71e62.jpg" class="bMosaicCover bgrid-item item" width="100%"/></a></div><div class="brick" style="width:14%;"><a href="/book/687057/404071" title="C Programming: A Modern Approach"><img src="//b-ok.cc/covers200/books/8d/a8/72/8da872e974d71a3da307f439dc269560.jpg" class="bMosaicCover bgrid-item item" width="100%"/></a></div><div class="brick" style="width:14%;"><a href="/book/705390/e14df4" title="Head First Data Analysis"><img src="//b-ok.cc/covers200/books/c5/e1/83/c5e18368d71817b17f75c46750465f72.jpg" class="bMosaicCover bgrid-item item" width="100%"/></a></div><div class="brick" style="width:14%;"><a href="/book/766965/9fd95c" title="Head First Python"><img src="//b-ok.cc/covers200/books/41/32/ff/4132ffaa411b7c1d509bc360cb01bab3.jpg" class="bMosaicCover bgrid-item item" width="100%"/></a></div><div class="brick" style="width:14%;"><a href="/book/867527/19328c" title="Head First Networking"><img src="//b-ok.cc/covers200/books/fc/ed/9d/fced9dc5299b6b57577d4511794c464e.jpg" class="bMosaicCover bgrid-item item" width="100%"/></a></div><div class="brick" style="width:14%;"><a href="/book/899239/a0858f" title="Head First Java, 2nd Edition"><img src="//b-ok.cc/covers200/books/d5/be/db/d5bedbe6b001445ebb3851500fd19fb3.jpg" class="bMosaicCover bgrid-item item" width="100%"/></a></div><div class="brick" style="width:14%;"><a href="/book/994849/4101b7" title="Head First Algebra: A Learner's Guide to Algebra I"><img src="//b-ok.cc/covers200/books/18/f0/24/18f02484edc6532c93ec5cada4912e5d.jpg" class="bMosaicCover bgrid-item item" width="100%"/></a></div><div class="brick" style="width:14%;"><a href="/book/2059247/c4ed38" title="Head first object-oriented analysis and design"><img src="//b-ok.cc/covers200/books/42/66/26/42662645171d3b304f61db4741f55097.jpg" class="bMosaicCover bgrid-item item" width="100%"/></a></div><div class="brick" style="width:14%;"><a href="/book/2613958/a0db7a" title="Head First C#"><img src="//b-ok.cc/covers200/books/73/b8/f1/73b8f147af108822f0ac6bc13142e926.jpg" class="bMosaicCover bgrid-item item" width="100%"/></a></div><div class="brick" style="width:14%;"><a href="/book/2841722/b34f17" title="Head First Python  A Brain-Friendly Guide"><img src="//b-ok.cc/covers200/books/fd/61/23/fd6123431b4cc1c87c9024825728b014.jpg" class="bMosaicCover bgrid-item item" width="100%"/></a></div><div class="brick" style="width:14%;"><a href="/book/2924996/c9e6ea" title="Head First JavaScript Programming: A Brain-Friendly Guide"><img src="//b-ok.cc/covers200/books/1d/4c/13/1d4c138b41d09cc3d3ef4579330bf41c.jpg" class="bMosaicCover bgrid-item item" width="100%"/></a></div><div class="brick" style="width:14%;"><a href="/book/3344911/a938ca" title="Learn C the Hard Way: Practical Exercises on the Computational Subjects You Keep Avoiding (Like C)"><img src="//b-ok.cc/covers200/books/57/e5/d8/57e5d83ba3afd04fc488bdd3165be297.jpg" class="bMosaicCover bgrid-item item" width="100%"/></a></div><div class="brick" style="width:14%;"><a href="/book/3382079/4b4385" title="Head First Android Development: A Brain-Friendly Guide"><img src="//b-ok.cc/covers200/books/17/71/b3/1771b3748b7504f7fcf5dd7fb5fd9ebd.jpg" class="bMosaicCover bgrid-item item" width="100%"/></a></div><div class="brick" style="width:14%;"><a href="/book/3415047/454329" title="Head First Design Patterns"><img src="//b-ok.cc/covers200/books/8c/26/dc/8c26dcd40152ee5088314b1c62db48cb.jpg" class="bMosaicCover bgrid-item item" width="100%"/></a></div><div class="brick" style="width:14%;"><a href="/book/3427805/db03be" title="Head First Learn to Code: A Learner’s Guide to Coding and Computational Thinking"><img src="//b-ok.cc/covers200/books/65/95/45/659545ba41bed976e323f3773be87e00.jpg" class="bMosaicCover bgrid-item item" width="100%"/></a></div><div class="brick" style="width:14%;"><a href="/book/3596488/842caf" title="Full-stack web development with Vue.js and Node : build scalable and powerful web apps with modern web stack, MongoDB, Vue, Node.js, and Express"><img src="//b-ok.cc/covers200/books/a7/18/57/a71857bd0310909e8e36eda92ab3e186.jpg" class="bMosaicCover bgrid-item item" width="100%"/></a></div><div class="brick" style="width:14%;"><a href="/book/3601170/7f6c24" title="Head First Agile: A Brain-Friendly Guide to Agile Principles, Ideas, and Real-World Practices"><img src="//b-ok.cc/covers200/books/68/73/d0/6873d0d5e6bd9e8d182fa9449dfaa8b7.jpg" class="bMosaicCover bgrid-item item" width="100%"/></a></div><div class="brick" style="width:14%;"><a href="/book/3629807/17bd8e" title="Hands-On GUI Programming with C++ and Qt5"><img src="//b-ok.cc/covers200/books/11/e0/55/11e0550e7197594bc87efdeb03b9adb7.png" class="bMosaicCover bgrid-item item" width="100%"/></a></div></div><script>
+    $('#bMosaicBox').css('display', 'block');
+
+    var wall = new Freewall('#bMosaicBox');
+    wall.reset({
+        selector: '.brick',
+        keepOrder: true,
+        //animate: true,
+        cellW: $($('.brick')[0]).outerWidth(),
+        cellH: 'auto',
+        gutterX: 8,
+        gutterY: 8,
+        fixSize: false,
+        onResize: function () {
+            wall.fitWidth();
+        }
+    });
+
+    wall.container.find('img').load(function () {
+        wall.fitWidth();
+    });
+
+    wall.fitWidth();
+
+</script>
+<link rel="stylesheet" type="text/css" href="css/jscomments/jscomments.css">
+
+<div style="background: #49AFD0; height:2px; width: 100%; margin:40px 0 40px 0;">&nbsp;</div>
+
+
+<div id="jscommentsRootBox">
+    <div class="jscommentsFormBox">
+        <div style="width:65%; float:left;">
+            <form id="jscommentsForm" target="uploader" action="rpc.php" method="POST">
+                <input type="hidden" name="book_id" value="1239881">
+                <input type="hidden" name="action" value="addReview">
+                <input type="hidden" name="rx" value="0">
+                <input id="jscommentsNamefield" name="name" type="textfield" placeholder="Your Name" value="" onchange="if (this.value) {
+                            $(this).removeClass('error');
+                        }"/>
+                <textarea id="jscommentsTextarea" name="text" placeholder="Write a Review"  onchange="if (this.value) {
+                            $(this).removeClass('error');}"></textarea>
+                <br clear="all" />
+                <a href="#" onclick="onReviewSubmit();
+                        return false;" id="jscommentsButton">Post a Review</a><img id="jscommentsLoader" src="css/jscomments/loader.gif" style="position: relative; left: -35px; display: none;"/>
+            </form>
+        </div>
+        <div style="width:35%; float:left;" class="jscommentsFormHelp">
+            <div style="padding:10px 0 0 20px;  border-left:1px solid #ccc;">
+                You can write a book review and share your experiences. Other readers will always be interested in your opinion of the books you've read. Whether you've loved the book or not, if you give your honest and detailed thoughts then people will find new books that are right for them.
+            </div>
+        </div>
+    </div>
+    <div id="jscommentsCommentsBox"></div>
+</div>
+
+<script>
+    $('#jscommentsForm')[0].rx.value = 12;
+
+    function onReviewSubmit()
+    {
+        $('#jscommentsForm')[0].submit();
+
+        $('#jscommentsButton').css('width', $('#jscommentsButton').width() + 'px');
+        $('#jscommentsButton').data('originaltxt', $('#jscommentsButton')[0].innerHTML);
+        $('#jscommentsButton').text('Posting..'); // simulate server request
+        $('#jscommentsNamefield').attr("disabled", "disabled");
+        $('#jscommentsTextarea').attr("disabled", "disabled");
+        $('#jscommentsLoader').show();
+
+    }
+
+    function onReviewSubmitFailure()
+    {
+        $('#jscommentsButton').text($('#jscommentsButton').data('originaltxt'));
+        $('#jscommentsButton').css('width', '');
+        $('#jscommentsNamefield').removeAttr("disabled");
+        $('#jscommentsTextarea').removeAttr("disabled");
+        $('#jscommentsLoader').hide();
+    }
+
+</script><div style="display: none;">
+<div id="searchResultBox"><div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">1</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/a0/ac/9f/a0ac9f3fe85f7ba25d85c8d667f1eb47.jpg" data-srcset="//b-ok.cc/covers100/books/a0/ac/9f/a0ac9f3fe85f7ba25d85c8d667f1eb47.jpg 1x, //b-ok.cc/covers200/books/a0/ac/9f/a0ac9f3fe85f7ba25d85c8d667f1eb47.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/1239883/93212d" class="tdn">העברית שלנו והעברית הקדומה (Contemporary Hebrew and Ancient Hebrew)</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/אליעזר רובינשטיין (Eliezer Rubinstein)">אליעזר רובינשטיין (Eliezer Rubinstein)</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/1239883/93212d" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    1980
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    hebrew
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 1.01 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">2</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/9d/97/cf/9d97cfc7359e592d72aaeb73019da711.jpg" data-srcset="//b-ok.cc/covers100/books/9d/97/cf/9d97cfc7359e592d72aaeb73019da711.jpg 1x, //b-ok.cc/covers200/books/9d/97/cf/9d97cfc7359e592d72aaeb73019da711.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/1239880/094353" class="tdn">The Google Resume: How to Prepare for a Career and Land a Job at Apple, Microsoft, Google, or any Top Tech Company</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Gayle  Laakmann McDowell">Gayle  Laakmann McDowell</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/1239880/094353" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2011
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    EPUB, 497 KB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<center></center></div><script type="text/javascript" src="/scripts/jquery.lazy.min.js"></script>
+<script>
+    $(function () {
+        $(".lazy").Lazy({
+            effect: "fadeIn",
+            effectTime: 1000,
+            beforeLoad: function(element) {
+                $(element).css({"border-width": "0px"});
+            },
+            afterLoad: function(element) {
+                $(element).css({"border-width": "1px"});
+            }
+        });
+    });
+</script><pre>Head First C
+Wouldn‛t it be dreamy if there
+were a book on C that was better
+than having a root canal at the
+dentists? I guess it’s just a fantasy...
+
+David Griffiths
+Dawn Griffiths
+
+Beijing • Cambridge • Farnham • Kln • Sebastopol • Taipei • Tokyo
+
+Head First C
+by David Griffiths and Dawn Griffiths
+Copyright © 2011 O’Reilly Media, Inc. All rights reserved.
+Printed in the United States of America.
+Published by O’Reilly Media, Inc., 1005 Gravenstein Highway North, Sebastopol, CA 95472.
+O’Reilly Media books may be purchased for educational, business, or sales promotional use. Online editions are
+also available for most titles (safari.oreilly.com). For more information, contact our corporate/institutional sales
+department: (800) 998-9938 or corporate@oreilly.com.
+
+Series Creators:		
+
+Kathy Sierra, Bert Bates
+
+Editor:			
+
+Brian Sawyer
+
+Cover Designers:		
+Production Editor:		
+Proofreader: 		
+Indexer:			
+Page Viewers:
+
+Mum and Dad, Carl
+
+Printing History:
+December 2011: First Edition.
+
+Mum and Dad
+
+The O’Reilly logo is a registered trademark of O’Reilly Media, Inc. The Head First series designations,
+Head First C, and related trade dress are trademarks of O’Reilly Media, Inc.
+Many of the designations used by manufacturers and sellers to distinguish their products are claimed as
+trademarks. Where those designations appear in this book, and O’Reilly Media, Inc., was aware of a trademark
+claim, the designations have been printed in caps or initial caps.
+While every precaution has been taken in the preparation of this book, the publisher and the authors assume no
+responsibility for errors or omissions, or for damages resulting from the use of the information contained herein.
+No kittens were harmed in the making of this book. Really.
+
+TM
+
+This book uses RepKover™, a durable and flexible lay-flat binding.
+
+ISBN: 978-1-449-39991-7
+[C]										
+
+Carl
+
+To Brian Kernighan and Dennis Ritchie for inventing C.
+
+the authors
+
+Authors of Head First C
+
+s
+
+David Griffith
+
+Dawn Griffiths
+David Griffiths began programming at age 12,
+
+when he saw a documentary on the work of Seymour
+Papert. At age 15, he wrote an implementation of
+Papert’s computer language LOGO. After studying
+Pure Mathematics at University, he began writing code
+for computers and magazine articles for humans. He’s
+worked as an agile coach, a developer, and a garage
+attendant, but not in that order. He can write code in
+over 10 languages and prose in just one, and when not
+writing, coding, or coaching, he spends much of his
+spare time travelling with his lovely wife—and coauthor—Dawn.
+
+Before writing Head First C, David wrote two other Head
+First books: Head First Rails and Head First Programming.
+You can follow him on Twitter at:
+http://twitter.com/dogriffiths
+
+iv
+
+Dawn Griffiths started life as a mathematician at
+
+a top UK university where she was awarded a first-class
+honours degree in mathematics. She went on to pursue
+a career in software development, and has over 15 yesrs
+experience working in the IT industry.
+
+Before joining forces with David on Head First C, Dawn
+wrote two other Head First books (Head First Statistics
+and Head First 2D Geometry) and has also worked on a
+host of other books in the series.
+When Dawn’s not working on Head First books, you’ll
+find her honing her Tai Chi skills, running, making
+bobbin lace or cooking. She also enjoys traveling and
+spending time with her husband, David.
+
+table of contents
+
+Table of Contents (Summary)
+1
+
+Intro
+
+xxiii
+
+Diving in: Getting started with C
+
+1
+
+2
+
+Memory and pointers: What are you pointing at?
+
+37
+
+3
+
+Do one thing and do it well: Creating small tools
+
+95
+
+4
+
+Break it down, build it up: Using multiple source files
+
+149
+
+5
+
+Structs, unions, and bitfields: Rolling your own structures
+
+6
+
+Data structures and dynamic memory: Connecting your custom data types
+
+7
+
+Reuseable utilities: Turning your functions up to 11
+
+8
+
+Dynamic libraries: Hot, sweappable code
+
+9
+
+Creating new processes: Process mojo
+
+10
+
+Using multiple source files: Doing more than one thing at once
+
+11
+
+Sockets and asynchronous I/O: Talking to the network
+
+12
+
+Inter-process communication: Living in a community
+
+Table of Contents (the real thing)
+Intro
+Your brain on C.  Here
+
+you are trying to learn something, while here your
+
+brain is doing you a favor by making sure the learning doesn’t stick. Your brain’s
+thinking, “Better leave room for more important things, like which wild animals to
+avoid and whether naked snowboarding is a bad idea.” So how do you trick your
+brain into thinking that your life depends on knowing C?
+
+Who is this book for?
+We know what you’re thinking
+Metacognition
+Bend your brain into submission
+Read me
+The technical review team
+Acknowledgments
+
+xxiv
+xxv
+xxvii
+xxix
+xxx
+xxxii
+xxxiii
+
+v
+
+table of contents
+
+1
+
+getting started with C
+Diving in
+Want to get inside the computers head? 
+Need to write high-performance code for a new game? Program an Arduino? Or
+use that advanced third-party library in your iPhone app? If so, then C’s there to
+help. C works at a much lower level that most other languages, so understanding C
+gives you a much better idea of what’s really going on. C can even help you better
+understand other languages as well. So dive in, grab your compiler, and get started in
+no time.
+
+table of contents
+
+2
+
+memory and pointers
+What are you pointing at?
+If want to kick butt with C, you need to understand how C
+handles memory.
+The C language gives you a lot more control over how your program uses the
+computer’s memory. In this chapter, you’ll strip back the covers and see exactly what
+happens when you read and write variables. You’ll learn how arrays work, how
+to avoid some nasty memory SNAFUs, and most of all, you’ll see how mastering
+pointers and memory addressing is key to becoming a kick-ass C programmer.
+
+vii
+
+table of contents
+
+3
+
+creating small tools
+Do one thing and do it well
+Every operating system includes small tools.
+Small tools perform specialized small tasks, such as reading and writing
+files, or filtering data. If you want to perform more complex tasks, you can even
+link several tools together. But how are these small tools built? In this chapter,
+you’ll look at the building blocks of creating small tools. You’ll learn how to
+control command-line options, how to manage streams of information, and
+redirection, getting tooled up in no time.
+
+table of contents
+
+4
+
+using multiple source files
+Break it down, build it up
+If you create a big program, you don’t want a big source file.
+Can you imagine how difficult and time-consuming a single source file for an enterprise
+level program would be to maintain? In this chapter, you’ll learn how C allows you to
+break your source code into small manageable chunks and then rebuild them into
+one huge program. Along the way, you’ll learn a bit more about data-type subtleties,
+and get to meet your new best friend: make.
+
+gcc -c
+
+gcc -o
+
+ix
+
+table of contents
+
+5
+
+struts, unions, and bitfields
+Rolling your own structures
+Most things in life are more complex than a simple number.
+So far we’ve looked at the basic data-types of the C language, but what if you want
+to go beyond numbers and pieces of text, and model things in the real world?
+Structs allow you to model real-world complexities by writing your own structures.
+We’ll show you how to combine the basic data-types into structs, and even handle
+life’s uncertainties with unions. And if you’re after a simple yes or no, bitfields may
+be just what you need.
+
+This is Myrtle...
+
+...but her clone is sent
+to the function.
+
+Turtle &quot;t&quot;.
+
+table of contents
+
+6
+
+data structures and dynamic memory
+Connecting your custom data types
+Once you’ve created custom data types, the next thing to do
+is connect them together.
+This chapter begins by looking in more detail at why most coders pass struct pointrs
+rather than structs themselves. Then, you’ll use struct pointers to connect custom data
+types into large, complex data structures to model real world data. To make the data
+structures cope with flexible amounts of data, you’ll finally look at how to dynamically
+allocate memory on the heap and ways of tidying away memory when we’re done with
+it.
+
+xi
+
+table of contents
+
+7
+
+reuseable utilities
+Turn your functions up to 11
+Basic functions are great, but sometimes you need more.
+Earlier chapters have looked at basic functions, but what if you need even more
+power and flexibility to achieve what you want? Topics in the chapter include:
+rubber functions, or how to have a flexible number of arguments, and how passing
+functions as parameters can multiply your code’s IQ. By the end of this chapter,
+you will be able to write more flexible, reusable, and powerful utilities.
+
+table of contents
+
+8
+
+dynamic libraries
+Hot, swappable code
+You don’t always need to use everything.
+You don’t pack your swimsuit if you’re going to Alaska. And you don’t write programs
+that load code unless they need it. This chapter will show you how to split your problem
+into dynamically loaded libraries. By the end of the chapter, you will be able to create
+dynamic libraries that can switch at runtime, making their applications more dynamic
+and configurable.
+
+xiii
+
+table of contents
+
+9
+
+creating new processes
+Process mojo
+Every operating system includes small tools.
+Programs often need to create and manage other processes. This chapter will
+teach you how to spawn new processes and how to communicate with them
+once they’re running. By the end of this chapter, you will understand how to use
+fork() and exec() calls to spawn/replace processes and how to use signals to
+communicate with other processes.
+
+table of contents
+
+10
+
+using multiple source files
+Doing more than one thing at once
+Programs often need to several things at the same time.
+POSIX threads can boost the performance of your code by spinning off several pieces
+of code to run in parallel. But... be careful! Threads are powerful tools, but you don’t
+want them crashing them into each other. In this chapter, you’ll learn how to put up
+traffic signs and lane markers that will prevent a code pile-up. By the end, you will know
+how to create POSIX threads and how to use synchronization mechanisms to protect
+the integrity of sensitive data.
+
+xv
+
+table of contents
+
+11
+
+sockets and asynchronous i/o
+Talking to the network
+Many programs need to talk to programs on a different
+machine.
+You’ve learned how to use I/O to communicate with files and how processes on
+the same machine can communicate with each other. Now you’re going to reach
+to the rest of the world and see how we can write C programs that can talk to other
+programs across the network and across the world. By the end of this chapter, you
+will be able to create programs that behave as servers and programs that behave
+as clients.
+
+table of contents
+
+12
+
+inter-process communication
+Living in the community
+Programs need to work together.
+Thankfully, the C language provides a set of tools that makes this possible. Two
+programs need to share live data? Well, they can share memory. Two programs need to
+talk to each other? Try connecting them with a pair of pipes. These tools allow programs
+to communicate and cooperate. But like any civilized conversation, rules need to be
+observed. In this chapter, you’ll learn how locking mechanisms like semaphores can
+prevent dog fights and keep your computer a civilized, well-ordered, and stable place to
+be.
+
+xvii
+
+how to use this book
+
+Intro
+I can’t believe
+they put that in a
+C book.
+
+ning question:
+In this section we answer theinbur
+C book?”
+“So why DID they put that a
+
+xix
+
+how to use this book
+
+Who is this book for?
+If you can answer “yes” to all of these:
+1
+
+Do you already know how to program in another
+programming language?
+
+2
+
+Do you want to master C, create the next big thing in
+software, make a small fortune, and retire to your own
+private island?
+
+3
+
+Do you prefer actually doing things and applying the stuff
+you learn over listening to someone in a lecture rattle on
+for hours on end?
+
+this book is for you.
+
+Who should probably back away from this book?
+If you can answer “yes” to any of these:
+1
+
+Are you looking for a quick introduction or reference book
+to C?
+
+2
+
+Would you rather have your toenails pulled out by 15
+screaming monkeys than learn something new? Do you
+believe a C book should cover everything and if it bores
+the reader to tears in the process then so much the
+better?
+
+this book is not for you.
+
+[Note from marketing: this book
+is for anyone with a credit card...
+we’ll accept a check, too.]
+
+   intro
+
+OK, maybe that one’s a little
+far-fetched. But, you gotta
+start somewhere, right?
+
+We know what you’re thinking
+“How can this be a serious C book?”
+“What’s with all the graphics?”
+“Can I actually learn it this way?”
+
+Your bra
+THIS is imin thinks
+portant.
+
+We know what your brain is thinking
+Your brain craves novelty. It’s always searching, scanning, waiting for something
+unusual. It was built that way, and it helps you stay alive.
+So what does your brain do with all the routine, ordinary, normal things
+you encounter? Everything it can to stop them from interfering with the
+brain’s real job—recording things that matter. It doesn’t bother saving the
+boring things; they never make it past the “this is obviously not important”
+filter.
+How does your brain know what’s important? Suppose you’re out for a day
+hike and a tiger jumps in front of you, what happens inside your head and
+body?
+
+Great. Only 464
+more dull, dry,
+boring pages.
+
+Neurons fire. Emotions crank up. Chemicals surge.
+And that’s how your brain knows...
+This must be important! Don’t forget it!
+But imagine you’re at home, or in a library. It’s a safe, warm, tiger‑free zone.
+You’re studying. Getting ready for an exam. Or trying to learn some tough
+3
+technical
+topic your boss thinks will take a week, ten days at the most.
+
+in thinks
+Your bran’t worth
+THIS is
+saving.
+
+Just one problem. Your brain’s trying to do you a big favor. It’s trying to
+make sure that this obviously non-important content doesn’t clutter up scarce
+resources. Resources that are better spent storing the really big things.
+Like tigers. Like the danger of fire. Like how you should never have
+posted those “party” photos on your Facebook page. And there’s no
+simple way to tell your brain, “Hey brain, thank you very much, but
+no matter how dull this book is, and how little I’m registering on the
+emotional Richter scale right now, I really do want you to keep this
+stuff around.”
+
+you are here 4   xxi
+
+how to use this book
+
+ader as a learner.
+
+t” re
+We think of a “Head Firs
+
+then make sure
+st, you have to get it,
+Fir
+?
+ng
+thi
+me
+so
+rn
+e to lea
+sed on the latest
+So what does it tak
+ts into your head. Ba
+fac
+ing
+sh
+pu
+t
+ou
+ab
+t
+It’s no
+hology, learning
+you don’t forget it.
+d educational psyc
+an
+y,
+og
+iol
+ob
+ur
+ne
+,
+e science
+research in cognitiv
+ns your brain on.
+. We know what tur
+ge
+pa
+a
+on
+t
+tex
+n
+takes a lot more tha
+ciples:
+First lear ning prin
+Some of the Head
+ch
+
+ng mu
+alone, and make learni
+memorable than words
+re
+mo
+far
+are
+ngs more
+s
+thi
+age
+Im
+kes
+Make it visual.
+er studies). It also ma
+ent in recall and transf
+vem
+pro
+im
+rather than on
+to,
+89%
+ate
+to
+more effective (up
+gr aphics they rel
+thin or near the
+wi
+s
+rd
+wo
+ms related to the
+e
+ble
+th
+t
+pro
+understandable. Pu
+twice as likely to solve
+to
+up
+be
+l
+wil
+rs
+rne
+ther page, and lea
+the bottom or on ano
+content.
+
+performed up
+recent studies, students
+onalized style. In
+rs
+pe
+d
+an
+l
+first-person,
+a
+na
+ng
+tio
+usi
+Use a conver sa
+ectly to the reader,
+dir
+ke
+spo
+t
+ten
+con
+the
+guage.
+earning tests if
+turing. Use casual lan
+to 40% better on post-l
+l stories instead of lec
+Tel
+e.
+ton
+l
+ma
+for
+a
+ty
+her than tak ing
+ulating dinner par
+conversational style rat
+re attention to: a stim
+ich would you pay mo
+Wh
+.
+sly
+iou
+ser
+too
+lf
+Don’t take yourse
+e?
+companion, or a lec tur
+s,
+ively flex your neuron
+words, unless you act
+er
+oth
+In
+ly.
+ep
+de
+to
+think more
+ious, and inspired
+Get the learner to
+tivated, engaged, cur
+A reader has to be mo
+d.
+hea
+r
+you
+in
+need challenges,
+ns
+pe
+you
+nothing much hap
+wledge. And for that,
+kno
+new
+ate
+ner
+ge
+conclusions, and
+of the brain and
+solve problems, draw
+that involve both sides
+estions, and activities
+qu
+ing
+vok
+pro
+htug
+exercises, and tho
+’t
+multiple senses.
+nt to learn this but I can
+all had the “I really wa
+’ve
+We
+.
+ion
+nt
+te
+ry,
+at
+he reader’s
+are out of the ordina
+Get—and keep—t
+ention to things that
+be
+e. Your brain pays att
+enc
+eri
+exp
+e”
+on
+e
+l topic doesn’t have to
+pag
+ica
+stay awake past
+a new, tough, techn
+ng
+rni
+Lea
+ed.
+ect
+exp
+-catching, un
+interesting, strange, eye
+if it’s not.
+rn much more quick ly
+lea
+l
+wil
+in
+boring. Your bra
+ndent
+ething is largely depe
+lity to remember som
+abi
+r
+you
+t
+tha
+w
+ing.
+kno
+eth
+ions. We now
+r when you feel som
+Touch their emot
+about. You remembe
+e
+car
+you
+at
+wh
+r
+be
+t. You remem
+king emotions like
+on its emotional conten
+y and his dog. We’re tal
+rn
+ng stories about a bo
+chi
+ren
+rt‑w
+hea
+you solve a puzzle, lea
+g
+en
+kin
+No, we’re not tal
+Rule!” that comes wh
+“I
+of
+ling
+fee
+the
+n
+and
+tha
+,
+, “what the...?”
+more technical
+surprise, curiosity, fun
+w something that “I’m
+hard, or realize you kno
+is
+nks
+thi
+e
+els
+y
+od
+something everyb
+ering doesn’t.
+thou” Bob from engine
+
+   intro
+
+Metacognition: thinking about thinking
+If you really want to learn, and you want to learn more quickly and more
+deeply, pay attention to how you pay attention. Think about how you think.
+Learn how you learn.
+Most of us did not take courses on metacognition or learning theory when we
+were growing up. We were expected to learn, but rarely taught to learn.
+
+I wonder how
+I can trick my brain
+into remembering
+this stuff...
+
+But we assume that if you’re holding this book, you really want to learn how
+to program And you probably don’t want to spend a lot of time. If you want
+to use what you read in this book, you need to remember what you read. And
+for that, you’ve got to understand it. To get the most from this book, or any book
+or learning experience, take responsibility for your brain. Your brain on this
+content.
+The trick is to get your brain to see the new material you’re learning as
+Really Important. Crucial to your well‑being. As important as a tiger.
+Otherwise, you’re in for a constant battle, with your brain doing its best to
+keep the new content from sticking.
+So just how DO you get your brain to treat
+programming like it was a hungry tiger?
+There’s the slow, tedious way, or the faster, more effective way. The
+slow way is about sheer repetition. You obviously know that you are able to learn
+and remember even the dullest of topics if you keep pounding the same thing into your
+brain. With enough repetition, your brain says, “This doesn’t feel important to him, but he
+keeps looking at the same thing over and over and over, so I suppose it must be.”
+The faster way is to do anything that increases brain activity, especially different
+types of brain activity. The things on the previous page are a big part of the solution,
+and they’re all things that have been proven to help your brain work in your favor. For
+example, studies show that putting words within the pictures they describe (as opposed to
+somewhere else in the page, like a caption or in the body text) causes your brain to try to
+makes sense of how the words and picture relate, and this causes more neurons to fire.
+More neurons firing = more chances for your brain to get that this is something worth
+paying attention to, and possibly recording.
+A conversational style helps because people tend to pay more attention when they
+perceive that they’re in a conversation, since they’re expected to follow along and hold up
+their end. The amazing thing is, your brain doesn’t necessarily care that the “conversation”
+is between you and a book! On the other hand, if the writing style is formal and dry, your
+brain perceives it the same way you experience being lectured to while sitting in a roomful
+of passive attendees. No need to stay awake.
+But pictures and conversational style are just the beginning…
+
+you are here 4   xxiii
+
+how to use this book
+
+Here’s what WE did:
+We used pictures, because your brain is tuned for visuals, not text. As far as your brain’s
+concerned, a picture really is worth a thousand words. And when text and pictures work
+together, we embedded the text in the pictures because your brain works more effectively
+when the text is within the thing the text refers to, as opposed to in a caption or buried in the
+text somewhere.
+We used redundancy, saying the same thing in different ways and with different media types,
+and multiple senses, to increase the chance that the content gets coded into more than one area
+of your brain.
+We used concepts and pictures in unexpected ways because your brain is tuned for novelty,
+and we used pictures and ideas with at least some emotional content, because your brain
+is tuned to pay attention to the biochemistry of emotions. That which causes you to feel
+something is more likely to be remembered, even if that feeling is nothing more than a little
+humor, surprise, or interest.
+We used a personalized, conversational style, because your brain is tuned to pay more
+attention when it believes you’re in a conversation than if it thinks you’re passively listening
+to a presentation. Your brain does this even when you’re reading.
+We included more than 80 activities, because your brain is tuned to learn and remember
+more when you do things than when you read about things. And we made the exercises
+challenging-yet-do-able, because that’s what most people prefer.
+We used multiple learning styles, because you might prefer step-by-step procedures, while
+someone else wants to understand the big picture first, and someone else just wants to see
+an example. But regardless of your own learning preference, everyone benefits from seeing the
+same content represented in multiple ways.
+We include content for both sides of your brain, because the more of your brain you
+engage, the more likely you are to learn and remember, and the longer you can stay focused.
+Since working one side of the brain often means giving the other side a chance to rest, you
+can be more productive at learning for a longer period of time.
+And we included stories and exercises that present more than one point of view,
+because your brain is tuned to learn more deeply when it’s forced to make evaluations and
+judgments.
+We included challenges, with exercises, and by asking questions that don’t always have
+a straight answer, because your brain is tuned to learn and remember when it has to work at
+something. Think about it—you can’t get your body in shape just by watching people at the
+gym. But we did our best to make sure that when you’re working hard, it’s on the right things.
+That you’re not spending one extra dendrite processing a hard-to-understand example,
+or parsing difficult, jargon-laden, or overly terse text.
+We used people. In stories, examples, pictures, etc., because, well, because you’re a person.
+And your brain pays more attention to people than it does to things.
+
+   intro
+
+Here’s what YOU can do to bend
+your brain into submission
+So, we did our part. The rest is up to you. These tips are a
+starting point; listen to your brain and figure out what works
+for you and what doesn’t. Try new things.
+
+Cut this out and sti
+on your refrigerator.ck it
+1
+
+Slow down. The more you understand, the
+less you have to memorize.
+
+Don’t just read. Stop and think. When the book asks
+you a question, don’t just skip to the answer. Imagine
+that someone really is asking the question. The
+more deeply you force your brain to think, the better
+chance you have of learning and remembering.
+2
+
+7
+
+8
+
+Part of the learning (especially the transfer to
+long-term memory) happens after you put the book
+down. Your brain needs time on its own, to do more
+processing. If you put in something new during that
+processing time, some of what you just learned will
+be lost.
+5 Talk about it. Out loud.
+Speaking activates a different part of the brain. If
+you’re trying to understand something, or increase
+your chance of remembering it later, say it out loud.
+Better still, try to explain it out loud to someone else.
+You’ll learn more quickly, and you might uncover
+ideas you hadn’t known were there when you were
+reading about it.
+
+Feel something.
+
+Your brain needs to know that this matters. Get
+involved with the stories. Make up your own
+captions for the photos. Groaning over a bad joke
+is still better than feeling nothing at all.
+
+Read the “There are No Dumb Questions”
+
+Make this the last thing you read before bed.
+Or at least the last challenging thing.
+
+Listen to your brain.
+
+Pay attention to whether your brain is getting
+overloaded. If you find yourself starting to skim
+the surface or forget what you just read, it’s time
+for a break. Once you go past a certain point, you
+won’t learn faster by trying to shove more in, and
+you might even hurt the process.
+
+That means all of them. They’re not optional
+sidebars, they’re part of the core content!
+Don’t skip them.
+4
+
+Drink water. Lots of it.
+
+Your brain works best in a nice bath of fluid.
+Dehydration (which can happen before you ever
+feel thirsty) decreases cognitive function.
+
+Do the exercises. Write your own notes.
+
+We put them in, but if we did them for you, that
+would be like having someone else do your workouts
+for you. And don’t just look at the exercises. Use a
+pencil. There’s plenty of evidence that physical
+activity while learning can increase the learning.
+3
+
+6
+
+9
+
+Write a lot of code!
+
+There’s only one way to learn to program in C:
+write a lot of code. And that’s what you’re going
+to do throughout this book. Coding is a skill, and
+the only way to get good at it is to practice. We’re
+going to give you a lot of practice: every chapter has
+exercises that pose a problem for you to solve. Don’t
+just skip over them—a lot of the learning happens
+when you solve the exercises. We included a solution
+to each exercise—don’t be afraid to peek at the
+solution if you get stuck! (It’s easy to get snagged
+on something small.) But try to solve the problem
+before you look at the solution. And definitely get it
+working before you move on to the next part of the
+book.
+
+you are here 4   xxv
+
+how to use this book
+
+Read Me
+This is a learning experience, not a reference book. We deliberately stripped out everything
+that might get in the way of learning whatever it is we’re working on at that point in the
+book. And the first time through, you need to begin at the beginning, because the book
+makes assumptions about what you’ve already seen and learned.
+We assume you’re new to C, but not to programming.
+We assume that you’ve already done some programming. Not a lot, but we’ll assume you’ve
+already seen things like loops and variables in some other language, like JavaScript. C is
+actually a pretty advanced language, so if you’ve never done any programming at all, then
+you might want to read some other book before you start on this one. We’d suggest starting
+with Head First Programming.
+You need to install a C compiler on your computer.
+Throughout the book we’ll be using the Gnu Compiler Collection (gcc) because it’s free
+and, well, we think it’s just a pretty darned good compiler. You’ll need to make sure
+have gcc installed on your machine. The good news is, if you have a Linux computer,
+then you should already have gcc. If you’re using a Mac, you’ll need to install the
+Xcode/Developer tools. You can either download these from the Apple App Store or by
+downloading them from Apple. If you’re on a Windows machine you have a couple
+options. Cygwin (http://www.cygwin.com) gives you a complete simulation of a UNIX
+environment, including gcc. But if you want to create programs that will work on
+Windows plain-and-simple, then you might want to install the Minimalist GNU for Windows
+(MingW) from http://www.mingw.org.
+All the code in this book is intended to run across all these operating systems and we’ve
+tried hard not to write anything that will only work on one type of computer. Occasionally
+there will be some differences, but we’ll make sure to point those out to you. .
+We begin by teaching some basic C concepts, then we start
+putting C to work for you right away.
+We cover the fundamentals of C in Chapter 1. That way, by the time you make it all the
+way to Chapter 2, you are creating programs that actually do something real, useful, and—
+gulp!—fun. The rest of the book then builds on your C skills turning you from C newbie to
+coding ninja master in no time.
+
+   intro
+
+The activities are NOT optional.
+The exercises and activities are not add-ons; they’re part of the core content of the book.
+Some of them are to help with memory, some are for understanding, and some will help
+you apply what you’ve learned. Don’t skip the exercises.
+The redundancy is intentional and important.
+One distinct difference in a Head First book is that we want you to really get it. And we
+want you to finish the book remembering what you’ve learned. Most reference books
+don’t have retention and recall as a goal, but this book is about learning, so you’ll see some
+of the same concepts come up more than once.
+The examples are as lean as possible.
+Our readers tell us that it’s frustrating to wade through 200 lines of an example looking
+for the two lines they need to understand. Most examples in this book are shown within
+the smallest possible context, so that the part you’re trying to learn is clear and simple.
+Don’t expect all of the examples to be robust, or even complete—they are written
+specifically for learning, and aren’t always fully-functional.
+The Brain Power exercises don’t have answers.
+For some of them, there is no right answer, and for others, part of the learning
+experience of the Brain Power activities is for you to decide if and when your answers
+are right. In some of the Brain Power exercises, you will find hints to point you in the
+right direction.
+
+you are here 4   xxvii
+
+the review team
+
+The technical review team
+
+   intro
+
+Acknowledgments
+Our editor:
+Many thanks to Brian Sawyer for asking us to write this book
+in the first place. Brian believed in us every step of the way, gave
+us the freedom to try out new ideas, and didn’t panic too much
+when deadlines loomed.
+
+Brian Sawyer
+
+The O’Reilly team:
+A big thank you goes to the lovely Karen Shaner made us feel at home in Boston, and
+was always there to help us track down elusive images. Thanks also to Laurie Petrycki
+for keeping us well-fed and well-motivated.
+Family, Friends and colleagues:
+We’ve made a lot of friends on our Head First journey. A special thanks goes to Lou Barr,
+Brett McLaughlin, and Sanders Kleinfeld for teaching us so much.
+David: My thanks to Andy Parker, Joe Broughton, Carl Jacques, and Simon
+Jones and the many other friends who have heard so little from me whilst I was busy
+scribbling away.
+Dawn: Work on this book would have been a lot harder without my amazing support
+network of family and friends. Special thanks go to Mum and Dad, Carl, Steve, Gill,
+Jacqui, Joyce, and Paul. I’ve truly appreciated all your support and encouragement.
+The without-whom list:
+Our technical review team did an excellent job of keeping us straight and making sure
+what we covered was spot on.
+Finally, our thanks to Kathy Sierra and Bert Bates for creating this extraordinary
+series of books
+
+you are here 4   xxix
+
+safari books online
+
+Safari® Books Online
+When you see a Safari® icon on the cover of your favorite
+technology book that means the book is available online
+through the O’Reilly Network Safari Bookshelf.
+Safari offers a solution that’s better than e-books. It’s a virtual library that lets you
+easily search thousands of top tech books, cut and paste code samples, download
+chapters, and find quick answers when you need the most accurate, current
+information. Try it for free at http://safari.oreilly.com.
+
+   intro
+
+1 getting started with c
+
+Diving in
+Don't you just love the
+deep blue C? Come on
+in, the water's lovely!
+
+Want to get inside the computers head? 
+Need to write high-performance code for a new game? Program an Arduino? Or use
+that advanced third-party library in your iPhone app? If so, then C’s there to help. C
+works at a much lower level that most other languages, so understanding C gives you a
+much better idea of what’s really going on. C can even help you better understand other
+languages as well. So dive in, grab your compiler, and get started in no time.
+
+this is a new chapter   1
+
+how c works
+
+C is a language for small, fast programs
+The C language is designed to create small, fast programs. It's
+lower-level than most other languages; that means it creates code
+that's a lot closer to what machines really understand.
+
+The way C works
+Computers really only understand one language - machine code, a
+binary stream of 1s and 0'. You convert your C code into machine
+code with the aid of a compiler.
+
+#include &lt;stdio.h&gt;
+int main()
+
+{
+
+}
+
+File Edit Window Help Compile
+
+puts(&quot;C Rocks!&quot;);
+return 0;
+
+1
+
+&gt; gcc rocks.c -o rocks
+&gt;
+
+2
+
+3
+
+Source
+
+Compile
+
+Output
+
+You start off by
+creating a source
+file. The source file
+contains humanreadable C code.
+
+You run your source
+code through a compiler.
+The compiler checks
+for errors, and once it's
+happy, it compiles the
+source code.
+
+The compiler creates a new
+file called an executable. This
+file contains machine code,
+a stream of 1's and 0's that
+the computer understands.
+And that's the program you
+can run.
+
+C is used where speed and space are important.
+Most operating systems are written in C. Most
+other computer languages are also written in C.
+And most games software is written in C.
+
+2   Chapter 1
+
+getting started with c
+
+Try to guess what each of these code fragments do.
+int card_count = 11;
+
+Describe what you think the code does.
+
+if (card_count &gt; 10)
+
+puts(&quot;The deck is hot. Increase bet.&quot;);
+
+int c = 10;
+
+while (c &gt; 0) {
+
+puts(&quot;I must not write code in class&quot;);
+
+}
+
+c = c - 1;
+
+/* Assume name shorter than 20 chars. */
+char ex[20];
+
+puts(&quot;Enter boyfriend's name: &quot;);
+
+scanf(&quot;%s&quot;, ex);
+
+printf(&quot;Dear %s.\n\n\tYou're history.\n&quot;, ex);
+
+char suit = 'H';
+
+switch(suit) {
+case 'C':
+
+puts(&quot;Clubs&quot;);
+break;
+
+case 'D':
+
+puts(&quot;Diamonds&quot;);
+break;
+
+case 'H':
+
+puts(&quot;Hearts&quot;);
+break;
+
+default:
+}
+
+puts(&quot;Spades&quot;);
+
+you are here 4   3
+
+fragments demystified
+
+Don't worry if you don't understand all of this yet. Everything is
+explained in greater detail further in the book.
+int card_count = 11;
+if (card_count &gt; 10)
+
+An integer is a whole number.
+
+puts(&quot;The deck is hot. Increase bet.&quot;);
+
+This displays a string on the command prompt or terminal.
+int c = 10;
+
+while (c &gt; 0) {
+
+The braces define a
+block statement.
+
+puts(&quot;I must not write code in class&quot;);
+
+}
+
+c = c - 1;
+
+Create an integer variable and set it to 11.
+Is the count more than 10?
+If so, display a message on the command prompt
+Create an integer variable and set it to 10.
+As long as the value is positive...
+...display a message...
+...and decrease the count
+The end of the code that should be repeated
+
+/* Assume name shorter than 20 chars. */
+
+This is a comment.
+Create an array of 20 characters.
+puts(&quot;Enter boyfriend's name: &quot;);
+Display
+a message on the screen.
+ing the
+everyth
+&quot;store
+means
+This
+scanf(&quot;%s&quot;, ex);
+Store what the user enters into the array.
+user types into the ex array&quot;.
+Display
+a message including the text entered
+printf(&quot;Dear %s.\n\n\tYou're history.\n&quot;, ex);
+This will insert this string of
+characters here in place of the
+%s.
+char ex[20];
+
+char suit = 'H';
+
+switch(suit) {
+case 'C':
+
+A switch statement checks
+variable for different valuesa. single
+
+puts(&quot;Clubs&quot;);
+break;
+
+case 'D':
+
+puts(&quot;Diamonds&quot;);
+break;
+
+case 'H':
+
+puts(&quot;Hearts&quot;);
+break;
+
+default:
+}
+
+puts(&quot;Spades&quot;);
+
+4   Chapter 1
+
+Create a character variable, store the letter 'H'
+Look at the value of the variable.
+Is it 'C'?
+If so, display the word &quot;Clubs&quot;.
+Then skip past the other checks.
+Is it 'D'?
+If so, display the word &quot;Diamonds&quot;.
+Then skip past the other checks.
+Is it 'H'?
+If so, display the word &quot;Hearts&quot;.
+Then skip past the other checks.
+Otherwise...
+Display the word &quot;Spades&quot;
+This is the end of tests.
+
+getting started with c
+
+But what does a complete C program look like?
+In order to create a full program, you need to enter your
+code into a C source file. C source files can be created by any
+text editor and their filenames usually end with .c.
+This
+
+is just a convention, but you should follow it.
+
+Let's have a look at a typical C source file.
+1
+
+C programs normally begin with a comment.
+The comment describes the purpose of the code in the file, and maybe
+some license or copyright information. There's no absolute need to include
+a comment here - or anywhere else in the file - but it's good practice and
+what most C programmers will expect to find.
+/*
+
+* Program to calculate the number of cards in the shoe.
+* This code is released under the Vegas Public License.
+* (c)2014, The College Blackjack Team.
+
+2
+
+Next comes the
+includes section.
+C is a very, very small
+language and it can do
+almost nothing without
+the use of external
+libraries. You will need
+to tell the compiler what
+external code to use by
+including header files
+for the relevant libraries.
+The header you will see
+more than any other is
+stdio.h. The stdio
+library contains code
+that allows you to read
+and write data from and
+to the terminal.
+
+*/
+
+#include &lt;stdio.h&gt;
+int main()
+
+{
+
+int decks;
+
+puts(&quot;Enter a number of decks&quot;);
+scanf(&quot;%i&quot;, &amp;decks);
+if (decks &lt; 1) {
+
+puts(&quot;That is not a valid number of decks&quot;);
+
+}
+
+return 1;
+
+printf(&quot;There are %i cards\n&quot;, (decks * 52));
+}
+3
+
+return 0;
+
+The last thing you find in a source file are the functions.
+All C code runs inside functions. The most important function you will
+find in any C program is called the main() function. The main()
+function is the start point for all of the code in your program.
+
+So let's look at the main() function in a little more detail.
+you are here 4   5
+
+main function
+
+The main() Function Up Close
+The computer will start running your program from the main()
+function. The name is important - if you don't have a function called main, your
+program won't be able to start.
+The main function has a return type of int. So what does this mean? Well when the computer runs your program it will need to have some way of deciding
+if the program ran successfully or not. It does this by checking the return value of
+the main function. If the main function returns 0, this means that the program
+was successful. If it returns any other value, it means that there was a problem.
+
+This is the return type - it
+should always be int for the
+main function.
+
+int main()
+
+{
+
+gram will start here.
+Because it's called 'main' the pro
+If we had any parameters, they'd be mentioned
+here
+
+.
+
+int decks;
+
+puts(&quot;Enter a number of decks&quot;);
+scanf(&quot;%i&quot;, &amp;decks);
+
+The body of the
+function is always
+surrounded by braces.
+
+if (decks &lt; 1) {
+
+puts(&quot;That is not a valid number of decks&quot;);
+
+}
+
+return 1;
+
+printf(&quot;There are %i cards\n&quot;, (decks * 52));
+}
+
+return 0;
+
+The function name comes after the return type. That's followed by the function
+parameters if there are any. Finally we have the function body. The function body
+must be surrounded by braces.
+
+Geek Bits
+The printf() function is used to display formatted output. It
+replaces format characters with the values of variables, like this:
+
+1st parameter will be inserted here as a string.
+
+1st parameter.
+
+printf(&quot;%s says the count is %i&quot;, &quot;Ben&quot;, 21);
+
+2nd parameter will be inserted here as an integer.
+
+2nd parameter.
+
+You can include as many parameters as you like when you call the printf()
+function - but make sure you have a matching %-format character for each one.
+
+6   Chapter 1
+
+e
+to check thm
+t
+n
+a
+w
+u
+o
+y
+a
+If
+of a progr
+exit status
+type
+l%
+orLeve
+Err
+echo %
+
+in Windows
+
+or
+
+?
+echo $
+
+in Linux or
+
+the Mac
+
+getting started with c
+
+Code Magnets
+
+The College Blackjack Team were working on some code on the dorm fridge, but
+someone mixed their magnets up! Can you re-assemble the code from the magnets?
+/*
+
+* Program to evaluate face values.
+
+* Released under the Vegas Public License.
+* (c)2014 The College Blackjack Team.
+*/
+
+{
+
+main()
+char card_name[3];
+
+puts(&quot;Enter the card_name: &quot;);
+scanf(&quot;%2s&quot;, card_name);
+int val = 0;
+
+if (card_name[0] == 'K') {
+val = 10;
+
+} else if (card_name[0] == 'Q') {
+
+} else if (card_name[0] ==
+
+) {
+
+}
+
+) {
+
+val = 10;
+
+&lt;stdlib.h&gt;
+;
+
+int
+
+;
+
+val = 11
+
+}
+
+val = atoi(card_name);
+
+printf(&quot;The card value is: %i\n&quot;, val);
+
+'A'
+}
+
+return
+else
+
+} else {
+
+'J'
+
+#include
+
+(card_name[0] ==
+
+0;
+
+if
+
+#include
+val = 10
+
+&lt;stdio.h&gt;
+you are here 4   7
+
+magnets unmixed
+
+Code Magnets Solution
+
+The College Blackjack Team were working on some code on the dorm fridge, but
+someone mixed their magnets up! Can you re-assemble the code from the magnets?
+/*
+
+* Program to evaluate face values.
+
+* Released under the Vegas Public License.
+* (c)2014 The College Blackjack Team.
+*/
+
+#include
+
+&lt;stdio.h&gt;
+
+#include
+
+&lt;stdlib.h&gt;
+
+int
+{
+
+main()
+
+Q:
+
+What does card_name[0]
+mean?
+
+char card_name[3];
+
+puts(&quot;Enter the card_name: &quot;);
+
+A:
+
+It's the first character that
+the user typed. So if they type &quot;10&quot;,
+card_name[0] would be '1'.
+
+scanf(&quot;%2s&quot;, card_name);
+int val = 0;
+
+if (card_name[0] == 'K') {
+
+Q:
+
+val = 10;
+
+Do you always write
+comments using /* and */?
+
+} else if (card_name[0] == 'Q') {
+val = 10
+
+} else if (card_name[0] ==
+
+'J'
+
+val = 10;
+
+}
+
+else
+
+if
+
+val = 11
+
+A:
+
+;
+
+(card_name[0] == 'A'
+
+) {
+
+) {
+
+;
+
+val = atoi(card_name);
+
+printf(&quot;The card value is: %i\n&quot;, val);
+
+return
+}
+
+8   Chapter 1
+
+0;
+
+Q:
+
+C++? So that's not a C
+comment then?
+
+} else {
+}
+
+If your compiler also supports
+C++ then you can begin a comment
+with &quot;//&quot;. The compiler treats the rest
+of that line as a comment.
+
+A:
+
+No. Although most compilers
+will cope with it.
+
+getting started with c
+
+But how will we run the program?
+C is a compiled language. That means the computer will not interpret the code
+directly. Instead you will need to convert - or compile - the human-readable
+source code into machine-readable machine code.
+To compile the code you need a program called a compiler. One of the
+most popular C compilers is the GNU Compiler Collection or gcc. gcc is
+available on a lot of operating systems and it can compile lots of languages
+other than C. Best of all - it's completely free.
+Here's how you can compile and run the program using gcc:
+1
+
+C source files usually end .c.
+
+Save the code from the Code Magnets exercise on the
+opposite page in a file called cards.c.
+cards.c
+
+2
+
+Compile with gcc cards.c -o cards at a command
+prompt or terminal.
+File Edit Window Help Compile
+&gt; gcc cards.c -o cards
+&gt;
+pile cards.c
+
+Com
+to a file called cards.
+
+3
+
+cards.c
+
+Run by typing cards on Windows, or ./cards on Mac and
+Linux machines.
+File Edit Window Help Compile
+&gt; ./cards
+Enter the card_name:
+
+cards
+
+This will be cards.exe
+if you're on Windows.
+
+Geek Bits
+Do this!
+You can compile and run your code in a single step like this:
+
+&amp;&amp; here means 'and then if it's successful, do this
+
+...'
+
+gcc test.c -o test &amp;&amp; ./test
+
+You should put
+&quot;test&quot; instead
+of &quot;./test&quot; on a
+Windows machine.
+
+This command will only run the new program if it compiles
+successfully. If there's a problem with the compile, it will skip running
+the program and simple display the errors on the screen.
+
+You should create the
+cards.c file and compile
+it now. We'll be working
+on it more and more as
+the chapter progresses.
+you are here 4   9
+
+test drive
+
+Test Drive
+Let's see if the program compiles and runs. Open up a command prompt
+or terminal on your machine and try it out.
+
+This line compiles the code and
+creates the cards program.
+
+This line runs the program.
+If you're on Windows don't
+type the ./
+Running the program again.
+The user enters the
+name from a card...
+
+...and the program displays
+the corresponding value.
+
+File Edit Window Help 21
+
+&gt; gcc cards.c -o cards
+&gt; ./cards
+Enter the card_name:
+Q
+The card value is: 10
+&gt; ./cards
+Enter the card_name:
+A
+The card value is: 11
+&gt; ./cards
+Enter the card_name:
+7
+The card value is: 7
+
+Remember - you can and
+combine the compile (turn
+run steps together how).
+back a page to see
+
+The program works!
+Congratulations! You have compiled and run a C program. The gcc
+compiler took the human-readable source code from cards.c and
+converted it into computer-readable machine code in the cards program. If
+you are using a Mac or Linux machine, the compiler will have created the
+machine code in a file called cards. But on Windows, all programs need
+to have a .exe extension, so the file will be called cards.exe.
+
+Q:
+A:
+
+Why do I have to prefix the program with &quot;./&quot; when I run it on Linux and the Mac?
+
+On Unix-style operating systems, programs are only run if you specify the directory where
+they live or if their directory is listed in the PATH environment variable.
+
+10   Chapter 1
+
+getting started with c
+
+Wait - I don't get it. When
+we ask the user what the name
+of the card is we're using an
+array of characters. An array of
+characters???? Why? Can't we use
+a string or something???
+
+The C language doesn't support strings out
+of the box.
+C is a lower-level than most other languages and so instead
+of strings, C normally uses something similar: an array of
+single characters. If you've programmed in other languages
+you've probably met an array before. An array is just a list of
+things given a single name. So card_name is just a variable
+name we use to refer to the list of characters entered at
+the command prompt. We defined card_name to be a 2
+character array so we can refer to the first and second character
+as char_name[0] and char_name[1]. To see how
+this works, let's take a deeper dive into the memory of the
+computer's memory and see how C handles text...
+
+But there are
+a number of
+C extensionlibraries that
+do give you
+strings.
+
+you are here 4   11
+
+string theory
+
+Strings Way Up Close
+Strings are just character arrays. When C sees a string like this:
+s=&quot;Shatner&quot;
+
+s[
+0]
+
+s[
+3]
+
+S h a ...
+
+Each of the characters in the string is just an element in an array, which is
+why you can refer to the individual characters in the string by using an index,
+like s[0] and s[1].
+
+s[
+2]
+
+s = {'S', 'h', 'a', ... }
+
+This is how you define an array in C.
+
+s[
+1]
+
+it reads it like it was just an array of separate characters:
+
+Don't fall off the end of the string
+But what happens when C wants to read the contents of the string? Say
+it wants to print it out. Now in a lot of languages the computer keeps a
+pretty close track on the size of an array, but C is lot lower-level than most
+languages and it can't always work out exactly how long an array is. If C is
+going to display a string on the screen, it needs to know when it gets to the
+end of the character array. And it does this by adding a sentinal character.
+
+'\0'
+
+The sentinel character is an additional character at the end of the string that
+has the value '\0'. Whenever the computer needs to read the contents of
+the string, it goes through the elements of the character array one at a time,
+until it reaches '\0'. That means that when the computer see this:
+s=&quot;Shatner&quot;
+it actually stores it in memory like this:
+
+s[
+7]
+
+s[
+6]
+
+s[
+5]
+
+s[
+4]
+
+s[
+3]
+
+s[
+2]
+
+s[
+1]
+
+s[
+0]
+
+S h a t n e r \0
+
+'\0' is the character
+with ASCII value 0.
+
+That's why in our code we had to define the card_name like this:
+char card_name[3];
+The card_name string is only ever going to record 1 or 2 characters, but because
+strings end in a sentinal character we have to allow for an extra character in the array.
+12   Chapter 1
+
+C knows
+to stop
+when it
+sees '\0'.
+
+getting started with c
+
+Q:
+
+Why are the characters numbered
+from 0? Why not 1?
+
+A:
+
+The index is an offset - it's a measure
+of how far the character is from the first
+character
+
+Q:
+A:
+
+Why?
+
+The computer will store the
+characters in consecutive bytes of memory.
+It can use the index to calculate the
+location of the character. If it knows that
+c[0] is at memory location 1,000,000 then
+it can quickly calculate that c[96] is at
+1,000,000 + 96.
+
+Q:
+
+Why does it need a sentinel
+character? Doesn't it know how long the
+string is?
+
+A:
+
+Usually it doesn't. C is not very good
+at keeping track of how long arrays are and a string is just an array.
+
+Q:
+
+It doesn't know how long arrays
+are???
+
+A:
+
+No. Sometimes the compiler
+can work out the length of an array by
+analyzing the code, but usually C relies on
+you to keep track of your arrays.
+
+Q:
+
+Does it matter if I use single
+quotes of double quotes.
+
+A:
+
+Yes. Single quotes are used for
+individual characters, but double quotes
+are always used for strings.
+
+Q:
+
+So should I define my strings
+using quotes (&quot;) or as explicit arrays of
+characters?
+
+A:
+
+Usually you will define strings using
+quotes. They are called literal strings and
+they are easier to type.
+
+Q:
+
+Are there any differences between
+literal strings and character arrays
+
+A:
+Q:
+A:
+Q:
+A:
+Q:
+A:
+
+Only one - literal strings are constant
+What does that mean?
+
+It means that you can't change the
+individual characters once they are created
+What will happen if I try?
+
+It will depend upon the compiler, but
+gcc will usually display a Bus Error
+What the heck's a bus error?
+
+C will store literal strings in memory
+in a different way. A bus error just means
+that your program can't update that piece
+of memory.
+
+you are here 4   13
+
+do something
+
+Two types of command
+So far every command we've seen has fallen into one of two categories:
+
+Do something
+Most of the commands in C are statements. Simple statements are actions, they do things
+and they tell us things. We've met statements that define variables, that read input from
+the keyboard or display data to the screen.
+split_hand();
+
+This is a simple statement.
+
+Sometimes we group statements together to create block statements. Block statements are
+groups of commands surrounded by braces.
+
+These commands form
+a block statement
+because they are
+surrounded by braces.
+
+{
+
+deal_first_card();
+
+deal_second_card();
+}
+
+cards_in_hand = 2;
+
+Do something only if something is true
+Control statements such as if check a condition before running the code:
+if (value_of_hand &lt;= 16)
+hit();
+
+else
+
+stand();
+
+This is the condition.
+
+Run this statement if the condition is true.
+Run this statement if the condition is false.
+
+if statements typically need to do more than one thing when a condition
+is true, so they are often used with block statements:
+if (dealer_card == 6) {
+double_down();
+
+}
+
+hit();
+
+14   Chapter 1
+
+BOTH of these commands will
+run if the condition is true.
+The commands are grouped
+inside a single block statement.
+
+Do you need braces?
+Block statements allow you to
+treat a whole set of statements as
+if they were a single statement.
+You see them a lot in conditions
+and loops.
+But most C programs omit the
+braces if you just run a single line
+of code. So instead of writing:
+if (x == 2) {
+}
+
+puts(&quot;Do something&quot;);
+
+most C programmers write:
+if (x == 2)
+
+puts(&quot;Do something&quot;);
+
+getting started with c
+
+Here's the code so far
+/*
+
+* Program to evaluate face values.
+
+* Released under the Vegas Public License.
+* (c)2014 The College Blackjack Team.
+*/
+
+#include &lt;stdio.h&gt;
+
+#include &lt;stdlib.h&gt;
+
+int main()
+
+{
+
+char card_name[3];
+
+puts(&quot;Enter the card_name: &quot;);
+scanf(&quot;%2s&quot;, card_name);
+int val = 0;
+
+if (card_name[0] == 'K') {
+val = 10;
+
+} else if (card_name[0] == 'Q') {
+val = 10;
+
+} else if (card_name[0] == 'J') {
+val = 10;
+
+} else if (card_name[0] == 'A') {
+val = 11;
+
+} else {
+}
+
+val = atoi(card_name);
+
+printf(&quot;The card value is: %i\n&quot;, val);
+}
+
+I've had a thought.
+Could this check if
+a card value is in a
+particular range? That
+might be handy...
+
+return 0;
+
+you are here 4   15
+
+page goal header
+
+You
+Hey - how's it going?
+t guy.
+ar
+sm
+a
+look to me like
+a
+I'm
+e
+us
+'ca
+And I know
+I'm
+ten
+Lis
+!
+too
+y
+gu
+t
+smar
+d
+an
+re,
+he
+onto a sure thing
+'s
+die
+Ed
+so
+y,
+gu
+e
+Eddie's a nic
+it.
+on
+in
+u
+yo
+let
+to
+going
+card
+See - I'm an expert in
+tutti
+di
+po
+Ca
+e
+counting. Th
+ng,
+nti
+cou
+rd
+ca
+s
+at'
+capi. Wh
+a
+it's
+,
+you say? Well - to me
+career!
+ng is
+Seriously, card counti
+odds
+the
+ing
+ov
+pr
+im
+of
+y
+wa
+k. In
+jac
+ck
+when you play bla
+nty
+ple
+are
+re
+the
+if
+blackjack,
+in
+t
+lef
+s
+rd
+ca
+e
+alu
+h-v
+of hig
+ds are
+the shoe, then the od
+player
+the
+of
+or
+slanted in fav
+u!
+yo
+- that's
+you
+Card counting helps
+er of
+mb
+nu
+the
+keep track of
+y
+Sa
+t.
+lef
+s
+rd
+ca
+e
+high-valu
+
+16   Chapter 1
+
+cash
+high, then you lay on
+d-aba
+d
+an
+t
+be
+xt
+ne
+ur
+in yo
+re
+mo
+ve
+ha
+bing! Soon you'll
+fe!
+wi
+rd
+thi
+my
+n
+money tha
+more,
+If you'd like to learn
+my
+in
+then enroll today
+dence
+on
+sp
+rre
+Blackjack Co
+out
+ab
+re
+mo
+n
+ar
+Le
+School.
+1
+as:
+t
+ll
+It's a queen ==&gt; coun
+card counting as we
+* How to use the Kelly
+4,
+a
+the
+e
+lik
+,
+rd
+ca
+low
+Criterion to maximize
+But if it's a
+e:
+on
+by
+t
+be
+up
+ur
+es
+yo
+go
+of
+nt
+value
+the cou
+g
+* How to avoid gettin
+ss
+bo
+pit
+a
++1
+whacked by
+It's a four ==&gt; count
+stains
+* How to get cannoli
+off a silk suit
+d the
+High cards are 10s an
+plaid
+een,
+* Things to wear with
+face cards (Jack, Qu
+,
+,
+3s, 4s
+For more information
+King). Low cards are
+c/o the
+ny
+Vin
+in
+us
+Co
+.
+t
+6s
+tac
+d
+an
+con
+5s
+nce
+de
+on
+sp
+every Blackjack Corre
+You keep doing this for
+h
+School
+low card and every hig
+s real
+get
+nt
+cou
+the
+til
+un
+card
+
+nt of
+you start off with a cou
+with
+ds
+lea
+0. Then the dealer
+rd.
+ca
+h
+hig
+a
+t's
+a Queen - tha
+in
+le
+ab
+ail
+av
+s
+les
+e
+That's on
+e the
+the deck, so you reduc
+count by one:
+
+getting started with c
+
+Card-counting? In C?
+Card counting is a way to increase your chances of winning at blackjack.
+By keeping a running count as the cards are dealt, a player can work out
+the best time to place large bets and the best time to place small bets. Even
+though it's a powerful technique, it's really quite simple.
+
+We've already got
+code that does this.
+
+We can just use a
+variable for this.
+We've got to check for a few
+values here. Or have we...?
+
+Evaluate
+
+the card
+Is it betw
+een 3 and
+6 (inclusiv
+Increase
+e)?
+count by
+1
+Otherwise
+Is it a 10,
+J, Q or K?
+Decrease
+the count
+by 1
+
+How do we check that
+it is &gt;= 3 and &lt;= 6?
+Is that two checks?
+
+How difficult would this be to write in C? We've looked at
+how to make a single test, but the card-counting algorithm
+needs to check multiple conditions - we need to check that
+a number is &gt;= 3 as well as checking that it's &lt;= 6.
+We need a set of operations that will allow
+us to combine conditions together.
+you are here 4   17
+
+what condition the condition is in
+
+There's more to booleans than equals...
+So far we've looked at if statements that check if a single condition is true, but
+what if we want to check several conditions? Or check if a single condition is not
+true?
+
+&amp;&amp; checks two conditions are true
+The and operator (&amp;&amp;) evaluates to true, only if both conditions given to it are
+true.
+if ((dealer_up_card == 6) &amp;&amp; (hand == 11))
+double_down();
+
+Both of these conditions need to be
+true for this piece of code to run
+
+The and operator is efficient: if the first condition is false then the computer won't
+bother evaluating the second condition. It knows that if the first condition is false,
+then the whole condition must be false.
+
+II checks one of two conditions is true
+The or operator (||) evaluates to true, if either condition given to
+it is true.
+if (cupcakes_in_fridge || chips_on_table)
+eat_food();
+
+Either can be true.
+
+If the first condition is true, the computer won't bother evaluating
+the second condition. It knows that if the first condition is true, the
+whole condition must be true.
+
+Geek Bits
+In C, boolean values
+are represented by
+numbers. To C, the number 0 is
+the value for false. But what's the
+value for true? Anything that is
+not equal to 0 is treated as true.
+So there is nothing wrong in
+writing C code like this:
+int people_moshing = 34;
+
+! flips the value of a condition
+
+if (people_moshing)
+
+take_off_glasses();
+
+! is the not operator. It reverses the value of a condition.
+
+! means &quot;not&quot;
+
+18   Chapter 1
+
+if (!brad_on_phone)
+
+answer_phone();
+
+In fact, C programs often use this
+as a short-hand way of checking
+if something is not zero
+
+getting started with c
+
+You are going to modify the program so that it can be used for card-counting. It will need to
+display one message if the value of the card is from 3 to 6. It will need to display a different
+message if the card is a 10, Jack, Queen or a King.
+int main()
+
+{
+
+char card_name[3];
+
+puts(&quot;Enter the card_name: &quot;);
+scanf(&quot;%2s&quot;, card_name);
+int val = 0;
+
+if (card_name[0] == 'K') {
+val = 10;
+
+} else if (card_name[0] == 'Q') {
+val = 10;
+
+} else if (card_name[0] == 'J') {
+val = 10;
+
+} else if (card_name[0] == 'A') {
+val = 11;
+
+} else {
+}
+
+val = atoi(card_name);
+
+/* Check if the value is 3 to 6 */
+if
+
+puts(&quot;Count has gone up&quot;);
+
+/* Otherwise check if the card was 10, J, Q or K */
+else if
+
+puts(&quot;Count has gone down&quot;);
+
+}
+
+return 0;
+
+The Polite Guide to Standards
+The ANSI C standard has no value for true
+and false. C programs treat the value 0 as
+false, and any other value as true. The C99
+standard does allow you to use the words true
+and false in your programs - but the compiler
+treats them as the values &quot;1&quot; and &quot;0&quot; anyway.
+you are here 4   19
+
+cards counted
+
+You are going to modify the program so that it can be used for card-counting. It will need to
+display one message if the value of the card is from 3 to 6. It will need to display a different
+message if the card is a 10, Jack, Queen or a King.
+int main()
+
+{
+
+char card_name[3];
+
+puts(&quot;Enter the card_name: &quot;);
+scanf(&quot;%2s&quot;, card_name);
+int val = 0;
+
+if (card_name[0] == 'K') {
+val = 10;
+
+} else if (card_name[0] == 'Q') {
+val = 10;
+
+} else if (card_name[0] == 'J') {
+val = 10;
+
+} else if (card_name[0] == 'A') {
+val = 11;
+
+} else {
+
+There are a few
+ways of writing
+this condition.
+
+}
+
+/* Check if the value is 3 to 6 */
+if
+
+Did you spot that you
+just needed a single
+condition for this?
+}
+
+Q:
+A:
+
+val = atoi(card_name);
+
+((val &gt; 2) &amp;&amp; (val &lt; 7))
+
+puts(&quot;Count has gone up&quot;);
+
+/* Otherwise check if the card was 10, J, Q or K */
+else if
+
+puts(&quot;Count has gone down&quot;);
+
+return 0;
+
+Why not just &quot;|&quot; and &quot;&amp;&quot;?
+
+You can use &quot;&amp;&quot; and &quot;|&quot; if you want.
+The &quot;&amp;&quot; and &quot;|&quot; operators will always
+evaluate both conditions, but &quot;&amp;&amp;&quot; and
+&quot;||&quot; can often skip the second condition.
+
+20   Chapter 1
+
+(val == 10)
+
+Q:
+
+So why do the &quot;&amp;&quot; and &quot;|&quot;
+operators exist?
+
+A:
+
+Because they do more than simply
+evaluate logical conditions. They perform
+bitwise operations on the individual bits
+of a number.
+
+Q:
+A:
+
+Huh? What do you mean?
+
+Well 6 &amp; 4 == 4, because if you
+checked which binary digits are common
+to 6 (110 in binary) and 4 (100 in binary,
+you get 4 (100).
+
+getting started with c
+
+Test Drive
+Let's see what happens when we compile and run the program now:
+
+This line compi
+and runs the coleds
+e.
+
+We run it a
+few times to
+check that the
+different value
+ranges work.
+
+File Edit Window Help FiveOfSpades
+
+&gt; gcc cards.c -o cards &amp;&amp; ./cards
+Enter the card_name:
+Q
+Count has gone down
+&gt; ./cards
+Enter the card_name:
+8
+&gt; ./cards
+Enter the card_name:
+3
+Count has gone up
+&gt;
+
+The code works. By combining multiple conditions with a boolean
+operator we are to check for a range of values rather than a single
+value. You now have the basic structure in place for a card counter.
+
+The computer says the
+card was low. The count
+went up! Raise the bet!
+Raise the bet!
+
+Stealthy communication device.
+
+you are here 4   21
+
+interview with gcc
+
+The Compiler Exposed
+This week’s interview:
+
+What Has gcc Ever Done For Us?
+
+Head First: May I begin by thanking you gcc for
+finding time in your very busy schedule to speak to
+us.
+gcc: That's not a problem my dear boy. A pleasure
+to help.
+Head First: gcc, you can speak many languages, is
+that true?
+gcc: I am fluent in over six million forms of
+communication...
+Head First: Really?
+gcc: Just teasing. But I do speak many languages. C,
+obviously, but also C++ and Objective C. I can get
+by in Pascal, Fortran, PL/I and so forth. Oh - and I
+have a smattering of Go...
+Head First: And on the hardware side, you can
+produce machine code for many, many platforms?
+gcc: Virtually any processor. Generally when a
+hardware engineer creates a new type of processor
+one of the first things they want to do is get some
+form of me running on them.
+Head First: How have you achieved some
+incredible flexibility?
+
+Head First: You say there are two sides to your
+personality?
+gcc: I also have a back-end - a system for converting
+that intermediate code into machine code that is
+understandable on many platforms. Add to that my
+knowledge of the particular executable file formats
+for just about every operating system you've ever
+heard of...
+Head First: And yet, you are often described as a
+mere translator. Do you think that's fair? Surely that's
+not all you are?
+gcc: Well of course I do a little more than simple
+translation. For example I can often spot errors in
+code.
+Head First: Such as?
+gcc: Well I can check the obvious things such as
+code like mis-spelling variable names. But I also
+look for subtler things, such as the redefinition of
+variables. Or I can warn the programmer if they
+choose to name variables after existing functions and
+so on.
+Head First: So you check code quality as well then?
+
+gcc: My secret, I suppose, is that there are two sides
+to my personality. I have a front-end, a part of me
+that understands some type of source code
+
+gcc: Oh yes. And not just quality - but also
+performance. If I discover a section of code inside
+a loop that could work easily as well outside a loop I
+can very quietly move it.
+
+Head First: Written in a language such as C?
+
+Head First: You do rather a lot?
+
+gcc: Exactly. My front end can convert that
+language into an intermediate code. All of my
+language front-ends produce the same sort of code.
+
+gcc: I like to think I do. But in a quiet way.
+
+22   Chapter 1
+
+Head First: gcc - thank you.
+
+getting started with c
+
+BE the Compiler
+
+Each of the C files on this page
+represents a complete source file. Your
+job is to play compiler and determine
+whether each of these files
+will compile, and if not,
+why not. For extra bonus
+points, say what you think
+the output of each compiled
+file will be when run, and whether you
+think the code is working as intended.
+
+A
+#include &lt;stdio.h&gt;
+int main()
+{
+int card = 1;
+if (card &gt; 1)
+card = card - 1;
+if (card &lt; 7)
+puts(&quot;Small card&quot;);
+else {
+puts(&quot;Ace!&quot;);
+}
+return 0;
+}
+B
+#include &lt;stdio.h&gt;
+int main()
+{
+int card = 1;
+if (card &gt; 1) {
+card = card - 1;
+if (card &lt; 7)
+puts(&quot;Small card&quot;);
+else
+puts(&quot;Ace!&quot;);
+}
+return 0;
+}
+
+C
+#include &lt;stdio.h&gt;
+int main()
+{
+int card = 1;
+if (card &gt; 1)
+card = card - 1;
+if (card &lt; 7)
+puts(&quot;Small card&quot;);
+else {
+puts(&quot;Ace!&quot;);
+}
+return 0;
+}
+
+D
+#include &lt;stdio.h&gt;
+int main()
+{
+int card = 1;
+if (card &gt; 1) {
+card = card - 1;
+if (card &lt; 7)
+puts(&quot;Small card&quot;);
+else
+puts(&quot;Ace!&quot;);
+}
+
+return 0;
+
+you are here 4   23
+
+code compiled
+
+BE the Compiler Solution
+Each of the C files on this page
+represents a complete source file. Your
+job is to play compiler and determine
+whether each of these files
+will compile, and if not,
+why not. For extra bonus
+points, say what you think
+the output of each compiled
+file will be when run, and whether you
+think the code is working as intended.
+
+A
+#include &lt;stdio.h&gt;
+
+The code compiles. The
+program displays &quot;Small
+card&quot;. But it doesn't work
+properly because the else is
+attached to the wrong if.
+
+int main()
+{
+int card = 1;
+if (card &gt; 1)
+card = card - 1;
+if (card &lt; 7)
+puts(&quot;Small card&quot;);
+else {
+puts(&quot;Ace!&quot;);
+}
+return 0;
+}
+B
+#include &lt;stdio.h&gt;
+
+Code compiles. The
+program displays nothing
+and is not really working
+properly because the else
+matches to the wrong if.
+
+int main()
+{
+int card = 1;
+if (card &gt; 1) {
+card = card - 1;
+if (card &lt; 7)
+puts(&quot;Small card&quot;);
+else
+puts(&quot;Ace!&quot;);
+}
+return 0;
+}
+
+24   Chapter 1
+
+C
+#include &lt;stdio.h&gt;
+int main()
+{
+int card = 1;
+if (card &gt; 1)
+card = card - 1;
+if (card &lt; 7)
+puts(&quot;Small card&quot;);
+else {
+puts(&quot;Ace!&quot;);
+}
+return 0; The code compiles. The
+}
+
+program displays &quot;Ace!&quot;
+and is properly written.
+
+D
+#include &lt;stdio.h&gt;
+int main()
+{
+int card = 1;
+if (card &gt; 1) {
+card = card - 1;
+if (card &lt; 7)
+puts(&quot;Small card&quot;);
+else
+puts(&quot;Ace!&quot;);
+}
+
+return 0;
+
+The code won't compile
+because the braces are
+not matched.
+
+getting started with c
+
+What's the code like now?
+int main()
+{
+char card_name[3];
+puts(&quot;Enter the card_name: &quot;);
+scanf(&quot;%2s&quot;, card_name);
+int val = 0;
+if (card_name[0] == 'K') {
+val = 10;
+} else if (card_name[0] == 'Q') {
+val = 10;
+} else if (card_name[0] == 'J') {
+val = 10;
+} else if (card_name[0] == 'A') {
+val = 11;
+} else {
+val = atoi(card_name);
+}
+/* Check if the value is 3 to 6 */
+if ((val &gt; 2) &amp;&amp; (val &lt; 7))
+puts(&quot;Count has gone up&quot;);
+/* Otherwise check if the card was 10, J, Q or K */
+else if (val == 10)
+puts(&quot;Count has gone down&quot;);
+return 0;
+}
+Hmmm... is there something we can do with
+that sequence of if statements? They're all
+checking the same value - card_name[0] - and most
+of them are setting the val variable to 10. I wonder
+if there's a more efficient way of saying that in C?
+
+C programs often need to check the same value several
+times and then perform very similar pieces of code for
+each case.
+Now you can just use a sequence of if statements - and that will probably
+be just fine. But C gives you an alternative way of writing this kind of logic.
+C can perform logical tests with the switch statement.
+
+you are here 4   25
+
+switch statement
+
+Pulling the ol' switcheroo
+Sometimes when you're writing conditional logic, you need to
+check the value of the same variable over and over again. To
+prevent you have to write lots and lots of if statements, the C
+language gives you another option: the switch statement
+The switch statement is kind of like an if statement, except it
+can test for multiple values of a single variable:
+
+switch(train) {
+case 37:
+
+If the train == 37, add 50 to the
+winnings then skip to the end.
+
+winnings = winnings + 50;
+break;
+
+case 65:
+
+puts(&quot;Jackpot!&quot;);
+
+If the train == 65 then add 80 to
+the winnings AND THEN also add 20
+to the winnings, then skip to the end.
+
+winnings = winnings + 80;
+
+case 12:
+
+winnings = winnings + 20;
+break;
+
+default:
+}
+
+winnings = 0;
+
+If the train == 12 then
+just add 25 to the winnings.
+
+For any other value of train, set the winnings
+back to ZERO.
+
+When the computer hits a switch statement, it checks
+the value it was given, and then looks for a matching case.
+When it finds one, it runs all of the code that follows it until
+it reaches a break statement. The computer keeps going
+until it is told to break out of the switch statement.
+
+26   Chapter 1
+
+getting started with c
+
+Let's look at that section of your cards.c program again:
+int val = 0;
+
+if (card_name[0] == 'K') {
+val = 10;
+
+} else if (card_name[0] == 'Q') {
+val = 10;
+
+} else if (card_name[0] == 'J') {
+val = 10;
+
+} else if (card_name[0] == 'A') {
+val = 11;
+
+} else {
+}
+
+val = atoi(card_name);
+
+Do you think you can re-write this code using a switch statement? Write your answer below:
+
+you are here 4   27
+
+code switched
+
+Here's the code rewritten using a switch statement.
+int val = 0;
+
+if (card_name[0] == 'K') {
+val = 10;
+
+} else if (card_name[0] == 'Q') {
+val = 10;
+
+} else if (card_name[0] == 'J') {
+val = 10;
+
+} else if (card_name[0] == 'A') {
+val = 11;
+
+} else {
+}
+
+val = atoi(card_name);
+
+ switch statements can replace a
+sequence of if statements
+
+Q:
+
+ switch statements check a
+single value
+
+A:
+
+ The computer will start to run
+the code at the first matching
+case statement
+ It will continue to run until it
+reaches a break or gets to the
+end of the switch statement
+ Check that you've included
+breaks in the right place otherwise your switches will be
+buggy.
+
+28   Chapter 1
+
+int val = 0;
+switch(card_name[0]) {
+case 'K':
+case 'Q':
+case 'J':
+val = 10;
+break;
+case 'A':
+val = 11;
+break;
+default:
+val = atoi(card_name);
+}
+
+Why would I use a switch
+statement instead of an if?
+
+Q:
+
+Does the switch statement have
+to check a variable? Can't it check a
+value.
+
+Q:
+
+A:
+Q:
+
+A:
+
+A:
+
+If you are performing multiple
+checks on the same variable then you
+might want to use a switch statement.
+What are the advantages of
+using a switch statement.
+
+There are several. Firstly: clarity. It
+is clear that an entire block of code is
+processing a single variable. That's not
+so obvious if you just have a sequence of
+if statements. Secondly, you can use fallthrough logic to re-use sections of code
+for different cases.
+
+Yes it can. The switch statement will
+simply check that two values are equal.
+Can I check strings in a switch
+statement.
+
+No - you can't use a switch
+statement to check a string of characters
+or any kind of array. The switch statement
+will only check a single value.
+
+getting started with c
+
+Sometimes once is not enough...
+
+2 cards???
+Oh crap...
+
+We've learned a lot about the C language, but there are still some
+things we need to cover. We've seen how to write programs for a lot
+of different situations, but there is one really fundamental thing that
+we haven't really look at yet. What if you want your program to do
+something again and again and again?
+
+Using while loops in C
+Loops are a special type of control statement. A control statement
+decides if a section of code will be run, but a loop statement decides
+how many times a piece of code will be run.
+The most basic kind of loop in C is the while loop. A while loop
+runs code over and over and over so long as some condition remains true.
+
+Checks the condition before run
+
+ning the body
+
+while (&lt;some condition&gt;) {
+
+The body is between }
+the braces.
+
+... /* Do something here */
+
+If you only have one line in theces.
+body, you don't need the bra
+
+When it gets to the end of the body, the computer
+checks if the loop-condition is still true. If it is,
+the body code runs again.
+
+But what if you need to stop looping
+somewhere inside the loop body?
+
+while (more_balls)
+
+keep_juggling();
+
+you are here 4   29
+
+skip to the loop
+
+You use break to breakout...
+A while loop checks the condition before it runs the loop body. But
+what if somewhere inside the code you decide that you don't need to
+run the loop any more?
+Fortunately there's a way of skipping out of the loop immediately we can use the break statement.
+while(feeling_hungry) {
+eat_cake();
+
+if (feeling_queasy) {
+
+The break
+statement is
+used to break
+out of loops
+and also inside
+switch statements.
+Be careful that you know what
+you're breaking out of when
+you're breaking out.
+
+/* Break out of the while loop */
+
+}
+}
+
+break;
+
+drink_coffee();
+
+&quot;break&quot; skips out of
+the loop immediately.
+
+A break statement will break you straight out of the current
+loop, skipping whatever follows it in the loop body. breaks can
+be useful as they're sometimes the simplest and best way to end a
+loop. But you might want to avoid using too many because they
+can make the code a little harder to read.
+
+,,,and continue to continue
+If you want to skip the rest of the loop body and go back to the
+start of the loop, then the continue statement is your friend:
+while(feeling_hungry) {
+
+if (not_lunch_yet) {
+
+/* Go back to the loop condition */
+
+}
+}
+
+continue;
+
+&quot;continue&quot; takes you back
+to the start of the loop.
+
+eat_cake();
+
+Let's test out your new-found loop-mojo.
+
+30   Chapter 1
+
+Tales from
+the Crypt
+breaks don't break if
+statements
+On January 15th, 1990 AT&amp;T's
+long distance telephone system
+crashed and 60,000 people lost
+their phone service. The cause?
+A developer working on the C
+code used in the exchanges
+tried to use a break to break out
+of an if statement. But breaks
+don't break out of ifs. Instead
+the program skipped an entire
+section of code and introduced
+a bug that interrupted 70 million
+phone calls over 9 hours...
+
+getting started with c
+
+Mixed
+Messages
+
+A short C program is listed below. One block of the program is missing. Your
+challenge is to match the candidate block of code (on the left), with the output
+that you'd see if the block were inserted. Not all of the lines of output will be
+used, and some of the lines of output might be used more than once. Draw lines
+connecting the candidate blocks of code with their matching command-line output.
+
+#include &lt;stdio.h&gt;
+int main()
+{
+int x = 0;
+int y = 0;
+while (x &lt; 5) {
+
+Candidate code goes here.
+
+printf(&quot;%i%i &quot;, x, y);
+x = x + 1;
+
+}
+Candidates:
+
+Match each
+candidate with
+one of the
+possible outputs.
+
+}
+return 0;
+
+Possible output:
+
+y = x - y;
+
+22 46
+
+y = y + x;
+
+11 34 59
+
+y = y + 2;
+if (y &gt; 4)
+y = y - 1;
+
+02 14 26 38
+
+x = x + 1;
+y = y + x;
+if (y &lt; 5) {
+x = x + 1;
+if (y &lt; 3)
+x = x - 1;
+}
+y = y + 2;
+
+02 14 36 48
+00 11 21 32 42
+11 21 32 42 53
+00 11 23 36 410
+02 14 25 36 47
+you are here 4   31
+
+messages unmixed
+
+A short C program is listed below. One block of the program is missing. Your
+challenge is to match the candidate block of code (on the left), with the output
+that you'd see if the block were inserted. Not all of the lines of output will be
+used, and some of the lines of output might be used more than once. Draw lines
+connecting the candidate blocks of code with their matching command-line output.
+
+Mixed
+Messages
+Solution
+
+#include &lt;stdio.h&gt;
+int main()
+{
+int x = 0;
+int y = 0;
+while (x &lt; 5) {
+
+Candidate code goes here.
+
+printf(&quot;%i%i &quot;, x, y);
+x = x + 1;
+
+}
+Candidates:
+
+}
+return 0;
+
+Possible output:
+
+y = x - y;
+
+22 46
+
+y = y + x;
+
+11 34 59
+
+y = y + 2;
+if (y &gt; 4)
+y = y - 1;
+
+02 14 26 38
+
+x = x + 1;
+y = y + x;
+if (y &lt; 5) {
+x = x + 1;
+if (y &lt; 3)
+x = x - 1;
+}
+y = y + 2;
+
+32   Chapter 1
+
+02 14 36 48
+00 11 21 32 42
+11 21 32 42 53
+00 11 23 36 410
+02 14 25 36 47
+
+getting started with c
+
+Now that you know how to create while loops, modify the program to keep a running count
+of the card game. Display the count after each card and end the program if the player types 'Q'.
+Display an error message if the player enters types a bad card value like 11 or 24.
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+int main()
+{
+You need
+char card_name[3];
+int count = 0;
+while (
+puts(&quot;Enter the card_name: &quot;);
+scanf(&quot;%2s&quot;, card_name);
+int val = 0;
+switch(card_name[0]) {
+case 'K':
+case 'Q':
+case 'J':
+val = 10;
+break;
+case 'A':
+val = 11;
+break;
+What will you do here?
+case 'X':
+
+You need display an error if the
+val is not in the range 1 to 10.
+You should also skip the rest of
+the loop body and try again.
+
+to stop if they enter Q.
+) {
+
+default:
+val = atoi(card_name);
+
+}
+if ((val &gt; 2) &amp;&amp; (val &lt; 7)) {
+count++;
+} else if ((val &gt; 9) &amp;&amp; (val &lt; 11)) {
+count--;
+}
+printf(&quot;Current count: %i\n&quot;, count);
+
+}
+
+}
+return 0;
+
+you are here 4   33
+
+running count
+
+Now that you know how to create while loops, modify the program to keep a running count
+of the card game. Display the count after each card and end the program if the player types 'Q'.
+Display an error message if the player enters types a bad card value like 11 or 24.
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+int main()
+{
+char card_name[3];
+We need to check if the first character was a 'Q'.
+int count = 0;
+while ( card_name[0] != 'X'
+) {
+puts(&quot;Enter the card_name: &quot;);
+scanf(&quot;%2s&quot;, card_name);
+int val = 0;
+switch(card_name[0]) {
+case 'K':
+case 'Q':
+case 'J':
+val = 10;
+break;
+case 'A':
+val = 11;
+use we're inside
+break wouldn't break us out of the loop,tobeca
+break;
+back and check
+go
+a switch statement. We need a continue
+case 'X':
+
+continue;
+
+This is just one way of
+writing this condition.
+
+the loop condition again.
+
+default:
+val = atoi(card_name);
+
+continue here
+We need anothetr to keep looping.
+because we wan
+
+if ((val &lt; 1) || (val &gt; 10)) {
+puts(&quot;I don't understand that value!&quot;);
+continue;
+}
+
+}
+if ((val &gt; 2) &amp;&amp; (val &lt; 7)) {
+count++;
+} else if ((val &gt; 9) &amp;&amp; (val &lt; 11)) {
+count--;
+}
+printf(&quot;Current count: %i\n&quot;, count);
+
+}
+34   Chapter 1
+
+}
+return 0;
+
+getting started with c
+
+Test Drive
+Now the card counting program is finished, it's time to take it for a
+spin. What do you think? Will it work?
+
+This will compile
+and run the
+program.
+
+We now check
+if it looks
+like a correct
+card value.
+
+The count is
+increasing!
+
+Remember - you don't need
+&quot;./&quot; if you're on Windows.
+
+File Edit Window Help GoneLoopy
+
+&gt; gcc card_counter.c -o card_counter &amp;&amp; ./card_counter
+Enter the card_name:
+4
+Current count: 1
+Enter the card_name:
+K
+Current count: 0
+Enter the card_name:
+3
+Current count: 1
+Enter the card_name:
+5
+Current count: 2
+Enter the card_name:
+23
+I don't understand that value!
+Enter the card_name:
+6
+Current count: 3
+Enter the card_name:
+5
+Current count: 4
+Enter the card_name:
+3
+Current count: 5
+By betting big when
+Enter the card_name:
+the count was high - I
+X
+made a fortune!
+
+The card counting program works!
+You've completed your first C program. By using the power of C
+statements, loops and conditions you've created a full functioning card
+counter.
+Great job!
+
+you are here 4   35
+
+Disclaimer: Using a computer for card-counting is illegal in a lot of
+states, and those casino guys can get kinda gnarly. So don't do it, OK?
+
+c toolbox
+
+CHAPTER 1
+
+Your C Toolbox
+You’ve got Chapter 1 under
+your belt and now you’ve
+added C basics to your tool box.
+For a complete list of tooltips in the
+book, see Appendix X.
+
+Simple
+statements
+are
+commands
+
+Block
+statements are
+surrounded by
+{ and }
+if statements
+run code if
+something is
+true
+
+des
+#include inclu
+external code
+for things
+like input and
+output
+
+36   Chapter 1
+
+Every
+program
+needs a
+function main
+
+o
+You need t r C
+u
+o
+compile y fore
+program be
+you run it
+
+You can use th
+&amp;&amp; operator on e
+the command
+to only run yo line
+program if it ur
+compiles
+Your source fil
+s
+e
+s
+-o specifie t
+should have a
+u
+p
+the out
+name ending
+file
+in &quot;.c&quot;
+
+You can combine
+conditions
+together with
+&amp;&amp; and ||
+gcc is the
+most popular
+C compiler
+
+ents
+switch statem eck
+efficiently ch lues
+for multiple va
+of a variable
+
+2 memory and pointers
+
+What are you
+pointing at?
+...and of course,
+Mommy never lets me
+stay out after 6pm.
+
+Thank heavens my
+boyfriend variable isn't
+in read-only memory.
+
+If want to kick butt with C, you need to understand how C
+handles memory.
+The C language gives you a lot more control over how your program uses the computer’s
+memory. In this chapter, you’ll strip back the covers and see exactly what happens when
+you read and write variables. You’ll learn how arrays work, how to avoid some nasty
+memory SNAFUs, and most of all, you’ll see how mastering pointers and memory
+addressing is key to becoming a kick-ass C programmer.
+
+this is a new chapter   37
+
+taking stock
+
+The Head First Lounge has a new champagne bar
+Things have always been pretty swinging down in the Head First Lounge.
+But the guys are cracking open a whole new crate of fun with the Head
+First Lounge Champagne Bar.
+Thing is, this has given the guys a little problem...
+
+Sometimes we kind of lose track of the
+champagne we have in stock. It’s hard
+to keep count when you’re tending bar
+and dancing the merengue, Baby!
+
+In order to prevent the guys running out of stock, they need a
+stock-taking program. It’s a little like some of the code you’ve
+written so far. Here’s what the program needs to do:
+
+We’ll start with 30 bottles
+- that’s about 180 glasses
+While there’s still some fizz:
+
+Display the current stock
+Enter the number of glasses
+ordered
+Adjust the stock
+Then just go round again
+
+38   Chapter 2
+
+memory and pointers
+
+Code Magnets
+
+The guys started to write the code on the fridge door. Unfortunately they discovered
+some tequila inside the fridge, the magnets got a little mixed up. Now the program
+no longer works. See if you can reassemble the magnets and get the program
+working again.
+
+#include &lt;stdio.h&gt;
+
+#include &lt;stdlib.h&gt;
+
+int main()
+
+{
+
+int stock = 180;
+
+char order_string[3];
+int order;
+
+while(stock &gt; 0) {
+printf(
+
+,
+
+scanf(
+
+,
+
+);
+
+order = atoi(
+stock =
+
+}
+
+);
+
+);
+-
+
+;
+
+printf(&quot;You ordered %i glasses\n&quot;,
+
+);
+
+puts(&quot;We’re out of stock, baby!&quot;);
+}
+
+return 0;
+
+&quot;%i glasses left\n&quot;
+
+stock
+order_stri
+ng
+
+&quot;%2s&quot;
+
+order
+
+order
+
+stock
+
+you are here 4   39
+
+magnets unmixed
+
+Code Magnets Solution
+
+The guys started to write the code on the fridge door. Unfortunately they discovered
+some tequila inside the fridge, the magnets got a little mixed up. Now the program
+no longer works. See if you can reassemble the magnets and get the program
+working again.
+
+#include &lt;stdio.h&gt;
+
+#include &lt;stdlib.h&gt;
+
+int main()
+
+{
+
+ck.
+We begin with 180 glasses in sto
+This string will allow use to enter
+char order_string[3];
+a number of up to 2 digits.
+int order;
+int stock = 180;
+
+while(stock &gt; 0) {
+printf(
+
+Read a 2-character
+string for the order.
+
+scanf(
+
+&quot;%i glasses left\n&quot;
+&quot;%2s&quot;
+
+,
+
+order = atoi(
+
+Convert that string into
+a number called 'order'.
+
+stock =
+
+}
+
+stock
+
+,
+
+order_stri
+ng
+order_stri
+ng
+
+-
+
+order
+
+stock
+
+);
+
+Display the remaining
+glasses in stock.
+
+);
+);
+;
+
+Subtract order from the stock.
+
+printf(&quot;You ordered %i glasses\n&quot;,
+
+order
+
+);
+
+puts(&quot;We’re out of stock, baby!&quot;);
+}
+
+40   Chapter 2
+
+return 0;
+
+Once we run out of champagne, break the bad news.
+
+chapter title here
+
+Test Drive
+OK - it's time to compile the code and take it for a test drive.
+
+We begin by
+compiling the code.
+
+This is the initial stock.
+Every time we enter
+an order...
+...the stock goes down...
+...until...
+
+...chug, chug, chug...
+Bummer.
+
+File Edit Window Help Hic
+
+&gt; gcc champagne.c -o champagne &amp;&amp; ./champagne
+180 glasses left
+20
+You ordered 20 glasses
+160 glasses left
+10
+You ordered 10 glasses
+150 glasses left
+60
+You ordered 60 glasses
+90 glasses left
+90
+You ordered 90 glasses
+We're out of stock, baby!
+&gt;
+
+This will run
+the program
+after
+compiling it.
+
+Great news!
+It looks like the program works. It takes the champagne orders one
+at a time, and once an order uses up all of the remaining glasses, it
+tells the bar tender.
+
+Wow, this will be really useful. We'll be
+able to order up some more from the cellar
+as soon as we run out. Just in time for the
+Friends of Italian Opera party tonight!
+
+Let's go to the party!
+Not a moment too soon! Some of these Italian Opera buffs
+can turn kinda nasty if they can't get a drink.
+
+you are here 4   41
+
+a bug in the glasses
+
+Then someone ordered 100 glasses...
+Everything was going well until....
+
+Suddenly there was no more
+champagne! Next thing I know, this
+big opera buff gets angry... it all goes
+dark... and I wake up in the infirmary.
+
+It looks like there's a bug in the code. Somewhere. Speaking
+to the guys, and assembling the events from the police
+reports, it looks like the program did something like this:
+
+The program started OK
+
+.
+
+The first few orders went fine.
+There were 100 glasses left
+when someoneone ordered 100.
+But why did the order
+only go down by 10?
+And what's this extra order for
+&quot;0&quot;??? No one ordered 0...!?!?
+
+This was the big guy's order - but by
+this time all the drink had gone. The guys
+behind the bar entered a world of pain...
+
+File Edit Window Help Hic
+
+&gt; ./champagne
+180 glasses left
+20
+You ordered 20 glasses
+160 glasses left
+60
+You ordered 60 glasses
+100 glasses left
+100
+You ordered 10 glasses
+90 glasses left
+You ordered 0 glasses
+90 glasses left
+40
+
+Something very strange was happening in the program. The stock
+level had dropped to 100 glasses at just the moment that someone
+ordered 100 glasses. That should have reduced the stock level to 0...
+but instead it only reduced it by 10.
+
+Can you figure out what happened? It looks like the problems started when
+the program thought an order for 100 was an order for only 10 glasses.
+What do you think happened?
+42   Chapter 2
+
+memory and pointers
+
+Let's see what's happening
+Let's take a little closer look at that scanf() line:
+char order_string[3];
+
+...
+
+We're going to enter a 2-character
+string into order_string.
+
+scanf(&quot;%2s&quot;, order_string);
+
+order_string is 2 characters + the string terminator.
+
+scanf() reads the characters that the user enters, and then
+stores them into a the 3-character string called order_string.
+Remember - strings always need an extra termination character, so a
+3-character array is used to store 2 characters.
+To make sure that the user doesn't enter more characters than the
+array can hold, we pass the scanf() function a format string with
+the value %2s - which means only accept two characters.
+
+A 2-character string
+fits just fine.
+
+90
+9
+
+0 \0
+Only the first
+two characters
+fit in the array
+when scanf() is
+called.
+
+But what if we enter more than two characters?
+
+100
+
+When someone enters a value with more than two characters
+such as 100, we have a problem. scanf() has been told to only
+accept a maximum of two characters. It only puts the first two
+characters in the order_string array.
+And that's the problem
+Even though the user entered &quot;100&quot;, the order_string array
+was set to &quot;10&quot;. But what did scanf() do with the final &quot;0&quot; in
+&quot;100&quot;? Well - it saved it up until the next time it was called and then
+it put it into the order_string array.
+That's why the stock was adjusted by 10 instead of 100, and why
+there was that mysterious order for &quot;0&quot; - even though nothing was
+typed in the second time.
+So the problem is caused because the order_string array only
+allows the user to enter up to 2-characters in it. Question is - how do
+we fix it?
+
+1
+
+0 \0
+
+0
+0 \0
+
+The remaining
+character gets
+stored the next
+time scanf() is
+called.
+
+you are here 4   43
+
+establishing order
+
+Cubicle conversation
+I really don't see
+what the problem is.
+
+Frank: Well the string is not long enough to accept a number over
+99.
+Joe: No - what I mean is, I don't see why that is such an issue. If they
+get an order for more than 99 glasses, can't they just split it?
+Jill: You mean if the is 140, then have two orders of 80 and 60?
+Joe: Yeah - exactly.
+Frank: That's changing the way the program works. I think the
+users will want to enter the real order number. But it's no problem.
+We just need to make the array one character longer. That means
+they can enter values up to 999.
+Jill: Sure - that will fix it in this case. But what about generally?
+What if some other program needs people to enter numbers with 6
+digits, 7 digits or whatever.
+Frank: That's a good point. It would be nice if there was a way to
+say &quot;Just get the user to enter an integer&quot;
+Joe: Well we could if we knew what values an int variable accepted.
+That's where the value will be stored after all.
+
+Frank
+
+Jill
+
+Joe
+
+Jill: Oh yeah - in that order variable.
+Frank: Well to do that we'd just need to know how big a number we
+can store in an int variable.
+Jill: That shouldn't be too hard to figure out. So we could fix the
+program for now by just making the order_string array one
+character longer, like this:
+char order_string[4];
+...
+
+scanf(&quot;%3i&quot;, order_string);
+But if we want a fix that will work for all programs, we could size the
+string so that it can cope with any number that will fit into an int
+variable. We could do that if we knew how big int numbers can be.
+44   Chapter 2
+
+chapter title here
+
+So how big is an int?
+Remember we said that C was a little more low-level than most other
+languages? When you program in C, you have to think a little more about the
+hardware you are using than if you were using a language, say, Java. And the
+hardware is really important because the maximum size of an integer
+depends upon the machine you are using.
+On some machines, an integer is stored as 4 bytes. That will let you store
+numbers between the values:
+10000000 00000000 00000000 00000000
+and
+
+There are 4 bytes - which is 32 bits.
+
+01111111 11111111 11111111 11111111
+
+That's -2147483648.
+
+		Don't worry
+if you don't
+know a lot
+about binary
+numbers.
+You just need to know that the
+more bits you can use to store
+a number, then the greater the
+range of numbers you can store.
+
+These numbers are in binary.
+
+That's +2147483647.
+
+The problem is that if your machine uses 16-bits for an int or 64-bits or even
+128-bits, then you might not know exactly what range of numbers you can use.
+Fortunately C gives you a little help. First of all, you can use the sizeof()
+operator to check how many bytes an integer takes up. Secondly, you can look
+at special values called INT_MIN and INT_MAX to find out what range of
+numbers you can use:
+#include &lt;stdio.h&gt;
+#include &lt;limits.h&gt;
+int main()
+{
+printf(this
+
+You need limits.h to get the INT_MIN and INT_MAX values.
+
+Are you kidding me? We just want
+someone to enter a number from the
+command line and then store it in an int.
+I don't care how big the string needs
+to be. Just give me an int!
+
+machine an int takes up
+printf(&quot;And ints can
+}
+
+That's a good point - we actually want an
+int value and we shouldn't have to get too
+hung up on the number of characters the
+user types in.
+Fortunately the scanf() function has a way of letting
+the user enter ints directly - without needing to say how
+many characters it might take.
+you are here 4   45
+
+accept an integer
+
+scanf() lets you enter numbers directly
+So far we've only used scanf() to enter string values. But it can do so
+much more. Remember that the first value we pass to scanf() is a
+format string that says what kind of data the user will be entering. By
+changing the format string, we can tell scanf() to accept some other
+data type, like an integer.
+
+I don't care about the
+details. Just gimme an
+int value.
+
+I'll just ask the user for a
+three character string. Three
+characters and that's my limit.
+
+The format string tells scanf()
+what to expect and accept.
+
+scanf(&quot;%i&quot;, ...)
+
+scanf(&quot;%3s&quot;, ...)
+
+That means that all of that complex information about how long integers
+are, how many characters the user might enter on the command and all
+that other stuff is dealt with by scanf().
+So let's say we want to enter a value into a variable called cat:
+
+For an integer
+you need to put
+a &quot;&amp;&quot; at the
+front of the
+variable name.
+
+I don't like the
+way this is heading...
+
+int cat;
+
+puts(&quot;Enter the number of ways to skin a cat&quot;);
+
+scanf(&quot;%i&quot;, &amp;cat);
+
+printf(&quot;Number of ways = %i&quot;, cat);
+
+Once the scanf() function has been called, the cat variable will set
+to the number the user entered. You can see that this is a lot simpler
+than storing things in a string first. We don't need to know how many
+characters to deal with. We don't have to check ranges, or think about
+binary numbers or worry about what machine we are running on, or any
+of that stuff.
+
+The user types
+in 146...
+
+46   Chapter 2
+
+146
+
+146
+cat
+
+...and the cat variable
+is set to 146.
+
+chapter title here
+
+Now that you know how to enter numbers directly into int variables, take another look at the
+program and see if you can fix it to avoid the ordering problem.
+
+Use a pencil to modify the code.
+
+#include &lt;stdio.h&gt;
+
+#include &lt;stdlib.h&gt;
+
+int main()
+
+{
+
+int stock = 180;
+
+char order_string[3];
+int order;
+
+while(stock &gt; 0) {
+
+printf(&quot;%i glasses left\n&quot;, stock);
+scanf(&quot;%2s&quot;, order_string);
+order = atoi(order_string);
+stock = stock - order;
+
+}
+
+printf(&quot;You ordered %i glasses\n&quot;, order);
+
+puts(&quot;We're out of stock, baby!&quot;);
+}
+
+return 0;
+
+So - do you think you
+could fix my program now?
+It's another Opera night
+tonight and I'm on the bar...
+
+you are here 4   47
+
+order established
+
+Now that you know how to enter numbers directly into int variables, take another look at the
+program and see if you can fix it to avoid the ordering problem.
+#include &lt;stdio.h&gt;
+
+#include &lt;stdlib.h&gt;
+
+int main()
+
+{
+
+int stock = 180;
+
+char order_string[3];
+
+We no longer need the order_string.
+
+int order;
+
+while(stock &gt; 0) {
+
+printf(&quot;%i glasses left\n&quot;, stock);
+scanf(&quot;%2s&quot;, order_string);
+order = atoi(order_string);
+
+scanf(&quot;%i&quot;, &amp;order);
+
+stock = stock - order;
+}
+
+These two lines read the string,
+so they can go.
+
+Now we just need this line to read the
+user input direct into the order variable.
+
+printf(&quot;You ordered %i glasses\n&quot;, order);
+
+puts(&quot;We're out of stock, baby!&quot;);
+}
+
+return 0;
+
+Q:
+
+So integers are different size on
+different machines? Why's that?
+
+A: int
+
+s are used for quick general
+purpose calculations. In order to make the
+calculations run as quickly as possible, C
+uses the same kinds of numbers that the
+processor uses.
+
+Q:
+
+Does that really make a big
+difference?
+
+A:
+
+It can. If numbers are the same size
+as the registers in a central processing unit,
+then it might be possible to avoid some
+slow processes, like looking up values from
+memory.
+
+Q:
+
+What's the down side to have
+
+ints of different sizes.
+
+A:
+Q:
+
+Portability can be a problem.
+
+So what I really want to use an
+integer of a particular size. Can I do
+that?
+
+A:
+&lt;inttypes.h&gt;
+
+Yes. If you include the
+file, then you will
+have types like int8_t for 8 bits and
+int16_t for 16 bits and so on.
+
+48   Chapter 2
+
+memory and pointers
+
+Test Drive
+So let's take the fixed code out on the road. And we already have a great
+test case. If we run the exact same orders, we can see if we've fixed the bug.
+File Edit Window Help Hic
+
+When we entered 100
+before, the code thought
+we'd entered 10.
+This time it knows it's 100.
+
+&gt; ./champagne
+180 glasses left
+20
+You ordered 20 glasses
+160 glasses left
+60
+You ordered 60 glasses
+100 glasses left
+100
+You ordered 100 glasses
+We're out of stock, baby!
+
+It works!
+By using the extra formats scanf() supports we are able to accept
+different data types straight from the command line. Not only is our
+code shorter and easier to read and more understandable...
+
+Hey, not so fast! Understandable - you say? Understandable??
+Oh sure the code's shorter and it's nice that I don't have to get
+bogged down in a lot of the details. But - you're missing something...
+I don't understand why we have to put a &quot;&amp;&quot; at the front of
+order?!?! Why do we do that? Did I miss a memo or something?
+
+Use the &quot;&amp;&quot; operator
+and the &quot;%i&quot; format
+to enter ints directly
+with scanf.
+
+There's a very good reason why we need to use the &amp;
+symbol when we use scanf for something other than
+a string.
+It's because scanf() only accepts pointers to data.
+Pointers can be one of the most hardest things to learn when you first
+start using C. To see what a pointer is and exactly how they work, we
+need to dig a little deeper into how scanf works for numbers and arrays.
+you are here 4   49
+
+scan for numbers
+
+Using scanf For Numbers Up Close
+To see how scanf() can read integers from the command line, let's look at the
+following piece of code in more detail:
+
+int x;
+
+scanf(&quot;%i&quot;, &amp;x);
+
+printf(&quot;You entered the value %i\n&quot;, x);
+
+1
+
+2
+
+Create the storage.
+The first thing the code needs to do is create the x variable.
+What is a variable? It's really just a storage location. Let's
+imagine the machine allocates memory address 4,000,000 for
+the x variable. Whenever the program needs to know the value
+of x, it will just look at the contents of this memory address.
+
+4,000,000
+
+It's at address
+4,000,000.
+
+scanf looks at the format string.
+When the scanf() function starts to run it will look at the format string
+it was given and decide how it need to treat the input from the user.
+
+This is the format string.
+
+This will be
+where we store
+the x variable.
+
+Hmm.... Looks like the
+user is going to enter
+the digits of an integer.
+
+scanf(&quot;%i&quot;, ...)
+%i means the input will
+be treated as an int.
+3
+
+scanf finds out where to store the result.
+But what will happen when the user enters a number? The scanf() function will
+need to store the resulting int somewhere in memory. The second parameter - &amp;x - is
+the value of the address of x. The &amp;-operator finds the memory used by a variable so &amp;x has the value 4,000,000 because that is the memory address where x is stored.
+So when I find out
+the number I need to
+store it at location
+4,000,000.
+
+50   Chapter 2
+
+&amp;x == the address
+where x is stored.
+
+memory and pointers
+
+4
+
+The user types in a number at the command line.
+The scanf() function will now wait until the user has entered some
+characters at the command line and hit [RETURN].
+
+The user types in some characters at the command line.
+
+1234
+
+5
+
+scanf stores the number in memory.
+Once the scanf() function has the characters, it then needs to convert them
+into a integer and then store them in memory:
+
+These are the characters that
+were entered by the user.
+
+The computer converts
+them to 1234.
+
+1,2,3,4
+
+1234
+
+1234
+4,000,000
+
+6
+
+The number 1234
+is stored at
+memory location
+4,000,000.
+
+printf displays the result.
+The printf() function then displays the result. printf is passed two values:
+* The format string &quot;You entered the value %i\n&quot;
+* The value of x
+Remember - when the computer sees the variable x it will just look at the
+contents of memory location 4,000,000.
+
+Geek Bits
+
+OK - so I have to print
+this formatted string
+with the value.... 1234.
+
+File Edit Window Help
+
+You entered the value 1234
+
+The variable x now
+has the value 1234.
+
+But how come we didn't have to use the
+&amp;-operator when we asked scanf() to read a
+string for us?
+
+The address of a variable
+is also known as a pointer
+to the variable. That's
+because it points to the
+variable in memory in the
+same way that your home
+address points to you.
+Pointers are used a lot of C
+programs and they can be
+very confusing when you
+first start to program in C.
+you are here 4   51
+
+scan for text
+
+Using scanf For Text Up Close
+To see how scanf() works with text, let's look at this example code:
+
+char username[9];
+
+scanf(&quot;%8s&quot;, username);
+
+printf(&quot;Your username is '%s'&quot;, username);
+
+1
+
+Allocate space for a new array.
+The computer will begin by allocating a section of memory for the array.
+Let's say it starts to allocate space from address 3,750,000. It can't just
+allocate a single memory location because it needs to leave space for 9
+characters in the array, so the computer will actually memory from location
+3,750,000 to 3,750,008.
+
+3,
+75
+3, 0,0
+75 0
+3, 0,0 0
+75 0
+3, 0,0 1
+75 0
+3, 0,0 2
+75 0
+3, 0,0 3
+75 0
+3, 0,0 4
+75 0
+3, 0,0 5
+75 0
+3, 0,0 6
+75 0
+0, 7
+00
+8
+
+This will be where the
+first character in the
+array is stored.
+
+2
+
+This is where the
+last character in
+the array is stored.
+
+Create a new variable called &quot;username&quot;.
+But the computer isn't done with that first line of code yet. It's
+allocated space for the array, but it hasn't created the variable yet. Now
+you might think the array is the variable, but it's not. The username
+variable will actually be created at an entirely separate location.
+But if the array variable is separate from the array itself, then what
+will value of the variable be? Well - the username variable will
+actually contain the address of the first element of the array
+
+3
+
+The scanf() function starts running.
+The scanf() function is now called. It's passed two things:
+
+The format
+string &quot;%8s&quot;.
+
+scanf(&quot;%8s&quot;, username);
+
+The value of the username variable.
+This is an address.
+
+The format string will tell the computer that it will need to
+read a string of up to 8 characters. And the username
+variable will have the value 3,750,000. This is the address
+where scanf() will start to store the string.
+We're passing username and not &amp;username because
+the username variable already contains an address.
+52   Chapter 2
+
+This is the
+username variable.
+The username
+3750000
+variable is quite
+separate from the
+username
+array it points at.
+The computer will
+be able to track
+down the array
+by looking at the
+The username
+address stored in
+variable will be
+username.
+stored at some
+other address.
+
+So I need to
+read a string and
+store it starting
+at location
+3,750,000.
+
+memory and pointers
+
+4
+
+Read the characters from the command line.
+The scanf() function will now wait for the user to enter the some characters at
+the keyboard and hit [RETURN].
+
+The user types in characters at the command line.
+
+Geronimo
+5
+
+scanf stores the number in memory.
+Now that scanf has read the characters from the command line it will store
+them away in memory, beginning at location 3,750,000.
+
+So I put a 'G'
+at 3,750,000, an
+'e' at 3,750,001...
+
+3,
+75
+3, 0,0
+75 0
+3, 0,0 0
+75 0
+3, 0,0 1
+75 0
+3, 0,0 2
+75 0
+3, 0,0 3
+75 0
+3, 0,0 4
+75 0
+3, 0,0 5
+75 0
+3, 0,0 6
+75 0
+0, 7
+00
+8
+
+G e r o n i m o \0
+
+6
+
+printf displays the result.
+Now the printf function is called. It's also passed two things:
+
+The format string.
+
+The address of the array.
+
+printf(&quot;Your comment was '%s'&quot;, comment);
+Because printf knows that it is going to print a string, it doesn't treat the second
+parameter as a simple number. Instead it will treat the second parameter as
+starting memory address.
+I'll print the contents of
+3,750,000 - that's a 'G'. At
+3,750,001 there's an 'e'....
+
+File Edit Window Help
+
+Your username is Geronimo
+
+So even though scanf() looks different for numbers
+andtext, in both cases the second parameter needs to
+be a pointer - that is, it needs to be an address.
+
+		Don't worry
+if pointers
+seem a little
+strange when
+you first
+meet them.
+Pointers are one of the trickiest
+things in C, but there's no
+rush. Spend a bit of time going
+through these past few pages and
+make sure you're comfortable
+with pointers before you continue.
+you are here 4   53
+
+scan for text beyond whitespace
+
+Using scanf For Text Way Up Close
+When you're reading text with the scanf() function,
+there's one thing you need to be careful about: by
+default it stops at whitespace.
+Let's say someone changed the previous example code
+to allow for longer strings to be entered:
+
+This will allow for a longer string.
+scanf(&quot;%50s&quot;, username);
+
+Great - now the user can
+enter their full name.
+
+The code will work great... right up until someone enters a
+string that contains a space.
+
+The user types in characters at
+the command line, including a space.
+
+Geronimo Schwartz
+If that happens the scanf() function will do something that's
+kinda annoying:
+So that's a G, e, r, o,
+n, i, m, o... and... Oh - a
+space. The piece of text
+must have ended.
+
+That's right - even though we told the computer to accept up to
+50 characters, it will stop as soon as it hits some whitespace.
+Now the good news is that scanf doesn't throw away the rest
+of the text that it read from the keyboard. It buffers it. That
+means if you call the scanf() function a second time, it won't
+need to ask the user for more text, it will simply carry on
+reading where it left off.
+scanf(&quot;%50s&quot;, username);
+scanf(&quot;%50s&quot;, username2);
+54   Chapter 2
+
+This will read the text &quot;Geronimo&quot;.
+If we call it a second time, username2
+will be set to &quot;Schwartz&quot;.
+
+memory and pointers
+
+You can even shorten the code to enter several strings at once by
+using a pattern like this:
+scanf(&quot;%50s %50s&quot;, first_name, last_name);
+
+Both scanf() and printf()
+allow you to pass as many
+variables as you like to them.
+
+printf(&quot;First name: %s\nLast name: %s\n&quot;, first_name, last_name);
+
+The user can now enter
+two strings at once...
+...and scanf stores
+them separately.
+
+File Edit Window Help
+
+&gt; John Smith
+First name: John
+Last name: Smith
+
+OK - but what if you really really just want to enter a
+whole chunk of text, spaces and all?
+Well you could use scanf, using a regular expression. You
+can use a piece of code like this:
+scanf(&quot;%79[^\n]&quot;, line);
+
+This means &quot;Read everything that's not a NEWLINE&quot;
+
+This code will read </pre></div>                                                                    </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr style="height:60px">
+                    <td id="footer" valign="top">
+                        <div class="container-fluid">
+<!-- footer begin -->
+<div class="row">
+    <div class="col-md-12">
+        <div style="float:left; color:#888; font-size:13px;">
+            <span style="font-style:italic;">Free ebooks since 2009. <a style="margin:0 5px 0 20px" href="mailto:support@bookmail.org">support@bookmail.org</a></span>
+            <span style="margin:0 0 0 15px;"> <a href="/faq.php">FAQ</a></span>
+            <span style="margin:0 0 0 15px;"> <a href="/blog/">Blog</a></span>
+        </div>
+        <div style="float: right;" role="navigation">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/privacy.php">Privacy</a></li>
+                <li><a href="/dmca.php">DMCA</a></li>
+                <li class="dropup">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">English <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a onclick="setLanguage('en'); return false;" href="//en.b-ok.cc/book/1239881/240294">English</a></li><li><a onclick="setLanguage('ru'); return false;" href="//ru.b-ok.cc/book/1239881/240294">Русский</a></li><li><a onclick="setLanguage('ua'); return false;" href="//ua.b-ok.cc/book/1239881/240294">Українська</a></li><li><a onclick="setLanguage('pl'); return false;" href="//pl.b-ok.cc/book/1239881/240294">Polski</a></li><li><a onclick="setLanguage('it'); return false;" href="//it.b-ok.cc/book/1239881/240294">Italiano</a></li><li><a onclick="setLanguage('es'); return false;" href="//es.b-ok.cc/book/1239881/240294">Español</a></li><li><a onclick="setLanguage('zh'); return false;" href="//zh.b-ok.cc/book/1239881/240294">汉语</a></li><li><a onclick="setLanguage('id'); return false;" href="//id.b-ok.cc/book/1239881/240294">Bahasa Indonesia</a></li><li><a onclick="setLanguage('in'); return false;" href="//in.b-ok.cc/book/1239881/240294">हिन्दी</a></li><li><a onclick="setLanguage('pt'); return false;" href="//pt.b-ok.cc/book/1239881/240294">Português</a></li><li><a onclick="setLanguage('jp'); return false;" href="//jp.b-ok.cc/book/1239881/240294">日本語</a></li><li><a onclick="setLanguage('de'); return false;" href="//de.b-ok.cc/book/1239881/240294">Deutsch</a></li><li><a onclick="setLanguage('fr'); return false;" href="//fr.b-ok.cc/book/1239881/240294">Français</a></li><li><a onclick="setLanguage('th'); return false;" href="//th.b-ok.cc/book/1239881/240294">ภาษาไทย</a></li><li><a onclick="setLanguage('el'); return false;" href="//el.b-ok.cc/book/1239881/240294">ελληνικά </a></li><li><a onclick="setLanguage('ar'); return false;" href="//ar.b-ok.cc/book/1239881/240294">اللغة العربية</a></li>                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div></div>
+                    </td>
+                </tr>
+            </tbody></table>
+
+
+        <script type="text/javascript" src="/scripts/root.js?version=1x03"></script>
+        <script type="text/javascript" src="/ext/paginator3000/jquery.paginator.3000.js"></script>
+        <script>
+            if (typeof pagerOptions !== "undefined" && pagerOptions) {
+                $('div.paginator').paginator(pagerOptions);
+            }
+        </script>
+        <!-- ggAdditionalHtml -->
+        
+    <script>
+        var Config = {"currentLanguage":"en","L":{"90":"The file is located on an external resource","91":"It is a folder","92":"File from disk storage","93":"File is aviable by direct link","94":"Popular","95":"Limitation of downloading: no more than 2 files at same time","96":"Size","97":" Language","98":"Category","99":"Find all the author's book"}};
+    </script>
+    <!--LiveInternet counter--><script type="text/javascript">
+new Image().src = "//counter.yadro.ru/hit;bookzz?r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random();</script><!--/LiveInternet-->
+
+<iframe name="uploader" id="uploader" style="border:0px solid #ddd; width:90%; display:none;"></iframe>        <!-- /ggAdditionalHtml -->
+        <script src="/adhelper/helpers.js"></script><script src="/adhelper/jquert.jsRotate.js"></script>    </body>
+</html>

@@ -1,0 +1,4235 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>C: A Reference Manual (5th Edition) | Samuel P. Harbison, Guy L. Steele | download</title>
+<base href="/">
+
+                        <meta charset="utf-8">		                       
+                        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+                        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                        <meta name="viewport" content="width=device-width, initial-scale=1">
+                        <meta name="title" content="C: A Reference Manual (5th Edition) | Samuel P. Harbison, Guy L. Steele | download">
+			<meta name="description" content="C: A Reference Manual (5th Edition) | Samuel P. Harbison, Guy L. Steele | download | B–OK. Download books for free. Find books">
+			<meta name="robots" content="index,all">
+			<meta name="distribution" content="global">
+			<meta http-equiv="cache-control" content="no-cache">
+			<meta http-equiv="pragma" content="no-cache">
+
+                        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+                        <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+                        <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+                        <link rel="manifest" href="/manifest.json">
+                        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+                        <meta name="apple-mobile-web-app-title" content="Z-Library">
+                        <meta name="application-name" content="Z-Library">
+                        <meta name="theme-color" content="#ffffff">
+
+                        <meta name="propeller" content="49c350d528ba144cace841cac74260ab">
+	
+<!-- CSS SET -->
+<link rel="stylesheet" type="text/css" href="/css/bootstrap/css/bootstrap.min.css?version=0.142" >
+<link rel="stylesheet" type="text/css" href="/css/root.css?version=0.142" >
+<link rel="stylesheet" type="text/css" href="/adhelper/ah-style.css?version=0.142" >
+<link rel="stylesheet" type="text/css" href="/adhelper/animate.css?version=0.142" >
+<!-- JS SET --> 
+<script type="text/javascript" language="JavaScript" src="https://code.jquery.com/jquery-2.2.4.min.js?version=0.142"></script>
+<script type="text/javascript" language="JavaScript" src="/scripts/underscore.js?version=0.142"></script>
+<script type="text/javascript" language="JavaScript" src="/css/bootstrap/js/bootstrap.min.js?version=0.142"></script>
+<script type="text/javascript" language="JavaScript" src="/adhelper/advert.js?version=0.142"></script>
+<link REL="SHORTCUT ICON" HREF="/favicon.ico">
+        <link rel="search" type="application/opensearchdescription+xml" href="http://search.xml" title="Search for books in the library B-OK.org" />
+    </head>
+    <body style="margin:0px;padding:0px;" class="books/details">
+        
+        <table border="0" height="100%" width="100%" style="height:100%;" cellpadding="0" cellspacing="0"><tbody>
+                <tr style="height:10px;">
+                    <td>
+                        <div class="container-fluid">
+                            
+<div class="row">
+    <div class="col-md-12">
+        <div id="colorBoxes" class="darkShadow">
+            <ul>
+                <a href="/"><li style="background: #49afd0;">4,732,763 books</li></a>
+                <a href="http://booksc.xyz"><li style="background: #90a5a8;">74,620,210 articles</li></a>
+                <li style="background: #8ecd51;">for free</li>
+            </ul>
+        </div>
+
+
+
+        <div role="navigation" class="navbar-default" style="background-color: transparent;">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right" style="">
+                                            <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sign in <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://singlelogin.org?from=b-ok.cc">Login</a></li>
+                                <li><a href="https://singlelogin.org/registration.php">Registration</a></li>
+                            </ul>
+                        </li>
+                    
+                    <li>
+                        <a href="/howtodonate.php" style="color:#8EB46A;">Donate</a>                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span style="font-size: 120%;" class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-header">Books</li>
+                                                            <li><a href="/book-add.php">Add book</a></li>
+                                <li><a href="/categories">Categories</a></li>
+                                <li><a href="/popular.php">Most Popular</a></li>
+                                                            <li><a href="/recently.php">Recently Added</a></li>
+                                                            <li role="separator" class="divider"></li>
+                                <li class="dropdown-header">Z-Library Project</li>
+                                <li><a href="/blog/">Blog</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+
+
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="container" style="max-width: 1000px;padding-bottom: 40px;">
+                            <div class="row">
+                                <div class="col-md-12 itemFullText">
+                                    
+
+<style>
+    .adFixW iframe{
+        width:100%;
+    }
+</style>
+
+<div class="bcNav">
+    <a href="/" title="Ebook library B-OK.org">Main</a> <i></i>
+        C: A Reference Manual (5th Edition)</div>
+
+<div  itemscope  itemtype="http://schema.org/Book">
+    <div class="row cardBooks">
+        <div class="col-md-3"><a itemprop="image"  class="lightbox" href="//b-ok.cc/covers/books/fe/81/d8/fe81d808c24e1a0c0d479520db57cd86.jpg" style="background:#fff;padding:3px; display:block;float:left; border:1px solid #ccc;"><img style="font-size:0px; width:100%;" src="//b-ok.cc/covers/books/fe/81/d8/fe81d808c24e1a0c0d479520db57cd86.jpg" alt="Book cover C: A Reference Manual (5th Edition)"/></a></div>
+        <div class="col-md-9">
+            <h1 itemprop="name" style="color:#000;line-height: 140%;" class="moderatorPanelToggler">C: A Reference Manual (5th Edition)</h1>
+            <i><a  itemprop="author" class="color1" title="Find all the author's book" href="/g/Samuel P. Harbison">Samuel P. Harbison</a>, <a  itemprop="author" class="color1" title="Find all the author's book" href="/g/Guy L. Steele">Guy L. Steele</a></i>
+                        <div style="overflow:hidden; zoom:1; margin-top: 30px;">
+                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2002
+                </div>
+                <div class="bookProperty property_edition">
+                    <span>Edition:</span>
+                    5
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property_pages">
+                    <span>Pages:</span>
+                    560
+                </div>
+                <div class="bookProperty property_isbn 13">
+                    <span>ISBN 13:</span>
+                    9780130895929
+                </div>
+                <div class="bookProperty property_isbn">
+                    <span>ISBN:</span>
+                    013089592X
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 11.01 MB
+                </div></div>            </div>
+        </div>
+    </div>
+
+
+
+
+    <div style="margin:15px 0;">
+        <a class="btn btn-primary dlButton" href="/dl/865876/efe891" target="" rel="nofollow"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Download  (pdf, 11.01 MB)</a>                <a class="btn btn-default" href="ireader/865876" target="_blank" rel="nofollow">Read online</a>        <div class="btn-group" id="sendToEmailButtonBox">
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Send-to-Kindle or Email <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu"><li><a href="http://singlelogin.org?from=b-ok.cc" target="blank">Please login to your account first</a></li></ul>
+</div>
+        
+
+            </div>
+    <div class="cBox1" id="sentToEmailInfo" style="display:none;">The file will be sent to selected email address. It may takes up to 1-5 minutes before you received it.</div>
+    <div class="cBox1" id="sentToEmailInfoKindle" style="display:none;">The file will be sent to your Kindle account. It may takes up to 1-5 minutes before you received it.
+        <br/>Please note you've to add our email <b>mailer@bookmail.org</b> to approved e-mail addresses. <a target="blank" href="https://www.amazon.com/gp/help/customer/display.html/?ie=UTF8&amp;nodeId=201974240">Read more</a>.
+    </div>
+
+
+    
+        <script type="text/javascript">
+          $(document).ready(function($) {
+           
+            $.jsRotate({data: false, device_type: '-1', contentWrapper: '.itemFullText'});
+
+          });
+        </script>
+    <div id="converterCurrentStatusesBox" class="cBox1" style="display:none;"></div>
+
+
+
+
+</div>
+
+<script type="text/javascript" src="scripts/jquery.lightbox-0.5.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
+
+<script type="text/javascript">
+    var BOOK_ID = 865876;
+    $(function () {
+        // This, or...
+        $('a.lightbox').lightBox({
+            containerResizeSpeed: 1
+        }); // Select all links with lightbox class
+    });
+
+
+    // read more
+    $(function () {
+        if($('#bookDescriptionBox').height() > 300)
+        {
+            $('#bookDescriptionBox').css('overflow', 'hidden');
+            $('#bookDescriptionBox').css('height', '300px');
+            moreLink = '<div style="text-align:right; margin: 5px 0 0 0;"><a class="more" style="border-bottom:1px dashed;color:#49AFD0; cursor:pointer;text-decoration:none;">Read more → </a></div>';
+            $( moreLink ).insertAfter("#bookDescriptionBox");
+        }
+
+        $('.more').click(function(){
+            $('#bookDescriptionBox').css('height', 'auto');
+            $('#bookDescriptionBox').css('overflow', 'auto');
+            $(this).remove();
+        });
+    });
+
+
+
+    // converter links
+    $('.converterLink').click(function (e) {
+        var el = $(e.currentTarget);
+        $('#converterCurrentStatusesBox').show();
+        $('#converterCurrentStatusesBox').html('Refreshing..');
+
+
+
+        $.RPC('ConvertationTools::rpcConvert', {'book_id': $(this).data('book-id'), 'convertTo': $(this).data('convert-to')}).done(function (e) {
+            convertationStatusesAutoupdaterObserver();
+        }).fail(function (a, b) {
+            $('#converterCurrentStatusesBox').html('<span class="error">' + b.errors.message() + '</span>');
+        });
+    });
+
+    $('.sendToEmailButton').click(function () {
+        $.RPC('sendToKindle', {'book_id': $(this).data('id'), 'email': $(this).data('email')}).done(function (e) {
+            if (e.response.status) {
+                //alert('Sent to ' + e.response.email);
+            }
+        }).fail(function (a, b) {
+            $('#sentToEmailInfo').html(b.errors.message());
+            $('#sentToEmailInfoKindle').html(b.errors.message());
+        });
+
+        if ($(this).data('kindle'))
+        {
+            $('#sentToEmailInfoKindle').show('slow');
+        } else {
+            $('#sentToEmailInfo').show('slow');
+        }
+        $('#sendToEmailButtonBox').hide('slow');
+    });
+
+    //$('[data-toggle="tooltip"]').tooltip({'html': true});
+    $(window).on("load", function () {
+        $('[data-toggle="tooltip"]').tooltip({'html': true});
+        $('[data-autoopen="true"]').tooltip('show');
+    });
+
+    var convertationStatusesAutoupdaterRuned = false;
+    function convertationStatusesAutoupdaterObserver()
+    {
+        if (convertationStatusesAutoupdaterRuned)
+        {
+            return;
+        } else {
+            convertationStatusesAutoupdaterRuned = true;
+            convertationStatusesAutoupdater();
+        }
+    }
+
+    function convertationStatusesAutoupdater()
+    {
+        rpcUrl = '/rpc/ConvertationTools::getCurrentJobsStatuses?clear=1&gg_text_mode=1&bookId=' + BOOK_ID;
+        $.ajaxSetup({cache: false}); // This part addresses an IE bug.  without it, IE will only load the first number and will never refresh
+
+
+        $.ajax({
+            url: rpcUrl,
+            datatype: 'html'
+        }).done(function (response) {
+            $('#converterCurrentStatusesBox').html(response);
+            if (response.search('progress') === -1)
+            {
+                convertationStatusesAutoupdaterRuned = false;
+                return;
+            }
+            setTimeout(convertationStatusesAutoupdater, 15000);
+        }).error(function () {
+            setTimeout(convertationStatusesAutoupdater, 15000);
+        });
+    }
+
+    if ($('#converterCurrentStatusesBox').html().length)
+    {
+        convertationStatusesAutoupdaterObserver();
+        //$('#converterCurrentStatusesBox').css('display', 'block');
+        $('#converterCurrentStatusesBox').show();
+    }
+</script>
+
+<h2 class="color1" style="margin-top:20px;">You may be interested in</h2>
+<div style="background: #49AFD0; height:2px; width: 100%; margin-bottom: 20px;">&nbsp;</div>
+<div id="searchResultBox"><div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter"></div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/8e/e9/38/8ee93833a95ac9ed3144b2cceab2a5e7.jpg" data-srcset="//b-ok.cc/covers100/books/8e/e9/38/8ee93833a95ac9ed3144b2cceab2a5e7.jpg 1x, //b-ok.cc/covers200/books/8e/e9/38/8ee93833a95ac9ed3144b2cceab2a5e7.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/658048/5489aa" class="tdn">The Standard C Library</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/P. J. Plauger">P. J. Plauger</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/658048/5489aa" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    1991
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 18.20 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+</div><script type="text/javascript" src="/scripts/jquery.lazy.min.js"></script>
+<script>
+    $(function () {
+        $(".lazy").Lazy({
+            effect: "fadeIn",
+            effectTime: 1000,
+            beforeLoad: function(element) {
+                $(element).css({"border-width": "0px"});
+            },
+            afterLoad: function(element) {
+                $(element).css({"border-width": "1px"});
+            }
+        });
+    });
+</script>
+<link rel="stylesheet" type="text/css" href="css/jscomments/jscomments.css">
+
+<div style="background: #49AFD0; height:2px; width: 100%; margin:40px 0 40px 0;">&nbsp;</div>
+
+
+<div id="jscommentsRootBox">
+    <div class="jscommentsFormBox">
+        <div style="width:65%; float:left;">
+            <form id="jscommentsForm" target="uploader" action="rpc.php" method="POST">
+                <input type="hidden" name="book_id" value="865876">
+                <input type="hidden" name="action" value="addReview">
+                <input type="hidden" name="rx" value="0">
+                <input id="jscommentsNamefield" name="name" type="textfield" placeholder="Your Name" value="" onchange="if (this.value) {
+                            $(this).removeClass('error');
+                        }"/>
+                <textarea id="jscommentsTextarea" name="text" placeholder="Write a Review"  onchange="if (this.value) {
+                            $(this).removeClass('error');}"></textarea>
+                <br clear="all" />
+                <a href="#" onclick="onReviewSubmit();
+                        return false;" id="jscommentsButton">Post a Review</a><img id="jscommentsLoader" src="css/jscomments/loader.gif" style="position: relative; left: -35px; display: none;"/>
+            </form>
+        </div>
+        <div style="width:35%; float:left;" class="jscommentsFormHelp">
+            <div style="padding:10px 0 0 20px;  border-left:1px solid #ccc;">
+                You can write a book review and share your experiences. Other readers will always be interested in your opinion of the books you've read. Whether you've loved the book or not, if you give your honest and detailed thoughts then people will find new books that are right for them.
+            </div>
+        </div>
+    </div>
+    <div id="jscommentsCommentsBox"></div>
+</div>
+
+<script>
+    $('#jscommentsForm')[0].rx.value = 12;
+
+    function onReviewSubmit()
+    {
+        $('#jscommentsForm')[0].submit();
+
+        $('#jscommentsButton').css('width', $('#jscommentsButton').width() + 'px');
+        $('#jscommentsButton').data('originaltxt', $('#jscommentsButton')[0].innerHTML);
+        $('#jscommentsButton').text('Posting..'); // simulate server request
+        $('#jscommentsNamefield').attr("disabled", "disabled");
+        $('#jscommentsTextarea').attr("disabled", "disabled");
+        $('#jscommentsLoader').show();
+
+    }
+
+    function onReviewSubmitFailure()
+    {
+        $('#jscommentsButton').text($('#jscommentsButton').data('originaltxt'));
+        $('#jscommentsButton').css('width', '');
+        $('#jscommentsNamefield').removeAttr("disabled");
+        $('#jscommentsTextarea').removeAttr("disabled");
+        $('#jscommentsLoader').hide();
+    }
+
+</script><div style="display: none;">
+<div id="searchResultBox"><div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">1</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/fe/c6/f1/fec6f1ef44fe00829f88ba0d7cba7796.jpg" data-srcset="//b-ok.cc/covers100/books/fe/c6/f1/fec6f1ef44fe00829f88ba0d7cba7796.jpg 1x, //b-ok.cc/covers200/books/fe/c6/f1/fec6f1ef44fe00829f88ba0d7cba7796.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/865877/c12ba6" class="tdn">Hethitisches Zeichenlexikon: Inventar und Interpretation der Keilschriftzeichen aus den Bogazkoy-Texten (Studien zu den Bogazkoy-Texten) (German Edition)</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Christel Ruster">Christel Ruster</a>, <a itemprop="author" title="Find all the author's book" href="/author/Erich Neu">Erich Neu</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/865877/c12ba6" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    1989
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    german
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 12.73 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">2</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/fe/07/35/fe07359a62dceb7364d0942b5b3e81b1.jpg" data-srcset="//b-ok.cc/covers100/books/fe/07/35/fe07359a62dceb7364d0942b5b3e81b1.jpg 1x, //b-ok.cc/covers200/books/fe/07/35/fe07359a62dceb7364d0942b5b3e81b1.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/865875/0b7429" class="tdn">Michael Oakeshott on Religion, Aesthetics, and Politics (ERIC VOEGELIN INST SERIES)</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Elizabeth Campbell Corey">Elizabeth Campbell Corey</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/865875/0b7429" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2006
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 802 KB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<center></center></div><script type="text/javascript" src="/scripts/jquery.lazy.min.js"></script>
+<script>
+    $(function () {
+        $(".lazy").Lazy({
+            effect: "fadeIn",
+            effectTime: 1000,
+            beforeLoad: function(element) {
+                $(element).css({"border-width": "0px"});
+            },
+            afterLoad: function(element) {
+                $(element).css({"border-width": "1px"});
+            }
+        });
+    });
+</script><pre>A Reference Manual
+FI FTH EDITION
+
+Samuel P. Harbison III • Guy L. Steele Jr.
+
+C
+
+A REFERENCE MANUAL
+Fifth Edition
+
+Samuel P. Harbison III Texas Instruments
+Guy L. Steele Jr.
+
+Sun Mlcrosystems
+
+Library of Congress Cataloging-in-Publication Data
+CIP data on ftle.
+
+Vice President and Editorial Director, ECS: Marcia Horton
+Senior Acquisitions Editor: Petra J.Recter
+Vice President and Director of Production and Manufacturing, ESM: David W.Riccardi
+Executive Managing Editor: Vince 0 'Brien
+Assistant Managing Editor: Camille Trentacoste
+Production Editor: Lakshmi Balasubramanian
+Cover Designer: Bruce Kenselaar
+Manufacturing Manager: Trudy Pisciotti
+Manufacturing Buyer: Lisa McDowell
+
+Prentice
+
+--Hall
+
+© 2002 by Prentice Hall
+Prentice-Hall, Inc.
+Upper Saddle River, NJ 07458
+
+All rights reserved. No part of this book may be reproduced in any form or by any means,
+without pennission in writing from the publisher.
+The author and publisher of this book have used their best efforts in preparing this book. These
+efforts include the development, research, and testing of the theories and programs to determine
+their effectiveness. The author and publisher make no warranty of any kind, expressed or implied,
+with regard to these programs or the documentation contained in this book.
+
+Printed in the United States of America
+
+10987654321
+
+ISBN 0-13-089592x
+Pearson Education Ltd., London
+Pearson Education Australia Pty. Ltd. , Sydney
+Pearson Education Singapore, Pte. Ltd.
+Pearson Education North Asia Ltd., Hong Kong
+Pearson Education Canada, Inc., Toronto
+Pearson Educac'yon de Mexico, S.A.de c.Y.
+Pearson Education - Japan, Tokyo
+Pearson Education Malaysia, Pte. Ltd.
+Pearson Education, Upper Saddle River. New Jersey
+
+-',',
+,~&quot;
+
+&quot;
+
+,
+
+, ,;
+
+&lt; '.
+
+For Diana. Drew. and Mike Harbi$on .
+
+•
+,,
+
+'&quot;
+
+&quot;
+
+.,
+
+Contents
+
+xv
+
+List of Tables
+
+xvii
+
+Preface
+
+PART 1 The C Lan~guage
+
+1
+
+1 Introduction
+
+3
+
+1.1
+1.2
+
+1.3
+1.4
+1.5
+
+The Evolution of C 3
+Which Dialect of C Should You Use? 6
+An Overview of C Programming 7
+Conformance 8
+Syntax Notation 9
+
+2 Lexical Elements
+2.1
+2.2
+2.3
+2.4
+
+11
+Character Set 11
+Comments 18
+
+Tokens 20
+
+2.8
+2.9
+
+Operators and Separators 20
+Identifiers 21
+Keywords 23
+Constants 24
+Get- Compatibility 38
+On Character Sets, Repertoires, and Encodings 39
+
+2.10
+
+Exercises 41
+
+2.5
+2.6
+2.7
+
+3 The C Preprocessor
+3.1
+Preprocessor Commands 43
+3.2
+Preprocessor Lexical Conventions 44
+3.3
+3.4
+
+Definition and Replacement 46
+File Inclusion 59
+
+3.5
+3.6
+3.7
+3.8
+3.9
+3. 10
+
+Conditional Compilation 61
+Explicit Line Numbering 66
+
+43
+
+Pragma Directive 67
+Error Directive 69
+C++ Compatibility 70
+
+Exercises 71
+vii
+
+viii
+
+Contents
+
+4 Declarations
+4.1
+4.2
+4.3
+4.4
+4.5
+4.6
+4.7
+4.8
+4.9
+4.10
+
+73
+
+Organization of Declarations 74
+Terminology 75
+Storage Class and Function Specifiers 83
+Type Specifiers and Qualifiers 86
+Declarators 95
+Initializers 103
+Implicit Declarations 113
+External Names 113
+C++ Compatibility 11 6
+Exercises 119
+
+5 Types
+
+123
+
+5.1
+5.2
+5.3
+5.4
+5.5
+5.6
+5.7
+5.8
+5.9
+5.10
+5.1I
+5.12
+5.13
+5.14
+
+Integer Types 124
+Floating-Point Types 132
+Pointer Types 136
+Array Types 140
+Enumemted Types 145
+Structure Types 148
+Union Types 160
+Function Types 165
+The Void Type 168
+Typedef Names 168
+Type Compatibility 172
+Type Names and Abstract Declarators 176
+C++ Compatibility 178
+Exercises 179
+
+6 Conversions and Representations
+6.1
+Representations 181
+6.2
+Conversions 188
+6.3
+The Usual Conversions 194
+C++ Compatibility 200
+6.4
+Exercises 201
+6.5
+
+181
+
+7 Expressions
+7.1
+7.2
+7.3
+7.4
+7.5
+7.6
+7.7
+7.8
+7.9
+7.10
+
+203
+Objects, Lvalues. and Designators 203
+Expressions and Precedence 204
+Primary Expressions 207
+Postfix Expressions 210
+Unary Expressions 219
+Binary Operator Expressions 227
+Logical Operator Expressions 242
+Conditional Expressions 244
+Assignment Expressions 246
+Sequential Expressions 249
+
+Contents
+
+Ix
+
+7.11
+7.12
+7.13
+7.14
+7.15
+7.16
+8 Statements
+8.1
+8.2
+8.3
+8.4
+8.5
+8.6
+8.7
+8.8
+8.9
+8.10
+
+8.11
+8.12
+8.13
+
+Constant Expressions 250
+Order of Evaluation 253
+Discarded Values 255
+Optimization of Memory Accesses 256
+C++ Compatibility 257
+Exercises 258
+259
+General Syntactic Rules for Statements 260
+Expression Statements 260
+Labeled Statements 261
+Compound Statements 262
+Conditional Statements 264
+Iterative Statements 266
+Switch Statements 274
+Break and Continue Statements 277
+Return Statements 279
+Goto Statements 280
+Null Statements 281
+C++ Compatibility 282
+Exercises 282
+
+9 Functions
+
+9.1
+9.2
+9.3
+9.4
+9.5
+9.6
+9.7
+
+9.8
+9.9
+9.10
+
+9.11
+9.12
+PART 2
+
+285
+Function Definitions 286
+
+Function Prototypes 289
+Fonnal Parameter Declarations 295
+Adjustments to Parameter Types 298
+Parameter-Passing Conventions 299
+Agreement of Parameters 300
+Function Return Types 30 I
+Agreement of Return Types 302
+The Main Program 303
+Inline Functions 304
+C++ Compatibility 306
+Exercises 307
+
+The C Libraries
+
+10 Introduction to
+10.1
+10.2
+10.3
+
+309
+
+the Libraries
+Standard C Facilities 312
+C++ Compatibility 313
+Library Headers and Names 316
+
+II Standard Language Additions
+Il.l
+NULL, ptrdifCt, size_t, offsetof 325
+1l.2
+EDOM, ERANGE, EILSEQ, ermo, strerror, perror
+11.3
+bool, false, true 329
+
+311
+
+325
+327
+
+x
+
+Contents
+
+11.4
+11.5
+
+va_list, va_start, va_argo va_cnd
+
+329
+
+Standard C Operator Macros 333
+
+12 Character Processing
+12.1
+isalnum, isalpha. iscntrl, iswalnurn , iswalpha, iswcntrl 336
+12.2
+iscsym, iscsymf 338
+12.3
+12.4
+12.5
+12.6
+
+isdigit, isodigit, isxdigit, iswdigit, iswxdigit 338
+isgraph. isprint, ispunct, iswgraph . iswprint, iswpunct 339
+is lower, isupper, iswiower, iswupper 340
+isblank, isspace, iswhite, isw space 341
+
+12.7
+12.8
+12.9
+12. IO
+12.11
+
+toascii 341
+toint 342
+tolower, loupper, towlower, towupper 342
+wctype_t, wctype, iswctype 343
+wctrans_t, wctrans 344
+
+335
+
+13 String Processing
+347
+13. 1
+strcat, stmcat, wcscat, wcsncat 348
+l3.2
+strcmp, strncmp, wcscmp, wcsncmp 349
+l3.3
+strepy, strncpy, wcscpy, wcsncpy 350
+l3.4
+str1en, wcs1en 351
+l3.5
+strehr, strrchr, wcschr, wcsrchr 351
+13.6
+strspn, strcspn, strpbrk, strrpbrk, wcsspn, wcscspn, wcspbrk 352
+13.7
+strstr, strtok, wcsstr, wcstok 354
+13.8
+strtod, strtof, strto1d, strto1, strtoll, strtou1, strtoull 355
+13.9
+atof, atoi, ato1, atoll 356
+13. IO strcol!, strxfrm, wcscoll, wcsxfrm 356
+14 Memory Functions
+14.1
+memchr, wmemchr 359
+14.2
+memcmp, wmemcmp 360
+14.3
+memcpy, memccpy, memmove, wmemcpy, wmemmove 361
+14.4
+
+359
+
+memset, wmemset 362
+
+15 Input/Output Facilities
+15.1
+FILE, EOF, wchar_t, winU, WEOF 365
+15.2
+fopen , fc10se, fflu sh, freopen, fwide 366
+15 .3
+setbuf, setvbuf 370
+15.4
+stdin, stdout, stderr 371
+15.5
+fseek, ftell, rewind, fgetpos, fsetpos 372
+
+363
+
+15.6
+
+fgetc. fgetwc, getc. gClWC, getchar, getwchar, ungetc, ungetwc 374
+
+15.7
+
+fgets, fgetws, gets 376
+
+15.8
+
+fscanf, fwscanf, scanf, wscanf, sscanf, swscanf 377
+
+15.9
+15.10
+15.11
+
+fputc , fputwc, putc, putwc, putchar, putwchar 385
+fputs, fputws, puts 386
+fprintf, printf, sprintf, snprintf, fwprintf, wprintf, swprintf 387
+
+Contents
+
+xi
+
+IS.12
+
+vfprintf, vfwprintf, vprintf, vwprintf, vsprintf, vswprintf, vfseanf, vfwscanf, vscanf, vwscanf, vsscanf, vswscanf 401
+
+IS.13
+IS.14
+IS. IS
+IS.16
+
+fread, fwrite 402
+feof, ferror, clearerr 404
+remove, rename 404
+
+tmpfile, tmpnam, mktemp 405
+
+16 General Utilities
+407
+16.1
+malloc, calloe, mlalloc, clalloc, free, cfree 407
+16.2
+rand, srand, RAND_MAX 410
+16.3
+atof, atoi, atol, atoll I 411
+16.4
+strtod, strtof, strtold, strtol, strtoll, strtoul, strtoull 412
+16.S
+abort, atexit, exit, _Exit, EXIT]AILURE, EXIT_SUCCESS 414
+16.6
+getenv 41S
+16.7
+system 416
+16.8
+bsearch, qsort 417
+16.9
+abs, labs, llabs, div, Idiv, lldiv 419
+16.10 mblen, mbtowc, wctomb 420
+16.11 mbstowcs, wcstombs 422
+17 Mathematical Functions
+17.1
+abs, labs, llabs, div, Idiv, lldiv 426
+17.2
+fabs 426
+17.3
+ceil, floor, lriot, llrint,lround, llround, nearbyint, round, rint,
+trunc 427
+17.4
+fmod, remainder, remquo 428
+17.S
+frexp, Idexp, modf, scalbn 429
+17.6
+exp, exp2, expml, ilogb, log, 10gIO, loglp, log2, 10gb 430
+17.7
+cbrt, fma, hypot, pow, sqrt 432
+17.8
+rand, srand, RAND_MAX 432
+17.9
+17.10
+
+cos, sin , tan, cosh, sinh, tanh 433
+acos, asio, atan, atan2, acosh, asinh, atanh
+
+17.11
+17.12
+17.1 3
+
+fdim, fmax, fmin 435
+Type-Generic Macros 435
+erf, erfc, Igamma, tgamma 439
+
+17.14
+
+fpclassify, isfinite, isinf. isnan, isnonnal, signbit 440
+
+17.15
+
+copysign, nan, nextafter, nexttoward 441
+isgreater, isgreaterequal, isless, islessequal, islessgreater,
+isunordered 442
+
+17. 16
+
+425
+
+434
+
+18 Time and Date Functions
+
+18. 1
+18.2
+
+clock, clock_t, CLOCKS]ER_SEC, times 443
+time, time_t 445
+
+18.3
+
+asctime, ctime 445
+
+18.4
+18.5
+
+gmtime, localtime, mktime 446
+difftime 447
+
+443
+
+Contents
+
+xii
+
+18.6
+
+strftime. wcsftime 448
+
+19 Control Functions
+19.1
+assert, NDEBUG 453
+19.2
+system, exec 454
+19.3
+exit, abort 454
+19.4
+setjmp, longjmp, jmp_buf 454
+19.5
+atexit 456
+19.6
+signal, raise, gsignal, ssignal, psignal 456
+19.7
+sleep, alarm 458
+
+453
+
+20 Locale
+
+461
+20.1
+20.2
+
+setlocale 461
+localeconv 463
+
+21 Extended Integer Types
+21.1
+General Rules 467
+21.2
+Exact-Size Integer Types 470
+21.3
+Least-Size Types of a Minimum Width 471
+21.4
+Fast Types of a Minimum Width 472
+21.5
+Pointer-Size and Maximum-Size Integer Types 473
+21.6
+Ranges ofptrdifCt, size_t, wchar_t, wint_t, and s i~atomic_t
+21.7
+imaxabs, imaxdiv, imaxdiv_t 474
+21.8
+strtoimax, strtouimax 475
+21.9
+wcstoimax , wcstoumax 475
+
+467
+
+474
+
+22 Floating-Point Environment
+22.1
+Overview 477
+22.2
+Floating-Point Environment 478
+22.3
+Floating-Point Exceptions 479
+22.4
+Floating-Point Rounding Modes 481
+
+477
+
+23 Complex Arithmetic
+23.1
+Complex Library Conventions 483
+23.2
+complex, _Complex_I, imaginary, _Imaginary_I, I 484
+23.3
+CX_LIMITED_RANGE 484
+23.4
+cacos, casin, catan, ccos, csin, ctan 485
+23.5
+cacosh, casinh, catanh, ccosh, csinh, ctanh 486
+23.6
+cexp, clog, cabs, cpow, csqrt 487
+23.7
+carg, cimag, creal, conj, cproj 488
+
+483
+
+24 Wide and Multibyte Facilities
+
+489
+
+24.1
+24.2
+24.3
+24.4
+24.5
+
+Basic Types and Macros 489
+Conversions Between Wide and Multibyte Characters 490
+Conversions Between Wide and Multibyte Strings 491
+Conversions to Arithmetic Types 493
+Input and Output Functions 493
+
+Contents
+
+xiii
+
+24.6
+24.7
+24.8
+
+String Functions 493
+Date and Time Conversions 494
+Wide-Character Classification and Mapping Functions 494
+
+A The ASCII Character Set
+
+497
+
+B Syntax
+
+499
+
+C Answers to the Exercises
+
+513
+
+Index
+
+521
+
+List of Tables
+
+Table 2-1
+Table 2-2
+Table 2- 3
+Table 2-4
+Table 2-5
+Table 2-6
+Table 2-7
+Table 2- 8
+Table 3-1
+Table 3-2
+Table 4-1
+Table 4-2
+Table 4-3
+Table 4-4
+Table 4-5
+Table 4-6
+Table 4-7
+Table 5-1
+Table 5-2
+Table 5-3
+Table 5-4
+Table 6-1
+Table 6-2
+Table 6-3
+Table 6--4
+Table 6-5
+Table 6-6
+Table 7-1
+Table 7-2
+Table 7-3
+Table 7-4
+Table 7- 5
+Table 7-6
+Table 7-7
+
+Graphic characters
+
+ISO trigraphs
+
+12
+
+15
+
+Operators and separators
+
+21
+
+Keywords in C99 23
+Types of integer constants
+
+27
+Assignment of types to integer constants
+Character escape codes 36
+Additional C++ keywords 39
+Preprocessor commands 44
+Predefined macros 52
+Identifier scopes 75
+Overloading classes 78
+Storage class specifiers
+83
+Default storage class specifiers 84
+Function declarators
+101
+Form of initializers
+104
+Interpretation of top-level declarations
+
+C types and categories
+
+28
+
+115
+
+124
+
+Values defined in limi ts. h
+127
+Values defined in float. h 134
+
+IEEE floating-point characteristics 135
+Memory models on early PCs 186
+Permitted casting conversions
+194
+195
+Allowable assignment conversions
+Conversion rank
+196
+
+Usual unary conversions (choose first that applies)
+Usual binary conversions (choose first that applies)
+Nonarray expressions that can he Ivalues 204
+Operators requiring Ivalue operands 204
+C operators in order of precedence 205
+Binary operator expressions 227
+
+197
+199
+
+Conditional expression 2nd and 3rd operands (pre-Standard)
+Conditional expression 2nd and 3ed operands (Standard C)
+
+Assignment operands
+
+245
+245
+
+247
+
+xv
+
+xvi
+
+List of Tables
+
+Table 7-8
+Operand types for compound assignment expressions 249
+Table 12- 1 Property names for we type 344
+Table IS- I
+Type specifications for fopen and freopen 368
+Table IS-2
+Properties of fopen modes 368
+Table IS-3
+Input conversions (scanf, fscanf , sBeanf) 380
+Table IS-4
+Input conversions of the c specifier 382
+Table IS-S
+Input conversions of the s specifier 383
+Table IS--6
+Output conversion specifications 393
+Table IS-7
+Examples of the d conversion 394
+Examples of the u conversion 394
+Table IS-8
+Table IS-9
+Examples of the 0 conversion 395
+Table 15-10 Examples of the x and X conversions 395
+Table IS- II Conversions of the c specifier 396
+Table IS- 12 Examples of the c conversion 396
+Table IS- 13 Conversions of the s specifier 397
+Table IS-14 Examples of the s conversion 397
+Table IS-IS Examples of the f conversion 398
+Table IS-16 Examples of e and E conversions 399
+Table 17-1
+Type-generic macros 437
+Table 18- 1 Fields in s true t tm type 447
+Table 18-2
+Fonnatting codes for strftime 449
+Table 19- 1 Standard signals 4S8
+Predefined setlocale categories 462
+Table 20-1
+Table 20-2
+lconv structure components 465
+Table 20-3
+Examples of formatted monetary quantities 46S
+Table 20-4
+Examples of lconv structure contents 466
+Fonnat control string macros for integer types (N = width of type in bits)
+Table 21-1
+Table 23-1
+Domain and range of complex trigonometric functions 485
+Domain and range of complex hyperbolic functions 486
+Table 23-2
+Domain and range of complex exponential and power 487
+Table 23-3
+Domain and range of miscellaneous complex functions 488
+Table 23-4
+Table 24-1
+Wide inputJoutput functions 494
+Table 24-2
+Wide-string functions 495
+Table 24-3
+Wide-character functions 495
+
+469
+
+Preface
+
+This text is a reference manual for the C programming language. OUf aim is to provide a
+complete and precise discussion of the language, the run-time libraries. and a style of C
+programming that emphasizes correctness, portability, and maintainability.
+We expect our readers to already understand basic programming concepts, and
+many will be experienced C programmers. In keeping with a reference fannat, we present
+the language in a bottom-up order: lexical structure. preprocessor, deciarations, types,
+expressions, statements, functions, and run-time libraries. We have included many crossreferences in the text so that readers can begin at any point.
+This Fifth Edition now includes a complete description of the latest international C
+standard, ISOIIEC 9899: 1999 (C99). I have been careful to indicate which features of the
+language and libraries are new in e99 and point out how e99 differs from the previous
+standard, e89. This is now the only book that serves as a reference for all the major
+versions of the C language: traditional C, the 1989 C Standard, the 1995 Amendment and
+Corrigenda to C89, and now the 1999 C Standard. It also covers the Clean C subset of
+Standard C and Standard C++. Although there is much new material in e99, I have not
+changed the chapter and section organization of the book significantly, so readers familiar
+with previous editions will not have problems finding the information they need.
+This book originally grew out of our work at Tartan, Inc. developing a family of C
+compilers for a range of computers-from micros to mainframes. We wanted the compilers to be well documented, provide precise and helpful error diagnostics, and generate
+exceptionally efficient object code. A C program that compiles correctly with one compiler must compile correctly under all the others insofar as the hardware differences allow.
+In 1984. despite C's popularity. we found that there was no description of C precise
+enough to guide us in designing the new compilers. Similarly, no existing description was
+precise enough for our programmer/customers, who would be using compilers that
+analyzed C programs more thoroughly than was the custom at that time. In this text, we
+have been especially sensitive to language features that affect program clarity, object code
+efficiency. and the portability of programs among different environments.
+
+WEBSITE
+We encourage readers to visit the book's Web site: CAReferenceManual. com. We'll
+post example code, expanded discussions, clarifications, and links to more C resources.
+xvii
+
+xviil
+
+Preface
+
+ACKNOWLEDGMENTS
+
+In preparing this Fifth Edition, I want to especially acknowledge the critical help I
+received from Rex Jaeschke, former chairman of NCITS JlI; Antoine Trux of Helsinki,
+Finland; and Steve Adamczyk, the founder of Edison Design Group.
+For assistance with previous editions, I would like to thank Jeffrey Esakov, Alan J.
+Filipski, Frank J. Wagner, Debra Martin, P. J. Plauger, and Steve Vinoski. Other help
+came from Aurelio Bignoli, Steve Clamage, Arthur Evans, Jr., Roy J. Fuller, Mortis M.
+Kessan, George V. Reilly, Mark Lan, Mike Hewett, Charles Fischer, Kevin Rodgers, Tom
+Gibb, David Lim, Stavros Macrakis, Steve Vegdahl, Christopher Vickery, Peter van der
+Linden, and Dave Wilson. Also Michael Angus, Mady Bauer, Larry Breed, Sue Broughton, Alex Czajkowski, Robert Firth, David Gaffney, Steve Gorman, Dennis Hamilton,
+Chris Hanna, Ken Harrenstien, Rex Jaeschke, Don Lindsay, Tom MacDonald, Peter Nelson, Joe Newcomer, Kevin Nolish, David Notkin, Peter Plamondon, Roger Ray, Larry
+RosIer, David Spencer, and Barbara Steele.
+Some of the original example programs in this book were inspired by algorithms
+appearing in the following works:
+• Beeler, Michael, Gosper, R. William, and Schroeppel, Richard, HAKMEM, AJ
+Memo 239 (Massachusetts Institute of Technology Artificial Intelligence Laboratory, February 1972);
+• Bentley, Jon Louis, Writing Efficient Programs (Prentice-Hall, 1982);
+
+• Bentley, Jon Louis, &quot;Programming Pearls&quot; (monthly column appearing in Communications of the ACM beginning August 1983);
+• Kernighan, Brian w., and Ritchie, Dennis M., The C Programming Language (Prentice-Hall, [978);
+• Knuth, Donald E., The Art of Computer Programming Volumes 1-3 (AddisonWesley, 1968, 1969, 1973, 1981) ; and
+• Sedgewick, Robert,Algorithms (Addison-Wesley, 1983).
+
+We are indebted to these authors for their good ideas.
+The use of I instead of we in this Preface reflects that Guy Steele's work load has
+prevented him from being an active contributor to recent editions. The text still reflects his
+clear and rigorous analysis of the C language, but he cannot be held responsible for any
+new problems in this edition.
+
+c: A Reference Manual is now over 17 years old. To all our readers: Thank you!
+Sam Harbison
+
+Pittsburgh, PA
+harbison@CAReferenceManual.com
+
+PART!
+The C Language
+
+1
+Introduction
+
+Dennis Ritchie designed the C language at Bell Laboratories in the early 19705, and its ancestry is traced from ALGOL 60 (1960), through Cambridge's CPL (1963), Martin Richards's BCPL (1967), and Ken Thompson' s B language (1970) at Bell Labs. Although C is
+a general-purpose programming language, it has traditionally been used for systems programming. In particular, the popular UNIX operating system was originally written in C.
+C's popularity is due to many factors. It is a small, efficient, yet powerful programming language with a rich run-time library. It provides precise control over the computer
+without a lot of hidden mechanisms. Since it has been standardized for over 10 years, programmers are comfortable with it. It is generally easy to write C programs that will be portable across different computing systems in different countries with different languages.
+Finally, there is a lot of legacy C code out there that is being modified and extended.
+Starting in the late 1990s, C's popularity began to be eclipsed by its &quot;big brother,&quot;
+C++. However. there is still a loyal following for the C language. and it continues to be
+popular where programmers do not need the features in C++ or where the overhead of C++
+is not welcome.
+C has withstood the test of time. It remains a language in which the experienced
+programmer can write quickly and well. Millions of lines of code testify to its usefulness.
+
+1.1 THE EVOLUTION OF C
+At the time we wrote the First Edition of thi s book in 1984, the C language was in widespread use, but there was no official standard or precise description of the language. The
+de facto standards were the C compilers being used. C became an international standard in
+1989, was revised in 1994, and underwent a major revision in 1999.
+Simply changing the definition of a language does not automatically alter the hundreds of millions of lines of C program code in the world. We have strived to keep thi s
+3
+
+4
+
+Introduction
+
+Chap. 1
+
+book up to date so that programmers can use it as a reference for all of the dialects of C
+they are likely to encounter.
+
+1.1.1 Traditional C
+The original C language description is the first edition of the book, The C Programming
+Language, by Brian Kernighan and Dennis Ritchie (Prentice-Hall, 1978), usually referred
+to as &quot;K&amp;R.&quot; After the book was published, the language continued to evolve in small
+
+ways; some features were added and some were dropped, We refer to the consensus
+definition of C in the early 19808 as traditional C, the dialect before the standardization
+process. Of course, individual C vendors had their own extensions to traditional C, too.
+1.1.2 Standard C (1989)
+Realizing that standardization of the language would help C become more widespread in
+commercial programming, the American National Standards Institute (ANSI) formed a
+committee in 1982 to propose a standard for C and its run-time libraries. That committee.
+X3J11 (now NCITS JlI ), was chaired by Jim Brodie and produced a standard formally
+adopted in 1989 as American National Standard X3. 159· 1989, or &quot;ANSI C.&quot;
+Recognizing that programming is an international activity, an international standardization group was created as ANSI C was being completed. ISO/IEC JTCl/SC221
+WG 14 under by P. 1. Plauger turned the ANSI standard into an international standard,
+lSOllEC 9899: 1990, making only minor editorial changes. The ISOIIEC standard was
+thereafter adopted by ANSI, and people referred to this common standard as simply &quot; Standard C.&quot; Since that standard would eventuall y be changed, we refer to it as Standard C
+(1989), or simply &quot;C89.&quot;
+Some of the changes from traditional C to C89 included:
+• The addition of a truly standard library.
+• New preprocessor commands and features.
+• Function prototypes, which let you specify the argument types in a function declaration.
+• Some new keywords, including const, volatile, and signed.
+• Wide characters, wide strings, and multibyte characters.
+• Many smaller changes and clarifications to conversion rules, declarations, and type
+checking.
+
+1.1.3 Standard C (1995)
+As a normal part of maintaining the C standard , WG 14 produced two Technical Corrigenda (bug fixes) and an Amendment (extension) to C89. Taken together, these made a relatively modest change to the Standard mostly by adding new libraries. The result is what
+we call either &quot;C89 with Amendment I&quot; or &quot;C95.&quot; The changes to C89 included:
+• three new standard library headers: iso646 _h, wctype. h, and wchar. h,
+
+Sec. 1.1
+
+The Evolution of C
+
+5
+
+• several new tokens and macros used as replacements for operators and punctuation
+characters not found in some countries' character sets,
+• some new formatting codes for the printf/scanf family of functions, and
+• a large number of new functions, plus some types and constants, for multibyte and
+wide characters.
+
+1.1.4 Standard C (1999)
+IsonEC standards must be reviewed and updated on a regular basis. In 1995. WGI4 began work on a more extensive revision to the C standard, which was completed and approved in 1999. The new standard, ISOIIEC 9899:1999, or &quot;C99,&quot; replaces the previous
+standard (and all corrigenda and amendments) and has now become the official Standard
+C. Vendors are updating their C compilers and libraries to conform to the new standard .
+C99 adds many new features to the C89/C95 language and libraries, including:
+• complex arithmetic
+• extensions to the integer types, including a longer standard type
+• variable-length arrays
+• a Boolean type
+• better support for non-English character sets
+• better support for floating-point types, including math functions for all types
+• C++-style comments (/ /)
+C99 is a much larger change than C95 since it includes changes to the language as
+well as extensions to the libraries. The C99 Standard document is significantly larger than
+the C89 document. However, the changes are &quot;in the spirit of C,&quot; and they do not change
+the fundamental nature of the language.
+
+1.1.5 Standard C++
+C++, designed by Bjarne Stroustrup at AT&amp;T Bell Labsin the early 1980s, has now largely supplanted C for mainstream programming. Most C implementations are actually CI
+C++ implementations, giving programmers a choice of which language to use. C++ has itself been standardized, as ISOIlEC 14882:1998, or &quot;Standard C++.&quot; C++ includes many
+improvements over C that programmers need for large applications. including improved
+type checking and support for object-oriented programming. However, C++ is also one of
+the most complex programming languages, with many pitfalls for the unwary.
+Standard C++ is nearly- but not exactly- a superset of Standard C. Since the C and
+C++ standards were developed on different schedules, they could not adapt to each other in
+a coordinated way. Furthermore, C has kept itself distinct from C++. For example, there
+has been no attempt to adopt &quot;simplified&quot; versions of C++'s class types.
+It is possible to write C code in the common subset of the Standard C and C++ languages-called Clean C by some-so that the code can be compiled either as a C program
+or a C++ program. Since C++ generally has stricter rules than Standard C, Clean C tends to
+
+Introduction
+
+6
+
+Chap. 1
+
+be a good, portable subset in which to write. The major changes you must consider when
+writing Clean Care:
+• Clean C programs must use function prototypes. Old-style declarations are not permitted in c++.
+• Clean C programs must avoid using names that are reserved words in C++, like
+class and virtual.
+There are several other rules and differences, but they are les s likely to cause problems. In
+this book, we explain how to write Standard C code so that it is acceptable to C++ compilers. We do not discuss features of Ct+ that are not available in Standard C. (Which, of
+course, includes almost everything interesting in C++.)
+
+1.1.6 What's in This Book
+This book describes the three major variations of C: traditional C, C89, and C99. It calls
+out those features that were added in Amendment 1 to e89, and it describes the Clean C
+subset of C and C++. We also suggest how to write &quot;good&quot; C programs-programs that
+are readable, portable, and maintainable.
+Officially, &quot;Standard C&quot; is C99. However, we use the term Standard C to refer to
+features and concepts of C89 that continue through C99. Features that exist only in C99
+will be identified as such so that programmers using e89 implementations can avoid them.
+
+1.2 WHICH DIALECT OF C SHOULD YOU USE?
+Which dialect of e you use depends on what implementation(s) of e you have available
+and on how portable you want your code to be. Your choices are:
+I. C99, the current version of Standard C. It has all the latest features, but some implementations may not yet support it. (That will change rapidly.)
+2. C89, the previous version of Standard C. Most recent C programs and most C implementations are based on this version of e, usually with the Amendment I additions.
+3. Traditional
+
+e, now encountered mostly when maintaining older e programs.
+
+4. Clean C, compatible with C++.
+C99 is generally upward compatible with C89, which is generally upward
+compatible with traditional C. Unfortunately, it is hard to write e code that is backward
+compatible. Consider function prototypes, for example. They are optional in Standard C,
+forbidden in traditional C, and required in C++. Fortunately, you can usc the C preprocessor to alter your code depending on which implementation is being used-and even on
+whether your Standard C includes the Amendment 1 extensions. Therefore, your C programs can remain compatible with all dialects. We explain how to use the preprocessor to
+do this in Chapter 3. An example appears in Section 3.9.1.
+If you are not limited by your compiler or an existing body of C code, you should
+definitely use Standard C as your base language. Standard C compilers are now almost
+
+Sec. 1.3
+
+An Overview of C Programming
+
+7
+
+universally available. The Free Software Foundation·s GNU C (gec) is a free. Standard C
+implementation (with many extensions).
+
+1.3 AN OVERVIEW OF C PROGRAMMING
+We expect most of our readers to be familiar with programming in a high-level language
+such as C, but a quick overview of C programming may be helpful to some.
+A C program is composed of one or more source jiles, or translation units, each of
+which contains some part of the entire C program-typically some number of external
+functions. Common declarations are often collected into header files and are included into
+the source files with a special #include command (Section 3.4). One external function
+must be named main (Section 9.9); this function is where your program starts.
+A C compiler independently processes each source file and translates the C program
+text into instructions understood by the computer. The compiler &quot;understands&quot; the C program and analyzes it for correctness. If the programmer has made an error the compiler
+can detect, then the compiler issues an error message. Otherwise, the output of the compiler is usually called object code or an object module.
+When all source files are compiled, the object modules are given to a program called
+the linker. The linker resolves references beN/een the modules, adds functions from the
+standard run-time library, and detects some programming errors such as the failure to define a needed function. The linker is typically not specific to C; each computer system has
+a standard linker that is used for programs written in many different languages. The linker
+produces a single executable program. which can then be invoked or run. Although most
+computer systems go through these steps, they may appear different to the programmer. In
+integrated environments such as Microsoft's Visual Studio, they may be completely hidden. In this book, we are not concerned with the details of building C programs; readers
+should consult their own computer system and programming documentation.
+Example
+Suppose we have a program to be named aprogram consisting of the two C source files
+hello. c and startup. c. The file hello. c might contain these lines:
+&quot;include &lt;stdio.h&gt; /* defines printf */
+void hello (void)
+
+{
+printf(&quot;Hellol\n&quot;};
+
+}
+Since hello. c contains facilities (the function hello) that will be used by other parts of
+our program, we create a header ftle hello. h to declare those facilities. It contains the line
+extern void hello{void};
+
+File startup. c contains the main program, which simply calls function hello:
+
+8
+
+Introduction
+
+#include
+
+Chap. 1
+
+~hel1o.h&quot;
+
+int main (void)
+
+{
+hello () ;
+return 0;
+
+}
+On a UNIX system, compiling, linking, and executing the program takes only two steps:
+
+% co -0 aprogram hello.c startup.c
+% aprogram
+The ftrst line compiles and links the two source files, adds any standard library functions
+needed, and writes the executable program to file aprogram. The second line then executes
+the program, which prints:
+
+Hello!
+Other non-UNIX implementations may use different commands. Increasingly, modem programming environments present an integrated, graphical interface to the programmer. Build-
+
+ing a C application in such an environment requires only selecting commands from a menu or
+clicking a graphical button.
+
+1.4 CONFORMANCE
+Both C programs and C implementations can con/ann to Standard C. A C program is said
+to be strictly conforming to Standard C if that program uses only the features of the language and library described in the Standard. The program's operation must not depend on
+any aspect of the C language that the Standard characterizes as unspecified, undefined, or
+implementation-defined. There are Standard C test suites available from Perennial, Inc.
+and Plum Hall, Inc. that help establish confonnance of implementations to the standard.
+There are two kinds of conforming implementations-hosted and freestanding. A C
+implementation is said to be a conforming hosted implementation if it accepts any strictly
+conforming program. A conforming freestanding implementation is one that accepts any
+strictly conforming program that uses no library facilities other than those provided in the
+header files float.h, iso646.h (C95), limits.h, stdarg,h, stdbool.h
+(C99), stddef , h , and stdint. h (C99). Chapter 10 lists the contents of these header
+files. Freestanding conformance is meant to accommodate C implementations for embedded systems or other target environments with minimal run-time support. For example,
+such systems may have no file system.
+A conforming program is one that is accepted by a conforming implementation.
+Thus, a conforming program can depend on some non portable, implementation-defined
+features of a confonning implementation, whereas a strictly confonning program cannot
+depend on those features (and so is maximally portable).
+Conforming implementations may provide extensions that do not change the meaning of any strictly conforming program. This allows implementations to add library routines and define their own #pragma directives, but not to introduce new reserved
+identifiers or change the operation of standard library functions.
+
+Sec. 1.5
+
+Syntax Notation
+
+9
+
+Compiler vendors continue to provide nonconforming extensions to which their
+customers have grown accustomed. Compilers enable (or disable) these extensions with
+special switches.
+
+1.5 SYNTAX NOTATION
+This book makes use of a stylized notation for expressing the form of a C program. When
+specifying the C language grammar, tenninal symbols are printed in fixed type and are to
+appear in the program exactly as written. Nontenninal symbols are printed in italic type;
+they are spelled beginning with a letter and can be followed by zero or more letters, digits,
+or hyphens:
+expression argument-list declarator
+
+Syntactic definitions are introduced by the name of the non terminal being defined followed by a colon. One or more alternatives then follow on succeeding lines:
+character:
+printing-character
+escape-character
+
+When the words one of follow the colon, this signifies that each of the terminal symbols
+following on one or more lines is an alternative definition:
+digit: one of
+0 1 2 3 4 567 8 9
+
+Optional components of a definition are signified by appending the suffix opt to a terminal or nontenninal symbol:
+enumeration-constant-definition :
+enumeration-constant enumeration-initializeropt
+initializer:
+expression
+{ initializer-list , opt }
+
+2
+Lexical Elements
+
+Th is chapter descrihes the lexical structure of the C language-that is, the characters that
+may appear in a C source file and how they are collected into lexical units, or tokens.
+
+2.1 CHARACTER SET
+A C source file is a sequence of characters selected from a character set. C programs are
+written using the following characters defined in the Basic Latin block of (SOllEe 10646:
+
+( . the 52 Latin capital and small letters:
+A B C D E F G H I J K L M N 0
+U V W X Y Z a b c d e f g h i
+n 0 p q r s t u v w x y z
+
+p Q R S T
+j k 1 m
+
+2. the 10 digits:
+01 2 3 4 5 6 7 8 9
+
+3. the SPACE,
+4. the horizontal tab (HT), vertical tab (VT), and form feed (FF) control characters, and
+5. the 29 graphic characters and their official names (shown in Table 2-1).
+
+There must also be some way of dividing the source program into lines; this can be done
+with a character or character sequence or with some mechanism outside the source
+character set (e.g., an end-of-record indication).
+11
+
+12
+
+Chap. 2
+
+Lexical Elements
+Table 2-1
+
+Ch&quot;
+
+Graphic characters
+
+Name
+
+Name
+
+Ch&quot;
+
+Name
+
+Char
+
+EXCLAMATION MARK
+
++
+
+PLUS SIG N
+
+•
+
+QUOTATION MARK
+
+#
+
+NUMBER SIGN
+
+•
+
+EQUALS SIGN
+
+(
+
+LEFT CURLY BRACKET
+
+•
+
+PERCEI\'T SIGN
+
+T ILDE
+
+)
+
+RIGHT CURLY BRACKET
+
+•
+•
+
+[
+
+LEFT SQUARE BRACKET
+
+COMMA
+
+AMPERSAND
+
+RIGHT SQUARE BRAC KET
+
+FU LL STOP
+
+ASTERISK
+
+APOSTROPHE
+
+&lt;
+
+LESS-THAN SIGN
+
+LEFT PARENTHESIS
+
+VERT ICAL U !\'E
+
+&gt;
+
+GREATER-THAN SIGN
+
+REVERSE SOLIDUS
+
+/
+
+SOLIDUS
+
+CIRCUMFLEX ACCENT
+
+LOWLINE
+
+\
+
+(underscore)
+
+(backsJash)
+
+RIGHT PARENT HESIS
+
+SEMICO LON
+
+HYPHEN-MINUS
+
+COLON
+
+(slash, divide sign)
+?
+
+Q UESTION MA RK
+
+Some countries have national character sets that do not include all the graphic characters in Table 2-1. C89 (Amendment 1) defined trigraphs and token respellings to allow
+C programs to be written in the ISO 646-1083 Invariant Code Set.
+Additional characters are sometimes used in C source programs, including:
+1. formatting characters such as the backspace (BS) and carriage return (CR) characters,
+
+and
+2. additional Basic Latin characters, including the characters $
+(COMMERClAL AT), and - (ORA VE ACCENT).
+
+(DOLLAR
+
+SIGN),
+
+@
+
+The formatting characters are treated as spaces and do not otherwise affect the source program. The additional graphic characters may appear only in comments. character constants. string constants, and file names.
+References Basic Latin 2.9; character constants 2.7.3 ; comments 2.2; character encoding
+2.1.3; character escape codes 2.7.6; execution character set 2.1.1; string constants 2.7.4; token respellings 2.4; trigraphs 2.1.4
+
+2.1.1 Execution Character Set
+The character set interpreted during the execution of a C program is not necessarily the
+same as the one in which the C program is written. Characters in the execution character
+set are represented by their equivalents in the source character set or by special character
+escape sequences that begin with the backslash (\) character.
+In addition to the standard characters mentioned before, the execution character set
+must also include:
+1. a null character that mu st be encoded as the value 0
+2. a newline character that is used as the end-of-line marker
+
+Sec. 2.1
+
+Character Set
+
+13
+
+3. the alert, backspace, and carriage return characters
+The null character is used to mark the end of string s; the newline character is used to
+divide character streams into lines during input/output. (It must appear to the programmer
+as if this newline character were actually present in text streams in the execution environment. However, the run-time library implementation is free to simulate them. For
+instance, new lines could be converted to end-of-record indications on output, and end-ofrecord indications could be turned into newlines on input.)
+As with the source character set, it is common for the execution character set to include the formatting characters backspace, horizontal tab , vertical tab, form feed, and carriage return. Special escape sequences are provided to represent these characters in the
+source program.
+These source and execution character sets are the same when a C program is compiled and executed on the same computer. However, occasionally programs are crosscompiled; that is, compiled on one computer (the host) and executed on another computer
+(the target). When a compiler calculates the compile-time value of a constant expression
+involving characters, it must use the target computer's encoding, not the more natural (to
+the compiler writer) source encoding.
+References character constants 2.7.3; character encoding 2.1.3; character set 2.1; constant
+expressions 7.11; escape characters 2.7.5; text streams Ch.15
+
+2.1.2 Whitespace and Line Termination
+In C source programs the blank (space), end-of-line, vertical tab, form feed, and horizontal
+tab (if present) are known collectively as whitespace characters. (Comments, discussed
+next, are also whitespace.) These characters are ignored except insofar as they are used to
+separate adjacent tokens or when they appear in character constants, string constants, or
+#include file names. Whitespace characters may be used to layout the C program in a
+way that is pleasing to a human reader.
+The end-of-line character or character sequence marks the end of source program
+lines. In some implementations, the formatting characters carriage return, form feed, and
+(or) vertical tab additionally terminate source lines and are called line break characters.
+Line termination is important for the recognition of preprocessor control lines. The character following a line break character is considered to be the first character of the next line.
+If the first character is a line break character, then another (empty) line is terminated. and
+so forth.
+A source line can be continued onto the next line by ending the first line with a reverse solidus or backslash (\) character or with the Standard C trigraph ?? /. The backslash and end-of-line marker are removed to create a longer, logical source line. This
+convention has always been valid in preprocessor command lines and within string constants, where it is most useful and portable. Standard C, and many non-Standard implementations. generalize it to apply to any source program line. This splicing of source lines
+conceptually occurs before preprocessing and before the lexical analysis of the C program.
+but after trigraph processing and the conversion of any multibyte character sequences to
+the source character set.
+
+14
+
+Lexical Elements
+
+Chap. 2
+
+Example
+Even tokens may be split across lines in Standard C. The two lines:
+
+if (a=_b) X=li e1\
+se X-2i
+are equivalent to the single line
+if
+
+(a __ b) X.1i else X-2i
+
+If an implementation treats any nonstandard source characters as whitespace or line
+breaks, it should handle them exactly as it does blanks and end-of-line markers. respectively. Standard C suggests that an implementation do this by translating all such characters to some canonical representation as the first action when reading the source program.
+However, programmers should probably beware of relying on this by, for example, expecting a backs lash followed by a fonn feed to be eliminated.
+Most C implementations impose a limit on the maximum length of source lines both
+before and after splicing continuation lines. C89 requires implementations to pennit logical source lines of at least 509 characters; C99 allows 4,095 characters.
+References character constants 2.7.3; preprocessor lexical conventions 3.2; source character set 2.1. 1; string constants 2.7.4; tokens 2.3; trigraphs 2.1.4
+
+2.1.3 Character Encoding
+Each character in a computer's (execution) character set will have some conventional encoding-that is. some numerical representation on the computer. This encoding is important because C converts characters to integers, and the values of the integers are the
+conventional encoding of the characters. All of the standard characters listed earlier must
+have distinct, non-negative integer encodings.
+A common C programming error is to assume a particular encoding is in use when,
+in fact, another one holds.
+Example
+The C expression I Z I - I A I +1 computes one more than the difference between the encoding
+of Z and A and might be expected to yield the number of characters in the alphabet. Indeed,
+under the ASCII character set encoding the result is 26, but under the EBCDIC encoding, in
+which the alphabet is not encoded consecutively, the result is 41.
+References
+
+source and execution character sets 2.1.1
+
+2.1.4 Trigraphs
+A set of trigraphs is included in Standard C so that C programs may be written using only
+the ISO 646-1083 Invariant Code Set. a subset of the seven-bit ASCII code set and a code
+set that is common to many non-English national character sets. The trigraphs, introduced
+by two consecutive question mark characters, are listed in Table 2-2. Standard C also provides for respelling of some tokens (Section 2.4) and header &lt;iso646. h&gt; defines macro
+
+Sec. 2.1
+
+Character Set
+
+15
+
+alternatives for some operators, but unlike trigraphs those alternatives will not be recognized in string and character constants.
+Table 2-2
+Trigraph
+
+ISO trigraphs
+
+Replaces
+
+Trigraph
+??)
+
+??(
+
+??&lt;
+
+{
+
+??&gt;
+
+??/
+
+\
+
+?? 1
+
+??'
+1?=
+
+Replaces
+
+}
+
+??#
+
+The translation of trigraphs in the source program occurs before lexical analysis (tokenization) and before the recognition of escape characters in string and character constants. Only these exact nine trigraphs are recognized; all other character sequences (e.g.,
+?? &amp;) are left untranslated. A new character escape, \?, is available to prevent the interpretation of trigraph-likc character sequences.
+Example
+If you want a string to contain a three-character sequence that would ordinarily be interpreted
+as a trigraph, you must use the backlash escape chruacter to quote at least onc of the trigraph
+characters. Therefore, the string constant &quot;Wha t ? \? ! • actually represents a string containing the characters Wha t? ? ! .
+
+To write a string constant containing a single backs lash character, you must writc two consecutive backslashes. (The flfSt quotes the second.) Then each of the backslashes can be translated to the trigraph equivalent. Therefore, the string constant&quot;?? /?? /&quot; represents a string
+containing the single character \.
+References character set 2. 1; escape characters 2.7.5; i80646.h 11.9; string concatenation 2.7.4; token respellings 2.4
+
+2.1.5 Multibyte and Wide Characters
+To accommodate non-English alphabets that may contain a large number of characters,
+Standard C introduces wide characters and wide strings. To represent wide characters and
+strings in the external, byte-oriented world, the concept of multibyte characters is
+introduced. Amendment I to C89 expands the facilities for dealing with wide and multibytc characters.
+Wide characters and strings A wide character is a binary representation of an
+element of an extended character set. It has the integer type wchar_ t , which is declared
+in header file B tdde f . h . Amendment I to C89 added the integer type win t t, which
+must be able to represent all values of type wchar _ t plus an additional, distinguished,
+nonwide character value denoted WEOF . Standard C does not specify any encoding for
+
+Lexical Elements
+
+16
+
+Chap. 2
+
+wide characters, but the value zero is reserved as a &quot;null wide character.&quot; Wide-character
+constants can be specified with a special constant syntax (Section 2.7.3).
+Example
+
+It is typical for a wide character to occupy 16 bits, so wchar_ t could be represented as
+short or unsigned short on a 32-bit computer. Ifwchar_ t were short and the value
+~l were not a valid wide character, then wint_ t could be short and WEOF could be- I.
+However, it is more typical for wint _ t to be int or unsigned int .
+
+If an implementor chooses not to support an extended character set-which is common
+among the U.S . C vendors- then wchar_ t can be defined as char, and the &quot;extended character set&quot; is the same as the normal character set.
+
+A wide string is a contiguous sequence of wide characters ending with a null wide
+character. The null wide character is the wide character whose representation is O. Other
+than this null wide character and the existence of WEOF, Standard C does not specify the
+encoding of the extended character set. Wide-string constants can be specified with spe-
+
+cial string constants (Section 2.7.4).
+Multibyte characters Wide characters may be manipulated as units within a C
+program, but most external media (e.g., files) and the C source program are based on bytesized characters. Programmers experienced with ex tended character sets have devised
+multibyte encoding, which are locale-specific ways to map between a sequence of bytesized characters and a sequence of wide characters.
+A multibyte character is the representation of a wide character in either the source
+or execution character set. (There may be different encoding for each.) A multibyte string
+is therefore a normal C string, but whose characters can be interpreted as a series of multibyte characters. The fonn of multibyte characters and the mapping between multibyte and
+wide characters is implementation-defined. This mapping is perfonned for wide-character
+and wide-string constants at compile time, and the standard library provides functions that
+perform this mapping at run time.
+Multibyte characters might use a state-dependent encoding, in which the interpretation of a multibyte character may depend on the occurrence of previous multibyte characters. Typically such an encoding makes use of shift characters---control characters that are
+part of a multi byte character a nd that alter the interpretation of the current and subsequent
+characters. The current interpretation within a sequence of multi byte characters is called
+the conversion state (or shift state) of the encoding. There is always a distinguished, initial
+conversion (shift) state that is used when starting a conversion of a sequence of multibyte
+characters and that frequently is returned to at the end of the conversion.
+Example
+
+Encoding A- a hypothetical encoding that we use in examples- is state-dependent, with two
+shift states, &quot; up&quot; and &quot;down.&quot; The character i changes the shift state to &quot;up&quot; and the character
+J, changes it to &quot;down.&quot; In the down state, which is the initial state, all nonshift characters
+have their normal interpretation. In the up state, each multibyte character consislS of a pair of
+alphanumeric characters that define a wide character in a manner that we do not specify.
+
+Sec. 2.1
+
+17
+
+Character Set
+
+The following sequences of characters each contain three multi byte characters under
+iog A, beginning in the initial shift state.
+abe
+
+Encod ~
+
+ab i e3
+
+The last string includes shift characters that are not strictly necessary. If redundant shift sequences are permitted, multibyte characters may become arbitrarily long (e.g., J...t.. .••J..x). U n-
+
+less you know what the shift state is at the start of a sequence of multibyte characters, you
+cannot parse a sequence like abcde £, which could represent either three or six wide characters.
+The sequence ab i ?x is invalid under Encoding A because a nonalphanumeric character appears while in the up shift state. The sequence a i bis invalid because the last multibyte character ends prematurely.
+
+Multibyte characters might al so use a state-independent encoding, in which the interpretation of a multibyte character does not depend on previous multi byte characters.
+(A lthough you may have to look at a multibyte sequence from the beginning to locate the
+beginning of a multi byte character in the middle of a string.) For example, the syntax of
+C's escape characters (Section 2.7.5) represents a state-independent encoding for type
+char since the backslash character (\) changes the interpretation of one or more following characters to form a single value of type char.
+Example
+Encoding B-ano ther hypothetical e ncoding-is state-independent and uses a single special
+character, which we denote V, to change the meaning of the following non-nuli character. The
+following sequences each contain three multibyte characters under Encoding B:
+abe
+
+'Va'Vb'Ve
+
+'V'V'V'V'V'V
+
+a 'Vbe
+
+The sequence VVV is not valid under Encoding B because a non-null character is missing at
+the end.
+
+Standard C places some restrictions on multi byte characters:
+1. All characters from the stand ard character set must be present in the encoding.
+2. In the initial shift state, all single-byte characters from the standard character set retain their normal interpretation and do not affect the shift state.
+3. A byte containing all zeroes is taken to be the null character regardless of shift state.
+No multibyte character can use a byte containing all zeroes as its second or subsequent character.
+Together, these rules ensure that multi byte sequences can be processed as nonnal C
+strings (e.g., they will not contain embedded null characters) and a C string without special multibyte codes will have the expected interpretation as a multi byte sequence.
+Source and execution uses of multibyte characters Multibyte characters may
+appear in comments, identifiers, preprocessor header names, string constants, and character constants. Each comment, identifier, header name, string constant, or character constant must begin and end in the initial shift state and must consist of a valid sequence of
+
+18
+
+Lexical Elements
+
+Chap. 2
+
+multi byte characters. Multibyte characters in the physical representation of the source are
+recognized and tran slated to the sourc e character set before any lexical analysis, preprocessing, or even splicing of continuation lines.
+Example
+A Japanese text editing program might allow Japanese characters to be written in string constants and comments. If the text were written to a byte-stream file. then the Japanese characters would be translated to multibyte sequences, which would be acceptable to-and, in the
+case of string constants, understood by-Standard C implementations.
+
+During processing. characters appearing in string and character constants are trans-
+
+lated to the execution character set before they are interpreted as multibyte sequences.
+Therefore, escape sequences (Section 2.7.5) can be used in fonning multibyte characters.
+Comments are removed from a program before thi s stage, so escape sequences in multibyte comments may not be meaningful.
+Example
+If the source and execution character sets are the same, and if I a I has the value 141 8 in the
+execution character set, then the string constant&quot; 'V aa&quot; contains the same two multibyte
+characters as &quot;'V\ 141 \141.&quot; (Encoding B).
+
+References character constant 2.7.3; comments 2.2; multibyte conversion facilities 11.7,
+11.8; string constants 2.7.4; wchar _ tiLl ; WEOF 11.1 ; wide character 2.7.3; wide string 2.7.4;
+wint tl1.1
+
+2.2 COMMENTS
+There are two ways to write a comment in Standard C. Traditionally, a comment begins
+with an occurrence of the two characters / * and ends with the first subsequent occurrence
+of the two characters * /. Comments may contain any number of characters and are always treated as whitespace.
+Beginning with C99, a comment also begins with the characters / / and extends up
+to (but does not include) the next line break. It is possible, but unlikely, that this change
+could break an older C program; it is left as an exercise to detennine how thi s might happen.
+Comments are not recognized inside string or character constants or within other
+comments. The contents of comments are not examined by the C implementation except
+to recognize (and pass over) multibyte characters and line breaks.
+Example
+The following program contains four valid C comments:
+
+Sec. 2.2
+
+Comments
+
+19
+
+1/ Program to compute the squares of
+II the first 10 integers
+#include &lt;stdio.h&gt;
+void Squares ( /* no arguments */ )
+
+{
+int i;
+
+/*
+Loop from 1 to 10,
+printing out the squares
+
+*/
+for (i=l; i&lt;=10; i++)
+printf(&quot; %d //squared// is %d\nn,i,i*i);
+
+}
+Comments are removed by the compiler before preprocessing, so preprocessor commands inside comments will not be recognized, and line breaks inside comments do not
+terminate preprocessor commands.
+Example
+The following two #define commands have the same effect:
+#define ten (2*5)
+#define ten /* ten:
+one greater than nine
+*1 (2*5)
+
+Standard C specifies that all comments are to be replaced by a single space character for
+the purposes of further tran slation of the C program, but some older implementations do
+not insert any whitespace. This affects the behavior of the preprocessor and is discussed in
+Section 3.3.9.
+A few non-Standard C implementations implement &quot;nestable comments,&quot; in which
+each occurrence of / * inside a comment must be balanced by a subsequent * /. This implementation is not standard, and programmers should not depend on it. For a program to
+be acceptable to both implementations of comments, no comment should contain the character sequence / * inside it.
+Example
+To cause the compiler to ignore large parts of a C program, it is best to enclose the parts to be
+removed with the preprocessor commands
+#if 0
+#endif
+
+rather than insert I &quot; before and &quot;I after the text. This avoids having to worry about I&quot;-style
+comments in the enclosed source text.
+References
+whites pace 2.1
+
+#i f preprocessor command 3.5. 1; preprocessor lexical conventions 3.2;
+
+20
+
+Lexical Elements
+
+Chap. 2
+
+2.3 TOKENS
+The characters making up a C program are collected in to lexical tokens according to the
+rules presented in the rest of this chapter. There are five c lasses of token s: operators, separators, identifiers, keyword s, and constants.
+The compiler always fonns the longest tokens possible as it collects characters in
+left-la-right order, even if the result does not make a valid C program. Adjacent tokens
+may be separated by whitespace characters or comments. To prevent confus ion. an identifier, keyword, integer constant, or floating-point constant must always be separated from a
+following identifier, keyword, integer constant, or floating-point constant.
+The preprocessor has slightly different token conventions . In particular. the Standard C preprocessor treats # and ## as tokens~ they would be invalid in traditional C.
+Example
+Characters
+
+CTokens
+
+forwhile
+
+forwhile
+
+b &gt;x
+
+b , &gt;,X
+
+b-&gt;x
+
+b , -&gt;, x
+
+b- -x
+
+b , -- , x
+
+b---x
+
+b , -- ,-, x
+
+In the fourth example, the sequence of characters b--x is invalid C syntax. The tokenization
+b , - , - , x would be valid syntax, but that tokenization is not permitted.
+
+References comments 2.2; constants 2.7; identifiers 2.5; preprocessor tokens 3.2; keywords 2.6; token merging 3.3.9; whitespace characters 2.1
+
+2.4 OPERATORS AND SEPARATORS
+The operator and separator (punctuator) tokens in C are listed in Table 2-3. To assist programmers using 110 devices without certain U.S.-English characters, the alternate spellings&lt;%. %&gt;, &lt; : , : &gt;, %:,and%:% : are equivalent to the punctuators {, }, [, 1, #, ##,
+respectively. In addition to these respellings, the header file iso646 . h defines macros
+that expand to certain operators.
+In traditional C, the compound assignment operators were considered to be two separate tokens-an operator and the equals sign- that can be separated by whitespace. In
+Standard C, the operators are single tokens.
+References compound assignment operators 7.9.2; iso646 . h 11.9; preprocessor tokens
+3.2; !rigraphs 2.1.4
+
+Sec. 2.5
+
+Identifiers
+
+21
+
+Table 2-3
+
+Operators and separators
+
+Token class
+
+Tokens
+! \ A &amp;*_+=
+
+Simple operators
+
+- I
+
+&lt;&gt;/?
+
++= -= *= /= lIs=
+«= »= &amp;= A =
+
+Compound assignment operators
+
+Other compound operators
+
+-;&gt;
+
+++ - - «
+
+t=
+
+»
+
+&lt;= &gt;= == 1 = &amp;&quot;
+
+Separator characters
+
+()
+
+Alternate token spellings
+
+&lt;% %&gt; &lt;:
+
+II
+
+(l{ ) .;
+lis: %:%:
+
+:&gt;
+
+2.5 IDENTIFIERS
+An identifier. or name, is a sequence of Latin capital and small letters, digits, and the underscore or LOW LINE character. An identifier must not begin with a digit, and it must not
+have the same spelling as a keyword.
+Beginning with C99, identifiers may also contain universal character names (Section 2.9) and other implementation-defined multi byte characters. Universal characters
+must not be used to place a digit at the beginning of an identifier and are further restricted
+to be &quot;letter-like&quot; characters and not punctuators. An exact list is provided in the C99 standard (ISOIlEC 9899: 1999, Annex D) and in ISOIIEC TR 10176-1998.
+identifier:
+identifier-nondigit
+identifier identifier-nondigit
+identifier digit
+identifier-nondigit :
+nondigit
+universal-character-name
+
+other implementation-defined characters
+nondigit : one of
+A
+
+B
+
+C
+
+D
+
+N
+
+p
+
+a
+
+0
+b
+
+c
+
+Q
+d
+
+n
+
+0
+
+p
+
+q
+
+r
+
+•
+
+2
+
+3
+
+4
+
+digit: one of
+o 1
+
+E
+R
+
+e
+
+F
+
+G
+
+H
+
+I
+
+J
+
+K
+
+L
+
+M
+
+S
+f
+
+T
+
+V
+
+W
+
+X
+
+Y
+
+Z
+
+g
+
+U
+h
+
+i
+
+v
+
+x
+
+1
+y
+
+m
+
+u
+
+j
+w
+
+k
+
+t
+
+567
+
+8
+
+9
+
+z
+
+Two identifiers are the same when they are spelled identically, including the case of all
+letters. That is, the identifiers abc and aBc are distinct.
+
+22
+
+Lexical Elements
+
+Chap. 2
+
+In addition to avoiding the spelling of the keywords, a C programmer must guard
+against inadvertently duplicating a name used in the standard libraries, either in the current
+Standard or in the &quot;future library directions&quot; portion of the standard. Standard C further
+reserves all identifiers beginning with an underscore and followed by either an uppercase
+letter or another underscore; programmers should avoid using such identifiers. C implementations sometimes use these identifiers for exten sions to Standard C or other internal
+purposes.
+e89 requires implementations to permit a minimum of 31 significant characters in
+identifiers, and e99 raises this minimum to 63 characters. Each universal character name
+or muItibyte sequence is considered to be a single character for this requirement.
+Example
+In a pre-Standard implementation that limited the length of identifiers to eight characters, the
+identifiers countless and countlessone would be considered the same identifier.
+Longer names tend to improve program clarity and thus reduce errors. The use of underscores
+and mixed letter case make long identifiers more readable:
+averylongidentifier
+AVeryLongldentifier
+a _very_ long identifier
+External identifiers-those declared with storage class extern- may have additional spelling restrictions. These identifiers have to be processed by other software, such
+as debuggers and linkers, which may be more limited. C89 requires a minimum capacity
+of only six characters, not counting letter case. C99 raises this to 31 characters, including
+letter case, but allowing universal character names to be treated as 6 characters (up to
+\ UOOOOFFFF)
+
+or 10 characters
+
+(\U00010000
+
+or above). Even before C99, most
+
+implementations allowed external names of at least 3 1 characters.
+Example
+When a C compiler pennits long internal identifiers, but the target computer requires short external names, the preprocessor may be used to hide these short names. In the foll owing code,
+an external error-handling function has the short and somewhat obscure name eh73, but the
+function is referred to by the more readable nameerror _handler. This is done by making
+error_ handler a preprocessor macro that expands to the name eh73 .
+#define error_ handler eh73
+extern void error handler ()1
+error_ handler(&quot;nil pointer error&quot;);
+Some compilers permit characters other than those specified earlier to be used in
+identifiers. The dollar sign ($) is often allowed in identifiers so that programs can access
+special non-C library functions provided by some computing systems.
+References #def ine command 3.3; external names 4.2.9; keywords 2.6; multi byte sequence 2.1.5; reserved library identifiers to.l.1; universal character name 2.9
+
+Sec. 2.6
+
+23
+
+Keywords
+
+2.6 KEYWORDS
+The identifiers listed in Table 2-4 are keywords in Standard C and must not be used as ordinary identifiers. They can be used as macro names since all preprocessing occurs before
+the recognition of these keywords. The keywords _Bool, _Complex, _Imaginary ,
+inline, and restrict are new to e99.
+Table 2--4
+auto
+
+Keywords in C99
+Boola
+
+break
+
+case
+
+char
+
+_ Complexa
+
+const
+
+continue
+
+default
+
+restrict 3
+
+do
+
+double
+
+else
+
+enum
+
+extern
+
+float
+
+for
+
+gete
+
+if
+
+inline
+
+int
+
+long
+
+register
+
+return
+
+short
+
+signed
+
+sizeof
+
+static
+
+struct
+
+switch
+
+typedef
+
+union
+
+unsigned
+
+void
+
+volatile
+
+Imaginary 3
+
+while
+
+a These keywords are new in C99 and are not reserved in C++.
+
+In addition to those listed, the identifiers asm and fortran are common language
+extensions. Programmers might wish to treat as reserved the macros defined in header
+iso646.h (and, and_eq, bitand, biter, compl, not, not_eq, or, or_eq,
+xor , and xer _ eq). Those identifiers are re served in C++.
+Example
+The following code is one of the few cases in which using a macro with the same spelling as a
+keyword is use ful. The definition allows the use of void in a program built with a non·
+Standard compiler.
+#ifndef
+STDC
+#define void int
+#endif
+
+References _ Bool 5.1.5; C++ keywords 2.8; _ complex 5.2.1; #define command 3.3;
+identifiers 2.5; #ifndef command 3.5; inline 9.10; &lt;is0646 .h&gt; header 11.5; restrict
+4.4.6; __ STDC_ 11.3; void type specifier 5.9
+
+2.6.1 Predefined Identifiers
+Although not a keyword, C99 introduces the concept of a predefined identifier and defines
+one such: __ func_ . Unlike a predefined maCfO, a predefined identifier can follow nOfmal block scoping rules. Like keywords, predefined identifiers mu st not be defined by
+programmers.
+
+24
+
+Lexical Elements
+
+Chap. 2
+
+The identifier _ func __ is implicitly declared by C99 implementations as if the
+following declaration appeared after the opening brace of each function definition:
+
+static canst char -
+
+func -
+
+[]
+
+=
+
+nfunction-name n i
+
+This identifier could be used by debugging tool s to print out the name of the enclosing
+function, as in:
+
+if (failed) printf(nFunction %s failed\n&quot;,
+
+func
+
+);
+
+When translating C programs for targets with tight memory constraints, C implementation s will have to be careful about getting rid of these strings if they are not needed at run
+time.
+References
+
+function definiti on 9.1; predefined macro 3.3.4; scope 4. 2.1
+
+2.7 CONSTANTS
+The lexical class of constants includes four different kinds of constants: integers, floatingpoint numbers, characters, and strings:
+constant :
+integer-constant
+floating-constant
+character-constant
+string-constant
+
+Such token s are called literals in other languages to distinguish them from objects whose
+values are constant (Le., not changing) but that do not belong to lexically di stinct classes.
+An example of these latter objects in C is enumeration constants, which belong to the lexical class of identifiers. In this book, we use the traditional C terminology of constant for
+both cases.
+Every constant is characterized by a value and type. The fonnats of the various
+kinds of constants are described in the following sections.
+References character constant 2.7.3; enumeration constants 5.5; floating-point constant
+2.7.2; integer constant 2.7.1; string constant 2.7.4; tokens 2.3; value 7.3
+
+2.7.1 Integer Constants
+Integer constants may be specified in decimal, octal, or hexadecimal notation:
+integer-constant:
+decimal-constant integer-su!ftxopt
+octal-constant integer-sujJixopt
+hexadecimal-constant integer-sujJixopt
+
+Sec. 2.7
+
+25
+
+Constants
+
+decimal-constant:
+nonzero-digit
+decimal-constant digit
+octal-constant :
+
+o
+ocral-constant octaL-digit
+hexadecimal-constant :
+Ox hex-digit
+ox hex-digit
+hexadecimal-constant hex-digit
+
+digit : one of
+0123456
+
+7
+
+B
+
+9
+
+nonzero-digit: one of
+123456789
+
+octal-digit: one of
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+4
+E
+
+5
+
+6
+
+7
+
+8
+
+F
+
+a
+
+b
+
+c
+
+hex-digit: one of
+0
+
+1
+
+2
+
+3
+
+A
+
+B
+
+C
+
+D
+
+integer-suffix:
+long-suffix unsigned-sufjixopt
+long-Long-suffix unsigned-suffUopt
+
+9
+d
+
+e
+
+f
+
+(e99)
+
+unsigned-suffIX Long-sujfixopt
+unsigned-suffix Long-long-suffuopt
+
+(e99)
+
+long-suffix : one of
+1 L
+long-long-suffix: one of
+11 LL
+
+(e99)
+
+unsigned-suffix: one of
+u
+
+U
+
+These are the rules for determining the radix of an integer constant:
+I . If the integer constant begins wi th the letters Ox or ox, then it is in hexadecimal notation, with the characters a through f (or A through F) representing 10 through 15.
+2. Otherwise, if it begins with the digit 0 , then it is in octal notation.
+3. Otherwise, it is in decimal notation.
+
+26
+
+Lexical Elements
+
+Chap. 2
+
+An integer constant may be immediately followed by suffix letters to designate a minimum size for its type:
+• letters 1 or L indicate a constant of type long
+• letters 11 or LL indicate a constant of type long long (C99)
+• letters u or U indicate an unsigned type (int, long, or long long)
+
+The unsigned suffix may be combined with the long or long long suffix in any order. The lowercase letter 1 can be easi ly confused with the digit 1 and should be avoided
+in suffixes.
+The value of an integer constant is always non-negative in the absence of overflow.
+If there is a preceding minus sign. it is taken to be a unary operator applied to the constant,
+not part of the constant.
+The actual type of an integer constant depends on its size, radix, suffix letters, and
+type representation decisions made by the C implementation. The rules for determining
+the type are complicated, and they are different in pre-Standard C, C89, and C99. All the
+rules are shown in Table 2-5.
+If the value of an integer constant exceeds the largest integer representable in the
+last type within its group in Table 2- 5, then the result is undefined. In C99, an implementation may instead assign an extended integer type to these large constants, following the
+signedness conventions in the table. (If all the standard choices are signed, then the extended type must be signed; if all are unsigned, then the extended type must be unsigned;
+otherwise, both signed and unsigned are acceptable.) In C89, infonnation about the representation of integer types is provided in the header file limits. h . In C99, the files
+stdint. hand inttypes. h contain additional information.
+
+To illustrate some of the subtleties of integer constants, assume that type int uses a
+16-bit twos-complement representation, type long uses a 32-bit twos-complement representation, and type long long uses a 64-bit twos-complement representation. We list in
+Table 2-6 some interesting integer constants, their true mathematical values, their typesconventional and under the Standard C rules-and the actual C representation used to
+store the constant.
+An interesting point to note from this table is that integers in the range 2 15 through
+2 16_1 will have positive values when written as decimal constants but negative values
+when written as octal or hexadecimal constants (and cast to type int). Despite these
+anomalies, the programmer is rarely surprised by the values of integer constants because
+the representation of the constants is the same even though the type is in question.
+egg provides some portable control over the size and type of integer constants with
+the macros INTN_c, UINTN_c, INTMAX_C, and UINTMAX_ C defined in stdint.h.
+Example
+If type long has a 32-bit, twos-complement representation, the following program deter-
+
+mines the rules in effect:
+
+Constants
+
+Sec. 2.7
+
+Table 2-5
+
+27
+
+Types of integer constants
+
+Constant
+
+dd ... d
+
+Original C a
+
+int
+
+C89 a
+
+int
+long
+unsigned long
+
+int
+long
+long l ong
+
+int
+unsigned
+long
+
+int
+unsigned
+long
+
+unsigned long
+
+unsigned long
+long long
+unsigned long l ong
+
+nor applicable
+
+unsigned
+unsigned long
+
+unsigned int
+unsigned long
+unsigned long long
+
+long
+
+long
+
+long
+l ong long
+
+long
+
+.. ...
+
+odd ... d
+
+OXdd .. .d
+
+dd... d u
+Odd ... d u
+
+C99 K,b
+
+unsigned
+long
+
+....... ., . .-.......
+
+OXdd ... d U
+
+dd ... d L
+
+unsigned long
+_. .. ..
+.. .... . ....
+odd...d L
+OXdd ... d L
+
+long
+
+.
+
+........
+
+long
+
+long
+
+unsigned l ong
+
+unsigned long
+long long
+
+unsigned long long
+unsigned long
+
+unsigned long
+
+dd ... d UL
+odd .. .d uL
+oxdd ... d UL
+
+nor applicable
+
+dd ... d LL
+
+nor applicable
+
+. ..not.applicable
+......
+
+Odd ... d LL
+OXdd ... d LL
+
+not applicable
+
+nor applicable
+
+long long
+unsigned long long
+
+dd ...d ULL
+Odd ... duL L
+OXdd ... d ULL
+
+not applicable
+
+not applicable
+
+unsigned long long
+
+unsigned long long
+long long
+.........
+. ....
+
+a The chosen type is the first one from the appropriate group that can represent the value of the
+constant without overflow.
+b If none of the listed types is large enough, an extended type may be used if it is available.
+
+#define K OxFFFFFFFF /* -1 in 32-bit, 2's compl. */
+#include &lt;stdio.h&gt;
+int main ()
+
+{
+if (O&lt;K) printf(&quot;K is unsigned (Standard C)\n R ) ;
+else printf(&quot;K is signed (traditional C)\n&quot;);
+return 0;
+
+}
+References conversions of integer types 6.2.3; extended integer types 5.1.4; integer types
+5.1; INTMAX_ c 21.5; INTN_ c 2 1.3; limi ts.h 5.1.1; overflow 7.2.2; stdint. h Ch. 21; unary
+minus operator 7.5.3; unsigned integers 5.1.2
+
+28
+
+Lexical Elements
+
+Table 2-6
+
+Chap. 2
+
+Assignment of types to integer constants
+
+C constant
+notation
+
+True
+
+Traditional
+
+Standard C
+
+Actual
+
+value
+
+type
+
+type
+
+representation
+
+0
+
+0
+
+int
+
+int
+
+0
+
+32767
+
+2 15 - 1
+
+int
+
+int
+
+Ox?FFF
+
+unsigned
+
+int
+
+Ox7FFF
+
+long
+
+long
+
+unsigned
+
+unsigned
+
+long
+
+long
+
+unsigned
+
+unsigned
+
+long
+
+long
+
+OxOOOlOOOO
+
+long
+
+long
+
+OxOOOlOOOO
+
+-1
+
+long
+
+long
+
+Ox? FFFFFFF
+
+-1
+
+long
+
+long
+
+Ox? FFFFFFF
+
+unsigned long
+
+Ox80000000
+
+077777
+
+32768
+
+2 15 -1
+2 15
+15
+
+0100000
+
+2
+
+65535
+
+2 16 - I
+2 16 _ 1
+
+OxFFFF
+
+Oxl OQOO
+
+16
+2
+2 16
+
+214 7 483647
+
+2
+
+65536
+
+Ox7FFFFFFF
+2147483648
+
+2
+
+2
+
+31
+31
+
+31
+
+long'&quot;
+
+OxOOOO8000
+Ox8000
+OxOOODFFFF
+
+OxFFFF
+
+C99; long long
+Ox80000000
+42949 6729 5
+
+2 31
+2 32 - 1
+32
+
+OxFFFFFFFF
+
+2
+
+42949 672 96
+
+2 32
+
+-I
+
+long'&quot;
+
+unsigned long
+
+Ox80000000
+
+long'&quot;
+
+unsigned long
+e99: long l ong
+
+QxOOOOOOOOFFFFFFFF
+
+unsigned long
+
+OxFFFFFFFF
+
+longll
+u ndefined
+
+undefined
+
+C99: long long
+OxlOOOOOOOO
+
+2 32
+
+u ndefined
+
+undefined
+
+C99: long l ong
+
+OxFFFFFFFF
+
+OxO
+OxOOOOOOO1OOOOOOOO
+OxO
+OxOOOOOOO1OOOOOOOO
+
+a The type cannot represent the value exactly.
+
+2.7.2 Floating-Point Constants
+Floating-point constants may be written with a decimal point, a signed exponent, or both.
+Standard C allows a suffix letter (floating-suffix) to designate constants of types float
+and long double . Without a suffix, the type of the constant is double:
+floating-constant:
+decimaL-floating-constant
+hexadecimaljloating-constant
+decimal-floating-constant :
+digit-sequence exponent floating-suffixopl
+dotted-digits exponentop1 jloating-suffixoPI
+digit-sequence:
+digit
+digit-sequence digit
+
+(e99)
+
+Sec. 2.7
+
+29
+
+Constants
+
+dotted-digits :
+digit-sequence .
+digit-sequence. digit-sequence
+. digit-sequence
+digit: one of
+012345678
+
+9
+
+exponent:
+e sign-partopt digit-sequence
+E sign-partopt digit-sequence
+sign-part: one of
++
+
+floating-suffix: one of
+f
+F 1 L
+
+The value of a floatin g-point constant is always non-negative in the ahsence of
+overflow. If there is a preceding minu s sign, it is taken to be a unary operator applied to
+the constant, not part of the constant. If the floating-point constant cannot be represented
+exactly, the implementation may choose the nearest representable value Vor the larger or
+smaller representative value around V. If the magnitude of the floating-point constant is
+too great or too small to be represented, then the result is unpredictable. Some compilers
+will warn the programmer of the problem, but most will silently substitute some other value that can be represented. In Standard C, the floating-point limits are recorded in the
+header file floa t. h. Special floating-point constants such as infinity and NaN (not a
+number) are defined in ma th. h .
+In C99, a complex floating-point constant is written as a floating-point constant expression involving the imaginary constant _ Complex_ I (or I ) defined in complex. h .
+Example
+These are valid decimal floating-point constants: 0. , 3 e 1 , 3 • 14159 , • 0, 1. OE - 3, 1e - 3,
+1. 0, .00034 , 2e+9 . These additional floating-point co nstants are valid in Standard C:
+1. Of , 1. Oe67L, OElL.
+
+An example of a e99 complex constant is 1. 0+1. O*I (if comp1ex.h has been included).
+
+C99 permits floating-point constants to be expressed in hexadecimal notation; previous versions of C had only decimal floating-point constants. The hexadecimal format uses
+the letter p to separate the fraction from the exponent because the customary letter e could
+be confused with a hexadecimal digit. The binary-exponent is a signed decimal number
+that represents a power of 2 (not a power of 10 as in the case of decimal floating-point
+constants, nor a power of 16 as one might guess).
+hexadecimaL-floating-constant:
+(C99)
+hex-prejIX dotted-hex-digits binary-exponent jIoating-suf!ixopl
+hex-prefIX hex-digit-sequence binary-exponent floating-su!fixopt
+
+30
+
+Lexical Elements
+
+Chap. 2
+
+hex-prefu:
+
+Ox
+OX
+dotted-hex-digits :
+
+hex-dig it-sequence •
+hex-digit-sequence • hex-digit-sequence
+• hex-digit-sequence
+hex-digit-sequence :
+hex-digit
+hex-dig it-sequence hex-digit
+binary-exponent :
+p
+P
+
+sign-partopt digit-sequence
+sign-partopt digit-sequence
+
+It may not be possible to represent a hexadecimal floating-point constant exactly if
+FLT_ RADIX (f loa t . h) is not equal to 2. If it is not representable exactly, the designated value mu st be correctly rounded to the nearest representable value.
+References complex. h 23.2; double type 5.2; float. h 5.2; overflow and underflow
+7.2.2; sizes of floating-point types 5.2; unary minus operator 7.5.3
+
+2.7.3 Character Constants
+A character constant is written by enclosing one or more characters in apostrophes. A spe·
+cial escape mechanism is provided to write characters or numeric values that would be inconvenient or impossible to enter directly in the source program. Standard C allows the
+character constant to be preceded by the letter L to specify a wide character constant.
+character·constam :
+c·char·sequence
+L 1 c·char·sequence
+
+(C89)
+
+c·char·sequence :
+c·char
+c-char-sequence c-cha r
+c·char:
+any source character except the apostrophe ( ' ), backslash (\), or new line
+
+escape-character
+universal-character-name
+
+(C99)
+
+The apostrophe, backslash, and newline characters may be included in character constants
+by using escape characters, as described in Section 2.7.5. It is a good idea to use escapes
+for any character that might not be easily readable in the source program, such as the
+
+Sec. 2.7
+
+Constants
+
+31
+
+formatting characters. e99 allows the use of universal character names in character constants (Section 2.9).
+Character constants not preceded by the letter L have type int oIt is typical for such
+a character constant to be a single character or escape code (Section 2.7.7), and the value
+of the constant is the integer encoding of the corresponding character in the execution
+character set. The resulting integer value is computed as if it had been converted from an
+object of type char. For example, if type char were an eight-bit signed type, the character constant '\ 377 I would undergo sign extension and thus have the val ue -1. The value
+of a character constant is implementation-defined if:
+1. there is no corresponding character in the execution character set,
+2. more than a single execution character appears in the constant, or
+3 . a numeric escape has a value not represented in the execution character set.
+Example
+Here are some examples of single-character constants along with their (decimal) values under
+
+the ASCII encoding.
+Character
+
+Value
+
+Character
+
+Value
+
+'.'
+, ,
+
+.7
+
+'A'
+
+65
+
+32
+
+'? '
+
+63
+
+'\r'
+
+13
+
+'\0 '
+
+0
+
+,&quot;,
+
+3.
+
+' \377 '
+
+255
+
+'.
+
+37
+
+'\23 '
+
+,.
+
+56
+
+'\ \ '
+
+92
+
+'.'
+'
+
+Standard C wide character constants, designated by the prefix letter L , have type
+wchar t , an integral type defined in the header file s tddef . h . Their purpose is to allow C programmers to express characters in alphabets (e.g., Japanese) that are too large to
+be represented by type char. Wide character constants typicall y consist of a sequence of
+characters and escape codes that together form a single multibyte character. The mapping
+from the multibyte character to the corresponding wide character is implementationdefined, corresponding to the mbtowc function, which performs that conversion at run
+time. If multibyte characters use a shift-state enCoding, then the wide character constant
+must begin and end in the initial shift state. The value of a wide character constant is
+implementation-defined if it contains more than a single wide character.
+Multicharacter constants Integer and wide character constants can contain a sequence of characters; after mapping that sequence to the execution character set, there
+may still be more than one execution character. The meaning of such a constant is
+imp Ierne ntation -defined .
+One convention with older implementations was to express a four-byte integer constant as a four-character constant, such as I gR8 t I . This usage is nonportable because
+some implementations may not pennit it and implementations differ in the sizes of
+
+32
+
+Lexical Elements
+
+Chap. 2
+
+integers and in their &quot;byte ordering&quot; (i.e., the order in which characters are packed into
+words).
+Example
+In an ASCII implementation with four-byte integers and left-lo-right packing, the value of
+• ABeD I would be 4 1424344 16 , (The value of I A I is Ox41 , I B I is Ox42 , etc.) However, if
+right-lo-Ieft packing were used, the value of 'ABeD I wou ld be 44434241 16 ,
+
+References
+
+ASCII characters App. A; byte order 6.1.2; character encoding 2.1 ; char type
+
+5.1.3; escape characters 2.7.5; fonnatting characters 2.l;mbtowc facility 11.7; multi byte characters
+2. 1.5; wchar t Il.l
+
+2.7.4 String Constants
+A string constant is a (possibly empty) sequence of characters enclosed in double quotes.
+The same escape mechanism provided for character constants can be used to express the
+characters in the stri ng. Standard C allows the string constant to be preceded by the letter
+L to specify a wide string constant.
+string-constant :
+&quot; s-char-sequenceopt &quot;
+L&quot; s-char-sequenceopt &quot;
+
+(C89)
+
+s-char-sequence :
+s-char
+s-char-sequence s-char
+s-cha r :
+any source character except the double quote&quot; ,
+backslash \, or newline character
+escape-character
+universaL-character- name
+
+(C99)
+
+The double quote, backs lash, and newline characters may be included in character constants by using escape characters as described in Section 2.7.5 . It is a good idea to use escapes for any character that might not be easily readable in the source program, such as the
+formatting characters. C99 allows the use of universal character names in string constants
+(Section 2.9).
+Example
+
+Five string constants are listed next.
+
+&quot;&quot;
+• \
+
+1111
+
+&quot;Total expenditures : &quot;
+&quot;Copyright 2000 \
+Texas Instruments • •
+&quot;Comments begin with ' / *' . \ n·
+
+Sec. 2.7
+
+Constants
+
+33
+
+The fourth string is the same as &quot;Copyright 2000 Texas Instruments.
+not contain a newline character between the 0 and the T.
+
+n
+
+;
+
+it does
+
+For each nonwide string constant of n characters, at run time there will be a
+statically allocated block of n+ 1 characters whose first n characters are the characters from
+the string and whose last character is the null character, 1\0 I. This block is the value of
+the string constant and its type is char [n+l]. Wide string constants similarly become n
+wide characters followed by a null wide character and have type wchar t [n+1].
+Example
+The sizeof operator returns the size of its operand, whereas the strlen function (Section
+13.4) returns the number of characters in a string. Therefore, sizeof ( &quot;abcdef n) is 7, not
+
+6,andsizeo£(&quot;&quot;) is l,notO. strlen(&quot;abcdef&quot;) is6and strlen(&quot;&quot;) isO.
+
+If a string constant appears anywhere except as an argument to the address operator
+&amp;, an argument to the sizeof operator, or as an initializer of a character array, then the
+usual array conversions come into play, changing the string from an array of characters to
+a pointer to the first character in the string.
+Example
+
+The declaration char *P = &quot;abcdef&quot;; results in the pointer p being initialized with the
+address a block of memory in which seven characters are stored- , a &quot; 'b', 'c' , 'd',
+'e' , 'f' , and' \0', respectively.
+The value of a single-character string constant and the value of a character constant are quite
+different. The declaration int X = (in t) II AII ; results in X being initialized with (the integer value of) a pointer to a two-character block of memory containing' A' and' \ 0' (if such
+a pointer can be represented as type in t ); but the declaration int y = (int) • A' ; results
+in Y being initialized with the character code for 'A' (Ox41 in the ISO 646 encoding).
+Storage for string constants You should never attempt to modify the memory
+that holds the characters of a string constant since that memory may be read-only-that is,
+physically protected against modification. Some functions (e.g., mktemp) expect to be
+passed pointers to strings that will be modified in place; do not pass string constants to
+those functions. Instead, initialize a (non-const) array of characters to the contents of the
+string constant and pass the address of the first element of the array.
+Example
+
+Consider these three declarations:
+char
+
+pl[]~
+
+&quot;Always writable&quot;;
+
+char *p2 = ·Possibly not writable&quot;;
+const char p3[] = &quot;Never writable·; /* Standard Conly */
+The values ofpl, p2 , and p3 are all pointers to character arrays, but they differ in their writability. The assignment pl (0] ='x' will always work; p2 [0] ='x' may work or may
+cause a run-time error; and p3 [0] '&quot; 'x' will always cause a compile-time error because of
+the meaning of cons t.
+
+34
+
+Lexical Elements
+
+Chap. 2
+
+Do not depend on all string constants being stored at different addresses. Standard C
+allows implementations to use the same storage for two string constants that contain the
+same characters.
+Example
+Here is a simple program that discriminates the various implementations of strings. The as·
+signment to stringl [0] could cause a run-time error if string constants are allocated in
+
+read-ani y memory.
+char *stringl; *string2;
+int main () {
+stringl = &quot;abed&quot;; string2 = &quot;abed&quot;;
+if (stringl==string2) print£{nStrings are shared.\n&quot;);
+else printf(&quot;Strings are not shared.\n R ) ;
+atringl[O] = 111; /* RUN-TIME ERROR POSSIBLE */
+if (*stringl=='l') printf(&quot;Strings writable\n·);
+else printfC&quot;Strings are not writable\nn);
+return 0;
+
+}
+Continuation of strings A string constant is typically written on one source program line. If a string is too long to fit conveniently on one line, all but the final source
+lines containing the string can be ended with a backslash character, \, in which case the
+backslash and end-of-line character(s) are ignored. This allows string constants to be written on more than one line. Some older implementations may remove leading whitespace
+characters from the continuation line, although it is incorrect to do so.
+Standard C automatically concatenates adjacent string constants and adjacent wide
+string constants, placing a single null character at the end of the last string. Therefore, an
+alternative to using the \ continuation mechanism in Standard C programs is to break a
+long string into separate strings. In C99, a wide string and a nonnal string constant can
+also be concatenated in this way, resulting in a wide string constant; in C89, thi s was not
+allowed.
+Example
+The string initializing sl. is acceptable to Standard and pre-Standard C compilers, but the
+string initializing s2 is allowed only in Standard C:
+char slf] : RThis long string is acc\
+eptable to all C compilers. R;
+char s2[] : &quot;This long string is permissible&quot;
+Rin Standard C.R;
+
+A newline character (i.e., the end of line in the execution character set) may be inserted into a string by putting the escape sequence \n in the string constant; this should
+not be confused with line continuation within a string constant.
+Wide strings A string constant prefixed by the letter L is a Standard C wide string
+constant and is of type &quot;array of wchar t.&quot; It represents a sequence of wide characters
+
+Sec. 2.7
+
+35
+
+Constants
+
+from an extended execution character set, such as might be used for a language like Japa·
+nese. The characters in the wide string constant are a multi byte character string, which is
+mapped to a sequence of wide characters in an implementation-defined manner. (The
+mba towcs function perfonns a similar function at run time.) If multibyte characters use a
+shift- state encoding, the wide string constant must start and end in the initial shift state.
+References array types 5.4; const type specifier 4.4.4; versions from array types 6.2.7;
+escape characters 2.7.5; initializers 4.6; mbstowcs facility 11.8; mktemp facility 15.16; multibyte
+characters 2.1.5; pointer types 5.3; preprocessor lexical conventions 3.2; sizeof operator 7.5.2;
+strlen facility 13.4; whitespace characters 2.1; usual unary conversions 6.3.3; wchar _ tiLl ;
+universal character names 2.9
+
+2.7.5 Escape Characters
+Escape characters can be used in character and stri ng constants to represent characters that
+would be awkward or impossible to enter in the source program directly. The escape characters come in two varieties: &quot;character escapes,&quot; which can be used to represent some
+
+particular fonnatting and special characters; and &quot;numeric escapes,&quot; which allow a character to be specified by its numeric encoding. C99 also includes universal character names
+as escapes.
+escape-character:
+\ escape-code
+universal-character-name
+
+(C99)
+
+escape-code:
+character-escape-code
+octal-escape-code
+hex-escape-code
+
+(C89)
+
+character-escape-code : one of
+
+n
+
+t
+
+v
+a
+
+?
+
+\
+
+b
+
+r
+
+f
+
+&quot;
+(C89)
+
+octal-escape-code:
+octal-digit
+octal-digit octal-digit
+octal-digit octal-digit octal-digit
+hex-escape-code :
+x hex-digit
+hex-escape-code hex-digit
+
+(C89)
+
+The meanings of these escapes are discussed in the following sections.
+If the character following the backslash is neither an octal digit, the letter x , nor one
+of the character escape codes listed earlier, the result is undefined. (In traditional C, the
+backslash was ignored.) In Standard C. all lowercase letters following the backslash are re-
+
+36
+
+Lexical Elements
+
+Chap. 2
+
+served for future language extensions. Uppercase letters may be used for implementationspecific extensions.
+References
+
+urn versa! character name 2.9
+
+2.7.6 Character Escape Codes
+Character escape codes are used to represent some common special characters in a fashion
+independent of the target computer character set. The characters that may follow the backslash, and their meanings, are listed in Table 2-7.
+Table 1,-7 Character escape codes
+Escape code
+
+Translation
+
+Escape code
+
+Translation
+
+a'
+
+alert (e.g., bell)
+
+v
+
+vertical tab
+
+b
+
+backspace
+
+\
+
+backslash
+
+f
+
+form feed
+
+n
+
+newline
+
+r
+
+carriage return
+
+t
+
+horizontal tab
+
+single quote
+
+,
+
+&quot;
+
+do uble quote
+question mark
+
+a Standard C addition.
+
+The code \a is typically mapped to a &quot;bell&quot; or other audible signal on the output de·
+vice (e.g., ASCII control-G. whose value is 7). The \? escape is needed to obtain a question mark character in the rare circumstances in which it might be mistaken as part of a
+trigraph.
+The quotation mark (n) may appear without a preceding backslash in character con·
+stants, and the apostrophe ( I ) may appear without a backslash in string constants.
+Example
+To show how the character escapes can be used, here is a small program that counts the number of lines (actually the number of newline characters) in the input. The function get char
+returns the next input character until the end of the input is reached, at which point get char
+returns the value of the macro EOF defined in stdio. h :
+
+Sec. 2.7
+
+37
+
+Constants
+
+#include &lt;stdio . h &gt;
+int main(void) / * Count the number of lines in the input . */
+
+{
+int next_ char;
+int num_ lines '&quot; 0;
+while «next_ char = getchar ()) ! = EOF)
+if (next_ char == ' \ nl)
+++num_ lines;
+printf(· %d lines read. \ n R , num_ lines);
+return 0 ;
+
+}
+References character constants 2.7.3; EOF 15.1; get char fac ili ty 15.6; s tdio. h 15.1;
+string constants 2.7.4; trigraphs 2.1A
+
+2.7.7 Numeric Escape Codes
+Numeric escape codes allow a character from the execution character set to be expressed
+by writing its coded value directly in octal or-in Standard C- hexadecimal notation. Up
+to three octal or any number of hexadecimal digits may appear, but Standard C prohibits
+values outside the range of unsigned char for normal character constants and values
+outside the range of wchar t for wide character constants. For instance, under the
+ASCII encoding the charac ter' a' may be written as ' \ 141' or ' \ x61' and the character '? I as 1 \ 77' or ' \ x3F' . The null character, used to terminate strings, is always
+written as \ O. The value of a numeric escape th at does not correspond to a character in the
+execution charac ter set is implementation-defined.
+Example
+
+The following short code segment illustrates the use of numeric escape codes. The variable
+inchar has type int o
+for (;;)
+
+{
+
+=
+
+inchar
+receive( );
+if (inchar
+' \ 0') continuei
+if (inchar
+' \ 004') break;
+i f (inchar == '\006') reply(' \ 006');
+else reply(' \ 025')i
+
+==
+==
+
+1*
+1*
+1*
+1*
+
+Ignore *1
+Quit *1
+ACK *1
+NAK *1
+
+}
+
+There are two reasons for the programmer to be cautious when using numeric escapes. First, of course, the use of numeric escapes may depend on character encoding and
+therefore be nonportable. It is always better to hide escape codes in macro definitions so
+they are easy to change:
+#define
+#define
+#define
+#define
+
+NUL I \ 0 I
+EOT ' \ 004'
+ACK ' \ 006'
+NAK ' \0 25'
+
+38
+
+Lexical Elements
+
+Chap. 2
+
+Second, the syntax for numeric escapes is delicate; an octal escape code tenninates
+when three octal digits have been used or when the first character that is not an octal digit
+
+is encountered. Therefore, the string &quot;\0111&quot; consists of two characters, \011 and 1,
+and the string &quot;\090 II consists of three characters, \ 0 , 9 . and O. Hexadecimal escape se-
+
+quences also suffer from the tennination problem especially since they can be of any
+length; to stop an Standard C hexadecimal escape in a string, break the string into pieces:
+
+&quot;\xabc&quot;
+&quot;\xab
+
+ll
+
+&quot;e&quot;
+
+/* This string contains one character. */
+/* This string contains two characters. */
+
+Some non-Standard C implementations provide hexadecimal escape sequences that, like
+the octal escapes, permit only up to a fixed number of hexadecimal digits.
+References character constant 2.7.3; #define 3.3; macro definitions 3.3; null character
+2.1; string constant 2.7.4; execution character set 2.1
+
+2.8 Ct+ COMPA TlBILITY
+This sec tion lists the lexical differences between C and C++.
+
+2.8.1 Character Sets
+The token respellings and trigraphs in Standard C are part of the C++ standard, but they are
+not common in pre-Standard e-t+ implementations. Both C and C++ allow universal character names with the same syntax, but only C explicitly allows other implementationdefined characters in identifiers. (One expects that C++ implementations will provide
+them as an extension.)
+
+2.8.2 Comments
+C99 comments are acceptable as C++ and vice versa. Before C99, the characters / / did
+not introduce a comment in Standard C, and so the sequence of characters / /* in C could
+be interpreted differently in C++. (The details are left as an exercise.)
+
+2.8.3 Operators
+There are three new compound operators in C++:
+
+*
+
+-&gt;*
+
+Since these combinations of tokens would be invalid in Standard C programs, there is no
+impact on portability from C to C++.
+
+Sec. 2.9
+
+39
+
+On Character Sets, Repertoires, and Encod ings
+
+2.8.4 Identi fiers and Keywords
+The identifiers listed in Table 2-8 are keywords in C++, but not in C. However, the keyword wchar _ t is reserved in Standard C, and the keywords bool, true, f a ls e are reserved in e99 as part of the standard libraries.
+Thble 2-8
+
+Additional C++ keywords
+
+asm
+
+export
+
+private
+
+throw
+
+bool
+
+false
+
+protected
+
+true
+
+catch
+
+friend
+
+public
+
+try
+
+class
+
+mutable
+
+reinterpret_cast
+
+typeid
+
+const cast
+
+namespace
+
+static cast
+
+type name
+
+delete
+
+new
+
+template
+
+using
+
+dynamic_cast
+
+operator
+
+this
+
+virtual
+
+explicit
+
+wchar t
+
+2.8.5 Character Constants
+Single-character constants have type int in C, but have type c har in C++. Multicharacter constants-which are implementation-defined-have type int in both languages. In
+practice. this makes little difference since in Ct+ character constants used in integral contexts are promoted to int under the usual conversions. However, s i zeo f ( I c I ) is
+si ze o f (char ) in C++, whereas it is sizeo f ( i n t ) in C.
+
+2.9 ON CHARACTER SETS, REPERTOIRES, AND ENCODINGS
+The C language was originally designed at a time when the needs of an international, multilingual programming community were not well understood. Standard C extends the C
+language to accommodate that community. This section is an informal overview of the
+history and problems to be addressed in Standard C to make the language more friendly to
+non-English users.
+Repertoires and ASCII Every culture bases its written communication on a character repertoire of printable letters or symbols. For U.S.-English. the repertoire consists
+of the usual 52 upper- and lowercase letters. the decimal digits, and some punctuation
+characters . There are about 100 of these characters, and they were assigned particular binary values (by U.S.- English programmers and computer manufacturers) using a sevenbit encoding known as ASCII. These encoded characters appeared on standard keyboards
+and found their way into places such as the C language definition.
+Unfortunately, other cultures have di fferent repertoires. For example, English
+speakers in the United Kingdom would rather have £ than $, but seven-bit ASCII does not
+contain it. Languages such as Russian and Hebrew have entirely different alphabets, and
+
+40
+
+Lexical Elements
+
+Chap. 2
+
+Chinese/Japane se/Korean (elK) cultures have repertoires with thou sands of symbols. Programmers today want to build C programs that read and write text in many languages, including their native ones. They also want native language comments and variable names
+in their programs. Programs so written should be portable to other cultures, at least to the
+extent of not being invalid. (You will not be able to read a Sanskrit comment unless you
+understand Sanskrit and your computer can display Sanskrit characters.)
+The full scope of this problem was only gradually realized, by which time several
+partial solutions had been devised and are still supported. For example, the [SO 646- 1083
+Invariant Code Set was defined as a subset of ASCII that is common across many 000English character sets, and ways were invented to replace C characters not in the smaller
+set, including {, }, [, I , and # .
+ISOIIEC 10646 The general solution for character sets is defined by the [SOIlEC
+standard 10646 (plus amendments), Universal Multiple-Octet Coded Character Set
+(UeS). This defines a four-byte (or four-oc/e/) encoding, UCS-4, that is capable ofrepresenting all the characters in all Earthly cultural repertoires with plenty of space left over.
+There is a useful 16-bit subset of UCS-4 called the Basic Multilingual Plane (UCS-2),
+which consists of those UCS-4 encodings whose upper two bytes are zero. UCS-2 can represent all the major cultural repertoires, including about 20,000 ClK ideograms. However,
+16 bits are not quite enough in general, and no larger size less than 32 bits is convenient to
+manipulate on computers, which is why there is UCS-4.
+The Unicode character set standard was originally a 16-bit encoding produced by
+the Unicode Consortium (www.unicode.org). Unicode 3.0 is now fully compatible with
+ISOIlEC 10646. Previous versions were compatible only with UCS-2. The Unicode Web
+site has a good technical introduction to character encoding.
+The character set standards UCS-4, UCS-2, and Unicode are compatible with
+ASCII. The l6-bit characters whose high-order 8 bits are all zero are just the 8-bit extended ASCII characters, now called La/in-I. The original seven-bit ASCII characters, now
+called Basic Latin, are UCS-2 characters whose upper nine bits are zero.
+Wide and multibyte characters Character representation s larger than the traditional eight bits are called wide characters. Unfortunately, the eight-bit (or seven-bit)
+character is not so easily eradicated. Many computers and legacy applications are based on
+eight-bit characters, and various schemes have been devised to represent larger character
+repertoires and wide characters using sequences of eight- or seven-bit characters. These
+are called multibyte encodings or multibyte characters. Whereas wide characters all use a
+fixed-size representation, multibyte characters typically use one byte for some characters,
+two bytes for others, three bytes for others, and so forth . One or more eight-bit characters
+arc trcatcd as &quot;cscapc&quot; or &quot;shift&quot; charactcrs, which start multibytc sequences.
+What we see today in Standard C is a combination of techniques: ways to deal with
+the obvious ASCII variations (trigraphs and digraphs), ways to deal with a full y modem
+wide character environment, ways to deal with multibyte character sequences during 110,
+and, most recently, a way to repre sent any culturally adapted C program in a portable fashion (universal characters and locale-specific characters in identifiers).
+
+Sec. 2.10
+
+41
+
+Exercises
+
+Universal Character Names e99 introduces a notation that allows any UCS-2 or
+UCS-4 character to be specified in character constants, string constants, and identifi ers.
+The syntax is:
+universal-character-name:
+\u hex-quad
+\U hex-quad hex-quad
+hex-quad:
+hex-digit hex-digit hex-digit hex-digit
+
+Each hex-quad is four hexadecimal digits, which can specify a 16-bit value. The values of
+the hex-quads are specified in ISOIIEC 10646 as the four-digit and eight-digit &quot;short identifiers&quot; for universal characters. The character des ignated by \ unnnn is the same as the
+one designated by \ uo 0 0 Onnnn.
+C does not permit universal character names whose short identifier are less than
+OOAO except for 0024 ($). 0040 (@), and 0060 ( , ), nor those whose short identifier lies
+in the range 0800 through DFFF. These are control characters, including DELETE, and
+characters reserved for UTF-16. The result of using token merging to create a universal
+character name is undefined.
+References
+
+identifiers and universal character names 2.5; token merging 3.3.9
+
+2.10 EXERCISES
+l.
+
+2.
+
+3.
+
+Which of the following are lexjcal tokens?
+(a) keywords
+(b) comments
+(c) whitespace
+(d) hexadecimal constants
+
+(e)
+(f)
+
+trigraphs
+
+wide string constants
+(g) parentheses
+
+Assume the following strings of source characters were processed by a Standard C compiler.
+Which strings would be recognized as a sequence of C tokens? How many tokens would be
+found in each case? (Do not worry if some of the token sequences could not appear in a valid C
+program.)
+(a) x++y
+(f) x**2
+(b)
+(c)
+
+-12uL
+1- 37E+6L
+
+(d)
+(e)
+
+&quot;String n nFOO&quot;· ·
+&quot;String+ \ &quot;FOO \ n&quot;
+
+(g) ·X?? /&quot;
+(b) B$C
+(i) A*=B
+G) while##DO
+
+Eliminate all the comments from the following C program fragment.
+/ ** / */*&quot;*/* / *&quot; // * // **/*/
+
+4.
+
+A Standard C compiler must perform each of the fo llowing actions on an input program. In
+what order are the actions performed?
+collecting charac ters into tokens
+removing comments
+converting trigraphs
+
+42
+
+Lexical Elements
+
+Chap. 2
+
+processing line continuation
+5.
+
+Some poor choices for program identifiers are shown here. What makes them poor choices?
+(a) pipesendintake
+(d) 077U
+(b) Const
+(e) SYS$input
+(c)
+
+6.
+
+10
+
+Write some simple code fragments in Standard C that would be invalid or interpreted different·
+Iy in C++ for the reason listed:
+(a) No I I-style comments in e89
+(c) keyword conflicts
+(b) type of constants
+
+3
+The C Preprocessor
+
+The C preprocessor is a simple macro processor that conceptually processes th</pre></div>                                                                    </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr style="height:60px">
+                    <td id="footer" valign="top">
+                        <div class="container-fluid">
+<!-- footer begin -->
+<div class="row">
+    <div class="col-md-12">
+        <div style="float:left; color:#888; font-size:13px;">
+            <span style="font-style:italic;">Free ebooks since 2009. <a style="margin:0 5px 0 20px" href="mailto:support@bookmail.org">support@bookmail.org</a></span>
+            <span style="margin:0 0 0 15px;"> <a href="/faq.php">FAQ</a></span>
+            <span style="margin:0 0 0 15px;"> <a href="/blog/">Blog</a></span>
+        </div>
+        <div style="float: right;" role="navigation">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/privacy.php">Privacy</a></li>
+                <li><a href="/dmca.php">DMCA</a></li>
+                <li class="dropup">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">English <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a onclick="setLanguage('en'); return false;" href="//en.b-ok.cc/book/865876/8f2275">English</a></li><li><a onclick="setLanguage('ru'); return false;" href="//ru.b-ok.cc/book/865876/8f2275">Русский</a></li><li><a onclick="setLanguage('ua'); return false;" href="//ua.b-ok.cc/book/865876/8f2275">Українська</a></li><li><a onclick="setLanguage('pl'); return false;" href="//pl.b-ok.cc/book/865876/8f2275">Polski</a></li><li><a onclick="setLanguage('it'); return false;" href="//it.b-ok.cc/book/865876/8f2275">Italiano</a></li><li><a onclick="setLanguage('es'); return false;" href="//es.b-ok.cc/book/865876/8f2275">Español</a></li><li><a onclick="setLanguage('zh'); return false;" href="//zh.b-ok.cc/book/865876/8f2275">汉语</a></li><li><a onclick="setLanguage('id'); return false;" href="//id.b-ok.cc/book/865876/8f2275">Bahasa Indonesia</a></li><li><a onclick="setLanguage('in'); return false;" href="//in.b-ok.cc/book/865876/8f2275">हिन्दी</a></li><li><a onclick="setLanguage('pt'); return false;" href="//pt.b-ok.cc/book/865876/8f2275">Português</a></li><li><a onclick="setLanguage('jp'); return false;" href="//jp.b-ok.cc/book/865876/8f2275">日本語</a></li><li><a onclick="setLanguage('de'); return false;" href="//de.b-ok.cc/book/865876/8f2275">Deutsch</a></li><li><a onclick="setLanguage('fr'); return false;" href="//fr.b-ok.cc/book/865876/8f2275">Français</a></li><li><a onclick="setLanguage('th'); return false;" href="//th.b-ok.cc/book/865876/8f2275">ภาษาไทย</a></li><li><a onclick="setLanguage('el'); return false;" href="//el.b-ok.cc/book/865876/8f2275">ελληνικά </a></li><li><a onclick="setLanguage('ar'); return false;" href="//ar.b-ok.cc/book/865876/8f2275">اللغة العربية</a></li>                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div></div>
+                    </td>
+                </tr>
+            </tbody></table>
+
+
+        <script type="text/javascript" src="/scripts/root.js?version=1x03"></script>
+        <script type="text/javascript" src="/ext/paginator3000/jquery.paginator.3000.js"></script>
+        <script>
+            if (typeof pagerOptions !== "undefined" && pagerOptions) {
+                $('div.paginator').paginator(pagerOptions);
+            }
+        </script>
+        <!-- ggAdditionalHtml -->
+        
+    <script>
+        var Config = {"currentLanguage":"en","L":{"90":"The file is located on an external resource","91":"It is a folder","92":"File from disk storage","93":"File is aviable by direct link","94":"Popular","95":"Limitation of downloading: no more than 2 files at same time","96":"Size","97":" Language","98":"Category","99":"Find all the author's book"}};
+    </script>
+    <!--LiveInternet counter--><script type="text/javascript">
+new Image().src = "//counter.yadro.ru/hit;bookzz?r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random();</script><!--/LiveInternet-->
+
+<iframe name="uploader" id="uploader" style="border:0px solid #ddd; width:90%; display:none;"></iframe>        <!-- /ggAdditionalHtml -->
+        <script src="/adhelper/helpers.js"></script><script src="/adhelper/jquert.jsRotate.js"></script>    </body>
+</html>

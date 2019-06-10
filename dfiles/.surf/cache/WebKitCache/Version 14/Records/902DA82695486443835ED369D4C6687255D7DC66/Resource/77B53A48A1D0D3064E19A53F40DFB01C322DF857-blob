@@ -1,0 +1,2252 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>C reference manual: free download. Ebooks library. On-line books store on Z-Library</title>
+<base href="/">
+
+                        <meta charset="utf-8">		                       
+                        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+                        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                        <meta name="viewport" content="width=device-width, initial-scale=1">
+                        <meta name="title" content="C reference manual: free download. Ebooks library. On-line books store on Z-Library">
+			<meta name="description" content="C reference manual: free download. Ebooks library. On-line books store on Z-Library | B–OK. Download books for free. Find books">
+			<meta name="robots" content="index,all">
+			<meta name="distribution" content="global">
+			<meta http-equiv="cache-control" content="no-cache">
+			<meta http-equiv="pragma" content="no-cache">
+
+                        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+                        <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+                        <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+                        <link rel="manifest" href="/manifest.json">
+                        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+                        <meta name="apple-mobile-web-app-title" content="Z-Library">
+                        <meta name="application-name" content="Z-Library">
+                        <meta name="theme-color" content="#ffffff">
+
+                        <meta name="propeller" content="49c350d528ba144cace841cac74260ab">
+	
+<!-- CSS SET -->
+<link rel="stylesheet" type="text/css" href="/css/bootstrap/css/bootstrap.min.css?version=0.142" >
+<link rel="stylesheet" type="text/css" href="/css/root.css?version=0.142" >
+<!-- JS SET --> 
+<script type="text/javascript" language="JavaScript" src="https://code.jquery.com/jquery-2.2.4.min.js?version=0.142"></script>
+<script type="text/javascript" language="JavaScript" src="/scripts/underscore.js?version=0.142"></script>
+<script type="text/javascript" language="JavaScript" src="/css/bootstrap/js/bootstrap.min.js?version=0.142"></script>
+<link REL="SHORTCUT ICON" HREF="/favicon.ico">
+        <link rel="search" type="application/opensearchdescription+xml" href="http://search.xml" title="Search for books in the library B-OK.org" />
+    </head>
+    <body style="margin:0px;padding:0px;" class="search">
+        
+        <table border="0" height="100%" width="100%" style="height:100%;" cellpadding="0" cellspacing="0"><tbody>
+                <tr style="height:10px;">
+                    <td>
+                        <div class="container-fluid">
+                            
+<div class="row">
+    <div class="col-md-12">
+        <div id="colorBoxes" class="darkShadow">
+            <ul>
+                <a href="/"><li style="background: #49afd0;">4,732,763 books</li></a>
+                <a href="http://booksc.xyz"><li style="background: #90a5a8;">74,620,210 articles</li></a>
+                <li style="background: #8ecd51;">for free</li>
+            </ul>
+        </div>
+
+
+
+        <div role="navigation" class="navbar-default" style="background-color: transparent;">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right" style="">
+                                            <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sign in <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://singlelogin.org?from=b-ok.cc">Login</a></li>
+                                <li><a href="https://singlelogin.org/registration.php">Registration</a></li>
+                            </ul>
+                        </li>
+                    
+                    <li>
+                        <a href="/howtodonate.php" style="color:#8EB46A;">Donate</a>                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span style="font-size: 120%;" class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-header">Books</li>
+                                                            <li><a href="/book-add.php">Add book</a></li>
+                                <li><a href="/categories">Categories</a></li>
+                                <li><a href="/popular.php">Most Popular</a></li>
+                                                            <li><a href="/recently.php">Recently Added</a></li>
+                                                            <li role="separator" class="divider"></li>
+                                <li class="dropdown-header">Z-Library Project</li>
+                                <li><a href="/blog/">Blog</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+
+
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="container" style="max-width: 1000px;padding-bottom: 40px;">
+                            <div class="row">
+                                <div class="col-md-12 itemFullText">
+                                    
+
+<div id="searchFormWithLogo">
+    <div style="text-align: center;">
+        <div style="font-size:52px;padding:15px 15px 0px 15px;">
+            <a href="/" style="text-decoration:none;" id="logoText" class="darkShadow"><span class="color1">Z</span><span class="color2">Library</span></a>
+        </div>
+        <div class="color4" style="color:#90A5A8;font-weight:400; padding:15px 0 15px 0;font-style: italic;">Part of Z-Library project. The world's largest ebook library.</div>
+    </div>
+    
+    <style>
+        #advSearch-wrapper{
+            margin-top: 4px;height: 20px;
+        }
+        #advSearch-wrapper input,#advSearch-wrapper select{
+            font-size: smaller;
+        }
+    </style>
+    <a name="s"></a>
+    <form method="get" id="searchForm" action="/s/">
+        <div class="b-search-form hover">
+            <div class="b-search-input g-clearfix">
+                <div class="input">
+                    <input type="text" maxlength="200" name="q" id="searchFieldx" value="C reference manual" placeholder="Search for title, author, ISBN, md5..">
+                </div>
+                <div class="button whiteShadow">
+                    <div class="inner"><input type="submit" value="search"></div>
+                </div>
+            </div>
+        </div>
+        <div style="overflow: hidden;padding-bottom: 5px;">
+            <div id="advSearch-wrapper" style="float:left;margin-right: 25px;">
+                <div >
+                    <span id="advSearch-control" style="border-bottom: 1px dashed; color: #777;font-size: 14px;cursor:pointer;">Advanced search</span>
+                </div>
+                <div style="display:none;" id="advSearch">
+                    <input type="checkbox" name="e" value="1" id="ftcb" > <label for="ftcb">Exact matching</label>
+                    <select disabled="" name="yearFrom" ><option value='' selected>Year from</option><option value='2019' >2019</option><option value='2018' >2018</option><option value='2017' >2017</option><option value='2016' >2016</option><option value='2015' >2015</option><option value='2014' >2014</option><option value='2013' >2013</option><option value='2012' >2012</option><option value='2011' >2011</option><option value='2010' >2010</option><option value='2009' >2009</option><option value='2008' >2008</option><option value='2007' >2007</option><option value='2006' >2006</option><option value='2005' >2005</option><option value='2004' >2004</option><option value='2003' >2003</option><option value='2002' >2002</option><option value='2001' >2001</option><option value='2000' >2000</option><option value='1999' >1999</option><option value='1998' >1998</option><option value='1997' >1997</option><option value='1996' >1996</option><option value='1995' >1995</option><option value='1994' >1994</option><option value='1993' >1993</option><option value='1992' >1992</option><option value='1991' >1991</option><option value='1990' >1990</option><option value='1989' >1989</option><option value='1988' >1988</option><option value='1987' >1987</option><option value='1986' >1986</option><option value='1985' >1985</option><option value='1984' >1984</option><option value='1983' >1983</option><option value='1982' >1982</option><option value='1981' >1981</option><option value='1980' >1980</option><option value='1979' >1979</option><option value='1978' >1978</option><option value='1977' >1977</option><option value='1976' >1976</option><option value='1975' >1975</option><option value='1974' >1974</option><option value='1973' >1973</option><option value='1972' >1972</option><option value='1971' >1971</option><option value='1970' >1970</option><option value='1969' >1969</option><option value='1968' >1968</option><option value='1967' >1967</option><option value='1966' >1966</option><option value='1965' >1965</option><option value='1964' >1964</option><option value='1963' >1963</option><option value='1962' >1962</option><option value='1961' >1961</option><option value='1960' >1960</option><option value='1959' >1959</option><option value='1958' >1958</option><option value='1957' >1957</option><option value='1956' >1956</option><option value='1955' >1955</option><option value='1954' >1954</option><option value='1953' >1953</option><option value='1952' >1952</option><option value='1951' >1951</option><option value='1950' >1950</option><option value='1949' >1949</option><option value='1948' >1948</option><option value='1947' >1947</option><option value='1946' >1946</option><option value='1945' >1945</option><option value='1944' >1944</option><option value='1943' >1943</option><option value='1942' >1942</option><option value='1941' >1941</option><option value='1940' >1940</option><option value='1939' >1939</option><option value='1938' >1938</option><option value='1937' >1937</option><option value='1936' >1936</option><option value='1935' >1935</option><option value='1934' >1934</option><option value='1933' >1933</option><option value='1932' >1932</option><option value='1931' >1931</option><option value='1930' >1930</option><option value='1929' >1929</option><option value='1928' >1928</option><option value='1927' >1927</option><option value='1926' >1926</option><option value='1925' >1925</option><option value='1924' >1924</option><option value='1923' >1923</option><option value='1922' >1922</option><option value='1921' >1921</option><option value='1920' >1920</option><option value='1919' >1919</option></select>                    <select disabled="" name="yearTo" ><option value='' selected>Year to</option><option value='2019' >2019</option><option value='2018' >2018</option><option value='2017' >2017</option><option value='2016' >2016</option><option value='2015' >2015</option><option value='2014' >2014</option><option value='2013' >2013</option><option value='2012' >2012</option><option value='2011' >2011</option><option value='2010' >2010</option><option value='2009' >2009</option><option value='2008' >2008</option><option value='2007' >2007</option><option value='2006' >2006</option><option value='2005' >2005</option><option value='2004' >2004</option><option value='2003' >2003</option><option value='2002' >2002</option><option value='2001' >2001</option><option value='2000' >2000</option><option value='1999' >1999</option><option value='1998' >1998</option><option value='1997' >1997</option><option value='1996' >1996</option><option value='1995' >1995</option><option value='1994' >1994</option><option value='1993' >1993</option><option value='1992' >1992</option><option value='1991' >1991</option><option value='1990' >1990</option><option value='1989' >1989</option><option value='1988' >1988</option><option value='1987' >1987</option><option value='1986' >1986</option><option value='1985' >1985</option><option value='1984' >1984</option><option value='1983' >1983</option><option value='1982' >1982</option><option value='1981' >1981</option><option value='1980' >1980</option><option value='1979' >1979</option><option value='1978' >1978</option><option value='1977' >1977</option><option value='1976' >1976</option><option value='1975' >1975</option><option value='1974' >1974</option><option value='1973' >1973</option><option value='1972' >1972</option><option value='1971' >1971</option><option value='1970' >1970</option><option value='1969' >1969</option><option value='1968' >1968</option><option value='1967' >1967</option><option value='1966' >1966</option><option value='1965' >1965</option><option value='1964' >1964</option><option value='1963' >1963</option><option value='1962' >1962</option><option value='1961' >1961</option><option value='1960' >1960</option><option value='1959' >1959</option><option value='1958' >1958</option><option value='1957' >1957</option><option value='1956' >1956</option><option value='1955' >1955</option><option value='1954' >1954</option><option value='1953' >1953</option><option value='1952' >1952</option><option value='1951' >1951</option><option value='1950' >1950</option><option value='1949' >1949</option><option value='1948' >1948</option><option value='1947' >1947</option><option value='1946' >1946</option><option value='1945' >1945</option><option value='1944' >1944</option><option value='1943' >1943</option><option value='1942' >1942</option><option value='1941' >1941</option><option value='1940' >1940</option><option value='1939' >1939</option><option value='1938' >1938</option><option value='1937' >1937</option><option value='1936' >1936</option><option value='1935' >1935</option><option value='1934' >1934</option><option value='1933' >1933</option><option value='1932' >1932</option><option value='1931' >1931</option><option value='1930' >1930</option><option value='1929' >1929</option><option value='1928' >1928</option><option value='1927' >1927</option><option value='1926' >1926</option><option value='1925' >1925</option><option value='1924' >1924</option><option value='1923' >1923</option><option value='1922' >1922</option><option value='1921' >1921</option><option value='1920' >1920</option><option value='1919' >1919</option></select>                    <select disabled="" name="language" ><option value='' selected>Any Language</option><option value='english' >English</option><option value='russian' >Russian</option><option value='german' >German</option><option value='spanish' >Spanish</option><option value='dutch' >Dutch</option><option value='french' >French</option><option value='italian' >Italian</option><option value='ukrainian' >Ukrainian</option><option value='polish' >Polish</option><option value='portuguese' >Portuguese</option><option value='bulgarian' >Bulgarian</option><option value='chinese' >Chinese</option><option value='greek' >Greek</option><option value='romanian' >Romanian</option><option value='turkish' >Turkish</option><option value='persian' >Persian</option><option value='arabic' >Arabic</option><option value='japanese' >Japanese</option></select>                    <select disabled="" name="extension" ><option value='' selected>Any Extension</option><option value='pdf' >pdf</option><option value='epub' >epub</option><option value='djvu' >djvu</option><option value='fb2' >fb2</option><option value='txt' >txt</option><option value='rar' >rar</option><option value='mobi' >mobi</option><option value='lit' >lit</option><option value='doc' >doc</option><option value='rtf' >rtf</option></select>                </div>
+            </div>
+<a href="/fulltext/" style="margin: 4px 0 0 0;float:left;">Full-text search</a>            <iframe src="//www.facebook.com/plugins/like.php?app_id=128855137202847&amp;href=http%3A%2F%2Fb-ok.cc%2F&amp;send=false&amp;layout=button_count&amp;show_faces=true&amp;action=recommend&amp;colorscheme=light&amp;font&amp;" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:20px;float:right;margin-top:0;width:120px;" allowTransparency="true"></iframe>
+        </div>
+    </form>
+</div>
+
+<style>
+    #advSearch{
+        float:left;
+    }
+</style>
+
+<script>
+    $("#searchForm").submit(function ()
+    {
+        $(this).children('select[value=""]').attr("disabled", "disabled");
+        $.each($("#searchForm select, #searchForm input"), function (key, value) {
+            if ($(this).val() == "") {
+                $(this).attr("disabled", "disabled");
+            }
+        });
+        return true;
+    });
+</script><script type="text/javascript" src="/scripts/jquery.lazy.min.js"></script>
+
+<style>
+    #subprojectsSearch li.orderFilter{
+        float: right;
+        margin: 0;
+        padding: 12px 0;
+        font-size: 14px;
+    }
+
+    .orderFilter option{
+        color: #000;
+    }
+</style>
+<script>
+    $(function () {
+        $('.lazy').Lazy({
+            effect: 'fadeIn',
+            effectTime: 1000,
+            beforeLoad: function (element) {
+                $(element).css({"border-width": "0px"});
+            },
+            afterLoad: function (element) {
+                $(element).css({"border-width": "1px"});
+            }
+        });
+    });
+</script>
+
+
+
+
+
+
+<ul id="subprojectsSearch" style="margin-top:40px;"><li class="active">Books <span class="totalCounter">(500+)</span></li><li class="searchServiceStats" data-contentmode="articles"><a href="//booksc.xyz/s/?q=C+reference+manual">Articles</a> <span class="totalCounter"></span></li>
+<li class="orderFilter">
+    <div class="dropdown" style="text-align: right;">
+      <a data-toggle="dropdown" href="#" style="color: #49AFD0">Most Popular <b class="caret"></b></a>
+      <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+        <li><a href="/s/?q=C+reference+manual"><b>Most Popular</b></a></li>
+        <li><a href="/s/?q=C+reference+manual&order=bestmatch"><b>Best Match</b></a></li>
+        <li><a href="/s/?q=C+reference+manual&order=date">Recently added</a></li>
+        <li><a href="/s/?q=C+reference+manual&order=year">By Year</a></li> 
+        <li><a href="/s/?q=C+reference+manual&order=title">By Title</a></li>
+        <li><a href="/s/?q=C+reference+manual&order=fsize">By Size ↓</a></li>
+        <li><a href="/s/?q=C+reference+manual&order=fsizeA">By Size ↑</a></li>
+      </ul>
+    </div>
+</li></ul><div id="searchResultBox"><div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">1</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/66/f2/7c/66f27c5c05074dcdf1e2b1ac11d14c6f.jpg" data-srcset="//b-ok.cc/covers100/books/66/f2/7c/66f27c5c05074dcdf1e2b1ac11d14c6f.jpg 1x, //b-ok.cc/covers200/books/66/f2/7c/66f27c5c05074dcdf1e2b1ac11d14c6f.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/2484898/acb6ae" class="tdn">Civil Engineering Reference Manual for the PE Exam</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Michael R. Lindeburg">Michael R. Lindeburg</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/2484898/acb6ae" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2014
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 38.27 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">2</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/2c/98/8a/2c988a2e595d07b9e5fdf01699cd62b6.jpg" data-srcset="//b-ok.cc/covers100/books/2c/98/8a/2c988a2e595d07b9e5fdf01699cd62b6.jpg 1x, //b-ok.cc/covers200/books/2c/98/8a/2c988a2e595d07b9e5fdf01699cd62b6.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/980151/d35e93" class="tdn">Applied Kinesiology: A Training Manual and Reference Book of Basic Principles and Practices</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Robert Frost">Robert Frost</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/980151/d35e93" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2002
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 31.88 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<center></center><div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">3</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/e7/68/d2/e768d201cc38306ea9e664a982eedd1c.jpg" data-srcset="//b-ok.cc/covers100/books/e7/68/d2/e768d201cc38306ea9e664a982eedd1c.jpg 1x, //b-ok.cc/covers200/books/e7/68/d2/e768d201cc38306ea9e664a982eedd1c.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/3679646/333bc1" class="tdn">Manual de gramatica - Grammar Reference for Students of Spanish</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Zulma Iguina">Zulma Iguina</a>, <a itemprop="author" title="Find all the author's book" href="/author/Eleanor Dozier">Eleanor Dozier</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/3679646/333bc1" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2013
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english/spanish
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 7.40 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">4</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/c6/64/dd/c664ddb0332f0f3b8b7131648f534666.jpg" data-srcset="//b-ok.cc/covers100/books/c6/64/dd/c664ddb0332f0f3b8b7131648f534666.jpg 1x, //b-ok.cc/covers200/books/c6/64/dd/c664ddb0332f0f3b8b7131648f534666.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/2817249/e9dc18" class="tdn">POTENTIAL FAILURE MODE AND EFFECTS ANALYSIS (FMEA) Reference Manual Fourth Edition</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/GENERAL MOTORS CORP">GENERAL MOTORS CORP</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/2817249/e9dc18" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 2.74 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">5</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/c4/67/2d/c4672d4a83d77d66ab03a408d68d1287.jpg" data-srcset="//b-ok.cc/covers100/books/c4/67/2d/c4672d4a83d77d66ab03a408d68d1287.jpg 1x, //b-ok.cc/covers200/books/c4/67/2d/c4672d4a83d77d66ab03a408d68d1287.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/2484902/f7958e" class="tdn">Structural Depth Reference Manual for the Civil PE Exam</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Alan Williams PhD  SE  FICE  C Eng">Alan Williams PhD  SE  FICE  C Eng</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/2484902/f7958e" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2012
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 10.44 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<center></center><div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">6</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/15/ff/de/15ffde1df9bc9b192e5681412216dcc6.jpg" data-srcset="//b-ok.cc/covers100/books/15/ff/de/15ffde1df9bc9b192e5681412216dcc6.jpg 1x, //b-ok.cc/covers200/books/15/ff/de/15ffde1df9bc9b192e5681412216dcc6.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/2826173/497fa8" class="tdn">Civil Engineering Reference Manual for PE Exam (15th Edition)</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Michael R. Lindeburg">Michael R. Lindeburg</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/2826173/497fa8" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 40.98 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">7</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/fd/04/a9/fd04a9917517d11f3b33481f5a4eb88d.jpg" data-srcset="//b-ok.cc/covers100/books/fd/04/a9/fd04a9917517d11f3b33481f5a4eb88d.jpg 1x, //b-ok.cc/covers200/books/fd/04/a9/fd04a9917517d11f3b33481f5a4eb88d.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/3299188/b51609" class="tdn">Stata graphics Reference manual, Release 14</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Stata.">Stata.</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/3299188/b51609" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 12.51 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">8</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/ff/3b/b1/ff3bb152fdeb7ff6e0f1718af808dd10.jpg" data-srcset="//b-ok.cc/covers100/books/ff/3b/b1/ff3bb152fdeb7ff6e0f1718af808dd10.jpg 1x, //b-ok.cc/covers200/books/ff/3b/b1/ff3bb152fdeb7ff6e0f1718af808dd10.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/865231/b49794" class="tdn">Clinical Prediction Rules: A Physical Therapy Reference Manual (Jone's and Bartlett's Contemporary Issues in Physical Therapy and Rehabilitation Medicine)</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Paul E. Glynn">Paul E. Glynn</a>, <a itemprop="author" title="Find all the author's book" href="/author/P. Cody Weisbach">P. Cody Weisbach</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/865231/b49794" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 16.61 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">9</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/36/df/b2/36dfb29a8291e11ec9211e4299f920fc.jpg" data-srcset="//b-ok.cc/covers100/books/36/df/b2/36dfb29a8291e11ec9211e4299f920fc.jpg 1x, //b-ok.cc/covers200/books/36/df/b2/36dfb29a8291e11ec9211e4299f920fc.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/2566842/fdefc5" class="tdn">Structural Engineering Reference Manual</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Alan Williams">Alan Williams</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/2566842/fdefc5" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2015
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 12.85 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<center></center><div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">10</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/73/3d/88/733d883ee358f9759104b639dca4c116.jpg" data-srcset="//b-ok.cc/covers100/books/73/3d/88/733d883ee358f9759104b639dca4c116.jpg 1x, //b-ok.cc/covers200/books/73/3d/88/733d883ee358f9759104b639dca4c116.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/2695697/11a9bc" class="tdn">The Python Language Reference Manual</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Chris Sheridan">Chris Sheridan</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/2695697/11a9bc" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2016
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 1.09 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">11</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/b3/27/8e/b3278e8d8f15dc49827f04750bae7251.jpg" data-srcset="//b-ok.cc/covers100/books/b3/27/8e/b3278e8d8f15dc49827f04750bae7251.jpg 1x, //b-ok.cc/covers200/books/b3/27/8e/b3278e8d8f15dc49827f04750bae7251.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/2739359/d85b1f" class="tdn">Blender Reference Manual. Volume 1: Getting Started, Interface, and Editors</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Blender Foundation">Blender Foundation</a>, <a itemprop="author" title="Find all the author's book" href="/author/Joking Reaper">Joking Reaper</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/2739359/d85b1f" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2016
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 59.52 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">12</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/8e/4b/40/8e4b40ed4e66e3ed97b980959857b31c.jpg" data-srcset="//b-ok.cc/covers100/books/8e/4b/40/8e4b40ed4e66e3ed97b980959857b31c.jpg 1x, //b-ok.cc/covers200/books/8e/4b/40/8e4b40ed4e66e3ed97b980959857b31c.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/3384988/3a778b" class="tdn">GNU Emacs Lisp Reference Manual</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Bil Lewis">Bil Lewis</a>, <a itemprop="author" title="Find all the author's book" href="/author/Dan LaLiberte">Dan LaLiberte</a>, <a itemprop="author" title="Find all the author's book" href="/author/Richard Stallman">Richard Stallman</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/3384988/3a778b" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2015
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 3.69 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">13</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/7a/fe/1b/7afe1b0dbe306a0071fda0853f9c1240.jpg" data-srcset="//b-ok.cc/covers100/books/7a/fe/1b/7afe1b0dbe306a0071fda0853f9c1240.jpg 1x, //b-ok.cc/covers200/books/7a/fe/1b/7afe1b0dbe306a0071fda0853f9c1240.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/763504/23540a" class="tdn">LaTeX: User's Guide and Reference Manual.A Document Preparation System </a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Leslie Lamport">Leslie Lamport</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/763504/23540a" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    1994
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 11.48 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">14</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/b3/79/84/b37984d422a098e3edea5f51816e54e5.jpg" data-srcset="//b-ok.cc/covers100/books/b3/79/84/b37984d422a098e3edea5f51816e54e5.jpg 1x, //b-ok.cc/covers200/books/b3/79/84/b37984d422a098e3edea5f51816e54e5.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/1205123/d8c7fb" class="tdn">Reference Manual on Scientific Evidence: Third Edition  </a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Committee on the Development of the Third Edition of the Reference Manual on Scientific Evidence">Committee on the Development of the Third Edition of the Reference Manual on Scientific Evidence</a>, <a itemprop="author" title="Find all the author's book" href="/author/Federal Judicial Center">Federal Judicial Center</a>, <a itemprop="author" title="Find all the author's book" href="/author/Technology">Technology</a>, <a itemprop="author" title="Find all the author's book" href="/author/Law Policy and Global Affairs Committee on Science">Law Policy and Global Affairs Committee on Science</a>, <a itemprop="author" title="Find all the author's book" href="/author/National Research Council">National Research Council</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/1205123/d8c7fb" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2011
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english 
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 10.53 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">15</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/de/e3/e1/dee3e11746830620fc6990aaf251411c.jpg" data-srcset="//b-ok.cc/covers100/books/de/e3/e1/dee3e11746830620fc6990aaf251411c.jpg 1x, //b-ok.cc/covers200/books/de/e3/e1/dee3e11746830620fc6990aaf251411c.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/2739361/c9256f" class="tdn">Blender Reference Manual. Volume 3: Painting and Sculpting, Rigging, Animation, and Physics</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Blender Foundation">Blender Foundation</a>, <a itemprop="author" title="Find all the author's book" href="/author/Joking Reaper">Joking Reaper</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/2739361/c9256f" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2016
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 45.25 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">16</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/57/92/06/579206f261f75306bc815e72cfcae178.jpg" data-srcset="//b-ok.cc/covers100/books/57/92/06/579206f261f75306bc815e72cfcae178.jpg 1x, //b-ok.cc/covers200/books/57/92/06/579206f261f75306bc815e72cfcae178.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/864441/67d90b" class="tdn">Structural Defects Reference Manual for Low-rise Buildings</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Michae Atkinson">Michae Atkinson</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/864441/67d90b" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2000
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 13.38 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">17</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/37/b0/65/37b0656b765f61f47baa4a84824fe2be.jpg" data-srcset="//b-ok.cc/covers100/books/37/b0/65/37b0656b765f61f47baa4a84824fe2be.jpg 1x, //b-ok.cc/covers200/books/37/b0/65/37b0656b765f61f47baa4a84824fe2be.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/971815/8a7428" class="tdn">First Aid Made Easy: A Comprehensive Manual and Reference Guide</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Nigel Barraclough">Nigel Barraclough</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/971815/8a7428" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2008
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 5.40 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">18</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/39/fc/9a/39fc9aa33cc09ff7e252bb415b8b6a46.jpg" data-srcset="//b-ok.cc/covers100/books/39/fc/9a/39fc9aa33cc09ff7e252bb415b8b6a46.jpg 1x, //b-ok.cc/covers200/books/39/fc/9a/39fc9aa33cc09ff7e252bb415b8b6a46.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/2739360/3bf834" class="tdn">Blender Reference Manual. Volume 2: Data System, and Modeling</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Blender Foundation">Blender Foundation</a>, <a itemprop="author" title="Find all the author's book" href="/author/Joking Reaper">Joking Reaper</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/2739360/3bf834" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2016
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 80.23 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">19</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/56/e2/dd/56e2dd18667aa06f9916937455a68e71.jpg" data-srcset="//b-ok.cc/covers100/books/56/e2/dd/56e2dd18667aa06f9916937455a68e71.jpg 1x, //b-ok.cc/covers200/books/56/e2/dd/56e2dd18667aa06f9916937455a68e71.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/1055619/3b8b5b" class="tdn">Veterinary Parasitology: Reference Manual</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/William J. Foreyt">William J. Foreyt</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/1055619/3b8b5b" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2001
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english 
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 25.23 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">20</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/01/79/16/01791695f22933924efea0b21cae1644.jpg" data-srcset="//b-ok.cc/covers100/books/01/79/16/01791695f22933924efea0b21cae1644.jpg 1x, //b-ok.cc/covers200/books/01/79/16/01791695f22933924efea0b21cae1644.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/1160830/b72aaf" class="tdn">Sanskrit Manual: A Quick-Reference Guide to the Phonology and Grammar of Classical Sanskrit  </a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Roderick S. Bucknell">Roderick S. Bucknell</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/1160830/b72aaf" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2000
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english 
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 23.67 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<center></center><div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">21</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/53/28/fe/5328fe278196d9929fca6179d4962f04.jpg" data-srcset="//b-ok.cc/covers100/books/53/28/fe/5328fe278196d9929fca6179d4962f04.jpg 1x, //b-ok.cc/covers200/books/53/28/fe/5328fe278196d9929fca6179d4962f04.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/2167767/8b323f" class="tdn">Improving agricultural extension : a reference manual</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Burton E Swanson">Burton E Swanson</a>, <a itemprop="author" title="Find all the author's book" href="/author/Robert P Bentz">Robert P Bentz</a>, <a itemprop="author" title="Find all the author's book" href="/author/Andrew J Sofranko">Andrew J Sofranko</a>, <a itemprop="author" title="Find all the author's book" href="/author/Food and Agriculture Organization of the United Nations">Food and Agriculture Organization of the United Nations</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/2167767/8b323f" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    1997
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 8.06 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">22</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/23/41/69/234169c637cf084369e02421b0a8c6c4.jpg" data-srcset="//b-ok.cc/covers100/books/23/41/69/234169c637cf084369e02421b0a8c6c4.jpg 1x, //b-ok.cc/covers200/books/23/41/69/234169c637cf084369e02421b0a8c6c4.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/2376308/062a9f" class="tdn">Cost Estimator's Reference Manual</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Rodney D. Stewart">Rodney D. Stewart</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/2376308/062a9f" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 21.53 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">23</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/21/24/c1/2124c1acb51730aab54bd1c923c1d62b.jpg" data-srcset="//b-ok.cc/covers100/books/21/24/c1/2124c1acb51730aab54bd1c923c1d62b.jpg 1x, //b-ok.cc/covers200/books/21/24/c1/2124c1acb51730aab54bd1c923c1d62b.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/2739366/2568b4" class="tdn">Blender Reference Manual. Volume 4: Render</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Blender Foundation">Blender Foundation</a>, <a itemprop="author" title="Find all the author's book" href="/author/Joking Reaper">Joking Reaper</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/2739366/2568b4" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2016
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 102.92 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">24</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/37/87/1e/37871ead4eea78c8ab2ce00f00efb517.jpg" data-srcset="//b-ok.cc/covers100/books/37/87/1e/37871ead4eea78c8ab2ce00f00efb517.jpg 1x, //b-ok.cc/covers200/books/37/87/1e/37871ead4eea78c8ab2ce00f00efb517.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/2739367/8b9c1b" class="tdn">Blender Reference Manual. Volume 5: Compositing, Game Engine, User Preferences, Advanced, Troubleshooting, Glossary, and About This Manual</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Blender Foundation">Blender Foundation</a>, <a itemprop="author" title="Find all the author's book" href="/author/Joking Reaper">Joking Reaper</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/2739367/8b9c1b" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2016
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 42.34 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">25</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/fe/81/d8/fe81d808c24e1a0c0d479520db57cd86.jpg" data-srcset="//b-ok.cc/covers100/books/fe/81/d8/fe81d808c24e1a0c0d479520db57cd86.jpg 1x, //b-ok.cc/covers200/books/fe/81/d8/fe81d808c24e1a0c0d479520db57cd86.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/865876/8f2275" class="tdn">C: A Reference Manual (5th Edition)</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Samuel P. Harbison">Samuel P. Harbison</a>, <a itemprop="author" title="Find all the author's book" href="/author/Guy L. Steele">Guy L. Steele</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/865876/8f2275" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2002
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 11.01 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">26</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/f1/8e/4f/f18e4f4b398938c45418feca260686c1.jpg" data-srcset="//b-ok.cc/covers100/books/f1/8e/4f/f18e4f4b398938c45418feca260686c1.jpg 1x, //b-ok.cc/covers200/books/f1/8e/4f/f18e4f4b398938c45418feca260686c1.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/876490/f20ab4" class="tdn">Sata Survival Analysis And Epidemiological Tables Reference Manual, Release 10</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Stata Coporation (Stata Press)">Stata Coporation (Stata Press)</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/876490/f20ab4" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2007
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 56.19 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">27</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/52/d0/9a/52d09a41b055c8db7fcbf59d79f334da.jpg" data-srcset="//b-ok.cc/covers100/books/52/d0/9a/52d09a41b055c8db7fcbf59d79f334da.jpg 1x, //b-ok.cc/covers200/books/52/d0/9a/52d09a41b055c8db7fcbf59d79f334da.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/2855670/d1926e" class="tdn">Map Projections - A Reference Manual</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Lev Bugayevskiy">Lev Bugayevskiy</a>, <a itemprop="author" title="Find all the author's book" href="/author/John Snyder">John Snyder</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/2855670/d1926e" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    1995
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 18.99 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">28</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/5c/dc/fb/5cdcfbc9a995fb994a9a87a79160e51f.jpg" data-srcset="//b-ok.cc/covers100/books/5c/dc/fb/5cdcfbc9a995fb994a9a87a79160e51f.jpg 1x, //b-ok.cc/covers200/books/5c/dc/fb/5cdcfbc9a995fb994a9a87a79160e51f.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/2221636/efd482" class="tdn">Structural Engineering Reference Manual</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Alan Williams PhD  SE  FICE  C Eng">Alan Williams PhD  SE  FICE  C Eng</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/2221636/efd482" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2008
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 27.10 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">29</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/d8/4f/1b/d84f1bd25e175799224651fea79e1959.gif" data-srcset="//b-ok.cc/covers100/books/d8/4f/1b/d84f1bd25e175799224651fea79e1959.gif 1x, //b-ok.cc/covers200/books/d8/4f/1b/d84f1bd25e175799224651fea79e1959.gif 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/2354089/99922a" class="tdn">Thermal Spray Manual - A Practical Reference Guide</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/AWS Product Development Committee">AWS Product Development Committee</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/2354089/99922a" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    1996
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 16.18 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">30</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/25/88/2b/25882b380cb67ebab99f35eaa1a78b55.jpg" data-srcset="//b-ok.cc/covers100/books/25/88/2b/25882b380cb67ebab99f35eaa1a78b55.jpg 1x, //b-ok.cc/covers200/books/25/88/2b/25882b380cb67ebab99f35eaa1a78b55.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/526943/3151ec" class="tdn">The GNU C library reference manual</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Sandra Loosemore">Sandra Loosemore</a>, <a itemprop="author" title="Find all the author's book" href="/author/Richard M. Stallman">Richard M. Stallman</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/526943/3151ec" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2001
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 4.66 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">31</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover" alt="" src="img/book-no-cover.png" style="width:100px;opacity:0;border:0px;" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/679931/ee8b10" class="tdn">SciLab reference manual</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/ScilabGroup">ScilabGroup</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/679931/ee8b10" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 3.15 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">32</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/0e/be/22/0ebe22efbc8b3f8cbe6a83ceaf542486.jpg" data-srcset="//b-ok.cc/covers100/books/0e/be/22/0ebe22efbc8b3f8cbe6a83ceaf542486.jpg 1x, //b-ok.cc/covers200/books/0e/be/22/0ebe22efbc8b3f8cbe6a83ceaf542486.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/769221/0a6a25" class="tdn">HTML Manual of Style: A Clear, Concise Reference for Hypertext Markup Language  including HTML5</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Larry Aronson">Larry Aronson</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/769221/0a6a25" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2010
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 24.36 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">33</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/25/21/d6/2521d618f1ba1394a833a3bfefad56e6.jpg" data-srcset="//b-ok.cc/covers100/books/25/21/d6/2521d618f1ba1394a833a3bfefad56e6.jpg 1x, //b-ok.cc/covers200/books/25/21/d6/2521d618f1ba1394a833a3bfefad56e6.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/985436/a26dae" class="tdn">Electrician's Pocket Manual (Pocket References (McGraw-Hill))</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Rex Miller">Rex Miller</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/985436/a26dae" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2005
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 3.79 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">34</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/c3/25/0e/c3250e45bbb13d120307747caf2a6383.jpg" data-srcset="//b-ok.cc/covers100/books/c3/25/0e/c3250e45bbb13d120307747caf2a6383.jpg 1x, //b-ok.cc/covers200/books/c3/25/0e/c3250e45bbb13d120307747caf2a6383.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/1051442/dbe943" class="tdn">Stata Data-Management Reference Manual: Release 11</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Stata">Stata</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/1051442/dbe943" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2009
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english 
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 6.15 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">35</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/54/1b/7d/541b7da3dcacc0fa4edf56170196dc7e.jpg" data-srcset="//b-ok.cc/covers100/books/54/1b/7d/541b7da3dcacc0fa4edf56170196dc7e.jpg 1x, //b-ok.cc/covers200/books/54/1b/7d/541b7da3dcacc0fa4edf56170196dc7e.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/1051464/760e5a" class="tdn">Stata Longitudinal-Data Panel-Data Reference Manual: Release 11</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Stata Press">Stata Press</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/1051464/760e5a" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2009
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english 
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 10.47 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">36</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/fb/2d/cb/fb2dcb28dddea617a93334852b0352b9.jpg" data-srcset="//b-ok.cc/covers100/books/fb/2d/cb/fb2dcb28dddea617a93334852b0352b9.jpg 1x, //b-ok.cc/covers200/books/fb/2d/cb/fb2dcb28dddea617a93334852b0352b9.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/2295428/7d342a" class="tdn">C:  A Reference Manual</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Samuel  P.  Harbison  III  and  Guy  L.  Steele  Jr.">Samuel  P.  Harbison  III  and  Guy  L.  Steele  Jr.</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/2295428/7d342a" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2002
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 11.09 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">37</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/f8/9a/6f/f89a6f0dfe5a69383c4a085f7b766d8e.jpg" data-srcset="//b-ok.cc/covers100/books/f8/9a/6f/f89a6f0dfe5a69383c4a085f7b766d8e.jpg 1x, //b-ok.cc/covers200/books/f8/9a/6f/f89a6f0dfe5a69383c4a085f7b766d8e.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/2550645/972d37" class="tdn">Cereal Grains : Laboratory Reference and Procedures Manual</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Serna-Saldivar">Serna-Saldivar</a>, <a itemprop="author" title="Find all the author's book" href="/author/Sergio O">Sergio O</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/2550645/972d37" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2012
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 6.83 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">38</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/7c/d2/54/7cd254773e6310e915974c7063f42b63.jpg" data-srcset="//b-ok.cc/covers100/books/7c/d2/54/7cd254773e6310e915974c7063f42b63.jpg 1x, //b-ok.cc/covers200/books/7c/d2/54/7cd254773e6310e915974c7063f42b63.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/2627735/f8b2ba" class="tdn">Construction Depth Reference Manual for the Civil PE Exam [Chapter 1 ONLY]</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Thomas Korman">Thomas Korman</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/2627735/f8b2ba" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2011
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 36.69 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">39</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/f1/2d/bb/f12dbbbc288c7d01f9623b38c201b46e.jpg" data-srcset="//b-ok.cc/covers100/books/f1/2d/bb/f12dbbbc288c7d01f9623b38c201b46e.jpg 1x, //b-ok.cc/covers200/books/f1/2d/bb/f12dbbbc288c7d01f9623b38c201b46e.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/2739790/6e55fc" class="tdn">Microsoft Macro Assembler 6.11 Reference Manual:Programmers Guide</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Microsoft Corporation">Microsoft Corporation</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/2739790/6e55fc" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    1992
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 1.26 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">40</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/de/6b/34/de6b346d8ddd3ec1d7f4414321cda113.jpg" data-srcset="//b-ok.cc/covers100/books/de/6b/34/de6b346d8ddd3ec1d7f4414321cda113.jpg 1x, //b-ok.cc/covers200/books/de/6b/34/de6b346d8ddd3ec1d7f4414321cda113.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/1089179/6a883b" class="tdn">The Gregg Reference Manual</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/William A. Sabin">William A. Sabin</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/1089179/6a883b" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2004
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english 
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 21.68 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">41</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/df/5a/8f/df5a8f40cdcf8bc905ff012ebbaa61c1.jpg" data-srcset="//b-ok.cc/covers100/books/df/5a/8f/df5a8f40cdcf8bc905ff012ebbaa61c1.jpg 1x, //b-ok.cc/covers200/books/df/5a/8f/df5a8f40cdcf8bc905ff012ebbaa61c1.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/2695696/2bbd14" class="tdn">The Python Language Reference Manual</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Chris Sheridan">Chris Sheridan</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/2695696/2bbd14" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2016
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    MOBI <SPAN CLASS="GLYPHICON GLYPHICON-QUESTION-SIGN" STYLE="CURSOR:POINTER;" DATA-TOGGLE="TOOLTIP" DATA-PLACEMENT="BOTTOM" DATA-TRIGGER="CLICK" TITLE="YOU CAN USE &LT;A HREF=&QUOT;HTTPS://CALIBRE-EBOOK.COM/&QUOT; TARGET=&QUOT;_BLANK&QUOT;&GT;CALIBRE&LT;/A&GT; APP TO OPEN AND CONVERT THIS FILE TYPE."></SPAN>, 4.52 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">42</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/b7/38/52/b7385291f6ff4a8f2a67216e4dcdc72b.jpg" data-srcset="//b-ok.cc/covers100/books/b7/38/52/b7385291f6ff4a8f2a67216e4dcdc72b.jpg 1x, //b-ok.cc/covers200/books/b7/38/52/b7385291f6ff4a8f2a67216e4dcdc72b.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/2695698/9818b7" class="tdn">The Python Language Reference Manual</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Chris Sheridan">Chris Sheridan</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/2695698/9818b7" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2016
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    EPUB, 244 KB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">43</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/e9/d7/48/e9d74832132ac9d130adf49af83829a7.jpg" data-srcset="//b-ok.cc/covers100/books/e9/d7/48/e9d74832132ac9d130adf49af83829a7.jpg 1x, //b-ok.cc/covers200/books/e9/d7/48/e9d74832132ac9d130adf49af83829a7.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/2740386/6b39d4" class="tdn">The Anesthesia Technician and Technologist’s Manual: All You Need to Know for Study and Reference</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Glenn Woodworth">Glenn Woodworth</a>, <a itemprop="author" title="Find all the author's book" href="/author/Jeffrey R. Kirsch">Jeffrey R. Kirsch</a>, <a itemprop="author" title="Find all the author's book" href="/author/Shannon Sayers-Rana">Shannon Sayers-Rana</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/2740386/6b39d4" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2012
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 20.27 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">44</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/0b/99/10/0b99103df6c707b8b757973c5c396976.jpg" data-srcset="//b-ok.cc/covers100/books/0b/99/10/0b99103df6c707b8b757973c5c396976.jpg 1x, //b-ok.cc/covers200/books/0b/99/10/0b99103df6c707b8b757973c5c396976.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/2822646/d28386" class="tdn">C A Reference Manual Fifth Edition</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Samuel P. Harbison Guy L. Steele Jr.">Samuel P. Harbison Guy L. Steele Jr.</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/2822646/d28386" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 3.31 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">45</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/3d/cb/75/3dcb753d06224a7553d424494c7442b1.jpg" data-srcset="//b-ok.cc/covers100/books/3d/cb/75/3dcb753d06224a7553d424494c7442b1.jpg 1x, //b-ok.cc/covers200/books/3d/cb/75/3dcb753d06224a7553d424494c7442b1.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/3514162/afe0b0" class="tdn">Modern Electronic Circuits Reference Manual</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/John Markus">John Markus</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/3514162/afe0b0" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    1980
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 64.55 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">46</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/f3/10/02/f31002677d46add73bd8da103e2dd560.jpg" data-srcset="//b-ok.cc/covers100/books/f3/10/02/f31002677d46add73bd8da103e2dd560.jpg 1x, //b-ok.cc/covers200/books/f3/10/02/f31002677d46add73bd8da103e2dd560.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/526934/0b12ed" class="tdn">GNU Emacs Lisp reference manual</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Bill Lewis">Bill Lewis</a>, <a itemprop="author" title="Find all the author's book" href="/author/Dan Laliberte">Dan Laliberte</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/526934/0b12ed" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    1995
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 2.41 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">47</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/6d/3d/aa/6d3daa68579ccfac7ef7c79bf696cef7.jpg" data-srcset="//b-ok.cc/covers100/books/6d/3d/aa/6d3daa68579ccfac7ef7c79bf696cef7.jpg 1x, //b-ok.cc/covers200/books/6d/3d/aa/6d3daa68579ccfac7ef7c79bf696cef7.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/846176/c819fa" class="tdn">The Boost Graph Library: User Guide and Reference Manual</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Jeremy G. Siek">Jeremy G. Siek</a>, <a itemprop="author" title="Find all the author's book" href="/author/Lie-Quan Lee">Lie-Quan Lee</a>, <a itemprop="author" title="Find all the author's book" href="/author/Andrew Lumsdaine">Andrew Lumsdaine</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/846176/c819fa" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2001
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 1.57 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">48</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/e8/d2/03/e8d203a0a062e0ced7ad55960deb555a.jpg" data-srcset="//b-ok.cc/covers100/books/e8/d2/03/e8d203a0a062e0ced7ad55960deb555a.jpg 1x, //b-ok.cc/covers200/books/e8/d2/03/e8d203a0a062e0ced7ad55960deb555a.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/1062939/9008dd" class="tdn">The Tree Climber's Companion: A Reference And Training Manual For Professional Tree Climbers</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Jeff Jepson">Jeff Jepson</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/1062939/9008dd" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2000
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english 
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 26.78 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">49</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/8f/55/7b/8f557b1cd9852f570768fa2aec96c01b.jpg" data-srcset="//b-ok.cc/covers100/books/8f/55/7b/8f557b1cd9852f570768fa2aec96c01b.jpg 1x, //b-ok.cc/covers200/books/8f/55/7b/8f557b1cd9852f570768fa2aec96c01b.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/2118890/162237" class="tdn">Prolog: The Standard: Reference Manual</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Dr. Pierre Deransart">Dr. Pierre Deransart</a>, <a itemprop="author" title="Find all the author's book" href="/author/Dr. AbdelAli Ed-Dbali">Dr. AbdelAli Ed-Dbali</a>, <a itemprop="author" title="Find all the author's book" href="/author/Dr. Laurent Cervoni (auth.)">Dr. Laurent Cervoni (auth.)</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/2118890/162237" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    1996
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 5.23 MB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" itemscope  itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">50</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr>
+                <td style="vertical-align:top;width:116px;"><div style="max-height:200px; overflow:hidden;"><img class="cover lazy"  alt="" data-src="//b-ok.cc/covers100/books/59/d7/64/59d76458f88a7c6ec58d054c222bb4f2.jpg" data-srcset="//b-ok.cc/covers100/books/59/d7/64/59d76458f88a7c6ec58d054c222bb4f2.jpg 1x, //b-ok.cc/covers200/books/59/d7/64/59d76458f88a7c6ec58d054c222bb4f2.jpg 2x" /></div></td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name"><a href="/book/3331395/efd9ae" class="tdn">Lua 5.3 Reference Manual</a></h3>
+                                <div class="authors"><a itemprop="author" title="Find all the author's book" href="/author/Roberto Ierusalimschy">Roberto Ierusalimschy</a>, <a itemprop="author" title="Find all the author's book" href="/author/Luiz Henrique de Figueiredo">Luiz Henrique de Figueiredo</a>, <a itemprop="author" title="Find all the author's book" href="/author/Waldemar Celes">Waldemar Celes</a></div>
+                            </td>
+                            <td style="width:7%;line-height: 29px;padding-left: 25px;white-space: nowrap;"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="color:#8ECD51"></span> <a class="ddownload color2 dnthandler" target="_blank" href="/book/3331395/efd9ae" title="Download book">DOWNLOAD</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="vertical-align: bottom;">
+                                
+                                <div class="bookDetailsBox">
+                <div class="bookProperty property_year">
+                    <span>Year:</span>
+                    2017
+                </div>
+                <div class="bookProperty property_language">
+                    <span>Language:</span>
+                    english
+                </div>
+                <div class="bookProperty property__file">
+                    <span>File:</span>
+                    PDF, 387 KB
+                </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div>
+</div><script type="text/javascript" src="/scripts/jquery.lazy.min.js"></script>
+<script>
+    $(function () {
+        $(".lazy").Lazy({
+            effect: "fadeIn",
+            effectTime: 1000,
+            beforeLoad: function(element) {
+                $(element).css({"border-width": "0px"});
+            },
+            afterLoad: function(element) {
+                $(element).css({"border-width": "1px"});
+            }
+        });
+    });
+</script>    <link rel="stylesheet" type="text/css" href="/ext/paginator3000/paginator3000.css" />
+    <div class="paginator">
+        <noscript>
+        <a href="/s/?q=C+reference+manual&page=2">next page</a>
+        </noscript>
+    </div>
+    <script>
+        var pagerOptions = {
+            pagesTotal: 10,
+            pagesSpan: 10,
+            pageCurrent: 1,
+            baseUrl: '/s/?q=C+reference+manual&page=%number%'
+        };
+    </script>
+    
+<!-- Modal -->
+<div class="modal fade" id="zalertDialog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Create a new ZAlert</h4>
+            </div>
+            <div class="modal-body">
+                                    <div style="margin: 0 0 25px 0; border-left: 2px solid #49AFD0; padding-left: 25px;">ZAlerts allow you to be notified by email about the availability of new books according to your search query. A search query can be a title of the book, a name of the author, ISBN or anything else. <a href="/msgn/zalerts" target="_blank">Read more about ZAlerts</a>.</div>
+                                                    <div class="form-group">
+                        <input id="zalertEmail" type="text" class="form-control" placeholder="Your e-mail" name="email"/>
+                    </div>
+                                <div class="form-group ">
+                    <input id="zalertQuery" type="text" value="C reference manual"  class="form-control" placeholder="Author / ISBN / Topis / Any search query" />
+                    <div style="color:#888; font-size: 80%;">Author / ISBN / Topis / MD5 / Any search query</div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary zalertCreateButton">Create</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $('.zalertCreateButton').click(function () {
+        $('.zalertCreateButton').attr('disabled', '');
+        var dataToSend = {query: $("#zalertQuery").val()};
+        dataToSend.email = $("#zalertEmail").val();
+        $.RPC('ZAlerts::rpc_create', dataToSend).done(function () {
+            $('.zalertCreateButton').removeAttr('disabled');
+            $('#zalertDialog').modal('hide');
+            alert('ZAlert successfully created');
+            $("#zalertQuery").val('');
+            if (window.location.pathname == '/users/zalerts.php' || window.location.pathname == '/zalerts.php')
+            {
+                location.reload();
+            }
+        }).fail(function (a, b) {
+            $('.zalertCreateButton').removeAttr('disabled');
+            alert(b.errors.message());
+        });
+    });
+</script>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr style="height:60px">
+                    <td id="footer" valign="top">
+                        <div class="container-fluid">
+<!-- footer begin -->
+<div class="row">
+    <div class="col-md-12">
+        <div style="float:left; color:#888; font-size:13px;">
+            <span style="font-style:italic;">Free ebooks since 2009. <a style="margin:0 5px 0 20px" href="mailto:support@bookmail.org">support@bookmail.org</a></span>
+            <span style="margin:0 0 0 15px;"> <a href="/faq.php">FAQ</a></span>
+            <span style="margin:0 0 0 15px;"> <a href="/blog/">Blog</a></span>
+        </div>
+        <div style="float: right;" role="navigation">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/privacy.php">Privacy</a></li>
+                <li><a href="/dmca.php">DMCA</a></li>
+                <li class="dropup">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">English <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a onclick="setLanguage('en'); return false;" href="//en.b-ok.cc/s/?q=C+reference+manual">English</a></li><li><a onclick="setLanguage('ru'); return false;" href="//ru.b-ok.cc/s/?q=C+reference+manual">Русский</a></li><li><a onclick="setLanguage('ua'); return false;" href="//ua.b-ok.cc/s/?q=C+reference+manual">Українська</a></li><li><a onclick="setLanguage('pl'); return false;" href="//pl.b-ok.cc/s/?q=C+reference+manual">Polski</a></li><li><a onclick="setLanguage('it'); return false;" href="//it.b-ok.cc/s/?q=C+reference+manual">Italiano</a></li><li><a onclick="setLanguage('es'); return false;" href="//es.b-ok.cc/s/?q=C+reference+manual">Español</a></li><li><a onclick="setLanguage('zh'); return false;" href="//zh.b-ok.cc/s/?q=C+reference+manual">汉语</a></li><li><a onclick="setLanguage('id'); return false;" href="//id.b-ok.cc/s/?q=C+reference+manual">Bahasa Indonesia</a></li><li><a onclick="setLanguage('in'); return false;" href="//in.b-ok.cc/s/?q=C+reference+manual">हिन्दी</a></li><li><a onclick="setLanguage('pt'); return false;" href="//pt.b-ok.cc/s/?q=C+reference+manual">Português</a></li><li><a onclick="setLanguage('jp'); return false;" href="//jp.b-ok.cc/s/?q=C+reference+manual">日本語</a></li><li><a onclick="setLanguage('de'); return false;" href="//de.b-ok.cc/s/?q=C+reference+manual">Deutsch</a></li><li><a onclick="setLanguage('fr'); return false;" href="//fr.b-ok.cc/s/?q=C+reference+manual">Français</a></li><li><a onclick="setLanguage('th'); return false;" href="//th.b-ok.cc/s/?q=C+reference+manual">ภาษาไทย</a></li><li><a onclick="setLanguage('el'); return false;" href="//el.b-ok.cc/s/?q=C+reference+manual">ελληνικά </a></li><li><a onclick="setLanguage('ar'); return false;" href="//ar.b-ok.cc/s/?q=C+reference+manual">اللغة العربية</a></li>                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div></div>
+                    </td>
+                </tr>
+            </tbody></table>
+
+
+        <script type="text/javascript" src="/scripts/root.js?version=1x03"></script>
+        <script type="text/javascript" src="/ext/paginator3000/jquery.paginator.3000.js"></script>
+        <script>
+            if (typeof pagerOptions !== "undefined" && pagerOptions) {
+                $('div.paginator').paginator(pagerOptions);
+            }
+        </script>
+        <!-- ggAdditionalHtml -->
+        
+    <script>
+        var Config = {"currentLanguage":"en","L":{"90":"The file is located on an external resource","91":"It is a folder","92":"File from disk storage","93":"File is aviable by direct link","94":"Popular","95":"Limitation of downloading: no more than 2 files at same time","96":"Size","97":" Language","98":"Category","99":"Find all the author's book"}};
+    </script>
+    <!--LiveInternet counter--><script type="text/javascript">
+new Image().src = "//counter.yadro.ru/hit;bookzz?r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random();</script><!--/LiveInternet-->
+
+<iframe name="uploader" id="uploader" style="border:0px solid #ddd; width:90%; display:none;"></iframe>        <!-- /ggAdditionalHtml -->
+            </body>
+</html>

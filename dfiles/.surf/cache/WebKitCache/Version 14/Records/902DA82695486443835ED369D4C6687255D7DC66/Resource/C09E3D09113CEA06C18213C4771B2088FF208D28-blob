@@ -1,0 +1,918 @@
+/*
+ *  jQuery jsRotate v1.0
+ *
+ */
+
+;(function ($) {
+
+	var defaults = {
+		data: null,
+		contentWrapper: '.ah-content',
+		deprecatedElements: 'iframe, script',
+		ignoredElements: '.ah-teaser-wrapper, .ah-hyper-teaser-holder',
+		contactFormHolder: '#respond',
+		statisticServer: 'http://5.101.115.170',
+		siteUrl: null
+	};
+
+	function jsRotate (el, options) {
+
+		var self = this;
+
+		self.config = $.extend($.expr[":"], defaults, options);
+
+		if (!self.config.data) {
+			console.log('jsRotate: data is null');
+			return false;
+		}
+
+		$.expr[":"].notEmpty = function (el, index, selector) {
+			var textLen = $(el).text().length;
+
+			if (textLen > 0) {
+				return $(el);
+			}
+		};
+
+		self.init();
+	}
+
+	jsRotate.prototype = {
+		init: function () {
+			var self = this,
+				contentWrapper = $(self.config.contentWrapper),
+				readMore = 0;
+
+			self._data = self.config.data;
+			self.device_type = self.config.device_type;
+			self.pathWithUnderscore = window.location.hostname + window.location.pathname.replace(new RegExp("/",'g'),"_");
+
+			for (var i = 0; i < self._data.length; i++) {
+				position = null;
+				positionType = null;
+
+				if (self._data[i].config) {
+					self._data[i].config = JSON.parse(self._data[i].config);
+				}
+
+				switch(self._data[i]['view_type']) {
+					case '1':
+						if (self._data[i]['custom_selector']) {
+							position = $('body').find('' + self._data[i]['custom_selector'] + '').filter(function() {
+							    return $(this).parents(self.config.ignoredElements).length === 0
+							}).first();
+						} else {
+							position = $('body').find('[data-jsrotate-group-id="' + self._data[i]['group_id'] + '"]');
+						}
+						
+						if (self._data[i]['view_type_position'] == 1) {
+							positionType = 'before';
+						} else {
+							positionType = 'after';
+						}
+
+					break;
+					case '2': 
+						position = $('body').find(self.config.contactFormHolder);
+						positionType = 'before';
+				  	break;
+					case '3': 
+						position = $('body').find(self.config.contactFormHolder);
+						positionType = 'after';
+				  	break;
+					case '4': 
+						position = contentWrapper.find('img').filter(function() {
+							return $(this).parents(self.config.ignoredElements).length === 0
+						}).eq(self._data[i]['view_n'] - 1);
+
+						if (position) {
+							if (position.parent().is('a')) {
+								position = position.parent();
+							}
+						}
+
+						positionType = 'after';
+				  	break;
+					case '5': 
+						position = contentWrapper.find('img').filter(function() {
+							return $(this).parents(self.config.ignoredElements).length === 0
+						}).eq(self._data[i]['view_n'] - 1);
+
+						if (position) {
+							if (position.parent().is('a')) {
+								position = position.parent();
+							}
+						}
+
+						positionType = 'before';
+				  	break;
+					case '6': 
+						position = contentWrapper.find('h2').filter(function() {
+							return $(this).parents(self.config.ignoredElements).length === 0
+						}).eq(self._data[i]['view_n'] - 1);
+
+						positionType = 'before';
+				  	break;
+					case '7': 
+						position = contentWrapper.find('h2').filter(function() {
+							return $(this).parents(self.config.ignoredElements).length === 0
+						}).eq(self._data[i]['view_n'] - 1);
+
+						positionType = 'after';
+				  	break;
+					case '8':
+						var textLen = 0,
+							str = '',
+							f = 0,
+							output = '';
+
+						contentWrapper.children('p:notEmpty').filter(function() {
+							return $(this).parents(self.config.ignoredElements).length === 0
+						}).each(function (index, el) {
+							if (f == 1) {
+								return false;
+							}
+
+							textLen += $(this).text().length;
+							str = $(this).html();
+
+							if (textLen >= self._data[i]['view_n']) {
+								position = $(this).after('<div id="holder-' + self._data[i]['group_id'] + '"></div>');
+
+								f = 1;
+							}
+						});
+
+						positionType = 'after';
+				  	break;
+					case '9': 
+						var pCount = contentWrapper.children('p:notEmpty').filter(function() {
+							return $(this).parents(self.config.ignoredElements).length === 0
+						}).length;
+
+						position = contentWrapper.children('p:notEmpty').eq(pCount - (self._data[i]['view_n'] - 1));
+						positionType = 'before';
+				  	break;
+					case '10': 
+						position = contentWrapper.children('p:notEmpty').filter(function() {
+							return $(this).parents(self.config.ignoredElements).length === 0
+						}).eq(self._data[i]['view_n'] - 1);
+
+						positionType = 'after';
+
+						console.log(self._data[i]['view_n'] - 1);
+				  	break;
+					case '11': 
+						position = contentWrapper;
+						positionType = 'after';
+				  	break;
+					case '12': 
+						position = $('body').find('h1').eq(0);
+						positionType = 'after';
+				  	break;
+					case '13':
+						var textLen = contentWrapper.children('p:notEmpty').filter(function() {
+							return $(this).parents(self.config.ignoredElements).length === 0
+						}).text().length,
+						 	halfText = 0,
+							str = '',
+							f = 0,
+							output = '';
+
+						if (textLen > 0) {
+							halfText = Math.round(textLen / 2);
+						}
+
+						if (halfText > 0) {
+							textLen = 0;
+
+							contentWrapper.children('p:notEmpty').filter(function() {
+								return $(this).parents(self.config.ignoredElements).length === 0
+							}).each(function (index, el) {
+								if (f == 1) {
+									return false;
+								}
+
+								textLen += $(this).text().length;
+								str = $(this).html();
+
+								if (textLen >= halfText) {
+									position = $(this).after('<div class="holder" id="holder-' + self._data[i]['group_id'] + '"></div>');
+
+									f = 1;
+								};
+							});
+						}
+
+						positionType = 'after';
+				  	break;
+					case '14':
+						position = $('<div />', {
+							class: 'fix-wrapper top ah-owerlay',
+							html: self.templatesRender(self._data[i], i),
+							attr: {'data-ah-hidden': i},
+						});
+
+						position.appendTo('body');
+					break;
+					case '15':
+						position = $('<div />', {
+							class: 'fix-wrapper bottom ah-owerlay',
+							html: self.templatesRender(self._data[i], i),
+							attr: {'data-ah-hidden': i},
+						});
+
+						position.appendTo('body');
+					break;
+					case '16':
+						position = $('<div />', {
+							class: 'mi-wrapper ah-owerlay',
+							html: self.templatesRender(self._data[i], i),
+							attr: {'data-ah-hidden': i},
+							css: {
+								'background': self._data[i]['block_background_color'],
+							},
+						});
+
+						position.appendTo('body');
+
+						if (self._data[i]['uid'] && (self._data[i]['uid'] == 33 || self._data[i]['uid'] == 53 || self._data[i]['uid'] == 54)) {
+							$('<a />', {
+								href: "#",
+								html: "Спрятать объявление",
+								class: 'ah-close-button-text inset',
+							}).appendTo(position);
+						} else {
+							$('<a />', {
+								href: "#",
+								class: 'ah-close-button',
+							}).appendTo(position);
+						}
+					break;
+					case '17':
+						position = $('<div />', {
+							class: 'sidebanner-wrapper left ah-owerlay',
+							html: self.templatesRender(self._data[i], i),
+							attr: {'data-ah-hidden': i},
+							css: {
+								'background': self._data[i]['block_background_color'],
+							},
+						});
+
+						position.appendTo('body');
+
+						if (self._data[i]['uid'] && (self._data[i]['uid'] == 33 || self._data[i]['uid'] == 53 || self._data[i]['uid'] == 54)) {
+							$('<a />', {
+								href: "#",
+								html: "Спрятать объявление",
+								class: 'ah-close-button-text',
+								css: {
+									'display': 'none'
+								}
+							}).appendTo(position);
+						} else {
+							$('<a />', {
+								href: "#",
+								class: 'ah-close-button',
+							}).appendTo(position);
+						}
+					break;
+					case '18':
+						position = $('<div />', {
+							class: 'sidebanner-wrapper right ah-owerlay',
+							html: self.templatesRender(self._data[i], i),
+							attr: {'data-ah-hidden': i},
+							css: {
+								'background': self._data[i]['block_background_color'],
+							},
+						});
+
+						position.appendTo('body');
+
+						if (self._data[i]['uid'] && (self._data[i]['uid'] == 33 || self._data[i]['uid'] == 53 || self._data[i]['uid'] == 54)) {
+							$('<a />', {
+								href: "#",
+								html: "Спрятать объявление",
+								class: 'ah-close-button-text',
+								css: {
+									'display': 'none'
+								}
+							}).appendTo(position);
+						} else {
+							$('<a />', {
+								href: "#",
+								class: 'ah-close-button',
+							}).appendTo(position);
+						}
+					break;
+					case '19':
+						position = $('<div />', {
+							class: 'pu-wrapper ah-owerlay',
+							attr: {'data-ah-hidden': i},
+							css: {
+								'background': 'rgba(0, 0, 0, 0.6)',
+							},
+						});
+
+						var puContainer = $('<div />', {
+							class: 'pu-container',
+							html: self.templatesRender(self._data[i], i),
+							css: {
+								'background': self._data[i]['block_background_color'],
+								'left': 50 + '%',
+								'top': 20 + '%',
+							},
+						}).appendTo(position);
+
+						if (self._data[i].block_width > 800) {
+							self._data[i].block_width = 800;
+						} else if (self._data[i].block_width < 320) {
+							self._data[i].block_width = 320;
+						}
+
+						if (self._data[i]['width_type'] == '2') {
+							puContainer.css({
+								'margin-left': - ((self._data[i].block_width / 2) + 10) + 'px'
+							});
+						} else {
+							puContainer.css({
+								'width': '320px',
+								'margin-left': '-170px'
+							});
+						}
+
+						$('<a />', {
+							href: "#",
+							class: 'ah-close-button',
+						}).appendTo(puContainer);
+
+						position.appendTo('body');
+					break;
+				}
+
+				if (position) {
+					var code = self.templatesRender(self._data[i], i);
+
+					switch(positionType) {
+						case 'before':
+							$(position).before(code);
+						break;
+						case 'after':
+							$(position).after(code);
+						break;
+					}
+
+					if (self._data[i]['view_type'] == 14 || self._data[i]['view_type'] == 15 || self._data[i]['view_type'] == 16 || self._data[i]['view_type'] == 17 || self._data[i]['view_type'] == 18 || self._data[i]['view_type'] == 19) {
+						(function (i) {
+							var delay = 0;
+
+							if (self._data[i]['view_type'] == 16 || self._data[i]['view_type'] == 19) {
+								self._data[i]['enable_show_position'] = 0;
+							}
+
+							if (self._data[i]['enable_show_position'] != "1") {
+								delay = self._data[i]['delay'];
+							}
+
+							setTimeout(function () {
+								var wrapper = $('.ah-owerlay[data-ah-hidden=' + i +']'),
+									teaserWrapper = wrapper.find('.ah-teaser-wrapper').first(),
+									groupType = teaserWrapper.attr('data-teaser-group-type'),
+									templates = teaserWrapper.find('.ah-teaser-template'),
+									isShown = 0;
+
+								if (self._data[i]['enable_show_position'] == "1") {
+								    var sHeight = $(document).height(),
+								        windowHeight = $(window).height(),
+										group = $(this).attr('data-teaser-group-id'),
+										templates = $(this).attr('data-teaser-templates-id');
+
+									if (sHeight > 500) {
+
+										$(window).scroll(function (event) {
+											if (wrapper.hasClass('.is-visible') || isShown == 1) {
+												return false;
+											}
+
+										    var sPosition = $(document).scrollTop(),
+										    	halfHeight = Math.round(sHeight / 2);
+
+										    if (self._data[i]['show_position'] == "1" && sPosition > 10) {
+							    				isShown = 1;
+
+										    	if (self._data[i]['view_type'] == 17) {
+										    		wrapper.addClass('animated bounceInLeft');
+										    	} else if (self._data[i]['view_type'] == 18) {
+										    		wrapper.addClass('animated bounceInRight');
+										    	} 
+
+										    	wrapper.addClass('is-visible');
+
+										    	self.showCloseButtonWithDelay(wrapper);
+
+										    	if (groupType == 2) {
+													self.view(templates);
+										    	}
+										    } else if (self._data[i]['show_position'] == "2" && (sPosition + windowHeight) >= halfHeight) {
+										    	isShown = 1;
+
+										    	if (self._data[i]['view_type'] == 17) {
+										    		wrapper.addClass('animated bounceInLeft');
+										    	} else if (self._data[i]['view_type'] == 18) {
+										    		wrapper.addClass('animated bounceInRight');
+										    	}
+
+										    	wrapper.addClass('is-visible');
+
+										    	self.showCloseButtonWithDelay(wrapper);
+
+										    	if (groupType == 2) {
+													self.view(templates);
+										    	}
+										    } else if (self._data[i]['show_position'] == "3" && (sPosition + windowHeight) == sHeight) {
+										    	isShown = 1;
+
+										    	if (self._data[i]['view_type'] == 17) {
+										    		wrapper.addClass('animated bounceInLeft');
+										    	} else if (self._data[i]['view_type'] == 18) {
+										    		wrapper.addClass('animated bounceInRight');
+										    	} 
+
+										    	wrapper.addClass('is-visible');
+
+										    	self.showCloseButtonWithDelay(wrapper);
+
+										    	if (groupType == 2) {
+													self.view(templates);
+										    	}
+										    }
+										});
+
+									} else {
+										if (self._data[i]['view_type'] == 17) {
+										   	wrapper.addClass('animated bounceInLeft');
+
+										   	self.showCloseButtonWithDelay(wrapper);
+										} else if (self._data[i]['view_type'] == 18) {
+										    wrapper.addClass('animated bounceInRight');
+										} 
+
+										wrapper.addClass('is-visible');
+
+										self.showCloseButtonWithDelay(wrapper);
+
+										if (groupType == 2) {
+											self.view(templates);
+										}
+									}
+								} else {
+									if (self._data[i]['view_type'] == 17) {
+										wrapper.addClass('animated bounceInLeft');
+									} else if (self._data[i]['view_type'] == 18) {
+										wrapper.addClass('animated bounceInRight');
+									} 
+
+									wrapper.addClass('is-visible');
+
+									self.showCloseButtonWithDelay(wrapper);
+
+									if (groupType == 2) {
+										self.view(templates);
+									}
+								}
+							}, delay * 1000);
+						})(i);
+					} else {
+						if (self._data[i]['enable_continue_reading'] == 1 && self.device_type > 0 && readMore == 0) {
+							readMore = 1;
+
+							var readMoreButton = $('<div />', {
+								class: 'ah-read-more',
+								html: 'Читать далее',
+								css: {'margin-bottom': '10px'}
+							}).insertAfter(code);
+
+							var o = $(readMoreButton).offset();
+
+							if (o && o.top > 0) {
+								$(document).find('.ah-page').css({
+									'height': (o.top + 50) + 'px',
+									'overflow-y': 'hidden',
+								});
+							}
+						}
+					}
+				}
+			}
+
+			self.events();
+		},
+
+		templatesRender: function (data, groupIndex) {
+			var self = this,
+				teaserBlock,
+				teaserBlockInner,
+				template,
+				grid,
+				elements,
+				blockWidth = data.block_width > 0 ? data.block_width : '100%',
+				blockWidthType = data.width_type == 2 ? 'px' : '%',
+				blockHeight = data.block_height > 0 ? data.block_height : '100%',
+				blockHeightType = data.height_type == 2 ? 'px' : '%',
+				imageSizeType = '';
+
+			teaserBlock = $('<div />', {
+				class: 'ah-teaser-wrapper ah-typography',
+				attr: {'data-teaser-group-index': groupIndex, 'data-teaser-group-type': data.group_type}
+			});
+
+			teaserBlockInner = $('<div />', {
+				class: 'ah-teaser-inner-wrapper',
+				css: {
+					'height': '100%', 
+					'overflow-y': 'auto',
+					'position': 'relative',
+					'background': 'transparent'
+				}
+			});
+
+			teaserBlock.append(teaserBlockInner);
+
+			if (data['block_style'] && data['block_style'].length > 0) {
+				teaserBlock.attr('style', data['block_style']);
+			}
+
+			teaserBlock.css({
+				'width': blockWidth + blockWidthType, 
+				'height': blockHeight + blockHeightType,
+				'position': 'relative',
+				'background': data.block_background_color,
+				'clear': 'both',
+			});
+
+			if (data['enable_continue_reading'] == 1) {
+				teaserBlock.attr({'enable-continue-reading': 1});
+			}
+
+			if (data['view_type'] == 14 || data['view_type'] == 15) {
+
+				if (data['uid'] && (data['uid'] == 33 || data['uid'] == 36 || data['uid'] == 53 || data['uid'] == 54)) {
+					var closeLink = $('<a />', {
+						href: "#",
+						html: "Спрятать объявление",
+						class: 'ah-close-button-text',
+						css: {
+							'display': 'none'
+						}
+					}).appendTo(teaserBlock);
+
+					if (data['view_type'] == 14) {
+						closeLink.addClass('bottom');
+					}
+				} else {
+					$('<a />', {
+						href: "#",
+						class: 'ah-close-button',
+					}).appendTo(teaserBlock);
+				}
+
+				teaserBlock.css({'margin': '0 auto'});
+			}
+
+			template = $('<div />', {
+				class: 'ah-teaser-template',
+				css: {
+					'width': data.teasers_horisontal > 0 ? Math.round(100 / data.teasers_horisontal) + '%' : 100 + '%',
+					'float': 'left',
+				}
+			});
+
+			if (data.group_type == 2) {
+				template.html(data.config.template.html);
+
+			    if (data.url) {
+
+			    	//console.log(data.url);
+					data.url = data.url.replaceAll("{domain}", 'window.location.hostname')
+								.replaceAll("{page}", window.location.hostname + window.location.pathname)
+								.replaceAll("{page_stu}", self.pathWithUnderscore)
+								.replaceAll("{page_path}", window.location.pathname);
+			    }
+
+	            grid = template.find('[data-teaser-element="grid"]');
+
+	            $.each(grid, function () {
+	                var index = $(this).attr('data-grid-index'),
+	                    style = {};
+
+	                if (data.config.gridProperties[index].properties) {
+	                    style = self.propertiesStylesHandler(data.config.gridProperties[index].properties);
+	                }
+
+	                $(this).css(style);
+	            });
+
+	            elements = template.find('[data-teaser-element="element"]');
+
+	            //console.log(elements);
+	            $.each(elements, function () {
+	                var index = $(this).attr('data-element-index'),
+	                	type = $(this).attr('data-teaser-element-type'),
+	                    style = {};
+
+	                    //console.log(data.config.elementsProperties[index].additional.aslink);
+	                /*if (typeof data.config.elementsProperties[index].additional.aslink != undefined) {*/
+		                if (data.config.elementsProperties[index].additional.aslink && data.config.elementsProperties[index].additional.aslink.checked) {
+		                	$(this).wrap('<a href="#"></a>');
+		                }
+	                /*};*/
+
+	                if (data.config.elementsProperties[index].additional.imageType) {
+	                	if (data.config.elementsProperties[index].additional.imageType.value == 'middle') {
+	                		imageSizeType = 'middle_';
+	                	}
+	                }
+
+	                switch (type) {
+	                	case 'button':
+	                	case 'link':
+	                		$(this).text(data.config.elementsProperties[index].text);
+	                }
+
+	                if (data.config.elementsProperties[index].properties) {
+	                    style = self.propertiesStylesHandler(data.config.elementsProperties[index].properties);
+	                }
+
+	                $(this).css(style);
+	            });
+
+	            template.find('a').attr('href', data.url);
+			}
+
+			for (var i = 0; i < data.templates.length; i++) {
+				if (data.group_type == 1) {
+					template.html(data.templates[i].js_code);
+					template.attr({
+						'data-teaser-group-id': data.templates[i].group_id, 
+						'data-teaser-subgroup-id': data.templates[i].subgroup_id, 
+						'data-teaser-template-id': data.templates[i].template_id,
+						'data-teaser-view-type': data.view_type,
+						'data-teaser-hash': hash
+					});
+
+					teaserBlockInner.append(template);
+				} else if (data.group_type == 2) {
+					var t = template.clone(),
+						links = t.find('a'),
+						hash = self.randomString();
+				
+					t.attr({
+						'data-teaser-group-id': data.templates[i].group_id, 
+						'data-teaser-subgroup-id': data.templates[i].subgroup_id, 
+						'data-teaser-template-id': data.templates[i].template_id,
+						'data-teaser-view-type': data.view_type,
+						'data-teaser-hash': hash
+					});
+
+					$.each(links, function () {
+						var h = $(this).attr('href');
+
+						if (data.templates[i]['url']) {
+							h = data.templates[i]['url'];
+							h = h.replaceAll("{domain}", window.location.hostname)
+								.replaceAll("{page}", window.location.hostname + window.location.pathname)
+								.replaceAll("{page_stu}", self.pathWithUnderscore)
+								.replaceAll("{page_path}", window.location.pathname);
+						}
+
+						h = h.replaceAll("{template_id}", data.templates[i].template_id)
+							.replaceAll("{postback_hash}", hash);
+
+						$(this).attr({
+							'href': h, 
+							'target': '_blank'
+						}).addClass('ah-teaser-link')
+					});
+
+					if (data.templates[i].image) {
+						t.find('img').attr('src', 'http://adhelper.me/app/images/' + imageSizeType + data.templates[i].image);
+					}
+
+					t.html(function (index, html) {
+					    return html.replace("{heading_text}", data.templates[i].title).replace("{text}", data.templates[i].text);
+					});
+
+					teaserBlockInner.append(t);				
+				}
+
+				if (i != 0 && (i + 1) % data.teasers_horisontal == 0) {
+					teaserBlockInner.append('<div class="ah-clear"></div>');
+				}
+			}
+
+			teaserBlockInner.append('<div class="ah-clear"></div>');
+
+			return teaserBlock;
+		},
+
+		events: function () {
+			var self = this,
+				scrollposition = 0,
+				maxScrollPosition = 0,
+				blockOffset = 0,
+				blockHeight = 0;
+
+            $('[data-teaser-element="grid"]').on({
+                mouseenter: function () {
+                    var elementIndex = $(this).attr('data-grid-index'),
+                    	groupIndex = $(this).parents('.ah-teaser-wrapper').attr('data-teaser-group-index'),
+                        styleHover = {};
+
+					if (groupIndex && elementIndex) {
+				    	if (self._data[groupIndex].config.gridProperties[elementIndex].propertiesHover) {
+							styleHover = self.propertiesStylesHandler(self._data[groupIndex].config.gridProperties[elementIndex].propertiesHover);
+				    	}
+
+				    	$(this).css(styleHover);
+					}
+                },
+                mouseleave: function () {
+                    var elementIndex = $(this).attr('data-grid-index'),
+                    	groupIndex = $(this).parents('.ah-teaser-wrapper').attr('data-teaser-group-index'),
+                        style = {};
+
+					if (groupIndex && elementIndex) {
+				    	if (self._data[groupIndex].config.gridProperties[elementIndex].properties) {
+				    		style = self.propertiesStylesHandler(self._data[groupIndex].config.gridProperties[elementIndex].properties);
+				    	}
+
+				    	$(this).css(style);
+					}
+                }
+            });
+
+            $('[data-teaser-element-type="image"], [data-teaser-element-type="heading"], [data-teaser-element-type="text"], [data-teaser-element-type="link"], [data-teaser-element-type="button"]').on({
+                mouseenter: function () {
+                    var elementIndex = $(this).attr('data-element-index'),
+                    	groupIndex = $(this).parents('.ah-teaser-wrapper').attr('data-teaser-group-index'),
+                        styleHover = {};
+
+					if (groupIndex && elementIndex) {
+				    	if (self._data[groupIndex].config.elementsProperties[elementIndex].propertiesHover) {
+							styleHover = self.propertiesStylesHandler(self._data[groupIndex].config.elementsProperties[elementIndex].propertiesHover);
+				    	}
+
+				    	$(this).css(styleHover);
+					}
+                },
+                mouseleave: function () {
+                    var elementIndex = $(this).attr('data-element-index'),
+                    	groupIndex = $(this).parents('.ah-teaser-wrapper').attr('data-teaser-group-index'),
+                        style = {};
+
+					if (groupIndex && elementIndex) {
+				    	if (self._data[groupIndex].config.elementsProperties[elementIndex].properties) {
+				    		style = self.propertiesStylesHandler(self._data[groupIndex].config.elementsProperties[elementIndex].properties);
+				    	}
+
+				    	$(this).css(style);
+					}
+                }
+            });
+
+			$(document).on('click', '.ah-close-button, .ah-close-button-text', function (event) {
+				event.preventDefault();
+				
+				$(this).parents('.ah-owerlay').removeClass('is-visible');
+			});
+ 
+			$(document).on('click', '.ah-teaser-link', function (event) {
+				var group_id = $(this).parents('.ah-teaser-template').attr('data-teaser-group-id'),
+					subgroup_id = $(this).parents('.ah-teaser-template').attr('data-teaser-subgroup-id'),
+					template_id = $(this).parents('.ah-teaser-template').attr('data-teaser-template-id'),
+					view_type = $(this).parents('.ah-teaser-template').attr('data-teaser-view-type'),
+					page = window.location.pathname,
+					hash = $(this).parents('.ah-teaser-template').attr('data-teaser-hash');
+
+				self.click(group_id, subgroup_id, template_id, view_type, page, hash);
+			});
+
+			$(document).on('click', '.ah-read-more', function (event) {
+				$(this).remove();
+
+				$(document).find('.ah-page').css({
+					'height': 'auto',
+					'overflow-y': 'visible',
+				});
+			});
+
+			$(window).scroll(function (event) {
+				scrollposition = window.pageYOffset;
+
+				$('.ah-teaser-wrapper').each(function (index, el) {
+					if ($(this).adhelper_is_on_screen() && !$(this).hasClass('check') && !$(this).parent().hasClass('ah-owerlay')) {
+						$(this).addClass('check');
+
+						var templates = $(this).find('.ah-teaser-template'),
+							groupType = $(this).attr('data-teaser-group-type'),
+							continueReading = $(this).attr('enable-continue-reading');
+
+						if (groupType == 2) {
+							self.view(templates);
+						}
+					}
+				});
+			});
+		},
+
+		propertiesStylesHandler: function (p) {
+			var style = {}
+
+			$.each(p, function (key, property) {
+				if (property.type == 'checkbox') {
+				   	if (property.checked) {
+				    	style[property.cssPropertyName] = property.value + property.dimension;
+				    } else {
+				    	style[property.cssPropertyName] = property.default + property.dimension;
+				    }
+				} else {
+				    style[property.cssPropertyName] = property.value + property.dimension;
+				}
+			});
+
+			return style;
+		},
+
+		view: function (templates) {
+			var self = this,
+				viewData = [];
+
+			if (templates.length) {
+				$.each(templates, function() {
+					var group = $(this).attr('data-teaser-group-id'),
+						subgroup = $(this).attr('data-teaser-subgroup-id'),
+						template = $(this).attr('data-teaser-template-id'),
+						view_type = $(this).attr('data-teaser-view-type');
+
+					viewData.push({'group_id': group, 'subgroup_id': subgroup, 'template_id': template, 'view_type': view_type});
+				});
+
+				$.ajax({
+				    type: 'GET',
+				   	url: self.config.siteUrl + '/wp-json/adhelper/v1/send_statistic',
+				    data: {
+				    	"type": "view",
+				    	"view_data": viewData,
+				    	"url": self.config.statisticServer + '/jr_events/view'
+				    }
+				});
+			}
+
+			return true;
+		},
+
+		click: function (group_id, subgroup_id, template_id, view_type, page, hash) {
+			var self = this;
+
+			$.ajax({
+			    type: 'GET',
+			   	url: self.config.siteUrl + '/wp-json/adhelper/v1/send_statistic',
+			    data: {
+			    	"type": "click",
+			    	"group_id": group_id, 
+			    	"subgroup_id": subgroup_id, 
+			    	"template_id": template_id, 
+			    	"view_type": view_type, 
+			    	"page": page, 
+			    	"hash": hash,
+			    	"url": self.config.statisticServer + '/jr_events/click'
+			    }
+			});
+		},
+
+		showCloseButtonWithDelay: function (wrapper) {
+			var closeBtnWithText = wrapper.find('.ah-close-button-text');
+
+			if (closeBtnWithText.length > 0) {
+				setTimeout(function () {
+					closeBtnWithText.show();
+				}, 2000);
+			}
+		},
+
+		randomString: function ()
+		{
+		    var text = "";
+		    var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+
+		    for (var i = 0; i < 10; i++)
+		        text += possible.charAt(Math.floor(Math.random() * possible.length));
+
+		    return text;
+		}
+	}
+
+	$.jsRotate = function (options) {
+        return new jsRotate(this, options);
+	};
+}($, window, document));

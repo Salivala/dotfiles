@@ -1,0 +1,1771 @@
+<!DOCTYPE html><script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="https://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=b9f848c06fcba7eaf305d4a7cb7a1b98"></script><!DOCTYPE html>
+<!--[if IE 8]><html class="lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]><html class="lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!--> <html> <!--<![endif]-->
+    <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+        
+        <meta charset="utf-8">
+        <title>elementary blog — Why we write elementary apps in Vala</title>
+        
+        <meta name="description" content="Why we write elementary apps in Vala If you follow elementary OS development, you may know that we do not write our applications on C or Python, but rather a language called Vala. While it is true...">
+        
+
+        
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="theme-color" content="#35465D">
+        <style>figure{margin:0}.tmblr-iframe{position:absolute}.tmblr-iframe.hide{display:none}.tmblr-iframe--amp-cta-button{visibility:hidden;position:fixed;bottom:10px;left:50%;transform:translateX(-50%);z-index:100}.tmblr-iframe--amp-cta-button.tmblr-iframe--loaded{visibility:visible;animation:iframe-app-cta-transition .2s ease-out}</style><link rel="stylesheet" media="screen" href="https://assets.tumblr.com/client/prod/standalone/blog-network-npf/index.build.css?_v=7f1abb03ee0c5f0789cecb83b7548d8c"><link rel="shortcut icon" href="https://66.media.tumblr.com/avatar_edb79deb3524_128.pnj">
+        <link rel="apple-touch-icon-precomposed" href="https://66.media.tumblr.com/avatar_edb79deb3524_128.pnj">
+        <link rel="alternate" type="application/rss+xml" href="https://blog.elementary.io/rss">
+        <link rel="stylesheet" href="https://static.tumblr.com/xu1kvii/TNpppppa3/main-min.css">
+        
+        
+
+        <!-- HTML5 Shiv -->
+        <!--[if lt IE 9]>
+            <script src="https://static.tumblr.com/hriofhd/Qj0m8pn7q/html5shiv.js"></script>
+        <![endif]-->
+
+        <style>
+            /* Colors */
+            body {
+                background: #FAFAFA;
+            }
+
+            .blog-title {
+                font-family: 'Arquitecta', sans-serif, "Helvetica Neue", HelveticaNeue, Arial, sans-serif;
+                font-weight: bold;
+            }
+
+            .blog-title a,
+            .description,
+            .search-no-results,
+            .likes-no-likes,
+            .related-posts-wrapper > h2,
+            .loader .loader-bar,
+            .widget-title {
+                color: #333333;
+            }
+
+            a {
+                color: #3689e6;
+            }
+
+            #pagination a,
+            .nav-wrapper .nav-item .label {
+                color: #3689e6;
+            }
+
+            #pagination a.next:after {
+                border-left-color: #3689e6;
+            }
+
+            #pagination a.previous:after {
+                border-right-color: #3689e6;
+            }
+
+            .header-image.cover {
+                background-image: url(https://static.tumblr.com/3247ec18802d9ff9275cdf0d884fe95d/lqqd9ev/Prnnmzfo8/tumblr_static_b6q3pwt0skoosk0sc0wg0kc8k_2048_v2.png);
+            }
+
+            .user-avatar {
+                background-color: #FAFAFA;
+                border-color: #FAFAFA;
+            }
+
+            .avatar-style-square .user-avatar {
+                -webkit-box-shadow: 0 0 0 4px #FAFAFA;
+                box-shadow: 0 0 0 4px #FAFAFA;
+            }
+
+            .no-header-image .logo-wrapper,
+            .contain-header-image .logo-wrapper {
+                color: #3689e6;
+            }
+
+            /* Adjust logo for light accents on light backgrounds */
+            .light-on-light.no-header-image .logo-wrapper,
+            .light-on-light.contain-header-image .logo-wrapper {
+                color: #444;
+            }
+
+            /* Adjust logo for dark accents on dark backgrounds */
+            .dark-on-dark.no-header-image .logo-wrapper,
+            .dark-on-dark.contain-header-image .logo-wrapper {
+                color: #fff;
+            }
+
+            /* Sticky nav colors */
+            .nav-fixed {
+                background-color: #FAFAFA;
+            }
+
+            .nav-responsive .inline-nav::after {
+                background-image: linear-gradient(left, rgba(250,250,250, 0) 0%, rgba(250,250,250,1) 100%);
+                background-image: -webkit-linear-gradient(left, rgba(250,250,250, 0) 0%, rgba(250,250,250,1) 100%);
+                background-image: -moz-linear-gradient(left, rgba(250,250,250, 0) 0%, rgba(250,250,250,1) 100%);
+                background-image: -ms-linear-gradient(left, rgba(250,250,250, 0) 0%, rgba(250,250,250,1) 100%);
+                background-image: -o-linear-gradient(left, rgba(250,250,250, 0) 0%, rgba(250,250,250,1) 100%);
+            }
+
+            @media screen and (max-device-width: 568px) {
+                .header-image.cover {
+                    background-image: url(https://static.tumblr.com/3247ec18802d9ff9275cdf0d884fe95d/lqqd9ev/Prnnmzfo8/tumblr_static_b6q3pwt0skoosk0sc0wg0kc8k_640_v2.png);
+                    -webkit-background-size: cover;
+                    background-size: cover;
+                }
+
+                .avatar-style-square .user-avatar {
+                    -webkit-box-shadow: 0 0 0 3px #FAFAFA;
+                    -moz-box-shadow: 0 0 0 3px #FAFAFA;
+                    box-shadow: 0 0 0 3px #FAFAFA;
+                }
+
+            }
+
+            /* Custom CSS */
+            .header-image-wrapper{
+    max-height: 200px;
+}
+
+
+.post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 {
+    font-family: Raleway, sans-serif;
+    font-weight: 300;
+    font-size: 175%;
+    margin-bottom: 0;
+    margin-top: 1.5em;
+}
+
+.post-content h2.title{
+    font-size: 250%;
+}
+
+.post-content img{
+    display: block;
+    margin: 2em auto;
+}
+
+nav {
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav > .nav-content {
+    margin: 0;
+    padding: 0;
+}
+
+nav > .nav-content > ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    max-width: 100%;
+}
+
+nav > .nav-content > .left {
+    float: left;
+    margin-left: 3px;
+}
+
+nav > .nav-content > .right {
+    float: right;
+    margin-right: 3px;
+}
+
+nav > .nav-content > ul > li {
+    margin: 0 10px;
+    position: relative;
+    float: left;
+}
+
+nav > .nav-content > ul > li > a,
+nav > .nav-content > ul > li > a:visited {
+    margin: 0;
+    padding: 0 6px;
+    color: inherit;
+    fill: inherit;
+    opacity: 0.8;
+    display: inline-block;
+}
+
+nav > .nav-content > ul > li > a:focus {
+    text-decoration: none;
+    color: #08c;
+    fill: #08c;
+}
+
+nav > .nav-content > ul > li > a:hover,
+nav > .nav-content > ul > li > a:visited:hover {
+    opacity: 1;
+}
+
+nav .logomark {
+    margin: 0;
+    padding: 0;
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    line-height: 32px;
+}
+
+nav > .nav-content > ul > li > .logomark {
+    padding: 0;
+}
+
+nav .logomark .logomark-svg {
+    fill: inherit;
+}
+
+nav .logomark:focus .logomark-svg {
+    fill: inherit;
+}
+
+@media only screen and (max-width : 520px) {
+
+    nav.nav {
+        white-space: nowrap;
+        overflow: scroll;
+    }
+
+    nav > .nav-content {
+        width: 550px;
+        white-space: nowrap;
+        overflow: scroll;
+    }
+
+    nav > .nav-content > .right {
+        float: left;
+    }
+}
+
+.note-item .avatar img {
+    border-radius: 2px;
+    width: 40px;
+    height: 40px;
+    margin: 0; (fix)
+}
+        </style>
+    <link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=elementaryos%26postID=107661932126" /><link rel="alternate" href="ios-app://305343404/tumblr/x-callback-url/blog?blogName=elementaryos&postID=107661932126" /><link rel="alternate" type="application/json+oembed" href="https://www.tumblr.com/oembed/1.0?url=https://blog.elementary.io/post/107661932126/why-we-write-elementary-apps-in-vala" title="Why we write elementary apps in Vala
+If you follow elementary OS development, you may know that we do not write our applications on C or Python, but rather a language called Vala. While it is true that a more mainstream language would lower the..."/><link rel="amphtml" href=https://blog.elementary.io/post/107661932126/why-we-write-elementary-apps-in-vala/amp /><script src="https://assets.tumblr.com/assets/scripts/tumblelog_post_message_queue.js?_v=a8fadfa499d8cb7c3f8eefdf0b1adfdd"></script><link rel="stylesheet" type="text/css" href="https://assets.tumblr.com/fonts/arquitecta/stylesheet.css?v=3"><!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:site_name" content="elementary blog" /><meta property="og:title" content="Why we write elementary apps in Vala" /><meta property="og:description" content="Vala is an object-oriented programming language developed by the&nbsp;GNOME Project, which was first released in 2006. Syntax-wise, Vala looks and acts very similarly to Java or C#, which makes it easy for..." /><meta property="og:url" content="https://blog.elementary.io/post/107661932126/why-we-write-elementary-apps-in-vala" /><meta property="og:type" content="article" /><meta property="og:determiner" content="a" /><meta property="og:image" content="https://66.media.tumblr.com/avatar_edb79deb3524_512.pnj" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=elementaryos&amp;postID=107661932126" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=elementaryos&amp;postID=107661932126" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- GOOGLE CAROUSEL --><script type="application/ld+json">
+	{"@type":"SocialMediaPosting","url":"https:\/\/blog.elementary.io\/post\/107661932126\/why-we-write-elementary-apps-in-vala","mainEntityOfPage":true,"datePublished":"2014-05-12T04:00:00-04:00","author":"elementaryos","headline":"Why we write elementary apps in Vala","articleBody":"If you follow elementary OS development, you may know that we do not write our applications on C or Python, but rather a language called Vala. While it is true that a more mainstream language would lower the barrier to entry for new first-party and third-party developers, Vala has proven to be a...","@context":"http:\/\/schema.org"}</script><link rel="canonical" href="https://blog.elementary.io/post/107661932126/why-we-write-elementary-apps-in-vala" /></head>
+    <body data-urlencoded-name="elementaryos" class="narrow permalink contain-header-image display-related-posts">
+
+        <div class="app-nag">
+            <div class="app-nag-header clearfix">
+                <div class="app-nag-icon">
+                    <div class="app-nag-icon-ios">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                             viewBox="0 0 1024 1024" enable-background="new 0 0 1024 1024" xml:space="preserve">
+                            <path fill="#36465D" d="M1024,771c0,139.2-113.8,253-253,253H253C113.8,1024,0,910.2,0,771V253C0,113.8,113.8,0,253,0h518 c139.2,0,253,113.8,253,253V771z"/>
+                            <path fill="none" stroke="#FFF100" stroke-width="4" stroke-miterlimit="10" d="M463.9,209.4"/>
+                            <path opacity="0.6" fill="#231F20" d="M628.1,681c8.2,0,17.1-1.2,25.8-3.3V530.3h111.6V401.8h-68.6V473H585.4v162.4 C586,676.3,609.1,681,628.1,681z M654.4,250.5h-68.6v94h68.6V250.5z M754.3,722.9c-12.7,7.1-28.9,12.4-44.3,14.5l11.4,33.8 c-20.5,27-71.4,45.5-118.1,46.3c-1.6,0-3.1,0-4.7,0c0,0,0,0,0,0c-32.5,0-59.5-5.7-81.9-15.3c26.2,40,72.7,72.6,150.5,72.6c0,0,0,0,0,0c1.6,0,3.1,0,4.7,0c46.6-0.8,97.6-19.4,118.1-46.3L754.3,722.9z"/>
+                            <path fill="none" stroke="#FFF100" stroke-width="4" stroke-miterlimit="10" d="M355,359.5"/>
+                            <path fill="#FFFFFF" d="M577.5,830.6c65.1,0,129.7-23.2,151-51.3l4.3-5.6l-40.4-119.7c-0.4-1.1-1.4-1.9-2.6-1.9h-7.6h-3.5l-79.1,0 c-1.2,0-2.3-0.8-2.6-2c-1.1-4-1.7-8.9-1.8-14.9V489c0-1.5,1.2-2.7,2.7-2.7h106.1c1.5,0,2.7-1.2,2.7-2.7V333.8c0-1.5-1.2-2.7-2.7-2.7 H598.4c-1.5,0-2.7-1.2-2.7-2.7V182.5c0-1.5-1.2-2.7-2.7-2.7h-82.6h-28.9h-73.8c-13.3,0-28.5,9.8-30.8,28 c-9.3,75.3-43.8,120.5-108.7,142.2l-7.2,2.4c-1.1,0.4-1.9,1.4-1.9,2.6v128.6c0,1.5,1.2,2.7,2.7,2.7h50.4h0h15.9c0,0,0,120,0,158.3 C328.1,771,415.7,830.6,577.5,830.6z M701.6,769.5c-20.3,19.5-62,34.1-102,34.7c-1.5,0-3,0-4.5,0h0 c-131.5,0-166.6-100.4-166.6-159.7V462.3c0-1.5-1.2-2.7-2.7-2.7h-63.6c-1.5,0-2.7-1.2-2.7-2.7v-83c0-1.1,0.7-2.1,1.7-2.5 c68-26.5,105.9-79,115.9-160.3c0.6-4.5,4.3-4.6,4.3-4.6h84.9c1.5,0,2.7,1.2,2.7,2.7v145.9c0,1.5,1.2,2.7,2.7,2.7h105.7 c1.5,0,2.7,1.2,2.7,2.7v96.4c0,1.5-1.2,2.7-2.7,2.7H571.3c-1.5,0-2.7,1.2-2.7,2.7l0,173.2c0.6,39,19.5,58.8,56.1,58.8 c14.7,0,31.6-3.4,47.1-9.3c1.4-0.6,3,0.2,3.5,1.6l27,80C702.6,767.7,702.4,768.8,701.6,769.5z"/>
+                            <path opacity="0.5" fill="#2D3F54" d="M328.1,528.9h73.8v-40.2c0-1.3-1.1-2.4-2.4-2.4h-71.4V528.9z"/>
+                        </svg>
+                    </div>
+                    <div class="app-nag-icon-android">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1024 1024" enable-background="new 0 0 1024 1024" xml:space="preserve">
+                            <path fill="none" stroke="#FFF100" stroke-width="4" stroke-miterlimit="10" d="M463.9,209.4"></path>
+                            <path opacity="0.5" fill="#231F20" d="M628.1,681c8.2,0,17.1-1.2,25.8-3.3V530.3h111.6V401.8h-68.6V473H585.4v162.4 C586,676.3,609.1,681,628.1,681z M654.4,250.5h-68.6v94h68.6V250.5z M754.3,722.9c-12.7,7.1-28.9,12.4-44.3,14.5l11.4,33.8 c-20.5,27-71.4,45.5-118.1,46.3c-1.6,0-3.1,0-4.7,0c0,0,0,0,0,0c-32.5,0-59.5-5.7-81.9-15.3c26.2,40,72.7,72.6,150.5,72.6c0,0,0,0,0,0c1.6,0,3.1,0,4.7,0c46.6-0.8,97.6-19.4,118.1-46.3L754.3,722.9z"></path>
+                            <path fill="none" stroke="#FFF100" stroke-width="4" stroke-miterlimit="10" d="M355,359.5"></path>
+                            <path fill="#36465D" d="M577.5,830.6c65.1,0,129.7-23.2,151-51.3l4.3-5.6l-40.4-119.7c-0.4-1.1-1.4-1.9-2.6-1.9h-7.6h-3.5l-79.1,0 c-1.2,0-2.3-0.8-2.6-2c-1.1-4-1.7-8.9-1.8-14.9V489c0-1.5,1.2-2.7,2.7-2.7h106.1c1.5,0,2.7-1.2,2.7-2.7V333.8c0-1.5-1.2-2.7-2.7-2.7 H598.4c-1.5,0-2.7-1.2-2.7-2.7V182.5c0-1.5-1.2-2.7-2.7-2.7h-82.6h-28.9h-73.8c-13.3,0-28.5,9.8-30.8,28 c-9.3,75.3-43.8,120.5-108.7,142.2l-7.2,2.4c-1.1,0.4-1.9,1.4-1.9,2.6v128.6c0,1.5,1.2,2.7,2.7,2.7h50.4h0h15.9c0,0,0,120,0,158.3 C328.1,771,415.7,830.6,577.5,830.6z M701.6,769.5c-20.3,19.5-62,34.1-102,34.7c-1.5,0-3,0-4.5,0h0 c-131.5,0-166.6-100.4-166.6-159.7V462.3c0-1.5-1.2-2.7-2.7-2.7h-63.6c-1.5,0-2.7-1.2-2.7-2.7v-83c0-1.1,0.7-2.1,1.7-2.5 c68-26.5,105.9-79,115.9-160.3c0.6-4.5,4.3-4.6,4.3-4.6h84.9c1.5,0,2.7,1.2,2.7,2.7v145.9c0,1.5,1.2,2.7,2.7,2.7h105.7 c1.5,0,2.7,1.2,2.7,2.7v96.4c0,1.5-1.2,2.7-2.7,2.7H571.3c-1.5,0-2.7,1.2-2.7,2.7l0,173.2c0.6,39,19.5,58.8,56.1,58.8 c14.7,0,31.6-3.4,47.1-9.3c1.4-0.6,3,0.2,3.5,1.6l27,80C702.6,767.7,702.4,768.8,701.6,769.5z"></path>
+                            <path opacity="0.5" fill="#2D3F54" d="M328.1,528.9h73.8v-40.2c0-1.3-1.1-2.4-2.4-2.4h-71.4V528.9z"></path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="app-nag-ratings">
+                    <svg width="181px" height="30px" viewBox="0 0 181 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <path d="M15.8,25.2 L6.1,29.8 L7.5,19.2 L0.1,11.4 L10.6,9.5 L15.8,0 L20.9,9.5 L31.4,11.4 L24,19.2 L25.4,29.8 L15.8,25.2 Z" fill="#FFC00E"></path>
+                            <path d="M52.8,25.2 L43.1,29.8 L44.5,19.2 L37.1,11.4 L47.6,9.5 L52.8,0 L57.9,9.5 L68.4,11.4 L61,19.2 L62.4,29.8 L52.8,25.2 Z" fill="#FFC00E"></path>
+                            <path d="M89.8,25.2 L80.1,29.8 L81.5,19.2 L74.1,11.4 L84.6,9.5 L89.8,0 L94.9,9.5 L105.4,11.4 L98,19.2 L99.4,29.8 L89.8,25.2 Z" fill="#FFC00E"></path>
+                            <path d="M126.8,25.2 L117.1,29.8 L118.5,19.2 L111.1,11.4 L121.6,9.5 L126.8,0 L131.9,9.5 L142.4,11.4 L135,19.2 L136.4,29.8 L126.8,25.2 Z" fill="#FFC00E"></path>
+                            <path d="M163.8,25.2 L154.1,29.8 L155.5,19.2 L148.1,11.4 L158.6,9.5 L163.8,0 L168.9,9.5 L179.4,11.4 L172,19.2 L173.4,29.8 L163.8,25.2 Z" fill="#E7E7E7"></path>
+                            <path d="M163.3,25.1 L154.1,29.8 L155.5,19.2 L148.1,11.4 L158.6,9.5 L163.3,0.9 L163.3,25.1 Z" fill="#FFC00E"></path>
+                        </g>
+                    </svg>
+                    <div class="app-nag-ratings-text app-nag-ratings-text-android">
+                        1.5M ratings
+                    </div>
+                    <div class="app-nag-ratings-text app-nag-ratings-text-ios">
+                        277k ratings
+                    </div>
+                </div>
+                <div class="app-nag-close-button">
+                    <svg width="15px" height="15px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <path d="M12.510351,14.6860639 L0,27.1964147 L2.175713,29.3721278 L14.686064,16.8617771 L27.196415,29.3721278 L29.372128,27.1964147 L16.861777,14.6860639 L29.372128,2.1757132 L27.196415,0 L14.686064,12.5103507 L2.175713,0 L0,2.1757132 L12.510351,14.6860639 L12.510351,14.6860639 Z" fill="#D3D3D3"></path>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+            <div class="app-nag-body">
+                <h1 class="app-nag-callout">See, that’s what the app is perfect for.</h1>
+                <a class="app-nag-large-button app-nag-app-store-link button blue">Sounds perfect</a>
+                <a class="app-nag-large-button app-nag-app-store-deny">Wahhhh, I don’t wanna</a>
+            </div>
+        </div>
+
+        <section id="page">
+            <div class="header-wrapper
+                
+                
+                avatar-hidden
+                ">
+
+                <header id="header" class="top-blog-header">
+                    
+                    <div class="header-image-wrapper contain">
+                        <a href="/" class="header-image parallax  contain" data-bg-image="https://static.tumblr.com/3247ec18802d9ff9275cdf0d884fe95d/lqqd9ev/Prnnmzfo8/tumblr_static_b6q3pwt0skoosk0sc0wg0kc8k_2048_v2.png">
+                            
+                            <img src="https://static.tumblr.com/3247ec18802d9ff9275cdf0d884fe95d/lqqd9ev/Prnnmzfo8/tumblr_static_b6q3pwt0skoosk0sc0wg0kc8k_2048_v2.png" alt="">
+                            
+                        </a>
+                        <div class="loader-bg"></div>
+                    </div>
+                    
+
+                    <div class="blog-title-wrapper content">
+                        <figure class="avatar-wrapper">
+                            <a href="/" style="background-image: url(https://66.media.tumblr.com/avatar_edb79deb3524_128.pnj)" class="user-avatar"><img src="https://66.media.tumblr.com/avatar_edb79deb3524_128.pnj" alt="" class="print-only invisible"></a>
+                        </figure>
+
+                        <div class="title-group">
+                            
+                            
+                            <span class="description">
+                                The latest updates from the makers of the fast and open replacement for Windows and macOS.
+                            </span>
+                            
+                        </div>
+                    </div>
+                </header>
+            </div>
+            
+                <div class="nav-wrapper nav-responsive">
+                    <nav class="nav-menu">
+                        <ul class="inline-nav">
+                            <li class="nav-item nav-item--posts">
+                                <a href="/" class="label ">Posts</a>
+                            </li>
+                            
+                            
+                            
+                            
+                            
+                            <li class="nav-item nav-item--archive">
+                                <a href="/archive" class="label external-page">Archive</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            
+            
+            
+            
+            
+
+            <section id="posts" class="content clearfix   avatar-hidden show-nav">
+
+                
+
+                <div class="container">
+                    <div class="main">
+                        
+                                <article class="text not-page post-107661932126  active exposed" data-post-id="107661932126" >
+                                    <div class="post-wrapper clearfix">
+
+                                        <header class="post-header">
+                                            
+                                            
+                                        </header>
+
+                                        <section class="post">
+                                            
+                                            <div class="post-content">
+                                                <h2 class="title"><a href="https://blog.elementary.io/post/107661932126/why-we-write-elementary-apps-in-vala">Why we write elementary apps in Vala</a></h2>
+                                                
+                                                    <div class="body-text"><p>If you follow elementary OS development, you may know that we do not write our applications on C or Python, but rather a language called&nbsp;<a href="https://t.umblr.com/redirect?z=https%3A%2F%2Fwiki.gnome.org%2FProjects%2FVala&amp;t=ZjNiZTRlMDU0NWVjMTVhZGQ1MzJlMzQzNDAyOTk2ZDVlMTQxNmIyNCx4S1o3QVdlWg%3D%3D&amp;b=t%3AibgnuWZACL4bF6AGZWyLrg&amp;p=https%3A%2F%2Fblog.elementary.io%2Fpost%2F107661932126%2Fwhy-we-write-elementary-apps-in-vala&amp;m=0" target="_blank">Vala</a>. While it is true that a more mainstream language would lower the barrier to entry for new first-party and third-party developers, Vala has proven to be a tremendously effective tool for our needs.</p><p>Vala is an object-oriented programming language developed by the&nbsp;<a href="https://t.umblr.com/redirect?z=http%3A%2F%2Fwww.gnome.org%2F&amp;t=ZGQzNDRiMGZiOWI3OTQxMzY1MmRlODI2ZGQwZmFmZjVlNjNmNTg1OCx4S1o3QVdlWg%3D%3D&amp;b=t%3AibgnuWZACL4bF6AGZWyLrg&amp;p=https%3A%2F%2Fblog.elementary.io%2Fpost%2F107661932126%2Fwhy-we-write-elementary-apps-in-vala&amp;m=0" target="_blank">GNOME Project</a>, which was first released in 2006. Syntax-wise, Vala looks and acts very similarly to Java or C#, which makes it easy for new contributors to leverage their knowledge and experience from other languages. Vala&rsquo;s clear syntax and tight coupling with the strongly-typed GObject system promotes highly readable, expressive, and maintainable code, while preventing entire classes of crashes and bugs.</p><p>Since Vala compiles to C (and then into binary), we gain access to a large number of bindings for libraries written in C. This is extremely important given the number of C libraries available for the Linux desktop. All of our desktop applications are written using the&nbsp;<a href="https://t.umblr.com/redirect?z=http%3A%2F%2Fwww.gtk.org%2F&amp;t=NDU4NzAwNTZmNGU4OGYzNzJjOTdmNDc5MGMxYTI1Nzg5ZDZkNmEwOCx4S1o3QVdlWg%3D%3D&amp;b=t%3AibgnuWZACL4bF6AGZWyLrg&amp;p=https%3A%2F%2Fblog.elementary.io%2Fpost%2F107661932126%2Fwhy-we-write-elementary-apps-in-vala&amp;m=0" target="_blank">GTK+</a>&nbsp;toolkit, and many rely heavily on related GObject-based libraries, including Gee, WebKitGTK, VTE, and GStreamer. Bindings for dozens of popular GObject C libraries exist, and writing new ones is easy.</p><p>Before we adopted Vala, we wrote our desktop applications in Python. As both a language and a platform, Python made developing apps quick and easy. However, this ease of development came at a serious cost &mdash; performance, binding support, and maintainability became major pain points for us with Python. Worse, the slow and fragmented adoption of Python 3 over Python 2, particularly across Linux distributions, made packaging our apps and developer tools for different environments tedious and challenging. Vala&rsquo;s native binaries have proven to be a better fit for us.</p><p>Because Vala is developed by the same incredible folks who make GTK+, integration between Vala and GTK+ is tight. Here&rsquo;s an example from the official Vala source of&nbsp;<a href="https://t.umblr.com/redirect?z=https%3A%2F%2Fwiki.gnome.org%2FProjects%2FVala%2FGTKSample&amp;t=NTBkZWY4MjU2MDAyYWY0NTk5Y2I0MGY1MDgyNzI2MWU0Y2I0NGU3OSx4S1o3QVdlWg%3D%3D&amp;b=t%3AibgnuWZACL4bF6AGZWyLrg&amp;p=https%3A%2F%2Fblog.elementary.io%2Fpost%2F107661932126%2Fwhy-we-write-elementary-apps-in-vala&amp;m=0" target="_blank">GTK Samples</a></p><p>Extending GTK+ with Vala has also proven successful. In fact, we&rsquo;ve crafted our own set of widgets that build on and complement what GTK+ provides by default. This super-set of GTK+, called&nbsp;<a href="https://t.umblr.com/redirect?z=https%3A%2F%2Flaunchpad.net%2Fgranite&amp;t=NDY4ZGYzNDQ5NWYyMzVhZjMyMTAwYzk5ZTY5YjUxN2YwMGU5Y2FmMix4S1o3QVdlWg%3D%3D&amp;b=t%3AibgnuWZACL4bF6AGZWyLrg&amp;p=https%3A%2F%2Fblog.elementary.io%2Fpost%2F107661932126%2Fwhy-we-write-elementary-apps-in-vala&amp;m=0" target="_blank">Granite</a>, is at the heart of nearly every elementary application, and Vala&rsquo;s excellent object-oriented inheritance system, among other sophistocated language features, have been key to our development.</p><p>Vala has excellent documentation, be it in the form of&nbsp;<a href="https://t.umblr.com/redirect?z=https%3A%2F%2Fwiki.gnome.org%2FProjects%2FVala%2FDocumentation%23Tutorials&amp;t=Y2ZlNjI4ZTBlNTAxYmJmNTRhM2M0MjFmNzY2NjhmZjUwYWM1NzFmZSx4S1o3QVdlWg%3D%3D&amp;b=t%3AibgnuWZACL4bF6AGZWyLrg&amp;p=https%3A%2F%2Fblog.elementary.io%2Fpost%2F107661932126%2Fwhy-we-write-elementary-apps-in-vala&amp;m=0" target="_blank">tutorials</a>,&nbsp;<a href="https://t.umblr.com/redirect?z=https%3A%2F%2Fwiki.gnome.org%2FProjects%2FVala%2FDocumentation%23Sample_Code&amp;t=MDNkMGJhYTczZThkNTllNDYwZmI2MzE2YzNjNWZkNDZmYzQ0ZjQzZCx4S1o3QVdlWg%3D%3D&amp;b=t%3AibgnuWZACL4bF6AGZWyLrg&amp;p=https%3A%2F%2Fblog.elementary.io%2Fpost%2F107661932126%2Fwhy-we-write-elementary-apps-in-vala&amp;m=0" target="_blank">code samples</a>&nbsp;or a&nbsp;<a href="https://t.umblr.com/redirect?z=http%3A%2F%2Fvaladoc.org%2F&amp;t=MTNhMzQyMjMwMmVmODk5MTdkMGJhZjA2NWJjZjkwZmRlYjkzYzQ5NSx4S1o3QVdlWg%3D%3D&amp;b=t%3AibgnuWZACL4bF6AGZWyLrg&amp;p=https%3A%2F%2Fblog.elementary.io%2Fpost%2F107661932126%2Fwhy-we-write-elementary-apps-in-vala&amp;m=0" target="_blank">very easy-to-use API Reference</a>. So if you&rsquo;re interested in&nbsp;<a href="https://t.umblr.com/redirect?z=http%3A%2F%2Felementaryos.org%2Fget-involved&amp;t=ZTc3MzlmZTc1ZDM2Njg5OWFkZDQ3NDJkMjJlMmY3ZDdhNDlkZjM0Zix4S1o3QVdlWg%3D%3D&amp;b=t%3AibgnuWZACL4bF6AGZWyLrg&amp;p=https%3A%2F%2Fblog.elementary.io%2Fpost%2F107661932126%2Fwhy-we-write-elementary-apps-in-vala&amp;m=0" target="_blank">hacking on our projects</a>&nbsp;(which we very much appreciate &mdash; we are always looking for new contributors!), or are planning to release fantastic third-party desktop applications for elementary OS, we can&rsquo;t recommend Vala enough. Dive in!</p></div>
+                                                
+                                                
+                                            </div>
+                                            
+
+                                            
+
+                                            
+
+                                            
+
+
+                                            
+
+
+                                            
+
+
+                                            
+
+
+                                            
+
+                                            
+
+                                            <section class="inline-meta post-extra">
+                                                
+                                                
+                                            </section>
+
+                                        </section>
+
+                                        
+                                        <section class="panel">
+                                            <footer class="post-footer">
+
+                                                <section class="panel">
+                                                    <section class="inline-meta date-notes">
+                                                        <div class="date-note-wrapper">
+                                                            
+                                                            <a href="https://blog.elementary.io/post/107661932126/why-we-write-elementary-apps-in-vala" title="5 years ago" class="meta-item post-date">May 12th, 2014</a>
+                                                        </div>
+                                                    </section>
+
+                                                    <section class="post-controls">
+                                                        <div class="controls-wrapper">
+                                                            <div class="control share-control">
+                                                                <nav class="pop">
+                                                                    <a href="#" class="share selector"></a>
+                                                                    <div class="pop-menu share-menu south" id="share_107661932126">
+                                                                        <ul>
+                                                                            <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="107661932126">Open in app</a></li>
+                                                                            <li><a href="https://facebook.com/sharer.php?u=https%3A%2F%2Fblog.elementary.io%2Fpost%2F107661932126%2Fwhy-we-write-elementary-apps-in-vala&amp;t=Why%20we%20write%20elementary%20apps%20in%20Vala" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                            <li><a href="https://twitter.com/intent/tweet?text=Why%20we%20write%20elementary%20apps%20in%20Vala%20-%20If%20you%20follow%20elementary%20OS%20development%2C%20you%20may%20know%20that%20we%20do%20not%20write%20our%20applications%20on%20C%20or%20Python%2C%20but%20rather%20a%20language%20called%C2%A0Vala.%20While%20it%20is%20true%20that%20a%20more%20mainstream%20language%20would%20lower%20the...%20https%3A%2F%2Ftmblr.co%2FZTbslu1aH9hPU" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                            
+                                                                            
+                                                                            <li><a href="https://reddit.com/submit?url=https%3A%2F%2Fblog.elementary.io%2Fpost%2F107661932126%2Fwhy-we-write-elementary-apps-in-vala" class="share-item reddit" target="_blank">Reddit</a></li>
+                                                                            <li><a href="mailto:?subject=A%20post%20from%20elementary%20blog&amp;body=Why%20we%20write%20elementary%20apps%20in%20Vala%20-%20If%20you%20follow%20elementary%20OS%20development%2C%20you%20may%20know%20that%20we%20do%20not%20write%20our%20applications%20on%20C%20or%20Python%2C%20but%20rather%20a%20language...%20https%3A%2F%2Fblog.elementary.io%2Fpost%2F107661932126%2Fwhy-we-write-elementary-apps-in-vala" class="share-item mail">Mail</a></li>
+                                                                            <li><a href="https://blog.elementary.io/post/107661932126/why-we-write-elementary-apps-in-vala/embed" class="share-item permalink">Embed</a></li>
+                                                                            <li><a href="https://blog.elementary.io/post/107661932126/why-we-write-elementary-apps-in-vala" class="share-item permalink">Permalink <i class="arrow"></i></a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </nav>
+                                                            </div>
+                                                            <div class="control reblog-control"><a href="https://www.tumblr.com/reblog/107661932126/xKZ7AWeZ" class="reblog_button"style="display: block;width:24px;height:24px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                                                            <div class="control like-control"><div class="like_button" data-post-id="107661932126" data-blog-name="elementaryos" id="like_button_107661932126"><iframe id="like_iframe_107661932126" src="https://assets.tumblr.com/assets/html/like_iframe.html?_v=66c22ab5319d742bca5762b8d18f9d06#name=elementaryos&amp;post_id=107661932126&amp;color=black&amp;rk=xKZ7AWeZ" scrolling="no" width="24" height="24" frameborder="0" class="like_toggle" allowTransparency="true" name="like_iframe_107661932126"></iframe></div></div>
+                                                        </div>
+                                                    </section>
+
+                                                </section>
+                                                <section class="inline-meta date-notes">
+                                                        
+                                                </section>
+                                            </footer>
+                                        </section>
+                                        
+                                        
+
+                                            
+
+                                                
+
+                                            
+
+                                        
+                                    </div>
+                                </article>
+                        
+                        
+                        
+                            
+                                <section class="related-posts-wrapper">
+                                    <h2>More you might like</h2>
+                                    <div class="related-posts">
+                                    
+                                            <article class="link not-page post-185322002591  active exposed" data-post-id="185322002591">
+                                                <div class="post-wrapper clearfix">
+                                                    
+                                                    <section class="post">
+                                                        
+
+                                                        
+
+                                                        
+
+                                                        
+
+
+                                                        
+                                                        <div class="post-content with-caption">
+                                                            <div class="link-wrapper">
+                                                                <a  target="_blank"  href="https://t.umblr.com/redirect?z=https%3A%2F%2Fmedium.com%2Felementaryos%2Fjuno-updates-for-may-2019-3301083a44df%3Fsource%3Drss----ef863fa48176---4&amp;t=ZjQyN2JkZWZjZjkzNzZlZTk0MDViZjhjMzIyOTFkYzk2YmE4MDM1NCxwTDlNUHRMVw%3D%3D&amp;b=t%3AibgnuWZACL4bF6AGZWyLrg&amp;p=https%3A%2F%2Fblog.elementary.io%2Fpost%2F185322002591%2Fjuno-updates-for-may-2019&amp;m=0" class="link">
+                                                                    
+                                                                    <div class="link-text-wrapper clearfix">
+                                                                        <div class="link-text">
+                                                                            
+                                                                            <div class="link-host">medium.com</div>
+                                                                            
+                                                                            <h2 class="link-title">Juno Updates for May, 2019</h2>
+                                                                            
+                                                                            
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            
+                                                                <div class="caption">
+                                                                    <p>via elementary - Medium</p>
+                                                                </div>
+                                                            
+                                                            
+                                                        </div>
+                                                        
+
+
+                                                        
+
+
+                                                        
+
+
+                                                        
+
+                                                        
+
+                                                        <section class="inline-meta post-extra has-tags">
+                                                            
+                                                            
+                                                                
+                                                                     <a class="meta-item tag-link" href="https://blog.elementary.io/tagged/IFTTT">IFTTT</a>
+                                                                
+                                                                     <a class="meta-item tag-link" href="https://blog.elementary.io/tagged/elementary---Medium">elementary - Medium</a>
+                                                                
+                                                            
+                                                        </section>
+
+                                                    </section>
+
+                                                    
+                                                    <section class="panel">
+                                                        <footer class="post-footer">
+                                                            <section class="panel">
+                                                                <section class="inline-meta date-notes">
+                                                                    <div class="date-note-wrapper">
+                                                                        
+                                                                            <a href="https://blog.elementary.io/post/185322002591/juno-updates-for-may-2019?is_related_post=1#notes" class="meta-item post-notes">2 notes</a>
+                                                                        
+                                                                    </div>
+                                                                </section>
+
+                                                                <section class="post-controls">
+                                                                    <div class="controls-wrapper">
+                                                                        <div class="control share-control">
+                                                                            <nav class="pop">
+                                                                                <a href="#" class="share selector"></a>
+                                                                                <div class="pop-menu share-menu south" id="share_185322002591">
+                                                                                    <ul>
+                                                                                        <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="185322002591">Open in app</a></li>
+                                                                                        <li><a href="https://facebook.com/sharer.php?u=https%3A%2F%2Fblog.elementary.io%2Fpost%2F185322002591%2Fjuno-updates-for-may-2019%3Fis_related_post%3D1&amp;t=elementary%20blog" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                                        <li><a href="https://twitter.com/intent/tweet?text=Juno%20Updates%20for%20May%2C%202019%20-%20via%20elementary%20-%20Medium%20https%3A%2F%2Ftmblr.co%2FZTbslu2ic3LYV" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                                        
+                                                                                        
+                                                                                        <li><a href="https://reddit.com/submit?url=https%3A%2F%2Fblog.elementary.io%2Fpost%2F185322002591%2Fjuno-updates-for-may-2019%3Fis_related_post%3D1" class="share-item reddit" target="_blank">Reddit</a></li>
+                                                                                        <li><a href="mailto:?subject=A%20link%20from%20elementary%20blog&amp;body=Juno%20Updates%20for%20May%2C%202019%20-%20via%20elementary%20-%20Medium%20https%3A%2F%2Fblog.elementary.io%2Fpost%2F185322002591%2Fjuno-updates-for-may-2019" class="share-item mail">Mail</a></li>
+                                                                                        <li><a href="https://blog.elementary.io/post/185322002591/juno-updates-for-may-2019/embed" class="share-item permalink">Embed</a></li>
+                                                                                        <li><a href="https://blog.elementary.io/post/185322002591/juno-updates-for-may-2019?is_related_post=1" class="share-item permalink">Permalink <i class="arrow"></i></a></li>
+                                                                                    </ul>
+                                                                                </div>
+                                                                            </nav>
+                                                                        </div>
+                                                                        <div class="control reblog-control"><a href="https://www.tumblr.com/reblog/185322002591/pL9MPtLW" class="reblog_button"style="display: block;width:24px;height:24px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                                                                        <div class="control like-control"><div class="like_button" data-post-id="185322002591" data-blog-name="elementaryos" id="like_button_185322002591"><iframe id="like_iframe_185322002591" src="https://assets.tumblr.com/assets/html/like_iframe.html?_v=66c22ab5319d742bca5762b8d18f9d06#name=elementaryos&amp;post_id=185322002591&amp;color=black&amp;rk=pL9MPtLW" scrolling="no" width="24" height="24" frameborder="0" class="like_toggle" allowTransparency="true" name="like_iframe_185322002591"></iframe></div></div>
+                                                                    </div>
+                                                                </section>
+                                                            </section>
+                                                        </footer>
+                                                    </section>
+                                                    
+                                                </div>
+                                            </article>
+                                    
+                                            <article class="link not-page post-184952841846  active exposed" data-post-id="184952841846">
+                                                <div class="post-wrapper clearfix">
+                                                    
+                                                    <section class="post">
+                                                        
+
+                                                        
+
+                                                        
+
+                                                        
+
+
+                                                        
+                                                        <div class="post-content with-caption">
+                                                            <div class="link-wrapper">
+                                                                <a  target="_blank"  href="https://t.umblr.com/redirect?z=https%3A%2F%2Fmedium.com%2Felementaryos%2Fthe-need-for-a-freedesktop-dark-style-preference-614f501ae4ca%3Fsource%3Drss----ef863fa48176---4&amp;t=MDQxMWYwYTA2YjdhNjkyNTI0ODlhOWIxY2QyODk1NmM4NjIyZmM2NyxpRHBjaENtWA%3D%3D&amp;b=t%3AibgnuWZACL4bF6AGZWyLrg&amp;p=https%3A%2F%2Fblog.elementary.io%2Fpost%2F184952841846%2Fthe-need-for-a-freedesktop-dark-style-preference&amp;m=0" class="link">
+                                                                    
+                                                                    <div class="link-text-wrapper clearfix">
+                                                                        <div class="link-text">
+                                                                            
+                                                                            <div class="link-host">medium.com</div>
+                                                                            
+                                                                            <h2 class="link-title">The Need for a FreeDesktop Dark Style Preference</h2>
+                                                                            
+                                                                            
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            
+                                                                <div class="caption">
+                                                                    <p>via elementary - Medium</p>
+                                                                </div>
+                                                            
+                                                            
+                                                        </div>
+                                                        
+
+
+                                                        
+
+
+                                                        
+
+
+                                                        
+
+                                                        
+
+                                                        <section class="inline-meta post-extra has-tags">
+                                                            
+                                                            
+                                                                
+                                                                     <a class="meta-item tag-link" href="https://blog.elementary.io/tagged/IFTTT">IFTTT</a>
+                                                                
+                                                                     <a class="meta-item tag-link" href="https://blog.elementary.io/tagged/elementary---Medium">elementary - Medium</a>
+                                                                
+                                                            
+                                                        </section>
+
+                                                    </section>
+
+                                                    
+                                                    <section class="panel">
+                                                        <footer class="post-footer">
+                                                            <section class="panel">
+                                                                <section class="inline-meta date-notes">
+                                                                    <div class="date-note-wrapper">
+                                                                        
+                                                                            <a href="https://blog.elementary.io/post/184952841846/the-need-for-a-freedesktop-dark-style-preference?is_related_post=1#notes" class="meta-item post-notes">1 note</a>
+                                                                        
+                                                                    </div>
+                                                                </section>
+
+                                                                <section class="post-controls">
+                                                                    <div class="controls-wrapper">
+                                                                        <div class="control share-control">
+                                                                            <nav class="pop">
+                                                                                <a href="#" class="share selector"></a>
+                                                                                <div class="pop-menu share-menu south" id="share_184952841846">
+                                                                                    <ul>
+                                                                                        <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="184952841846">Open in app</a></li>
+                                                                                        <li><a href="https://facebook.com/sharer.php?u=https%3A%2F%2Fblog.elementary.io%2Fpost%2F184952841846%2Fthe-need-for-a-freedesktop-dark-style-preference%3Fis_related_post%3D1&amp;t=elementary%20blog" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                                        <li><a href="https://twitter.com/intent/tweet?text=The%20Need%20for%20a%20FreeDesktop%20Dark%20Style%20Preference%20-%20via%20elementary%20-%20Medium%20https%3A%2F%2Ftmblr.co%2FZTbslu2iG36Ps" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                                        
+                                                                                        
+                                                                                        <li><a href="https://reddit.com/submit?url=https%3A%2F%2Fblog.elementary.io%2Fpost%2F184952841846%2Fthe-need-for-a-freedesktop-dark-style-preference%3Fis_related_post%3D1" class="share-item reddit" target="_blank">Reddit</a></li>
+                                                                                        <li><a href="mailto:?subject=A%20link%20from%20elementary%20blog&amp;body=The%20Need%20for%20a%20FreeDesktop%20Dark%20Style%20Preference%20-%20via%20elementary%20-%20Medium%20https%3A%2F%2Fblog.elementary.io%2Fpost%2F184952841846%2Fthe-need-for-a-freedesktop-dark-style-preference" class="share-item mail">Mail</a></li>
+                                                                                        <li><a href="https://blog.elementary.io/post/184952841846/the-need-for-a-freedesktop-dark-style-preference/embed" class="share-item permalink">Embed</a></li>
+                                                                                        <li><a href="https://blog.elementary.io/post/184952841846/the-need-for-a-freedesktop-dark-style-preference?is_related_post=1" class="share-item permalink">Permalink <i class="arrow"></i></a></li>
+                                                                                    </ul>
+                                                                                </div>
+                                                                            </nav>
+                                                                        </div>
+                                                                        <div class="control reblog-control"><a href="https://www.tumblr.com/reblog/184952841846/iDpchCmX" class="reblog_button"style="display: block;width:24px;height:24px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                                                                        <div class="control like-control"><div class="like_button" data-post-id="184952841846" data-blog-name="elementaryos" id="like_button_184952841846"><iframe id="like_iframe_184952841846" src="https://assets.tumblr.com/assets/html/like_iframe.html?_v=66c22ab5319d742bca5762b8d18f9d06#name=elementaryos&amp;post_id=184952841846&amp;color=black&amp;rk=iDpchCmX" scrolling="no" width="24" height="24" frameborder="0" class="like_toggle" allowTransparency="true" name="like_iframe_184952841846"></iframe></div></div>
+                                                                    </div>
+                                                                </section>
+                                                            </section>
+                                                        </footer>
+                                                    </section>
+                                                    
+                                                </div>
+                                            </article>
+                                    
+                                            <article class="link not-page post-184602665091  active exposed" data-post-id="184602665091">
+                                                <div class="post-wrapper clearfix">
+                                                    
+                                                    <section class="post">
+                                                        
+
+                                                        
+
+                                                        
+
+                                                        
+
+
+                                                        
+                                                        <div class="post-content with-caption">
+                                                            <div class="link-wrapper">
+                                                                <a  target="_blank"  href="https://t.umblr.com/redirect?z=https%3A%2F%2Fmedium.com%2Felementaryos%2Fjuno-updates-for-april-2019-73cd51764207%3Fsource%3Drss----ef863fa48176---4&amp;t=MjhkNDdiMjIxZjhkYTJiZTg1YmQ5MWRjMWNkZTY4NzkxMDI3NDIyYyxmRzdrVzBJdw%3D%3D&amp;b=t%3AibgnuWZACL4bF6AGZWyLrg&amp;p=https%3A%2F%2Fblog.elementary.io%2Fpost%2F184602665091%2Fjuno-updates-for-april-2019&amp;m=0" class="link">
+                                                                    
+                                                                    <div class="link-text-wrapper clearfix">
+                                                                        <div class="link-text">
+                                                                            
+                                                                            <div class="link-host">medium.com</div>
+                                                                            
+                                                                            <h2 class="link-title">Juno Updates for April, 2019</h2>
+                                                                            
+                                                                            
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            
+                                                                <div class="caption">
+                                                                    <p>via elementary - Medium</p>
+                                                                </div>
+                                                            
+                                                            
+                                                        </div>
+                                                        
+
+
+                                                        
+
+
+                                                        
+
+
+                                                        
+
+                                                        
+
+                                                        <section class="inline-meta post-extra has-tags">
+                                                            
+                                                            
+                                                                
+                                                                     <a class="meta-item tag-link" href="https://blog.elementary.io/tagged/IFTTT">IFTTT</a>
+                                                                
+                                                                     <a class="meta-item tag-link" href="https://blog.elementary.io/tagged/elementary---Medium">elementary - Medium</a>
+                                                                
+                                                            
+                                                        </section>
+
+                                                    </section>
+
+                                                    
+                                                    <section class="panel">
+                                                        <footer class="post-footer">
+                                                            <section class="panel">
+                                                                <section class="inline-meta date-notes">
+                                                                    <div class="date-note-wrapper">
+                                                                        
+                                                                            <a href="https://blog.elementary.io/post/184602665091/juno-updates-for-april-2019?is_related_post=1#notes" class="meta-item post-notes">1 note</a>
+                                                                        
+                                                                    </div>
+                                                                </section>
+
+                                                                <section class="post-controls">
+                                                                    <div class="controls-wrapper">
+                                                                        <div class="control share-control">
+                                                                            <nav class="pop">
+                                                                                <a href="#" class="share selector"></a>
+                                                                                <div class="pop-menu share-menu south" id="share_184602665091">
+                                                                                    <ul>
+                                                                                        <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="184602665091">Open in app</a></li>
+                                                                                        <li><a href="https://facebook.com/sharer.php?u=https%3A%2F%2Fblog.elementary.io%2Fpost%2F184602665091%2Fjuno-updates-for-april-2019%3Fis_related_post%3D1&amp;t=elementary%20blog" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                                        <li><a href="https://twitter.com/intent/tweet?text=Juno%20Updates%20for%20April%2C%202019%20-%20via%20elementary%20-%20Medium%20https%3A%2F%2Ftmblr.co%2FZTbslu2hxBI23" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                                        
+                                                                                        
+                                                                                        <li><a href="https://reddit.com/submit?url=https%3A%2F%2Fblog.elementary.io%2Fpost%2F184602665091%2Fjuno-updates-for-april-2019%3Fis_related_post%3D1" class="share-item reddit" target="_blank">Reddit</a></li>
+                                                                                        <li><a href="mailto:?subject=A%20link%20from%20elementary%20blog&amp;body=Juno%20Updates%20for%20April%2C%202019%20-%20via%20elementary%20-%20Medium%20https%3A%2F%2Fblog.elementary.io%2Fpost%2F184602665091%2Fjuno-updates-for-april-2019" class="share-item mail">Mail</a></li>
+                                                                                        <li><a href="https://blog.elementary.io/post/184602665091/juno-updates-for-april-2019/embed" class="share-item permalink">Embed</a></li>
+                                                                                        <li><a href="https://blog.elementary.io/post/184602665091/juno-updates-for-april-2019?is_related_post=1" class="share-item permalink">Permalink <i class="arrow"></i></a></li>
+                                                                                    </ul>
+                                                                                </div>
+                                                                            </nav>
+                                                                        </div>
+                                                                        <div class="control reblog-control"><a href="https://www.tumblr.com/reblog/184602665091/fG7kW0Iw" class="reblog_button"style="display: block;width:24px;height:24px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                                                                        <div class="control like-control"><div class="like_button" data-post-id="184602665091" data-blog-name="elementaryos" id="like_button_184602665091"><iframe id="like_iframe_184602665091" src="https://assets.tumblr.com/assets/html/like_iframe.html?_v=66c22ab5319d742bca5762b8d18f9d06#name=elementaryos&amp;post_id=184602665091&amp;color=black&amp;rk=fG7kW0Iw" scrolling="no" width="24" height="24" frameborder="0" class="like_toggle" allowTransparency="true" name="like_iframe_184602665091"></iframe></div></div>
+                                                                    </div>
+                                                                </section>
+                                                            </section>
+                                                        </footer>
+                                                    </section>
+                                                    
+                                                </div>
+                                            </article>
+                                    
+                                            <article class="link not-page post-184038955861  active exposed" data-post-id="184038955861">
+                                                <div class="post-wrapper clearfix">
+                                                    
+                                                    <section class="post">
+                                                        
+
+                                                        
+
+                                                        
+
+                                                        
+
+
+                                                        
+                                                        <div class="post-content with-caption">
+                                                            <div class="link-wrapper">
+                                                                <a  target="_blank"  href="https://t.umblr.com/redirect?z=https%3A%2F%2Fmedium.com%2Felementaryos%2Fdeveloper-tips-github-workflow-bd7be5d96b87%3Fsource%3Drss----ef863fa48176---4&amp;t=NTIwMTEzYmRhYzQ5YmMzODRkYTJhM2M5ZGYyMTQ0ZjhjYTFlYWQ0Miw0UWpjYmY2QQ%3D%3D&amp;b=t%3AibgnuWZACL4bF6AGZWyLrg&amp;p=https%3A%2F%2Fblog.elementary.io%2Fpost%2F184038955861%2Fdeveloper-tips-github-workflow&amp;m=0" class="link">
+                                                                    
+                                                                    <div class="link-text-wrapper clearfix">
+                                                                        <div class="link-text">
+                                                                            
+                                                                            <div class="link-host">medium.com</div>
+                                                                            
+                                                                            <h2 class="link-title">Developer Tips: GitHub Workflow</h2>
+                                                                            
+                                                                            
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            
+                                                                <div class="caption">
+                                                                    <p>via elementary - Medium</p>
+                                                                </div>
+                                                            
+                                                            
+                                                        </div>
+                                                        
+
+
+                                                        
+
+
+                                                        
+
+
+                                                        
+
+                                                        
+
+                                                        <section class="inline-meta post-extra has-tags">
+                                                            
+                                                            
+                                                                
+                                                                     <a class="meta-item tag-link" href="https://blog.elementary.io/tagged/IFTTT">IFTTT</a>
+                                                                
+                                                                     <a class="meta-item tag-link" href="https://blog.elementary.io/tagged/elementary---Medium">elementary - Medium</a>
+                                                                
+                                                            
+                                                        </section>
+
+                                                    </section>
+
+                                                    
+                                                    <section class="panel">
+                                                        <footer class="post-footer">
+                                                            <section class="panel">
+                                                                <section class="inline-meta date-notes">
+                                                                    <div class="date-note-wrapper">
+                                                                        
+                                                                    </div>
+                                                                </section>
+
+                                                                <section class="post-controls">
+                                                                    <div class="controls-wrapper">
+                                                                        <div class="control share-control">
+                                                                            <nav class="pop">
+                                                                                <a href="#" class="share selector"></a>
+                                                                                <div class="pop-menu share-menu south" id="share_184038955861">
+                                                                                    <ul>
+                                                                                        <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="184038955861">Open in app</a></li>
+                                                                                        <li><a href="https://facebook.com/sharer.php?u=https%3A%2F%2Fblog.elementary.io%2Fpost%2F184038955861%2Fdeveloper-tips-github-workflow%3Fis_related_post%3D1&amp;t=elementary%20blog" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                                        <li><a href="https://twitter.com/intent/tweet?text=Developer%20Tips%3A%20GitHub%20Workflow%20-%20via%20elementary%20-%20Medium%20https%3A%2F%2Ftmblr.co%2FZTbslu2hPavjL" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                                        
+                                                                                        
+                                                                                        <li><a href="https://reddit.com/submit?url=https%3A%2F%2Fblog.elementary.io%2Fpost%2F184038955861%2Fdeveloper-tips-github-workflow%3Fis_related_post%3D1" class="share-item reddit" target="_blank">Reddit</a></li>
+                                                                                        <li><a href="mailto:?subject=A%20link%20from%20elementary%20blog&amp;body=Developer%20Tips%3A%20GitHub%20Workflow%20-%20via%20elementary%20-%20Medium%20https%3A%2F%2Fblog.elementary.io%2Fpost%2F184038955861%2Fdeveloper-tips-github-workflow" class="share-item mail">Mail</a></li>
+                                                                                        <li><a href="https://blog.elementary.io/post/184038955861/developer-tips-github-workflow/embed" class="share-item permalink">Embed</a></li>
+                                                                                        <li><a href="https://blog.elementary.io/post/184038955861/developer-tips-github-workflow?is_related_post=1" class="share-item permalink">Permalink <i class="arrow"></i></a></li>
+                                                                                    </ul>
+                                                                                </div>
+                                                                            </nav>
+                                                                        </div>
+                                                                        <div class="control reblog-control"><a href="https://www.tumblr.com/reblog/184038955861/4Qjcbf6A" class="reblog_button"style="display: block;width:24px;height:24px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                                                                        <div class="control like-control"><div class="like_button" data-post-id="184038955861" data-blog-name="elementaryos" id="like_button_184038955861"><iframe id="like_iframe_184038955861" src="https://assets.tumblr.com/assets/html/like_iframe.html?_v=66c22ab5319d742bca5762b8d18f9d06#name=elementaryos&amp;post_id=184038955861&amp;color=black&amp;rk=4Qjcbf6A" scrolling="no" width="24" height="24" frameborder="0" class="like_toggle" allowTransparency="true" name="like_iframe_184038955861"></iframe></div></div>
+                                                                    </div>
+                                                                </section>
+                                                            </section>
+                                                        </footer>
+                                                    </section>
+                                                    
+                                                </div>
+                                            </article>
+                                    
+                                            <article class="link not-page post-183903260126  active exposed" data-post-id="183903260126">
+                                                <div class="post-wrapper clearfix">
+                                                    
+                                                    <section class="post">
+                                                        
+
+                                                        
+
+                                                        
+
+                                                        
+
+
+                                                        
+                                                        <div class="post-content with-caption">
+                                                            <div class="link-wrapper">
+                                                                <a  target="_blank"  href="https://t.umblr.com/redirect?z=https%3A%2F%2Fmedium.com%2Felementaryos%2Fjuno-updates-for-march-2019-d2dedb7e5500%3Fsource%3Drss----ef863fa48176---4&amp;t=NGY4M2Y3ODBjODdhNjYzZDUxZTYxZjQwN2JmNzgyNTk3ZjRjNGUyNyx4aDR5WmRaWg%3D%3D&amp;b=t%3AibgnuWZACL4bF6AGZWyLrg&amp;p=https%3A%2F%2Fblog.elementary.io%2Fpost%2F183903260126%2Fjuno-updates-for-march-2019&amp;m=0" class="link">
+                                                                    
+                                                                    <div class="link-text-wrapper clearfix">
+                                                                        <div class="link-text">
+                                                                            
+                                                                            <div class="link-host">medium.com</div>
+                                                                            
+                                                                            <h2 class="link-title">Juno Updates for March, 2019</h2>
+                                                                            
+                                                                            
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            
+                                                                <div class="caption">
+                                                                    <p>via elementary - Medium</p>
+                                                                </div>
+                                                            
+                                                            
+                                                        </div>
+                                                        
+
+
+                                                        
+
+
+                                                        
+
+
+                                                        
+
+                                                        
+
+                                                        <section class="inline-meta post-extra has-tags">
+                                                            
+                                                            
+                                                                
+                                                                     <a class="meta-item tag-link" href="https://blog.elementary.io/tagged/IFTTT">IFTTT</a>
+                                                                
+                                                                     <a class="meta-item tag-link" href="https://blog.elementary.io/tagged/elementary---Medium">elementary - Medium</a>
+                                                                
+                                                            
+                                                        </section>
+
+                                                    </section>
+
+                                                    
+                                                    <section class="panel">
+                                                        <footer class="post-footer">
+                                                            <section class="panel">
+                                                                <section class="inline-meta date-notes">
+                                                                    <div class="date-note-wrapper">
+                                                                        
+                                                                            <a href="https://blog.elementary.io/post/183903260126/juno-updates-for-march-2019?is_related_post=1#notes" class="meta-item post-notes">2 notes</a>
+                                                                        
+                                                                    </div>
+                                                                </section>
+
+                                                                <section class="post-controls">
+                                                                    <div class="controls-wrapper">
+                                                                        <div class="control share-control">
+                                                                            <nav class="pop">
+                                                                                <a href="#" class="share selector"></a>
+                                                                                <div class="pop-menu share-menu south" id="share_183903260126">
+                                                                                    <ul>
+                                                                                        <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="183903260126">Open in app</a></li>
+                                                                                        <li><a href="https://facebook.com/sharer.php?u=https%3A%2F%2Fblog.elementary.io%2Fpost%2F183903260126%2Fjuno-updates-for-march-2019%3Fis_related_post%3D1&amp;t=elementary%20blog" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                                        <li><a href="https://twitter.com/intent/tweet?text=Juno%20Updates%20for%20March%2C%202019%20-%20via%20elementary%20-%20Medium%20https%3A%2F%2Ftmblr.co%2FZTbslu2hHVGtU" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                                        
+                                                                                        
+                                                                                        <li><a href="https://reddit.com/submit?url=https%3A%2F%2Fblog.elementary.io%2Fpost%2F183903260126%2Fjuno-updates-for-march-2019%3Fis_related_post%3D1" class="share-item reddit" target="_blank">Reddit</a></li>
+                                                                                        <li><a href="mailto:?subject=A%20link%20from%20elementary%20blog&amp;body=Juno%20Updates%20for%20March%2C%202019%20-%20via%20elementary%20-%20Medium%20https%3A%2F%2Fblog.elementary.io%2Fpost%2F183903260126%2Fjuno-updates-for-march-2019" class="share-item mail">Mail</a></li>
+                                                                                        <li><a href="https://blog.elementary.io/post/183903260126/juno-updates-for-march-2019/embed" class="share-item permalink">Embed</a></li>
+                                                                                        <li><a href="https://blog.elementary.io/post/183903260126/juno-updates-for-march-2019?is_related_post=1" class="share-item permalink">Permalink <i class="arrow"></i></a></li>
+                                                                                    </ul>
+                                                                                </div>
+                                                                            </nav>
+                                                                        </div>
+                                                                        <div class="control reblog-control"><a href="https://www.tumblr.com/reblog/183903260126/xh4yZdZZ" class="reblog_button"style="display: block;width:24px;height:24px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                                                                        <div class="control like-control"><div class="like_button" data-post-id="183903260126" data-blog-name="elementaryos" id="like_button_183903260126"><iframe id="like_iframe_183903260126" src="https://assets.tumblr.com/assets/html/like_iframe.html?_v=66c22ab5319d742bca5762b8d18f9d06#name=elementaryos&amp;post_id=183903260126&amp;color=black&amp;rk=xh4yZdZZ" scrolling="no" width="24" height="24" frameborder="0" class="like_toggle" allowTransparency="true" name="like_iframe_183903260126"></iframe></div></div>
+                                                                    </div>
+                                                                </section>
+                                                            </section>
+                                                        </footer>
+                                                    </section>
+                                                    
+                                                </div>
+                                            </article>
+                                    
+                                            <article class="link not-page post-183873187726  active exposed" data-post-id="183873187726">
+                                                <div class="post-wrapper clearfix">
+                                                    
+                                                    <section class="post">
+                                                        
+
+                                                        
+
+                                                        
+
+                                                        
+
+
+                                                        
+                                                        <div class="post-content with-caption">
+                                                            <div class="link-wrapper">
+                                                                <a  target="_blank"  href="https://t.umblr.com/redirect?z=https%3A%2F%2Fmedium.com%2Felementaryos%2Felementary-appcenter-flatpak-b1f970a33861%3Fsource%3Drss----ef863fa48176---4&amp;t=NmYwZjczNDkxNmM0YjllYmE0Nzc2ZTY2YWRlMmU4NDU1ZjczNWE4ZSw4N0pWbEM4aA%3D%3D&amp;b=t%3AibgnuWZACL4bF6AGZWyLrg&amp;p=https%3A%2F%2Fblog.elementary.io%2Fpost%2F183873187726%2Felementary-appcenter-flatpak&amp;m=0" class="link">
+                                                                    
+                                                                    <div class="link-text-wrapper clearfix">
+                                                                        <div class="link-text">
+                                                                            
+                                                                            <div class="link-host">medium.com</div>
+                                                                            
+                                                                            <h2 class="link-title">elementary AppCenter + Flatpak</h2>
+                                                                            
+                                                                            
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            
+                                                                <div class="caption">
+                                                                    <p>via elementary - Medium</p>
+                                                                </div>
+                                                            
+                                                            
+                                                        </div>
+                                                        
+
+
+                                                        
+
+
+                                                        
+
+
+                                                        
+
+                                                        
+
+                                                        <section class="inline-meta post-extra has-tags">
+                                                            
+                                                            
+                                                                
+                                                                     <a class="meta-item tag-link" href="https://blog.elementary.io/tagged/IFTTT">IFTTT</a>
+                                                                
+                                                                     <a class="meta-item tag-link" href="https://blog.elementary.io/tagged/elementary---Medium">elementary - Medium</a>
+                                                                
+                                                            
+                                                        </section>
+
+                                                    </section>
+
+                                                    
+                                                    <section class="panel">
+                                                        <footer class="post-footer">
+                                                            <section class="panel">
+                                                                <section class="inline-meta date-notes">
+                                                                    <div class="date-note-wrapper">
+                                                                        
+                                                                            <a href="https://blog.elementary.io/post/183873187726/elementary-appcenter-flatpak?is_related_post=1#notes" class="meta-item post-notes">3 notes</a>
+                                                                        
+                                                                    </div>
+                                                                </section>
+
+                                                                <section class="post-controls">
+                                                                    <div class="controls-wrapper">
+                                                                        <div class="control share-control">
+                                                                            <nav class="pop">
+                                                                                <a href="#" class="share selector"></a>
+                                                                                <div class="pop-menu share-menu south" id="share_183873187726">
+                                                                                    <ul>
+                                                                                        <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="183873187726">Open in app</a></li>
+                                                                                        <li><a href="https://facebook.com/sharer.php?u=https%3A%2F%2Fblog.elementary.io%2Fpost%2F183873187726%2Felementary-appcenter-flatpak%3Fis_related_post%3D1&amp;t=elementary%20blog" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                                        <li><a href="https://twitter.com/intent/tweet?text=elementary%20AppCenter%20%2B%20Flatpak%20-%20via%20elementary%20-%20Medium%20https%3A%2F%2Ftmblr.co%2FZTbslu2hFiY_E" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                                        
+                                                                                        
+                                                                                        <li><a href="https://reddit.com/submit?url=https%3A%2F%2Fblog.elementary.io%2Fpost%2F183873187726%2Felementary-appcenter-flatpak%3Fis_related_post%3D1" class="share-item reddit" target="_blank">Reddit</a></li>
+                                                                                        <li><a href="mailto:?subject=A%20link%20from%20elementary%20blog&amp;body=elementary%20AppCenter%20%2B%20Flatpak%20-%20via%20elementary%20-%20Medium%20https%3A%2F%2Fblog.elementary.io%2Fpost%2F183873187726%2Felementary-appcenter-flatpak" class="share-item mail">Mail</a></li>
+                                                                                        <li><a href="https://blog.elementary.io/post/183873187726/elementary-appcenter-flatpak/embed" class="share-item permalink">Embed</a></li>
+                                                                                        <li><a href="https://blog.elementary.io/post/183873187726/elementary-appcenter-flatpak?is_related_post=1" class="share-item permalink">Permalink <i class="arrow"></i></a></li>
+                                                                                    </ul>
+                                                                                </div>
+                                                                            </nav>
+                                                                        </div>
+                                                                        <div class="control reblog-control"><a href="https://www.tumblr.com/reblog/183873187726/87JVlC8h" class="reblog_button"style="display: block;width:24px;height:24px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                                                                        <div class="control like-control"><div class="like_button" data-post-id="183873187726" data-blog-name="elementaryos" id="like_button_183873187726"><iframe id="like_iframe_183873187726" src="https://assets.tumblr.com/assets/html/like_iframe.html?_v=66c22ab5319d742bca5762b8d18f9d06#name=elementaryos&amp;post_id=183873187726&amp;color=black&amp;rk=87JVlC8h" scrolling="no" width="24" height="24" frameborder="0" class="like_toggle" allowTransparency="true" name="like_iframe_183873187726"></iframe></div></div>
+                                                                    </div>
+                                                                </section>
+                                                            </section>
+                                                        </footer>
+                                                    </section>
+                                                    
+                                                </div>
+                                            </article>
+                                    
+                                            <article class="link not-page post-183619751496  active exposed" data-post-id="183619751496">
+                                                <div class="post-wrapper clearfix">
+                                                    
+                                                    <section class="post">
+                                                        
+
+                                                        
+
+                                                        
+
+                                                        
+
+
+                                                        
+                                                        <div class="post-content with-caption">
+                                                            <div class="link-wrapper">
+                                                                <a  target="_blank"  href="https://t.umblr.com/redirect?z=https%3A%2F%2Fmedium.com%2Felementaryos%2Fparental-controls-metered-data-hackfest-774f557c6825%3Fsource%3Drss----ef863fa48176---4&amp;t=ZTY4YzNkM2IzMGE5NWFhNWQyYzRmZjMxNjlkZDhhYmJjMWJmOWMyYyxET1ExSml0aw%3D%3D&amp;b=t%3AibgnuWZACL4bF6AGZWyLrg&amp;p=https%3A%2F%2Fblog.elementary.io%2Fpost%2F183619751496%2Fparental-controls-metered-data-hackfest&amp;m=0" class="link">
+                                                                    
+                                                                    <div class="link-text-wrapper clearfix">
+                                                                        <div class="link-text">
+                                                                            
+                                                                            <div class="link-host">medium.com</div>
+                                                                            
+                                                                            <h2 class="link-title">Parental Controls &amp; Metered Data Hackfest</h2>
+                                                                            
+                                                                            
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            
+                                                                <div class="caption">
+                                                                    <p>via elementary - Medium</p>
+                                                                </div>
+                                                            
+                                                            
+                                                        </div>
+                                                        
+
+
+                                                        
+
+
+                                                        
+
+
+                                                        
+
+                                                        
+
+                                                        <section class="inline-meta post-extra has-tags">
+                                                            
+                                                            
+                                                                
+                                                                     <a class="meta-item tag-link" href="https://blog.elementary.io/tagged/IFTTT">IFTTT</a>
+                                                                
+                                                                     <a class="meta-item tag-link" href="https://blog.elementary.io/tagged/elementary---Medium">elementary - Medium</a>
+                                                                
+                                                            
+                                                        </section>
+
+                                                    </section>
+
+                                                    
+                                                    <section class="panel">
+                                                        <footer class="post-footer">
+                                                            <section class="panel">
+                                                                <section class="inline-meta date-notes">
+                                                                    <div class="date-note-wrapper">
+                                                                        
+                                                                            <a href="https://blog.elementary.io/post/183619751496/parental-controls-metered-data-hackfest?is_related_post=1#notes" class="meta-item post-notes">1 note</a>
+                                                                        
+                                                                    </div>
+                                                                </section>
+
+                                                                <section class="post-controls">
+                                                                    <div class="controls-wrapper">
+                                                                        <div class="control share-control">
+                                                                            <nav class="pop">
+                                                                                <a href="#" class="share selector"></a>
+                                                                                <div class="pop-menu share-menu south" id="share_183619751496">
+                                                                                    <ul>
+                                                                                        <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="183619751496">Open in app</a></li>
+                                                                                        <li><a href="https://facebook.com/sharer.php?u=https%3A%2F%2Fblog.elementary.io%2Fpost%2F183619751496%2Fparental-controls-metered-data-hackfest%3Fis_related_post%3D1&amp;t=elementary%20blog" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                                        <li><a href="https://twitter.com/intent/tweet?text=Parental%20Controls%20%26%20Metered%20Data%20Hackfest%20-%20via%20elementary%20-%20Medium%20https%3A%2F%2Ftmblr.co%2FZTbslu2h0bmv8" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                                        
+                                                                                        
+                                                                                        <li><a href="https://reddit.com/submit?url=https%3A%2F%2Fblog.elementary.io%2Fpost%2F183619751496%2Fparental-controls-metered-data-hackfest%3Fis_related_post%3D1" class="share-item reddit" target="_blank">Reddit</a></li>
+                                                                                        <li><a href="mailto:?subject=A%20link%20from%20elementary%20blog&amp;body=Parental%20Controls%20%26%20Metered%20Data%20Hackfest%20-%20via%20elementary%20-%20Medium%20https%3A%2F%2Fblog.elementary.io%2Fpost%2F183619751496%2Fparental-controls-metered-data-hackfest" class="share-item mail">Mail</a></li>
+                                                                                        <li><a href="https://blog.elementary.io/post/183619751496/parental-controls-metered-data-hackfest/embed" class="share-item permalink">Embed</a></li>
+                                                                                        <li><a href="https://blog.elementary.io/post/183619751496/parental-controls-metered-data-hackfest?is_related_post=1" class="share-item permalink">Permalink <i class="arrow"></i></a></li>
+                                                                                    </ul>
+                                                                                </div>
+                                                                            </nav>
+                                                                        </div>
+                                                                        <div class="control reblog-control"><a href="https://www.tumblr.com/reblog/183619751496/DOQ1Jitk" class="reblog_button"style="display: block;width:24px;height:24px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                                                                        <div class="control like-control"><div class="like_button" data-post-id="183619751496" data-blog-name="elementaryos" id="like_button_183619751496"><iframe id="like_iframe_183619751496" src="https://assets.tumblr.com/assets/html/like_iframe.html?_v=66c22ab5319d742bca5762b8d18f9d06#name=elementaryos&amp;post_id=183619751496&amp;color=black&amp;rk=DOQ1Jitk" scrolling="no" width="24" height="24" frameborder="0" class="like_toggle" allowTransparency="true" name="like_iframe_183619751496"></iframe></div></div>
+                                                                    </div>
+                                                                </section>
+                                                            </section>
+                                                        </footer>
+                                                    </section>
+                                                    
+                                                </div>
+                                            </article>
+                                    
+                                            <article class="link not-page post-183395088756  active exposed" data-post-id="183395088756">
+                                                <div class="post-wrapper clearfix">
+                                                    
+                                                    <section class="post">
+                                                        
+
+                                                        
+
+                                                        
+
+                                                        
+
+
+                                                        
+                                                        <div class="post-content with-caption">
+                                                            <div class="link-wrapper">
+                                                                <a  target="_blank"  href="https://t.umblr.com/redirect?z=https%3A%2F%2Fmedium.com%2Felementaryos%2Fa-new-native-file-chooser-196acf9b06f0%3Fsource%3Drss----ef863fa48176---4&amp;t=NDdhMjg3NTFhYjM4YmM4YjQ3ZjlkMDkzZGY2YmFlMjYwOTY3MDgzOSxxaDBKWG5rdA%3D%3D&amp;b=t%3AibgnuWZACL4bF6AGZWyLrg&amp;p=https%3A%2F%2Fblog.elementary.io%2Fpost%2F183395088756%2Fa-new-native-file-chooser&amp;m=0" class="link">
+                                                                    
+                                                                    <div class="link-text-wrapper clearfix">
+                                                                        <div class="link-text">
+                                                                            
+                                                                            <div class="link-host">medium.com</div>
+                                                                            
+                                                                            <h2 class="link-title">A New Native File Chooser</h2>
+                                                                            
+                                                                            
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            
+                                                                <div class="caption">
+                                                                    <p>via elementary - Medium</p>
+                                                                </div>
+                                                            
+                                                            
+                                                        </div>
+                                                        
+
+
+                                                        
+
+
+                                                        
+
+
+                                                        
+
+                                                        
+
+                                                        <section class="inline-meta post-extra has-tags">
+                                                            
+                                                            
+                                                                
+                                                                     <a class="meta-item tag-link" href="https://blog.elementary.io/tagged/IFTTT">IFTTT</a>
+                                                                
+                                                                     <a class="meta-item tag-link" href="https://blog.elementary.io/tagged/elementary---Medium">elementary - Medium</a>
+                                                                
+                                                            
+                                                        </section>
+
+                                                    </section>
+
+                                                    
+                                                    <section class="panel">
+                                                        <footer class="post-footer">
+                                                            <section class="panel">
+                                                                <section class="inline-meta date-notes">
+                                                                    <div class="date-note-wrapper">
+                                                                        
+                                                                    </div>
+                                                                </section>
+
+                                                                <section class="post-controls">
+                                                                    <div class="controls-wrapper">
+                                                                        <div class="control share-control">
+                                                                            <nav class="pop">
+                                                                                <a href="#" class="share selector"></a>
+                                                                                <div class="pop-menu share-menu south" id="share_183395088756">
+                                                                                    <ul>
+                                                                                        <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="183395088756">Open in app</a></li>
+                                                                                        <li><a href="https://facebook.com/sharer.php?u=https%3A%2F%2Fblog.elementary.io%2Fpost%2F183395088756%2Fa-new-native-file-chooser%3Fis_related_post%3D1&amp;t=elementary%20blog" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                                        <li><a href="https://twitter.com/intent/tweet?text=A%20New%20Native%20File%20Chooser%20-%20via%20elementary%20-%20Medium%20https%3A%2F%2Ftmblr.co%2FZTbslu2gpClbq" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                                        
+                                                                                        
+                                                                                        <li><a href="https://reddit.com/submit?url=https%3A%2F%2Fblog.elementary.io%2Fpost%2F183395088756%2Fa-new-native-file-chooser%3Fis_related_post%3D1" class="share-item reddit" target="_blank">Reddit</a></li>
+                                                                                        <li><a href="mailto:?subject=A%20link%20from%20elementary%20blog&amp;body=A%20New%20Native%20File%20Chooser%20-%20via%20elementary%20-%20Medium%20https%3A%2F%2Fblog.elementary.io%2Fpost%2F183395088756%2Fa-new-native-file-chooser" class="share-item mail">Mail</a></li>
+                                                                                        <li><a href="https://blog.elementary.io/post/183395088756/a-new-native-file-chooser/embed" class="share-item permalink">Embed</a></li>
+                                                                                        <li><a href="https://blog.elementary.io/post/183395088756/a-new-native-file-chooser?is_related_post=1" class="share-item permalink">Permalink <i class="arrow"></i></a></li>
+                                                                                    </ul>
+                                                                                </div>
+                                                                            </nav>
+                                                                        </div>
+                                                                        <div class="control reblog-control"><a href="https://www.tumblr.com/reblog/183395088756/qh0JXnkt" class="reblog_button"style="display: block;width:24px;height:24px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                                                                        <div class="control like-control"><div class="like_button" data-post-id="183395088756" data-blog-name="elementaryos" id="like_button_183395088756"><iframe id="like_iframe_183395088756" src="https://assets.tumblr.com/assets/html/like_iframe.html?_v=66c22ab5319d742bca5762b8d18f9d06#name=elementaryos&amp;post_id=183395088756&amp;color=black&amp;rk=qh0JXnkt" scrolling="no" width="24" height="24" frameborder="0" class="like_toggle" allowTransparency="true" name="like_iframe_183395088756"></iframe></div></div>
+                                                                    </div>
+                                                                </section>
+                                                            </section>
+                                                        </footer>
+                                                    </section>
+                                                    
+                                                </div>
+                                            </article>
+                                    
+                                            <article class="link not-page post-183171398446  active exposed" data-post-id="183171398446">
+                                                <div class="post-wrapper clearfix">
+                                                    
+                                                    <section class="post">
+                                                        
+
+                                                        
+
+                                                        
+
+                                                        
+
+
+                                                        
+                                                        <div class="post-content with-caption">
+                                                            <div class="link-wrapper">
+                                                                <a  target="_blank"  href="https://t.umblr.com/redirect?z=https%3A%2F%2Fmedium.com%2Felementaryos%2Fupdates-for-february-a290b904309b%3Fsource%3Drss----ef863fa48176---4&amp;t=OGI1MGVlOGI4MGRhZjNiNWM0MTQ2ODc2OTI2ZjU1NjVmMTA1OWRlZiwwVGpCRGFpVw%3D%3D&amp;b=t%3AibgnuWZACL4bF6AGZWyLrg&amp;p=https%3A%2F%2Fblog.elementary.io%2Fpost%2F183171398446%2Fupdates-for-february&amp;m=0" class="link">
+                                                                    
+                                                                    <div class="link-text-wrapper clearfix">
+                                                                        <div class="link-text">
+                                                                            
+                                                                            <div class="link-host">medium.com</div>
+                                                                            
+                                                                            <h2 class="link-title">Updates for February</h2>
+                                                                            
+                                                                            
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            
+                                                                <div class="caption">
+                                                                    <p>via elementary - Medium</p>
+                                                                </div>
+                                                            
+                                                            
+                                                        </div>
+                                                        
+
+
+                                                        
+
+
+                                                        
+
+
+                                                        
+
+                                                        
+
+                                                        <section class="inline-meta post-extra has-tags">
+                                                            
+                                                            
+                                                                
+                                                                     <a class="meta-item tag-link" href="https://blog.elementary.io/tagged/IFTTT">IFTTT</a>
+                                                                
+                                                                     <a class="meta-item tag-link" href="https://blog.elementary.io/tagged/elementary---Medium">elementary - Medium</a>
+                                                                
+                                                            
+                                                        </section>
+
+                                                    </section>
+
+                                                    
+                                                    <section class="panel">
+                                                        <footer class="post-footer">
+                                                            <section class="panel">
+                                                                <section class="inline-meta date-notes">
+                                                                    <div class="date-note-wrapper">
+                                                                        
+                                                                    </div>
+                                                                </section>
+
+                                                                <section class="post-controls">
+                                                                    <div class="controls-wrapper">
+                                                                        <div class="control share-control">
+                                                                            <nav class="pop">
+                                                                                <a href="#" class="share selector"></a>
+                                                                                <div class="pop-menu share-menu south" id="share_183171398446">
+                                                                                    <ul>
+                                                                                        <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="183171398446">Open in app</a></li>
+                                                                                        <li><a href="https://facebook.com/sharer.php?u=https%3A%2F%2Fblog.elementary.io%2Fpost%2F183171398446%2Fupdates-for-february%3Fis_related_post%3D1&amp;t=elementary%20blog" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                                        <li><a href="https://twitter.com/intent/tweet?text=Updates%20for%20February%20-%20via%20elementary%20-%20Medium%20https%3A%2F%2Ftmblr.co%2FZTbslu2gbtRik" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                                        
+                                                                                        
+                                                                                        <li><a href="https://reddit.com/submit?url=https%3A%2F%2Fblog.elementary.io%2Fpost%2F183171398446%2Fupdates-for-february%3Fis_related_post%3D1" class="share-item reddit" target="_blank">Reddit</a></li>
+                                                                                        <li><a href="mailto:?subject=A%20link%20from%20elementary%20blog&amp;body=Updates%20for%20February%20-%20via%20elementary%20-%20Medium%20https%3A%2F%2Fblog.elementary.io%2Fpost%2F183171398446%2Fupdates-for-february" class="share-item mail">Mail</a></li>
+                                                                                        <li><a href="https://blog.elementary.io/post/183171398446/updates-for-february/embed" class="share-item permalink">Embed</a></li>
+                                                                                        <li><a href="https://blog.elementary.io/post/183171398446/updates-for-february?is_related_post=1" class="share-item permalink">Permalink <i class="arrow"></i></a></li>
+                                                                                    </ul>
+                                                                                </div>
+                                                                            </nav>
+                                                                        </div>
+                                                                        <div class="control reblog-control"><a href="https://www.tumblr.com/reblog/183171398446/0TjBDaiW" class="reblog_button"style="display: block;width:24px;height:24px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                                                                        <div class="control like-control"><div class="like_button" data-post-id="183171398446" data-blog-name="elementaryos" id="like_button_183171398446"><iframe id="like_iframe_183171398446" src="https://assets.tumblr.com/assets/html/like_iframe.html?_v=66c22ab5319d742bca5762b8d18f9d06#name=elementaryos&amp;post_id=183171398446&amp;color=black&amp;rk=0TjBDaiW" scrolling="no" width="24" height="24" frameborder="0" class="like_toggle" allowTransparency="true" name="like_iframe_183171398446"></iframe></div></div>
+                                                                    </div>
+                                                                </section>
+                                                            </section>
+                                                        </footer>
+                                                    </section>
+                                                    
+                                                </div>
+                                            </article>
+                                    
+                                            <article class="link not-page post-182852364676  active exposed" data-post-id="182852364676">
+                                                <div class="post-wrapper clearfix">
+                                                    
+                                                    <section class="post">
+                                                        
+
+                                                        
+
+                                                        
+
+                                                        
+
+
+                                                        
+                                                        <div class="post-content with-caption">
+                                                            <div class="link-wrapper">
+                                                                <a  target="_blank"  href="https://t.umblr.com/redirect?z=https%3A%2F%2Fmedium.com%2Felementaryos%2Faccessibility-features-are-just-features-30b7ad740eb%3Fsource%3Drss----ef863fa48176---4&amp;t=NTg4YjkwMzQ0YWQ1MTkzN2EwMWMzMGZkOWJiOGMxNjI1MWY1YTQ3ZSxiRlZoWmk5Mw%3D%3D&amp;b=t%3AibgnuWZACL4bF6AGZWyLrg&amp;p=https%3A%2F%2Fblog.elementary.io%2Fpost%2F182852364676%2Faccessibility-features-are-just-features&amp;m=0" class="link">
+                                                                    
+                                                                    <div class="link-text-wrapper clearfix">
+                                                                        <div class="link-text">
+                                                                            
+                                                                            <div class="link-host">medium.com</div>
+                                                                            
+                                                                            <h2 class="link-title">Accessibility Features Are Just Features</h2>
+                                                                            
+                                                                            
+                                                                        </div>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            
+                                                                <div class="caption">
+                                                                    <p>via elementary - Medium</p>
+                                                                </div>
+                                                            
+                                                            
+                                                        </div>
+                                                        
+
+
+                                                        
+
+
+                                                        
+
+
+                                                        
+
+                                                        
+
+                                                        <section class="inline-meta post-extra has-tags">
+                                                            
+                                                            
+                                                                
+                                                                     <a class="meta-item tag-link" href="https://blog.elementary.io/tagged/IFTTT">IFTTT</a>
+                                                                
+                                                                     <a class="meta-item tag-link" href="https://blog.elementary.io/tagged/elementary---Medium">elementary - Medium</a>
+                                                                
+                                                            
+                                                        </section>
+
+                                                    </section>
+
+                                                    
+                                                    <section class="panel">
+                                                        <footer class="post-footer">
+                                                            <section class="panel">
+                                                                <section class="inline-meta date-notes">
+                                                                    <div class="date-note-wrapper">
+                                                                        
+                                                                            <a href="https://blog.elementary.io/post/182852364676/accessibility-features-are-just-features?is_related_post=1#notes" class="meta-item post-notes">1 note</a>
+                                                                        
+                                                                    </div>
+                                                                </section>
+
+                                                                <section class="post-controls">
+                                                                    <div class="controls-wrapper">
+                                                                        <div class="control share-control">
+                                                                            <nav class="pop">
+                                                                                <a href="#" class="share selector"></a>
+                                                                                <div class="pop-menu share-menu south" id="share_182852364676">
+                                                                                    <ul>
+                                                                                        <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="182852364676">Open in app</a></li>
+                                                                                        <li><a href="https://facebook.com/sharer.php?u=https%3A%2F%2Fblog.elementary.io%2Fpost%2F182852364676%2Faccessibility-features-are-just-features%3Fis_related_post%3D1&amp;t=elementary%20blog" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                                        <li><a href="https://twitter.com/intent/tweet?text=Accessibility%20Features%20Are%20Just%20Features%20-%20via%20elementary%20-%20Medium%20https%3A%2F%2Ftmblr.co%2FZTbslu2gIsQc4" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                                        
+                                                                                        
+                                                                                        <li><a href="https://reddit.com/submit?url=https%3A%2F%2Fblog.elementary.io%2Fpost%2F182852364676%2Faccessibility-features-are-just-features%3Fis_related_post%3D1" class="share-item reddit" target="_blank">Reddit</a></li>
+                                                                                        <li><a href="mailto:?subject=A%20link%20from%20elementary%20blog&amp;body=Accessibility%20Features%20Are%20Just%20Features%20-%20via%20elementary%20-%20Medium%20https%3A%2F%2Fblog.elementary.io%2Fpost%2F182852364676%2Faccessibility-features-are-just-features" class="share-item mail">Mail</a></li>
+                                                                                        <li><a href="https://blog.elementary.io/post/182852364676/accessibility-features-are-just-features/embed" class="share-item permalink">Embed</a></li>
+                                                                                        <li><a href="https://blog.elementary.io/post/182852364676/accessibility-features-are-just-features?is_related_post=1" class="share-item permalink">Permalink <i class="arrow"></i></a></li>
+                                                                                    </ul>
+                                                                                </div>
+                                                                            </nav>
+                                                                        </div>
+                                                                        <div class="control reblog-control"><a href="https://www.tumblr.com/reblog/182852364676/bFVhZi93" class="reblog_button"style="display: block;width:24px;height:24px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                                                                        <div class="control like-control"><div class="like_button" data-post-id="182852364676" data-blog-name="elementaryos" id="like_button_182852364676"><iframe id="like_iframe_182852364676" src="https://assets.tumblr.com/assets/html/like_iframe.html?_v=66c22ab5319d742bca5762b8d18f9d06#name=elementaryos&amp;post_id=182852364676&amp;color=black&amp;rk=bFVhZi93" scrolling="no" width="24" height="24" frameborder="0" class="like_toggle" allowTransparency="true" name="like_iframe_182852364676"></iframe></div></div>
+                                                                    </div>
+                                                                </section>
+                                                            </section>
+                                                        </footer>
+                                                    </section>
+                                                    
+                                                </div>
+                                            </article>
+                                    
+                                    </div>
+                                    <div class="related-posts-cta content">
+                                        <!-- @todo: translate these strings -->
+                                        <a class="related-post-cta button bordered open-in-app">See this in the app</a>
+                                        <a class="related-post-cta see-more button bordered" href="/">Show more</a>
+                                    </div>
+                                </section>
+                                
+                            
+                        
+                    </div> <!-- .main -->
+                    <div class="sidebar">
+                        
+
+                        
+                    </div> <!-- .sidebar -->
+                </div> <!-- .container -->
+            </section>
+            
+            <footer id="footer" class="content clearfix">
+                
+            </footer>
+        </section>
+        <script>
+            var Optica = {};
+            Optica.ENDLESS_SCROLLING = true;
+            Optica.SHOW_NAV = true;
+            Optica.LAYOUT = "narrow";
+            Optica.GRID_LAYOUT = (Optica.LAYOUT === 'grid');
+            Optica.TITLE_COLOR = "#333333";
+            Optica.ACCENT_COLOR = "#3689e6";
+            Optica.BACKGROUND_COLOR = "#FAFAFA";
+
+            
+                Optica.NU_OPTICA_BLOG_CARDS = true;
+            
+            
+
+            Optica.RELATED_POSTS_CTA_VARIANTS = [
+               {
+                   variant: "C",
+                   text: "See the rest of this Tumblr"
+               },
+               {
+                   variant: "D",
+                   text: "See elementaryos's whole Tumblr"
+               },
+               {
+                   variant: "E",
+                   text: "You scrolled this far. Check out the rest."
+               }
+            ];
+            Optica.NO_LIKES_VARIANTS = [
+                "This Tumblr hasn't liked any posts yet.",
+                "This Tumblr doesn't like anything…yet.",
+                "No likes! Sheesh!",
+                "Amazing! This Tumblr doesn't like anything.",
+                "Incredible! This Tumblr doesn't like anything.",
+                "Neat! This Tumblr doesn't like anything.",
+                "Apparently this Tumblr is hard to please.",
+                "Wow! This Tumblr hasn't liked anything ever.",
+                "This Tumblr hasn't liked anything yet. How very intriguing.",
+                "This Tumblr has never met a post it didn't not like."
+            ];
+            Optica.NO_POSTS_VARIANTS = [
+                "This Tumblr hasn't made any posts.",
+                "This silly Tumblr hasn't posted anything yet.",
+                "This Tumblr is cool, but empty.",
+                "This Tumblr is content-free.",
+                "This minimalist Tumblr has no posts.",
+                "Meditate for a while on this empty Tumblr.",
+                "Posts? Nah.",
+                "This Tumblr has hardly any posts. \nNone at all, in fact.",
+                "This Tumblr hasn't posted anything."
+            ];
+            Optica.NO_FOLLOWING_VARIANTS = [
+                "This Tumblr hasn't followed any other Tumblrs.",
+                "Aw. This Tumblr isn't following anyone.",
+                "Nope, this Tumblr doesn't follow anyone.",
+                "This cool Tumblr doesn't follow anyone.",
+                "This far-out Tumblr doesn't follow anyone.",
+                "This fiercely independent Tumblr doesn't follow anyone.",
+                "This Tumblr doesn't follow anything except for its own rules.",
+                "This Tumblr doesn't really \"follow\" anything."
+            ];
+        </script>
+
+        <script src="https://static.tumblr.com/27gzhx7/Z5qorjizb/main-min.js"></script>
+
+        
+
+        
+            
+                <script src="https://static.tumblr.com/t1owtkf/bSAnvroul/jquery.waypoints.min.js" type="text/javascript"></script>
+                <script type="text/javascript">
+                    $(function() {
+                        var trackingPixels = {"185322002591":"PHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIG5vbmNlPSJTa0lFOEZ0RkNsVENJRlY0akk5TVpTSDR5UHciPiFmdW5jdGlvbihzKXtzLnNyYz0naHR0cHM6Ly9weC5zcnZjcy50dW1ibHIuY29tL2ltcGl4dT9UPTE1NTk4ODI3NTAmSj1leUowZVhCbElqb2ljRzl6ZENJc0luVnliQ0k2SW1oMGRIQTZMeTlpYkc5bkxtVnNaVzFsYm5SaGNua3VhVzh2Y0c5emRDOHhNRGMyTmpFNU16SXhNall2ZDJoNUxYZGxMWGR5YVhSbExXVnNaVzFsYm5SaGNua3RZWEJ3Y3kxcGJpMTJZV3hoSWl3aWNtVnhkSGx3WlNJNk1Dd2ljbTkxZEdVaU9pSXZjRzl6ZEM4NmFXUXZPbk4xYlcxaGNua2lMQ0p3YjNOMGN5STZXM3NpY0c5emRHbGtJam9pTVRnMU16SXlNREF5TlRreElpd2lZbXh2WjJsa0lqb2lOalExTURrNU1Ua2lMQ0p6YjNWeVkyVWlPak01T1gxZGZRPT0mVT1LQktNS01EQlBQJks9NDU5NTliOGViNjBhNTkzNmJhNzg0ZGVjMjhhYWQyODE3MzZiNTM1ZTNkM2ZlYzhhNjE4OGFlZjA3ZDE4NzM0MiZSPWh0dHBzJTNBJTJGJTJGd3d3Lmdvb2dsZS5jb20lMkYnLnJlcGxhY2UoLyZSPVteJiRdKi8sJycpLmNvbmNhdCgnJlI9Jytlc2NhcGUoZG9jdW1lbnQucmVmZXJyZXIpKS5zbGljZSgwLDIwMDApLnJlcGxhY2UoLyUuPy4\/JC8sJycpO30obmV3IEltYWdlKCkpOzwvc2NyaXB0Pjxub3NjcmlwdD48aW1nIHN0eWxlPSJwb3NpdGlvbjphYnNvbHV0ZTt6LWluZGV4Oi0zMzM0O3RvcDowcHg7bGVmdDowcHg7dmlzaWJpbGl0eTpoaWRkZW47IiBzcmM9Imh0dHBzOi8vcHguc3J2Y3MudHVtYmxyLmNvbS9pbXBpeHU\/VD0xNTU5ODgyNzUwJko9ZXlKMGVYQmxJam9pY0c5emRDSXNJblZ5YkNJNkltaDBkSEE2THk5aWJHOW5MbVZzWlcxbGJuUmhjbmt1YVc4dmNHOXpkQzh4TURjMk5qRTVNekl4TWpZdmQyaDVMWGRsTFhkeWFYUmxMV1ZzWlcxbGJuUmhjbmt0WVhCd2N5MXBiaTEyWVd4aElpd2ljbVZ4ZEhsd1pTSTZNQ3dpY205MWRHVWlPaUl2Y0c5emRDODZhV1F2T25OMWJXMWhjbmtpTENKd2IzTjBjeUk2VzNzaWNHOXpkR2xrSWpvaU1UZzFNekl5TURBeU5Ua3hJaXdpWW14dloybGtJam9pTmpRMU1EazVNVGtpTENKemIzVnlZMlVpT2pNNU9YMWRMQ0p1YjNOamNtbHdkQ0k2TVgwPSZVPUtCS01LTURCUFAmSz1kNWVjMTJiMzBiYTA1YTc1YzVjNTViNGE1NGYwMGM1NmViMmY3ZDhmZGY1NzRiZjI3MWRmYTZjMGJjYmIxMjU1JlI9aHR0cHMlM0ElMkYlMkZ3d3cuZ29vZ2xlLmNvbSUyRiI+PC9ub3NjcmlwdD4=","184952841846":"PHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIG5vbmNlPSJTa0lFOEZ0RkNsVENJRlY0akk5TVpTSDR5UHciPiFmdW5jdGlvbihzKXtzLnNyYz0naHR0cHM6Ly9weC5zcnZjcy50dW1ibHIuY29tL2ltcGl4dT9UPTE1NTk4ODI3NTAmSj1leUowZVhCbElqb2ljRzl6ZENJc0luVnliQ0k2SW1oMGRIQTZMeTlpYkc5bkxtVnNaVzFsYm5SaGNua3VhVzh2Y0c5emRDOHhNRGMyTmpFNU16SXhNall2ZDJoNUxYZGxMWGR5YVhSbExXVnNaVzFsYm5SaGNua3RZWEJ3Y3kxcGJpMTJZV3hoSWl3aWNtVnhkSGx3WlNJNk1Dd2ljbTkxZEdVaU9pSXZjRzl6ZEM4NmFXUXZPbk4xYlcxaGNua2lMQ0p3YjNOMGN5STZXM3NpY0c5emRHbGtJam9pTVRnME9UVXlPRFF4T0RRMklpd2lZbXh2WjJsa0lqb2lOalExTURrNU1Ua2lMQ0p6YjNWeVkyVWlPak01T1gxZGZRPT0mVT1CRUlPSUlES0lDJks9YzIzMjI4YzIyNTBhNzZhYzk4Y2U2M2RkNzBiMWU1ZjJlMjA1NDg4Yjg1NTIwMDQzMDZjNTZmZjQ5NWYxMjNhMCZSPWh0dHBzJTNBJTJGJTJGd3d3Lmdvb2dsZS5jb20lMkYnLnJlcGxhY2UoLyZSPVteJiRdKi8sJycpLmNvbmNhdCgnJlI9Jytlc2NhcGUoZG9jdW1lbnQucmVmZXJyZXIpKS5zbGljZSgwLDIwMDApLnJlcGxhY2UoLyUuPy4\/JC8sJycpO30obmV3IEltYWdlKCkpOzwvc2NyaXB0Pjxub3NjcmlwdD48aW1nIHN0eWxlPSJwb3NpdGlvbjphYnNvbHV0ZTt6LWluZGV4Oi0zMzM0O3RvcDowcHg7bGVmdDowcHg7dmlzaWJpbGl0eTpoaWRkZW47IiBzcmM9Imh0dHBzOi8vcHguc3J2Y3MudHVtYmxyLmNvbS9pbXBpeHU\/VD0xNTU5ODgyNzUwJko9ZXlKMGVYQmxJam9pY0c5emRDSXNJblZ5YkNJNkltaDBkSEE2THk5aWJHOW5MbVZzWlcxbGJuUmhjbmt1YVc4dmNHOXpkQzh4TURjMk5qRTVNekl4TWpZdmQyaDVMWGRsTFhkeWFYUmxMV1ZzWlcxbGJuUmhjbmt0WVhCd2N5MXBiaTEyWVd4aElpd2ljbVZ4ZEhsd1pTSTZNQ3dpY205MWRHVWlPaUl2Y0c5emRDODZhV1F2T25OMWJXMWhjbmtpTENKd2IzTjBjeUk2VzNzaWNHOXpkR2xrSWpvaU1UZzBPVFV5T0RReE9EUTJJaXdpWW14dloybGtJam9pTmpRMU1EazVNVGtpTENKemIzVnlZMlVpT2pNNU9YMWRMQ0p1YjNOamNtbHdkQ0k2TVgwPSZVPUJFSU9JSURLSUMmSz1jYmQ3NjBiMDA3ODBjZTUxOWYyY2ExZTc1ODkzYjg3MjUwMGRkNTZkYjgxNDc1MmVhZTc2ZmMyNDRjYTU2YzgwJlI9aHR0cHMlM0ElMkYlMkZ3d3cuZ29vZ2xlLmNvbSUyRiI+PC9ub3NjcmlwdD4=","184602665091":"PHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIG5vbmNlPSJTa0lFOEZ0RkNsVENJRlY0akk5TVpTSDR5UHciPiFmdW5jdGlvbihzKXtzLnNyYz0naHR0cHM6Ly9weC5zcnZjcy50dW1ibHIuY29tL2ltcGl4dT9UPTE1NTk4ODI3NTAmSj1leUowZVhCbElqb2ljRzl6ZENJc0luVnliQ0k2SW1oMGRIQTZMeTlpYkc5bkxtVnNaVzFsYm5SaGNua3VhVzh2Y0c5emRDOHhNRGMyTmpFNU16SXhNall2ZDJoNUxYZGxMWGR5YVhSbExXVnNaVzFsYm5SaGNua3RZWEJ3Y3kxcGJpMTJZV3hoSWl3aWNtVnhkSGx3WlNJNk1Dd2ljbTkxZEdVaU9pSXZjRzl6ZEM4NmFXUXZPbk4xYlcxaGNua2lMQ0p3YjNOMGN5STZXM3NpY0c5emRHbGtJam9pTVRnME5qQXlOalkxTURreElpd2lZbXh2WjJsa0lqb2lOalExTURrNU1Ua2lMQ0p6YjNWeVkyVWlPak01T1gxZGZRPT0mVT1JTEhBQUlCSkxMJks9OGU2MzQ5NGFmYTc2MDljZTk5ZGYwYzYyOTllY2NmNDg1MmJiNmFjNjM4YTU3ODAxMjlhMTlkZGNiYWNiMjgwNSZSPWh0dHBzJTNBJTJGJTJGd3d3Lmdvb2dsZS5jb20lMkYnLnJlcGxhY2UoLyZSPVteJiRdKi8sJycpLmNvbmNhdCgnJlI9Jytlc2NhcGUoZG9jdW1lbnQucmVmZXJyZXIpKS5zbGljZSgwLDIwMDApLnJlcGxhY2UoLyUuPy4\/JC8sJycpO30obmV3IEltYWdlKCkpOzwvc2NyaXB0Pjxub3NjcmlwdD48aW1nIHN0eWxlPSJwb3NpdGlvbjphYnNvbHV0ZTt6LWluZGV4Oi0zMzM0O3RvcDowcHg7bGVmdDowcHg7dmlzaWJpbGl0eTpoaWRkZW47IiBzcmM9Imh0dHBzOi8vcHguc3J2Y3MudHVtYmxyLmNvbS9pbXBpeHU\/VD0xNTU5ODgyNzUwJko9ZXlKMGVYQmxJam9pY0c5emRDSXNJblZ5YkNJNkltaDBkSEE2THk5aWJHOW5MbVZzWlcxbGJuUmhjbmt1YVc4dmNHOXpkQzh4TURjMk5qRTVNekl4TWpZdmQyaDVMWGRsTFhkeWFYUmxMV1ZzWlcxbGJuUmhjbmt0WVhCd2N5MXBiaTEyWVd4aElpd2ljbVZ4ZEhsd1pTSTZNQ3dpY205MWRHVWlPaUl2Y0c5emRDODZhV1F2T25OMWJXMWhjbmtpTENKd2IzTjBjeUk2VzNzaWNHOXpkR2xrSWpvaU1UZzBOakF5TmpZMU1Ea3hJaXdpWW14dloybGtJam9pTmpRMU1EazVNVGtpTENKemIzVnlZMlVpT2pNNU9YMWRMQ0p1YjNOamNtbHdkQ0k2TVgwPSZVPUlMSEFBSUJKTEwmSz0xMDEyOGIwZjAzZTgxYTY2YTExZmQ3YWZkYTRlMjkxZTM2NTdhYTM0MGFjMDc5ZmE1ZGM4Zjk0ODYxZWYzM2ZmJlI9aHR0cHMlM0ElMkYlMkZ3d3cuZ29vZ2xlLmNvbSUyRiI+PC9ub3NjcmlwdD4=","184038955861":"PHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIG5vbmNlPSJTa0lFOEZ0RkNsVENJRlY0akk5TVpTSDR5UHciPiFmdW5jdGlvbihzKXtzLnNyYz0naHR0cHM6Ly9weC5zcnZjcy50dW1ibHIuY29tL2ltcGl4dT9UPTE1NTk4ODI3NTAmSj1leUowZVhCbElqb2ljRzl6ZENJc0luVnliQ0k2SW1oMGRIQTZMeTlpYkc5bkxtVnNaVzFsYm5SaGNua3VhVzh2Y0c5emRDOHhNRGMyTmpFNU16SXhNall2ZDJoNUxYZGxMWGR5YVhSbExXVnNaVzFsYm5SaGNua3RZWEJ3Y3kxcGJpMTJZV3hoSWl3aWNtVnhkSGx3WlNJNk1Dd2ljbTkxZEdVaU9pSXZjRzl6ZEM4NmFXUXZPbk4xYlcxaGNua2lMQ0p3YjNOMGN5STZXM3NpY0c5emRHbGtJam9pTVRnME1ETTRPVFUxT0RZeElpd2lZbXh2WjJsa0lqb2lOalExTURrNU1Ua2lMQ0p6YjNWeVkyVWlPak01T1gxZGZRPT0mVT1GTU1ERUFEUEpEJks9OTJiZWUwYzczYjgxZTBkOThjYjNjYTIzNzRiYzBkMzVmMjU3ZWQ0ZjA4YmM4ZDMxNjU4ZGM0YmYwMDI3NzI2NCZSPWh0dHBzJTNBJTJGJTJGd3d3Lmdvb2dsZS5jb20lMkYnLnJlcGxhY2UoLyZSPVteJiRdKi8sJycpLmNvbmNhdCgnJlI9Jytlc2NhcGUoZG9jdW1lbnQucmVmZXJyZXIpKS5zbGljZSgwLDIwMDApLnJlcGxhY2UoLyUuPy4\/JC8sJycpO30obmV3IEltYWdlKCkpOzwvc2NyaXB0Pjxub3NjcmlwdD48aW1nIHN0eWxlPSJwb3NpdGlvbjphYnNvbHV0ZTt6LWluZGV4Oi0zMzM0O3RvcDowcHg7bGVmdDowcHg7dmlzaWJpbGl0eTpoaWRkZW47IiBzcmM9Imh0dHBzOi8vcHguc3J2Y3MudHVtYmxyLmNvbS9pbXBpeHU\/VD0xNTU5ODgyNzUwJko9ZXlKMGVYQmxJam9pY0c5emRDSXNJblZ5YkNJNkltaDBkSEE2THk5aWJHOW5MbVZzWlcxbGJuUmhjbmt1YVc4dmNHOXpkQzh4TURjMk5qRTVNekl4TWpZdmQyaDVMWGRsTFhkeWFYUmxMV1ZzWlcxbGJuUmhjbmt0WVhCd2N5MXBiaTEyWVd4aElpd2ljbVZ4ZEhsd1pTSTZNQ3dpY205MWRHVWlPaUl2Y0c5emRDODZhV1F2T25OMWJXMWhjbmtpTENKd2IzTjBjeUk2VzNzaWNHOXpkR2xrSWpvaU1UZzBNRE00T1RVMU9EWXhJaXdpWW14dloybGtJam9pTmpRMU1EazVNVGtpTENKemIzVnlZMlVpT2pNNU9YMWRMQ0p1YjNOamNtbHdkQ0k2TVgwPSZVPUZNTURFQURQSkQmSz03OTg1NDQzYzE3YzU4YzNhNmZhZDdkY2QwYTUwMmQyNTUxNGUxNDlhOGU1NjQ5ZTNiZjkwZThkZTE4OTExNjE3JlI9aHR0cHMlM0ElMkYlMkZ3d3cuZ29vZ2xlLmNvbSUyRiI+PC9ub3NjcmlwdD4=","183903260126":"PHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIG5vbmNlPSJTa0lFOEZ0RkNsVENJRlY0akk5TVpTSDR5UHciPiFmdW5jdGlvbihzKXtzLnNyYz0naHR0cHM6Ly9weC5zcnZjcy50dW1ibHIuY29tL2ltcGl4dT9UPTE1NTk4ODI3NTAmSj1leUowZVhCbElqb2ljRzl6ZENJc0luVnliQ0k2SW1oMGRIQTZMeTlpYkc5bkxtVnNaVzFsYm5SaGNua3VhVzh2Y0c5emRDOHhNRGMyTmpFNU16SXhNall2ZDJoNUxYZGxMWGR5YVhSbExXVnNaVzFsYm5SaGNua3RZWEJ3Y3kxcGJpMTJZV3hoSWl3aWNtVnhkSGx3WlNJNk1Dd2ljbTkxZEdVaU9pSXZjRzl6ZEM4NmFXUXZPbk4xYlcxaGNua2lMQ0p3YjNOMGN5STZXM3NpY0c5emRHbGtJam9pTVRnek9UQXpNall3TVRJMklpd2lZbXh2WjJsa0lqb2lOalExTURrNU1Ua2lMQ0p6YjNWeVkyVWlPak01T1gxZGZRPT0mVT1OR0hOQU1DTUVMJks9NDY0NjgzYjgzZDlhZDgzYTQ3NWNmNTY4ZTNlMWQxYjQ1YTM5Yjg5ZGYyMGExZjNiMmEyMWI2Zjg5ZjMyNzk3YyZSPWh0dHBzJTNBJTJGJTJGd3d3Lmdvb2dsZS5jb20lMkYnLnJlcGxhY2UoLyZSPVteJiRdKi8sJycpLmNvbmNhdCgnJlI9Jytlc2NhcGUoZG9jdW1lbnQucmVmZXJyZXIpKS5zbGljZSgwLDIwMDApLnJlcGxhY2UoLyUuPy4\/JC8sJycpO30obmV3IEltYWdlKCkpOzwvc2NyaXB0Pjxub3NjcmlwdD48aW1nIHN0eWxlPSJwb3NpdGlvbjphYnNvbHV0ZTt6LWluZGV4Oi0zMzM0O3RvcDowcHg7bGVmdDowcHg7dmlzaWJpbGl0eTpoaWRkZW47IiBzcmM9Imh0dHBzOi8vcHguc3J2Y3MudHVtYmxyLmNvbS9pbXBpeHU\/VD0xNTU5ODgyNzUwJko9ZXlKMGVYQmxJam9pY0c5emRDSXNJblZ5YkNJNkltaDBkSEE2THk5aWJHOW5MbVZzWlcxbGJuUmhjbmt1YVc4dmNHOXpkQzh4TURjMk5qRTVNekl4TWpZdmQyaDVMWGRsTFhkeWFYUmxMV1ZzWlcxbGJuUmhjbmt0WVhCd2N5MXBiaTEyWVd4aElpd2ljbVZ4ZEhsd1pTSTZNQ3dpY205MWRHVWlPaUl2Y0c5emRDODZhV1F2T25OMWJXMWhjbmtpTENKd2IzTjBjeUk2VzNzaWNHOXpkR2xrSWpvaU1UZ3pPVEF6TWpZd01USTJJaXdpWW14dloybGtJam9pTmpRMU1EazVNVGtpTENKemIzVnlZMlVpT2pNNU9YMWRMQ0p1YjNOamNtbHdkQ0k2TVgwPSZVPU5HSE5BTUNNRUwmSz04ZTE3YzAzMTVjYWQ4OWMxYTA0NTg3NGYyZDI4NWM2ODVlNDRkMTdkNjExYjEwOGRhOGMwZmUwMTI2MmQwY2YwJlI9aHR0cHMlM0ElMkYlMkZ3d3cuZ29vZ2xlLmNvbSUyRiI+PC9ub3NjcmlwdD4=","183873187726":"PHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIG5vbmNlPSJTa0lFOEZ0RkNsVENJRlY0akk5TVpTSDR5UHciPiFmdW5jdGlvbihzKXtzLnNyYz0naHR0cHM6Ly9weC5zcnZjcy50dW1ibHIuY29tL2ltcGl4dT9UPTE1NTk4ODI3NTAmSj1leUowZVhCbElqb2ljRzl6ZENJc0luVnliQ0k2SW1oMGRIQTZMeTlpYkc5bkxtVnNaVzFsYm5SaGNua3VhVzh2Y0c5emRDOHhNRGMyTmpFNU16SXhNall2ZDJoNUxYZGxMWGR5YVhSbExXVnNaVzFsYm5SaGNua3RZWEJ3Y3kxcGJpMTJZV3hoSWl3aWNtVnhkSGx3WlNJNk1Dd2ljbTkxZEdVaU9pSXZjRzl6ZEM4NmFXUXZPbk4xYlcxaGNua2lMQ0p3YjNOMGN5STZXM3NpY0c5emRHbGtJam9pTVRnek9EY3pNVGczTnpJMklpd2lZbXh2WjJsa0lqb2lOalExTURrNU1Ua2lMQ0p6YjNWeVkyVWlPak01T1gxZGZRPT0mVT1DUE1QT0FFTEVKJks9ZGFmNTNlZWYyNjk1NDZlYzg2YjVlZWRlMjVmNzkzNTg1YWNjNTA4NjU1ODQ4Y2E4MDRiYWU5MTYzYmI0YjM0ZCZSPWh0dHBzJTNBJTJGJTJGd3d3Lmdvb2dsZS5jb20lMkYnLnJlcGxhY2UoLyZSPVteJiRdKi8sJycpLmNvbmNhdCgnJlI9Jytlc2NhcGUoZG9jdW1lbnQucmVmZXJyZXIpKS5zbGljZSgwLDIwMDApLnJlcGxhY2UoLyUuPy4\/JC8sJycpO30obmV3IEltYWdlKCkpOzwvc2NyaXB0Pjxub3NjcmlwdD48aW1nIHN0eWxlPSJwb3NpdGlvbjphYnNvbHV0ZTt6LWluZGV4Oi0zMzM0O3RvcDowcHg7bGVmdDowcHg7dmlzaWJpbGl0eTpoaWRkZW47IiBzcmM9Imh0dHBzOi8vcHguc3J2Y3MudHVtYmxyLmNvbS9pbXBpeHU\/VD0xNTU5ODgyNzUwJko9ZXlKMGVYQmxJam9pY0c5emRDSXNJblZ5YkNJNkltaDBkSEE2THk5aWJHOW5MbVZzWlcxbGJuUmhjbmt1YVc4dmNHOXpkQzh4TURjMk5qRTVNekl4TWpZdmQyaDVMWGRsTFhkeWFYUmxMV1ZzWlcxbGJuUmhjbmt0WVhCd2N5MXBiaTEyWVd4aElpd2ljbVZ4ZEhsd1pTSTZNQ3dpY205MWRHVWlPaUl2Y0c5emRDODZhV1F2T25OMWJXMWhjbmtpTENKd2IzTjBjeUk2VzNzaWNHOXpkR2xrSWpvaU1UZ3pPRGN6TVRnM056STJJaXdpWW14dloybGtJam9pTmpRMU1EazVNVGtpTENKemIzVnlZMlVpT2pNNU9YMWRMQ0p1YjNOamNtbHdkQ0k2TVgwPSZVPUNQTVBPQUVMRUomSz1jZjIzNjE0YzkzNWQ3OWUyZWNmNTkzMTBkOGI4YzNiZTUwMDM2MmYxMGQ4OTBhMmJkNzM3NTk2ZTIyZTdhMTE2JlI9aHR0cHMlM0ElMkYlMkZ3d3cuZ29vZ2xlLmNvbSUyRiI+PC9ub3NjcmlwdD4=","183619751496":"PHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIG5vbmNlPSJTa0lFOEZ0RkNsVENJRlY0akk5TVpTSDR5UHciPiFmdW5jdGlvbihzKXtzLnNyYz0naHR0cHM6Ly9weC5zcnZjcy50dW1ibHIuY29tL2ltcGl4dT9UPTE1NTk4ODI3NTAmSj1leUowZVhCbElqb2ljRzl6ZENJc0luVnliQ0k2SW1oMGRIQTZMeTlpYkc5bkxtVnNaVzFsYm5SaGNua3VhVzh2Y0c5emRDOHhNRGMyTmpFNU16SXhNall2ZDJoNUxYZGxMWGR5YVhSbExXVnNaVzFsYm5SaGNua3RZWEJ3Y3kxcGJpMTJZV3hoSWl3aWNtVnhkSGx3WlNJNk1Dd2ljbTkxZEdVaU9pSXZjRzl6ZEM4NmFXUXZPbk4xYlcxaGNua2lMQ0p3YjNOMGN5STZXM3NpY0c5emRHbGtJam9pTVRnek5qRTVOelV4TkRrMklpd2lZbXh2WjJsa0lqb2lOalExTURrNU1Ua2lMQ0p6YjNWeVkyVWlPak01T1gxZGZRPT0mVT1HQkVDUEVGSFBJJks9MDJiNWE0ZmM3NzEwNmVlMzE3YTdjZDM0NjA0OGVhYzhmMzZiNmU2YjAwMDhlZTMyNWFhMzRmNDIxODFmMjk5NiZSPWh0dHBzJTNBJTJGJTJGd3d3Lmdvb2dsZS5jb20lMkYnLnJlcGxhY2UoLyZSPVteJiRdKi8sJycpLmNvbmNhdCgnJlI9Jytlc2NhcGUoZG9jdW1lbnQucmVmZXJyZXIpKS5zbGljZSgwLDIwMDApLnJlcGxhY2UoLyUuPy4\/JC8sJycpO30obmV3IEltYWdlKCkpOzwvc2NyaXB0Pjxub3NjcmlwdD48aW1nIHN0eWxlPSJwb3NpdGlvbjphYnNvbHV0ZTt6LWluZGV4Oi0zMzM0O3RvcDowcHg7bGVmdDowcHg7dmlzaWJpbGl0eTpoaWRkZW47IiBzcmM9Imh0dHBzOi8vcHguc3J2Y3MudHVtYmxyLmNvbS9pbXBpeHU\/VD0xNTU5ODgyNzUwJko9ZXlKMGVYQmxJam9pY0c5emRDSXNJblZ5YkNJNkltaDBkSEE2THk5aWJHOW5MbVZzWlcxbGJuUmhjbmt1YVc4dmNHOXpkQzh4TURjMk5qRTVNekl4TWpZdmQyaDVMWGRsTFhkeWFYUmxMV1ZzWlcxbGJuUmhjbmt0WVhCd2N5MXBiaTEyWVd4aElpd2ljbVZ4ZEhsd1pTSTZNQ3dpY205MWRHVWlPaUl2Y0c5emRDODZhV1F2T25OMWJXMWhjbmtpTENKd2IzTjBjeUk2VzNzaWNHOXpkR2xrSWpvaU1UZ3pOakU1TnpVeE5EazJJaXdpWW14dloybGtJam9pTmpRMU1EazVNVGtpTENKemIzVnlZMlVpT2pNNU9YMWRMQ0p1YjNOamNtbHdkQ0k2TVgwPSZVPUdCRUNQRUZIUEkmSz1lZWEyNDY4YzY4NWMxZTU4ZTg1MTE4ZTgwODlhMTk3MmMzNmU2ODE0M2I3Y2M0ZmYzNWY5ZjlmZmMzNWM2NGM3JlI9aHR0cHMlM0ElMkYlMkZ3d3cuZ29vZ2xlLmNvbSUyRiI+PC9ub3NjcmlwdD4=","183395088756":"PHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIG5vbmNlPSJTa0lFOEZ0RkNsVENJRlY0akk5TVpTSDR5UHciPiFmdW5jdGlvbihzKXtzLnNyYz0naHR0cHM6Ly9weC5zcnZjcy50dW1ibHIuY29tL2ltcGl4dT9UPTE1NTk4ODI3NTAmSj1leUowZVhCbElqb2ljRzl6ZENJc0luVnliQ0k2SW1oMGRIQTZMeTlpYkc5bkxtVnNaVzFsYm5SaGNua3VhVzh2Y0c5emRDOHhNRGMyTmpFNU16SXhNall2ZDJoNUxYZGxMWGR5YVhSbExXVnNaVzFsYm5SaGNua3RZWEJ3Y3kxcGJpMTJZV3hoSWl3aWNtVnhkSGx3WlNJNk1Dd2ljbTkxZEdVaU9pSXZjRzl6ZEM4NmFXUXZPbk4xYlcxaGNua2lMQ0p3YjNOMGN5STZXM3NpY0c5emRHbGtJam9pTVRnek16azFNRGc0TnpVMklpd2lZbXh2WjJsa0lqb2lOalExTURrNU1Ua2lMQ0p6YjNWeVkyVWlPak01T1gxZGZRPT0mVT1CTUNCSElCSU1KJks9M2MxMzNjNzg3NzM2NTU0OWQxN2Y3YTFhN2ZmOTRlYzBjYjcwMTQyMjRmYjA5YTJmMTFjZTM2NWIzNWVkOGIzOSZSPWh0dHBzJTNBJTJGJTJGd3d3Lmdvb2dsZS5jb20lMkYnLnJlcGxhY2UoLyZSPVteJiRdKi8sJycpLmNvbmNhdCgnJlI9Jytlc2NhcGUoZG9jdW1lbnQucmVmZXJyZXIpKS5zbGljZSgwLDIwMDApLnJlcGxhY2UoLyUuPy4\/JC8sJycpO30obmV3IEltYWdlKCkpOzwvc2NyaXB0Pjxub3NjcmlwdD48aW1nIHN0eWxlPSJwb3NpdGlvbjphYnNvbHV0ZTt6LWluZGV4Oi0zMzM0O3RvcDowcHg7bGVmdDowcHg7dmlzaWJpbGl0eTpoaWRkZW47IiBzcmM9Imh0dHBzOi8vcHguc3J2Y3MudHVtYmxyLmNvbS9pbXBpeHU\/VD0xNTU5ODgyNzUwJko9ZXlKMGVYQmxJam9pY0c5emRDSXNJblZ5YkNJNkltaDBkSEE2THk5aWJHOW5MbVZzWlcxbGJuUmhjbmt1YVc4dmNHOXpkQzh4TURjMk5qRTVNekl4TWpZdmQyaDVMWGRsTFhkeWFYUmxMV1ZzWlcxbGJuUmhjbmt0WVhCd2N5MXBiaTEyWVd4aElpd2ljbVZ4ZEhsd1pTSTZNQ3dpY205MWRHVWlPaUl2Y0c5emRDODZhV1F2T25OMWJXMWhjbmtpTENKd2IzTjBjeUk2VzNzaWNHOXpkR2xrSWpvaU1UZ3pNemsxTURnNE56VTJJaXdpWW14dloybGtJam9pTmpRMU1EazVNVGtpTENKemIzVnlZMlVpT2pNNU9YMWRMQ0p1YjNOamNtbHdkQ0k2TVgwPSZVPUJNQ0JISUJJTUomSz1mYjI3ZmQ3MTA0MzFkYzdhMzlkZjAyMzU5YTZmZTAyYTRmNjJhNWJiMTQ1MDU0MGUzODEyM2NiNWI1YjU5YTg3JlI9aHR0cHMlM0ElMkYlMkZ3d3cuZ29vZ2xlLmNvbSUyRiI+PC9ub3NjcmlwdD4=","183171398446":"PHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIG5vbmNlPSJTa0lFOEZ0RkNsVENJRlY0akk5TVpTSDR5UHciPiFmdW5jdGlvbihzKXtzLnNyYz0naHR0cHM6Ly9weC5zcnZjcy50dW1ibHIuY29tL2ltcGl4dT9UPTE1NTk4ODI3NTAmSj1leUowZVhCbElqb2ljRzl6ZENJc0luVnliQ0k2SW1oMGRIQTZMeTlpYkc5bkxtVnNaVzFsYm5SaGNua3VhVzh2Y0c5emRDOHhNRGMyTmpFNU16SXhNall2ZDJoNUxYZGxMWGR5YVhSbExXVnNaVzFsYm5SaGNua3RZWEJ3Y3kxcGJpMTJZV3hoSWl3aWNtVnhkSGx3WlNJNk1Dd2ljbTkxZEdVaU9pSXZjRzl6ZEM4NmFXUXZPbk4xYlcxaGNua2lMQ0p3YjNOMGN5STZXM3NpY0c5emRHbGtJam9pTVRnek1UY3hNems0TkRRMklpd2lZbXh2WjJsa0lqb2lOalExTURrNU1Ua2lMQ0p6YjNWeVkyVWlPak01T1gxZGZRPT0mVT1JQ0hMRkZNRkNHJks9YTRmMGYwZmU0OGYxMDM2NDU4ODY0YjFlMWIwNWU1NjlmYzI5NzlhNzhlZjQ3YzExNTIyOTEwM2I3NDI3MTQzOCZSPWh0dHBzJTNBJTJGJTJGd3d3Lmdvb2dsZS5jb20lMkYnLnJlcGxhY2UoLyZSPVteJiRdKi8sJycpLmNvbmNhdCgnJlI9Jytlc2NhcGUoZG9jdW1lbnQucmVmZXJyZXIpKS5zbGljZSgwLDIwMDApLnJlcGxhY2UoLyUuPy4\/JC8sJycpO30obmV3IEltYWdlKCkpOzwvc2NyaXB0Pjxub3NjcmlwdD48aW1nIHN0eWxlPSJwb3NpdGlvbjphYnNvbHV0ZTt6LWluZGV4Oi0zMzM0O3RvcDowcHg7bGVmdDowcHg7dmlzaWJpbGl0eTpoaWRkZW47IiBzcmM9Imh0dHBzOi8vcHguc3J2Y3MudHVtYmxyLmNvbS9pbXBpeHU\/VD0xNTU5ODgyNzUwJko9ZXlKMGVYQmxJam9pY0c5emRDSXNJblZ5YkNJNkltaDBkSEE2THk5aWJHOW5MbVZzWlcxbGJuUmhjbmt1YVc4dmNHOXpkQzh4TURjMk5qRTVNekl4TWpZdmQyaDVMWGRsTFhkeWFYUmxMV1ZzWlcxbGJuUmhjbmt0WVhCd2N5MXBiaTEyWVd4aElpd2ljbVZ4ZEhsd1pTSTZNQ3dpY205MWRHVWlPaUl2Y0c5emRDODZhV1F2T25OMWJXMWhjbmtpTENKd2IzTjBjeUk2VzNzaWNHOXpkR2xrSWpvaU1UZ3pNVGN4TXprNE5EUTJJaXdpWW14dloybGtJam9pTmpRMU1EazVNVGtpTENKemIzVnlZMlVpT2pNNU9YMWRMQ0p1YjNOamNtbHdkQ0k2TVgwPSZVPUlDSExGRk1GQ0cmSz0zNTFlMmJiZDBhMDY3ZWJiNzZiYTE5Yjg4YTYwYjkyMDc3MzRhMGVkOThiMGI0OTZhMGExOTRiYmY0NjgzODJlJlI9aHR0cHMlM0ElMkYlMkZ3d3cuZ29vZ2xlLmNvbSUyRiI+PC9ub3NjcmlwdD4=","182852364676":"PHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIG5vbmNlPSJTa0lFOEZ0RkNsVENJRlY0akk5TVpTSDR5UHciPiFmdW5jdGlvbihzKXtzLnNyYz0naHR0cHM6Ly9weC5zcnZjcy50dW1ibHIuY29tL2ltcGl4dT9UPTE1NTk4ODI3NTAmSj1leUowZVhCbElqb2ljRzl6ZENJc0luVnliQ0k2SW1oMGRIQTZMeTlpYkc5bkxtVnNaVzFsYm5SaGNua3VhVzh2Y0c5emRDOHhNRGMyTmpFNU16SXhNall2ZDJoNUxYZGxMWGR5YVhSbExXVnNaVzFsYm5SaGNua3RZWEJ3Y3kxcGJpMTJZV3hoSWl3aWNtVnhkSGx3WlNJNk1Dd2ljbTkxZEdVaU9pSXZjRzl6ZEM4NmFXUXZPbk4xYlcxaGNua2lMQ0p3YjNOMGN5STZXM3NpY0c5emRHbGtJam9pTVRneU9EVXlNelkwTmpjMklpd2lZbXh2WjJsa0lqb2lOalExTURrNU1Ua2lMQ0p6YjNWeVkyVWlPak01T1gxZGZRPT0mVT1QQlBNQ01JS0pOJks9ODExYjdkYWYwNzdiNjZjYWM4YTcwYWIwOWE2NjRkMjVhMmRmZTlkZDI0YzRmMWUxMDdhODVjNzY0ZDAxMjdhYiZSPWh0dHBzJTNBJTJGJTJGd3d3Lmdvb2dsZS5jb20lMkYnLnJlcGxhY2UoLyZSPVteJiRdKi8sJycpLmNvbmNhdCgnJlI9Jytlc2NhcGUoZG9jdW1lbnQucmVmZXJyZXIpKS5zbGljZSgwLDIwMDApLnJlcGxhY2UoLyUuPy4\/JC8sJycpO30obmV3IEltYWdlKCkpOzwvc2NyaXB0Pjxub3NjcmlwdD48aW1nIHN0eWxlPSJwb3NpdGlvbjphYnNvbHV0ZTt6LWluZGV4Oi0zMzM0O3RvcDowcHg7bGVmdDowcHg7dmlzaWJpbGl0eTpoaWRkZW47IiBzcmM9Imh0dHBzOi8vcHguc3J2Y3MudHVtYmxyLmNvbS9pbXBpeHU\/VD0xNTU5ODgyNzUwJko9ZXlKMGVYQmxJam9pY0c5emRDSXNJblZ5YkNJNkltaDBkSEE2THk5aWJHOW5MbVZzWlcxbGJuUmhjbmt1YVc4dmNHOXpkQzh4TURjMk5qRTVNekl4TWpZdmQyaDVMWGRsTFhkeWFYUmxMV1ZzWlcxbGJuUmhjbmt0WVhCd2N5MXBiaTEyWVd4aElpd2ljbVZ4ZEhsd1pTSTZNQ3dpY205MWRHVWlPaUl2Y0c5emRDODZhV1F2T25OMWJXMWhjbmtpTENKd2IzTjBjeUk2VzNzaWNHOXpkR2xrSWpvaU1UZ3lPRFV5TXpZME5qYzJJaXdpWW14dloybGtJam9pTmpRMU1EazVNVGtpTENKemIzVnlZMlVpT2pNNU9YMWRMQ0p1YjNOamNtbHdkQ0k2TVgwPSZVPVBCUE1DTUlLSk4mSz02OTdkZDllOWUxZmY2YTNjZjdiY2JkNmEzNGViMmJjNDFhMzQ4NjYzMGEzYmQxOTQ1NTc1NGNmMmNlY2Y1MDFlJlI9aHR0cHMlM0ElMkYlMkZ3d3cuZ29vZ2xlLmNvbSUyRiI+PC9ub3NjcmlwdD4="};
+
+                        var analytics_frame = document.getElementById('ga_target');
+                        var analytics_iframe_loaded;
+                        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+                        var eventer = window[eventMethod];
+                        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+                        eventer(messageEvent,function(e) {
+                            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+                            if (message[0] == 'analytics_iframe_loaded') {
+                                analytics_iframe_loaded = true;
+                            }
+                        });
+
+                        $('.related-posts > article').waypoint(function() {
+                            if (!analytics_iframe_loaded) {
+                                return;
+                            }
+
+                            var post_id = $(this.element).data('post-id');
+                            if (typeof trackingPixels[post_id] == 'undefined' || !trackingPixels[post_id]) {
+                                return;
+                            }
+
+                            var trackingPixel = trackingPixels[post_id];
+
+                            analytics_frame.contentWindow.postMessage(
+                                ['tick_related_post', trackingPixel].join(';'),
+                                analytics_frame.src.split('/analytics.html')[0]
+                            );
+
+                            trackingPixels[post_id] = null;
+                        }, {
+                            offset: '100%'
+                        });
+                    });
+                </script>
+            
+        
+        
+    
+<iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+        var addthis_enabled = false;
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    postATMessage();
+                    postRapidMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    postATMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://assets.tumblr.com/analytics.html?dfab06320413a6a34dbca419c4c70f2c#" +
+                              "https://blog.elementary.io";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/post/107661932126/why-we-write-elementary-apps-in-vala?route=%2Fpost%2F%3Aid%2F%3Asummary'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+        function postATMessage() {
+            if (addthis_enabled && analytics_iframe_loaded) {
+                analytics_frame.contentWindow.postMessage('enable_addthis', analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postRapidMessage() {
+                            if (analytics_iframe_loaded) {
+                    var is_ajax = '';
+                    var route = '/post/:id/:summary';
+                    var tumblelog_id = 't:ibgnuWZACL4bF6AGZWyLrg';
+                    var yahoo_space_id = '1197719230';
+                    var rapid_client_only = '1';
+                    var apv = '1';
+                    var rapid_ex = '';
+
+                    analytics_frame.contentWindow.postMessage(
+                        [
+                            'tick_rapid', is_ajax, route, user_logged_in, tumblelog_id,
+                            yahoo_space_id, rapid_client_only, apv, rapid_ex
+                        ].join(';'),
+                        analytics_frame.src.split('/analytics.html')[0]
+                    );
+                }
+                    }
+    })();
+</script><script type="text/javascript" nonce="SkIE8FtFClTCIFV4jI9MZSH4yPw">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1559882750&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDovL2Jsb2cuZWxlbWVudGFyeS5pby9wb3N0LzEwNzY2MTkzMjEyNi93aHktd2Utd3JpdGUtZWxlbWVudGFyeS1hcHBzLWluLXZhbGEiLCJyZXF0eXBlIjowLCJyb3V0ZSI6Ii9wb3N0LzppZC86c3VtbWFyeSJ9&U=MJALIPOIIH&K=1093747949811c8102528bdd425dea067493a34bb07eecab85671980e94a4ebb&R=https%3A%2F%2Fwww.google.com%2F'.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1559882750&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDovL2Jsb2cuZWxlbWVudGFyeS5pby9wb3N0LzEwNzY2MTkzMjEyNi93aHktd2Utd3JpdGUtZWxlbWVudGFyeS1hcHBzLWluLXZhbGEiLCJyZXF0eXBlIjowLCJyb3V0ZSI6Ii9wb3N0LzppZC86c3VtbWFyeSIsIm5vc2NyaXB0IjoxfQ==&U=MJALIPOIIH&K=f96702031754cc21f0ed9b4a78b23c488a81a0a3c1ecd99528bdf762d89e8f19&R=https%3A%2F%2Fwww.google.com%2F"></noscript><script nonce="SkIE8FtFClTCIFV4jI9MZSH4yPw">
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                                if (d.getElementById('tumblr-cdx')) {
+                    return;
+                }
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'https://assets.tumblr.com/assets/scripts/vendor/cedexis/1-13960-radar10.min.js?_v=8d32508b0a251bebecb4853c987c5015';
+                s.type = 'text/javascript';
+                s.id = 'tumblr-cdx';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script type="text/javascript" nonce="SkIE8FtFClTCIFV4jI9MZSH4yPw">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1559882750&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6Ly9ibG9nLmVsZW1lbnRhcnkuaW8vcG9zdC8xMDc2NjE5MzIxMjYvd2h5LXdlLXdyaXRlLWVsZW1lbnRhcnktYXBwcy1pbi12YWxhIiwicmVxdHlwZSI6MCwicm91dGUiOiIvcG9zdC86aWQvOnN1bW1hcnkiLCJwb3N0cyI6W3sicG9zdGlkIjoiMTA3NjYxOTMyMTI2IiwiYmxvZ2lkIjoiNjQ1MDk5MTkiLCJzb3VyY2UiOjMzfV19&U=MPMLHLMBGA&K=ee4bd55d83411c41f748aaead5ed59b0e15da140fdcb10d43168516e180db301&R=https%3A%2F%2Fwww.google.com%2F'.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1559882750&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6Ly9ibG9nLmVsZW1lbnRhcnkuaW8vcG9zdC8xMDc2NjE5MzIxMjYvd2h5LXdlLXdyaXRlLWVsZW1lbnRhcnktYXBwcy1pbi12YWxhIiwicmVxdHlwZSI6MCwicm91dGUiOiIvcG9zdC86aWQvOnN1bW1hcnkiLCJwb3N0cyI6W3sicG9zdGlkIjoiMTA3NjYxOTMyMTI2IiwiYmxvZ2lkIjoiNjQ1MDk5MTkiLCJzb3VyY2UiOjMzfV0sIm5vc2NyaXB0IjoxfQ==&U=MPMLHLMBGA&K=331f0377059114f9381481aa1730c5f7d6525f178a88a462e0a12857beea310b&R=https%3A%2F%2Fwww.google.com%2F"></noscript><noscript id="bootloader" data-bootstrap="{&quot;Components&quot;:{&quot;PostActivity&quot;:[],&quot;NotificationPoller&quot;:{&quot;messaging_keys&quot;:[],&quot;token&quot;:&quot;c86f8a500596474a7ef5034081f694bd&quot;,&quot;inbox_unread&quot;:0},&quot;DesktopDashboardLogo&quot;:{&quot;animations&quot;:[[&quot;https:\/\/assets.tumblr.com\/images\/logo\/hover-animations\/pride.png?_v=42049e9d6ba0ccfc73ffdbf5b257d943&quot;,&quot;https:\/\/assets.tumblr.com\/images\/logo\/hover-animations\/pride@2x.png?_v=4113ba9317787303b736a3a8a77af32c&quot;]]},&quot;TumblelogIframe&quot;:{&quot;unified&quot;:true,&quot;variant&quot;:null,&quot;isCompact&quot;:false,&quot;tumblelogBundleSrc&quot;:&quot;https:\/\/assets.tumblr.com\/client\/prod\/standalone\/tumblelog\/index.build.js?_v=7f339a3fe0d2746d4ee56430781f32a0&quot;,&quot;tumblelogName&quot;:&quot;elementaryos&quot;,&quot;isLoggedIn&quot;:false,&quot;isFriend&quot;:false,&quot;formKey&quot;:&quot;&quot;,&quot;canSubscribe&quot;:false,&quot;isSubscribed&quot;:false,&quot;tumblelogTitle&quot;:&quot;elementary blog&quot;,&quot;tumblelogAvatar&quot;:&quot;https:\/\/66.media.tumblr.com\/avatar_edb79deb3524_64.pnj&quot;,&quot;tumblelogHost&quot;:&quot;https:\/\/blog.elementary.io&quot;,&quot;isOptica&quot;:true,&quot;isCustomTheme&quot;:false,&quot;themeHeaderImage&quot;:&quot;https:\/\/static.tumblr.com\/3247ec18802d9ff9275cdf0d884fe95d\/lqqd9ev\/Prnnmzfo8\/tumblr_static_b6q3pwt0skoosk0sc0wg0kc8k_2048_v2.png&quot;,&quot;themeBackgroundColor&quot;:&quot;#FAFAFA&quot;,&quot;themeTitleColor&quot;:&quot;#333333&quot;,&quot;themeAccentColor&quot;:&quot;#3689e6&quot;,&quot;brag&quot;:false,&quot;adsEnabled&quot;:false,&quot;canShowAd&quot;:true,&quot;isPremium&quot;:false,&quot;showLrecAds&quot;:false,&quot;showStickyLrecBackfill&quot;:false,&quot;showGeminiAds&quot;:false,&quot;geminiSectionCodeDesktop&quot;:&quot;a10bca9c-0c5d-4a02-ab13-14ab8513d81d&quot;,&quot;geminiSectionCodeMobile&quot;:&quot;ced63809-b609-4aca-96a0-abc099acba6b&quot;,&quot;currentPageType&quot;:&quot;single_post&quot;,&quot;currentPage&quot;:&quot;1&quot;,&quot;searchQuery&quot;:&quot;&quot;,&quot;tag&quot;:&quot;&quot;,&quot;query&quot;:&quot;&quot;,&quot;chrono&quot;:false,&quot;postId&quot;:&quot;107661932126&quot;,&quot;src&quot;:&quot;https:\/\/blog.elementary.io\/post\/107661932126\/why-we-write-elementary-apps-in-vala&quot;,&quot;postUrl&quot;:&quot;&quot;,&quot;isBlocked&quot;:null,&quot;isAdmin&quot;:false,&quot;lookupButtonUrl&quot;:&quot;&quot;,&quot;showSpamButton&quot;:false,&quot;showRootPostButton&quot;:false,&quot;rootPostUrl&quot;:&quot;&quot;,&quot;showRadarPostButton&quot;:false,&quot;radarKeys&quot;:&quot;&quot;,&quot;isUniblocked&quot;:false,&quot;isNsfw&quot;:false,&quot;isAdult&quot;:false,&quot;isSpam&quot;:false,&quot;isPrimaryBlog&quot;:false,&quot;canEdit&quot;:false,&quot;canReblogSelf&quot;:false,&quot;showLikeButton&quot;:false,&quot;showReblogButton&quot;:false,&quot;reblogUrl&quot;:&quot;&quot;,&quot;showFanMailButton&quot;:false,&quot;showMessagingButton&quot;:false,&quot;loginCheckIframeSrc&quot;:&quot;https:\/\/assets.tumblr.com\/assets\/html\/iframe\/login_check.html?_v=3de94a184d600617102ddd5b48fb36e9&quot;,&quot;appInstallUrls&quot;:{&quot;android&quot;:&quot;https:\/\/play.google.com\/store\/apps\/details?id=com.tumblr\u0026referrer=utm_source%3Dtumblr%26utm_medium%3Diframe%26utm_campaign%3Dblog_network_floating_cta&quot;,&quot;ios&quot;:&quot;https:\/\/itunes.apple.com\/app\/apple-store\/id305343404?pt=9029\u0026ct=blog_network_floating_cta\u0026mt=8&quot;},&quot;appOpenReferrer&quot;:&quot;tumblr_new_iframe&quot;,&quot;isShowSearch&quot;:true,&quot;supplyLogging&quot;:[],&quot;secondsSinceLastActivity&quot;:-1}},&quot;Flags&quot;:{&quot;doods&quot;:&quot;eyJmaWx0ZXJfbnNmdyI6dHJ1ZSwic2FmZV9tb2RlIjp0cnVlLCJzYWZlX21vZGVfZW5hYmxlZCI6dHJ1ZSwia2V5Y29tbWFuZF9hdXRvX3BhZ2luYXRlIjp0cnVlLCJsb2dnZWRfb3V0X3NlYXJjaCI6dHJ1ZSwia3Jha2VuX3dlYl9sb2dnaW5nX2xpYnJhcnkiOnRydWUsInNlY3VyZV9mb3JtX2tleSI6dHJ1ZSwic2VjdXJlX2Zvcm1fa2V5X2Z1bGx5X29uIjp0cnVlLCJ0dW1ibGVsb2dfcG9wb3ZlciI6dHJ1ZSwiY2Fub25pY2FsX3VybF93cml0ZXMiOnRydWUsImVuYWJsZV9jYXB0dXJlX2pzIjp0cnVlLCJwcmltYV9wb3N0X2Zvcm1zIjp0cnVlLCJsb2NrZWRfcmVibG9nX3VpIjp0cnVlLCJ0YWJsZXRfYmFubmVyX2FjdGl2ZSI6dHJ1ZSwibW9iaWxlX2Jhbm5lcl9hY3RpdmUiOnRydWUsImxvZ19zZWFyY2hfYm94Ijp0cnVlLCJ1c2VyX21lbnRpb25zIjp0cnVlLCJodG1sNV9hdWRpb19wbGF5ZXIiOnRydWUsInBvcG92ZXJfcmVjb21tZW5kYXRpb25zIjp0cnVlLCJpbmRhc2hfcmVjb21tZW5kYXRpb25zIjp0cnVlLCJwb3B0aWNhX3R1bWJsZWxvZ19wb3BvdmVycyI6dHJ1ZSwidHVtYmxyX3R2Ijp0cnVlLCJkZXByZWNhdGVfZmVhdHVyZWRfdGFncyI6dHJ1ZSwicmVibG9nX3VpX3JlZnJlc2giOnRydWUsInRhYl9zd2l0Y2hlciI6dHJ1ZSwiZmFzdF9jb21wb3NlIjp0cnVlLCJkYXNoYm9hcmRfcmVmcmVzaCI6dHJ1ZSwibW9iaWxlX3dlYl9waG90b3NldHMiOnRydWUsIm1vYmlsZV93ZWJfZ2F0ZSI6dHJ1ZSwibW9iaWxlX3dlYl9wYWdlX3RpdGxlcyI6dHJ1ZSwibW9iaWxlX3dlYl9hYnVzZV9mb3JtIjp0cnVlLCJkb250X2Nhc3RfanNfZm9sbG93cyI6dHJ1ZSwiYWRzX25ld192ZW5kb3JfYnV0dG9ucyI6dHJ1ZSwicmVhY3RpdmF0aW9uX2Zsb3ciOnRydWUsImd1bHBqc19hZG1pbiI6dHJ1ZSwiZW5hYmxlX2pzX2Vycm9yc19sb2ciOnRydWUsImVuYWJsZV9qc19lcGhlbWVyYWxfbG9nIjp0cnVlLCJsb2dfbGFkeSI6dHJ1ZSwiY3Nsb2dnZXJfanMiOnRydWUsImRpc2NvdmVyeV9odWJfYWNjZXNzIjp0cnVlLCJoZWFkZXJfYWNjb3VudF9tZW51Ijp0cnVlLCJlbmFibGVfc2hhcmVfZW1iZWRfY29kZSI6dHJ1ZSwicmVkZGl0X3NoYXJpbmciOnRydWUsInBvc3RfaXRfZm9yd2FyZCI6dHJ1ZSwicGVlcHJfc2VhcmNoX2FuZF9maWx0ZXIiOnRydWUsImludGVybnNfcGFnZSI6dHJ1ZSwiZm9sbG93ZWRfc2VhcmNoZXNfYmlnX3dlYiI6dHJ1ZSwibGl2ZXBob3Rvc193ZWIiOnRydWUsInVzZXJfdGFnX2ZpbHRlcmluZyI6dHJ1ZSwicHJvamVjdF94X2FwcGVhbCI6dHJ1ZSwicHJvamVjdF94X3dlYl9zZW5zaXRpdmVfY292ZXJzIjp0cnVlLCJzYWZlX21vZGVfb3duX3Bvc3QiOnRydWUsImhpZGVfZGVmYXVsdF9oZWFkZXJzX2Jsb2dfY2FyZHMiOnRydWUsInR5cGluZ19pbmRpY2F0b3Jfd3JpdGUiOnRydWUsImdkcHJfZ3VjZV9pc19yZXF1aXJlZCI6dHJ1ZSwidHVtYmxyX3ZpZGVvX3Nwb25zb3JlZF9kYXkiOnRydWUsImRhcmxhX2FkX2ZlZWRiYWNrIjp0cnVlLCJzdGF0dXNfaW5kaWNhdG9yIjp0cnVlLCJkaXNhYmxlX3lhaG9vX2JfY29va2llIjp0cnVlLCJsaXZlcGhvdG9zIjp0cnVlfQ==&quot;},&quot;Context&quot;:{&quot;name&quot;:&quot;default&quot;,&quot;time&quot;:1559882750000,&quot;userinfo&quot;:{&quot;primary&quot;:&quot;&quot;,&quot;name&quot;:&quot;&quot;,&quot;channels&quot;:[]},&quot;hosts&quot;:{&quot;assets_host&quot;:&quot;https:\/\/assets.tumblr.com&quot;,&quot;secure_assets_host&quot;:&quot;https:\/\/assets.tumblr.com&quot;,&quot;www_host&quot;:&quot;https:\/\/www.tumblr.com&quot;,&quot;secure_www_host&quot;:&quot;https:\/\/www.tumblr.com&quot;,&quot;embed_host&quot;:&quot;https:\/\/embed.tumblr.com&quot;,&quot;safe_host&quot;:&quot;https:\/\/safe.txmblr.com&quot;,&quot;platform_host&quot;:&quot;https:\/\/platform.tumblr.com&quot;},&quot;language&quot;:&quot;en_US&quot;,&quot;language_simple&quot;:&quot;en&quot;,&quot;assets&quot;:&quot;https:\/\/assets.tumblr.com\/client\/prod\/&quot;},&quot;Translations&quot;:{&quot;%1$sReport %2$s&#039;s post?%3$sIf it violates our community guidelines, we&#039;ll remove it.%4$s&quot;:&quot;%1$sReport %2$s&#039;s reblog?%3$sIf it violates our community guidelines, we&#039;ll remove it.%4$s&quot;,&quot;%1$sReport %2$s&#039;s reply?%3$sIf it violates our community guidelines, we&#039;ll remove it.%4$s&quot;:&quot;%1$sReport %2$s&#039;s reblog?%3$sIf it violates our community guidelines, we&#039;ll remove it.%4$s&quot;}}"></noscript><script src="https://assets.tumblr.com/client/prod/standalone/tumblelog/index.build.js?_v=7f339a3fe0d2746d4ee56430781f32a0"></script></body>
+</html>

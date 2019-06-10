@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required Meta Tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <title> Recruiting Olympikesoft :: Home</title>
+        <link rel="icon" type="image/png" href="/images/favicon.png" />
+
+        <!--Core CSS -->
+        <link rel="stylesheet" href="/css/bulma.css">
+        <link rel="stylesheet" href="/css/app.css">
+        <link rel="stylesheet" href="/css/core_blue.css">
+        <link rel="stylesheet" href="/css/icons.min.css">
+
+    </head>
+    <body>
+        <div class="pageloader"></div>
+        <div class="infraloader is-active"></div>        
+        <!-- Hero and Navbar -->
+        <div class="hero is-default is-bold is-fullheight">
+        
+            <!-- Navbar partial -->
+            <nav class="navbar navbar-wrapper is-cloned">
+                <div class="container">
+                    <!-- Brand -->
+                    <div class="navbar-brand">
+                        <a class="navbar-item" href="/">
+                            <img src="/images/logos/Recruiting Olympikesoft-blue.svg" alt="">
+                        </a>
+            
+                        
+            
+                        <!-- Responsive toggle -->
+                        <div class="custom-burger" data-target="is-cloned">
+                            <a class="responsive-btn" href="javascript:void(0);">
+                                <span class="menu-toggle">	
+                                    <span class="icon-box-toggle"> 	
+                                        <span class="rotate">
+                                            <i class="icon-line-top"></i>
+                                            <i class="icon-line-center"></i>
+                                            <i class="icon-line-bottom"></i> 
+                                        </span>
+                                    </span>
+                                </span>
+                            </a>
+                        </div>
+                        <!-- /Responsive toggle -->
+                    </div>
+            
+                    <!-- Navbar menu -->
+                    <div id="is-cloned" class="navbar-menu">
+                        <!-- Navbar Start -->
+                        <div class="navbar-start">
+                            <!-- Dropdown -->
+                            <div class="navbar-item has-dropdown is-hoverable is-mega is-hidden-mobile">
+                                <div class="navbar-link">
+                                    Product
+                                </div>
+                                <div class="navbar-dropdown is-megamenu animated prefadeInUp fadeInUp" data-style="width: 18rem;">
+                                    <div class="mega-inner">
+                                        <div class="container">
+                                            <div class="columns">
+                                                <div class="column">
+                                                    <h2 class="title is-6 is-mega-menu-title">Project Management</h2>
+                                                    <a class="navbar-item is-flex" href="landing-v4-features.html">
+                                                        <i class="im im-icon-Sidebar-Window"></i>
+                                                        <div class="navbar-content">
+                                                            <p>
+                                                                <small class="color-secondary">Boards</small>
+                                                            </p>
+                                                            <p>Kanban Board</p>
+                                                        </div>
+                                                    </a>
+                                                    <a class="navbar-item is-flex" href="landing-v4-features.html">
+                                                        <i class="im im-icon-Time-Window"></i>
+                                                        <div class="navbar-content">
+                                                            <p>
+                                                                <small class="color-secondary">Productivity</small>
+                                                            </p>
+                                                            <p>Time Tracking</p>
+                                                        </div>
+                                                    </a>
+                                                    <a class="navbar-item is-flex" href="landing-v4-features.html">
+                                                        <i class="im im-icon-Lock-Window"></i>
+                                                        <div class="navbar-content">
+                                                            <p>
+                                                                <small class="color-secondary">Security</small>
+                                                            </p>
+                                                            <p>Access Rights</p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="column">
+                                                    <h2 class="title is-6 is-mega-menu-title">Accounting</h2>
+                                                    <a class="navbar-item is-flex" href="landing-v4-features.html">
+                                                        <i class="im im-icon-Bar-Chart"></i>
+                                                        <div class="navbar-content">
+                                                            <p>
+                                                                <small class="color-secondary">Reporting</small>
+                                                            </p>
+                                                            <p>Custom Reports</p>
+                                                        </div>
+                                                    </a>
+                                                    <a class="navbar-item is-flex" href="landing-v4-features.html">
+                                                        <i class="im im-icon-Financial"></i>
+                                                        <div class="navbar-content">
+                                                            <p>
+                                                                <small class="color-secondary">Transactions</small>
+                                                            </p>
+                                                            <p>Currency Exchange</p>
+                                                        </div>
+                                                    </a>
+                                                    <a class="navbar-item is-flex" href="landing-v4-features.html">
+                                                        <i class="im im-icon-Bank"></i>
+                                                        <div class="navbar-content">
+                                                            <p>
+                                                                <small class="color-secondary">Transactions</small>
+                                                            </p>
+                                                            <p>Accounts</p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="column">
+                                                    <h2 class="title is-6 is-mega-menu-title">Document Management</h2>
+                                                    <a class="navbar-item is-flex" href="landing-v4-features.html">
+                                                        <i class="im im-icon-Folder-Archive"></i>
+                                                        <div class="navbar-content">
+                                                            <p>
+                                                                <small class="color-secondary">Records Management</small>
+                                                            </p>
+                                                            <p>File Plan</p>
+                                                        </div>
+                                                    </a>
+                                                    <a class="navbar-item is-flex" href="landing-v4-features.html">
+                                                        <i class="im im-icon-Mail-Attachement"></i>
+                                                        <div class="navbar-content">
+                                                            <p>
+                                                                <small class="color-secondary">Emails</small>
+                                                            </p>
+                                                            <p>Attachments Extraction</p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="column">
+                                                    <h2 class="title is-6 is-mega-menu-title">Get Started</h2>
+                                                    <p class="is-cta">This is a wonderful menu description item. It can be used as a CTA.</p>
+                                                    <p class="is-cta">
+                                                        <a href="landing-v4-features.html" class="button btn-align mega-btn secondary-btn">Learn more</a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                            
+                                        <hr class="navbar-divider">
+                                        <div class="navbar-item is-footer is-hidden-mobile">
+                                            <div class="navbar-content">
+                                                <div class="level is-mobile">
+                                                    <div class="level-left">
+                                                        <div class="level-item">
+                                                            <strong>Follow us</strong>
+                                                        </div>
+                                                    </div>
+                                                    <div class="level-right">
+                                                        <div class="level-item">
+                                                            <a class="social-link" href="#"><i class="fa fa-twitter"></i></a>
+                                                            <a class="social-link" href="#"><i class="fa fa-facebook"></i></a>
+                                                            <a class="social-link" href="#"><i class="fa fa-behance"></i></a>
+                                                            <a class="social-link" href="#"><i class="fa fa-github"></i></a>
+                                                            <a class="social-link" href="#"><i class="fa fa-tumblr"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                            
+                                        <div class="menu-image is-hidden-mobile">
+                                            <img src="/images/bg/shapes/megamenu-blue.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                <!-- Navbar item -->
+                            <a class="navbar-item is-slide is-centered-tablet is-hidden-desktop is-hidden-tablet" href="landing-v4-features.html">
+                                Product
+                            </a>
+                            
+                        </div>
+            
+                        <!-- Navbar end -->
+                        <div class="navbar-end">
+                            <!-- Navbar item -->
+                            
+                            <!-- Navbar item -->
+                            <a class="navbar-item is-slide is-centered-tablet" href="/login">
+                                Login
+                            </a>
+                            <!-- Signup button -->
+                            <div class="navbar-item is-button is-centered-tablet">
+                                <a id="#signup-btn" href="/signup" class="button button-cta is-bold btn-align secondary-btn raised">
+                                    Sign up
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            
+            <nav class="navbar navbar-wrapper is-transparent is-static">
+                <div class="container">
+                    <!-- Brand -->
+                    <div class="navbar-brand">
+                        <a class="navbar-item" href="/">
+                            <img src="/images/logos/Recruiting Olympikesoft-blue.svg" alt="">
+                        </a>
+            
+                       
+            
+                        <!-- Responsive toggle -->
+                        <div class="custom-burger" data-target="is-static">
+                            <a class="responsive-btn" href="javascript:void(0);">
+                                <span class="menu-toggle">	
+                                    <span class="icon-box-toggle"> 	
+                                        <span class="rotate">
+                                            <i class="icon-line-top"></i>
+                                            <i class="icon-line-center"></i>
+                                            <i class="icon-line-bottom"></i> 
+                                        </span>
+                                    </span>
+                                </span>
+                            </a>
+                        </div>
+                        <!-- /Responsive toggle -->
+                    </div>
+            
+                    <!-- Navbar menu -->
+                    <div id="is-static" class="navbar-menu">
+                        <!-- Navbar Start -->
+                        <div class="navbar-start">
+                            <!-- Dropdown -->
+                            <div class="navbar-item has-dropdown is-hoverable is-mega is-hidden-mobile">
+                                <div class="navbar-link">
+                                    Product
+                                </div>
+                                <div class="navbar-dropdown is-megamenu animated prefadeInUp fadeInUp" data-style="width: 18rem;">
+                                    <div class="mega-inner">
+                                        <div class="container">
+                                            <div class="columns">
+                                                <div class="column">
+                                                    <h2 class="title is-6 is-mega-menu-title">Project Management</h2>
+                                                    <a class="navbar-item is-flex" href="landing-v4-features.html">
+                                                        <i class="im im-icon-Sidebar-Window"></i>
+                                                        <div class="navbar-content">
+                                                            <p>
+                                                                <small class="color-secondary">Boards</small>
+                                                            </p>
+                                                            <p>Kanban Board</p>
+                                                        </div>
+                                                    </a>
+                                                    <a class="navbar-item is-flex" href="landing-v4-features.html">
+                                                        <i class="im im-icon-Time-Window"></i>
+                                                        <div class="navbar-content">
+                                                            <p>
+                                                                <small class="color-secondary">Productivity</small>
+                                                            </p>
+                                                            <p>Time Tracking</p>
+                                                        </div>
+                                                    </a>
+                                                    <a class="navbar-item is-flex" href="landing-v4-features.html">
+                                                        <i class="im im-icon-Lock-Window"></i>
+                                                        <div class="navbar-content">
+                                                            <p>
+                                                                <small class="color-secondary">Security</small>
+                                                            </p>
+                                                            <p>Access Rights</p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="column">
+                                                    <h2 class="title is-6 is-mega-menu-title">Accounting</h2>
+                                                    <a class="navbar-item is-flex" href="landing-v4-features.html">
+                                                        <i class="im im-icon-Bar-Chart"></i>
+                                                        <div class="navbar-content">
+                                                            <p>
+                                                                <small class="color-secondary">Reporting</small>
+                                                            </p>
+                                                            <p>Custom Reports</p>
+                                                        </div>
+                                                    </a>
+                                                    <a class="navbar-item is-flex" href="landing-v4-features.html">
+                                                        <i class="im im-icon-Financial"></i>
+                                                        <div class="navbar-content">
+                                                            <p>
+                                                                <small class="color-secondary">Transactions</small>
+                                                            </p>
+                                                            <p>Currency Exchange</p>
+                                                        </div>
+                                                    </a>
+                                                    <a class="navbar-item is-flex" href="landing-v4-features.html">
+                                                        <i class="im im-icon-Bank"></i>
+                                                        <div class="navbar-content">
+                                                            <p>
+                                                                <small class="color-secondary">Transactions</small>
+                                                            </p>
+                                                            <p>Accounts</p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="column">
+                                                    <h2 class="title is-6 is-mega-menu-title">Document Management</h2>
+                                                    <a class="navbar-item is-flex" href="landing-v4-features.html">
+                                                        <i class="im im-icon-Folder-Archive"></i>
+                                                        <div class="navbar-content">
+                                                            <p>
+                                                                <small class="color-secondary">Records Management</small>
+                                                            </p>
+                                                            <p>File Plan</p>
+                                                        </div>
+                                                    </a>
+                                                    <a class="navbar-item is-flex" href="landing-v4-features.html">
+                                                        <i class="im im-icon-Mail-Attachement"></i>
+                                                        <div class="navbar-content">
+                                                            <p>
+                                                                <small class="color-secondary">Emails</small>
+                                                            </p>
+                                                            <p>Attachments Extraction</p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="column">
+                                                    <h2 class="title is-6 is-mega-menu-title">Get Started</h2>
+                                                    <p class="is-cta">This is a wonderful menu description item. It can be used as a CTA.</p>
+                                                    <p class="is-cta">
+                                                        <a href="landing-v4-features.html" class="button btn-align mega-btn secondary-btn">Learn more</a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                            
+                                        <hr class="navbar-divider">
+                                        <div class="navbar-item is-footer is-hidden-mobile">
+                                            <div class="navbar-content">
+                                                <div class="level is-mobile">
+                                                    <div class="level-left">
+                                                        <div class="level-item">
+                                                            <strong>Follow us</strong>
+                                                        </div>
+                                                    </div>
+                                                    <div class="level-right">
+                                                        <div class="level-item">
+                                                            <a class="social-link" href="#"><i class="fa fa-twitter"></i></a>
+                                                            <a class="social-link" href="#"><i class="fa fa-facebook"></i></a>
+                                                            <a class="social-link" href="#"><i class="fa fa-behance"></i></a>
+                                                            <a class="social-link" href="#"><i class="fa fa-github"></i></a>
+                                                            <a class="social-link" href="#"><i class="fa fa-tumblr"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                            
+                                        <div class="menu-image is-hidden-mobile">
+                                            <img src="/images/bg/shapes/megamenu-blue.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                <!-- Navbar item -->
+                            <a class="navbar-item is-slide is-centered-tablet is-hidden-desktop is-hidden-tablet" href="landing-v4-features.html">
+                                Product
+                            </a>
+                            
+                        </div>
+            
+                        <!-- Navbar end -->
+                        <div class="navbar-end">
+                            <!-- Navbar item -->
+                            
+                            <!-- Navbar item -->
+                            <a class="navbar-item is-slide is-centered-tablet" href="/login">
+                                Login
+                            </a>
+                            <!-- Signup button -->
+                            <div class="navbar-item is-button is-centered-tablet">
+                                <a id="#signup-btn-double" href="/signup" class="button button-cta is-bold btn-align secondary-btn raised">
+                                    Sign up
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- Hero content -->
+            <div class="hero-body">
+                <div class="container">
+                    <div class="columns is-vcentered">
+                        <div class="column is-6">
+                            <figure class="">
+                                <img src="/images/illustrations/drawings/landing5-2.svg" alt="">
+                            </figure>
+                        </div>
+                        <div class="column is-5 is-offset-1 is-hero-title">
+                            <h1 class="title is-1 is-bigger">
+                                Collaborate.
+                            </h1>
+                            <h2 class="subtitle is-4">
+                                Work with people differently.
+                            </h2>
+                            <p class="">
+                                <a href="/signup" class="button button-cta is-bold btn-align secondary-btn raised">
+                                    Get Started
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Client logos -->
+            <div class="hero-foot pt-30 pb-30">
+                <div class="container">
+                    <div class="tabs partner-tabs is-centered">
+                        <ul>
+                            <li><a><img class="partner-logo" src="/images/logos/custom/covenant.svg" alt=""></a></li>
+                            <li><a><img class="partner-logo" src="/images/logos/custom/infinite.svg" alt=""></a></li>
+                            <li><a><img class="partner-logo" src="/images/logos/custom/phasekit.svg" alt=""></a></li>
+                            <li><a><img class="partner-logo" src="/images/logos/custom/grubspot.svg" alt=""></a></li>
+                            <li><a><img class="partner-logo" src="/images/logos/custom/gutwork.svg" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /Hero and Navbar -->
+        
+        <!-- Features Section -->
+        <div class="section is-medium gradient-circle">
+            <div class="container">
+                <!-- Title -->
+                <div class="section-title-wrapper has-text-centered">
+                    <!-- Divider -->
+                    <div class="special-divider">
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <h2 class="title is-2">We are Different.</h2>
+                    <h4 class="subtitle is-4">All in one Collaboration.</h4>
+                </div>
+                
+                <!-- Content -->
+                <div class="content-wrapper">
+                    <div class="columns is-vcentered">
+                        <div class="column is-6">
+                            <div class="columns is-multiline has-text-centered">
+                                <!-- Icon box -->
+                                <div class="column is-6">
+                                    <div class="square-icon-box rounded secondary">
+                                        <div class="icon-box-wrapper">
+                                            <div class="icon-box">
+                                                <i class="material-icons">dashboard</i>
+                                            </div>
+                                        </div>
+                                        <div class="box-title">
+                                            Dashboard
+                                        </div>
+                                        <div class="box-text">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Icon box -->
+                                <div class="column is-6">
+                                    <div class="square-icon-box rounded primary">
+                                        <div class="icon-box-wrapper">
+                                            <div class="icon-box">
+                                                <i class="material-icons">bubble_chart</i>
+                                            </div>
+                                        </div>
+                                        <div class="box-title">
+                                            Collaboration
+                                        </div>
+                                        <div class="box-text">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Icon box -->
+                                <div class="column is-6">
+                                    <div class="square-icon-box rounded secondary">
+                                        <div class="icon-box-wrapper">
+                                            <div class="icon-box">
+                                                <i class="material-icons">insert_drive_file</i>
+                                            </div>
+                                        </div>
+                                        <div class="box-title">
+                                            Documents
+                                        </div>
+                                        <div class="box-text">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Icon box -->
+                                <div class="column is-6">
+                                    <div class="square-icon-box rounded secondary">
+                                        <div class="icon-box-wrapper">
+                                            <div class="icon-box">
+                                                <i class="material-icons">layers</i>
+                                            </div>
+                                        </div>
+                                        <div class="box-title">
+                                            Projects
+                                        </div>
+                                        <div class="box-text">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Icon box -->
+                                <div class="column is-6">
+                                    <div class="square-icon-box rounded secondary">
+                                        <div class="icon-box-wrapper">
+                                            <div class="icon-box">
+                                                <i class="material-icons">assessment</i>
+                                            </div>
+                                        </div>
+                                        <div class="box-title">
+                                            Reporting
+                                        </div>
+                                        <div class="box-text">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Icon box -->
+                                <div class="column is-6">
+                                    <div class="square-icon-box rounded secondary">
+                                        <div class="icon-box-wrapper">
+                                            <div class="icon-box">
+                                                <i class="material-icons">monetization_on</i>
+                                            </div>
+                                        </div>
+                                        <div class="box-title">
+                                            Accounting
+                                        </div>
+                                        <div class="box-text">
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="column is-6">
+                            <img class="featured-ui" src="/images/illustrations/UI/collaboration-sidebar.png" alt="">
+                        </div>
+                    </div>
+                    
+                    <!-- CTA -->
+                    <div class="cta-wrapper has-text-centered is-title-reveal">
+                        <a href="/signup" class="button button-cta is-bold btn-align primary-btn raised">
+                            Try it free
+                        </a>
+                    </div>
+                </div>
+                <!-- /Content -->
+            </div>
+        </div>
+        <!-- /Features Section -->
+        
+       
+        
+        <!-- Side Features Section -->
+        <div class="section is-medium">
+            <div class="container">
+        
+                <!-- Feature -->
+                <div class="columns is-vcentered">
+                    <div class="column is-7 has-text-centered">
+                        <img class="featured-svg" src="/images/illustrations/drawings/landing5-1.svg" alt="">
+                    </div>
+        
+                    <div class="column is-5">
+                        <h3 class="detailed-feature-subtitle">Smooth Projects</h3>
+                        <h2 class="title is-3 no-margin">Build a career</h2>
+                        <div class="title-divider"></div>
+                        <span class="section-feature-description">We provide anonymity from your current employer and will offer international jobs to the strongest specialists.</span>
+                        <div class="pt-10 pb-10">
+                            <a href="#" class="button btn-align btn-more is-link color-secondary">
+                                Learn more about this <i class="sl sl-icon-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Feature -->
+        
+                <!-- Feature -->
+                <div class="columns is-vcentered">
+                    <div class="column is-7 has-text-centered is-hidden-tablet is-hidden-desktop">
+                        <img class="featured-svg" src="/images/illustrations/drawings/landing5-3.svg" alt="">
+                    </div>
+        
+                    <div class="column is-5 has-text-right">
+                        <h3 class="detailed-feature-subtitle">Shared tools</h3>
+                        <h2 class="title is-3 no-margin">Work Together</h2>
+                        <div class="title-divider is-right"></div>
+                        <span class="section-feature-description">Full time partnerships create long-term success.</span>
+                        <div class="pt-10 pb-10">
+                            <a href="#" class="button btn-align btn-more is-link color-secondary">
+                                Learn more about this <i class="sl sl-icon-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+        
+                    <div class="column is-7 has-text-centered is-hidden-mobile">
+                        <img class="featured-svg" src="/images/illustrations/drawings/landing5-3.svg" alt="">
+                    </div>
+                </div>
+                <!-- /Feature -->
+        
+                <!-- Feature -->
+                <div class="columns is-vcentered">
+                    <div class="column is-7 has-text-centered">
+                        <img class="featured-svg" src="/images/illustrations/drawings/landing5-4.svg" alt="">
+                    </div>
+        
+                    <div class="column is-5">
+                        <h3 class="detailed-feature-subtitle">Maximize growth</h3>
+                        <h2 class="title is-3 no-margin">Stand as one Man</h2>
+                        <div class="title-divider"></div>
+                        <span class="section-feature-description">Pay engineers for their work
+                </span>
+                        <div class="pt-10 pb-10">
+                            <a href="#" class="button btn-align btn-more is-link color-secondary">
+                                Learn more about this <i class="sl sl-icon-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Feature -->
+        
+                <!-- CTA -->
+                <h2 class="has-text-centered">
+                    <a href="landing-v4-features.html" class="button button-cta is-bold btn-align primary-btn raised">
+                        See all Features
+                    </a>
+                </h2>
+                <!-- /CTA -->
+        
+            </div>
+        </div>
+        <!-- /Side Features Section -->
+        
+        <!-- Team Section -->
+        <div class="section section-feature-grey is-medium has-background-image is-contain" data-background="/images/bg/shapes/circles-and-shapes.png">
+            <div class="container">
+                <!-- Title -->
+                <div class="section-title-wrapper has-text-centered">
+                    <!-- Divider -->
+                    <div class="special-divider">
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <h2 class="title is-2">Our Superheroes.</h2>
+                    <h4 class="subtitle is-4">We also love Collaboration.</h4>
+                </div>
+                
+                
+            </div>
+        </div>
+        <!-- /Team Section -->
+        
+        <!-- Clients Section -->
+        <div class="section is-medium no-line-bottom wavy-bottom">
+            <div class="container">
+                <div class="content-wrapper huge-pb">
+                    <!-- Clients Grid -->
+                    <div class="grid-clients three-grid">
+                        <div class="columns is-vcentered">
+                            <div class="column"></div>
+                            <!-- Client -->
+                            <div class="column">
+                                <a><img class="client" src="/images/logos/custom/phasekit-dark.svg" alt=""></a>
+                            </div>
+                            <!-- Client -->
+                            <div class="column">
+                                <a><img class="client" src="/images/logos/custom/proactive-dark.svg" alt=""></a>
+                            </div>
+                            <!-- Client -->
+                            <div class="column">
+                                <a><img class="client" src="/images/logos/custom/grubspot-dark.svg" alt=""></a>
+                            </div>
+                            <div class="column"></div>
+                        </div>
+                        <div class="columns is-vcentered is-separator">
+                            <div class="column"></div>
+                            <!-- Client -->
+                            <div class="column">
+                                <a><img class="client" src="/images/logos/custom/tribe-dark.svg" alt=""></a>
+                            </div>
+                            <!-- Client -->
+                            <div class="column">
+                                <a><img class="client" src="/images/logos/custom/kromo-dark.svg" alt=""></a>
+                            </div>
+                            <!-- Client -->
+                            <div class="column">
+                                <a><img class="client" src="/images/logos/custom/covenant-dark.svg" alt=""></a>
+                            </div>
+                            <div class="column"></div>
+                        </div>
+                        <div class="columns is-vcentered is-separator">
+                            <div class="column"></div>
+                            <!-- Client -->
+                            <div class="column">
+                                <a><img class="client" src="/images/logos/custom/bitbreaker-dark.svg" alt=""></a>
+                            </div>
+                            <!-- Client -->
+                            <div class="column">
+                                <a><img class="client" src="/images/logos/custom/infinite-dark.svg" alt=""></a>
+                            </div>
+                            <!-- Client -->
+                            <div class="column">
+                                <a><img class="client" src="/images/logos/custom/livetalk-dark.svg" alt=""></a>
+                            </div>
+                            <div class="column"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /Clients Section -->
+        
+        
+        
+        
+        <!-- Footer -->
+        <!-- Simple light footer -->
+        <footer class="footer footer-light-medium">
+            <div class="container">
+                <div class="columns">
+                    <!-- Column -->
+                    <div class="column is-4">
+                        <div class="pt-10 pb-10">
+                            <img class="small-footer-logo" src="/images/logos/Recruiting Olympikesoft-logo-g.png" alt="">
+                            <div class="footer-description pt-10 pb-10">
+                                Recruiting Olympikesoft is built for developers and designers.
+                            </div>
+                        </div>
+                        <div>
+                            <span class="moto">Designed and coded with <i class="fa fa-heart color-red"></i> by Olympikesoft.</span>
+                            <div class="social-links pt-10 pb-10">
+                                <a href="#">
+                                    <span class="icon"><i class="fa fa-facebook"></i></span>
+                                </a>
+                                <a href="#">
+                                    <span class="icon"><i class="fa fa-twitter"></i></span>
+                                </a>
+                                <a href="#">
+                                    <span class="icon"><i class="fa fa-linkedin"></i></span>
+                                </a>
+                                <a href="#">
+                                    <span class="icon"><i class="fa fa-dribbble"></i></span>
+                                </a>
+                                <a href="#">
+                                    <span class="icon"><i class="fa fa-github"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Column -->
+                    <div class="column is-6 is-offset-2">
+                        <div class="columns">
+                            <!-- Column -->
+                            <div class="column">
+                                <ul class="footer-column">
+                                    <li class="column-header">
+                                        Recruiting Olympikesoft
+                                    </li>
+                                    <li class="column-item"><a href="#">Home</a></li>
+                                    <li class="column-item"><a href="/signup">Get started</a></li>
+                                    <li class="column-item"><a href="#">Help</a></li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Back To Top Button -->
+        <div id="backtotop"><a href="#"></a></div>        <!-- Concatenated jQuery and plugins -->
+        <script src="/js/app.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+        <!-- Recruiting Olympikesoft js -->
+        <script src="/js/main.js"></script>
+        <script src="/js/landingv4.js"></script>
+        <script src="/js/ihavecookies.js"></script>
+        <script>
+                $('body').ihavecookies({
+  title: "Cookies & Privacy",
+  message: "This website uses cookies to ensure you get the best experience on our website.",
+  expires: 30 // 30 days
+});
+            </script>
+        </body>  
+        
+        
+            
+
+</html>

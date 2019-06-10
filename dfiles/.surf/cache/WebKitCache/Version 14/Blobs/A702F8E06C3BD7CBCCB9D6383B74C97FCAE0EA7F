@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html class=" responsive" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+			<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="theme-color" content="#171a21">
+		<title>[SOLVED] NO SOUND (Arch linux) :: Steam for Linux General Discussions</title>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+	
+	<link href="https://steamcommunity-a.akamaihd.net/public/shared/css/motiva_sans.css?v=FAK4O46_mOLB" rel="stylesheet" type="text/css" >
+<link href="https://steamcommunity-a.akamaihd.net/public/shared/css/buttons.css?v=6uRURryOh96m" rel="stylesheet" type="text/css" >
+<link href="https://steamcommunity-a.akamaihd.net/public/shared/css/shared_global.css?v=O5W-K8wVvTcv" rel="stylesheet" type="text/css" >
+<link href="https://steamcommunity-a.akamaihd.net/public/css/globalv2.css?v=KRH2BKcRYm07" rel="stylesheet" type="text/css" >
+<link href="https://steamcommunity-a.akamaihd.net/public/shared/css/apphub.css?v=85g9rzbY3OD6" rel="stylesheet" type="text/css" >
+<link href="https://steamcommunity-a.akamaihd.net/public/css/skin_1/modalContent.css?v=.TP5s6TzX6LLh" rel="stylesheet" type="text/css" >
+<link href="https://steamcommunity-a.akamaihd.net/public/css/skin_1/apphub_home.css?v=oQHhDCE3lc0Q" rel="stylesheet" type="text/css" >
+<link href="https://steamcommunity-a.akamaihd.net/public/css/skin_1/forums.css?v=lVU7BjZG-6MG" rel="stylesheet" type="text/css" >
+<link href="https://steamcommunity-a.akamaihd.net/public/shared/css/shared_responsive.css?v=RsYy34X2p1SM" rel="stylesheet" type="text/css" >
+<link href="https://steamcommunity-a.akamaihd.net/public/shared/css/apphub_images.css?v=ZPCpP33zAenv" rel="stylesheet" type="text/css" >
+<link href="https://steamcommunity-a.akamaihd.net/public/css/skin_1/header.css?v=Bv4kKK3Pxl5t" rel="stylesheet" type="text/css" >
+			<script>
+				(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+						(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+					m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+				})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+				ga('create', 'UA-33779068-1', 'auto', {
+					'sampleRate': 0.4				});
+				ga('set', 'dimension1', false );
+				ga('set', 'dimension2', 'External' );
+				ga('set', 'dimension3', 'app' );
+				ga('set', 'dimension4', "app\/discussions" );
+				ga('send', 'pageview' );
+
+			</script>
+			<script type="text/javascript" src="https://steamcommunity-a.akamaihd.net/public/javascript/prototype-1.7.js?v=.55t44gwuwgvw" ></script>
+<script type="text/javascript" src="https://steamcommunity-a.akamaihd.net/public/javascript/scriptaculous/_combined.js?v=OeNIgrpEF8tL&amp;l=english&amp;load=effects,controls,slider,dragdrop" ></script>
+<script type="text/javascript" src="https://steamcommunity-a.akamaihd.net/public/javascript/global.js?v=__mj5Gj4n0D0&amp;l=english" ></script>
+<script type="text/javascript" src="https://steamcommunity-a.akamaihd.net/public/javascript/jquery-1.11.1.min.js?v=.isFTSRckeNhC" ></script>
+<script type="text/javascript" src="https://steamcommunity-a.akamaihd.net/public/shared/javascript/tooltip.js?v=.vG8yiuBTGwkE" ></script>
+<script type="text/javascript" src="https://steamcommunity-a.akamaihd.net/public/shared/javascript/shared_global.js?v=o7YRM2CeI9h7&amp;l=english" ></script>
+<script type="text/javascript">$J = jQuery.noConflict();
+if ( typeof JSON != 'object' || !JSON.stringify || !JSON.parse ) { document.write( "<scr" + "ipt type=\"text\/javascript\" src=\"https:\/\/steamcommunity-a.akamaihd.net\/public\/javascript\/json2.js?v=pmScf4470EZP&amp;l=english\" ><\/script>\n" ); };
+</script>
+		<script type="text/javascript">
+			document.addEventListener('DOMContentLoaded', function(event) {  
+				SetupTooltips( { tooltipCSSClass: 'community_tooltip'} ); 
+		});
+		</script><script type="text/javascript" src="https://steamcommunity-a.akamaihd.net/public/javascript/modalv2.js?v=dfMhuy-Lrpyo&amp;l=english" ></script>
+<script type="text/javascript" src="https://steamcommunity-a.akamaihd.net/public/javascript/modalContent.js?v=b8AL-WL1PHAh&amp;l=english" ></script>
+<script type="text/javascript" src="https://steamcommunity-a.akamaihd.net/public/shared/javascript/apphub.js?v=g1bEStDNJEPK&amp;l=english" ></script>
+<script type="text/javascript" src="https://steamcommunity-a.akamaihd.net/public/javascript/forums.js?v=c6X-AZVclNDN&amp;l=english" ></script>
+<script type="text/javascript" src="https://steamcommunity-a.akamaihd.net/public/shared/javascript/shared_responsive_adapter.js?v=TbBMCK37KgCo&amp;l=english" ></script>
+
+						<meta name="twitter:card" content="summary_large_image">
+					<meta name="Description" content="Hi all, Steam has always worked perfectly fine on my Arch box. However, after having not run steam for a couple months, I am suddenly getting NO SOUND at all from any Steam games. Any ideas? Arch Linux steam 1.0.0.54-1 Thanks, Azalus EDIT: Fixed it by choosing the correct sound card in Pavucontrol">
+			
+	<meta name="twitter:site" content="@steam_games" />
+
+						<meta property="og:title" content="[SOLVED] NO SOUND (Arch linux) :: Steam for Linux General Discussions">
+					<meta property="twitter:title" content="[SOLVED] NO SOUND (Arch linux) :: Steam for Linux General Discussions">
+					<meta property="fb:app_id" content="105386699540688">
+					<meta property="og:description" content="Hi all, Steam has always worked perfectly fine on my Arch box. However, after having not run steam for a couple months, I am suddenly getting NO SOUND at all from any Steam games. Any ideas? Arch Linux steam 1.0.0.54-1 Thanks, Azalus EDIT: Fixed it by choosing the correct sound card in Pavucontrol">
+					<meta property="twitter:description" content="Hi all, Steam has always worked perfectly fine on my Arch box. However, after having not run steam for a couple months, I am suddenly getting NO SOUND at all from any Steam games. Any ideas? Arch Linux steam 1.0.0.54-1 Thanks, Azalus EDIT: Fixed it by choosing the correct sound card in Pavucontrol">
+			
+	
+			<link rel="image_src" href="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/221410/965d1dd5fb776eaf7a4b646086f694ea554ffa45.jpg">
+		<link rel="image_src" href="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/221410/965d1dd5fb776eaf7a4b646086f694ea554ffa45.jpg">
+		<meta property="og:image" content="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/221410/965d1dd5fb776eaf7a4b646086f694ea554ffa45.jpg">
+		<meta name="twitter:image" content="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/221410/965d1dd5fb776eaf7a4b646086f694ea554ffa45.jpg" />
+		
+	
+	
+	
+	</head>
+<body class="flat_page thread responsive_page">
+
+<div class="responsive_page_frame with_header">
+
+						<div class="responsive_page_menu_ctn mainmenu">
+				<div class="responsive_page_menu"  id="responsive_page_menu">
+										<div class="mainmenu_contents">
+						<div class="mainmenu_contents_items">
+															<a class="menuitem" href="https://steamcommunity.com/login/home/?goto=app%2F221410%2Fdiscussions%2F0%2F1319961618835587373%2F">
+									Login								</a>
+								<a class="menuitem supernav" href="https://store.steampowered.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_store">
+		Store	</a>
+	<div class="submenu_store" style="display: none;" data-submenuid="store">
+		<a class="submenuitem" href="https://store.steampowered.com/">Featured</a>
+		<a class="submenuitem" href="https://store.steampowered.com/explore/">Explore</a>
+		<a class="submenuitem" href="https://store.steampowered.com/curators/">Curators</a>
+		<a class="submenuitem" href="https://steamcommunity.com/my/wishlist/">Wishlist</a>
+		<a class="submenuitem" href="https://store.steampowered.com/news/">News</a>
+		<a class="submenuitem" href="https://store.steampowered.com/stats/">Stats</a>
+			</div>
+
+
+	<a class="menuitem supernav" style="display: block" href="https://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_community">
+		Community	</a>
+	<div class="submenu_community" style="display: none;" data-submenuid="community">
+		<a class="submenuitem" href="https://steamcommunity.com/">Home</a>
+		<a class="submenuitem" href="https://steamcommunity.com/discussions/">Discussions</a>
+		<a class="submenuitem" href="https://steamcommunity.com/workshop/">Workshop</a>
+		<a class="submenuitem" href="https://steamcommunity.com/market/">Market</a>
+		<a class="submenuitem" href="https://steamcommunity.com/?subsection=broadcasts">Broadcasts</a>
+					</div>
+
+	
+
+	
+	
+	<a class="menuitem" href="https://help.steampowered.com/en/">
+		Support	</a>
+
+							<div class="minor_menu_items">
+																<div class="menuitem change_language_action">
+									Change language								</div>
+																									<div class="menuitem" onclick="Responsive_RequestDesktopView();">
+										View desktop website									</div>
+															</div>
+						</div>
+						<div class="mainmenu_footer_spacer"></div>
+						<div class="mainmenu_footer">
+							<div class="mainmenu_footer_logo"><img src="https://steamcommunity-a.akamaihd.net/public/shared/images/responsive/logo_valve_footer.png"></div>
+							© Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.							<span class="mainmenu_valve_links">
+								<a href="https://store.steampowered.com/privacy_agreement/" target="_blank">Privacy Policy</a>
+								&nbsp;| &nbsp;<a href="http://www.valvesoftware.com/legal.htm" target="_blank">Legal</a>
+								&nbsp;| &nbsp;<a href="https://store.steampowered.com/subscriber_agreement/" target="_blank">Steam Subscriber Agreement</a>
+								&nbsp;| &nbsp;<a href="https://store.steampowered.com/steam_refunds/" target="_blank">Refunds</a>
+							</span>
+						</div>
+					</div>
+									</div>
+			</div>
+		
+		<div class="responsive_local_menu_tab">
+
+		</div>
+
+		<div class="responsive_page_menu_ctn localmenu">
+			<div class="responsive_page_menu"  id="responsive_page_local_menu">
+				<div class="localmenu_content">
+				</div>
+			</div>
+		</div>
+
+
+
+					<div class="responsive_header">
+				<div class="responsive_header_content">
+					<div id="responsive_menu_logo">
+						<img src="https://steamcommunity-a.akamaihd.net/public/shared/images/responsive/header_menu_hamburger.png" height="100%">
+											</div>
+					<div class="responsive_header_logo">
+						<img src="https://steamcommunity-a.akamaihd.net/public/shared/images/responsive/header_logo.png" height="36" border="0" alt="STEAM">
+					</div>
+				</div>
+			</div>
+		
+		<div class="responsive_page_content_overlay">
+
+		</div>
+
+		<div class="responsive_fixonscroll_ctn nonresponsive_hidden ">
+		</div>
+	
+	<div class="responsive_page_content">
+
+		<div id="global_header">
+	<div class="content">
+		<div class="logo">
+			<span id="logo_holder">
+									<a href="https://store.steampowered.com/">
+						<img src="https://steamcommunity-a.akamaihd.net/public/shared/images/header/globalheader_logo.png?t=962016" width="176" height="44">
+					</a>
+							</span>
+			<!--[if lt IE 7]>
+			<style type="text/css">
+				#logo_holder img { filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0); }
+				#logo_holder { display: inline-block; width: 176px; height: 44px; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://steamcommunity-a.akamaihd.net/public/images/v5/globalheader_logo.png'); }
+			</style>
+			<![endif]-->
+		</div>
+
+			<div class="supernav_container">
+	<a class="menuitem supernav" href="https://store.steampowered.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_store">
+		STORE	</a>
+	<div class="submenu_store" style="display: none;" data-submenuid="store">
+		<a class="submenuitem" href="https://store.steampowered.com/">Featured</a>
+		<a class="submenuitem" href="https://store.steampowered.com/explore/">Explore</a>
+		<a class="submenuitem" href="https://store.steampowered.com/curators/">Curators</a>
+		<a class="submenuitem" href="https://steamcommunity.com/my/wishlist/">Wishlist</a>
+		<a class="submenuitem" href="https://store.steampowered.com/news/">News</a>
+		<a class="submenuitem" href="https://store.steampowered.com/stats/">Stats</a>
+			</div>
+
+
+	<a class="menuitem supernav" style="display: block" href="https://steamcommunity.com/" data-tooltip-type="selector" data-tooltip-content=".submenu_community">
+		COMMUNITY	</a>
+	<div class="submenu_community" style="display: none;" data-submenuid="community">
+		<a class="submenuitem" href="https://steamcommunity.com/">Home</a>
+		<a class="submenuitem" href="https://steamcommunity.com/discussions/">Discussions</a>
+		<a class="submenuitem" href="https://steamcommunity.com/workshop/">Workshop</a>
+		<a class="submenuitem" href="https://steamcommunity.com/market/">Market</a>
+		<a class="submenuitem" href="https://steamcommunity.com/?subsection=broadcasts">Broadcasts</a>
+					</div>
+
+	
+
+	
+						<a class="menuitem" href="https://store.steampowered.com/about/">
+				ABOUT			</a>
+			
+	<a class="menuitem" href="https://help.steampowered.com/en/">
+		SUPPORT	</a>
+	</div>
+	<script type="text/javascript">
+		jQuery(function($) {
+			$('#global_header .supernav').v_tooltip({'location':'bottom', 'destroyWhenDone': false, 'tooltipClass': 'supernav_content', 'offsetY':-4, 'offsetX': 1, 'horizontalSnap': 4, 'tooltipParent': '#global_header .supernav_container', 'correctForScreenSize': false});
+		});
+	</script>
+
+		<div id="global_actions">
+			<div id="global_action_menu">
+									<div class="header_installsteam_btn header_installsteam_btn_green">
+
+						<a class="header_installsteam_btn_content" href="https://store.steampowered.com/about/">
+							Install Steam						</a>
+					</div>
+				
+				
+														<a class="global_action_link" href="https://steamcommunity.com/login/home/?goto=app%2F221410%2Fdiscussions%2F0%2F1319961618835587373%2F">login</a>
+					&nbsp;|&nbsp;
+					<span class="pulldown global_action_link" id="language_pulldown" onclick="ShowMenu( this, 'language_dropdown', 'right' );">language</span>
+					<div class="popup_block_new" id="language_dropdown" style="display: none;">
+						<div class="popup_body popup_menu">
+																																	<a class="popup_menu_item tight" href="?l=schinese" onclick="ChangeLanguage( 'schinese' ); return false;">简体中文 (Simplified Chinese)</a>
+																										<a class="popup_menu_item tight" href="?l=tchinese" onclick="ChangeLanguage( 'tchinese' ); return false;">繁體中文 (Traditional Chinese)</a>
+																										<a class="popup_menu_item tight" href="?l=japanese" onclick="ChangeLanguage( 'japanese' ); return false;">日本語 (Japanese)</a>
+																										<a class="popup_menu_item tight" href="?l=koreana" onclick="ChangeLanguage( 'koreana' ); return false;">한국어 (Korean)</a>
+																										<a class="popup_menu_item tight" href="?l=thai" onclick="ChangeLanguage( 'thai' ); return false;">ไทย (Thai)</a>
+																										<a class="popup_menu_item tight" href="?l=bulgarian" onclick="ChangeLanguage( 'bulgarian' ); return false;">Български (Bulgarian)</a>
+																										<a class="popup_menu_item tight" href="?l=czech" onclick="ChangeLanguage( 'czech' ); return false;">Čeština (Czech)</a>
+																										<a class="popup_menu_item tight" href="?l=danish" onclick="ChangeLanguage( 'danish' ); return false;">Dansk (Danish)</a>
+																										<a class="popup_menu_item tight" href="?l=german" onclick="ChangeLanguage( 'german' ); return false;">Deutsch (German)</a>
+																																			<a class="popup_menu_item tight" href="?l=spanish" onclick="ChangeLanguage( 'spanish' ); return false;">Español - España (Spanish - Spain)</a>
+																										<a class="popup_menu_item tight" href="?l=latam" onclick="ChangeLanguage( 'latam' ); return false;">Español - Latinoamérica (Spanish - Latin America)</a>
+																										<a class="popup_menu_item tight" href="?l=greek" onclick="ChangeLanguage( 'greek' ); return false;">Ελληνικά (Greek)</a>
+																										<a class="popup_menu_item tight" href="?l=french" onclick="ChangeLanguage( 'french' ); return false;">Français (French)</a>
+																										<a class="popup_menu_item tight" href="?l=italian" onclick="ChangeLanguage( 'italian' ); return false;">Italiano (Italian)</a>
+																										<a class="popup_menu_item tight" href="?l=hungarian" onclick="ChangeLanguage( 'hungarian' ); return false;">Magyar (Hungarian)</a>
+																										<a class="popup_menu_item tight" href="?l=dutch" onclick="ChangeLanguage( 'dutch' ); return false;">Nederlands (Dutch)</a>
+																										<a class="popup_menu_item tight" href="?l=norwegian" onclick="ChangeLanguage( 'norwegian' ); return false;">Norsk (Norwegian)</a>
+																										<a class="popup_menu_item tight" href="?l=polish" onclick="ChangeLanguage( 'polish' ); return false;">Polski (Polish)</a>
+																										<a class="popup_menu_item tight" href="?l=portuguese" onclick="ChangeLanguage( 'portuguese' ); return false;">Português (Portuguese)</a>
+																										<a class="popup_menu_item tight" href="?l=brazilian" onclick="ChangeLanguage( 'brazilian' ); return false;">Português - Brasil (Portuguese - Brazil)</a>
+																										<a class="popup_menu_item tight" href="?l=romanian" onclick="ChangeLanguage( 'romanian' ); return false;">Română (Romanian)</a>
+																										<a class="popup_menu_item tight" href="?l=russian" onclick="ChangeLanguage( 'russian' ); return false;">Русский (Russian)</a>
+																										<a class="popup_menu_item tight" href="?l=finnish" onclick="ChangeLanguage( 'finnish' ); return false;">Suomi (Finnish)</a>
+																										<a class="popup_menu_item tight" href="?l=swedish" onclick="ChangeLanguage( 'swedish' ); return false;">Svenska (Swedish)</a>
+																										<a class="popup_menu_item tight" href="?l=turkish" onclick="ChangeLanguage( 'turkish' ); return false;">Türkçe (Turkish)</a>
+																										<a class="popup_menu_item tight" href="?l=vietnamese" onclick="ChangeLanguage( 'vietnamese' ); return false;">Tiếng Việt (Vietnamese)</a>
+																										<a class="popup_menu_item tight" href="?l=ukrainian" onclick="ChangeLanguage( 'ukrainian' ); return false;">Українська (Ukrainian)</a>
+																						<a class="popup_menu_item tight" href="http://translation.steampowered.com" target="_blank">Help us translate Steam</a>
+						</div>
+					</div>
+							</div>
+					</div>
+			</div>
+</div>
+<script type="text/javascript">
+	g_sessionID = "18a611ed1912cf8edc92f02e";
+	g_steamID = false;
+	g_SNR = '2_9_100006_100202';
+
+	// We always want to have the timezone cookie set for PHP to use
+	setTimezoneCookies();
+
+	$J( function() {
+
+		InitMiniprofileHovers();
+		InitEmoticonHovers();
+
+
+				ApplyAdultContentPreferences();
+	});
+
+	$J( function() { InitEconomyHovers( "https:\/\/steamcommunity-a.akamaihd.net\/public\/css\/skin_1\/economy.css?v=Puk7JmfocgYh", "https:\/\/steamcommunity-a.akamaihd.net\/public\/javascript\/economy_common.js?v=tsXdRVB0yEaR&l=english", "https:\/\/steamcommunity-a.akamaihd.net\/public\/javascript\/economy.js?v=2LpiaJiQVjHu&l=english" );});</script>
+
+		<div class="responsive_page_template_content">
+
+			<script type="text/javascript">
+	</script>
+<div class="pagecontent">
+		<div class="apphub_background" style="">
+		<div class="apphub_HomeHeader">
+			<div class="apphub_HomeHeaderContent">
+
+
+	
+	
+	<div class="apphub_HeaderTop">
+		<div class="apphub_OtherSiteInfo responsive_hidden">
+								</div>
+		<div class="apphub_AppIcon"><img src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/221410/750e6650be3ffe428fb25dc3fc30118f798358a8.jpg"><div class="overlay"></div></div>
+		<div class="apphub_AppName ellipsis">Steam for Linux</div>
+		<div style="clear: both"></div>
+				<div class="apphub_sectionTabs responsive_hidden">
+				
+	<a href="https://steamcommunity.com/app/221410" class="apphub_sectionTab  "><span>All</span></a>
+		
+	<a href="https://steamcommunity.com/app/221410/discussions/" class="apphub_sectionTab active "><span>Discussions</span></a>
+		
+	<a href="https://steamcommunity.com/app/221410/images/" class="apphub_sectionTab  "><span>Artwork</span></a>
+		
+	<a href="https://steamcommunity.com/app/221410/videos/" class="apphub_sectionTab  "><span>Videos</span></a>
+		
+	<a href="https://steamcommunity.com/app/221410/allnews/" class="apphub_sectionTab  "><span>News</span></a>
+		
+	<a href="https://steamcommunity.com/app/221410/guides/" class="apphub_sectionTab  "><span>Guides</span></a>
+				<div style="clear: left"></div>
+		</div>
+
+		<div class="nonresponsive_hidden responsive_tab_ctn sharedfiles_responsive_tab">
+			<div class="responsive_tab_control">
+				<div class="responsive_tab_control_inner">
+										<select class="responsive_tab_select" id="responsive_tab_select5cfab8fe42ae8">
+													<option value="https://steamcommunity.com/app/221410" >
+								All							</option>
+													<option value="https://steamcommunity.com/app/221410/discussions/" selected>
+								Discussions							</option>
+													<option value="https://steamcommunity.com/app/221410/images/" >
+								Artwork							</option>
+													<option value="https://steamcommunity.com/app/221410/videos/" >
+								Videos							</option>
+													<option value="https://steamcommunity.com/app/221410/allnews/" >
+								News							</option>
+													<option value="https://steamcommunity.com/app/221410/guides/" >
+								Guides							</option>
+											</select>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="responsive_tab_baseline nonresponsive_hidden"></div>
+	<div class="apphub_sectionTabsHR responsive_hidden"></div>
+
+
+	<!-- these elements are used to populate the local menu on responsive pages -->
+	<div style="display: none;">
+		<div class="responsive_local_menu apphub_responsive_menu">
+			<h3 class="ellipsis apphub_responsive_menu_title">Steam for Linux</h3>
+			<div class="apphub_ResponsiveMenuCtn">
+											</div>
+								</div>
+	</div>
+	<!-- end responsive menu -->
+
+	
+</div>
+
+	<div class="apphub_HeaderBottomBG_ctn">
+		<div class="apphub_HeaderBottomBG"></div>
+	</div>
+			<div style="clear: both"></div>
+		</div>
+	
+	<div id="AppHubContent" class="apphub_Content">
+		<div class="maincontent">
+				<div class="leftcol">
+					<div>
+						<div class="forum_breadcrumbs group_content_bodytext">
+							<a href="https://steamcommunity.com/app/221410">Steam for Linux</a> &gt;
+							<a href="https://steamcommunity.com/app/221410/discussions/0/">General Discussions</a> &gt;
+							<span>Topic Details</span>
+						</div>
+					</div>
+										
+		<div class="forum_op" id="forum_op_1319961618835587373">
+
+							<div class="forum_op_avatar playerAvatar offline">
+			<a href="https://steamcommunity.com/profiles/76561198138396150">
+				<img src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/fe/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb.jpg" data-miniprofile="178130422">
+			</a>
+		</div>
+		<div class="authorline"  >
+			<a class="hoverunderline forum_op_author " href="https://steamcommunity.com/profiles/76561198138396150" onclick="return Forum_AuthorMenu( this, 178130422, -1 );"  data-miniprofile="178130422">
+				azalus88<span class="forum_author_action_pulldown"></span></a>
+					<div id="author_menu_178130422_-1" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561198138396150">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561198138396150/posthistory/">View Posts</a>
+											</div>
+		</div>
+					<img src="https://steamcommunity-a.akamaihd.net/public/images/skin_1/iconGames.png" style="position: relative; top: 2px;" title="has Steam for Linux">						<span class="date" title="April 21, 2017 @ 3:29:25 pm PDT" data-timestamp="1492813765">
+				Apr 21, 2017 @ 3:29pm			</span>
+		</div>
+		<div class="topic">
+		[SOLVED] NO SOUND (Arch linux)	</div>
+	<div class="content">
+		Hi all,<br><br>Steam has always worked perfectly fine on my Arch box. However, after having not run steam for a couple months, I am suddenly getting NO SOUND at all from any Steam games. Any ideas?<br><br>Arch Linux<br>steam 1.0.0.54-1<br><br>Thanks,<br>Azalus<br><br>EDIT: Fixed it by choosing the correct sound card in Pavucontrol	</div>
+		<div class="forum_audit">
+			Last edited by <a href="https://steamcommunity.com/profiles/76561198138396150" class="hoverunderline">azalus88</a>;
+		<span  title="April 22, 2017 @ 5:10:09 pm PDT" data-timestamp="1492906209">Apr 22, 2017 @ 5:10pm</span>		</div></div>
+<script type="text/javascript">
+	$J( function() {
+		InitializeForumTopic( {"owner":"4178173","type":"General","feature":"0","gidforum":"882963954675827831","forum_display_name":"General Discussions","forum_url":"https:\/\/steamcommunity.com\/app\/221410\/discussions\/0\/","forum_search_url":"https:\/\/steamcommunity.com\/app\/221410\/discussions\/search\/","is_public":1,"permissions":{"can_view":1,"can_post":1,"can_reply":1,"is_banned":0,"can_delete":0,"can_edit":0},"appid":221410}, "https:\/\/steamcommunity.com\/forum\/4178173\/General\/",
+		"1319961618835587373", {"author":"azalus88","text":"Hi all,\n\nSteam has always worked perfectly fine on my Arch box. However, after having not run steam for a couple months, I am suddenly getting NO SOUND at all from any Steam games. Any ideas?\n\nArch Linux\nsteam 1.0.0.54-1\n\nThanks,\nAzalus\n\nEDIT: Fixed it by choosing the correct sound card in Pavucontrol"}		);
+			} );
+</script>										<script type="text/javascript">
+$J( function() { InitializeCommentThread( "ForumTopic", "ForumTopic_103582791433699581_882963954675827831_1319961618835587373", {"feature":"882963954675827831","feature2":"1319961618835587373","owner":"103582791433699581","total_count":3,"start":0,"pagesize":15,"has_upvoted":0,"upvotes":0,"votecountid":null,"voteupid":null,"commentcountid":null,"subscribed":false,"extended_data":"{\"topic_permissions\":{\"can_view\":1,\"can_post\":1,\"can_reply\":1,\"is_banned\":0,\"can_delete\":0,\"can_edit\":0},\"original_poster\":178130422,\"topic_gidanswer\":\"0\",\"forum_appid\":221410,\"forum_public\":1,\"forum_type\":\"General\",\"forum_gidfeature\":\"0\"}","oldestfirst":true,"comments_raw":{"1319961618835651866":{"text":"In manjaro you have to go to the sound manger & tell steam what audio device you want to use even if its set as default.","author":"{Arch Linux} YouKilledKenny"},"1319961618835833493":{"text":"I was about to suggest to gave a look at Pavucontrol.","author":"thetargos"},"1319961618835898710":{"text":"This is a good idea. Thanks.","author":"azalus88"}},"track_navigation":true}, 'https://steamcommunity.com/comment/ForumTopic/', 40 ); } );
+</script>
+<div class="commentthread_area forumtopic_comments" id="commentthread_ForumTopic_103582791433699581_882963954675827831_1319961618835587373_area">
+		<div id="commentthread_ForumTopic_103582791433699581_882963954675827831_1319961618835587373_pagectn" class="forum_paging" style="">
+		<div class="forum_paging_controls" id="commentthread_ForumTopic_103582791433699581_882963954675827831_1319961618835587373_pagecontrols">
+			<a href="javascript:void(0);" id="commentthread_ForumTopic_103582791433699581_882963954675827831_1319961618835587373_pagebtn_prev" class="pagebtn">&lt;</a>
+			<span id="commentthread_ForumTopic_103582791433699581_882963954675827831_1319961618835587373_pagelinks" class="commentthread_pagelinks"></span>
+			<span id="commentthread_ForumTopic_103582791433699581_882963954675827831_1319961618835587373_pagedropdown" class="commentthread_pagedropdown"></span>
+			<a href="javascript:void(0);" id="commentthread_ForumTopic_103582791433699581_882963954675827831_1319961618835587373_pagebtn_next" class="pagebtn">&gt;</a>
+		</div>
+		<div class="forum_paging_summary ellipsis">
+			Showing <span id="commentthread_ForumTopic_103582791433699581_882963954675827831_1319961618835587373_pagestart">1</span>-<span id="commentthread_ForumTopic_103582791433699581_882963954675827831_1319961618835587373_pageend">3</span> of <span id="commentthread_ForumTopic_103582791433699581_882963954675827831_1319961618835587373_pagetotal">3</span> comments		</div>
+		<div style="clear: both;"></div>
+	</div>
+			<div class="commentthread_comment_container" id="commentthread_ForumTopic_103582791433699581_882963954675827831_1319961618835587373_postcontainer">
+		<div class="commentthread_comments" id="commentthread_ForumTopic_103582791433699581_882963954675827831_1319961618835587373_posts">
+					
+	
+	<div class="commentthread_comment responsive_body_text   " id="comment_1319961618835651866" style="">
+				<div class="commentthread_comment_avatar playerAvatar offline">
+			<a href="https://steamcommunity.com/id/BigBear1998" data-miniprofile="215924335">
+				<img src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/4d/4db4f1db1afe1b08989e4820b645727e58ce62f4.jpg" srcset="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/4d/4db4f1db1afe1b08989e4820b645727e58ce62f4.jpg 1x, https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/4d/4db4f1db1afe1b08989e4820b645727e58ce62f4_medium.jpg 2x">			</a>
+		</div>
+		<div class="commentthread_comment_content">
+			<div class="commentthread_comment_author">
+				<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/id/BigBear1998" onclick="return Forum_AuthorMenu( this, 215924335, '1319961618835651866' );" data-miniprofile="215924335">
+					<bdi>{Arch Linux} YouKilledKenny<span class="forum_author_action_pulldown"></span></bdi></a>
+				
+											<div id="author_menu_215924335_1319961618835651866" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/BigBear1998">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/BigBear1998/posthistory/">View Posts</a>
+											</div>
+		</div>
+						
+				<img src="https://steamcommunity-a.akamaihd.net/public/images/skin_1/iconGames.png" style="position: relative; top: 2px;" title="has Steam for Linux">
+				
+				
+				
+				<span class="commentthread_comment_timestamp" title="April 21, 2017 @ 3:52:28 pm PDT" data-timestamp="1492815148">
+					Apr 21, 2017 @ 3:52pm&nbsp;
+				</span>
+
+				<div class="commentthread_comment_actions" >
+									</div>
+			</div>
+			<div class="commentthread_comment_text"  id="comment_content_1319961618835651866">
+				In manjaro you have to go to the sound manger &amp; tell steam what audio device you want to use even if its set as default.			</div>
+							<div class="forum_audit">
+			Last edited by <a href="https://steamcommunity.com/id/BigBear1998" class="hoverunderline">{Arch Linux} YouKilledKenny</a>;
+		<span  title="April 21, 2017 @ 3:52:39 pm PDT" data-timestamp="1492815159">Apr 21, 2017 @ 3:52pm</span>		</div>								</div>
+					<div class="forum_comment_permlink">
+								<a href="#c1319961618835651866">#1</a>
+			</div>
+			</div>
+		
+	
+	<div class="commentthread_comment responsive_body_text   " id="comment_1319961618835833493" style="">
+				<div class="commentthread_comment_avatar playerAvatar offline">
+			<a href="https://steamcommunity.com/id/thetargos" data-miniprofile="37025853">
+				<img src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/d3/d3b824121542ff97f082878cc40e11940b68c033.jpg" srcset="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/d3/d3b824121542ff97f082878cc40e11940b68c033.jpg 1x, https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/d3/d3b824121542ff97f082878cc40e11940b68c033_medium.jpg 2x">			</a>
+		</div>
+		<div class="commentthread_comment_content">
+			<div class="commentthread_comment_author">
+				<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/id/thetargos" onclick="return Forum_AuthorMenu( this, 37025853, '1319961618835833493' );" data-miniprofile="37025853">
+					<bdi>thetargos<span class="forum_author_action_pulldown"></span></bdi></a>
+				
+											<div id="author_menu_37025853_1319961618835833493" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/thetargos">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/id/thetargos/posthistory/">View Posts</a>
+											</div>
+		</div>
+						
+				<img src="https://steamcommunity-a.akamaihd.net/public/images/skin_1/iconGames.png" style="position: relative; top: 2px;" title="has Steam for Linux">
+				
+				
+				
+				<span class="commentthread_comment_timestamp" title="April 21, 2017 @ 4:58:13 pm PDT" data-timestamp="1492819093">
+					Apr 21, 2017 @ 4:58pm&nbsp;
+				</span>
+
+				<div class="commentthread_comment_actions" >
+									</div>
+			</div>
+			<div class="commentthread_comment_text"  id="comment_content_1319961618835833493">
+				I was about to suggest to gave a look at Pavucontrol.			</div>
+								</div>
+					<div class="forum_comment_permlink">
+								<a href="#c1319961618835833493">#2</a>
+			</div>
+			</div>
+		
+	
+	<div class="commentthread_comment responsive_body_text   " id="comment_1319961618835898710" style="">
+				<div class="commentthread_comment_avatar playerAvatar offline">
+			<a href="https://steamcommunity.com/profiles/76561198138396150" data-miniprofile="178130422">
+				<img src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/fe/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb.jpg" srcset="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/fe/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb.jpg 1x, https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/fe/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_medium.jpg 2x">			</a>
+		</div>
+		<div class="commentthread_comment_content">
+			<div class="commentthread_comment_author">
+				<a class="hoverunderline commentthread_author_link " href="https://steamcommunity.com/profiles/76561198138396150" onclick="return Forum_AuthorMenu( this, 178130422, '1319961618835898710' );" data-miniprofile="178130422">
+					<bdi>azalus88<span class="forum_author_action_pulldown"></span></bdi></a>
+				
+											<div id="author_menu_178130422_1319961618835898710" class="popup_block_new forum_author_menu" style="display: none;">
+			<div class="popup_body popup_menu">
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561198138396150">View Profile</a>
+				<a class="popup_menu_item tight" href="https://steamcommunity.com/profiles/76561198138396150/posthistory/">View Posts</a>
+											</div>
+		</div>
+						
+				<img src="https://steamcommunity-a.akamaihd.net/public/images/skin_1/iconGames.png" style="position: relative; top: 2px;" title="has Steam for Linux">
+				
+				
+				
+				<span class="commentthread_comment_timestamp" title="April 21, 2017 @ 5:22:00 pm PDT" data-timestamp="1492820520">
+					Apr 21, 2017 @ 5:22pm&nbsp;
+				</span>
+
+				<div class="commentthread_comment_actions" >
+									</div>
+			</div>
+			<div class="commentthread_comment_text"  id="comment_content_1319961618835898710">
+				This is a good idea. Thanks.			</div>
+								</div>
+					<div class="forum_comment_permlink">
+								<a href="#c1319961618835898710">#3</a>
+			</div>
+			</div>
+		</div>
+	</div>
+		<div id="commentthread_ForumTopic_103582791433699581_882963954675827831_1319961618835587373_fpagectn" class="forum_paging" style="">
+		<div class="forum_paging_controls" id="commentthread_ForumTopic_103582791433699581_882963954675827831_1319961618835587373_fpagecontrols">
+			<a href="javascript:void(0);" id="commentthread_ForumTopic_103582791433699581_882963954675827831_1319961618835587373_fpagebtn_prev" class="pagebtn">&lt;</a>
+			<span id="commentthread_ForumTopic_103582791433699581_882963954675827831_1319961618835587373_fpagelinks" class="commentthread_pagelinks"></span>
+			<span id="commentthread_ForumTopic_103582791433699581_882963954675827831_1319961618835587373_fpagedropdown" class="commentthread_pagedropdown"></span>
+			<a href="javascript:void(0);" id="commentthread_ForumTopic_103582791433699581_882963954675827831_1319961618835587373_fpagebtn_next" class="pagebtn">&gt;</a>
+		</div>
+		<div class="forum_paging_summary ellipsis">
+			Showing <span id="commentthread_ForumTopic_103582791433699581_882963954675827831_1319961618835587373_fpagestart">1</span>-<span id="commentthread_ForumTopic_103582791433699581_882963954675827831_1319961618835587373_fpageend">3</span> of <span id="commentthread_ForumTopic_103582791433699581_882963954675827831_1319961618835587373_fpagetotal">3</span> comments		</div>
+		<div style="clear: both;"></div>
+	</div>
+					<div style="float: right;">
+			<div class="forum_pagesize_options topic_replies">Per page: 15 <a class="whiteLink" href="javascript:Forum_SetTopicRepliesPerPage( 30 );">30</a> <a class="whiteLink" href="javascript:Forum_SetTopicRepliesPerPage( 50 );">50</a> </div>		</div>
+		<br clear="both">
+			<div style="clear: right;"></div>
+</div>					
+					<div class="bottom_breadcrumbs">
+						<div class="forum_breadcrumbs group_content_bodytext">
+							<a href="https://steamcommunity.com/app/221410">Steam for Linux</a> &gt;
+							<a href="https://steamcommunity.com/app/221410/discussions/0/">General Discussions</a> &gt;
+							<span>Topic Details</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="rightcol responsive_local_menu">
+					<div class="rightbox_header"></div>
+					<div class="rightbox">
+						<div class="content">
+							<div class="topicstats"><span class="topicstats_label">Date Posted:</span> <span class="topicstats_value">Apr 21, 2017 @ 3:29pm</span></div><div class="topicstats"><span class="topicstats_label">Posts:</span> <span class="topicstats_value">3</span></div>						</div>
+
+
+													
+													
+					</div>
+					<div class="rightbox_footer"></div>
+
+
+											<form class="" method="GET" name="DiscussionSearchForm" id="DiscussionSearchForm" action="https://steamcommunity.com/app/221410/discussions/search/" >
+							<div class="discussionSearchTextContainer">
+																<input type="hidden" name="gidtopic" value="1319961618835587373">
+								<input class="discussionSearchText searchText" type="text" name="q" value="" placeholder="Search this topic">
+								<img onclick="$('DiscussionSearchForm').submit()" class="discussionSearchTextSubmitImg" src="https://steamcommunity-a.akamaihd.net/public/images/sharedfiles/searchbox_workshop_submit.gif" width="23" height="18" border="0">
+							</div>
+						</form>
+						<br>
+
+						<div class="rightbox_header"></div>
+						<div class="rightbox rules">
+							<div class="content">
+								<div class="weblink"><a href="https://support.steampowered.com/kb_article.php?ref=4045-USHJ-3810" target="_blank" rel="noreferrer" ><img src="https://steamcommunity-a.akamaihd.net/public/images/skin_1/iconRules.png"> Discussions Rules and Guidelines</a></div>
+															</div>
+						</div>
+						<div class="rightbox_footer"></div>
+					
+
+					
+											
+						
+											
+
+				</div>
+				<div style="clear: both;"></div>
+			</div>
+	</div>
+
+	</div>
+</div>
+
+<div id="forum_modal" class="modal_frame" style="display:none;">
+	<div class="modal_top_band">
+		<div class="modal_close"><a href="javascript:hideModal( 'forum_modal' )"><img src="https://steamcommunity-a.akamaihd.net/public/images/x9x9.gif" width="9" height="9" border="0" alt="Close" /></a></div>
+	</div>
+	<div class="modal_box">
+		<div class="modal_box_ctn">
+				</div>
+	</div>
+</div>
+
+	<div id="report_modal_content" style="display: none;">
+		<h2><img src="https://steamcommunity-a.akamaihd.net/public/images/skin_1/notification_icon_flag.png"> Report this post</h2>
+		<div class="forum_newtopic_header">REASON</div>
+		<form id="forum_reportpost_form">
+			<input type="hidden" name="sessionid" value="18a611ed1912cf8edc92f02e">
+			<input type="hidden" name="author" value="">
+			<input type="hidden" name="gidcomment" value="">
+			<input type="hidden" name="gidtopic" value="">
+
+			<div class="gray_bevel">
+				<textarea rows="3" cols="40" class="forumtopic_reply_textarea" name="report_reason" id="forum_report_reason"></textarea>
+			</div>
+		</form>
+		<div class="forum_report_instructions">Note: This is ONLY to be used to report spam, advertising, and problematic (harassment, fighting, or rude) posts.</div>
+	</div>
+<div id="modalBG" style="display: none;"></div>
+
+		</div>	<!-- responsive_page_legacy_content -->
+
+				<script>
+			RecordAppImpression( 221410, '2_9_100006_100202' );
+		</script>
+			<div id="footer_spacer"></div>
+	<div id="footer_responsive_optin_spacer"></div>
+	<div id="footer">
+		<div class="footer_content">
+			<span id="footerLogo"><img src="https://steamcommunity-a.akamaihd.net/public/images/skin_1/footerLogo_valve.png?v=1" width="96" height="26" border="0" alt="Valve Logo" /></span>
+			<span id="footerText">
+				&copy; Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.<br/>Some geospatial data on this website is provided by <a href="https://steamcommunity.com/linkfilter/?url=http://www.geonames.org" target="_blank" rel="noreferrer">geonames.org</a>.				<br>
+									<span class="valve_links">
+						<a href="http://store.steampowered.com/privacy_agreement/" target="_blank">Privacy Policy</a>
+						&nbsp; | &nbsp;<a href="https://store.steampowered.com/legal/" target="_blank">Legal</a>
+						&nbsp;| &nbsp;<a href="http://store.steampowered.com/subscriber_agreement/" target="_blank">Steam Subscriber Agreement</a>
+					</span>
+							</span>
+		</div>
+					<div class="responsive_optin_link">
+				<div class="btn_medium btnv6_grey_black" onclick="Responsive_RequestMobileView()">
+					<span>View mobile website</span>
+				</div>
+			</div>
+			</div>
+	
+	</div>	<!-- responsive_page_content -->
+
+</div>	<!-- responsive_page_frame -->
+</body>
+</html>
